@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llama_mod:block/orangelargetileslab"
+    },
+    "type=top": {
+      "model": "llama_mod:block/orangelargetileslab_top"
+    },
+    "type=double": {
+      "model": "llama_mod:block/orangelargetileslab_full"
+    }
+  }
+}

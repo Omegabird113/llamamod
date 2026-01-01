@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "llama_mod:coppetrarmor_helmet",
+    "llama_mod:coppetrarmor_chestplate",
+    "llama_mod:coppetrarmor_leggings",
+    "llama_mod:coppetrarmor_boots"
+  ]
+}

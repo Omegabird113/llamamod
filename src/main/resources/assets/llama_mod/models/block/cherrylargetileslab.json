@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "llama_mod:block/cherry_large_tile",
+    "bottom": "llama_mod:block/cherry_large_tile",
+    "top": "llama_mod:block/cherry_large_tile",
+    "side": "llama_mod:block/cherry_large_tile"
+  },
+  "render_type": "solid"
+}

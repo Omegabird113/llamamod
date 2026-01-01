@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "llama_mod:redlargetilebutton",
+    "llama_mod:blacklargetilebutton",
+    "llama_mod:lightgraylargetilebutton",
+    "llama_mod:graylargetilebutton",
+    "llama_mod:whitelargetilebutton",
+    "llama_mod:orangelargetilebutton",
+    "llama_mod:industriallargetilebutton",
+    "llama_mod:magentalargetilebutton",
+    "llama_mod:limelargetilebutton",
+    "llama_mod:pinklargetilebutton",
+    "llama_mod:bluelargetilebutton",
+    "llama_mod:yellowlargetilebutton",
+    "llama_mod:brownlargetilebutton",
+    "llama_mod:cyanlargetilebutton",
+    "llama_mod:lightbluelargetilebutton",
+    "llama_mod:purplelargetilebutton",
+    "llama_mod:greenlargetilebutton",
+    "llama_mod:cherrylargetilebutton"
+  ]
+}

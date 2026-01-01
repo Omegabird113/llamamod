@@ -1,0 +1,10 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "llama_mod:block/new_light_blue_bricks",
+    "bottom": "llama_mod:block/new_light_blue_bricks",
+    "top": "llama_mod:block/new_light_blue_bricks",
+    "side": "llama_mod:block/new_light_blue_bricks"
+  },
+  "render_type": "solid"
+}

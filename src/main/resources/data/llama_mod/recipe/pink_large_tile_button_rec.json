@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llama_mod:pinklargetile"
+  ],
+  "result": {
+    "id": "llama_mod:pinklargetilebutton",
+    "count": 10
+  }
+}

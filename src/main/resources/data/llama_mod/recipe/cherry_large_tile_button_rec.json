@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llama_mod:cherrylargetile"
+  ],
+  "result": {
+    "id": "llama_mod:cherrylargetilebutton",
+    "count": 10
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llama_mod:pinklargetile"
+  },
+  "result": {
+    "id": "llama_mod:pinklargetileslab",
+    "count": 6
+  }
+}

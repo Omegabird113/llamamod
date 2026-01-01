@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llama_mod:block/ceilingtileslab"
+    },
+    "type=top": {
+      "model": "llama_mod:block/ceilingtileslab_top"
+    },
+    "type=double": {
+      "model": "llama_mod:block/ceilingtileslab_full"
+    }
+  }
+}

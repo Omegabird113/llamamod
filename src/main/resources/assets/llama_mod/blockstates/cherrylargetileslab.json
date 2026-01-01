@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llama_mod:block/cherrylargetileslab"
+    },
+    "type=top": {
+      "model": "llama_mod:block/cherrylargetileslab_top"
+    },
+    "type=double": {
+      "model": "llama_mod:block/cherrylargetileslab_full"
+    }
+  }
+}

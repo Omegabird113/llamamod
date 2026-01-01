@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llama_mod:large_tile_slabs",
+    "minecraft:brown_dye"
+  ],
+  "result": {
+    "id": "llama_mod:brownlargetileslab",
+    "count": 1
+  }
+}

@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="Not specified"
+
+[[mods]]
+modId="llama_mod"
+version="0.44.71"
+displayName="LlamaMod"
+displayURL="https://mcreator.net"
+logoFile="logo.png"
+credits="Made with Mcreator 2025.3 with the Blockstates plugin"
+authors="Omegabird113"
+description="A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+
+# Start of user code block custom mixins
+# End of user code block custom mixins
+
+[[dependencies.llama_mod]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.8.31,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.llama_mod]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.8]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": "minecraft:amethyst_block"
+  },
+  "result": {
+    "id": "minecraft:amethyst_shard",
+    "count": 4
+  }
+}

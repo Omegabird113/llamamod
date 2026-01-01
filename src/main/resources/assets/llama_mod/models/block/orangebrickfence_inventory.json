@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "llama_mod:block/new_orange_bricks",
+    "particle": "llama_mod:block/new_orange_bricks"
+  },
+  "render_type": "solid"
+}

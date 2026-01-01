@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llama_mod:block/industrialbrickpressureplate"
+    },
+    "powered=true": {
+      "model": "llama_mod:block/industrialbrickpressureplate_down"
+    }
+  }
+}

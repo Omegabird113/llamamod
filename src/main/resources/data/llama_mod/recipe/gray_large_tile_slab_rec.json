@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llama_mod:graylargetile"
+  },
+  "result": {
+    "id": "llama_mod:graylargetileslab",
+    "count": 6
+  }
+}

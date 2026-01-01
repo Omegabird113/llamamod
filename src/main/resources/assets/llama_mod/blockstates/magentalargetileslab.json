@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llama_mod:block/magentalargetileslab"
+    },
+    "type=top": {
+      "model": "llama_mod:block/magentalargetileslab_top"
+    },
+    "type=double": {
+      "model": "llama_mod:block/magentalargetileslab_full"
+    }
+  }
+}

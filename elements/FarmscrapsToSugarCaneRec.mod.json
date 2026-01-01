@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "Blocks.REEDS"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Blocks.REEDS"
+    },
+    "name": "farmscraps_to_sugar_cane_rec",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 12,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:LightGrayLargeTile"
+      },
+      {
+        "value": "CUSTOM:LightGrayLargeTile"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:LightGrayLargeTile"
+      },
+      {
+        "value": "CUSTOM:LightGrayLargeTile"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Lightgraylargetiletrapdoor"
+    },
+    "name": "light_gray_large_tile_trapdoor_rec",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "_fv": 79,
+  "_type": "itemextension",
+  "definition": {
+    "item": {
+      "value": "CUSTOM:Bannanaplant"
+    },
+    "enableFuel": true,
+    "fuelPower": {
+      "fixedValue": 125.0
+    },
+    "hasDispenseBehavior": false,
+    "compostLayerChance": 0.5
+  }
+}

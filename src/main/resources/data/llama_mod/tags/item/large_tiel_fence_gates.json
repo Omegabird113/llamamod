@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "llama_mod:lightgraylargetilefencegate",
+    "llama_mod:yellowlargetilefencegate",
+    "llama_mod:redlargetilefencegate",
+    "llama_mod:industriallargetilefencegate",
+    "llama_mod:cyanlargetilefencegate",
+    "llama_mod:lightbluelargetilefencegate",
+    "llama_mod:pinklargetilefencegate",
+    "llama_mod:magentalargetilefencegate",
+    "llama_mod:largetilefencegate",
+    "llama_mod:brownlargetilefencegate",
+    "llama_mod:graylargetilefencegate",
+    "llama_mod:orangelargetilefencegate",
+    "llama_mod:greenlargetilefencegate",
+    "llama_mod:blacklargetilefencegate",
+    "llama_mod:limelargetilefencegate",
+    "llama_mod:bluelargetilefencegate",
+    "llama_mod:cherrylargetilefencegate",
+    "llama_mod:purplelargetilefencegate"
+  ]
+}

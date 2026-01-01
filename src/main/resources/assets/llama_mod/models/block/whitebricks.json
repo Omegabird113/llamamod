@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "llama_mod:block/new_white_bricks",
+    "up": "llama_mod:block/new_white_bricks",
+    "north": "llama_mod:block/new_white_bricks",
+    "east": "llama_mod:block/new_white_bricks",
+    "south": "llama_mod:block/new_white_bricks",
+    "west": "llama_mod:block/new_white_bricks",
+    "particle": "llama_mod:block/new_white_bricks"
+  },
+  "render_type": "solid"
+}

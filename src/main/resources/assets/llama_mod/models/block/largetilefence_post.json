@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "llama_mod:block/large_tile",
+    "particle": "llama_mod:block/large_tile"
+  },
+  "render_type": "solid"
+}

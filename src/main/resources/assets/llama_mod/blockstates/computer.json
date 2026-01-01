@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "llama_mod:block/computer"
+    },
+    "facing=east": {
+      "model": "llama_mod:block/computer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "llama_mod:block/computer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "llama_mod:block/computer",
+      "y": 270
+    }
+  }
+}

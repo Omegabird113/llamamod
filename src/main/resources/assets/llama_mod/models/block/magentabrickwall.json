@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "llama_mod:block/new_magenta_bricks",
+    "particle": "llama_mod:block/new_magenta_bricks"
+  },
+  "render_type": "solid"
+}

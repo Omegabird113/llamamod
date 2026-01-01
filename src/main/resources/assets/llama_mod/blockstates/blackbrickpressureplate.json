@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llama_mod:block/blackbrickpressureplate"
+    },
+    "powered=true": {
+      "model": "llama_mod:block/blackbrickpressureplate_down"
+    }
+  }
+}

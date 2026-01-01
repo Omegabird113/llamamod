@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llama_mod:whitebricks"
+  },
+  "result": {
+    "id": "llama_mod:whitebrickpressureplate",
+    "count": 8
+  }
+}

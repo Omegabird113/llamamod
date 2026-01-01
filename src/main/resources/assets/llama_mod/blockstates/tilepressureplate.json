@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llama_mod:block/tilepressureplate"
+    },
+    "powered=true": {
+      "model": "llama_mod:block/tilepressureplate_down"
+    }
+  }
+}

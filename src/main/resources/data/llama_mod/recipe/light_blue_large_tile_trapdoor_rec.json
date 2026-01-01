@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "llama_mod:lightbluelargetile"
+  },
+  "result": {
+    "id": "llama_mod:lightbluelargetiletrapdoor",
+    "count": 12
+  }
+}

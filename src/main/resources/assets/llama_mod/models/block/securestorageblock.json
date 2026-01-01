@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "llama_mod:block/secure_stoorage_block_sides",
+    "up": "llama_mod:block/secure_stoorage_block_sides",
+    "north": "llama_mod:block/secure_stoorage_block_front",
+    "east": "llama_mod:block/secure_stoorage_block_sides",
+    "south": "llama_mod:block/secure_stoorage_block_back",
+    "west": "llama_mod:block/secure_stoorage_block_sides",
+    "particle": "llama_mod:block/secure_stoorage_block_sides"
+  },
+  "render_type": "solid"
+}

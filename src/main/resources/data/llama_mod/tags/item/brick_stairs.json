@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llama_mod:lightbluelargetilestair",
+    "llama_mod:limebrickstair",
+    "llama_mod:redbrickstair",
+    "minecraft:brick_stairs",
+    "llama_mod:purplebrickstair",
+    "llama_mod:pinkbrickstair",
+    "llama_mod:yellowbrickstair",
+    "llama_mod:cherrybrickstair",
+    "llama_mod:lightgraybrickstair",
+    "llama_mod:graybrickstair",
+    "llama_mod:bluebrickstair",
+    "llama_mod:magentabrickstair",
+    "llama_mod:cyanbrickstair",
+    "llama_mod:brownbrickstair",
+    "llama_mod:whitebrickstair",
+    "llama_mod:orangebrickstair",
+    "llama_mod:industrialbrickstair",
+    "llama_mod:greenbricksstair",
+    "llama_mod:blackbrickstair"
+  ]
+}

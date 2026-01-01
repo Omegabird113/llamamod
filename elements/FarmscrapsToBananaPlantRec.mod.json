@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Bannanaplant"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Bannanaplant"
+    },
+    "name": "farmscraps_to_banana_plant_rec",
+    "namespace": "mod"
+  }
+}

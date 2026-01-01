@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llama_mod:block/lightgraybrickpressureplate"
+    },
+    "powered=true": {
+      "model": "llama_mod:block/lightgraybrickpressureplate_down"
+    }
+  }
+}

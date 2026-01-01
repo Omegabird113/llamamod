@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llama_mod:block/magentabrickpressureplate"
+    },
+    "powered=true": {
+      "model": "llama_mod:block/magentabrickpressureplate_down"
+    }
+  }
+}

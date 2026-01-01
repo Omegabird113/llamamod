@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llama_mod:block/industrialbrickslab"
+    },
+    "type=top": {
+      "model": "llama_mod:block/industrialbrickslab_top"
+    },
+    "type=double": {
+      "model": "llama_mod:block/industrialbrickslab_full"
+    }
+  }
+}

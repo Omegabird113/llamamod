@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "llama_mod:block/special_cherry_brick",
+    "particle": "llama_mod:block/special_cherry_brick"
+  },
+  "render_type": "solid"
+}

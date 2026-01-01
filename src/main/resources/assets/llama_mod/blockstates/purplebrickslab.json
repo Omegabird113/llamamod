@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llama_mod:block/purplebrickslab"
+    },
+    "type=top": {
+      "model": "llama_mod:block/purplebrickslab_top"
+    },
+    "type=double": {
+      "model": "llama_mod:block/purplebrickslab_full"
+    }
+  }
+}

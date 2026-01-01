@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "llama_mod:block/new_yellow_brick",
+    "bottom": "llama_mod:block/new_yellow_brick",
+    "top": "llama_mod:block/new_yellow_brick",
+    "side": "llama_mod:block/new_yellow_brick"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "llama_mod:block/orange_large_tile",
+    "particle": "llama_mod:block/orange_large_tile"
+  },
+  "render_type": "solid"
+}

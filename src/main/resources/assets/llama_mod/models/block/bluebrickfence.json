@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "llama_mod:block/new_blue_bricks",
+    "particle": "llama_mod:block/new_blue_bricks"
+  },
+  "render_type": "solid"
+}

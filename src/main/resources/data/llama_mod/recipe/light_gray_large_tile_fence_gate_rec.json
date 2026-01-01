@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llama_mod:lightgraylargetile"
+  },
+  "result": {
+    "id": "llama_mod:lightgraylargetilefencegate",
+    "count": 4
+  }
+}

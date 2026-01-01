@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "llama_mod:magentabricks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "llama_mod:magentabrickfence",
+    "count": 8
+  }
+}

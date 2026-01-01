@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llama_mod:brick_fence_gates",
+    "minecraft:purple_dye"
+  ],
+  "result": {
+    "id": "llama_mod:purplebrickfencegate",
+    "count": 1
+  }
+}

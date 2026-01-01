@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llama_mod:large_tile_trapdoors",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "llama_mod:limelargetiletrapdoor",
+    "count": 12
+  }
+}

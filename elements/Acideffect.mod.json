@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Acid Disolving",
+    "icon": "acideffect",
+    "color": {
+      "value": -8932233,
+      "falpha": 0.0
+    },
+    "onAddedSound": {
+      "value": ""
+    },
+    "isInstant": false,
+    "mobEffectCategory": "HARMFUL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [],
+    "onStarted": {
+      "name": "AcideffectEffectStartedapplied"
+    },
+    "onActiveTick": {
+      "name": "AcideffectOnEffectActiveTick"
+    }
+  }
+}

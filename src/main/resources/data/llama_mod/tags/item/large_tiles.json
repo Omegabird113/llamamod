@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "llama_mod:lightgraylargetile",
+    "llama_mod:lightbluelargetile",
+    "llama_mod:redlargetile",
+    "llama_mod:yellowlargetile",
+    "llama_mod:pinklargetile",
+    "llama_mod:cyanlargetile",
+    "llama_mod:magentalargetile",
+    "llama_mod:brownlargetile",
+    "llama_mod:purplelargetile",
+    "llama_mod:greenlargetile",
+    "llama_mod:graylargetile",
+    "llama_mod:bluelargetile",
+    "llama_mod:limelargetile",
+    "llama_mod:cherrylargetile",
+    "llama_mod:orangelargetile",
+    "llama_mod:industriallargetile",
+    "llama_mod:whitelargetile",
+    "llama_mod:blacklargetile"
+  ]
+}

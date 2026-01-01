@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.65,
+    "scaling": "always",
+    "effects": "burning",
+    "normalDeathMessage": "%1$s disolved from Acid.",
+    "itemDeathMessage": "%1$s was disolved from Acid by %2$s using %3$s",
+    "playerDeathMessage": "%1$s disolved from Acid whilst trying to escape %2$s"
+  }
+}

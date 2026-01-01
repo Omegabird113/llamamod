@@ -1,0 +1,8 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "llama_mod:block/banana_plant_tintable",
+    "particle": "llama_mod:block/banana_plant_tintable"
+  },
+  "render_type": "cutout"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aab",
+    "aac"
+  ],
+  "key": {
+    "a": "llama_mod:tiles",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:quartz"
+  },
+  "result": {
+    "id": "llama_mod:whitelargetile",
+    "count": 4
+  }
+}

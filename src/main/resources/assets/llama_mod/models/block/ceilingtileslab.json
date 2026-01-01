@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "llama_mod:block/new_ceiling_tiles_rotated_top",
+    "bottom": "llama_mod:block/new_ceiling_tiles_rotated_top",
+    "top": "llama_mod:block/new_ceiling_tiles_rotated_top",
+    "side": "llama_mod:block/new_ceiling_tile"
+  },
+  "render_type": "solid"
+}

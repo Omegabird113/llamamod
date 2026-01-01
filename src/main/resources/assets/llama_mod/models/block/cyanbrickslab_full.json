@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "llama_mod:block/new_cyan_bricks",
+    "bottom": "llama_mod:block/new_cyan_bricks",
+    "top": "llama_mod:block/new_cyan_bricks",
+    "side": "llama_mod:block/new_cyan_bricks"
+  },
+  "render_type": "solid"
+}

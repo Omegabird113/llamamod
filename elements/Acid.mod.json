@@ -1,0 +1,63 @@
+{
+  "_fv": 79,
+  "_type": "fluid",
+  "definition": {
+    "name": "Acid",
+    "bucketName": "Acid Bucket",
+    "textureStill": "acid",
+    "textureFlowing": "acid_flowing",
+    "textureRenderOverlay": "acid_fog",
+    "hasFog": true,
+    "fogColor": {
+      "value": -10508961,
+      "falpha": 0.0
+    },
+    "fogStartDistance": {
+      "fixedValue": 0.38
+    },
+    "fogEndDistance": {
+      "fixedValue": 16.04
+    },
+    "tintType": "No tint",
+    "canMultiply": true,
+    "flowRate": 7,
+    "levelDecrease": 1,
+    "slopeFindDistance": 5,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "CUSTOM:Acidparticle"
+    },
+    "flowStrength": -0.13,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 906,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "acid_bucket",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:LlamaMod"
+      }
+    ],
+    "emptySound": {
+      "value": "item.bucket.empty"
+    },
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 13.0,
+    "luminance": 5,
+    "lightOpacity": 2,
+    "emissiveRendering": false,
+    "tickRate": 5,
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 400,
+    "colorOnMap": "WARPED_WART",
+    "onEntityCollides": {
+      "name": "AcidMobplayerCollidesBlock"
+    }
+  }
+}

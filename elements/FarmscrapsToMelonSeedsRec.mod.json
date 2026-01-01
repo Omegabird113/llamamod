@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "Items.MELON_SEEDS"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.MELON_SEEDS"
+    },
+    "name": "farmscraps_to_melon_seeds_rec",
+    "namespace": "mod"
+  }
+}

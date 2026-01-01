@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llama_mod:yellowbricks"
+  ],
+  "result": {
+    "id": "llama_mod:yellowbrickbutton",
+    "count": 9
+  }
+}

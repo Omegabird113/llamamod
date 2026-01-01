@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "llama_mod:block/new_tile",
+    "particle": "llama_mod:block/new_tile"
+  },
+  "render_type": "solid"
+}

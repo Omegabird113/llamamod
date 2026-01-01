@@ -1,0 +1,13 @@
+{
+  "values": {
+    "llama_mod:farmscraps": {
+      "chance": 0.175
+    },
+    "llama_mod:banana_plant": {
+      "chance": 0.5
+    },
+    "llama_mod:banana": {
+      "chance": 0.325
+    }
+  }
+}

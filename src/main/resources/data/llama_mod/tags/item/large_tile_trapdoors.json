@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "llama_mod:lightbluelargetiletrapdoor",
+    "llama_mod:whitelargetiletrapdoor",
+    "llama_mod:pinklargetiletrapdoor",
+    "llama_mod:brownlargetiletrapdoor",
+    "llama_mod:yellowlargetiletrapdoor",
+    "llama_mod:limelargetiletrapdoor",
+    "llama_mod:bluelargetiletrapdoor",
+    "llama_mod:orangelargetiletrapdoor",
+    "llama_mod:greenlargetiletrapdoor",
+    "llama_mod:magentalargetiletrapdoor",
+    "llama_mod:lightgraylargetiletrapdoor",
+    "llama_mod:graylargetiletrapdoor",
+    "llama_mod:redlargetiletrapdoor",
+    "llama_mod:blacklargetiletrapdoor",
+    "llama_mod:cyanlargetiletrapdoor",
+    "llama_mod:purplelargetiletrapdoor",
+    "llama_mod:industriallargetiletrapdoor",
+    "llama_mod:cherrylargetiletrapdoor"
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "_fv": 79,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 256,
+    "height": 200,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Enter first number",
+          "name": "number1",
+          "width": 120,
+          "height": 20,
+          "x": 91,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Enter Second Number",
+          "name": "number2",
+          "width": 120,
+          "height": 20,
+          "x": 91,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Enter the operation",
+          "name": "operation",
+          "width": 120,
+          "height": 20,
+          "x": 212,
+          "y": 33,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_calculator",
+          "text": {
+            "fixedValue": "Calculator:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 92,
+          "y": 25,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_x",
+          "text": "X",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Xbuttonprocidure"
+          },
+          "width": 30,
+          "height": 20,
+          "x": 312,
+          "y": 0,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_gettimeasstring",
+          "text": {
+            "fixedValue": "",
+            "name": "Gettimeasstring"
+          },
+          "color": {
+            "value": -16711936,
+            "falpha": 0.0
+          },
+          "x": 117,
+          "y": 9,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_player_controll",
+          "text": {
+            "fixedValue": "Player Control:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 92,
+          "y": 77,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Enter username",
+          "name": "player_name",
+          "width": 120,
+          "height": 20,
+          "x": 91,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_clear_inventory",
+          "text": "Clear Inventory",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CompClearInventoryOfPlayerXProcedure"
+          },
+          "displayCondition": {
+            "name": "Ifplayerhaspermission2"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 213,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_kill",
+          "text": "Kill",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CompkillplayerXprocedure"
+          },
+          "displayCondition": {
+            "name": "Ifplayerhaspermission2"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 281,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_result",
+          "text": {
+            "fixedValue": "Result:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 214,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_computercalculateprocidure",
+          "text": {
+            "fixedValue": "",
+            "name": "Computercalculateprocidure"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "x": 214,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_meassage",
+          "text": {
+            "fixedValue": "Stoored Meassage:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 92,
+          "y": 130,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Enter Text Here",
+          "name": "msgbox",
+          "width": 120,
+          "height": 20,
+          "x": 91,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_load",
+          "text": "Load",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Loadmeassage"
+          },
+          "displayCondition": {
+            "name": "Compmsgnotblank"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 260,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_save",
+          "text": "Save",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Savemeassage"
+          },
+          "width": 46,
+          "height": 20,
+          "x": 213,
+          "y": 139,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_meassage",
+          "text": "Meassage",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Compsendmsgprocidure"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 213,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Enter Meassage",
+          "name": "msg",
+          "width": 120,
+          "height": 20,
+          "x": 91,
+          "y": 107,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_random_number",
+          "text": {
+            "fixedValue": "Random Number:"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 92,
+          "y": 161,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_generate",
+          "text": "Generate",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GenRandomNumberProcedure"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 91,
+          "y": 192,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_time",
+          "text": {
+            "fixedValue": "Time:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 90,
+          "y": 9,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Result",
+          "name": "result",
+          "width": 120,
+          "height": 20,
+          "x": 160,
+          "y": 192,
+          "locked": false
+        }
+      },
+      {
+        "type": "slider",
+        "data": {
+          "name": "minimumRand",
+          "min": -1000.0,
+          "max": 1000.0,
+          "value": 0.0,
+          "step": 1.0,
+          "prefix": "",
+          "suffix": "",
+          "whenSliderMoves": {
+            "name": "GenRandomNumberProcedure"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 91,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "slider",
+        "data": {
+          "name": "maximumRand",
+          "min": -1000.0,
+          "max": 1000.0,
+          "value": 1000.0,
+          "step": 1.0,
+          "prefix": "",
+          "suffix": "",
+          "whenSliderMoves": {
+            "name": "GenRandomNumberProcedure"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 160,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "includedRand",
+          "text": "Included",
+          "isCheckedProcedure": {
+            "name": "ReturnTrue"
+          },
+          "x": 230,
+          "y": 171,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_redstone_output",
+          "text": {
+            "fixedValue": "Redstone Output:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 91,
+          "y": 221,
+          "locked": false
+        }
+      },
+      {
+        "type": "slider",
+        "data": {
+          "name": "power_output",
+          "min": 0.0,
+          "max": 15.0,
+          "value": 0.0,
+          "step": 1.0,
+          "prefix": "",
+          "suffix": "",
+          "width": 46,
+          "height": 20,
+          "x": 178,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_set",
+          "text": "Set",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SetComputerRedstoneOutputPowerLevelProcedure"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 227,
+          "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_random",
+          "text": "Random",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SetRANDOMComputerRedstoneOutputPowerLevelProcedure"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 270,
+          "y": 219,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

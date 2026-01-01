@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "llama_mod:blocks/cherrylargetile",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "llama_mod:cherrylargetile"
+        }
+      ]
+    }
+  ]
+}
