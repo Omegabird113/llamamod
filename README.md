@@ -68,15 +68,36 @@ Acid is a fluid which currently does not generate natrually and is not accessabl
 Coming in contact with acid gives level 1 of this effect to the entity for 8.25 seconds *(165 ticks)*.
 
 The the player gets the effect:
-- If the level is below 5, `1.5` damage of type `aciddamage` is dealt
-- If the level is at or above 5, damage of type `aciddamage` is dealth acording to the formula `(a - 2) * 3.05 + 1.5` where `a` is the amplifier
+- If the level is below 5, `1.5` damage of type `acid_damage` is dealt
+- If the level is at or above 5, damage of type `acid_damage` is dealth acording to the formula `(a - 2) * 3.05 + 1.5` where `a` is the amplifier
 
 On each tick the effect is active:
-- Damage of type `aciddamage` is dealt acording to rounding up the result of the formula, `(a + 0.87) * 1.15` where `a` is the amplifier
+- Damage of type `acid_damage` is dealt acording to rounding up the result of the formula, `(a + 0.87) * 1.15` where `a` is the amplifier
 
 The Acid Damage type:
 - Scales with difficulty
 - Has an exhaustion value of `0.65`
+
+### The Passowrd System
+
+The Secure Stoorage Block, Computer, and Authenticator all support passwords. By defualt, the password is blank. When there is no password yet, the Computer and Secure Stoorage Block skip the passowrd screen, but the Authenticator instead requires the user to leave the password feild blank. The user can change passwords using the Password Changer, though they need to enter the existing password. Though, those with operator permissions see what the previous password is.
+
+#### <ins>**Important Security Concerns**</ins>
+1. **Operators can see any password**, meaning that all passwords aren't actually private.
+2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamamMod.
+> More specifically, passwords are stored in a text NBT tag named `access_password`, which can be easily veiwed using the vinilla `/data` command.
+
+### The Computer
+
+The complex offers a variety or features for information, math, player management, and more. Here's a list of it's features:
+- It supports having passwords with the Password System, only people with access can use the other features
+- Players can make calculations between 2 numebrs using the operations: `+`, `-`, `*`, `/`, and `^`
+- Players can send messages to other players
+- Operators can clear the inventory of and kill players
+- Players can store and retreve a message within the computer block itself
+- Players can generate a random number with a minimum and maximum values as low as `-1,000` and as high as `1,000`, including or exclusive. (exclusive includes decimal values)
+- Players can access a formatted string of the 24-hour time (Ex. `7 o'clock (10% through the day)`)
+- Players can set a redstone output between 0 and 15, and they can chose to have the computer pick a random power output between 0 and 15.
 
 ## Development
 
