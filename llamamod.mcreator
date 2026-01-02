@@ -251,7 +251,7 @@
       "type": "potioneffect",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "acid_disolving",
+      "registry_name": "acid_dissolving",
       "metadata": {
         "files": [
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/potion/AcideffectMobEffect.java"
@@ -20205,10 +20205,10 @@
       "item.llamamod.white_large_tile_pressure_plate": "White Large Tile Pressure Plate",
       "item.llamamod.ceiling_tile_stairs": "Ceiling Tile Stairs",
       "item.llamamod.tile_stairs": "Tile Stairs",
-      "effect.llamamod.acid_disolving": "Acid Disolving",
       "death.attack.acid_damage": "%1$s disolved from Acid.",
       "death.attack.acid_damage.player": "%1$s disolved from Acid whilst trying to escape %2$s",
-      "death.attack.acid_damage.item": "%1$s was disolved from Acid by %2$s using %3$s"
+      "death.attack.acid_damage.item": "%1$s was disolved from Acid by %2$s using %3$s",
+      "effect.llamamod.acid_dissolving": "Acid Dissolving"
     }
   },
   "metadata": {
@@ -20388,7 +20388,7 @@
   "workspaceSettings": {
     "modid": "llamamod",
     "modName": "LlamaMod",
-    "version": "1.0.0.beta2",
+    "version": "1.0.0.beta3",
     "description": "A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code.",
     "author": "Omegabird113",
     "websiteURL": "https://github.com/Omegabird113/llamamod",

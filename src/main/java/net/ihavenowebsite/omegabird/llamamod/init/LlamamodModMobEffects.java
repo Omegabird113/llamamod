@@ -14,5 +14,5 @@ import net.ihavenowebsite.omegabird.llamamod.LlamamodMod;
 
 public class LlamamodModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, LlamamodMod.MODID);
-	public static final DeferredHolder<MobEffect, MobEffect> ACID_DISOLVING = REGISTRY.register("acid_disolving", () -> new AcideffectMobEffect());
+	public static final DeferredHolder<MobEffect, MobEffect> ACID_DISSOLVING = REGISTRY.register("acid_dissolving", () -> new AcideffectMobEffect());
 }

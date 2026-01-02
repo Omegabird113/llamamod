@@ -445,8 +445,8 @@
   "item.llamamod.white_large_tile_pressure_plate": "White Large Tile Pressure Plate",
   "item.llamamod.ceiling_tile_stairs": "Ceiling Tile Stairs",
   "item.llamamod.tile_stairs": "Tile Stairs",
-  "effect.llamamod.acid_disolving": "Acid Disolving",
   "death.attack.acid_damage": "%1$s disolved from Acid.",
   "death.attack.acid_damage.player": "%1$s disolved from Acid whilst trying to escape %2$s",
-  "death.attack.acid_damage.item": "%1$s was disolved from Acid by %2$s using %3$s"
+  "death.attack.acid_damage.item": "%1$s was disolved from Acid by %2$s using %3$s",
+  "effect.llamamod.acid_dissolving": "Acid Dissolving"
 }
