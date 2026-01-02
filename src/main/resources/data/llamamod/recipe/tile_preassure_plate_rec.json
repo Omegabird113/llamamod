@@ -8,7 +8,7 @@
     "a": "llamamod:tiles"
   },
   "result": {
-    "id": "llamamod:tilepressureplate",
+    "id": "llamamod:tile_pressure_plate",
     "count": 8
   }
 }

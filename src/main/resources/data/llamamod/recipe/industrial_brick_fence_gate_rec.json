@@ -7,7 +7,7 @@
   ],
   "key": {
     "a": "minecraft:stick",
-    "b": "llamamod:industrialbricks"
+    "b": "llamamod:industrial_bricks"
   },
   "result": {
     "id": "llamamod:industrialbrickfencegate",

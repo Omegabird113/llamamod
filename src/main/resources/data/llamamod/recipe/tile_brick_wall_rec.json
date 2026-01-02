@@ -9,7 +9,7 @@
     "a": "llamamod:tiles"
   },
   "result": {
-    "id": "llamamod:tilewall",
+    "id": "llamamod:tile_wall",
     "count": 12
   }
 }

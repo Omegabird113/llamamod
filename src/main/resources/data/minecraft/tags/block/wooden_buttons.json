@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "llamamod:industrialbrickbutton",
-    "llamamod:tilebutton",
+    "llamamod:tile_button",
     "llamamod:cherrybrickbutton"
   ]
 }

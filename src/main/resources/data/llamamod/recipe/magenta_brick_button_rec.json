@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:magentabricks"
+    "llamamod:magenta_bricks"
   ],
   "result": {
     "id": "llamamod:magentabrickbutton",

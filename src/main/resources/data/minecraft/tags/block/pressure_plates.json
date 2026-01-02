@@ -8,7 +8,7 @@
     "llamamod:blacklargetilepressureplate",
     "llamamod:blackbrickpressureplate",
     "llamamod:orangebrickpressureplate",
-    "llamamod:tilepressureplate",
+    "llamamod:tile_pressure_plate",
     "llamamod:brownbrickpressureplate",
     "llamamod:redbrickpressureplate",
     "llamamod:lightbluelargetilepressureplate",
@@ -35,7 +35,7 @@
     "llamamod:pinkbrickpressureplate",
     "llamamod:tealbrickpressureplate",
     "llamamod:orangelargetilepressureplate",
-    "llamamod:ceilingtilepressureplate",
+    "llamamod:ceiling_tile_pressure_plate",
     "llamamod:bluebrickpressureplate",
     "llamamod:whitelargetilepressureplate",
     "llamamod:magentalargetilepressureplate"

@@ -32,7 +32,7 @@ public class SecurestorageblockBlockEntity extends RandomizableContainerBlockEnt
 	private NonNullList<ItemStack> stacks = NonNullList.withSize(63, ItemStack.EMPTY);
 
 	public SecurestorageblockBlockEntity(BlockPos position, BlockState state) {
-		super(LlamamodModBlockEntities.SECURESTORAGEBLOCK.get(), position, state);
+		super(LlamamodModBlockEntities.SECURE_STORAGE_BLOCK.get(), position, state);
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class SecurestorageblockBlockEntity extends RandomizableContainerBlockEnt
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("securestorageblock");
+		return Component.literal("secure_storage_block");
 	}
 
 	@Override

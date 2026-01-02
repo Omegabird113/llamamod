@@ -14,7 +14,7 @@
     "e": "minecraft:iron_ingot"
   },
   "result": {
-    "id": "llamamod:authenticatorblock",
+    "id": "llamamod:authenticator",
     "count": 1
   }
 }

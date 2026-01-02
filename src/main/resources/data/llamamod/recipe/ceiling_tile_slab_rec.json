@@ -5,10 +5,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:ceilingtiles"
+    "a": "llamamod:ceiling_tiles"
   },
   "result": {
-    "id": "llamamod:ceilingtileslab",
+    "id": "llamamod:ceiling_tile_slab",
     "count": 6
   }
 }

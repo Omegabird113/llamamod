@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "llamamod:block/secure_storage_block"
+    },
+    "facing=east": {
+      "model": "llamamod:block/secure_storage_block",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "llamamod:block/secure_storage_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "llamamod:block/secure_storage_block",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "llamamod:block/secure_storage_block",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "llamamod:block/secure_storage_block",
+      "x": 90
+    }
+  }
+}

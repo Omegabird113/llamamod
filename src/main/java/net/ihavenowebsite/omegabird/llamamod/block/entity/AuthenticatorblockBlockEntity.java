@@ -28,7 +28,7 @@ public class AuthenticatorblockBlockEntity extends RandomizableContainerBlockEnt
 	private NonNullList<ItemStack> stacks = NonNullList.withSize(0, ItemStack.EMPTY);
 
 	public AuthenticatorblockBlockEntity(BlockPos position, BlockState state) {
-		super(LlamamodModBlockEntities.AUTHENTICATORBLOCK.get(), position, state);
+		super(LlamamodModBlockEntities.AUTHENTICATOR.get(), position, state);
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class AuthenticatorblockBlockEntity extends RandomizableContainerBlockEnt
 
 	@Override
 	public Component getDefaultName() {
-		return Component.literal("authenticatorblock");
+		return Component.literal("authenticator");
 	}
 
 	@Override

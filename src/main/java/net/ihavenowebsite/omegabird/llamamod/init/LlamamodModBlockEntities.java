@@ -25,8 +25,8 @@ import net.ihavenowebsite.omegabird.llamamod.LlamamodMod;
 public class LlamamodModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(BuiltInRegistries.BLOCK_ENTITY_TYPE, LlamamodMod.MODID);
 	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<ComputerBlockEntity>> COMPUTER = register("computer", LlamamodModBlocks.COMPUTER, ComputerBlockEntity::new);
-	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AuthenticatorblockBlockEntity>> AUTHENTICATORBLOCK = register("authenticatorblock", LlamamodModBlocks.AUTHENTICATORBLOCK, AuthenticatorblockBlockEntity::new);
-	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SecurestorageblockBlockEntity>> SECURESTORAGEBLOCK = register("securestorageblock", LlamamodModBlocks.SECURESTORAGEBLOCK, SecurestorageblockBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<AuthenticatorblockBlockEntity>> AUTHENTICATOR = register("authenticator", LlamamodModBlocks.AUTHENTICATOR, AuthenticatorblockBlockEntity::new);
+	public static final DeferredHolder<BlockEntityType<?>, BlockEntityType<SecurestorageblockBlockEntity>> SECURE_STORAGE_BLOCK = register("secure_storage_block", LlamamodModBlocks.SECURE_STORAGE_BLOCK, SecurestorageblockBlockEntity::new);
 
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
@@ -37,7 +37,7 @@ public class LlamamodModBlockEntities {
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
 		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, COMPUTER.get(), SidedInvWrapper::new);
-		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AUTHENTICATORBLOCK.get(), SidedInvWrapper::new);
-		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, SECURESTORAGEBLOCK.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, AUTHENTICATOR.get(), SidedInvWrapper::new);
+		event.registerBlockEntity(Capabilities.ItemHandler.BLOCK, SECURE_STORAGE_BLOCK.get(), SidedInvWrapper::new);
 	}
 }

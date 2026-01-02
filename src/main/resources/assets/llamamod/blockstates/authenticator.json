@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "llamamod:block/authenticator"
+    },
+    "facing=east": {
+      "model": "llamamod:block/authenticator",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "llamamod:block/authenticator",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "llamamod:block/authenticator",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "llamamod:block/authenticator",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "llamamod:block/authenticator",
+      "x": 90
+    }
+  }
+}

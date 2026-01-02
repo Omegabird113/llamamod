@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": "minecraft:stick",
-    "b": "llamamod:ceilingtiles"
+    "b": "llamamod:ceiling_tiles"
   },
   "result": {
-    "id": "llamamod:ceilingtilefencegate",
+    "id": "llamamod:ceiling_tile_fence_gate",
     "count": 4
   }
 }

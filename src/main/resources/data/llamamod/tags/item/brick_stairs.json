@@ -3,12 +3,12 @@
   "values": [
     "llamamod:lightbluelargetilestair",
     "llamamod:limebrickstair",
-    "llamamod:redbrickstair",
+    "llamamod:red_brick_stairs",
     "minecraft:brick_stairs",
     "llamamod:purplebrickstair",
     "llamamod:tealbrickstair",
     "llamamod:pinkbrickstair",
-    "llamamod:yellowbrickstair",
+    "llamamod:yellow_brick_stairs",
     "llamamod:cherrybrickstair",
     "llamamod:lightgraybrickstair",
     "llamamod:graybrickstair",
@@ -17,7 +17,7 @@
     "llamamod:cyanbrickstair",
     "llamamod:brownbrickstair",
     "llamamod:whitebrickstair",
-    "llamamod:orangebrickstair",
+    "llamamod:orange_brick_stairs",
     "llamamod:industrialbrickstair",
     "llamamod:greenbricksstair",
     "llamamod:blackbrickstair"

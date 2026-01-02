@@ -6,11 +6,11 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:ceilingtiles",
+    "a": "llamamod:ceiling_tiles",
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "llamamod:ceilingtilefence",
+    "id": "llamamod:ceiling_tile_fence",
     "count": 8
   }
 }

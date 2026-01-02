@@ -10,7 +10,7 @@
     "a": "minecraft:smooth_stone",
     "b": "minecraft:clock",
     "c": "#c:glass_blocks/cheap",
-    "d": "llamamod:variablelight",
+    "d": "llamamod:variable_light",
     "e": "minecraft:repeater",
     "f": "minecraft:writable_book"
   },

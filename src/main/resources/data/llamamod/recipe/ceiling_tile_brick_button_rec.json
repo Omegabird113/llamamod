@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:ceilingtiles"
+    "llamamod:ceiling_tiles"
   ],
   "result": {
-    "id": "llamamod:ceilingtilebutton",
+    "id": "llamamod:ceiling_tile_button",
     "count": 9
   }
 }

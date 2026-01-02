@@ -296,15 +296,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "redbricks",
+      "registry_name": "red_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/redbricks.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/redbricks.json",
-          "src/main/resources/assets/llamamod/items/redbricks.json",
-          "src/main/resources/assets/llamamod/blockstates/redbricks.json",
-          "src/main/resources/assets/llamamod/models/item/redbricks.json",
-          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/RedbricksBlock.java"
+          "src/main/resources/assets/llamamod/blockstates/red_bricks.json",
+          "src/main/resources/assets/llamamod/items/red_bricks.json",
+          "src/main/resources/assets/llamamod/models/item/red_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/red_bricks.json",
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/RedbricksBlock.java",
+          "src/main/resources/data/llamamod/loot_table/blocks/red_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -314,15 +314,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orangebricks",
+      "registry_name": "orange_bricks",
       "metadata": {
         "files": [
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/OrangebricksBlock.java",
-          "src/main/resources/assets/llamamod/blockstates/orangebricks.json",
-          "src/main/resources/assets/llamamod/models/item/orangebricks.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/orangebricks.json",
-          "src/main/resources/assets/llamamod/items/orangebricks.json",
-          "src/main/resources/assets/llamamod/models/block/orangebricks.json"
+          "src/main/resources/assets/llamamod/items/orange_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/orange_bricks.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/orange_bricks.json",
+          "src/main/resources/assets/llamamod/models/item/orange_bricks.json",
+          "src/main/resources/assets/llamamod/blockstates/orange_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -332,15 +332,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "yellowbricks",
+      "registry_name": "yellow_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/blockstates/yellowbricks.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/YellowbricksBlock.java",
-          "src/main/resources/data/llamamod/loot_table/blocks/yellowbricks.json",
-          "src/main/resources/assets/llamamod/items/yellowbricks.json",
-          "src/main/resources/assets/llamamod/models/item/yellowbricks.json",
-          "src/main/resources/assets/llamamod/models/block/yellowbricks.json"
+          "src/main/resources/assets/llamamod/items/yellow_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/yellow_bricks.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/yellow_bricks.json",
+          "src/main/resources/assets/llamamod/blockstates/yellow_bricks.json",
+          "src/main/resources/assets/llamamod/models/item/yellow_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -350,15 +350,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "greenbricks",
+      "registry_name": "green_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/items/greenbricks.json",
-          "src/main/resources/assets/llamamod/models/block/greenbricks.json",
-          "src/main/resources/assets/llamamod/models/item/greenbricks.json",
+          "src/main/resources/assets/llamamod/blockstates/green_bricks.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/green_bricks.json",
+          "src/main/resources/assets/llamamod/items/green_bricks.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/GreenbricksBlock.java",
-          "src/main/resources/data/llamamod/loot_table/blocks/greenbricks.json",
-          "src/main/resources/assets/llamamod/blockstates/greenbricks.json"
+          "src/main/resources/assets/llamamod/models/item/green_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/green_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -368,15 +368,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lightbluebricks",
+      "registry_name": "light_blue_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/item/lightbluebricks.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/lightbluebricks.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/light_blue_bricks.json",
+          "src/main/resources/assets/llamamod/items/light_blue_bricks.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/LightbluebricksBlock.java",
-          "src/main/resources/assets/llamamod/items/lightbluebricks.json",
-          "src/main/resources/assets/llamamod/blockstates/lightbluebricks.json",
-          "src/main/resources/assets/llamamod/models/block/lightbluebricks.json"
+          "src/main/resources/assets/llamamod/blockstates/light_blue_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/light_blue_bricks.json",
+          "src/main/resources/assets/llamamod/models/item/light_blue_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -386,15 +386,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bluebricks",
+      "registry_name": "blue_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/blockstates/bluebricks.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/blue_bricks.json",
+          "src/main/resources/assets/llamamod/blockstates/blue_bricks.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/BluebricksBlock.java",
-          "src/main/resources/assets/llamamod/models/item/bluebricks.json",
-          "src/main/resources/assets/llamamod/items/bluebricks.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/bluebricks.json",
-          "src/main/resources/assets/llamamod/models/block/bluebricks.json"
+          "src/main/resources/assets/llamamod/models/block/blue_bricks.json",
+          "src/main/resources/assets/llamamod/items/blue_bricks.json",
+          "src/main/resources/assets/llamamod/models/item/blue_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -404,15 +404,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magentabricks",
+      "registry_name": "magenta_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/item/magentabricks.json",
-          "src/main/resources/assets/llamamod/models/block/magentabricks.json",
-          "src/main/resources/assets/llamamod/items/magentabricks.json",
+          "src/main/resources/assets/llamamod/items/magenta_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/magenta_bricks.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/MagentabricksBlock.java",
-          "src/main/resources/data/llamamod/loot_table/blocks/magentabricks.json",
-          "src/main/resources/assets/llamamod/blockstates/magentabricks.json"
+          "src/main/resources/assets/llamamod/models/item/magenta_bricks.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/magenta_bricks.json",
+          "src/main/resources/assets/llamamod/blockstates/magenta_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -422,15 +422,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pinkbricks",
+      "registry_name": "pink_bricks",
       "metadata": {
         "files": [
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/PinkbricksBlock.java",
-          "src/main/resources/assets/llamamod/models/item/pinkbricks.json",
-          "src/main/resources/assets/llamamod/blockstates/pinkbricks.json",
-          "src/main/resources/assets/llamamod/models/block/pinkbricks.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/pinkbricks.json",
-          "src/main/resources/assets/llamamod/items/pinkbricks.json"
+          "src/main/resources/data/llamamod/loot_table/blocks/pink_bricks.json",
+          "src/main/resources/assets/llamamod/models/item/pink_bricks.json",
+          "src/main/resources/assets/llamamod/blockstates/pink_bricks.json",
+          "src/main/resources/assets/llamamod/items/pink_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/pink_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -440,15 +440,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "brownbricks",
+      "registry_name": "brown_bricks",
       "metadata": {
         "files": [
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/BrownbricksBlock.java",
-          "src/main/resources/assets/llamamod/blockstates/brownbricks.json",
-          "src/main/resources/assets/llamamod/models/block/brownbricks.json",
-          "src/main/resources/assets/llamamod/items/brownbricks.json",
-          "src/main/resources/assets/llamamod/models/item/brownbricks.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/brownbricks.json"
+          "src/main/resources/assets/llamamod/models/item/brown_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/brown_bricks.json",
+          "src/main/resources/assets/llamamod/blockstates/brown_bricks.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/brown_bricks.json",
+          "src/main/resources/assets/llamamod/items/brown_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -458,15 +458,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blackbricks",
+      "registry_name": "black_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/blackbricks.json",
+          "src/main/resources/assets/llamamod/models/block/black_bricks.json",
+          "src/main/resources/assets/llamamod/models/item/black_bricks.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/black_bricks.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/BlackbricksBlock.java",
-          "src/main/resources/assets/llamamod/models/item/blackbricks.json",
-          "src/main/resources/assets/llamamod/items/blackbricks.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/blackbricks.json",
-          "src/main/resources/assets/llamamod/blockstates/blackbricks.json"
+          "src/main/resources/assets/llamamod/blockstates/black_bricks.json",
+          "src/main/resources/assets/llamamod/items/black_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -476,15 +476,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "industrialbricks",
+      "registry_name": "industrial_bricks",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/item/industrialbricks.json",
-          "src/main/resources/assets/llamamod/items/industrialbricks.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/industrialbricks.json",
-          "src/main/resources/assets/llamamod/models/block/industrialbricks.json",
-          "src/main/resources/assets/llamamod/blockstates/industrialbricks.json",
-          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/IndustrialbricksBlock.java"
+          "src/main/resources/data/llamamod/loot_table/blocks/industrial_bricks.json",
+          "src/main/resources/assets/llamamod/models/block/industrial_bricks.json",
+          "src/main/resources/assets/llamamod/items/industrial_bricks.json",
+          "src/main/resources/assets/llamamod/models/item/industrial_bricks.json",
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/IndustrialbricksBlock.java",
+          "src/main/resources/assets/llamamod/blockstates/industrial_bricks.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -928,15 +928,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtiles",
+      "registry_name": "ceiling_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/ceilingtiles.json",
-          "src/main/resources/assets/llamamod/items/ceilingtiles.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtiles.json",
-          "src/main/resources/assets/llamamod/blockstates/ceilingtiles.json",
-          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtilesBlock.java",
-          "src/main/resources/assets/llamamod/models/item/ceilingtiles.json"
+          "src/main/resources/assets/llamamod/models/block/ceiling_tiles.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tiles.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tiles.json",
+          "src/main/resources/assets/llamamod/models/item/ceiling_tiles.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tiles.json",
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtilesBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -946,16 +946,16 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "authenticatorblock",
+      "registry_name": "authenticator",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/item/authenticatorblock.json",
-          "src/main/resources/assets/llamamod/models/block/authenticatorblock.json",
+          "src/main/resources/assets/llamamod/models/item/authenticator.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/authenticator.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/AuthenticatorblockBlock.java",
-          "src/main/resources/assets/llamamod/items/authenticatorblock.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/authenticatorblock.json",
+          "src/main/resources/assets/llamamod/blockstates/authenticator.json",
+          "src/main/resources/assets/llamamod/items/authenticator.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/entity/AuthenticatorblockBlockEntity.java",
-          "src/main/resources/assets/llamamod/blockstates/authenticatorblock.json"
+          "src/main/resources/assets/llamamod/models/block/authenticator.json"
         ]
       },
       "path": "~/Blocks/Authentiicator block"
@@ -1452,17 +1452,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "redbrickslab",
+      "registry_name": "red_brick_slab",
       "metadata": {
         "files": [
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/RedbrickslabBlock.java",
-          "src/main/resources/assets/llamamod/models/block/redbrickslab.json",
-          "src/main/resources/assets/llamamod/models/block/redbrickslab_top.json",
-          "src/main/resources/assets/llamamod/models/block/redbrickslab_full.json",
-          "src/main/resources/assets/llamamod/models/item/redbrickslab.json",
-          "src/main/resources/assets/llamamod/blockstates/redbrickslab.json",
-          "src/main/resources/assets/llamamod/items/redbrickslab.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/redbrickslab.json"
+          "src/main/resources/assets/llamamod/models/item/red_brick_slab.json",
+          "src/main/resources/assets/llamamod/models/block/red_brick_slab_full.json",
+          "src/main/resources/assets/llamamod/models/block/red_brick_slab.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/red_brick_slab.json",
+          "src/main/resources/assets/llamamod/models/block/red_brick_slab_top.json",
+          "src/main/resources/assets/llamamod/items/red_brick_slab.json",
+          "src/main/resources/assets/llamamod/blockstates/red_brick_slab.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -1472,17 +1472,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "redbrickstair",
+      "registry_name": "red_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/redbrickstair_outer.json",
-          "src/main/resources/assets/llamamod/blockstates/redbrickstair.json",
-          "src/main/resources/assets/llamamod/models/block/redbrickstair_inner.json",
-          "src/main/resources/assets/llamamod/items/redbrickstair.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/red_brick_stairs.json",
+          "src/main/resources/assets/llamamod/models/block/red_brick_stairs_inner.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/RedbrickstairBlock.java",
-          "src/main/resources/data/llamamod/loot_table/blocks/redbrickstair.json",
-          "src/main/resources/assets/llamamod/models/item/redbrickstair.json",
-          "src/main/resources/assets/llamamod/models/block/redbrickstair.json"
+          "src/main/resources/assets/llamamod/items/red_brick_stairs.json",
+          "src/main/resources/assets/llamamod/models/block/red_brick_stairs_outer.json",
+          "src/main/resources/assets/llamamod/models/item/red_brick_stairs.json",
+          "src/main/resources/assets/llamamod/models/block/red_brick_stairs.json",
+          "src/main/resources/assets/llamamod/blockstates/red_brick_stairs.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -1492,17 +1492,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orangebrickslab",
+      "registry_name": "orange_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/orangebrickslab_full.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/orange_brick_slab.json",
+          "src/main/resources/assets/llamamod/models/block/orange_brick_slab_full.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/OrangebrickslabBlock.java",
-          "src/main/resources/data/llamamod/loot_table/blocks/orangebrickslab.json",
-          "src/main/resources/assets/llamamod/items/orangebrickslab.json",
-          "src/main/resources/assets/llamamod/blockstates/orangebrickslab.json",
-          "src/main/resources/assets/llamamod/models/block/orangebrickslab.json",
-          "src/main/resources/assets/llamamod/models/item/orangebrickslab.json",
-          "src/main/resources/assets/llamamod/models/block/orangebrickslab_top.json"
+          "src/main/resources/assets/llamamod/models/block/orange_brick_slab_top.json",
+          "src/main/resources/assets/llamamod/models/block/orange_brick_slab.json",
+          "src/main/resources/assets/llamamod/models/item/orange_brick_slab.json",
+          "src/main/resources/assets/llamamod/items/orange_brick_slab.json",
+          "src/main/resources/assets/llamamod/blockstates/orange_brick_slab.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -1512,17 +1512,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "orangebrickstair",
+      "registry_name": "orange_brick_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/orangebrickstair.json",
-          "src/main/resources/assets/llamamod/models/block/orangebrickstair_outer.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/orangebrickstair.json",
+          "src/main/resources/assets/llamamod/models/block/orange_brick_stairs.json",
+          "src/main/resources/assets/llamamod/models/item/orange_brick_stairs.json",
+          "src/main/resources/assets/llamamod/models/block/orange_brick_stairs_inner.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/OrangebrickstairBlock.java",
-          "src/main/resources/assets/llamamod/items/orangebrickstair.json",
-          "src/main/resources/assets/llamamod/models/item/orangebrickstair.json",
-          "src/main/resources/assets/llamamod/blockstates/orangebrickstair.json",
-          "src/main/resources/assets/llamamod/models/block/orangebrickstair_inner.json"
+          "src/main/resources/data/llamamod/loot_table/blocks/orange_brick_stairs.json",
+          "src/main/resources/assets/llamamod/blockstates/orange_brick_stairs.json",
+          "src/main/resources/assets/llamamod/items/orange_brick_stairs.json",
+          "src/main/resources/assets/llamamod/models/block/orange_brick_stairs_outer.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -1532,17 +1532,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "yellowbrickslab",
+      "registry_name": "yellow_brick_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/items/yellowbrickslab.json",
-          "src/main/resources/assets/llamamod/models/block/yellowbrickslab_top.json",
-          "src/main/resources/assets/llamamod/blockstates/yellowbrickslab.json",
-          "src/main/resources/assets/llamamod/models/block/yellowbrickslab.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/yellowbrickslab.json",
+          "src/main/resources/assets/llamamod/models/block/yellow_brick_slab.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/yellow_brick_slab.json",
+          "src/main/resources/assets/llamamod/blockstates/yellow_brick_slab.json",
+          "src/main/resources/assets/llamamod/models/item/yellow_brick_slab.json",
+          "src/main/resources/assets/llamamod/models/block/yellow_brick_slab_top.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/YellowbrickslabBlock.java",
-          "src/main/resources/assets/llamamod/models/item/yellowbrickslab.json",
-          "src/main/resources/assets/llamamod/models/block/yellowbrickslab_full.json"
+          "src/main/resources/assets/llamamod/items/yellow_brick_slab.json",
+          "src/main/resources/assets/llamamod/models/block/yellow_brick_slab_full.json"
         ]
       },
       "path": "~/Blocks/New Bricks"
@@ -1852,17 +1852,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tileslab",
+      "registry_name": "tile_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/item/tileslab.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/tileslab.json",
-          "src/main/resources/assets/llamamod/items/tileslab.json",
+          "src/main/resources/assets/llamamod/blockstates/tile_slab.json",
+          "src/main/resources/assets/llamamod/models/item/tile_slab.json",
+          "src/main/resources/assets/llamamod/models/block/tile_slab_full.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TileslabBlock.java",
-          "src/main/resources/assets/llamamod/models/block/tileslab_top.json",
-          "src/main/resources/assets/llamamod/models/block/tileslab_full.json",
-          "src/main/resources/assets/llamamod/models/block/tileslab.json",
-          "src/main/resources/assets/llamamod/blockstates/tileslab.json"
+          "src/main/resources/assets/llamamod/items/tile_slab.json",
+          "src/main/resources/assets/llamamod/models/block/tile_slab.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/tile_slab.json",
+          "src/main/resources/assets/llamamod/models/block/tile_slab_top.json"
         ]
       },
       "path": "~/Blocks"
@@ -1872,17 +1872,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tilestair",
+      "registry_name": "tile_stair",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/loot_table/blocks/tilestair.json",
-          "src/main/resources/assets/llamamod/models/block/tilestair_outer.json",
-          "src/main/resources/assets/llamamod/models/block/tilestair.json",
-          "src/main/resources/assets/llamamod/items/tilestair.json",
-          "src/main/resources/assets/llamamod/blockstates/tilestair.json",
-          "src/main/resources/assets/llamamod/models/block/tilestair_inner.json",
-          "src/main/resources/assets/llamamod/models/item/tilestair.json",
-          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TilestairBlock.java"
+          "src/main/resources/assets/llamamod/blockstates/tile_stair.json",
+          "src/main/resources/assets/llamamod/items/tile_stair.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/tile_stair.json",
+          "src/main/resources/assets/llamamod/models/item/tile_stair.json",
+          "src/main/resources/assets/llamamod/models/block/tile_stair_outer.json",
+          "src/main/resources/assets/llamamod/models/block/tile_stair.json",
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TilestairBlock.java",
+          "src/main/resources/assets/llamamod/models/block/tile_stair_inner.json"
         ]
       },
       "path": "~/Blocks"
@@ -1892,17 +1892,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtileslab",
+      "registry_name": "ceiling_tile_slab",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtileslab.json",
-          "src/main/resources/assets/llamamod/models/item/ceilingtileslab.json",
-          "src/main/resources/assets/llamamod/items/ceilingtileslab.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtileslab.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtileslab_full.json",
-          "src/main/resources/assets/llamamod/blockstates/ceilingtileslab.json",
-          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtileslabBlock.java",
-          "src/main/resources/assets/llamamod/models/block/ceilingtileslab_top.json"
+          "src/main/resources/assets/llamamod/models/item/ceiling_tile_slab.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_slab_top.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tile_slab.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tile_slab.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_slab_full.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tile_slab.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_slab.json",
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtileslabBlock.java"
         ]
       },
       "path": "~/Blocks"
@@ -1912,17 +1912,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtilestair",
+      "registry_name": "ceiling_tile_stair",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/ceilingtilestair.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtilestair.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilestair_outer.json",
-          "src/main/resources/assets/llamamod/items/ceilingtilestair.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tile_stair.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tile_stair.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_stair_inner.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtilestairBlock.java",
-          "src/main/resources/assets/llamamod/blockstates/ceilingtilestair.json",
-          "src/main/resources/assets/llamamod/models/item/ceilingtilestair.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilestair_inner.json"
+          "src/main/resources/assets/llamamod/models/item/ceiling_tile_stair.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_stair.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tile_stair.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_stair_outer.json"
         ]
       },
       "path": "~/Blocks"
@@ -3689,18 +3689,18 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtilewall",
+      "registry_name": "ceiling_tile_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/blockstates/ceilingtilewall.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilewall.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilewall_side_tall.json",
-          "src/main/resources/assets/llamamod/models/item/ceilingtilewall.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilewall_inventory.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tile_wall.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tile_wall.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_wall.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_wall_side_tall.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_wall_post.json",
+          "src/main/resources/assets/llamamod/models/item/ceiling_tile_wall.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtilewallBlock.java",
-          "src/main/resources/assets/llamamod/items/ceilingtilewall.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilewall_post.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtilewall.json"
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_wall_inventory.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tile_wall.json"
         ]
       },
       "path": "~/Blocks"
@@ -3710,18 +3710,18 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tilewall",
+      "registry_name": "tile_wall",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/blockstates/tilewall.json",
-          "src/main/resources/assets/llamamod/models/block/tilewall_side_tall.json",
+          "src/main/resources/assets/llamamod/models/block/tile_wall_side_tall.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TilewallBlock.java",
-          "src/main/resources/assets/llamamod/models/block/tilewall_inventory.json",
-          "src/main/resources/assets/llamamod/items/tilewall.json",
-          "src/main/resources/assets/llamamod/models/block/tilewall.json",
-          "src/main/resources/assets/llamamod/models/block/tilewall_post.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/tilewall.json",
-          "src/main/resources/assets/llamamod/models/item/tilewall.json"
+          "src/main/resources/assets/llamamod/items/tile_wall.json",
+          "src/main/resources/assets/llamamod/models/block/tile_wall_post.json",
+          "src/main/resources/assets/llamamod/models/block/tile_wall_inventory.json",
+          "src/main/resources/assets/llamamod/models/block/tile_wall.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/tile_wall.json",
+          "src/main/resources/assets/llamamod/models/item/tile_wall.json",
+          "src/main/resources/assets/llamamod/blockstates/tile_wall.json"
         ]
       },
       "path": "~/Blocks"
@@ -6855,16 +6855,16 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tilepressureplate",
+      "registry_name": "tile_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/tilepressureplate_down.json",
-          "src/main/resources/assets/llamamod/items/tilepressureplate.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/tile_pressure_plate.json",
+          "src/main/resources/assets/llamamod/blockstates/tile_pressure_plate.json",
+          "src/main/resources/assets/llamamod/items/tile_pressure_plate.json",
+          "src/main/resources/assets/llamamod/models/block/tile_pressure_plate_down.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TilepressureplateBlock.java",
-          "src/main/resources/assets/llamamod/models/block/tilepressureplate.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/tilepressureplate.json",
-          "src/main/resources/assets/llamamod/blockstates/tilepressureplate.json",
-          "src/main/resources/assets/llamamod/models/item/tilepressureplate.json"
+          "src/main/resources/assets/llamamod/models/item/tile_pressure_plate.json",
+          "src/main/resources/assets/llamamod/models/block/tile_pressure_plate.json"
         ]
       },
       "path": "~/Blocks"
@@ -6874,17 +6874,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tilebutton",
+      "registry_name": "tile_button",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/items/tilebutton.json",
-          "src/main/resources/assets/llamamod/models/block/tilebutton_pressed.json",
-          "src/main/resources/assets/llamamod/blockstates/tilebutton.json",
-          "src/main/resources/assets/llamamod/models/block/tilebutton.json",
+          "src/main/resources/assets/llamamod/blockstates/tile_button.json",
+          "src/main/resources/assets/llamamod/models/item/tile_button.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TilebuttonBlock.java",
-          "src/main/resources/data/llamamod/loot_table/blocks/tilebutton.json",
-          "src/main/resources/assets/llamamod/models/item/tilebutton.json",
-          "src/main/resources/assets/llamamod/models/block/tilebutton_inventory.json"
+          "src/main/resources/data/llamamod/loot_table/blocks/tile_button.json",
+          "src/main/resources/assets/llamamod/models/block/tile_button_pressed.json",
+          "src/main/resources/assets/llamamod/items/tile_button.json",
+          "src/main/resources/assets/llamamod/models/block/tile_button.json",
+          "src/main/resources/assets/llamamod/models/block/tile_button_inventory.json"
         ]
       },
       "path": "~/Blocks"
@@ -6894,16 +6894,16 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtilepressureplate",
+      "registry_name": "ceiling_tile_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/items/ceilingtilepressureplate.json",
-          "src/main/resources/assets/llamamod/blockstates/ceilingtilepressureplate.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilepressureplate_down.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtilepressureplate.json",
-          "src/main/resources/assets/llamamod/models/item/ceilingtilepressureplate.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tile_pressure_plate.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tile_pressure_plate.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_pressure_plate_down.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtilepressureplateBlock.java",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilepressureplate.json"
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_pressure_plate.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tile_pressure_plate.json",
+          "src/main/resources/assets/llamamod/models/item/ceiling_tile_pressure_plate.json"
         ]
       },
       "path": "~/Blocks"
@@ -6913,17 +6913,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtilebutton",
+      "registry_name": "ceiling_tile_button",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtilebutton.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilebutton.json",
-          "src/main/resources/assets/llamamod/items/ceilingtilebutton.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilebutton_inventory.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilebutton_pressed.json",
-          "src/main/resources/assets/llamamod/blockstates/ceilingtilebutton.json",
+          "src/main/resources/assets/llamamod/models/item/ceiling_tile_button.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_button.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtilebuttonBlock.java",
-          "src/main/resources/assets/llamamod/models/item/ceilingtilebutton.json"
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_button_pressed.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tile_button.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tile_button.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_button_inventory.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tile_button.json"
         ]
       },
       "path": "~/Blocks"
@@ -7196,15 +7196,15 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "variablelight",
+      "registry_name": "variable_light",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/loot_table/blocks/variablelight.json",
+          "src/main/resources/assets/llamamod/items/variable_light.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/VariablelightBlock.java",
-          "src/main/resources/assets/llamamod/blockstates/variablelight.json",
-          "src/main/resources/assets/llamamod/items/variablelight.json",
-          "src/main/resources/assets/llamamod/models/block/variablelight.json",
-          "src/main/resources/assets/llamamod/models/item/variablelight.json"
+          "src/main/resources/assets/llamamod/blockstates/variable_light.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/variable_light.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light.json",
+          "src/main/resources/assets/llamamod/models/item/variable_light.json"
         ]
       },
       "path": "~/Blocks/Variable Light"
@@ -9937,17 +9937,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtilefence",
+      "registry_name": "ceiling_tile_fence",
       "metadata": {
         "files": [
+          "src/main/resources/assets/llamamod/models/item/ceiling_tile_fence.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtilefenceBlock.java",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilefence_post.json",
-          "src/main/resources/assets/llamamod/models/item/ceilingtilefence.json",
-          "src/main/resources/assets/llamamod/blockstates/ceilingtilefence.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilefence.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilefence_inventory.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtilefence.json",
-          "src/main/resources/assets/llamamod/items/ceilingtilefence.json"
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_fence_post.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_fence.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_fence_inventory.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tile_fence.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tile_fence.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tile_fence.json"
         ]
       },
       "path": "~/Blocks"
@@ -9957,18 +9957,18 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtilefencegate",
+      "registry_name": "ceiling_tile_fence_gate",
       "metadata": {
         "files": [
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtilefencegateBlock.java",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilefencegate_wall_open.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtilefencegate.json",
-          "src/main/resources/assets/llamamod/models/item/ceilingtilefencegate.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilefencegate_wall.json",
-          "src/main/resources/assets/llamamod/blockstates/ceilingtilefencegate.json",
-          "src/main/resources/assets/llamamod/items/ceilingtilefencegate.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilefencegate_open.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtilefencegate.json"
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_fence_gate.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_fence_gate_wall.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_fence_gate_open.json",
+          "src/main/resources/assets/llamamod/models/item/ceiling_tile_fence_gate.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tile_fence_gate.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tile_fence_gate.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_fence_gate_wall_open.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tile_fence_gate.json"
         ]
       },
       "path": "~/Blocks"
@@ -9978,17 +9978,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tilefence",
+      "registry_name": "tile_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/items/tilefence.json",
-          "src/main/resources/assets/llamamod/models/block/tilefence_inventory.json",
+          "src/main/resources/assets/llamamod/models/block/tile_fence.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/tile_fence.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TilefenceBlock.java",
-          "src/main/resources/data/llamamod/loot_table/blocks/tilefence.json",
-          "src/main/resources/assets/llamamod/models/block/tilefence.json",
-          "src/main/resources/assets/llamamod/models/item/tilefence.json",
-          "src/main/resources/assets/llamamod/blockstates/tilefence.json",
-          "src/main/resources/assets/llamamod/models/block/tilefence_post.json"
+          "src/main/resources/assets/llamamod/models/block/tile_fence_inventory.json",
+          "src/main/resources/assets/llamamod/models/block/tile_fence_post.json",
+          "src/main/resources/assets/llamamod/items/tile_fence.json",
+          "src/main/resources/assets/llamamod/blockstates/tile_fence.json",
+          "src/main/resources/assets/llamamod/models/item/tile_fence.json"
         ]
       },
       "path": "~/Blocks"
@@ -9998,18 +9998,18 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tilefencegate",
+      "registry_name": "tile_fence_gate",
       "metadata": {
         "files": [
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TilefencegateBlock.java",
-          "src/main/resources/data/llamamod/loot_table/blocks/tilefencegate.json",
-          "src/main/resources/assets/llamamod/models/item/tilefencegate.json",
-          "src/main/resources/assets/llamamod/models/block/tilefencegate.json",
-          "src/main/resources/assets/llamamod/models/block/tilefencegate_open.json",
-          "src/main/resources/assets/llamamod/models/block/tilefencegate_wall_open.json",
-          "src/main/resources/assets/llamamod/items/tilefencegate.json",
-          "src/main/resources/assets/llamamod/blockstates/tilefencegate.json",
-          "src/main/resources/assets/llamamod/models/block/tilefencegate_wall.json"
+          "src/main/resources/assets/llamamod/models/item/tile_fence_gate.json",
+          "src/main/resources/assets/llamamod/models/block/tile_fence_gate_wall.json",
+          "src/main/resources/assets/llamamod/models/block/tile_fence_gate_wall_open.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/tile_fence_gate.json",
+          "src/main/resources/assets/llamamod/models/block/tile_fence_gate_open.json",
+          "src/main/resources/assets/llamamod/items/tile_fence_gate.json",
+          "src/main/resources/assets/llamamod/models/block/tile_fence_gate.json",
+          "src/main/resources/assets/llamamod/blockstates/tile_fence_gate.json"
         ]
       },
       "path": "~/Blocks"
@@ -16088,17 +16088,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "ceilingtiletrapdoor",
+      "registry_name": "ceiling_tile_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/ceilingtiletrapdoor_open.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/CeilingtiletrapdoorBlock.java",
-          "src/main/resources/assets/llamamod/models/item/ceilingtiletrapdoor.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/ceilingtiletrapdoor.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtiletrapdoor_top.json",
-          "src/main/resources/assets/llamamod/items/ceilingtiletrapdoor.json",
-          "src/main/resources/assets/llamamod/blockstates/ceilingtiletrapdoor.json",
-          "src/main/resources/assets/llamamod/models/block/ceilingtiletrapdoor.json"
+          "src/main/resources/assets/llamamod/models/item/ceiling_tile_trapdoor.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_trapdoor.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_trapdoor_open.json",
+          "src/main/resources/assets/llamamod/items/ceiling_tile_trapdoor.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/ceiling_tile_trapdoor.json",
+          "src/main/resources/assets/llamamod/models/block/ceiling_tile_trapdoor_top.json",
+          "src/main/resources/assets/llamamod/blockstates/ceiling_tile_trapdoor.json"
         ]
       },
       "path": "~/Blocks"
@@ -16108,17 +16108,17 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tiletrapdoor",
+      "registry_name": "tile_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/block/tiletrapdoor_open.json",
+          "src/main/resources/assets/llamamod/models/block/tile_trapdoor_top.json",
+          "src/main/resources/assets/llamamod/models/block/tile_trapdoor_open.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/tile_trapdoor.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/TiletrapdoorBlock.java",
-          "src/main/resources/assets/llamamod/models/block/tiletrapdoor.json",
-          "src/main/resources/assets/llamamod/models/block/tiletrapdoor_top.json",
-          "src/main/resources/assets/llamamod/blockstates/tiletrapdoor.json",
-          "src/main/resources/assets/llamamod/models/item/tiletrapdoor.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/tiletrapdoor.json",
-          "src/main/resources/assets/llamamod/items/tiletrapdoor.json"
+          "src/main/resources/assets/llamamod/blockstates/tile_trapdoor.json",
+          "src/main/resources/assets/llamamod/items/tile_trapdoor.json",
+          "src/main/resources/assets/llamamod/models/item/tile_trapdoor.json",
+          "src/main/resources/assets/llamamod/models/block/tile_trapdoor.json"
         ]
       },
       "path": "~/Blocks"
@@ -17055,16 +17055,16 @@
       "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "securestorageblock",
+      "registry_name": "secure_storage_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/llamamod/models/item/securestorageblock.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/entity/SecurestorageblockBlockEntity.java",
+          "src/main/resources/assets/llamamod/items/secure_storage_block.json",
           "src/main/java/net/ihavenowebsite/omegabird/llamamod/block/SecurestorageblockBlock.java",
-          "src/main/resources/assets/llamamod/models/block/securestorageblock.json",
-          "src/main/resources/assets/llamamod/items/securestorageblock.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/securestorageblock.json",
-          "src/main/resources/assets/llamamod/blockstates/securestorageblock.json"
+          "src/main/resources/data/llamamod/loot_table/blocks/secure_storage_block.json",
+          "src/main/resources/assets/llamamod/models/item/secure_storage_block.json",
+          "src/main/resources/assets/llamamod/blockstates/secure_storage_block.json",
+          "src/main/resources/assets/llamamod/models/block/secure_storage_block.json"
         ]
       },
       "path": "~/Blocks/Secure Stoorage Block"
@@ -18050,6 +18050,8 @@
       "~CUSTOM:Bannanaplant"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Yellowbrickslab",
+      "~CUSTOM:Orangebrickslab",
       "~CUSTOM:Tealbrickslab",
       "~CUSTOM:Teallargetileslab",
       "~CUSTOM:Cherrylargetileslab",
@@ -18087,11 +18089,10 @@
       "~CUSTOM:Magentabrickslab",
       "~CUSTOM:Bluebrickslab",
       "~CUSTOM:Lightbluebrickslab",
-      "~CUSTOM:Yellowbrickslab",
-      "~CUSTOM:Orangebrickslab",
       "~CUSTOM:Redbrickslab"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Orangebrickstair",
       "~CUSTOM:Tealbrickstair",
       "~CUSTOM:TealLargeTileStair",
       "~CUSTOM:Cherrylargetilestair",
@@ -18130,7 +18131,6 @@
       "~CUSTOM:Bluebrickstair",
       "~CUSTOM:Lightbluebrickstair",
       "~CUSTOM:Yellowbrickstair",
-      "~CUSTOM:Orangebrickstair",
       "~CUSTOM:Redbrickstair"
     ],
     "BLOCKS:minecraft:needs_diamond_tool": [
@@ -18149,6 +18149,9 @@
       "~CUSTOM:IndustrialLargeTile"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Yellowbrickslab",
+      "~CUSTOM:Orangebrickstair",
+      "~CUSTOM:Orangebrickslab",
       "~CUSTOM:Tealbrickbutton",
       "~CUSTOM:Tealbrickpressureplate",
       "~CUSTOM:Tealbricktrapdoor",
@@ -18493,9 +18496,6 @@
       "~CUSTOM:Lightbluebrickstair",
       "~CUSTOM:Lightbluebrickslab",
       "~CUSTOM:Yellowbrickstair",
-      "~CUSTOM:Yellowbrickslab",
-      "~CUSTOM:Orangebrickstair",
-      "~CUSTOM:Orangebrickslab",
       "~CUSTOM:Redbrickstair",
       "~CUSTOM:Redbrickslab",
       "~CUSTOM:Authenticatorblock",
@@ -19410,7 +19410,6 @@
       "Graybricktrapdoor",
       "Graybrickpreasureplate",
       "Graybrickbutton",
-      "Blackbricks",
       "Blackbrickstair",
       "Blackbrickslab",
       "Blackbrickwall",
@@ -19419,7 +19418,6 @@
       "Blackbricktrapdoor",
       "Blackbrickpreasureplate",
       "Blackbrickbutton",
-      "Brownbricks",
       "Brownbrickstair",
       "Brownbrickslab",
       "Brownbrickwall",
@@ -19428,27 +19426,19 @@
       "Brownbricktrapdoor",
       "Brownbrickpreasureplate",
       "Brownbrickbutton",
-      "Redbricks",
-      "Redbrickstair",
-      "Redbrickslab",
       "Redbrickwall",
       "Redbrickfence",
       "Redbrickfencegate",
       "Redbricktrapdoor",
       "Redbrickpreasureplate",
       "Redbrickbutton",
-      "Orangebricks",
-      "Orangebrickstair",
-      "Orangebrickslab",
       "Orangebrickwall",
       "Orangebrickfence",
       "Orangebrickfencegate",
       "Orangebricktrapdoor",
       "Orangebrickfencegatepreasureplate",
       "Orangebrickbutton",
-      "Yellowbricks",
       "Yellowbrickstair",
-      "Yellowbrickslab",
       "Yellowbrickwall",
       "Yellowbrickfence",
       "Yellowbrickfenceagte",
@@ -19464,7 +19454,6 @@
       "Limebricktrapdoor",
       "Limebrickpreasureplate",
       "Limebrickbutton",
-      "Greenbricks",
       "Greenbricksstair",
       "GreenbricksSlab",
       "Greenbrickwall",
@@ -19482,7 +19471,6 @@
       "Cyanbricktrapdoor",
       "Cyanbrickpreasureplate",
       "Cyanbrickbutton",
-      "Lightbluebricks",
       "Lightbluebrickstair",
       "Lightbluebrickslab",
       "Lightbluebrickwall",
@@ -19491,7 +19479,6 @@
       "Lightbluebricktrapdoor",
       "Lightbluebrickpreasureplate",
       "Lightbluebrickbutton",
-      "Bluebricks",
       "Bluebrickstair",
       "Bluebrickslab",
       "Bluebrickwall",
@@ -19509,7 +19496,6 @@
       "Purplebricktrapdoor",
       "Purplebrickpreasureplate",
       "Purplebrickbutton",
-      "Magentabricks",
       "Magentabrickstair",
       "Magentabrickslab",
       "Magentabrickwall",
@@ -19518,7 +19504,6 @@
       "Magentabricktrapdoor",
       "Magentabrickpreasureplate",
       "Magentabrickbutton",
-      "Pinkbricks",
       "Pinkbrickstair",
       "Pinkbrickslab",
       "Pinkbrickwall",
@@ -19545,7 +19530,6 @@
       "Tealbricktrapdoor",
       "Tealbrickpressureplate",
       "Tealbrickbutton",
-      "Industrialbricks",
       "Industrialbrickstair",
       "Industrialbrickslab",
       "Industrialbrickwall",
@@ -19728,24 +19712,7 @@
       "Tiles",
       "Tilestair",
       "Tileslab",
-      "Tilewall",
-      "Tilefence",
-      "Tilefencegate",
-      "Tiletrapdoor",
-      "Tilepressureplate",
-      "Tilebutton",
       "Ceilingtiles",
-      "Ceilingtilestair",
-      "Ceilingtileslab",
-      "Ceilingtilewall",
-      "Ceilingtilefence",
-      "Ceilingtilefencegate",
-      "Ceilingtiletrapdoor",
-      "Ceilingtilepressureplate",
-      "Ceilingtilebutton",
-      "Variablelight",
-      "Authenticatorblock",
-      "Securestorageblock",
       "Computer",
       "Passwordchanger",
       "Backpack",
@@ -19753,7 +19720,40 @@
       "Bannana",
       "Bannanaplant",
       "Farmscraps",
-      "Acid"
+      "Acid",
+      "Ceilingtileslab",
+      "Ceilingtilestair",
+      "Ceilingtilewall",
+      "Tilewall",
+      "Tilepressureplate",
+      "Tilebutton",
+      "Ceilingtilepressureplate",
+      "Ceilingtilebutton",
+      "Ceilingtilefence",
+      "Ceilingtilefencegate",
+      "Tilefence",
+      "Tilefencegate",
+      "Ceilingtiletrapdoor",
+      "Tiletrapdoor",
+      "Securestorageblock",
+      "Authenticatorblock",
+      "Variablelight",
+      "Redbricks",
+      "Orangebricks",
+      "Yellowbricks",
+      "Greenbricks",
+      "Lightbluebricks",
+      "Bluebricks",
+      "Magentabricks",
+      "Pinkbricks",
+      "Brownbricks",
+      "Blackbricks",
+      "Industrialbricks",
+      "Redbrickslab",
+      "Redbrickstair",
+      "Orangebrickslab",
+      "Orangebrickstair",
+      "Yellowbrickslab"
     ],
     "OP_BLOCKS": []
   },
@@ -20277,17 +20277,6 @@
       "fluid.llamamod.acid": "Acid",
       "item.llamamod.acid_bucket": "Acid Bucket",
       "effect.llamamod.acideffect": "Acid Disolving",
-      "item.llamamod.redbricks": "Red Bricks",
-      "item.llamamod.orangebricks": "Orange Bricks",
-      "item.llamamod.yellowbricks": "Yellow Bricks",
-      "item.llamamod.greenbricks": "Green Bricks",
-      "item.llamamod.lightbluebricks": "Light Blue Brick",
-      "item.llamamod.bluebricks": "Blue Bricks",
-      "item.llamamod.magentabricks": "Magenta Bricks",
-      "item.llamamod.pinkbricks": "Pink Bricks",
-      "item.llamamod.brownbricks": "Brown Bricks",
-      "item.llamamod.blackbricks": "Black Bricks",
-      "item.llamamod.industrialbricks": "Industrial Brick",
       "item.llamamod.computer": "Computer",
       "item.llamamod.tiles": "Tiles",
       "item.llamamod.farmscraps": "Farm Scraps",
@@ -20326,8 +20315,6 @@
       "gui.llamamod.securestooragepasswordgui.button_x": "X",
       "gui.llamamod.securestooragepasswordgui.label_secure_stoorage_block": "Secure Storage Block",
       "gui.llamamod.securestooragepasswordgui.label_enter_password": "Enter Password:",
-      "item.llamamod.ceilingtiles": "Ceiling Tiles",
-      "item.llamamod.authenticatorblock": "Authenticator Block",
       "gui.llamamod.authblockauthgui.label_secure_stoorage_block": "Authenticator Block",
       "gui.llamamod.authblockauthgui.label_enter_password": "Enter Password:",
       "gui.llamamod.authblockauthgui.password": "Type here",
@@ -20353,11 +20340,6 @@
       "gui.llamamod.incorrect_password_gui.label_retry_entering_the_password": "try entering it again.",
       "gui.llamamod.incorrect_password_gui.label_please_close_this_gui_and": "Please close this GUI, and",
       "gui.llamamod.incorrect_password_gui.button_x": "X",
-      "item.llamamod.redbrickslab": "Red Brick Slab",
-      "item.llamamod.redbrickstair": "Red Brick Stair",
-      "item.llamamod.orangebrickslab": "Orange Brick Slab",
-      "item.llamamod.orangebrickstair": "Orange Brick Stair",
-      "item.llamamod.yellowbrickslab": "Yellow Brick Slab",
       "item.llamamod.yellowbrickstair": "Yellow Brick Stair",
       "item.llamamod.lightbluebrickslab": "Light Blue Brick Slab",
       "item.llamamod.lightbluebrickstair": "Light Blue Brick Stair",
@@ -20373,10 +20355,6 @@
       "item.llamamod.blackbrickstair": "Black Brick Stair",
       "item.llamamod.industrialbrickslab": "Industrial Brick Slab",
       "item.llamamod.industrialbrickstair": "Industrial Brick Stair",
-      "item.llamamod.tileslab": "Tile Slab",
-      "item.llamamod.tilestair": "Tile Stair",
-      "item.llamamod.ceilingtileslab": "Ceiling Tile Slab",
-      "item.llamamod.ceilingtilestair": "Ceiling Tile Stair",
       "item_group.llamamod.llama_mod": "LlamaMod",
       "item.llamamod.whitebricks": "White Bricks",
       "item.llamamod.lightgraybricks": "Light Gray Bricks",
@@ -20419,8 +20397,6 @@
       "item.llamamod.cyanbrickwall": "Cyan Brick Wall",
       "item.llamamod.cherrybrickwall": "Cherry Brick Wall",
       "item.llamamod.purplebrickwall": "Purple Brick Wall",
-      "item.llamamod.ceilingtilewall": "Ceiling Tile Wall",
-      "item.llamamod.tilewall": "Tile Wall",
       "item.llamamod.industrialbrickfence": "Industrial Brick Fence",
       "item.llamamod.industrialbrickfencegate": "Industrial Brick Fence Gate",
       "item.llamamod.industrialbrickbutton": "Industrial Brick Button",
@@ -20497,17 +20473,12 @@
       "gui.llamamod.double_secure_stoorafe_block_gui.button_clear": "Clear",
       "gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block": "Secure Storage Block:",
       "gui.llamamod.double_secure_stoorafe_block_gui.allow_clearing": "Show delete button",
-      "item.llamamod.tilepressureplate": "Tile Pressure Plate",
-      "item.llamamod.tilebutton": "Tile Button",
-      "item.llamamod.ceilingtilepressureplate": "Ceiling Tile Pressure Plate",
-      "item.llamamod.ceilingtilebutton": "Ceiling Tile Button",
       "item.llamamod.whitelargetile": "White Large Tile",
       "item.llamamod.whitelargetilestair": "White Large Tile Stair",
       "item.llamamod.whitelargetileslab": "White Large Tile Slab",
       "item.llamamod.whitelargetilewall": "White Large Tile Wall",
       "item.llamamod.whitelargetilepressureplate": "White Large Tile Pressure Plate",
       "item.llamamod.whitelargetilebutton": "White Large Tile Button",
-      "item.llamamod.variablelight": "Variable Light",
       "item.llamamod.lightgraylargetile": "Light Gray Large Tile",
       "item.llamamod.graylargetile": "Gray Large Tile",
       "item.llamamod.blacklargetile": "Black Large Tile",
@@ -20630,10 +20601,6 @@
       "item.llamamod.pinklargetilefencegate": "Pink Large Tile Fence Gate",
       "item.llamamod.pinklargetilepressureplate": "Pink Large Tile Pressure Plate",
       "item.llamamod.pinklargetilebutton": "Pink Large Tile Button",
-      "item.llamamod.ceilingtilefence": "Ceiling Tile Fence",
-      "item.llamamod.ceilingtilefencegate": "Ceiling Tile Fence Gate",
-      "item.llamamod.tilefence": "Tile Fence",
-      "item.llamamod.tilefencegate": "Tile Fence Gate",
       "item.llamamod.industriallargetile": "Industrial Large Tile",
       "item.llamamod.industriallargetilestair": "Industrial Large Tile Stair",
       "item.llamamod.industriallargetileslab": "Industrial Large Tile Slab",
@@ -20677,8 +20644,6 @@
       "item.llamamod.pinkbricktrapdoor": "Pink Brick Trapdoor",
       "item.llamamod.cherrybricktrapdoor": "Cherry Brick Trapdoor",
       "item.llamamod.industrialbricktrapdoor": "Industrial Brick Trapdoor",
-      "item.llamamod.ceilingtiletrapdoor": "Ceiling Tile Trapdoor",
-      "item.llamamod.tiletrapdoor": "Tile Trapdoor",
       "item.llamamod.cherrylargetile": "Cherry Large Tile",
       "item.llamamod.cherrylargetilestair": "Cherry Large Tile Stair",
       "item.llamamod.cherrylargetileslab": "Cherry Large Tile Slab",
@@ -20688,7 +20653,6 @@
       "item.llamamod.cherrylargetiletrapdoor": "Cherry Large Tile Trapdoor",
       "item.llamamod.cherrylargetilepressureplate": "Cherry Large Tile Pressure Plate",
       "item.llamamod.cherrylargetilebutton": "Cherry Large Plate Button",
-      "item.llamamod.securestorageblock": "Secure Storage Block",
       "item.llamamod.tealbricks": "Teal Bricks",
       "item.llamamod.teallargetile": "Teal Large Tile",
       "item.llamamod.teallargetilestair": "Teal Large Tile Stair",
@@ -20706,7 +20670,43 @@
       "item.llamamod.tealbrickfencegate": "Teal Brick Fence Gate",
       "item.llamamod.tealbricktrapdoor": "Teal Brick Trapdoor",
       "item.llamamod.tealbrickpressureplate": "Teal Brick Pressure Plate",
-      "item.llamamod.tealbrickbutton": "Teal Brick Button"
+      "item.llamamod.tealbrickbutton": "Teal Brick Button",
+      "item.llamamod.ceiling_tiles": "Ceiling Tiles",
+      "item.llamamod.tile_slab": "Tile Slab",
+      "item.llamamod.tile_stair": "Tile Stair",
+      "item.llamamod.ceiling_tile_slab": "Ceiling Tile Slab",
+      "item.llamamod.ceiling_tile_stair": "Ceiling Tile Stair",
+      "item.llamamod.ceiling_tile_wall": "Ceiling Tile Wall",
+      "item.llamamod.tile_wall": "Tile Wall",
+      "item.llamamod.tile_pressure_plate": "Tile Pressure Plate",
+      "item.llamamod.tile_button": "Tile Button",
+      "item.llamamod.ceiling_tile_pressure_plate": "Ceiling Tile Pressure Plate",
+      "item.llamamod.ceiling_tile_button": "Ceiling Tile Button",
+      "item.llamamod.ceiling_tile_fence": "Ceiling Tile Fence",
+      "item.llamamod.ceiling_tile_fence_gate": "Ceiling Tile Fence Gate",
+      "item.llamamod.tile_fence": "Tile Fence",
+      "item.llamamod.tile_fence_gate": "Tile Fence Gate",
+      "item.llamamod.ceiling_tile_trapdoor": "Ceiling Tile Trapdoor",
+      "item.llamamod.tile_trapdoor": "Tile Trapdoor",
+      "item.llamamod.secure_storage_block": "Secure Storage Block",
+      "item.llamamod.authenticator": "Authenticator Block",
+      "item.llamamod.variable_light": "Variable Light",
+      "item.llamamod.red_bricks": "Red Bricks",
+      "item.llamamod.orange_bricks": "Orange Bricks",
+      "item.llamamod.yellow_bricks": "Yellow Bricks",
+      "item.llamamod.green_bricks": "Green Bricks",
+      "item.llamamod.light_blue_bricks": "Light Blue Brick",
+      "item.llamamod.blue_bricks": "Blue Bricks",
+      "item.llamamod.magenta_bricks": "Magenta Bricks",
+      "item.llamamod.pink_bricks": "Pink Bricks",
+      "item.llamamod.brown_bricks": "Brown Bricks",
+      "item.llamamod.black_bricks": "Black Bricks",
+      "item.llamamod.industrial_bricks": "Industrial Brick",
+      "item.llamamod.red_brick_slab": "Red Brick Slab",
+      "item.llamamod.red_brick_stairs": "Red Brick Stairs",
+      "item.llamamod.orange_brick_slab": "Orange Brick Slab",
+      "item.llamamod.orange_brick_stairs": "Orange Brick Stairs",
+      "item.llamamod.yellow_brick_slab": "Yellow Brick Slab"
     }
   },
   "metadata": {

@@ -7,7 +7,7 @@
   ],
   "key": {
     "a": "minecraft:stick",
-    "b": "llamamod:orangebricks"
+    "b": "llamamod:orange_bricks"
   },
   "result": {
     "id": "llamamod:orangebrickfencegate",

@@ -10,7 +10,7 @@
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "llamamod:tilefence",
+    "id": "llamamod:tile_fence",
     "count": 8
   }
 }

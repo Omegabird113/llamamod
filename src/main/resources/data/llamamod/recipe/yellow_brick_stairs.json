@@ -6,10 +6,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:yellowbricks"
+    "a": "llamamod:yellow_bricks"
   },
   "result": {
-    "id": "llamamod:yellowbrickstair",
+    "id": "llamamod:yellow_brick_stairs",
     "count": 4
   }
 }
