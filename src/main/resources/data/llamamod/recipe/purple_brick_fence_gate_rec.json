@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": "minecraft:stick",
-    "b": "llamamod:purplebricks"
+    "b": "llamamod:purple_bricks"
   },
   "result": {
-    "id": "llamamod:purplebrickfencegate",
+    "id": "llamamod:purple_brick_fence_gate",
     "count": 4
   }
 }

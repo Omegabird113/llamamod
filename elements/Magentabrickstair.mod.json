@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "Stairs",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -37,7 +40,7 @@
       }
     ],
     "customProperties": [],
-    "name": "Magenta Brick Stair",
+    "name": "Magenta Brick Stairs",
     "specialInformation": {
       "fixedValue": []
     },
@@ -81,6 +84,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,

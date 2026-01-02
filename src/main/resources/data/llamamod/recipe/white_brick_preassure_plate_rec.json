@@ -5,10 +5,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:whitebricks"
+    "a": "llamamod:white_bricks"
   },
   "result": {
-    "id": "llamamod:whitebrickpressureplate",
+    "id": "llamamod:white_brick_pressure_plate",
     "count": 8
   }
 }

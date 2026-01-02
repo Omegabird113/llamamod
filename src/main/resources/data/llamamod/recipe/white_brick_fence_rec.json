@@ -6,11 +6,11 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:whitebricks",
+    "a": "llamamod:white_bricks",
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "llamamod:whitebrickfence",
+    "id": "llamamod:white_brick_fence",
     "count": 8
   }
 }

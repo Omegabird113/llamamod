@@ -5,10 +5,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:purplebricks"
+    "a": "llamamod:purple_bricks"
   },
   "result": {
-    "id": "llamamod:purplebrickpressureplate",
+    "id": "llamamod:purple_brick_pressure_plate",
     "count": 8
   }
 }

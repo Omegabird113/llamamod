@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": "minecraft:stick",
-    "b": "llamamod:lightgraybricks"
+    "b": "llamamod:light_gray_bricks"
   },
   "result": {
-    "id": "llamamod:lightgraybrickfence",
+    "id": "llamamod:light_gray_brick_fence",
     "count": 4
   }
 }

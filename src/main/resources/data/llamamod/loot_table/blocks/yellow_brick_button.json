@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "llamamod:blocks/yellow_brick_button",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "llamamod:yellow_brick_button"
+        }
+      ]
+    }
+  ]
+}

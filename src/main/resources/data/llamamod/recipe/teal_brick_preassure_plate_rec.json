@@ -5,10 +5,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:tealbricks"
+    "a": "llamamod:teal_bricks"
   },
   "result": {
-    "id": "llamamod:tealbrickpressureplate",
+    "id": "llamamod:teal_brick_pressure_plate",
     "count": 8
   }
 }

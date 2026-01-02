@@ -6,10 +6,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:limebricks"
+    "a": "llamamod:lime_bricks"
   },
   "result": {
-    "id": "llamamod:limebrickstair",
+    "id": "llamamod:lime_brick_stairs",
     "count": 4
   }
 }

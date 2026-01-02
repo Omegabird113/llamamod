@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": "minecraft:stick",
-    "b": "llamamod:tealbricks"
+    "b": "llamamod:teal_bricks"
   },
   "result": {
-    "id": "llamamod:tealbrickfencegate",
+    "id": "llamamod:teal_brick_fence_gate",
     "count": 4
   }
 }

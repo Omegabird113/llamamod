@@ -6,10 +6,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:tealbricks"
+    "a": "llamamod:teal_bricks"
   },
   "result": {
-    "id": "llamamod:tealbrickwall",
+    "id": "llamamod:teal_brick_wall",
     "count": 12
   }
 }

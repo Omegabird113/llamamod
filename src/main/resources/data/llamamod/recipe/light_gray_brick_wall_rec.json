@@ -6,10 +6,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:lightgraybricks"
+    "a": "llamamod:light_gray_bricks"
   },
   "result": {
-    "id": "llamamod:lightgraybrickwall",
+    "id": "llamamod:light_gray_brick_wall",
     "count": 12
   }
 }

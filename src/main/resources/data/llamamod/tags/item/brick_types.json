@@ -1,25 +1,25 @@
 {
   "replace": false,
   "values": [
-    "llamamod:purplebricks",
+    "llamamod:purple_bricks",
     "llamamod:brown_bricks",
     "llamamod:light_blue_bricks",
-    "llamamod:lightgraybricks",
+    "llamamod:light_gray_bricks",
     "llamamod:red_bricks",
     "llamamod:yellow_bricks",
-    "llamamod:tealbricks",
+    "llamamod:teal_bricks",
     "llamamod:blue_bricks",
-    "llamamod:cherrybricks",
-    "llamamod:graybricks",
+    "llamamod:cherry_bricks",
+    "llamamod:gray_bricks",
     "llamamod:orange_bricks",
     "llamamod:black_bricks",
     "llamamod:industrial_bricks",
-    "llamamod:limebricks",
+    "llamamod:lime_bricks",
     "minecraft:bricks",
-    "llamamod:whitebricks",
+    "llamamod:white_bricks",
     "llamamod:green_bricks",
     "llamamod:magenta_bricks",
-    "llamamod:cyanbricks",
+    "llamamod:cyan_bricks",
     "llamamod:pink_bricks"
   ]
 }

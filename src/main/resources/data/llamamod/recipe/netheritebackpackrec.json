@@ -4,6 +4,6 @@
   "base": "llamamod:backpack",
   "addition": "minecraft:netherite_ingot",
   "result": {
-    "id": "llamamod:netheritebackpack"
+    "id": "llamamod:netherite_backpack"
   }
 }

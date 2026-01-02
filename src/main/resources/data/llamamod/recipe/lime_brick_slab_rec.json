@@ -5,10 +5,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:limebricks"
+    "a": "llamamod:lime_bricks"
   },
   "result": {
-    "id": "llamamod:limebrickslab",
+    "id": "llamamod:lime_brick_slab",
     "count": 6
   }
 }

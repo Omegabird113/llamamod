@@ -18,7 +18,7 @@ public class GivePasswordChangerProcedureProcedure {
 		try {
 			for (Entity entityiterator : EntityArgument.getEntities(arguments, "targets")) {
 				if (entityiterator instanceof Player _player) {
-					ItemStack _setstack = new ItemStack(LlamamodModItems.PASSWORDCHANGER.get()).copy();
+					ItemStack _setstack = new ItemStack(LlamamodModItems.PASSWORD_CHANGER.get()).copy();
 					_setstack.setCount(1);
 					ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 				}

@@ -5,10 +5,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:lightgraybricks"
+    "a": "llamamod:light_gray_bricks"
   },
   "result": {
-    "id": "llamamod:lightgraybrickslab",
+    "id": "llamamod:light_gray_brick_slab",
     "count": 6
   }
 }

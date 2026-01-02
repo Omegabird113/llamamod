@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "llamamod:blocks/cyan_brick_trapdoor",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "llamamod:cyan_brick_trapdoor"
+        }
+      ]
+    }
+  ]
+}

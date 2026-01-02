@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/industrial_brick_slab"
+    },
+    "type=top": {
+      "model": "llamamod:block/industrial_brick_slab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/industrial_brick_slab_full"
+    }
+  }
+}

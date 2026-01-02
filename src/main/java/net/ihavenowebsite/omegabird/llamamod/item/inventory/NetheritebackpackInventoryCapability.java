@@ -19,7 +19,7 @@ import javax.annotation.Nonnull;
 public class NetheritebackpackInventoryCapability extends ComponentItemHandler {
 	@SubscribeEvent
 	public static void onItemDropped(ItemTossEvent event) {
-		if (event.getEntity().getItem().getItem() == LlamamodModItems.NETHERITEBACKPACK.get()) {
+		if (event.getEntity().getItem().getItem() == LlamamodModItems.NETHERITE_BACKPACK.get()) {
 			Player player = event.getPlayer();
 			if (player.containerMenu instanceof NetherbackpackguiMenu)
 				player.closeContainer();
@@ -37,7 +37,7 @@ public class NetheritebackpackInventoryCapability extends ComponentItemHandler {
 
 	@Override
 	public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-		return stack.getItem() != LlamamodModItems.NETHERITEBACKPACK.get();
+		return stack.getItem() != LlamamodModItems.NETHERITE_BACKPACK.get();
 	}
 
 	@Override

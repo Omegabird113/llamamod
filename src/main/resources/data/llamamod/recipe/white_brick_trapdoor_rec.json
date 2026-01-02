@@ -6,10 +6,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:whitebricks"
+    "a": "llamamod:white_bricks"
   },
   "result": {
-    "id": "llamamod:whitebricktrapdoor",
+    "id": "llamamod:white_brick_trapdoor",
     "count": 12
   }
 }
