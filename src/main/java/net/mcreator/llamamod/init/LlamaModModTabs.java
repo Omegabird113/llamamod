@@ -170,6 +170,15 @@ public class LlamaModModTabs {
 				tabData.accept(LlamaModModBlocks.CHERRYBRICKTRAPDOOR.get().asItem());
 				tabData.accept(LlamaModModBlocks.CHERRYBRICKPRESSUREPLATE.get().asItem());
 				tabData.accept(LlamaModModBlocks.CHERRYBRICKBUTTON.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKS.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKSTAIR.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKSLAB.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKWALL.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKFENCE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKFENCEGATE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKTRAPDOOR.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKPRESSUREPLATE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKBUTTON.get().asItem());
 				tabData.accept(LlamaModModBlocks.INDUSTRIALBRICKS.get().asItem());
 				tabData.accept(LlamaModModBlocks.INDUSTRIALBRICKSTAIR.get().asItem());
 				tabData.accept(LlamaModModBlocks.INDUSTRIALBRICKSLAB.get().asItem());
@@ -379,14 +388,5 @@ public class LlamaModModTabs {
 				tabData.accept(LlamaModModBlocks.BANANA_PLANT.get().asItem());
 				tabData.accept(LlamaModModItems.FARMSCRAPS.get());
 				tabData.accept(LlamaModModItems.ACID_BUCKET.get());
-				tabData.accept(LlamaModModBlocks.TEALBRICKS.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEALBRICKSTAIR.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEALBRICKSLAB.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEALBRICKWALL.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEALBRICKFENCE.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEALBRICKFENCEGATE.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEALBRICKTRAPDOOR.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEALBRICKPRESSUREPLATE.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEALBRICKBUTTON.get().asItem());
 			}).build());
 }
