@@ -15,9 +15,9 @@ public class AcideffectEffectStartedappliedProcedure {
 		if (entity == null)
 			return;
 		entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:aciddamage")))), (float) 1.5);
-		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACIDEFFECT) ? _livEnt.getEffect(LlamamodModMobEffects.ACIDEFFECT).getAmplifier() : 0) >= 4) {
+		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISOLVING).getAmplifier() : 0) >= 4) {
 			entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:aciddamage")))),
-					(float) (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACIDEFFECT) ? _livEnt.getEffect(LlamamodModMobEffects.ACIDEFFECT).getAmplifier() : 0) - 2) * 3.05));
+					(float) (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISOLVING).getAmplifier() : 0) - 2) * 3.05));
 		}
 	}
 }

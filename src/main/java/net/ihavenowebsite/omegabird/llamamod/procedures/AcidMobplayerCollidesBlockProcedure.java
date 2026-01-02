@@ -11,6 +11,6 @@ public class AcidMobplayerCollidesBlockProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACIDEFFECT, 165, 0, true, true));
+			_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_DISOLVING, 165, 0, true, true));
 	}
 }

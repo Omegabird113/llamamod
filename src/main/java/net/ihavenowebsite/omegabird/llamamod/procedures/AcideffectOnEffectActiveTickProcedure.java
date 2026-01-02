@@ -22,6 +22,6 @@ public class AcideffectOnEffectActiveTickProcedure {
 			entity.hurt(new DamageSource(world.holderOrThrow(DamageTypes.DROWN)), 2);
 		}
 		entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:aciddamage")))),
-				(float) Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACIDEFFECT) ? _livEnt.getEffect(LlamamodModMobEffects.ACIDEFFECT).getAmplifier() : 0) + 0.87) * 1.115));
+				(float) Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISOLVING).getAmplifier() : 0) + 0.87) * 1.115));
 	}
 }
