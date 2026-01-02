@@ -3,6 +3,7 @@
   "values": [
     "llama_mod:industrialbrickwall",
     "llama_mod:orangebrickwall",
+    "llama_mod:teallargetilewall",
     "llama_mod:graylargetilewall",
     "llama_mod:pinklargetilewall",
     "llama_mod:cyanlargetilewall",
@@ -20,6 +21,7 @@
     "llama_mod:purplebrickwall",
     "llama_mod:brownbrickwall",
     "llama_mod:lightbluelargetilewall",
+    "llama_mod:tealbrickwall",
     "llama_mod:graybrickwall",
     "llama_mod:bluelargetilewall",
     "llama_mod:tilewall",

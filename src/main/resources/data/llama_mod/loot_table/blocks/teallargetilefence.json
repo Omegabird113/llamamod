@@ -1,6 +1,6 @@
 {
   "type": "minecraft:block",
-  "random_sequence": "llama_mod:blocks/teal_large_tile",
+  "random_sequence": "llama_mod:blocks/teallargetilefence",
   "pools": [
     {
       "rolls": 1.0,
@@ -12,7 +12,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "llama_mod:teal_large_tile"
+          "name": "llama_mod:teallargetilefence"
         }
       ]
     }

@@ -380,7 +380,23 @@ public class LlamaModModItems {
 	public static final DeferredItem<Item> CHERRYLARGETILEBUTTON;
 	public static final DeferredItem<Item> SECURESTORAGEBLOCK;
 	public static final DeferredItem<Item> TEALBRICKS;
-	public static final DeferredItem<Item> TEAL_LARGE_TILE;
+	public static final DeferredItem<Item> TEALLARGETILE;
+	public static final DeferredItem<Item> TEALLARGETILESTAIR;
+	public static final DeferredItem<Item> TEALLARGETILESLAB;
+	public static final DeferredItem<Item> TEALLARGETILEWALL;
+	public static final DeferredItem<Item> TEALLARGETILEFENCE;
+	public static final DeferredItem<Item> TEALLARGETILEFENCEGATE;
+	public static final DeferredItem<Item> TEALLARGETILETRAPDOOR;
+	public static final DeferredItem<Item> TEALLARGETILEPRESSUREPLATE;
+	public static final DeferredItem<Item> TEALLARGETILEBUTTON;
+	public static final DeferredItem<Item> TEALBRICKSTAIR;
+	public static final DeferredItem<Item> TEALBRICKSLAB;
+	public static final DeferredItem<Item> TEALBRICKWALL;
+	public static final DeferredItem<Item> TEALBRICKFENCE;
+	public static final DeferredItem<Item> TEALBRICKFENCEGATE;
+	public static final DeferredItem<Item> TEALBRICKTRAPDOOR;
+	public static final DeferredItem<Item> TEALBRICKPRESSUREPLATE;
+	public static final DeferredItem<Item> TEALBRICKBUTTON;
 	static {
 		BANANA_PLANT = block(LlamaModModBlocks.BANANA_PLANT);
 		BANANA = register("banana", BannanaItem::new);
@@ -736,7 +752,23 @@ public class LlamaModModItems {
 		CHERRYLARGETILEBUTTON = block(LlamaModModBlocks.CHERRYLARGETILEBUTTON);
 		SECURESTORAGEBLOCK = block(LlamaModModBlocks.SECURESTORAGEBLOCK);
 		TEALBRICKS = block(LlamaModModBlocks.TEALBRICKS);
-		TEAL_LARGE_TILE = block(LlamaModModBlocks.TEAL_LARGE_TILE);
+		TEALLARGETILE = block(LlamaModModBlocks.TEALLARGETILE);
+		TEALLARGETILESTAIR = block(LlamaModModBlocks.TEALLARGETILESTAIR);
+		TEALLARGETILESLAB = block(LlamaModModBlocks.TEALLARGETILESLAB);
+		TEALLARGETILEWALL = block(LlamaModModBlocks.TEALLARGETILEWALL);
+		TEALLARGETILEFENCE = block(LlamaModModBlocks.TEALLARGETILEFENCE);
+		TEALLARGETILEFENCEGATE = block(LlamaModModBlocks.TEALLARGETILEFENCEGATE);
+		TEALLARGETILETRAPDOOR = block(LlamaModModBlocks.TEALLARGETILETRAPDOOR);
+		TEALLARGETILEPRESSUREPLATE = block(LlamaModModBlocks.TEALLARGETILEPRESSUREPLATE);
+		TEALLARGETILEBUTTON = block(LlamaModModBlocks.TEALLARGETILEBUTTON);
+		TEALBRICKSTAIR = block(LlamaModModBlocks.TEALBRICKSTAIR);
+		TEALBRICKSLAB = block(LlamaModModBlocks.TEALBRICKSLAB);
+		TEALBRICKWALL = block(LlamaModModBlocks.TEALBRICKWALL);
+		TEALBRICKFENCE = block(LlamaModModBlocks.TEALBRICKFENCE);
+		TEALBRICKFENCEGATE = block(LlamaModModBlocks.TEALBRICKFENCEGATE);
+		TEALBRICKTRAPDOOR = block(LlamaModModBlocks.TEALBRICKTRAPDOOR);
+		TEALBRICKPRESSUREPLATE = block(LlamaModModBlocks.TEALBRICKPRESSUREPLATE);
+		TEALBRICKBUTTON = block(LlamaModModBlocks.TEALBRICKBUTTON);
 	}
 
 	// Start of user code block custom items

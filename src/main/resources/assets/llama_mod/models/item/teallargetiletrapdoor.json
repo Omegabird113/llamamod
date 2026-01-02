@@ -1,5 +1,5 @@
 {
-  "parent": "llama_mod:block/teal_large_tile",
+  "parent": "llama_mod:block/teallargetiletrapdoor",
   "display": {
     "thirdperson": {
       "rotation": [

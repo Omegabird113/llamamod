@@ -31,10 +31,12 @@
     "llama_mod:lightgraylargetiletrapdoor",
     "llama_mod:cyanbricktrapdoor",
     "llama_mod:graylargetiletrapdoor",
+    "llama_mod:teallargetiletrapdoor",
     "llama_mod:pinkbricktrapdoor",
     "llama_mod:blackbricktrapdoor",
     "llama_mod:cyanlargetiletrapdoor",
     "llama_mod:industriallargetiletrapdoor",
+    "llama_mod:tealbricktrapdoor",
     "llama_mod:cherrylargetiletrapdoor"
   ]
 }

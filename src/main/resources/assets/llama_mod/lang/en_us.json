@@ -485,5 +485,21 @@
   "gui.llama_mod.double_secure_stoorafe_block_gui.allow_clearing": "Show delete button",
   "gui.llama_mod.computergui.button_random": "Random",
   "item.llama_mod.tealbricks": "Teal Bricks",
-  "item.llama_mod.teal_large_tile": "Teal Large Tile"
+  "item.llama_mod.teallargetile": "Teal Large Tile",
+  "item.llama_mod.teallargetilestair": "Teal Large Tile Stair",
+  "item.llama_mod.teallargetileslab": "Teal Large Tile Slab",
+  "item.llama_mod.teallargetilewall": "Teal Large Tile Wall",
+  "item.llama_mod.teallargetilefence": "Teal Large Tile Fence",
+  "item.llama_mod.teallargetilefencegate": "Teal Large Tile Fence Gate",
+  "item.llama_mod.teallargetiletrapdoor": "Teal Large Tile Trapdoor",
+  "item.llama_mod.teallargetilepressureplate": "Teal Large Tile Pressure Plate",
+  "item.llama_mod.teallargetilebutton": "Teal Large Tile Pressure Plate",
+  "item.llama_mod.tealbrickstair": "Teal Brick Stair",
+  "item.llama_mod.tealbrickslab": "Teal Brick Slab",
+  "item.llama_mod.tealbrickwall": "Teal Brick Wall",
+  "item.llama_mod.tealbrickfence": "Teal Brick Fence",
+  "item.llama_mod.tealbrickfencegate": "Teal Brick Fence Gate",
+  "item.llama_mod.tealbricktrapdoor": "Teal Brick Trapdoor",
+  "item.llama_mod.tealbrickpressureplate": "Teal Brick Pressure Plate",
+  "item.llama_mod.tealbrickbutton": "Teal Brick Button"
 }

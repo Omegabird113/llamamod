@@ -332,6 +332,15 @@ public class LlamaModModTabs {
 				tabData.accept(LlamaModModBlocks.CHERRYLARGETILETRAPDOOR.get().asItem());
 				tabData.accept(LlamaModModBlocks.CHERRYLARGETILEPRESSUREPLATE.get().asItem());
 				tabData.accept(LlamaModModBlocks.CHERRYLARGETILEBUTTON.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILESTAIR.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILESLAB.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILEWALL.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILEFENCE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILEFENCEGATE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILETRAPDOOR.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILEPRESSUREPLATE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALLARGETILEBUTTON.get().asItem());
 				tabData.accept(LlamaModModBlocks.INDUSTRIALLARGETILE.get().asItem());
 				tabData.accept(LlamaModModBlocks.INDUSTRIALLARGETILESTAIR.get().asItem());
 				tabData.accept(LlamaModModBlocks.INDUSTRIALLARGETILESLAB.get().asItem());
@@ -371,6 +380,13 @@ public class LlamaModModTabs {
 				tabData.accept(LlamaModModItems.FARMSCRAPS.get());
 				tabData.accept(LlamaModModItems.ACID_BUCKET.get());
 				tabData.accept(LlamaModModBlocks.TEALBRICKS.get().asItem());
-				tabData.accept(LlamaModModBlocks.TEAL_LARGE_TILE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKSTAIR.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKSLAB.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKWALL.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKFENCE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKFENCEGATE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKTRAPDOOR.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKPRESSUREPLATE.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEALBRICKBUTTON.get().asItem());
 			}).build());
 }

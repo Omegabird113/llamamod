@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "llama_mod:block/teal_bricks",
+    "particle": "llama_mod:block/teal_bricks"
+  },
+  "render_type": "solid"
+}

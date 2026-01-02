@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "llama_mod:block/teal_large_tiles",
+    "bottom": "llama_mod:block/teal_large_tiles",
+    "top": "llama_mod:block/teal_large_tiles",
+    "side": "llama_mod:block/teal_large_tiles"
+  },
+  "render_type": "solid"
+}

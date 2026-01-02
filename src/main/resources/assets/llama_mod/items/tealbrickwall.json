@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "llama_mod:item/teal_large_tile"
+    "model": "llama_mod:item/tealbrickwall"
   }
 }

@@ -369,7 +369,23 @@ public class LlamaModModBlocks {
 	public static final DeferredBlock<Block> CHERRYLARGETILEBUTTON;
 	public static final DeferredBlock<Block> SECURESTORAGEBLOCK;
 	public static final DeferredBlock<Block> TEALBRICKS;
-	public static final DeferredBlock<Block> TEAL_LARGE_TILE;
+	public static final DeferredBlock<Block> TEALLARGETILE;
+	public static final DeferredBlock<Block> TEALLARGETILESTAIR;
+	public static final DeferredBlock<Block> TEALLARGETILESLAB;
+	public static final DeferredBlock<Block> TEALLARGETILEWALL;
+	public static final DeferredBlock<Block> TEALLARGETILEFENCE;
+	public static final DeferredBlock<Block> TEALLARGETILEFENCEGATE;
+	public static final DeferredBlock<Block> TEALLARGETILETRAPDOOR;
+	public static final DeferredBlock<Block> TEALLARGETILEPRESSUREPLATE;
+	public static final DeferredBlock<Block> TEALLARGETILEBUTTON;
+	public static final DeferredBlock<Block> TEALBRICKSTAIR;
+	public static final DeferredBlock<Block> TEALBRICKSLAB;
+	public static final DeferredBlock<Block> TEALBRICKWALL;
+	public static final DeferredBlock<Block> TEALBRICKFENCE;
+	public static final DeferredBlock<Block> TEALBRICKFENCEGATE;
+	public static final DeferredBlock<Block> TEALBRICKTRAPDOOR;
+	public static final DeferredBlock<Block> TEALBRICKPRESSUREPLATE;
+	public static final DeferredBlock<Block> TEALBRICKBUTTON;
 	static {
 		BANANA_PLANT = register("banana_plant", BannanaplantBlock::new);
 		ACID = register("acid", AcidBlock::new);
@@ -720,7 +736,23 @@ public class LlamaModModBlocks {
 		CHERRYLARGETILEBUTTON = register("cherrylargetilebutton", CherrylargetilebuttonBlock::new);
 		SECURESTORAGEBLOCK = register("securestorageblock", SecurestorageblockBlock::new);
 		TEALBRICKS = register("tealbricks", TealbricksBlock::new);
-		TEAL_LARGE_TILE = register("teal_large_tile", TealLargeTileBlock::new);
+		TEALLARGETILE = register("teallargetile", TealLargeTileBlock::new);
+		TEALLARGETILESTAIR = register("teallargetilestair", TealLargeTileStairBlock::new);
+		TEALLARGETILESLAB = register("teallargetileslab", TeallargetileslabBlock::new);
+		TEALLARGETILEWALL = register("teallargetilewall", TeallargetilewallBlock::new);
+		TEALLARGETILEFENCE = register("teallargetilefence", TeallargetilefenceBlock::new);
+		TEALLARGETILEFENCEGATE = register("teallargetilefencegate", TeallargetilefencegateBlock::new);
+		TEALLARGETILETRAPDOOR = register("teallargetiletrapdoor", TeallargetiletrapdoorBlock::new);
+		TEALLARGETILEPRESSUREPLATE = register("teallargetilepressureplate", TeallargetilepressureplateBlock::new);
+		TEALLARGETILEBUTTON = register("teallargetilebutton", TeallargetilebuttonBlock::new);
+		TEALBRICKSTAIR = register("tealbrickstair", TealbrickstairBlock::new);
+		TEALBRICKSLAB = register("tealbrickslab", TealbrickslabBlock::new);
+		TEALBRICKWALL = register("tealbrickwall", TealbrickwallBlock::new);
+		TEALBRICKFENCE = register("tealbrickfence", TealbrickfenceBlock::new);
+		TEALBRICKFENCEGATE = register("tealbrickfencegate", TealbrickfencegateBlock::new);
+		TEALBRICKTRAPDOOR = register("tealbricktrapdoor", TealbricktrapdoorBlock::new);
+		TEALBRICKPRESSUREPLATE = register("tealbrickpressureplate", TealbrickpressureplateBlock::new);
+		TEALBRICKBUTTON = register("tealbrickbutton", TealbrickbuttonBlock::new);
 	}
 
 	// Start of user code block custom blocks
