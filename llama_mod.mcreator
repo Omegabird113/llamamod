@@ -20441,7 +20441,7 @@
   "workspaceSettings": {
     "modid": "llama_mod",
     "modName": "LlamaMod",
-    "version": "0.44.75",
+    "version": "0.45",
     "description": "A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code.",
     "author": "Omegabird113",
     "websiteURL": "https://mcreator.net",
