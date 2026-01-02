@@ -370,5 +370,7 @@ public class LlamaModModTabs {
 				tabData.accept(LlamaModModBlocks.BANANA_PLANT.get().asItem());
 				tabData.accept(LlamaModModItems.FARMSCRAPS.get());
 				tabData.accept(LlamaModModItems.ACID_BUCKET.get());
+				tabData.accept(LlamaModModBlocks.TEALBRICKS.get().asItem());
+				tabData.accept(LlamaModModBlocks.TEAL_LARGE_TILE.get().asItem());
 			}).build());
 }

@@ -368,6 +368,8 @@ public class LlamaModModBlocks {
 	public static final DeferredBlock<Block> CHERRYLARGETILEPRESSUREPLATE;
 	public static final DeferredBlock<Block> CHERRYLARGETILEBUTTON;
 	public static final DeferredBlock<Block> SECURESTORAGEBLOCK;
+	public static final DeferredBlock<Block> TEALBRICKS;
+	public static final DeferredBlock<Block> TEAL_LARGE_TILE;
 	static {
 		BANANA_PLANT = register("banana_plant", BannanaplantBlock::new);
 		ACID = register("acid", AcidBlock::new);
@@ -717,6 +719,8 @@ public class LlamaModModBlocks {
 		CHERRYLARGETILEPRESSUREPLATE = register("cherrylargetilepressureplate", CherrylargetilepressureplateBlock::new);
 		CHERRYLARGETILEBUTTON = register("cherrylargetilebutton", CherrylargetilebuttonBlock::new);
 		SECURESTORAGEBLOCK = register("securestorageblock", SecurestorageblockBlock::new);
+		TEALBRICKS = register("tealbricks", TealbricksBlock::new);
+		TEAL_LARGE_TILE = register("teal_large_tile", TealLargeTileBlock::new);
 	}
 
 	// Start of user code block custom blocks

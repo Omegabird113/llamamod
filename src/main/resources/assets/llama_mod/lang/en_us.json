@@ -483,5 +483,7 @@
   "gui.llama_mod.computergui.power_output_suffix": "",
   "gui.llama_mod.computergui.button_set": "Set",
   "gui.llama_mod.double_secure_stoorafe_block_gui.allow_clearing": "Show delete button",
-  "gui.llama_mod.computergui.button_random": "Random"
+  "gui.llama_mod.computergui.button_random": "Random",
+  "item.llama_mod.tealbricks": "Teal Bricks",
+  "item.llama_mod.teal_large_tile": "Teal Large Tile"
 }

@@ -4,7 +4,7 @@ license="Not specified"
 
 [[mods]]
 modId="llama_mod"
-version="0.44.71"
+version="0.44.72"
 displayName="LlamaMod"
 displayURL="https://mcreator.net"
 logoFile="logo.png"

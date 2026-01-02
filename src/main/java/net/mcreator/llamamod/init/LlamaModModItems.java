@@ -379,6 +379,8 @@ public class LlamaModModItems {
 	public static final DeferredItem<Item> CHERRYLARGETILEPRESSUREPLATE;
 	public static final DeferredItem<Item> CHERRYLARGETILEBUTTON;
 	public static final DeferredItem<Item> SECURESTORAGEBLOCK;
+	public static final DeferredItem<Item> TEALBRICKS;
+	public static final DeferredItem<Item> TEAL_LARGE_TILE;
 	static {
 		BANANA_PLANT = block(LlamaModModBlocks.BANANA_PLANT);
 		BANANA = register("banana", BannanaItem::new);
@@ -733,6 +735,8 @@ public class LlamaModModItems {
 		CHERRYLARGETILEPRESSUREPLATE = block(LlamaModModBlocks.CHERRYLARGETILEPRESSUREPLATE);
 		CHERRYLARGETILEBUTTON = block(LlamaModModBlocks.CHERRYLARGETILEBUTTON);
 		SECURESTORAGEBLOCK = block(LlamaModModBlocks.SECURESTORAGEBLOCK);
+		TEALBRICKS = block(LlamaModModBlocks.TEALBRICKS);
+		TEAL_LARGE_TILE = block(LlamaModModBlocks.TEAL_LARGE_TILE);
 	}
 
 	// Start of user code block custom items

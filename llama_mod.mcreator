@@ -17239,6 +17239,42 @@
         ]
       },
       "path": "~/Recipes"
+    },
+    {
+      "name": "Tealbricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tealbricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/llama_mod/items/tealbricks.json",
+          "src/main/java/net/mcreator/llamamod/block/TealbricksBlock.java",
+          "src/main/resources/data/llama_mod/loot_table/blocks/tealbricks.json",
+          "src/main/resources/assets/llama_mod/blockstates/tealbricks.json",
+          "src/main/resources/assets/llama_mod/models/block/tealbricks.json",
+          "src/main/resources/assets/llama_mod/models/item/tealbricks.json"
+        ]
+      },
+      "path": "~/Blocks/New Bricks"
+    },
+    {
+      "name": "TealLargeTile",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/llama_mod/blockstates/teal_large_tile.json",
+          "src/main/resources/data/llama_mod/loot_table/blocks/teal_large_tile.json",
+          "src/main/java/net/mcreator/llamamod/block/TealLargeTileBlock.java",
+          "src/main/resources/assets/llama_mod/models/item/teal_large_tile.json",
+          "src/main/resources/assets/llama_mod/models/block/teal_large_tile.json",
+          "src/main/resources/assets/llama_mod/items/teal_large_tile.json"
+        ]
+      },
+      "path": "~/Blocks/Large Tiles"
     }
   ],
   "variable_elements": [],
@@ -17344,6 +17380,8 @@
       "~CUSTOM:IndustrialLargeTile"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TealLargeTile",
+      "~CUSTOM:Tealbricks",
       "~CUSTOM:Securestorageblock",
       "~CUSTOM:Cherrylargetilebutton",
       "~CUSTOM:Cherrylargetilepressureplate",
@@ -17713,6 +17751,7 @@
       "Blocks.BRICK_BLOCK"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:TealLargeTile",
       "~CUSTOM:Cherrylargetilebutton",
       "~CUSTOM:Cherrylargetilepressureplate",
       "~CUSTOM:Cherrylargetiletrapdoor",
@@ -18875,7 +18914,9 @@
       "Bannana",
       "Bannanaplant",
       "Farmscraps",
-      "Acid"
+      "Acid",
+      "Tealbricks",
+      "TealLargeTile"
     ],
     "OP_BLOCKS": []
   },
@@ -19365,7 +19406,9 @@
       "gui.llama_mod.computergui.power_output_suffix": "",
       "gui.llama_mod.computergui.button_set": "Set",
       "gui.llama_mod.double_secure_stoorafe_block_gui.allow_clearing": "Show delete button",
-      "gui.llama_mod.computergui.button_random": "Random"
+      "gui.llama_mod.computergui.button_random": "Random",
+      "item.llama_mod.tealbricks": "Teal Bricks",
+      "item.llama_mod.teal_large_tile": "Teal Large Tile"
     }
   },
   "metadata": {
@@ -19545,7 +19588,7 @@
   "workspaceSettings": {
     "modid": "llama_mod",
     "modName": "LlamaMod",
-    "version": "0.44.71",
+    "version": "0.44.72",
     "description": "A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code.",
     "author": "Omegabird113",
     "websiteURL": "https://mcreator.net",
