@@ -12,7 +12,7 @@ Their are 2 massive sets of building blocks;
 2. The large tiles
 
 Both sets come in 19 colors:
-- All **16 Vanillia Colors** *(White, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, light Blue, Blue, Purple, Magenta, Pink)*
+- All **16 Vanilla Colors** *(White, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, light Blue, Blue, Purple, Magenta, Pink)*
 - "Industrial' variants which are colored similar to Netherite
 - "Cherry" variants which are hot pink
 - Teal variants
@@ -61,43 +61,54 @@ Farm scraps are non-plantable items which can be used for the following:
 
 ### Acid
 
-Acid is a fluid which currently does not generate natrually and is not accessable outside of the creative inventory. It deals damage to any entity that comes in contact with it. You can also drown in it. It has more fog than water, but way less than lava.
+Acid is a fluid which currently does not generate naturally and is not accesable outside of the creative inventory. It deals damage to any entity that comes in contact with it. You can also drown in it. It has more fog than water, but way less than lava.
 
-#### The Acid Disolving effct
+#### The Acid Dissolving effect
 
 Coming in contact with acid gives level 1 of this effect to the entity for 8.25 seconds *(165 ticks)*.
 
 The the player gets the effect:
 - If the level is below 5, `1.5` damage of type `acid_damage` is dealt
-- If the level is at or above 5, damage of type `acid_damage` is dealth acording to the formula `(a - 2) * 3.05 + 1.5` where `a` is the amplifier
+- If the level is at or above 5, damage of type `acid_damage` is dealt according to the formula `(a - 2) * 3.05 + 1.5` where `a` is the amplifier
 
 On each tick the effect is active:
-- Damage of type `acid_damage` is dealt acording to rounding up the result of the formula, `(a + 0.87) * 1.15` where `a` is the amplifier
+- Damage of type `acid_damage` is dealt according to rounding up the result of the formula, `(a + 0.87) * 1.15` where `a` is the amplifier
 
 The Acid Damage type:
 - Scales with difficulty
 - Has an exhaustion value of `0.65`
 
-### The Passowrd System
+### The Password System
 
-The Secure Stoorage Block, Computer, and Authenticator all support passwords. By defualt, the password is blank. When there is no password yet, the Computer and Secure Stoorage Block skip the passowrd screen, but the Authenticator instead requires the user to leave the password feild blank. The user can change passwords using the Password Changer, though they need to enter the existing password. Though, those with operator permissions see what the previous password is.
+The [Secure Storage Block](#the-secure-storage-block), [Computer](#the-computer), and [Authenticator](#the-authenticator) all support passwords. By default, the password is blank. When there is no password yet, the [Computer](#the-computer) and [Secure Storage Block](#the-secure-storage-block) skip the password screen, but the Authenticator instead requires the user to leave the password field blank. The user can change passwords using the Password Changer, though they need to enter the existing password. Though, those with operator permissions see what the previous password is.
 
 #### <ins>**Important Security Concerns**</ins>
 1. **Operators can see any password**, meaning that all passwords aren't actually private.
 2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamamMod.
-> More specifically, passwords are stored in a text NBT tag named `access_password`, which can be easily veiwed using the vinilla `/data` command.
+> More specifically, passwords are stored in a text NBT tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
 
 ### The Computer
 
-The complex offers a variety or features for information, math, player management, and more. Here's a list of it's features:
-- It supports having passwords with the Password System, only people with access can use the other features
-- Players can make calculations between 2 numebrs using the operations: `+`, `-`, `*`, `/`, and `^`
+The complex offers a variety or features for information, math, player management, and more. Here's a list of its features:
+- It supports having passwords with the [Password System](#the-password-system), only people with access can use the other features
+- Players can make calculations between 2 numbers using the operations: `+`, `-`, `*`, `/`, and `^`
 - Players can send messages to other players
 - Operators can clear the inventory of and kill players
-- Players can store and retreve a message within the computer block itself
+- Players can store and retreive a message within the computer block itself
 - Players can generate a random number with a minimum and maximum values as low as `-1,000` and as high as `1,000`, including or exclusive. (exclusive includes decimal values)
 - Players can access a formatted string of the 24-hour time (Ex. `7 o'clock (10% through the day)`)
 - Players can set a redstone output between 0 and 15, and they can chose to have the computer pick a random power output between 0 and 15.
+
+### The Secure Storage Block
+
+This is like a barrel, but:
+- it has `7` rows of items
+- There's a button which deletes all items, though there's a checkbox on whether or not to show that button in order to prevent accidental deletions
+- It supports the having passwords with the [Password System](#the-password-system)
+
+### The Authenticator
+
+This asks for a password using the [Password System](#the-password-system) and if successful, gives a redstone pulse for `15 game ticks` (`0.75 seconds`).
 
 ## Development
 
