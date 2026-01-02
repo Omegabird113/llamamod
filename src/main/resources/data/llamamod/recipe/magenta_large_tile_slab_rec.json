@@ -5,10 +5,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:magentalargetile"
+    "a": "llamamod:magenta_large_tile"
   },
   "result": {
-    "id": "llamamod:magentalargetileslab",
+    "id": "llamamod:magenta_large_tile_slab",
     "count": 6
   }
 }

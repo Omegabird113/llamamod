@@ -6,10 +6,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:pinklargetile"
+    "a": "llamamod:pink_large_tile"
   },
   "result": {
-    "id": "llamamod:pinklargetilestair",
+    "id": "llamamod:pink_large_tile_stairs",
     "count": 4
   }
 }

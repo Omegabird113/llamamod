@@ -5,10 +5,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:purplelargetile"
+    "a": "llamamod:purple_large_tile"
   },
   "result": {
-    "id": "llamamod:purplelargetilepressureplate",
+    "id": "llamamod:purple_large_tile_pressure_plate",
     "count": 8
   }
 }

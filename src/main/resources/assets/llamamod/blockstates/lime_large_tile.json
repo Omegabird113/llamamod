@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "llamamod:block/lime_large_tile"
+    }
+  }
+}

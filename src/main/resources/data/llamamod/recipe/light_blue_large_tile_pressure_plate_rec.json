@@ -5,10 +5,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:lightbluelargetile"
+    "a": "llamamod:light_blue_large_tile"
   },
   "result": {
-    "id": "llamamod:lightbluelargetilepressureplate",
+    "id": "llamamod:light_blue_large_tile_pressure_plate",
     "count": 8
   }
 }

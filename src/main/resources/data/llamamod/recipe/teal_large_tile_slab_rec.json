@@ -5,10 +5,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:teallargetile"
+    "a": "llamamod:teal_large_tile"
   },
   "result": {
-    "id": "llamamod:teallargetileslab",
+    "id": "llamamod:teal_large_tile_slab",
     "count": 6
   }
 }

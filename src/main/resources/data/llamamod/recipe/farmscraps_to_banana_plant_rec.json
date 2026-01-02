@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:farmscraps",
-    "llamamod:farmscraps",
-    "llamamod:farmscraps",
-    "llamamod:farmscraps",
-    "llamamod:farmscraps",
-    "llamamod:farmscraps",
-    "llamamod:farmscraps",
-    "llamamod:farmscraps",
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
     "llamamod:banana_plant"
   ],
   "result": {

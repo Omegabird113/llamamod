@@ -6,10 +6,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:greenlargetile"
+    "a": "llamamod:green_large_tile"
   },
   "result": {
-    "id": "llamamod:greenlargetilestair",
+    "id": "llamamod:green_large_tile_stairs",
     "count": 4
   }
 }

@@ -14,7 +14,7 @@ public class LlamamodModFuels {
 	@SubscribeEvent
 	public static void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {
 		ItemStack itemstack = event.getItemStack();
-		if (itemstack.getItem() == LlamamodModItems.FARMSCRAPS.get())
+		if (itemstack.getItem() == LlamamodModItems.FARM_SCRAPS.get())
 			event.setBurnTime(45);
 		else if (itemstack.getItem() == LlamamodModBlocks.BANANA_PLANT.get().asItem())
 			event.setBurnTime(125);

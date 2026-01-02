@@ -6,10 +6,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:cherrylargetile"
+    "a": "llamamod:cherry_large_tile"
   },
   "result": {
-    "id": "llamamod:cherrylargetilestair",
+    "id": "llamamod:cherry_large_tile_stairs",
     "count": 4
   }
 }

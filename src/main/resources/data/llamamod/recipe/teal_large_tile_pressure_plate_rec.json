@@ -5,10 +5,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:teallargetile"
+    "a": "llamamod:teal_large_tile"
   },
   "result": {
-    "id": "llamamod:teallargetilepressureplate",
+    "id": "llamamod:teal_large_tile_pressure_plate",
     "count": 8
   }
 }

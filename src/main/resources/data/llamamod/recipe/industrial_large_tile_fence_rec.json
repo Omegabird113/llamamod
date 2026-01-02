@@ -6,11 +6,11 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:industriallargetile",
+    "a": "llamamod:industrial_large_tile",
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "llamamod:industriallargetilefence",
+    "id": "llamamod:industrial_large_tile_fence",
     "count": 8
   }
 }

@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": "minecraft:stick",
-    "b": "llamamod:industriallargetile"
+    "b": "llamamod:industrial_large_tile"
   },
   "result": {
-    "id": "llamamod:industriallargetilefencegate",
+    "id": "llamamod:industrial_large_tile_fence_gate",
     "count": 4
   }
 }

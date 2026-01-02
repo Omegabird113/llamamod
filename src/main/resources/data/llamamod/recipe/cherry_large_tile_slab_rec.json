@@ -5,10 +5,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:cherrylargetile"
+    "a": "llamamod:cherry_large_tile"
   },
   "result": {
-    "id": "llamamod:cherrylargetiletrapdoor",
+    "id": "llamamod:cherry_large_tile_trapdoor",
     "count": 6
   }
 }

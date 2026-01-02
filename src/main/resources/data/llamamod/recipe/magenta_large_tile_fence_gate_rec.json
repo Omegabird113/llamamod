@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": "minecraft:stick",
-    "b": "llamamod:magentalargetile"
+    "b": "llamamod:magenta_large_tile"
   },
   "result": {
-    "id": "llamamod:magentalargetilefencegate",
+    "id": "llamamod:magenta_large_tile_fence_gate",
     "count": 4
   }
 }

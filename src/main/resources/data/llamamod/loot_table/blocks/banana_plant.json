@@ -47,7 +47,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "llamamod:farmscraps",
+          "name": "llamamod:farm_scraps",
           "weight": 6,
           "conditions": [
             {

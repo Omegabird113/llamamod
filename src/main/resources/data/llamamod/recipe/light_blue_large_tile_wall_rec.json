@@ -6,10 +6,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:lightbluelargetile"
+    "a": "llamamod:light_blue_large_tile"
   },
   "result": {
-    "id": "llamamod:lightbluelargetilewall",
+    "id": "llamamod:light_blue_large_tile_wall",
     "count": 12
   }
 }

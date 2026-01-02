@@ -6,11 +6,11 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:cyanlargetile",
+    "a": "llamamod:cyan_large_tile",
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "llamamod:cyanlargetilefence",
+    "id": "llamamod:cyan_large_tile_fence",
     "count": 8
   }
 }

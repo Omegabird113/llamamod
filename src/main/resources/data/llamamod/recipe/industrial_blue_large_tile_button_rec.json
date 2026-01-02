@@ -2,10 +2,10 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:industriallargetile"
+    "llamamod:industrial_large_tile"
   ],
   "result": {
-    "id": "llamamod:industriallargetilebutton",
+    "id": "llamamod:industrial_large_tile_button",
     "count": 10
   }
 }

@@ -6,10 +6,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:brownlargetile"
+    "a": "llamamod:brown_large_tile"
   },
   "result": {
-    "id": "llamamod:brownlargetiletrapdoor",
+    "id": "llamamod:brown_large_tile_trapdoor",
     "count": 12
   }
 }

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "llamamod:blocks/black_large_tile_button",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "llamamod:black_large_tile_button"
+        }
+      ]
+    }
+  ]
+}

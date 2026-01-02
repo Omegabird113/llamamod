@@ -5,10 +5,10 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:industriallargetile"
+    "a": "llamamod:industrial_large_tile"
   },
   "result": {
-    "id": "llamamod:industriallargetileslab",
+    "id": "llamamod:industrial_large_tile_slab",
     "count": 6
   }
 }

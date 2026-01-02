@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:farmscraps"
+    "llamamod:farm_scraps"
   ],
   "result": {
     "id": "minecraft:brown_dye",

@@ -6,11 +6,11 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:cherrylargetile",
+    "a": "llamamod:cherry_large_tile",
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "llamamod:cherrylargetilefence",
+    "id": "llamamod:cherry_large_tile_fence",
     "count": 8
   }
 }

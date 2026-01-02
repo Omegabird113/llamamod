@@ -6,11 +6,11 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:whitelargetile",
+    "a": "llamamod:white_large_tile",
     "b": "minecraft:stick"
   },
   "result": {
-    "id": "llamamod:largetilefence",
+    "id": "llamamod:large_tile_fence",
     "count": 8
   }
 }

@@ -6,10 +6,10 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:cyanlargetile"
+    "a": "llamamod:cyan_large_tile"
   },
   "result": {
-    "id": "llamamod:cyanlargetiletrapdoor",
+    "id": "llamamod:cyan_large_tile_trapdoor",
     "count": 12
   }
 }

@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:farmscraps",
-    "llamamod:farmscraps",
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
     "minecraft:melon_seeds",
-    "llamamod:farmscraps",
-    "llamamod:farmscraps"
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps"
   ],
   "result": {
     "id": "minecraft:melon_seeds",

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/purple_large_tile_slab"
+    },
+    "type=top": {
+      "model": "llamamod:block/purple_large_tile_slab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/purple_large_tile_slab_full"
+    }
+  }
+}
