@@ -31,3 +31,17 @@ Each color varients of the massive set, alongside each Tile set has the followin
 This totals to **360** building blocks as of release [0.45](https://github.com/Omegabird113/llama_mod/releases/tag/0.45)!
 
 ### The rest is TBD
+
+## Devlopment
+
+Here's some information about the devlopment of LlamaMod
+
+### Current Requirments to Run LlamaMod in Minecraft:
+- Minecraft version 1.21.8
+- [Neoforge](https://neoforged.net/) version 21.8.31 or higher
+
+### Current Requirments to Open Workspace:
+- [MCreator](https://mcreator.net) version [2025.3](https://mcreator.net/download/2025-3)
+- The [Blockstates](https://mcreator.net/plugin/104253/blockstates) plugin.
+
+> Note that in order to connect to the GitHUb repo, I'm also using the [Remote Workspaces Support](https://mcreator.net/plugin/97468/remote-workspaces-support-20232) plugin
