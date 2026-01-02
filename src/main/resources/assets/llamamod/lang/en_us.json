@@ -18,7 +18,7 @@
   "gui.llama_mod.computergui.label_current_time": "Current Time:",
   "gui.llama_mod.passwordchangergui.label_password": "password",
   "gui.llama_mod.incorrect_password_gui.button_about_llamamood": "About LlamaMood",
-  "gamerule.allowItemClearing.description": "Whether or not clear/destroy items buttons in some stoorage containers work",
+  "gamerule.allowItemClearing.description": "Whether or not \"Clear\" button in the Secure Storage Block, and the \"Delete Items\" button in the Netherite Backpack GUI work to delete all the items.",
   "gui.llama_mod.computerauthgui.password": "Type here",
   "gui.llama_mod.sec_stoor_blockgui.button_change_password": "Change Password",
   "gui.llama_mod.authblockauthgui.label_secure_stoorage_block": "Authenticator Block",

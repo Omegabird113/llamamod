@@ -4,7 +4,7 @@
   "definition": {
     "type": "Logic",
     "displayName": "Allow LlamaMod features to destroy Items",
-    "description": "Whether or not clear/destroy items buttons in some stoorage containers work",
+    "description": "Whether or not \"Clear\" button in the Secure Storage Block, and the \"Delete Items\" button in the Netherite Backpack GUI work to delete all the items.",
     "category": "MISC",
     "defaultValueLogic": true,
     "defaultValueNumber": 0
