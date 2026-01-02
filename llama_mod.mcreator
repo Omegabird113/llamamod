@@ -20445,7 +20445,7 @@
     "description": "A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code.",
     "author": "Omegabird113",
     "websiteURL": "https://mcreator.net",
-    "license": "Not specified",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "modPicture": "new_simple_logo_scaled_32x_no_border",
     "requiredMods": [],
