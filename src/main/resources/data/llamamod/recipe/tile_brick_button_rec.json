@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:tiles"
+  ],
+  "result": {
+    "id": "llamamod:tilebutton",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": "#llamamod:non_black_concrete_or_powder",
+    "b": "#llamamod:black_concrete_or_powder"
+  },
+  "result": {
+    "id": "llamamod:tiles",
+    "count": 1
+  }
+}

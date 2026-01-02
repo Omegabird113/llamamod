@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:bluelargetile"
+  ],
+  "result": {
+    "id": "llamamod:bluelargetilebutton",
+    "count": 10
+  }
+}

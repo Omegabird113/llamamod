@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:ender_chest",
+    "llamamod:backpack",
+    "minecraft:barrel",
+    "minecraft:chest",
+    "llamamod:netheritebackpack",
+    "minecraft:trapped_chest"
+  ]
+}

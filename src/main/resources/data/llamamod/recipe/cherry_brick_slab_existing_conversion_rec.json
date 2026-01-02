@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tile_slabs",
+    "minecraft:red_dye",
+    "minecraft:pink_dye"
+  ],
+  "result": {
+    "id": "llamamod:cherrybrickslab",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llamamod:block/whitelargetilepressureplate"
+    },
+    "powered=true": {
+      "model": "llamamod:block/whitelargetilepressureplate_down"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_stairs",
+    "minecraft:green_dye",
+    "minecraft:blue_dye"
+  ],
+  "result": {
+    "id": "llamamod:tealbrickstair",
+    "count": 1
+  }
+}

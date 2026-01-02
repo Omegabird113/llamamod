@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llamamod:block/cyanlargetilepressureplate"
+    },
+    "powered=true": {
+      "model": "llamamod:block/cyanlargetilepressureplate_down"
+    }
+  }
+}

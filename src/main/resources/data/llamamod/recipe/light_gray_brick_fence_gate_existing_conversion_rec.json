@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_fence_gates",
+    "minecraft:light_gray_dye"
+  ],
+  "result": {
+    "id": "llamamod:lightgraybrickfencegate",
+    "count": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:industriallargetile"
+  ],
+  "result": {
+    "id": "llamamod:industriallargetilebutton",
+    "count": 10
+  }
+}

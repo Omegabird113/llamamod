@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tile_trapdoors",
+    "minecraft:copper_ingot",
+    "minecraft:iron_ingot"
+  ],
+  "result": {
+    "id": "llamamod:industriallargetiletrapdoor",
+    "count": 12
+  }
+}

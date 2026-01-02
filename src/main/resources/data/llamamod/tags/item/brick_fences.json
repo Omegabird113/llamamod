@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:industrialbrickfence",
+    "llamamod:whitebrickfence",
+    "llamamod:blackbrickfence",
+    "llamamod:orangelargetilefence",
+    "llamamod:bluebrickfence",
+    "llamamod:lightgraybrickfence",
+    "llamamod:redlargetilefence",
+    "llamamod:magentabrickfence",
+    "llamamod:cyanbrickfence",
+    "llamamod:cherrybrickfence",
+    "llamamod:yellowbrickfence",
+    "llamamod:greenbrickfence",
+    "llamamod:purplebrickfence",
+    "llamamod:pinkbrickfence",
+    "llamamod:tealbrickfence",
+    "llamamod:graybrickfence",
+    "llamamod:brownlargetilefence",
+    "llamamod:lightbluebrickfence",
+    "llamamod:limebrickfence"
+  ]
+}

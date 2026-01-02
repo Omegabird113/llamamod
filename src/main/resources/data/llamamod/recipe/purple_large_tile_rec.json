@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tiles",
+    "minecraft:purple_dye"
+  ],
+  "result": {
+    "id": "llamamod:purplelargetile",
+    "count": 1
+  }
+}

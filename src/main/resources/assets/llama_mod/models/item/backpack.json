@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "llama_mod:item/vackpack_texture"
-  }
-}

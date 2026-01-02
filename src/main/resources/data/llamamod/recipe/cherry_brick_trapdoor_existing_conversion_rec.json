@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": "#llamamod:brick_trapdoors",
+    "b": "minecraft:pink_dye",
+    "c": "minecraft:red_dye"
+  },
+  "result": {
+    "id": "llamamod:cherrybricktrapdoor",
+    "count": 1
+  }
+}

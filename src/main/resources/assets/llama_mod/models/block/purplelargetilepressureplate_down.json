@@ -1,8 +1,0 @@
-{
-  "parent": "block/pressure_plate_down",
-  "textures": {
-    "texture": "llama_mod:block/purple_large_tile",
-    "particle": "llama_mod:block/purple_large_tile"
-  },
-  "render_type": "solid"
-}

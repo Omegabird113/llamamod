@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "llamamod:block/teal_bricks",
+    "bottom": "llamamod:block/teal_bricks",
+    "top": "llamamod:block/teal_bricks",
+    "side": "llamamod:block/teal_bricks"
+  },
+  "render_type": "solid"
+}

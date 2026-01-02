@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:teallargetile"
+  ],
+  "result": {
+    "id": "llamamod:teallargetilebutton",
+    "count": 10
+  }
+}

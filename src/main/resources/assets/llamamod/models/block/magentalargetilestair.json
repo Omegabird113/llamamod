@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "llamamod:block/magenta_large_tile",
+    "bottom": "llamamod:block/magenta_large_tile",
+    "top": "llamamod:block/magenta_large_tile",
+    "side": "llamamod:block/magenta_large_tile"
+  },
+  "render_type": "solid"
+}

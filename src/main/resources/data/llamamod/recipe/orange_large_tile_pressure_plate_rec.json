@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:orangelargetile"
+  },
+  "result": {
+    "id": "llamamod:orangelargetilepressureplate",
+    "count": 8
+  }
+}

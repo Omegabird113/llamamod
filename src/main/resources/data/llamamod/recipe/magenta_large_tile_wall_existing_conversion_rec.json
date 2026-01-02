@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tile_walls",
+    "minecraft:magenta_dye"
+  ],
+  "result": {
+    "id": "llamamod:magentalargetilewall",
+    "count": 1
+  }
+}

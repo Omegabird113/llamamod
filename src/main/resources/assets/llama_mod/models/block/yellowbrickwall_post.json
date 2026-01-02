@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "llama_mod:block/new_yellow_brick",
-    "particle": "llama_mod:block/new_yellow_brick"
-  },
-  "render_type": "solid"
-}

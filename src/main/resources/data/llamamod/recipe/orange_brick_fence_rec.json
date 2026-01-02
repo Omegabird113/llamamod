@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "llamamod:orangebricks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "llamamod:orangebrickfence",
+    "count": 8
+  }
+}

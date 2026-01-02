@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": "minecraft:netherite_upgrade_smithing_template",
+  "base": "llamamod:backpack",
+  "addition": "minecraft:netherite_ingot",
+  "result": {
+    "id": "llamamod:netheritebackpack"
+  }
+}

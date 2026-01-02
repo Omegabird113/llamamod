@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamamod:orangebricks"
+  },
+  "result": {
+    "id": "llamamod:orangebrickslab",
+    "count": 6
+  }
+}

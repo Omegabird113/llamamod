@@ -1,0 +1,8 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "llamamod:block/new_lime_brick",
+    "particle": "llamamod:block/new_lime_brick"
+  },
+  "render_type": "solid"
+}

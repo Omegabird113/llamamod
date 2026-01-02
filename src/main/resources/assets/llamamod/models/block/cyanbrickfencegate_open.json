@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_open",
+  "textures": {
+    "texture": "llamamod:block/new_cyan_bricks",
+    "particle": "llamamod:block/new_cyan_bricks"
+  },
+  "render_type": "solid"
+}

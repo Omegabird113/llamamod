@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": "#llamamod:brick_trapdoors",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "llamamod:industrialbricktrapdoor",
+    "count": 1
+  }
+}

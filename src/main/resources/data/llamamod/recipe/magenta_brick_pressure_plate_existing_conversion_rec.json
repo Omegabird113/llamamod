@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_pressure_plates",
+    "minecraft:magenta_dye"
+  ],
+  "result": {
+    "id": "llamamod:magentabrickpressureplate",
+    "count": 1
+  }
+}

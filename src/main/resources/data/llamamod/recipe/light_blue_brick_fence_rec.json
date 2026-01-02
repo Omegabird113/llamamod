@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "llamamod:lightbluebricks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "llamamod:lightbluebrickfence",
+    "count": 8
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_types",
+    "minecraft:red_dye"
+  ],
+  "result": {
+    "id": "llamamod:redbricks",
+    "count": 1
+  }
+}

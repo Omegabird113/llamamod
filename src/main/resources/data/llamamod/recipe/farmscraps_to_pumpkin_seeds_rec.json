@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:farmscraps",
+    "llamamod:farmscraps",
+    "minecraft:pumpkin_seeds",
+    "llamamod:farmscraps",
+    "llamamod:farmscraps"
+  ],
+  "result": {
+    "id": "minecraft:pumpkin_seeds",
+    "count": 3
+  }
+}

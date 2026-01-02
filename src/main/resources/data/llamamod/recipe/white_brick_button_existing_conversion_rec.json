@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_buttons",
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "id": "llamamod:whitebrickbutton",
+    "count": 1
+  }
+}

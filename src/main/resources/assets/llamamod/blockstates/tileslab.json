@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/tileslab"
+    },
+    "type=top": {
+      "model": "llamamod:block/tileslab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/tileslab_full"
+    }
+  }
+}

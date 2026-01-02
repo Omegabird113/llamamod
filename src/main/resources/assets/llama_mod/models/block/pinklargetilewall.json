@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_side",
-  "textures": {
-    "wall": "llama_mod:block/pink_large_tile",
-    "particle": "llama_mod:block/pink_large_tile"
-  },
-  "render_type": "solid"
-}

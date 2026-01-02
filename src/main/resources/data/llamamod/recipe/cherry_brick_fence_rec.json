@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "llamamod:cherrybricks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "llamamod:cherrybrickfence",
+    "count": 8
+  }
+}

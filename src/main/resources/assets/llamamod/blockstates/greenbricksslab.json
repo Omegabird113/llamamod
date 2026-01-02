@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/greenbricksslab"
+    },
+    "type=top": {
+      "model": "llamamod:block/greenbricksslab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/greenbricksslab_full"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:bluebrickbutton",
+    "llamamod:lightgraybrickbutton",
+    "llamamod:industrialbrickbutton",
+    "llamamod:greenbrickbutton",
+    "llamamod:tealbrickbutton",
+    "llamamod:limebrickbutton",
+    "llamamod:purplebrickbutton",
+    "llamamod:brownbrickbutton",
+    "llamamod:magentabrickbutton",
+    "llamamod:lightbluebrickbutton",
+    "llamamod:redbrickbutton",
+    "llamamod:graybrickbutton",
+    "llamamod:cyanbrickbutton",
+    "llamamod:blackbrickbutton",
+    "llamamod:orangebrickbutton",
+    "llamamod:whitebrickbutton",
+    "llamamod:yellowbrickbutton",
+    "llamamod:pinkbrickbutton",
+    "llamamod:cherrybrickbutton"
+  ]
+}

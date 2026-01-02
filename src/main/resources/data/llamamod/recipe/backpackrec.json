@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    " b "
+  ],
+  "key": {
+    "a": "minecraft:leather",
+    "b": "minecraft:paper",
+    "c": "#minecraft:planks",
+    "d": "minecraft:string"
+  },
+  "result": {
+    "id": "llamamod:backpack",
+    "count": 1
+  }
+}

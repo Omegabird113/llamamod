@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/lightbluebrickslab"
+    },
+    "type=top": {
+      "model": "llamamod:block/lightbluebrickslab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/lightbluebrickslab_full"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tile_fence",
+    "minecraft:orange_dye"
+  ],
+  "result": {
+    "id": "llamamod:orangelargetilefence",
+    "count": 1
+  }
+}

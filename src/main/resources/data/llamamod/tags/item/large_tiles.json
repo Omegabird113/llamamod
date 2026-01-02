@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:lightgraylargetile",
+    "llamamod:lightbluelargetile",
+    "llamamod:redlargetile",
+    "llamamod:yellowlargetile",
+    "llamamod:pinklargetile",
+    "llamamod:cyanlargetile",
+    "llamamod:magentalargetile",
+    "llamamod:brownlargetile",
+    "llamamod:purplelargetile",
+    "llamamod:greenlargetile",
+    "llamamod:graylargetile",
+    "llamamod:teallargetile",
+    "llamamod:bluelargetile",
+    "llamamod:limelargetile",
+    "llamamod:cherrylargetile",
+    "llamamod:orangelargetile",
+    "llamamod:industriallargetile",
+    "llamamod:whitelargetile",
+    "llamamod:blacklargetile"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tile_trapdoors",
+    "minecraft:pink_dye"
+  ],
+  "result": {
+    "id": "llamamod:pinklargetiletrapdoor",
+    "count": 12
+  }
+}

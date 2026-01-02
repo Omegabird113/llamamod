@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_stairs",
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "id": "llamamod:whitebrickstair",
+    "count": 1
+  }
+}

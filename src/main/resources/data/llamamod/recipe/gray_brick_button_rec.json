@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:graybricks"
+  ],
+  "result": {
+    "id": "llamamod:graybrickbutton",
+    "count": 9
+  }
+}

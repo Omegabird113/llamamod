@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "llamamod:ceilingtiles"
+  },
+  "result": {
+    "id": "llamamod:ceilingtilewall",
+    "count": 12
+  }
+}

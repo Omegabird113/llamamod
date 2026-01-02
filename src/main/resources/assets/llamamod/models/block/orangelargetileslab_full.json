@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "llamamod:block/orange_large_tile",
+    "bottom": "llamamod:block/orange_large_tile",
+    "top": "llamamod:block/orange_large_tile",
+    "side": "llamamod:block/orange_large_tile"
+  },
+  "render_type": "solid"
+}

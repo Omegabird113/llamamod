@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:industrialbricks"
+  ],
+  "result": {
+    "id": "llamamod:industrialbrickbutton",
+    "count": 9
+  }
+}

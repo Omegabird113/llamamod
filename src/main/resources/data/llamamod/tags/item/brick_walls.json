@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:brownbrickwall",
+    "llamamod:industrialbrickwall",
+    "llamamod:orangebrickwall",
+    "llamamod:graybrickwall",
+    "llamamod:tealbrickwall",
+    "minecraft:brick_wall",
+    "llamamod:limebrickwall",
+    "llamamod:bluebrickwall",
+    "llamamod:whitebrickwall",
+    "llamamod:blackbrickwall",
+    "llamamod:cherrybrickwall",
+    "llamamod:lightgraybrickwall",
+    "llamamod:redbrickwall",
+    "llamamod:lightbluebrickwall",
+    "llamamod:magentabrickwall",
+    "llamamod:yellowbrickwall",
+    "llamamod:pinkbrickwall",
+    "llamamod:cyanbrickwall",
+    "llamamod:greenbrickwall",
+    "llamamod:purplebrickwall"
+  ]
+}

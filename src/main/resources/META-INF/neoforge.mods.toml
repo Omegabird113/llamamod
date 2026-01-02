@@ -3,8 +3,8 @@ loaderVersion="[4,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="llama_mod"
-version="0.45"
+modId="llamamod"
+version="0.45.00"
 displayName="LlamaMod"
 displayURL="https://mcreator.net"
 logoFile="logo.png"
@@ -19,14 +19,14 @@ description="A mod with a chaotic set of features based on what I thought would 
 # Start of user code block custom mixins
 # End of user code block custom mixins
 
-[[dependencies.llama_mod]]
+[[dependencies.llamamod]]
     modId="neoforge"
     type="required"
     versionRange="[21.8.31,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.llama_mod]]
+[[dependencies.llamamod]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.8]"

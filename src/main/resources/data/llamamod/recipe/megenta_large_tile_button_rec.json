@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:magentalargetile"
+  ],
+  "result": {
+    "id": "llamamod:magentalargetilebutton",
+    "count": 10
+  }
+}

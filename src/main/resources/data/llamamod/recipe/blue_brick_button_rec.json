@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:bluebricks"
+  ],
+  "result": {
+    "id": "llamamod:bluebrickbutton",
+    "count": 9
+  }
+}

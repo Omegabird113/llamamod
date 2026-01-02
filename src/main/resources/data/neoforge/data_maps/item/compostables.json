@@ -1,12 +1,12 @@
 {
   "values": {
-    "llama_mod:farmscraps": {
+    "llamamod:farmscraps": {
       "chance": 0.175
     },
-    "llama_mod:banana_plant": {
+    "llamamod:banana_plant": {
       "chance": 0.5
     },
-    "llama_mod:banana": {
+    "llamamod:banana": {
       "chance": 0.325
     }
   }

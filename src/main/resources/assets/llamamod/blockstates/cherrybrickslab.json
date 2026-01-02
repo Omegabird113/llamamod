@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/cherrybrickslab"
+    },
+    "type=top": {
+      "model": "llamamod:block/cherrybrickslab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/cherrybrickslab_full"
+    }
+  }
+}

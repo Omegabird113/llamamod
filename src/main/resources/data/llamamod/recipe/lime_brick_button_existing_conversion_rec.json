@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_buttons",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "llamamod:limebrickbutton",
+    "count": 1
+  }
+}

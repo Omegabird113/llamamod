@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llamamod:block/pinklargetilepressureplate"
+    },
+    "powered=true": {
+      "model": "llamamod:block/pinklargetilepressureplate_down"
+    }
+  }
+}

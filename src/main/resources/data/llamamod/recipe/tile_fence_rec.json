@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "llamamod:tiles",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "llamamod:tilefence",
+    "count": 8
+  }
+}

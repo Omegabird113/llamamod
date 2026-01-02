@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/lightgraylargetileslab"
+    },
+    "type=top": {
+      "model": "llamamod:block/lightgraylargetileslab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/lightgraylargetileslab_full"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "llamamod:block/pink_large_tile",
+    "bottom": "llamamod:block/pink_large_tile",
+    "top": "llamamod:block/pink_large_tile",
+    "side": "llamamod:block/pink_large_tile"
+  },
+  "render_type": "solid"
+}

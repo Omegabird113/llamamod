@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "llamamod:block/purple_large_tile",
+    "particle": "llamamod:block/purple_large_tile"
+  },
+  "render_type": "solid"
+}

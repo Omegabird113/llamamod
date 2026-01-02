@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:pinkbricks"
+  ],
+  "result": {
+    "id": "llamamod:pinkbrickbutton",
+    "count": 9
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_fences",
+    "minecraft:orange_dye"
+  ],
+  "result": {
+    "id": "llamamod:orangebrickfence",
+    "count": 1
+  }
+}

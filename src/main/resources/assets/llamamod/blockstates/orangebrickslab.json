@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/orangebrickslab"
+    },
+    "type=top": {
+      "model": "llamamod:block/orangebrickslab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/orangebrickslab_full"
+    }
+  }
+}

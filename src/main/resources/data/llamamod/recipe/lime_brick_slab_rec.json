@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamamod:limebricks"
+  },
+  "result": {
+    "id": "llamamod:limebrickslab",
+    "count": 6
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:blackbricks"
+  ],
+  "result": {
+    "id": "llamamod:blackbrickbutton",
+    "count": 9
+  }
+}

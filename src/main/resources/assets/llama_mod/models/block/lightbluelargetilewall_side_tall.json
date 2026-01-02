@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_side_tall",
-  "textures": {
-    "wall": "llama_mod:block/light_blue_large_tile",
-    "particle": "llama_mod:block/light_blue_large_tile"
-  },
-  "render_type": "solid"
-}

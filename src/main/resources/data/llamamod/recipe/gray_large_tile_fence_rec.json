@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "llamamod:graylargetile",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "llamamod:graylargetilefence",
+    "count": 8
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:purplebrickslab",
+    "llamamod:lightgraybrickslab",
+    "llamamod:lightbluebrickslab",
+    "llamamod:redbrickslab",
+    "llamamod:magentabrickslab",
+    "llamamod:greenbricksslab",
+    "llamamod:cyanbrickslab",
+    "llamamod:yellowbrickslab",
+    "minecraft:brick_slab",
+    "llamamod:orangebrickslab",
+    "llamamod:brownbrickslab",
+    "llamamod:pinkbrickslab",
+    "llamamod:limebrickslab",
+    "llamamod:graybrickslab",
+    "llamamod:tealbrickslab",
+    "llamamod:whitebrickslab",
+    "llamamod:bluebrickslab",
+    "llamamod:blackbrickslab",
+    "llamamod:cherrybrickslab",
+    "llamamod:industrialbrickslab"
+  ]
+}

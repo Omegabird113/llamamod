@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_inventory",
-  "textures": {
-    "texture": "llama_mod:block/new_ceiling_tile",
-    "particle": "llama_mod:block/new_ceiling_tile"
-  },
-  "render_type": "solid"
-}

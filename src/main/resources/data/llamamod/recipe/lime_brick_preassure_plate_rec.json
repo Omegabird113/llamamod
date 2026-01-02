@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:limebricks"
+  },
+  "result": {
+    "id": "llamamod:limebrickpressureplate",
+    "count": 8
+  }
+}

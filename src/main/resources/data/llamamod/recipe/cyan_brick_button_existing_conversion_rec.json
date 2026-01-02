@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_buttons",
+    "minecraft:cyan_dye"
+  ],
+  "result": {
+    "id": "llamamod:cyanbrickbutton",
+    "count": 1
+  }
+}

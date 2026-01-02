@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamamod:industrialbricks"
+  },
+  "result": {
+    "id": "llamamod:industrialbrickslab",
+    "count": 6
+  }
+}

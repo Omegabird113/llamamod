@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:farmscraps",
+    "llamamod:farmscraps",
+    "minecraft:beetroot_seeds",
+    "llamamod:farmscraps",
+    "llamamod:farmscraps"
+  ],
+  "result": {
+    "id": "minecraft:beetroot_seeds",
+    "count": 3
+  }
+}

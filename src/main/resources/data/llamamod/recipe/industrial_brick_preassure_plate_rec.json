@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:industrialbricks"
+  },
+  "result": {
+    "id": "llamamod:industrialbrickpressureplate",
+    "count": 8
+  }
+}

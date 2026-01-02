@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamamod:graybricks"
+  },
+  "result": {
+    "id": "llamamod:graybrickslab",
+    "count": 6
+  }
+}

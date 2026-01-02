@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_fence_gate_wall",
-  "textures": {
-    "texture": "llama_mod:block/new_brown_bricks",
-    "particle": "llama_mod:block/new_brown_bricks"
-  },
-  "render_type": "solid"
-}

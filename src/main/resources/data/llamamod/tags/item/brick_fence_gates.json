@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:whitebrickfencegate",
+    "llamamod:limebrickfencegate",
+    "llamamod:graybrickfencegate",
+    "llamamod:purplebrickfencegate",
+    "llamamod:lightgraybrickfencegate",
+    "llamamod:tealbrickfencegate",
+    "llamamod:industrialbrickfencegate",
+    "llamamod:lightbluebrickfencegate",
+    "llamamod:bluebrickfencegate",
+    "llamamod:pinkbrickfencegate",
+    "llamamod:redbrickfencegate",
+    "llamamod:cyanbrickfencegate",
+    "llamamod:brownbrickfencegate",
+    "llamamod:magentabrickfencegate",
+    "llamamod:orangebrickfencegate",
+    "llamamod:yellowbrickfenceagte",
+    "llamamod:greenbrickfencegate",
+    "llamamod:blackbrickfencegate",
+    "llamamod:cherrybrickfencegate"
+  ]
+}

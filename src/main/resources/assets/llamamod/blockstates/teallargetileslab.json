@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamamod:block/teallargetileslab"
+    },
+    "type=top": {
+      "model": "llamamod:block/teallargetileslab_top"
+    },
+    "type=double": {
+      "model": "llamamod:block/teallargetileslab_full"
+    }
+  }
+}

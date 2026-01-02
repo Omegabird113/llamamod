@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_wall_post",
-  "textures": {
-    "wall": "llama_mod:block/black_large_tile",
-    "particle": "llama_mod:block/black_large_tile"
-  },
-  "render_type": "solid"
-}

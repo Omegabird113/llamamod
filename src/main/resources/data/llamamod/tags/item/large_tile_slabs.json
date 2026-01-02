@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:limelargetileslab",
+    "llamamod:orangelargetileslab",
+    "llamamod:greenlargetileslab",
+    "llamamod:whitelargetileslab",
+    "llamamod:cherrylargetileslab",
+    "llamamod:redlargetileslab",
+    "llamamod:brownlargetileslab",
+    "llamamod:graylargetileslab",
+    "llamamod:lightgraylargetileslab",
+    "llamamod:yellowlargetileslab",
+    "llamamod:lightbluelargetileslab",
+    "llamamod:blacklargetileslab",
+    "llamamod:bluelargetileslab",
+    "llamamod:teallargetileslab",
+    "llamamod:industriallargetileslab",
+    "llamamod:cyanlargetileslab",
+    "llamamod:magentalargetileslab",
+    "llamamod:pinklargetileslab",
+    "llamamod:purplelargetileslab"
+  ]
+}

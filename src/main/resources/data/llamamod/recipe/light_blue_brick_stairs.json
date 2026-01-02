@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:lightbluebricks"
+  },
+  "result": {
+    "id": "llamamod:lightbluebrickstair",
+    "count": 4
+  }
+}

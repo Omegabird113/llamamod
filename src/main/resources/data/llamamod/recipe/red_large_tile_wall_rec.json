@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": "llamamod:redlargetile"
+  },
+  "result": {
+    "id": "llamamod:redlargetilewall",
+    "count": 12
+  }
+}

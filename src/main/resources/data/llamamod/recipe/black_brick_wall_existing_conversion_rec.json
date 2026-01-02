@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_walls",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "id": "llamamod:blackbrickwall",
+    "count": 1
+  }
+}

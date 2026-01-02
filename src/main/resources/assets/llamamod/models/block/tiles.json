@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "llamamod:block/new_tiles_rotated_top",
+    "up": "llamamod:block/new_tiles_rotated_top",
+    "north": "llamamod:block/new_tile",
+    "east": "llamamod:block/new_tiles_rotated_top",
+    "south": "llamamod:block/new_tile",
+    "west": "llamamod:block/new_tiles_rotated_top",
+    "particle": "llamamod:block/new_tiles_rotated_top"
+  },
+  "render_type": "solid"
+}

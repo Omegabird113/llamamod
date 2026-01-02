@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "llamamod:block/new_gray_bricks",
+    "bottom": "llamamod:block/new_gray_bricks",
+    "top": "llamamod:block/new_gray_bricks",
+    "side": "llamamod:block/new_gray_bricks"
+  },
+  "render_type": "solid"
+}

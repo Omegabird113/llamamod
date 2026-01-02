@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_types",
+    "minecraft:purple_dye"
+  ],
+  "result": {
+    "id": "llamamod:purplebricks",
+    "count": 1
+  }
+}

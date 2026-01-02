@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_stairs",
+    "minecraft:clay_ball"
+  ],
+  "result": {
+    "id": "minecraft:brick_stairs",
+    "count": 1
+  }
+}

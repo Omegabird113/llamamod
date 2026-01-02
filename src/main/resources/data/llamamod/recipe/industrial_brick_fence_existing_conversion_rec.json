@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_fences",
+    "minecraft:iron_ingot",
+    "minecraft:copper_ingot"
+  ],
+  "result": {
+    "id": "llamamod:industrialbrickfence",
+    "count": 1
+  }
+}

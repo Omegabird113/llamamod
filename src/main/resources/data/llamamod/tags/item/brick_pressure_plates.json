@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:lightbluebrickpressureplate",
+    "llamamod:whitebrickpressureplate",
+    "llamamod:greenbrickpressureplate",
+    "llamamod:yellowbrickpressureplate",
+    "llamamod:blackbrickpressureplate",
+    "llamamod:orangebrickpressureplate",
+    "llamamod:brownbrickpressureplate",
+    "llamamod:redbrickpressureplate",
+    "llamamod:pinkbrickpressureplate",
+    "llamamod:tealbrickpressureplate",
+    "llamamod:bluebrickpressureplate",
+    "llamamod:magentabrickpressureplate",
+    "llamamod:limebrickpressureplate",
+    "llamamod:cyanbrickpressureplate",
+    "llamamod:purplebrickpressureplate",
+    "llamamod:industrialbrickpressureplate",
+    "llamamod:lightgraybrickpressureplate",
+    "llamamod:graybrickpressureplate",
+    "llamamod:cherrybrickpressureplate"
+  ]
+}

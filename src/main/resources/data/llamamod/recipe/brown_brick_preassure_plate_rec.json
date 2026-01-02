@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:brownbricks"
+  },
+  "result": {
+    "id": "llamamod:brownbrickpressureplate",
+    "count": 8
+  }
+}

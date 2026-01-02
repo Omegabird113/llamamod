@@ -1,0 +1,8 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "llamamod:block/cyan_large_tile",
+    "particle": "llamamod:block/cyan_large_tile"
+  },
+  "render_type": "solid"
+}

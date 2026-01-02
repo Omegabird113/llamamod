@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamamod:pinkbricks"
+  },
+  "result": {
+    "id": "llamamod:pinkbrickfencegate",
+    "count": 4
+  }
+}

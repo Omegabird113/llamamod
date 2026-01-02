@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llamamod:block/industriallargetilepressureplate"
+    },
+    "powered=true": {
+      "model": "llamamod:block/industriallargetilepressureplate_down"
+    }
+  }
+}

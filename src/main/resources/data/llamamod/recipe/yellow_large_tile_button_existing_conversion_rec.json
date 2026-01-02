@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tile_buttons",
+    "minecraft:yellow_dye"
+  ],
+  "result": {
+    "id": "llamamod:yellowlargetilebutton",
+    "count": 1
+  }
+}

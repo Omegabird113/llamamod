@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": "minecraft:smooth_stone",
+    "b": "minecraft:clock",
+    "c": "#c:glass_blocks/cheap",
+    "d": "llamamod:variablelight",
+    "e": "minecraft:repeater",
+    "f": "minecraft:writable_book"
+  },
+  "result": {
+    "id": "llamamod:computer",
+    "count": 1
+  }
+}

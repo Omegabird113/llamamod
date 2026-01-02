@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tile_pressure_plate",
+    "minecraft:magenta_dye"
+  ],
+  "result": {
+    "id": "llamamod:magentalargetilepressureplate",
+    "count": 1
+  }
+}

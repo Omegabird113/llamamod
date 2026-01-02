@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "llamamod:block/large_tile",
+    "particle": "llamamod:block/large_tile"
+  },
+  "render_type": "solid"
+}

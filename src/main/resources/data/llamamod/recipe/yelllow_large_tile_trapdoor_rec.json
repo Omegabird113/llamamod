@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:yellowlargetile"
+  },
+  "result": {
+    "id": "llamamod:yellowlargetiletrapdoor",
+    "count": 12
+  }
+}

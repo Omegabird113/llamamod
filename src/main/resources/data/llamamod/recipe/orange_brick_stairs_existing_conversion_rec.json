@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_stairs",
+    "minecraft:orange_dye"
+  ],
+  "result": {
+    "id": "llamamod:orangebrickstair",
+    "count": 1
+  }
+}

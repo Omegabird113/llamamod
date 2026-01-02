@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "llama_mod:tiletrapdoor",
-    "llama_mod:industrialbricktrapdoor",
-    "llama_mod:cherrybricktrapdoor"
+    "llamamod:tiletrapdoor",
+    "llamamod:industrialbricktrapdoor",
+    "llamamod:cherrybricktrapdoor"
   ]
 }

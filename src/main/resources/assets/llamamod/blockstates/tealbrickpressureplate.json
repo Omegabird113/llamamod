@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llamamod:block/tealbrickpressureplate"
+    },
+    "powered=true": {
+      "model": "llamamod:block/tealbrickpressureplate_down"
+    }
+  }
+}

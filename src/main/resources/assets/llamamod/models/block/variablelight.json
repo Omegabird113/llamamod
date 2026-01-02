@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "llamamod:block/variable_light_block_sides",
+    "up": "llamamod:block/variable_light_block_sides",
+    "north": "llamamod:block/variable_light_front_off",
+    "east": "llamamod:block/variable_light_block_sides",
+    "south": "llamamod:block/variable_light_block_sides",
+    "west": "llamamod:block/variable_light_block_sides",
+    "particle": "llamamod:block/variable_light_block_sides"
+  },
+  "render_type": "solid"
+}

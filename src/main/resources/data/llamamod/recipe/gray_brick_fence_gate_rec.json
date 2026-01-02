@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamamod:graybricks"
+  },
+  "result": {
+    "id": "llamamod:graybrickfencegate",
+    "count": 4
+  }
+}

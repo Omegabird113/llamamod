@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:lightbluelargetilewall",
+    "llamamod:bluelargetilewall",
+    "llamamod:teallargetilewall",
+    "llamamod:graylargetilewall",
+    "llamamod:cyanlargetilewall",
+    "llamamod:pinklargetilewall",
+    "llamamod:redlargetilewall",
+    "llamamod:industriallargetilewall",
+    "llamamod:magentalargetilewall",
+    "llamamod:purplelargetilewall",
+    "llamamod:whitelargetilewall",
+    "llamamod:orangelargetilewall",
+    "llamamod:limelargetilewall",
+    "llamamod:brownlargetilewall",
+    "llamamod:greenlargetilewall",
+    "llamamod:cherrylargetilewall",
+    "llamamod:lightgraylargetilewall",
+    "llamamod:yellowlargetilewall",
+    "llamamod:blacklargetilewall"
+  ]
+}

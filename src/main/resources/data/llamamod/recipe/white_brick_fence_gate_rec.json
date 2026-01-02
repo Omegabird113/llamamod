@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamamod:whitebricks"
+  },
+  "result": {
+    "id": "llamamod:whitebrickfencegate",
+    "count": 4
+  }
+}

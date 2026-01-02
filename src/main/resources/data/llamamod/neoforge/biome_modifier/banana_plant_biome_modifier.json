@@ -1,0 +1,8 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": {
+    "type": "neoforge:any"
+  },
+  "features": "llamamod:banana_plant",
+  "step": "vegetal_decoration"
+}

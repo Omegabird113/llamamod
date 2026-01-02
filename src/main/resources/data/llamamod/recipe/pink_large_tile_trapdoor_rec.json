@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:pinklargetile"
+  },
+  "result": {
+    "id": "llamamod:pinklargetiletrapdoor",
+    "count": 12
+  }
+}

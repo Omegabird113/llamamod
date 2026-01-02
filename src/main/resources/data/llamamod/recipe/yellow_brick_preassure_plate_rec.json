@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:yellowbricks"
+  },
+  "result": {
+    "id": "llamamod:yellowbrickpressureplate",
+    "count": 8
+  }
+}

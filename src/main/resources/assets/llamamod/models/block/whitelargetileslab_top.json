@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "llamamod:block/large_tile",
+    "bottom": "llamamod:block/large_tile",
+    "top": "llamamod:block/large_tile",
+    "side": "llamamod:block/large_tile"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:redlargetilebutton",
+    "llamamod:teallargetilebutton",
+    "llamamod:blacklargetilebutton",
+    "llamamod:lightgraylargetilebutton",
+    "llamamod:graylargetilebutton",
+    "llamamod:whitelargetilebutton",
+    "llamamod:orangelargetilebutton",
+    "llamamod:industriallargetilebutton",
+    "llamamod:magentalargetilebutton",
+    "llamamod:limelargetilebutton",
+    "llamamod:pinklargetilebutton",
+    "llamamod:bluelargetilebutton",
+    "llamamod:yellowlargetilebutton",
+    "llamamod:brownlargetilebutton",
+    "llamamod:cyanlargetilebutton",
+    "llamamod:lightbluelargetilebutton",
+    "llamamod:purplelargetilebutton",
+    "llamamod:greenlargetilebutton",
+    "llamamod:cherrylargetilebutton"
+  ]
+}

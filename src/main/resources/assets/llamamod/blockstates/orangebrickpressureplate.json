@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "llamamod:block/orangebrickpressureplate"
+    },
+    "powered=true": {
+      "model": "llamamod:block/orangebrickpressureplate_down"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:cyanlargetile"
+  ],
+  "result": {
+    "id": "llamamod:cyanlargetilebutton",
+    "count": 9
+  }
+}

@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "llama_mod:industrialbrickpressureplate",
-    "llama_mod:cherrybrickpressureplate"
+    "llamamod:industrialbrickpressureplate",
+    "llamamod:cherrybrickpressureplate"
   ]
 }

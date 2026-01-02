@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tiles",
+    "minecraft:pink_dye"
+  ],
+  "result": {
+    "id": "llamamod:pinklargetile",
+    "count": 1
+  }
+}

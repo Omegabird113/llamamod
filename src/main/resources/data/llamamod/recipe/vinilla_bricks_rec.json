@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:brick_types",
+    "minecraft:clay_ball"
+  ],
+  "result": {
+    "id": "minecraft:bricks",
+    "count": 1
+  }
+}

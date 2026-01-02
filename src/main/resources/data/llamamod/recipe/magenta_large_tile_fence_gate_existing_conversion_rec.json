@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tiel_fence_gates",
+    "minecraft:magenta_dye"
+  ],
+  "result": {
+    "id": "llamamod:magentalargetilefencegate",
+    "count": 1
+  }
+}

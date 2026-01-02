@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:large_tile_walls",
+    "minecraft:light_blue_dye"
+  ],
+  "result": {
+    "id": "llamamod:lightbluelargetilewall",
+    "count": 1
+  }
+}

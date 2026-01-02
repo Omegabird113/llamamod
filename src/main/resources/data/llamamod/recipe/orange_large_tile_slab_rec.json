@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamamod:orangelargetile"
+  },
+  "result": {
+    "id": "llamamod:orangelargetileslab",
+    "count": 6
+  }
+}

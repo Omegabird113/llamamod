@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:magentabricks"
+  ],
+  "result": {
+    "id": "llamamod:magentabrickbutton",
+    "count": 9
+  }
+}
