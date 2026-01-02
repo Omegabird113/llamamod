@@ -37,18 +37,18 @@ All of these items are related together.
 
 #### The Banana
 The banana is a kinda bad food item, other than that you can eat them very fast. Here are their exact properties:
-- a nutritional value of 2 *(it heals 1 hunger bar)*
-- a saturation of 3.55 *(not very good)*
-- it can be eaten in 8 ticks *(You can eat them in 0.4 seconds instead of the typical 1.6 seconds for food)*
-- It can be composted with a 32.5% success rate
+- a nutritional value of `2` *(it heals 1 hunger bar)*
+- a saturation of `3.55` *(not very good)*
+- it can be eaten in `8 ticks` *(You can eat them in `0.4 seconds` instead of the typical `1.6 seconds` for food)*
+- It can be composted with a `32.5%` success rate
 
 #### The Banana Plant
 
 This is a naturally spawning plant which works similarly to something like Sugar Cane, but:
-- It grows up to 5 blocks high
+- It grows up to `5` blocks high
 - It's drops are random and can include Bananas, Banana plants, and Farm Scraps
 - It can be bone-mealed in vanilla Java Edition.
-- It can be composted with a 50% success rate
+- It can be composted with a `50%` success rate
 
 #### Farm Scraps
 
@@ -56,9 +56,27 @@ Farm scraps are non-plantable items which can be used for the following:
 - Placing 4 of them plus one of the following items in crafting table makes 2 of that item:
   - Wheat seeds, carrots, beetroot seeds, melon seeds, potatoes, sugar cane, and bamboo
 - Placing 8 of them and a banana plant in a crafting table makes another banana plant
-- They can be composted at a 17.5% success rate
-- 1 of them can be crafted into 1 brown dye
+- They can be composted at a `17.5%` success rate
+- `1` of them can be crafted into `1` brown dye
 
+### Acid
+
+Acid is a fluid which currently does not generate natrually and is not accessable outside of the creative inventory. It deals damage to any entity that comes in contact with it. You can also drown in it. It has more fog than water, but way less than lava.
+
+#### The Acid Disolving effct
+
+Coming in contact with acid gives level 1 of this effect to the entity for 8.25 seconds *(165 ticks)*.
+
+The the player gets the effect:
+- If the level is below 5, `1.5` damage of type `aciddamage` is dealt
+- If the level is at or above 5, damage of type `aciddamage` is dealth acording to the formula `(a - 2) * 3.05 + 1.5` where `a` is the amplifier
+
+On each tick the effect is active:
+- Damage of type `aciddamage` is dealt acording to rounding up the result of the formula, `(a + 0.87) * 1.15` where `a` is the amplifier
+
+The Acid Damage type:
+- Scales with difficulty
+- Has an exhaustion value of `0.65`
 
 ## Development
 
