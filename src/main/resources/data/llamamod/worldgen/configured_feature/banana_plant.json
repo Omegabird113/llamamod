@@ -1,7 +1,7 @@
 {
   "type": "minecraft:random_patch",
   "config": {
-    "tries": 4,
+    "tries": 5,
     "feature": {
       "feature": {
         "type": "minecraft:block_column",

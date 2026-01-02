@@ -1,8 +1,13 @@
 {
   "type": "neoforge:add_features",
-  "biomes": {
-    "type": "neoforge:any"
-  },
+  "biomes": [
+    "birch_forest",
+    "forest",
+    "flower_forest",
+    "jungle",
+    "grove",
+    "pale_garden"
+  ],
   "features": "llamamod:banana_plant",
   "step": "vegetal_decoration"
 }
