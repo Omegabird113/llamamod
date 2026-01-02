@@ -1,5 +1,3 @@
-> This Readme file is in progress and being created, so, therefor, it is not complete
-
 # LlamaMod
 LlamaMod is a chaotic, but interesting Minecraft mod I've made using [MCreator](https://mcreator.net) over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code.
 
@@ -110,6 +108,21 @@ This is like a barrel, but:
 
 This asks for a password using the [Password System](#the-password-system) and if successful, gives a redstone pulse for `15 game ticks` (`0.75 seconds`).
 
+### The Backpack
+
+The Backpack is an item which stores that same amount as a chest, but is instead solely in your inventory.
+
+### The Netherite Backpack
+
+The Netherite backpack is an upgrade to the backpack which:
+- has `4` rows of items, instead of `3`
+- cannot burn
+- has a clear all items button which deletes everything, though it is protected with a checkbox to prevent accidental deletions
+
+### The Variable Light
+
+This is a block which, when a block next to it is updated, will set it's light level it produces to the maximum redstone value going into the block.
+
 ## Development
 
 Here's some information about the development of LlamaMod
@@ -123,3 +136,14 @@ Here's some information about the development of LlamaMod
 - The [Blockstates](https://mcreator.net/plugin/104253/blockstates) plugin.
 
 > Note that in order to connect to the GitHub repo, I'm also using the [Remote Workspaces Support](https://mcreator.net/plugin/97468/remote-workspaces-support-20232) plugin
+
+### The LlamaMod Versioning system
+
+The current LlamaMod version system produces versions in the format `x.yy.z` where:
+- `x` represents what I deem to be a huge update (ex. a rewrite, tons of new features, etc)
+- `y` represents update which adds features, changes behavior in a noticeable way, or changes the neoforge or Minecraft version requirement (ex. some new blocks, a Minecraft version update, a new feature is added to the computer, etc)
+- `z` represents a bugfix or very small update (ex. an important hotfix, a consistency or bug fix, a small texture or GUI change, etc)
+
+### Licensing, Modpacks, etc
+
+You can use LlamaMod in any modpack with credit, you may use LlamaMod's code or make changes as long as it's compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
