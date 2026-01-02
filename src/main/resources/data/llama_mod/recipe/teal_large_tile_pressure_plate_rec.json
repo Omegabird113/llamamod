@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llama_mod:teallargetile"
+  },
+  "result": {
+    "id": "llama_mod:teallargetilepressureplate",
+    "count": 8
+  }
+}

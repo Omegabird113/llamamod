@@ -17597,6 +17597,449 @@
         ]
       },
       "path": "~/Blocks/New Bricks"
+    },
+    {
+      "name": "TealBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes/bricks"
+    },
+    {
+      "name": "TealLargeTileRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_rec.json"
+        ]
+      },
+      "path": "~/Recipes/large tile types"
+    },
+    {
+      "name": "TealBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Slabs"
+    },
+    {
+      "name": "TealLargeTileSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Slabs"
+    },
+    {
+      "name": "TealLargeTileSlabExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_slab_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_slab_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Slabs"
+    },
+    {
+      "name": "TealBrickSlabExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_slab_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_slab_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Slabs"
+    },
+    {
+      "name": "TealLargeTileStairsRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_stairs_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_stairs_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Stairs"
+    },
+    {
+      "name": "TealLargeTileStairsExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_stairs_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_stairs_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Stairs"
+    },
+    {
+      "name": "TealBrickStairsRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_stairs_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_stairs_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Stairs"
+    },
+    {
+      "name": "TealBrickStairsExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_stairs_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_stairs_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Stairs"
+    },
+    {
+      "name": "TealLargeTileWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Walls"
+    },
+    {
+      "name": "TealLargeTileWallExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_wall_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_wall_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Walls"
+    },
+    {
+      "name": "TealBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Walls"
+    },
+    {
+      "name": "TealBrickWallExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_wall_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_wall_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Walls"
+    },
+    {
+      "name": "TealLargeTilePressurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_pressure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_pressure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Preasure Plate"
+    },
+    {
+      "name": "TealLargeTilePressurePlateExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_pressure_plate_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_pressure_plate_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Preasure Plate"
+    },
+    {
+      "name": "TealBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Preasure Plate"
+    },
+    {
+      "name": "TealBrickPressurePlateExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_pressure_plate_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_pressure_plate_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Preasure Plate"
+    },
+    {
+      "name": "TealLargeTileFenceRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_fence_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_fence_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Fences"
+    },
+    {
+      "name": "TealLargeTileFenceExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_fence_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_fence_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Fences"
+    },
+    {
+      "name": "TealBrickFenceRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_fence_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_fence_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Fences"
+    },
+    {
+      "name": "TealBrickFenceExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_fence_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_fence_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Fences"
+    },
+    {
+      "name": "TealLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Fence Gates"
+    },
+    {
+      "name": "TealLargeTileFenceGateExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_fence_gate_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_fence_gate_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Fence Gates"
+    },
+    {
+      "name": "TealBrickFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Fence Gates"
+    },
+    {
+      "name": "TealBrickFenceGateExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_fence_gate_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_fence_gate_existing_conversion_rec.json",
+          "src/main/resources/data/llama_mod/advancement/recipes/teal_brick_fence_gate_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Fence Gates"
+    },
+    {
+      "name": "TealLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Buttons"
+    },
+    {
+      "name": "TealLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Buttons"
+    },
+    {
+      "name": "TealBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Buttons"
+    },
+    {
+      "name": "TealBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Buttons"
+    },
+    {
+      "name": "TealLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Trapdoors"
+    },
+    {
+      "name": "TealLargeTileTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_large_tile_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Trapdoors"
+    },
+    {
+      "name": "TealBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Trapdoors"
+    },
+    {
+      "name": "TealBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llama_mod/recipe/teal_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Trapdoors"
     }
   ],
   "variable_elements": [],
@@ -18090,7 +18533,8 @@
       "CUSTOM:Whitebricks",
       "CUSTOM:LightGrayBricks",
       "CUSTOM:GrayBricks",
-      "Blocks.BRICK_BLOCK"
+      "Blocks.BRICK_BLOCK",
+      "CUSTOM:Tealbricks"
     ],
     "BLOCKS:minecraft:needs_stone_tool": [
       "~CUSTOM:Teallargetilebutton",
@@ -18473,7 +18917,8 @@
       "CUSTOM:BrownLargeTile",
       "CUSTOM:RedLargeTile",
       "CUSTOM:IndustrialLargeTile",
-      "CUSTOM:Cherrylargetile"
+      "CUSTOM:Cherrylargetile",
+      "CUSTOM:TealLargeTile"
     ],
     "ITEMS:mod:large_tile_stairs": [
       "CUSTOM:Largetilestair",
@@ -18493,7 +18938,8 @@
       "CUSTOM:MagentaLargeTileStair",
       "CUSTOM:PinkLargeTileStair",
       "CUSTOM:IndustrialLargeTileStair",
-      "CUSTOM:Cherrylargetilestair"
+      "CUSTOM:Cherrylargetilestair",
+      "CUSTOM:TealLargeTileStair"
     ],
     "ITEMS:mod:large_tile_slabs": [
       "CUSTOM:Largetileslab",
@@ -18513,7 +18959,8 @@
       "CUSTOM:MagentaLargeTileSlab",
       "CUSTOM:PinkLargeTileSlab",
       "CUSTOM:IndustrialLargeTileSlab",
-      "CUSTOM:Cherrylargetileslab"
+      "CUSTOM:Cherrylargetileslab",
+      "CUSTOM:Teallargetileslab"
     ],
     "ITEMS:mod:large_tile_walls": [
       "CUSTOM:Largetilewall",
@@ -18533,7 +18980,8 @@
       "CUSTOM:MagentaLargeTileWall",
       "CUSTOM:PinkLargeTileWall",
       "CUSTOM:IndustrialLargeTileWall",
-      "CUSTOM:Cherrylargetilewall"
+      "CUSTOM:Cherrylargetilewall",
+      "CUSTOM:Teallargetilewall"
     ],
     "ITEMS:mod:large_tile_fence": [
       "CUSTOM:Largetilefence",
@@ -18553,7 +19001,8 @@
       "CUSTOM:MagentaLargeTileFence",
       "CUSTOM:PinkLargeTileFence",
       "CUSTOM:IndustrialLargeTileFence",
-      "CUSTOM:Cherrylargetilefence"
+      "CUSTOM:Cherrylargetilefence",
+      "CUSTOM:Teallargetilefence"
     ],
     "ITEMS:mod:large_tiel_fence_gates": [
       "CUSTOM:Largetilefencegate",
@@ -18573,7 +19022,8 @@
       "CUSTOM:MagentaLargeTileFenceGate",
       "CUSTOM:PinkLargeTileFenceGate",
       "CUSTOM:IndustrialLargeTileFenceGate",
-      "CUSTOM:Cherrylargetilefencegate"
+      "CUSTOM:Cherrylargetilefencegate",
+      "CUSTOM:Teallargetilefencegate"
     ],
     "ITEMS:mod:large_tile_pressure_plate": [
       "CUSTOM:Largetilepressureplate",
@@ -18593,7 +19043,8 @@
       "CUSTOM:MagentaLargeTilePressurePlate",
       "CUSTOM:PinkLargeTilePressurePlate",
       "CUSTOM:IndustrialLargeTilePressurePlate",
-      "CUSTOM:Cherrylargetilepressureplate"
+      "CUSTOM:Cherrylargetilepressureplate",
+      "CUSTOM:Teallargetilepressureplate"
     ],
     "ITEMS:mod:large_tile_buttons": [
       "CUSTOM:Largetilebutton",
@@ -18613,7 +19064,8 @@
       "CUSTOM:MagentaLargeTileButton",
       "CUSTOM:PinkLargeTileButton",
       "CUSTOM:IndustrialLargeTileButton",
-      "CUSTOM:Cherrylargetilebutton"
+      "CUSTOM:Cherrylargetilebutton",
+      "CUSTOM:Teallargetilebutton"
     ],
     "ITEMS:mod:brick_stairs": [
       "CUSTOM:Redbrickstair",
@@ -18634,7 +19086,8 @@
       "CUSTOM:Graybrickstair",
       "CUSTOM:Blackbrickstair",
       "CUSTOM:Industrialbrickstair",
-      "Blocks.BRICK_STAIRS"
+      "Blocks.BRICK_STAIRS",
+      "CUSTOM:Tealbrickstair"
     ],
     "ITEMS:mod:brick_slabs": [
       "CUSTOM:Whitebrickslab",
@@ -18655,7 +19108,8 @@
       "CUSTOM:Pinkbrickslab",
       "CUSTOM:Cherrybrickslab",
       "Blocks.STONE_SLAB#4",
-      "CUSTOM:Industrialbrickslab"
+      "CUSTOM:Industrialbrickslab",
+      "CUSTOM:Tealbrickslab"
     ],
     "ITEMS:mod:brick_walls": [
       "CUSTOM:Whitebrickwall",
@@ -18676,7 +19130,8 @@
       "CUSTOM:Magentabrickwall",
       "CUSTOM:Pinkbrickwall",
       "CUSTOM:Cherrybrickwall",
-      "Blocks.BRICK_WALL"
+      "Blocks.BRICK_WALL",
+      "CUSTOM:Tealbrickwall"
     ],
     "ITEMS:mod:brick_fences": [
       "CUSTOM:Whitebrickfence",
@@ -18696,7 +19151,8 @@
       "CUSTOM:Purplebrickfence",
       "CUSTOM:Magentabrickfence",
       "CUSTOM:Pinkbrickfence",
-      "CUSTOM:Cherrybrickfence"
+      "CUSTOM:Cherrybrickfence",
+      "CUSTOM:Tealbrickfence"
     ],
     "ITEMS:mod:brick_fence_gates": [
       "CUSTOM:Whitebrickfencegate",
@@ -18716,7 +19172,8 @@
       "CUSTOM:Purplebrickfencegate",
       "CUSTOM:Magentabrickfencegate",
       "CUSTOM:Pinkbrickfencegate",
-      "CUSTOM:Cherrybrickfencegate"
+      "CUSTOM:Cherrybrickfencegate",
+      "CUSTOM:Tealbrickfencegate"
     ],
     "ITEMS:mod:brick_pressure_plates": [
       "CUSTOM:Whitebrickpreasureplate",
@@ -18736,7 +19193,8 @@
       "CUSTOM:Purplebrickpreasureplate",
       "CUSTOM:Magentabrickpreasureplate",
       "CUSTOM:Pinkbrickpreasureplate",
-      "CUSTOM:Cherrybrickpreasureplate"
+      "CUSTOM:Cherrybrickpreasureplate",
+      "CUSTOM:Tealbrickpressureplate"
     ],
     "ITEMS:mod:brick_buttons": [
       "CUSTOM:Whitebrickbutton",
@@ -18756,7 +19214,8 @@
       "CUSTOM:Purplebrickbutton",
       "CUSTOM:Magentabrickbutton",
       "CUSTOM:Pinkbrickbutton",
-      "CUSTOM:Cherrybrickbutton"
+      "CUSTOM:Cherrybrickbutton",
+      "CUSTOM:Tealbrickbutton"
     ],
     "ITEMS:mod:torches": [
       "Items.TORCH",
@@ -18820,7 +19279,8 @@
       "CUSTOM:Magentalargetiletrapdoor",
       "CUSTOM:Pinklargetiletrapdoor",
       "CUSTOM:Industriallargetiletrapdoor",
-      "CUSTOM:Cherrylargetiletrapdoor"
+      "CUSTOM:Cherrylargetiletrapdoor",
+      "CUSTOM:Teallargetiletrapdoor"
     ],
     "BLOCKS:minecraft:wooden_trapdoors": [
       "~CUSTOM:Tiletrapdoor",
@@ -18845,7 +19305,8 @@
       "CUSTOM:Magentabricktrapdoor",
       "CUSTOM:Pinkbricktrapdoor",
       "CUSTOM:Cherrybricktrapdoor",
-      "CUSTOM:Industrialbricktrapdoor"
+      "CUSTOM:Industrialbricktrapdoor",
+      "CUSTOM:Tealbricktrapdoor"
     ],
     "ITEMS:mod:black_concrete_or_powder": [
       "Blocks.CONCRETE_POWDER#15",
@@ -19980,7 +20441,7 @@
   "workspaceSettings": {
     "modid": "llama_mod",
     "modName": "LlamaMod",
-    "version": "0.44.73",
+    "version": "0.44.74",
     "description": "A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code.",
     "author": "Omegabird113",
     "websiteURL": "https://mcreator.net",

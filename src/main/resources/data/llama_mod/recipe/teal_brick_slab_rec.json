@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llama_mod:tealbricks"
+  },
+  "result": {
+    "id": "llama_mod:tealbrickslab",
+    "count": 6
+  }
+}

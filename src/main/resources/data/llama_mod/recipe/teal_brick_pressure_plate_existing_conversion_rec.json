@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llama_mod:brick_pressure_plates",
+    "minecraft:green_dye",
+    "minecraft:blue_dye"
+  ],
+  "result": {
+    "id": "llama_mod:tealbrickpressureplate",
+    "count": 1
+  }
+}

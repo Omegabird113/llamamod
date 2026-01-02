@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llama_mod:brick_fences",
+    "minecraft:green_dye",
+    "minecraft:blue_dye"
+  ],
+  "result": {
+    "id": "llama_mod:tealbrickfence",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llama_mod:tealbricks"
+  },
+  "result": {
+    "id": "llama_mod:tealbrickfencegate",
+    "count": 4
+  }
+}
