@@ -139,7 +139,7 @@ Here's some information about the development of LlamaMod
 
 ### The LlamaMod Versioning system
 
-The current LlamaMod version system produces versions in the format `x.yy.z` where:
+The current LlamaMod version system produces versions in the format `x.y.z` where:
 - `x` represents what I deem to be a huge update (ex. a rewrite, tons of new features, etc)
 - `y` represents update which adds features, changes behavior in a noticeable way, or changes the neoforge or Minecraft version requirement (ex. some new blocks, a Minecraft version update, a new feature is added to the computer, etc)
 - `z` represents a bugfix or very small update (ex. an important hotfix, a consistency or bug fix, a small texture or GUI change, etc)
