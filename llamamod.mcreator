@@ -18040,6 +18040,21 @@
         ]
       },
       "path": "~/Recipes/Trapdoors"
+    },
+    {
+      "name": "Acidlake",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acidlake",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/neoforge/biome_modifier/acidlake_biome_modifier.json",
+          "src/main/resources/data/llamamod/worldgen/configured_feature/acidlake.json",
+          "src/main/resources/data/llamamod/worldgen/placed_feature/acidlake.json"
+        ]
+      },
+      "path": "~/Fluids/Acid"
     }
   ],
   "variable_elements": [],
@@ -20228,6 +20243,7 @@
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModBlockEntities.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModItems.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/LlamamodMod.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModTabs.java"

@@ -1,0 +1,19 @@
+{
+  "feature": "llamamod:acidlake",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 170
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "OCEAN_FLOOR_WG"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

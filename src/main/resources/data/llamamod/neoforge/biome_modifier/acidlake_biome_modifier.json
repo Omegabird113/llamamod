@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "end_highlands",
+    "end_midlands",
+    "end_barrens"
+  ],
+  "features": "llamamod:acidlake",
+  "step": "lakes"
+}
