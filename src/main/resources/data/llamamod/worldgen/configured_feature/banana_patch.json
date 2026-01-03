@@ -1,7 +1,7 @@
 {
   "type": "llamamod:banana_patch",
   "config": {
-    "tries": 11,
+    "tries": 29,
     "xz_spread": 2,
     "y_spread": 1,
     "feature": {
