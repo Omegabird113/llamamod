@@ -1,18 +1,18 @@
 # LlamaMod
-LlamaMod is a chaotic, but interesting Minecraft mod I've made using [MCreator](https://mcreator.net) over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code.
+LlamaMod is a chaotic, but interesting Minecraft mod I've made using [MCreator](https://mcreator.net) over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code. Its features range from a massive amounts of similar building blocks with specific color variants, to single blocks with tons of functionality.
 
 ## The Features
-LlamaMod has a **ton** of features. These range from a massive amounts of similar building blocks with specific color variants and blocksets, to single blocks with tons of redstone and operator functionality.
+Each sub-category of this section represents a feature or set of related features
 
 ### Building Blocks
 Their are 2 massive sets of building blocks;
 1. The custom colored bricks
-2. The large tiles
+2. The Large Tiles
 
 Both sets come in 19 colors:
 - All **16 Vanilla Colors** *(White, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, light Blue, Blue, Purple, Magenta, Pink)*
-- "Industrial' variants which are colored similar to Netherite
-- "Cherry" variants which are hot pink
+- Industrial (Netherite Colored) variants
+- Cherry (Hot Pink) variants
 - Teal variants
 
 There are also the Tiles *(Black and White)* and the Ceiling tiles *(Blue and Light Gray)*.
@@ -45,7 +45,7 @@ The banana is a kinda bad food item, other than that you can eat them very fast.
 This is a naturally spawning plant which works similarly to something like Sugar Cane, but:
 - It grows up to `5` blocks high
 - It's drops are random and can include Bananas, Banana plants, and Farm Scraps
-- It can be bone-mealed in vanilla Java Edition.
+- It can be bonemealed in vanilla Java Edition.
 - It can be composted with a `50%` success rate
 
 #### Farm Scraps
@@ -59,11 +59,11 @@ Farm scraps are non-plantable items which can be used for the following:
 
 ### Acid
 
-Acid is a fluid which natrually generates in Acid Lakes (technically a feature named `acid_lake`) in the end, and can be accessed in the Creative menu.
+Acid is a fluid which naturally generates in Acid Lakes (technically a feature named `acid_lake`) in the end, and can be accessed in the Creative menu.
 
 #### The Acid Dissolving effect
 
-Coming in contact with acid gives level 1 of this effect to the entity for 8.25 seconds *(165 ticks)*.
+Coming in contact with acid gives level 1 of this effect to the entity for 7.5 seconds *(150 ticks)*.
 
 The the player gets the effect:
 - If the level is below 5, `1.5` damage of type `acid_damage` is dealt
@@ -88,41 +88,45 @@ The [Secure Storage Block](#the-secure-storage-block), [Computer](#the-computer)
 #### <ins>**Important Security Concerns**</ins>
 1. **Operators can see any password**, meaning that all passwords aren't actually private.
 2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamamMod.
-> More specifically, passwords are stored in a text NBT tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
+> More specifically, passwords are stored in a NBT text tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
+
+#### The Secure Storage Block
+
+This is like a barrel, but:
+- it has `7` rows of items
+- There's a button which deletes all items, though there's a checkbox on whether or not to show that button in order to prevent accidental deletions
+- It supports having passwords with the [Password System](#the-password-system)
+
+#### The Authenticator
+
+This asks for a password using the [Password System](#the-password-system), and, if successful, gives a redstone pulse for `15 game ticks` (`0.75 seconds`).
 
 ### The Computer
 
 The complex offers a variety or features for information, math, player management, and more. Here's a list of its features:
-- It supports having passwords with the [Password System](#the-password-system), only people with access can use the other features
+- It supports having passwords with the [Password System](#the-password-system), so only people with access can use the other features
 - Players can make calculations between 2 numbers using the operations: `+`, `-`, `*`, `/`, and `^`
 - Players can send messages to other players
 - Operators can clear the inventory of and kill players
 - Players can store and retreive a message within the computer block itself
 - Players can generate a random number with a minimum and maximum values as low as `-1,000` and as high as `1,000`, including or exclusive. (exclusive includes decimal values)
 - Players can access a formatted string of the 24-hour time (Ex. `7 o'clock (10% through the day)`)
-- Players can set a redstone output between 0 and 15, and they can chose to have the computer pick a random power output between 0 and 15.
+- Players can set a redstone output between 0 and 15, and they can choose to have the computer pick a random power output between 0 and 15.
 
-### The Secure Storage Block
+### The Backpacks
 
-This is like a barrel, but:
-- it has `7` rows of items
-- There's a button which deletes all items, though there's a checkbox on whether or not to show that button in order to prevent accidental deletions
-- It supports the having passwords with the [Password System](#the-password-system)
+The Backpacks are items which store items like a chest, but are kept in your inventory instead of being placed as a block.
 
-### The Authenticator
+#### The Backpack
 
-This asks for a password using the [Password System](#the-password-system) and if successful, gives a redstone pulse for `15 game ticks` (`0.75 seconds`).
+This is the cheaper to craft, but less functional variant of the backpack. It can store `3` rows of items, but that's pretty much it.
 
-### The Backpack
-
-The Backpack is an item which stores that same amount as a chest, but is instead solely in your inventory.
-
-### The Netherite Backpack
+#### The Netherite Backpack
 
 The Netherite backpack is an upgrade to the backpack which:
 - has `4` rows of items, instead of `3`
-- cannot burn
-- has a clear all items button which deletes everything, though it is protected with a checkbox to prevent accidental deletions
+- cannot burn, which protects your items if you drop them or die in fire or lava.
+- has a `Delete Items` button which deletes every item, though it is protected with a checkbox to prevent accidental deletions
 
 ### The Variable Light
 
@@ -151,4 +155,4 @@ The current LlamaMod version system produces versions in the format `x.y.z` wher
 
 ### Licensing, Modpacks, etc
 
-You can use LlamaMod in any modpack with credit, you may use LlamaMod's code or make changes as long as it's compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+You can use LlamaMod in any modpack with credit, you may use LlamaMod's code or jar files as long as the use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
