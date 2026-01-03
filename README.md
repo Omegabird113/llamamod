@@ -28,8 +28,6 @@ Each color variants of the massive set, alongside each Tile set has the followin
 - a pressure plate
 - a button
 
-This totals to **360** building blocks as of release [0.45](https://github.com/Omegabird113/llama_mod/releases/tag/0.45)!
-
 ### Bananas, Banana Plants, and Farm Scraps
 All of these items are related together.
 
