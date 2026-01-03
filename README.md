@@ -59,7 +59,7 @@ Farm scraps are non-plantable items which can be used for the following:
 
 ### Acid
 
-Acid is a fluid which currently does not generate naturally and is not accesable outside of the creative inventory. It deals damage to any entity that comes in contact with it. You can also drown in it. It has more fog than water, but way less than lava.
+Acid is a fluid which natrually generates in Acid Lakes (technically a feature named `acid_lake`) in the end, and can be accessed in the Creative menu.
 
 #### The Acid Dissolving effect
 
@@ -70,11 +70,16 @@ The the player gets the effect:
 - If the level is at or above 5, damage of type `acid_damage` is dealt according to the formula `(a - 2) * 3.05 + 1.5` where `a` is the amplifier
 
 On each tick the effect is active:
-- Damage of type `acid_damage` is dealt according to rounding up the result of the formula, `(a + 0.87) * 1.15` where `a` is the amplifier
+- Damage of type `acid_damage` is dealt according to rounding up the result of the formula, `(a + 1.05) * 1.18` where `a` is the amplifier
+- If the player's >= 1.8 blocks deep in acid, 2 damage of type `acid_drowning` is dealt
 
 The Acid Damage type:
 - Scales with difficulty
 - Has an exhaustion value of `0.65`
+
+The Acid Drowning damage type:
+- Does not scale with difficulty
+- Has an exhaustion value of `0.4`
 
 ### The Password System
 
