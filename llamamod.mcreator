@@ -18092,6 +18092,37 @@
         ]
       },
       "path": "~/Fluids/Acid/Acid Lakes"
+    },
+    {
+      "name": "Bananapatch",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_patch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/neoforge/biome_modifier/banana_patch_biome_modifier.json",
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/world/features/BananapatchFeature.java",
+          "src/main/resources/data/llamamod/worldgen/placed_feature/banana_patch.json",
+          "src/main/resources/data/llamamod/worldgen/configured_feature/banana_patch.json"
+        ]
+      },
+      "path": "~/Food and Farming/Bananas"
+    },
+    {
+      "name": "BananapatchAdditionalGenerationCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bananapatch_additional_generation_condition",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/procedures/BananapatchAdditionalGenerationConditionProcedure.java"
+        ]
+      },
+      "path": "~/Food and Farming/Bananas"
     }
   ],
   "variable_elements": [],
@@ -20269,7 +20300,8 @@
       "llamamod.configuration.password_viewing_permission_level": "Password Viewing Permission Level",
       "llamamod.configuration.give_players_all_recipes": "Give Players All Recipes",
       "llamamod.configuration.misc": "misc",
-      "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items"
+      "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items",
+      "llamamod.configuration.generate_banana_patches": "Generate Banana Patches"
     }
   },
   "metadata": {

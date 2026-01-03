@@ -1,0 +1,12 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "jungle",
+    "grove",
+    "cherry_grove"
+  ],
+  "features": "llamamod:banana_patch",
+  "step": "vegetal_decoration"
+}

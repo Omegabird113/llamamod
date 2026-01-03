@@ -457,5 +457,6 @@
   "llamamod.configuration.password_viewing_permission_level": "Password Viewing Permission Level",
   "llamamod.configuration.give_players_all_recipes": "Give Players All Recipes",
   "llamamod.configuration.misc": "misc",
-  "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items"
+  "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items",
+  "llamamod.configuration.generate_banana_patches": "Generate Banana Patches"
 }
