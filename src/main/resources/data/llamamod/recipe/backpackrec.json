@@ -3,14 +3,13 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "cdc",
+    "bcb",
     " b "
   ],
   "key": {
     "a": "minecraft:leather",
-    "b": "minecraft:paper",
-    "c": "#minecraft:planks",
-    "d": "minecraft:string"
+    "b": "#minecraft:planks",
+    "c": "minecraft:string"
   },
   "result": {
     "id": "llamamod:backpack",
