@@ -13,7 +13,7 @@ public class LlamamodserverconfigConfiguration {
 		GENERATE_ACID_LAKES = BUILDER.define("generate_acid_lakes", true);
 		BUILDER.pop();
 		BUILDER.push("permissions");
-		ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL = BUILDER.comment("This controls the permission level required for people to be able to see the existing password in the Password Changer GUI").define("passowrd_veiwing_permission_level",
+		ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL = BUILDER.comment("This controls the permission level required for people to be able to see the existing password in the Password Changer GUI").define("password_viewing_permission_level",
 				(double) 3);
 		BUILDER.pop();
 

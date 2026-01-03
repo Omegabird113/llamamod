@@ -455,5 +455,6 @@
   "llamamod.configuration.generation": "generation",
   "llamamod.configuration.generate_acid_lakes": "Generate Acid Lakes",
   "llamamod.configuration.passowrd_veiwing_permission_level": "Passowrd Veiwing Permission Level",
-  "llamamod.configuration.permissions": "permissions"
+  "llamamod.configuration.permissions": "permissions",
+  "llamamod.configuration.password_viewing_permission_level": "Password Viewing Permission Level"
 }
