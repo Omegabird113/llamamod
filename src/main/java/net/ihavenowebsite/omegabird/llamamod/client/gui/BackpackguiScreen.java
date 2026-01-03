@@ -64,7 +64,7 @@ public class BackpackguiScreen extends AbstractContainerScreen<BackpackguiMenu> 
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.backpackgui.label_backpack1"), 6, 6, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.backpackgui.label_backpack1"), 6, 6, -6724096, false);
 	}
 
 	@Override
