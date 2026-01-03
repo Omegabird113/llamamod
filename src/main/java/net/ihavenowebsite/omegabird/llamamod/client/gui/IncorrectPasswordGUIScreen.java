@@ -65,7 +65,7 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_error"), 24, 10, -13500416, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_error"), 24, 10, -65536, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_please_close_this_gui_and"), 5, 24, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_retry_entering_the_password"), 5, 33, -12829636, false);
 	}
