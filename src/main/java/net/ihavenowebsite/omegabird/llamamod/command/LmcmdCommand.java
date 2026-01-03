@@ -37,7 +37,7 @@ public class LmcmdCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			SendAboutInfoInChatProcedureProcedure.execute(entity);
+			SendAboutInfoInChatProcedureProcedure.execute(world, x, y, z, entity);
 			return 0;
 		})).then(Commands.literal("admin").then(Commands.literal("closeAllOpenGuisFor").then(Commands.argument("targets", EntityArgument.players()).executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
