@@ -1,6 +1,8 @@
 # Gradle build system ignores
 .gradle/
 build/
+gradle/
+gradle.properties
 
 # Other IDE related folders
 .idea/
@@ -17,3 +19,6 @@ run/
 
 # MacOS system files
 .DS_STORE
+.DS_Store
+**/.DS_Store
+**/DS_STORe
