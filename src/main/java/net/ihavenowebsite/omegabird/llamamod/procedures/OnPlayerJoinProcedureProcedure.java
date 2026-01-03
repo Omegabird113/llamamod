@@ -13,6 +13,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
+import net.ihavenowebsite.omegabird.llamamod.configuration.LlamamodserverconfigConfiguration;
+
 import javax.annotation.Nullable;
 
 @EventBusSubscriber
@@ -27,7 +29,10 @@ public class OnPlayerJoinProcedureProcedure {
 	}
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z) {
-		if (world instanceof ServerLevel _level)
-			_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(), "recipe give @a *");
+		if (LlamamodserverconfigConfiguration.GIVE_ALL_RECIPES_ON_PLAYER_JOIN.get() == true) {
+			if (world instanceof ServerLevel _level)
+				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
+						"recipe give @a *");
+		}
 	}
 }
