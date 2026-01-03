@@ -18046,15 +18046,28 @@
       "type": "feature",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "acidlake",
+      "registry_name": "acid_lake",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/neoforge/biome_modifier/acidlake_biome_modifier.json",
-          "src/main/resources/data/llamamod/worldgen/configured_feature/acidlake.json",
-          "src/main/resources/data/llamamod/worldgen/placed_feature/acidlake.json"
+          "src/main/resources/data/llamamod/worldgen/placed_feature/acid_lake.json",
+          "src/main/resources/data/llamamod/neoforge/biome_modifier/acid_lake_biome_modifier.json",
+          "src/main/resources/data/llamamod/worldgen/configured_feature/acid_lake.json"
         ]
       },
       "path": "~/Fluids/Acid"
+    },
+    {
+      "name": "Aciddrowning",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_drowning",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/damage_type/acid_drowning.json"
+        ]
+      },
+      "path": "~/Fluids/Acid/Acid Effect"
     }
   ],
   "variable_elements": [],
@@ -20223,7 +20236,10 @@
       "death.attack.acid_damage": "%1$s disolved from Acid.",
       "death.attack.acid_damage.player": "%1$s disolved from Acid whilst trying to escape %2$s",
       "death.attack.acid_damage.item": "%1$s was disolved from Acid by %2$s using %3$s",
-      "effect.llamamod.acid_dissolving": "Acid Dissolving"
+      "effect.llamamod.acid_dissolving": "Acid Dissolving",
+      "death.attack.acid_drowning.player": "%1$s drowned in acid whilst trying to escape %2$s",
+      "death.attack.acid_drowning": "%1$s drowned in acid",
+      "death.attack.acid_drowning.item": "%1$s was killed by %2$s using %3$s"
     }
   },
   "metadata": {
