@@ -451,5 +451,9 @@
   "effect.llamamod.acid_dissolving": "Acid Dissolving",
   "death.attack.acid_drowning.player": "%1$s drowned in acid whilst trying to escape %2$s",
   "death.attack.acid_drowning": "%1$s drowned in acid",
-  "death.attack.acid_drowning.item": "%1$s was killed by %2$s using %3$s"
+  "death.attack.acid_drowning.item": "%1$s was killed by %2$s using %3$s",
+  "llamamod.configuration.generation": "generation",
+  "llamamod.configuration.generate_acid_lakes": "Generate Acid Lakes",
+  "llamamod.configuration.passowrd_veiwing_permission_level": "Passowrd Veiwing Permission Level",
+  "llamamod.configuration.permissions": "permissions"
 }

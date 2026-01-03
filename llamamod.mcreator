@@ -594,7 +594,7 @@
           "src/main/resources/data/llamamod/damage_type/acid_damage.json"
         ]
       },
-      "path": "~/Fluids/Acid/Acid Effect"
+      "path": "~/Fluids/Acid/Acid Damage Types"
     },
     {
       "name": "Computergui",
@@ -18049,12 +18049,13 @@
       "registry_name": "acid_lake",
       "metadata": {
         "files": [
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/world/features/AcidlakeFeature.java",
           "src/main/resources/data/llamamod/worldgen/placed_feature/acid_lake.json",
           "src/main/resources/data/llamamod/neoforge/biome_modifier/acid_lake_biome_modifier.json",
           "src/main/resources/data/llamamod/worldgen/configured_feature/acid_lake.json"
         ]
       },
-      "path": "~/Fluids/Acid"
+      "path": "~/Fluids/Acid/Acid Lakes"
     },
     {
       "name": "Aciddrowning",
@@ -18067,7 +18068,34 @@
           "src/main/resources/data/llamamod/damage_type/acid_drowning.json"
         ]
       },
-      "path": "~/Fluids/Acid/Acid Effect"
+      "path": "~/Fluids/Acid/Acid Damage Types"
+    },
+    {
+      "name": "Llamamodserverconfig",
+      "type": "config",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "llamamodserverconfig",
+      "metadata": {
+        "files": [
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/configuration/LlamamodserverconfigConfiguration.java"
+        ]
+      }
+    },
+    {
+      "name": "AcidLakeGenerationConditionProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_lake_generation_condition_procedure",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/ihavenowebsite/omegabird/llamamod/procedures/AcidLakeGenerationConditionProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Fluids/Acid/Acid Lakes"
     }
   ],
   "variable_elements": [],
@@ -20239,11 +20267,16 @@
       "effect.llamamod.acid_dissolving": "Acid Dissolving",
       "death.attack.acid_drowning.player": "%1$s drowned in acid whilst trying to escape %2$s",
       "death.attack.acid_drowning": "%1$s drowned in acid",
-      "death.attack.acid_drowning.item": "%1$s was killed by %2$s using %3$s"
+      "death.attack.acid_drowning.item": "%1$s was killed by %2$s using %3$s",
+      "llamamod.configuration.generation": "generation",
+      "llamamod.configuration.generate_acid_lakes": "Generate Acid Lakes",
+      "llamamod.configuration.passowrd_veiwing_permission_level": "Passowrd Veiwing Permission Level",
+      "llamamod.configuration.permissions": "permissions"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModConfigs.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModFluidTypes.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModFluids.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModMenus.java",
@@ -20258,6 +20291,7 @@
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModBlocks.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModBlockEntities.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModItems.java",
+      "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModFeatures.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/LlamamodMod.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/META-INF/neoforge.mods.toml",
@@ -20401,6 +20435,14 @@
             "children": [
               {
                 "name": "Acid Effect",
+                "children": []
+              },
+              {
+                "name": "Acid Damage Types",
+                "children": []
+              },
+              {
+                "name": "Acid Lakes",
                 "children": []
               }
             ]

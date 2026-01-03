@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "config",
+  "definition": {
+    "file": "llamamod_server",
+    "configType": 1,
+    "config": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"config_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"config_category\"><field name=\"name\">generation</field><statement name=\"write\"><block type=\"config_variable\"><field name=\"name\">generate_acid_lakes</field><field name=\"comment\"></field><value name=\"value\"><block type=\"config_logic_variable\"><field name=\"name\">Generate Acid Lakes</field><field name=\"value\">true</field></block></value></block></statement><next><block type=\"config_category\"><field name=\"name\">permissions</field><statement name=\"write\"><block type=\"config_variable\"><field name=\"name\">access_existing_passwords_permission_level</field><field name=\"comment\">This controls the permission level required for people to be able to see the existing password in the Password Changer GUI</field><value name=\"value\"><block type=\"config_number_variable\"><field name=\"name\">Passowrd Veiwing Permission Level</field><field name=\"value\">3</field></block></value></block></statement></block></next></block></next></block><block type=\"config_logic_variable\" x=\"1297\" y=\"606\"><field name=\"name\">Generate Acid Lakes</field><field name=\"value\">true</field></block></xml>",
+    "defining": true
+  }
+}

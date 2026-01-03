@@ -10,11 +10,13 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.client.Minecraft;
 
+import net.ihavenowebsite.omegabird.llamamod.configuration.LlamamodserverconfigConfiguration;
+
 public class PasswordbananaRightclickedOnBlockProcedure {
 	public static String execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return "";
-		if (getEntityGameType(entity) == GameType.CREATIVE && entity instanceof Player _playerCmd1 && _playerCmd1.hasPermissions(3)) {
+		if (getEntityGameType(entity) == GameType.CREATIVE && entity instanceof Player _playerCmd2 && _playerCmd2.hasPermissions((int) (double) LlamamodserverconfigConfiguration.ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL.get())) {
 			return getBlockNBTString(world, BlockPos.containing(x, y, z), "access_password");
 		}
 		return "ERROR: Access Denied";
