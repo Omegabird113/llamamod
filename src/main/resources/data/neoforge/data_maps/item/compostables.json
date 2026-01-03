@@ -1,7 +1,7 @@
 {
   "values": {
     "llamamod:farm_scraps": {
-      "chance": 0.175
+      "chance": 0.15
     },
     "llamamod:banana_plant": {
       "chance": 0.5
