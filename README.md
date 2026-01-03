@@ -130,6 +130,15 @@ The Netherite backpack is an upgrade to the backpack which:
 
 This is a block which, when a block next to it is updated, will set it's light level it produces to the maximum redstone value going into the block.
 
+### Server Configuration entries:
+
+This table explains the entries in the `llamamod_server.toml` file in the `Config` folder of your client or server installation, though your client's will only apply to singleplayer worlds.
+
+| Variable Display Name               | Variable Technical Name (In File)            | Type     | Default Value | Description                                                                                                                  |
+|-------------------------------------|----------------------------------------------|----------|---------------|------------------------------------------------------------------------------------------------------------------------------|
+| `Generate Acid Lakes`               | `generate_acid_lakes`                        | `logic`  | `true`        | This enables or disables the generation of the `acud_lake` feature                                                           |
+| `Password Viewing Permission Level` | `access_existing_passwords_permission_level` | `number` | `3`           | This controls the permission level required for people to be able to see                                                     |
+
 ## Development
 
 Here's some information about the development of LlamaMod
@@ -141,6 +150,7 @@ Here's some information about the development of LlamaMod
 ### Current minecraft.net to Open the Workspace in MCreator:
 - [MCreator](https://mcreator.net) version [2025.3](https://mcreator.net/download/2025-3)
 - The [Blockstates](https://mcreator.net/plugin/104253/blockstates) plugin.
+- The [Configuration Files](https://mcreator.net/plugin/92938/configuration-files) plugin.
 
 > Note that in order to connect to the GitHub repo, I'm also using the [Remote Workspaces Support](https://mcreator.net/plugin/97468/remote-workspaces-support-20232) plugin
 
