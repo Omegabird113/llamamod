@@ -156,10 +156,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -1926,18 +1922,6 @@
         ]
       },
       "path": "~/Blocks"
-    },
-    {
-      "name": "AllowItemClearing",
-      "type": "gamerule",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "allow_item_clearing",
-      "metadata": {
-        "files": [],
-        "type": "logic"
-      },
-      "path": "~/Gamerules"
     },
     {
       "name": "LlamaMod",
@@ -6696,10 +6680,6 @@
           {
             "name": "entity",
             "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ],
         "files": [
@@ -19831,8 +19811,6 @@
   },
   "language_map": {
     "en_us": {
-      "gamerule.allowItemClearing.description": "Whether or not \"Clear\" button in the Secure Storage Block, and the \"Delete Items\" button in the Netherite Backpack GUI work to delete all the items.",
-      "gamerule.allowItemClearing": "Allow LlamaMod features to destroy Items",
       "item.llamamod.banana_plant": "Banana Plant",
       "item.llamamod.banana": "Banana",
       "item.llamamod.backpack": "Backpack",
@@ -20290,7 +20268,8 @@
       "llamamod.configuration.permissions": "permissions",
       "llamamod.configuration.password_viewing_permission_level": "Password Viewing Permission Level",
       "llamamod.configuration.give_players_all_recipes": "Give Players All Recipes",
-      "llamamod.configuration.misc": "misc"
+      "llamamod.configuration.misc": "misc",
+      "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items"
     }
   },
   "metadata": {
@@ -20301,7 +20280,6 @@
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModMenus.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModScreens.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/network/MenuStateUpdateMessage.java",
-      "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModGameRules.java",
       "src/main/resources/data/neoforge/data_maps/item/compostables.json",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModFuels.java",
       "src/main/java/net/ihavenowebsite/omegabird/llamamod/init/LlamamodModParticles.java",
@@ -20469,10 +20447,6 @@
         ]
       },
       {
-        "name": "Gamerules",
-        "children": []
-      },
-      {
         "name": "ABOUT",
         "children": []
       }
@@ -20481,7 +20455,7 @@
   "workspaceSettings": {
     "modid": "llamamod",
     "modName": "LlamaMod",
-    "version": "1.0.0.beta3",
+    "version": "1.0.0.beta4",
     "description": "A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code.",
     "author": "Omegabird113",
     "websiteURL": "https://github.com/Omegabird113/llamamod",

@@ -1,20 +1,18 @@
 package net.ihavenowebsite.omegabird.llamamod.procedures;
 
-import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
 
 import net.ihavenowebsite.omegabird.llamamod.init.LlamamodModMenus;
-import net.ihavenowebsite.omegabird.llamamod.init.LlamamodModGameRules;
+import net.ihavenowebsite.omegabird.llamamod.configuration.LlamamodserverconfigConfiguration;
 
 public class ClearSecStoorageBlockProcedureProcedure {
-	public static void execute(LevelAccessor world, Entity entity) {
+	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
 		double iteratir = 0;
-		if (world instanceof ServerLevel _serverLevelGR0 && _serverLevelGR0.getGameRules().getBoolean(LlamamodModGameRules.ALLOW_ITEM_CLEARING)) {
+		if (LlamamodserverconfigConfiguration.ALLOW_ITEM_CLEARING.get()) {
 			iteratir = 0;
 			while (iteratir <= 62) {
 				if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu) {

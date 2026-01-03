@@ -1,6 +1,4 @@
 {
-  "gamerule.allowItemClearing.description": "Whether or not \"Clear\" button in the Secure Storage Block, and the \"Delete Items\" button in the Netherite Backpack GUI work to delete all the items.",
-  "gamerule.allowItemClearing": "Allow LlamaMod features to destroy Items",
   "item.llamamod.banana_plant": "Banana Plant",
   "item.llamamod.banana": "Banana",
   "item.llamamod.backpack": "Backpack",
@@ -458,5 +456,6 @@
   "llamamod.configuration.permissions": "permissions",
   "llamamod.configuration.password_viewing_permission_level": "Password Viewing Permission Level",
   "llamamod.configuration.give_players_all_recipes": "Give Players All Recipes",
-  "llamamod.configuration.misc": "misc"
+  "llamamod.configuration.misc": "misc",
+  "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items"
 }

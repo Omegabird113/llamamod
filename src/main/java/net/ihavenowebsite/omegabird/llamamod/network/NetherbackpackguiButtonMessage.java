@@ -54,7 +54,7 @@ public record NetherbackpackguiButtonMessage(int buttonID, int x, int y, int z) 
 		}
 		if (buttonID == 1) {
 
-			ClearnetherpackprocidureProcedure.execute(world, entity);
+			ClearnetherpackprocidureProcedure.execute(entity);
 		}
 	}
 
