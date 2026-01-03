@@ -138,7 +138,7 @@ This table explains the entries in the `llamamod_server.toml` file in the `confi
 |-------------------------------------|----------------------------------------------|----------|---------------|------------------------------------------------------------------------------------------------------------------------------|
 | `Generate Acid Lakes`               | `generate_acid_lakes`                        | `logic`  | `true`        | This enables or disables the generation of the `acid_lake` feature                                                           |
 | `Password Viewing Permission Level` | `access_existing_passwords_permission_level` | `number` | `3`           | This controls the permission level required for people to be able to see                                                     |
-| `Give Players All Recipes`          | `give_all_recipes_on_player_join`            | `kogic`  | `true`        | When enabled, this runs /recipe give @a * when an player joins the server or world                                           |
+| `Give Players All Recipes`          | `give_all_recipes_on_player_join`            | `logic`  | `true`        | When enabled, this runs /recipe give @a * when an player joins the server or world                                           |
 
 ## Development
 
