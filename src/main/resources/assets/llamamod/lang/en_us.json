@@ -458,5 +458,6 @@
   "llamamod.configuration.give_players_all_recipes": "Give Players All Recipes",
   "llamamod.configuration.misc": "misc",
   "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items",
-  "llamamod.configuration.generate_banana_patches": "Generate Banana Patches"
+  "llamamod.configuration.generate_banana_patches": "Generate Banana Patches",
+  "llamamod.configuration.allow_features_to_delete_items": "Allow Features To Delete Items"
 }

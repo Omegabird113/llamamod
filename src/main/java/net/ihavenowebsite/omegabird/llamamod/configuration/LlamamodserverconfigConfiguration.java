@@ -22,7 +22,7 @@ public class LlamamodserverconfigConfiguration {
 		BUILDER.pop();
 		BUILDER.push("misc");
 		GIVE_ALL_RECIPES_ON_PLAYER_JOIN = BUILDER.comment("When enabled, this runs /recipe give @a * when an player joins the server or world").define("give_players_all_recipes", true);
-		ALLOW_ITEM_CLEARING = BUILDER.comment("This controls whether the Clear button in the Secure Storage Block and the Delete Items button in the Netherite backpack work").define("allow_featuresto_delete_items", true);
+		ALLOW_ITEM_CLEARING = BUILDER.comment("This controls whether the Clear button in the Secure Storage Block and the Delete Items button in the Netherite backpack work").define("allow_features_to_delete_items", true);
 		BUILDER.pop();
 
 		SPEC = BUILDER.build();
