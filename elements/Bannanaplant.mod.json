@@ -8,7 +8,7 @@
     "customModelName": "Cross model",
     "itemTexture": "",
     "particleTexture": "",
-    "tintType": "Grass",
+    "tintType": "Foliage",
     "isItemTinted": true,
     "plantType": "growapable",
     "suspiciousStewEffect": "HEALTH_BOOST",
