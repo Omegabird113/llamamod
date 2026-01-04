@@ -51,7 +51,7 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/simple_logo.png"), this.leftPos + 5, this.topPos + 4, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png"), this.leftPos + 5, this.topPos + 4, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override
@@ -65,7 +65,7 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_error"), 24, 10, -5940903, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_error"), 24, 10, -65536, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_please_close_this_gui_and"), 5, 24, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_retry_entering_the_password"), 5, 33, -12829636, false);
 	}
