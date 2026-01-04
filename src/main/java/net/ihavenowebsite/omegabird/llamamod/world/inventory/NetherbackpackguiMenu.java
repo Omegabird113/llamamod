@@ -21,6 +21,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.ihavenowebsite.omegabird.llamamod.procedures.DisablePlacementOfItemsInABackpackProcedureProcedure;
 import net.ihavenowebsite.omegabird.llamamod.init.LlamamodModMenus;
 
 import java.util.function.Supplier;
@@ -93,181 +94,361 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 			private final int slot = 0;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 24, 17) {
 			private final int slot = 1;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 42, 17) {
 			private final int slot = 2;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 60, 17) {
 			private final int slot = 3;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 78, 17) {
 			private final int slot = 4;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 96, 17) {
 			private final int slot = 5;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 114, 17) {
 			private final int slot = 6;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 132, 17) {
 			private final int slot = 7;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 150, 17) {
 			private final int slot = 8;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 6, 35) {
 			private final int slot = 9;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 24, 35) {
 			private final int slot = 10;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 42, 35) {
 			private final int slot = 11;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 60, 35) {
 			private final int slot = 12;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 78, 35) {
 			private final int slot = 13;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 96, 35) {
 			private final int slot = 14;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 114, 35) {
 			private final int slot = 15;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 132, 35) {
 			private final int slot = 16;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 150, 35) {
 			private final int slot = 17;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 6, 53) {
 			private final int slot = 18;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 24, 53) {
 			private final int slot = 19;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 42, 53) {
 			private final int slot = 20;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 60, 53) {
 			private final int slot = 21;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 78, 53) {
 			private final int slot = 22;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 96, 53) {
 			private final int slot = 23;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 114, 53) {
 			private final int slot = 24;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 132, 53) {
 			private final int slot = 25;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 150, 53) {
 			private final int slot = 26;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 6, 71) {
 			private final int slot = 27;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 24, 71) {
 			private final int slot = 28;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 42, 71) {
 			private final int slot = 29;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(30, this.addSlot(new SlotItemHandler(internal, 30, 60, 71) {
 			private final int slot = 30;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(31, this.addSlot(new SlotItemHandler(internal, 31, 78, 71) {
 			private final int slot = 31;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 96, 71) {
 			private final int slot = 32;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 114, 71) {
 			private final int slot = 33;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(34, this.addSlot(new SlotItemHandler(internal, 34, 132, 71) {
 			private final int slot = 34;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(35, this.addSlot(new SlotItemHandler(internal, 35, 150, 71) {
 			private final int slot = 35;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
