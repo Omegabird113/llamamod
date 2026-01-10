@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "banana_2",
+    "texture": "banana",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},

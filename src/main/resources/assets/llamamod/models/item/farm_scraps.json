@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "llamamod:item/new_farm_scraps"
+    "layer0": "llamamod:item/farm_scraps"
   }
 }

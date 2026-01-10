@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "new_farm_scraps",
+    "texture": "farm_scraps",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
@@ -43,7 +43,7 @@
     "shootConstantly": false,
     "rangedItemChargesPower": false,
     "projectile": {
-      "value": "CUSTOM:ExplosionbowProjectile"
+      "value": "Arrow"
     },
     "projectileDisableAmmoCheck": false,
     "isFood": false,
