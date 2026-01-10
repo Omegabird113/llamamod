@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "llamamod:block/new_ceiling_tiles_rotated_top",
-    "up": "llamamod:block/new_ceiling_tiles_rotated_top",
-    "north": "llamamod:block/new_ceiling_tile",
-    "east": "llamamod:block/new_ceiling_tiles_rotated_top",
-    "south": "llamamod:block/new_ceiling_tile",
-    "west": "llamamod:block/new_ceiling_tiles_rotated_top",
-    "particle": "llamamod:block/new_ceiling_tiles_rotated_top"
+    "all": "llamamod:block/ceiling_tile",
+    "particle": "llamamod:block/ceiling_tile"
   },
   "render_type": "solid"
 }

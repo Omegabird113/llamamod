@@ -1,10 +1,10 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "particle": "llamamod:block/new_tiles_rotated_top",
-    "bottom": "llamamod:block/new_tiles_rotated_top",
-    "top": "llamamod:block/new_tiles_rotated_top",
-    "side": "llamamod:block/new_tile"
+    "particle": "llamamod:block/tile",
+    "bottom": "llamamod:block/tile",
+    "top": "llamamod:block/tile",
+    "side": "llamamod:block/tile"
   },
   "render_type": "solid"
 }

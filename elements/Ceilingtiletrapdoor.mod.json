@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_ceiling_tiles_rotated_top",
+    "texture": "ceiling_tile",
     "textureTop": "new_ceiling_tiles_rotated_top",
     "textureLeft": "ceiling_tile_block_texture",
     "textureFront": "new_ceiling_tile",

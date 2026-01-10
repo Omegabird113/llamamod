@@ -1,10 +1,10 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "particle": "llamamod:block/new_ceiling_tiles_rotated_top",
-    "bottom": "llamamod:block/new_ceiling_tiles_rotated_top",
-    "top": "llamamod:block/new_ceiling_tiles_rotated_top",
-    "side": "llamamod:block/new_ceiling_tile"
+    "particle": "llamamod:block/ceiling_tile",
+    "bottom": "llamamod:block/ceiling_tile",
+    "top": "llamamod:block/ceiling_tile",
+    "side": "llamamod:block/ceiling_tile"
   },
   "render_type": "solid"
 }

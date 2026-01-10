@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_ceiling_tiles_rotated_top",
+    "texture": "ceiling_tile",
     "textureTop": "new_ceiling_tiles_rotated_top",
     "textureLeft": "ceiling_tile_block_texture",
     "textureFront": "new_ceiling_tile",
@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "Button",
     "blockSetType": "STONE",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -81,6 +84,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,

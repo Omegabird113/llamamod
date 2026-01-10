@@ -1,8 +1,8 @@
 {
   "parent": "block/template_wall_side_tall",
   "textures": {
-    "wall": "llamamod:block/new_tile",
-    "particle": "llamamod:block/new_tile"
+    "wall": "llamamod:block/tile",
+    "particle": "llamamod:block/tile"
   },
   "render_type": "solid"
 }

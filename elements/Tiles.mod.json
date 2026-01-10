@@ -2,14 +2,14 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_tiles_rotated_top",
-    "textureTop": "new_tiles_rotated_top",
-    "textureLeft": "new_tiles_rotated_top",
-    "textureFront": "new_tile",
-    "textureRight": "new_tiles_rotated_top",
-    "textureBack": "new_tile",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "tile",
+    "textureTop": "tile",
+    "textureLeft": "tile",
+    "textureFront": "tile",
+    "textureRight": "tile",
+    "textureBack": "tile",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -18,6 +18,9 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -80,6 +83,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
