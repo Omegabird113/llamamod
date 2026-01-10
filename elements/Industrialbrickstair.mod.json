@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_industrial_bricks",
-    "textureTop": "new_industrial_bricks",
+    "texture": "industrial_bricks",
+    "textureTop": "industrial_bricks",
     "textureLeft": "lightgraybricks_texture",
-    "textureFront": "new_industrial_bricks",
+    "textureFront": "industrial_bricks",
     "textureRight": "lightgraybricks_texture",
     "textureBack": "lightgraybricks_texture",
     "renderType": 11,

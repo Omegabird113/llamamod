@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "special_cherry_brick",
-    "textureTop": "special_cherry_brick",
+    "texture": "cherry_brick",
+    "textureTop": "cherry_brick",
     "textureLeft": "new_light_gray_bricks",
-    "textureFront": "special_cherry_brick",
+    "textureFront": "cherry_brick",
     "textureRight": "new_white_bricks",
     "textureBack": "new_white_bricks",
     "renderType": 11,
@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "Slab",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -81,6 +84,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
