@@ -21,6 +21,7 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
+import net.ihavenowebsite.omegabird.llamamod.procedures.DisablePlacementOfItemsInABackpackProcedureProcedure;
 import net.ihavenowebsite.omegabird.llamamod.init.LlamamodModMenus;
 
 import java.util.function.Supplier;
@@ -93,316 +94,631 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 			private final int slot = 0;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 17) {
 			private final int slot = 1;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 17) {
 			private final int slot = 2;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 17) {
 			private final int slot = 3;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 17) {
 			private final int slot = 4;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 17) {
 			private final int slot = 5;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 17) {
 			private final int slot = 6;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 17) {
 			private final int slot = 7;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 17) {
 			private final int slot = 8;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 7, 35) {
 			private final int slot = 9;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 25, 35) {
 			private final int slot = 10;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 35) {
 			private final int slot = 11;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 61, 35) {
 			private final int slot = 12;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 35) {
 			private final int slot = 13;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 97, 35) {
 			private final int slot = 14;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 115, 35) {
 			private final int slot = 15;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 133, 35) {
 			private final int slot = 16;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 151, 35) {
 			private final int slot = 17;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 7, 53) {
 			private final int slot = 18;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 25, 53) {
 			private final int slot = 19;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 43, 53) {
 			private final int slot = 20;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 61, 53) {
 			private final int slot = 21;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 79, 53) {
 			private final int slot = 22;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 97, 53) {
 			private final int slot = 23;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 115, 53) {
 			private final int slot = 24;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 133, 53) {
 			private final int slot = 25;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 151, 53) {
 			private final int slot = 26;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 7, 71) {
 			private final int slot = 27;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 25, 71) {
 			private final int slot = 28;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 43, 71) {
 			private final int slot = 29;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(30, this.addSlot(new SlotItemHandler(internal, 30, 61, 71) {
 			private final int slot = 30;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(31, this.addSlot(new SlotItemHandler(internal, 31, 79, 71) {
 			private final int slot = 31;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 97, 71) {
 			private final int slot = 32;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 115, 71) {
 			private final int slot = 33;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(34, this.addSlot(new SlotItemHandler(internal, 34, 133, 71) {
 			private final int slot = 34;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(35, this.addSlot(new SlotItemHandler(internal, 35, 151, 71) {
 			private final int slot = 35;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(36, this.addSlot(new SlotItemHandler(internal, 36, 7, 89) {
 			private final int slot = 36;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(37, this.addSlot(new SlotItemHandler(internal, 37, 25, 89) {
 			private final int slot = 37;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(38, this.addSlot(new SlotItemHandler(internal, 38, 43, 89) {
 			private final int slot = 38;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(39, this.addSlot(new SlotItemHandler(internal, 39, 61, 89) {
 			private final int slot = 39;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(40, this.addSlot(new SlotItemHandler(internal, 40, 79, 89) {
 			private final int slot = 40;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(41, this.addSlot(new SlotItemHandler(internal, 41, 97, 89) {
 			private final int slot = 41;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(42, this.addSlot(new SlotItemHandler(internal, 42, 115, 89) {
 			private final int slot = 42;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(43, this.addSlot(new SlotItemHandler(internal, 43, 133, 89) {
 			private final int slot = 43;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(44, this.addSlot(new SlotItemHandler(internal, 44, 151, 89) {
 			private final int slot = 44;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(45, this.addSlot(new SlotItemHandler(internal, 45, 7, 107) {
 			private final int slot = 45;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(46, this.addSlot(new SlotItemHandler(internal, 46, 25, 107) {
 			private final int slot = 46;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(47, this.addSlot(new SlotItemHandler(internal, 47, 43, 107) {
 			private final int slot = 47;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(48, this.addSlot(new SlotItemHandler(internal, 48, 61, 107) {
 			private final int slot = 48;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(49, this.addSlot(new SlotItemHandler(internal, 49, 79, 107) {
 			private final int slot = 49;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(50, this.addSlot(new SlotItemHandler(internal, 50, 97, 107) {
 			private final int slot = 50;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(51, this.addSlot(new SlotItemHandler(internal, 51, 115, 107) {
 			private final int slot = 51;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(52, this.addSlot(new SlotItemHandler(internal, 52, 133, 107) {
 			private final int slot = 52;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(53, this.addSlot(new SlotItemHandler(internal, 53, 151, 107) {
 			private final int slot = 53;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(54, this.addSlot(new SlotItemHandler(internal, 54, 7, 125) {
 			private final int slot = 54;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(55, this.addSlot(new SlotItemHandler(internal, 55, 25, 125) {
 			private final int slot = 55;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(56, this.addSlot(new SlotItemHandler(internal, 56, 43, 125) {
 			private final int slot = 56;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(57, this.addSlot(new SlotItemHandler(internal, 57, 61, 125) {
 			private final int slot = 57;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(58, this.addSlot(new SlotItemHandler(internal, 58, 79, 125) {
 			private final int slot = 58;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(59, this.addSlot(new SlotItemHandler(internal, 59, 97, 125) {
 			private final int slot = 59;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(60, this.addSlot(new SlotItemHandler(internal, 60, 115, 125) {
 			private final int slot = 60;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(61, this.addSlot(new SlotItemHandler(internal, 61, 133, 125) {
 			private final int slot = 61;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		this.customSlots.put(62, this.addSlot(new SlotItemHandler(internal, 62, 151, 125) {
 			private final int slot = 62;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
+
+			@Override
+			public boolean mayPlace(ItemStack itemstack) {
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

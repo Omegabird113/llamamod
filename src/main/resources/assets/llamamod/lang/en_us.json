@@ -460,5 +460,6 @@
   "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items",
   "llamamod.configuration.generate_banana_patches": "Generate Banana Patches",
   "llamamod.configuration.allow_features_to_delete_items": "Allow Features To Delete Items",
-  "llamamod.configuration.prevent_nested_backpack_placement": "Prevent Nested Backpack Placement"
+  "llamamod.configuration.prevent_nested_backpack_placement": "Prevent Nested Backpack Placement",
+  "llamamod.configuration.prevent_nested_storage_item_placement": "Prevent Nested Storage Item Placement"
 }

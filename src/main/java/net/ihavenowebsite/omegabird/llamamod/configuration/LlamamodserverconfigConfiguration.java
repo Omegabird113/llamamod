@@ -11,7 +11,7 @@ public class LlamamodserverconfigConfiguration {
 	public static final ModConfigSpec.ConfigValue<Double> ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL;
 	public static final ModConfigSpec.ConfigValue<Boolean> GIVE_ALL_RECIPES_ON_PLAYER_JOIN;
 	public static final ModConfigSpec.ConfigValue<Boolean> ALLOW_ITEM_CLEARING;
-	public static final ModConfigSpec.ConfigValue<Boolean> PREVENT_NESTED_BACKPACK_PLACEMENT;
+	public static final ModConfigSpec.ConfigValue<Boolean> PREVENT_NESTED_STORAGE_ITEM_PLACEMENT;
 	static {
 		BUILDER.push("generation");
 		GENERATE_ACID_LAKES = BUILDER.comment("This controls whether the Acid Lake feature generates").define("generate_acid_lakes", true);
@@ -24,7 +24,7 @@ public class LlamamodserverconfigConfiguration {
 		BUILDER.push("misc");
 		GIVE_ALL_RECIPES_ON_PLAYER_JOIN = BUILDER.comment("When enabled, this runs /recipe give @a * when an player joins the server or world").define("give_players_all_recipes", true);
 		ALLOW_ITEM_CLEARING = BUILDER.comment("This controls whether the Clear button in the Secure Storage Block and the Delete Items button in the Netherite backpack work").define("allow_features_to_delete_items", true);
-		PREVENT_NESTED_BACKPACK_PLACEMENT = BUILDER.comment("If true, this prevents players from placing other storage items in backpacks.").define("prevent_nested_backpack_placement", true);
+		PREVENT_NESTED_STORAGE_ITEM_PLACEMENT = BUILDER.comment("If true, this prevents players from placing backpacks or shulker boxes in backpacks and Secure Storage Blocks.").define("prevent_nested_storage_item_placement", true);
 		BUILDER.pop();
 
 		SPEC = BUILDER.build();

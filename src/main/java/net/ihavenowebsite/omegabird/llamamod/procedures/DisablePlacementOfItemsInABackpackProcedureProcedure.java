@@ -8,8 +8,8 @@ import net.ihavenowebsite.omegabird.llamamod.configuration.LlamamodserverconfigC
 
 public class DisablePlacementOfItemsInABackpackProcedureProcedure {
 	public static boolean execute(ItemStack itemstack) {
-		if (LlamamodserverconfigConfiguration.PREVENT_NESTED_BACKPACK_PLACEMENT.get() == true) {
-			if (itemstack.is(ItemTags.create(ResourceLocation.parse("llamamod:cannot_be_placed_in_backpacks")))) {
+		if (LlamamodserverconfigConfiguration.PREVENT_NESTED_STORAGE_ITEM_PLACEMENT.get() == true) {
+			if (itemstack.is(ItemTags.create(ResourceLocation.parse("llamamod:cannot_be_placed_in_storage_items")))) {
 				return true;
 			}
 			return false;

@@ -19483,11 +19483,10 @@
       "Blocks.CONCRETE#14",
       "Blocks.CONCRETE#15"
     ],
-    "ITEMS:mod:cannot_be_placed_in_backpacks": [
+    "ITEMS:mod:cannot_be_placed_in_storage_items": [
       "CUSTOM:Backpack",
       "CUSTOM:Netheritebackpack",
       "Blocks.SHULKER_BOX",
-      "Blocks.PURPLE_SHULKER_BOX",
       "Blocks.WHITE_SHULKER_BOX",
       "Blocks.ORANGE_SHULKER_BOX",
       "Blocks.MAGENTA_SHULKER_BOX",
@@ -19498,6 +19497,7 @@
       "Blocks.GRAY_SHULKER_BOX",
       "Blocks.SILVER_SHULKER_BOX",
       "Blocks.CYAN_SHULKER_BOX",
+      "Blocks.PURPLE_SHULKER_BOX",
       "Blocks.BLUE_SHULKER_BOX",
       "Blocks.BROWN_SHULKER_BOX",
       "Blocks.GREEN_SHULKER_BOX",
@@ -20344,7 +20344,8 @@
       "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items",
       "llamamod.configuration.generate_banana_patches": "Generate Banana Patches",
       "llamamod.configuration.allow_features_to_delete_items": "Allow Features To Delete Items",
-      "llamamod.configuration.prevent_nested_backpack_placement": "Prevent Nested Backpack Placement"
+      "llamamod.configuration.prevent_nested_backpack_placement": "Prevent Nested Backpack Placement",
+      "llamamod.configuration.prevent_nested_storage_item_placement": "Prevent Nested Storage Item Placement"
     }
   },
   "metadata": {

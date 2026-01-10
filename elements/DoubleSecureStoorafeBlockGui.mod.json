@@ -33,7 +33,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 0,
           "disablePickup": {
@@ -52,7 +53,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 1,
           "disablePickup": {
@@ -71,7 +73,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 2,
           "disablePickup": {
@@ -90,7 +93,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 3,
           "disablePickup": {
@@ -109,7 +113,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 4,
           "disablePickup": {
@@ -128,7 +133,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 5,
           "disablePickup": {
@@ -147,7 +153,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 6,
           "disablePickup": {
@@ -166,7 +173,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 7,
           "disablePickup": {
@@ -185,7 +193,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 8,
           "disablePickup": {
@@ -204,7 +213,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 9,
           "disablePickup": {
@@ -223,7 +233,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 10,
           "disablePickup": {
@@ -242,7 +253,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 11,
           "disablePickup": {
@@ -261,7 +273,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 12,
           "disablePickup": {
@@ -280,7 +293,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 13,
           "disablePickup": {
@@ -299,7 +313,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 14,
           "disablePickup": {
@@ -318,7 +333,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 15,
           "disablePickup": {
@@ -337,7 +353,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 16,
           "disablePickup": {
@@ -356,7 +373,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 17,
           "disablePickup": {
@@ -375,7 +393,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 18,
           "disablePickup": {
@@ -394,7 +413,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 19,
           "disablePickup": {
@@ -413,7 +433,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 20,
           "disablePickup": {
@@ -432,7 +453,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 21,
           "disablePickup": {
@@ -451,7 +473,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 22,
           "disablePickup": {
@@ -470,7 +493,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 23,
           "disablePickup": {
@@ -489,7 +513,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 24,
           "disablePickup": {
@@ -508,7 +533,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 25,
           "disablePickup": {
@@ -527,7 +553,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 26,
           "disablePickup": {
@@ -546,7 +573,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 27,
           "disablePickup": {
@@ -565,7 +593,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 28,
           "disablePickup": {
@@ -584,7 +613,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 29,
           "disablePickup": {
@@ -603,7 +633,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 30,
           "disablePickup": {
@@ -622,7 +653,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 31,
           "disablePickup": {
@@ -641,7 +673,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 32,
           "disablePickup": {
@@ -660,7 +693,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 33,
           "disablePickup": {
@@ -679,7 +713,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 34,
           "disablePickup": {
@@ -698,7 +733,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 35,
           "disablePickup": {
@@ -717,7 +753,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 36,
           "disablePickup": {
@@ -736,7 +773,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 37,
           "disablePickup": {
@@ -755,7 +793,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 38,
           "disablePickup": {
@@ -774,7 +813,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 39,
           "disablePickup": {
@@ -793,7 +833,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 40,
           "disablePickup": {
@@ -812,7 +853,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 41,
           "disablePickup": {
@@ -831,7 +873,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 42,
           "disablePickup": {
@@ -850,7 +893,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 43,
           "disablePickup": {
@@ -869,7 +913,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 44,
           "disablePickup": {
@@ -888,7 +933,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 45,
           "disablePickup": {
@@ -907,7 +953,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 46,
           "disablePickup": {
@@ -926,7 +973,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 47,
           "disablePickup": {
@@ -945,7 +993,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 48,
           "disablePickup": {
@@ -964,7 +1013,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 49,
           "disablePickup": {
@@ -983,7 +1033,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 50,
           "disablePickup": {
@@ -1002,7 +1053,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 51,
           "disablePickup": {
@@ -1021,7 +1073,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 52,
           "disablePickup": {
@@ -1040,7 +1093,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 53,
           "disablePickup": {
@@ -1059,7 +1113,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 54,
           "disablePickup": {
@@ -1078,7 +1133,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 55,
           "disablePickup": {
@@ -1097,7 +1153,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 56,
           "disablePickup": {
@@ -1116,7 +1173,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 57,
           "disablePickup": {
@@ -1135,7 +1193,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 58,
           "disablePickup": {
@@ -1154,7 +1213,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 59,
           "disablePickup": {
@@ -1173,7 +1233,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 60,
           "disablePickup": {
@@ -1192,7 +1253,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 61,
           "disablePickup": {
@@ -1211,7 +1273,8 @@
             "value": ""
           },
           "disablePlacement": {
-            "fixedValue": false
+            "fixedValue": false,
+            "name": "DisablePlacementOfItemsInABackpackProcedure"
           },
           "id": 62,
           "disablePickup": {
