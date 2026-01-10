@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_cyan_bricks",
-    "textureTop": "new_cyan_bricks",
+    "texture": "cyan_brick",
+    "textureTop": "cyan_brick",
     "textureLeft": "new_light_gray_bricks",
-    "textureFront": "new_cyan_bricks",
+    "textureFront": "cyan_brick",
     "textureRight": "new_white_bricks",
     "textureBack": "new_white_bricks",
     "renderType": 11,

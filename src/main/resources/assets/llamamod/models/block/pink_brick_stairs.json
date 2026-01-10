@@ -1,10 +1,10 @@
 {
   "parent": "block/stairs",
   "textures": {
-    "particle": "llamamod:block/new_pink_bricks",
-    "bottom": "llamamod:block/new_pink_bricks",
-    "top": "llamamod:block/new_pink_bricks",
-    "side": "llamamod:block/new_pink_bricks"
+    "particle": "llamamod:block/pink_brick",
+    "bottom": "llamamod:block/pink_brick",
+    "top": "llamamod:block/pink_brick",
+    "side": "llamamod:block/pink_brick"
   },
   "render_type": "solid"
 }

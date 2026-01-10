@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_orange_bricks",
+    "texture": "orange_brick",
     "textureTop": "orsnge_bricks_x32",
     "textureLeft": "orsnge_bricks_x32",
     "textureFront": "orsnge_bricks_x32",

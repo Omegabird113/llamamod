@@ -1,8 +1,8 @@
 {
   "parent": "block/template_orientable_trapdoor_top",
   "textures": {
-    "texture": "llamamod:block/new_blue_bricks",
-    "particle": "llamamod:block/new_blue_bricks"
+    "texture": "llamamod:block/blue_brick",
+    "particle": "llamamod:block/blue_brick"
   },
   "render_type": "solid"
 }

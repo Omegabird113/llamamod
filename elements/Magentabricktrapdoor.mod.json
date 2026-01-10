@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_magenta_bricks",
+    "texture": "magenta_brick",
     "textureTop": "purple_bnricks_x32",
     "textureLeft": "purple_bnricks_x32",
     "textureFront": "purple_bnricks_x32",

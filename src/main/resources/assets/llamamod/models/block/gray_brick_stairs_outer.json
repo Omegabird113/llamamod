@@ -1,10 +1,10 @@
 {
   "parent": "block/outer_stairs",
   "textures": {
-    "particle": "llamamod:block/new_gray_bricks",
-    "bottom": "llamamod:block/new_gray_bricks",
-    "top": "llamamod:block/new_gray_bricks",
-    "side": "llamamod:block/new_gray_bricks"
+    "particle": "llamamod:block/gray_brick",
+    "bottom": "llamamod:block/gray_brick",
+    "top": "llamamod:block/gray_brick",
+    "side": "llamamod:block/gray_brick"
   },
   "render_type": "solid"
 }

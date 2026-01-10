@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_light_blue_bricks",
-    "textureTop": "new_light_blue_bricks",
+    "texture": "light_blue_brick",
+    "textureTop": "light_blue_brick",
     "textureLeft": "brightbluebricks_x32",
-    "textureFront": "new_light_blue_bricks",
+    "textureFront": "light_blue_brick",
     "textureRight": "brightbluebricks_x32",
     "textureBack": "brightbluebricks_x32",
     "renderType": 11,
@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "Slab",
     "blockSetType": "OAK",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -81,6 +84,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,

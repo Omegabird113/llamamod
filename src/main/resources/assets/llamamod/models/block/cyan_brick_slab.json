@@ -1,10 +1,10 @@
 {
   "parent": "block/slab",
   "textures": {
-    "particle": "llamamod:block/new_cyan_bricks",
-    "bottom": "llamamod:block/new_cyan_bricks",
-    "top": "llamamod:block/new_cyan_bricks",
-    "side": "llamamod:block/new_cyan_bricks"
+    "particle": "llamamod:block/cyan_brick",
+    "bottom": "llamamod:block/cyan_brick",
+    "top": "llamamod:block/cyan_brick",
+    "side": "llamamod:block/cyan_brick"
   },
   "render_type": "solid"
 }

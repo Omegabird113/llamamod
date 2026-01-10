@@ -1,10 +1,10 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "particle": "llamamod:block/new_orange_bricks",
-    "bottom": "llamamod:block/new_orange_bricks",
-    "top": "llamamod:block/new_orange_bricks",
-    "side": "llamamod:block/new_orange_bricks"
+    "particle": "llamamod:block/orange_brick",
+    "bottom": "llamamod:block/orange_brick",
+    "top": "llamamod:block/orange_brick",
+    "side": "llamamod:block/orange_brick"
   },
   "render_type": "solid"
 }

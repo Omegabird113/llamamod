@@ -1,8 +1,8 @@
 {
   "parent": "block/template_wall_side",
   "textures": {
-    "wall": "llamamod:block/new_brown_bricks",
-    "particle": "llamamod:block/new_brown_bricks"
+    "wall": "llamamod:block/brown_brick",
+    "particle": "llamamod:block/brown_brick"
   },
   "render_type": "solid"
 }

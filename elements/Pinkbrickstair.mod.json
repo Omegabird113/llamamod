@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_pink_bricks",
-    "textureTop": "new_pink_bricks",
+    "texture": "pink_brick",
+    "textureTop": "pink_brick",
     "textureLeft": "pinkbricks_x32",
-    "textureFront": "new_pink_bricks",
+    "textureFront": "pink_brick",
     "textureRight": "pinkbricks_x32",
     "textureBack": "pinkbricks_x32",
     "renderType": 11,

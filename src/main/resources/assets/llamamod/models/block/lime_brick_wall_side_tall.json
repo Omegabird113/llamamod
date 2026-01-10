@@ -1,8 +1,8 @@
 {
   "parent": "block/template_wall_side_tall",
   "textures": {
-    "wall": "llamamod:block/new_lime_brick",
-    "particle": "llamamod:block/new_lime_brick"
+    "wall": "llamamod:block/lime_brick",
+    "particle": "llamamod:block/lime_brick"
   },
   "render_type": "solid"
 }

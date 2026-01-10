@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "llamamod:block/new_orange_bricks",
-    "particle": "llamamod:block/new_orange_bricks"
+    "all": "llamamod:block/orange_brick",
+    "particle": "llamamod:block/orange_brick"
   },
   "render_type": "solid"
 }

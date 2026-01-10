@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "new_yellow_brick",
+    "texture": "yellow_brick",
     "textureTop": "yellowbricks_x32",
     "textureLeft": "yellowbricks_x32",
     "textureFront": "yellowbricks_x32",
@@ -19,6 +19,9 @@
     "particleTexture": "",
     "blockBase": "FenceGate",
     "blockSetType": "STONE",
+    "pottedPlant": {
+      "value": ""
+    },
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -81,6 +84,9 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
+    "strippingResult": {
+      "value": ""
+    },
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
