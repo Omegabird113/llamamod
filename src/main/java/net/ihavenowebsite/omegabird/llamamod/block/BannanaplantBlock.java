@@ -68,7 +68,7 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
 		Vec3 offset = state.getOffset(pos);
-		return box(2.6, 0, 2.6, 13.4, 16, 13.4).move(offset.x, offset.y, offset.z);
+		return box(3.46, 0, 3.46, 12.62, 16, 12.52).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override
