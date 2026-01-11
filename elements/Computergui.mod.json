@@ -73,8 +73,8 @@
           },
           "width": 30,
           "height": 20,
-          "x": 312,
-          "y": 0,
+          "x": 343,
+          "y": 20,
           "locked": false
         }
       },
@@ -91,7 +91,7 @@
             "falpha": 0.0
           },
           "x": 117,
-          "y": 9,
+          "y": 10,
           "locked": false
         }
       },
@@ -329,7 +329,7 @@
             "falpha": 0.0
           },
           "x": 90,
-          "y": 9,
+          "y": 10,
           "locked": false
         }
       },
@@ -460,6 +460,39 @@
           "height": 20,
           "x": 270,
           "y": 219,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_players",
+          "text": {
+            "fixedValue": "Players:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 90,
+          "y": 1,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_return_player_list_procedur",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnPlayerListProcedure"
+          },
+          "color": {
+            "value": -16742401,
+            "falpha": 0.0
+          },
+          "x": 136,
+          "y": 1,
           "locked": false
         }
       }

@@ -17,11 +17,7 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.Minecraft;
 
 import net.ihavenowebsite.omegabird.llamamod.world.inventory.ComputerguiMenu;
-import net.ihavenowebsite.omegabird.llamamod.procedures.ReturnTrueProcedure;
-import net.ihavenowebsite.omegabird.llamamod.procedures.Ifplayerhaspermission2Procedure;
-import net.ihavenowebsite.omegabird.llamamod.procedures.GettimeasstringProcedure;
-import net.ihavenowebsite.omegabird.llamamod.procedures.ComputercalculateprocidureProcedure;
-import net.ihavenowebsite.omegabird.llamamod.procedures.CompmsgnotblankProcedure;
+import net.ihavenowebsite.omegabird.llamamod.procedures.*;
 import net.ihavenowebsite.omegabird.llamamod.network.ComputerguiSliderMessage;
 import net.ihavenowebsite.omegabird.llamamod.network.ComputerguiButtonMessage;
 import net.ihavenowebsite.omegabird.llamamod.init.LlamamodModScreens;
@@ -169,14 +165,16 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_calculator"), 6, 5, -12829636, false);
-		guiGraphics.drawString(this.font, GettimeasstringProcedure.execute(world), 31, -11, -16711936, false);
+		guiGraphics.drawString(this.font, GettimeasstringProcedure.execute(world), 31, -10, -16711936, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_player_controll"), 6, 57, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_result"), 128, 34, -12829636, false);
 		guiGraphics.drawString(this.font, ComputercalculateprocidureProcedure.execute(entity), 128, 43, -65536, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_meassage"), 6, 110, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_random_number"), 6, 141, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_time"), 4, -11, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_time"), 4, -10, -1, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_redstone_output"), 5, 201, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_players"), 4, -19, -1, false);
+		guiGraphics.drawString(this.font, ReturnPlayerListProcedureProcedure.execute(world), 50, -19, -16742401, false);
 	}
 
 	@Override
@@ -245,7 +243,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(0, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 226, this.topPos + -20, 30, 20).build();
+		}).bounds(this.leftPos + 257, this.topPos + 0, 30, 20).build();
 		this.addRenderableWidget(button_x);
 		button_clear_inventory = Button.builder(Component.translatable("gui.llamamod.computergui.button_clear_inventory"), e -> {
 			int x = ComputerguiScreen.this.x;
