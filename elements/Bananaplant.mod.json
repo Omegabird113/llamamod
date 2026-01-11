@@ -16,7 +16,7 @@
             "item": {
               "value": "CUSTOM:Bannanaplant"
             },
-            "weight": 17,
+            "weight": 16,
             "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
@@ -30,7 +30,7 @@
             "item": {
               "value": "CUSTOM:Bannana"
             },
-            "weight": 39,
+            "weight": 38,
             "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
@@ -44,7 +44,7 @@
             "item": {
               "value": "CUSTOM:Farmscraps"
             },
-            "weight": 6,
+            "weight": 9,
             "minCount": 2,
             "maxCount": 3,
             "minEnchantmentLevel": 0,

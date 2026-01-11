@@ -10,7 +10,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:banana_plant",
-          "weight": 17,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -29,7 +29,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:banana",
-          "weight": 39,
+          "weight": 38,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -48,7 +48,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:farm_scraps",
-          "weight": 6,
+          "weight": 9,
           "conditions": [
             {
               "condition": "minecraft:inverted",
