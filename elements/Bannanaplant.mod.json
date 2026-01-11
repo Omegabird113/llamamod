@@ -94,7 +94,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "XZ",
+    "offsetType": "XYZ",
     "aiPathNodeType": "DEFAULT",
     "strippingResult": {
       "value": ""

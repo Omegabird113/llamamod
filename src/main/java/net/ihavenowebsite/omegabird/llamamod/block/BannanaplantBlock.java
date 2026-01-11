@@ -35,7 +35,7 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public BannanaplantBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_GREEN).randomTicks().sound(SoundType.GRASS).strength(0.12f, 0.55f).noOcclusion().dynamicShape().replaceable().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XZ)
+		super(properties.mapColor(MapColor.COLOR_GREEN).randomTicks().sound(SoundType.GRASS).strength(0.12f, 0.55f).noOcclusion().dynamicShape().replaceable().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XYZ)
 				.pushReaction(PushReaction.DESTROY));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AGE, 0).setValue(WATERLOGGED, false));
 	}
