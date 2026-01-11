@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="llamamod"
-version="1.0.0.4"
+version="1.0.0.5"
 displayName="LlamaMod"
 displayURL="https://github.com/Omegabird113/llamamod"
 logoFile="logo.png"
