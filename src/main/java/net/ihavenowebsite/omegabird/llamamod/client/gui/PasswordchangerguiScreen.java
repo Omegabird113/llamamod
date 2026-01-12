@@ -61,12 +61,19 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		password.render(guiGraphics, mouseX, mouseY, partialTicks);
 		current_password.render(guiGraphics, mouseX, mouseY, partialTicks);
-		this.renderTooltip(guiGraphics, mouseX, mouseY);
+		boolean customTooltipShown = false;
+		if (mouseX > leftPos + -4 && mouseX < leftPos + 20 && mouseY > topPos + -22 && mouseY < topPos + 2) {
+			guiGraphics.setTooltipForNextFrame(font, Component.translatable("gui.llamamod.passwordchangergui.tooltip_worldserver_operators_may_be_ab"), mouseX, mouseY);
+			customTooltipShown = true;
+		}
+		if (!customTooltipShown)
+			this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/warning.png"), this.leftPos + 0, this.topPos + -16, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override
