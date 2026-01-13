@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": "minecraft:smooth_stone",
-    "b": "minecraft:clock",
+    "b": "llamamod:password_changer",
     "c": "#c:glass_blocks/cheap",
     "d": "llamamod:variable_light",
     "e": "minecraft:repeater",
-    "f": "minecraft:writable_book"
+    "f": "minecraft:clock"
   },
   "result": {
     "id": "llamamod:computer",

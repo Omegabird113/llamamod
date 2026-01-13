@@ -10,7 +10,7 @@
     "a": "#llamamod:large_tiles",
     "b": "minecraft:lever",
     "c": "minecraft:redstone",
-    "d": "minecraft:book",
+    "d": "llamamod:password_changer",
     "e": "minecraft:iron_ingot"
   },
   "result": {

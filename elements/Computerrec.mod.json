@@ -16,7 +16,7 @@
         "value": "Blocks.SMOOTH_STONE"
       },
       {
-        "value": "Items.CLOCK"
+        "value": "CUSTOM:Passwordchanger"
       },
       {
         "value": "Blocks.SMOOTH_STONE"
@@ -34,7 +34,7 @@
         "value": "Blocks.SMOOTH_STONE"
       },
       {
-        "value": "Items.WRITABLE_BOOK"
+        "value": "Items.CLOCK"
       },
       {
         "value": "Blocks.SMOOTH_STONE"

@@ -3,13 +3,14 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "bcb",
-    "aba"
+    "cdc",
+    "aca"
   ],
   "key": {
     "a": "#llamamod:large_tiles",
-    "b": "minecraft:iron_ingot",
-    "c": "#llamamod:stoorage_items"
+    "b": "llamamod:password_changer",
+    "c": "minecraft:iron_ingot",
+    "d": "#llamamod:stoorage_items"
   },
   "result": {
     "id": "llamamod:secure_storage_block",
