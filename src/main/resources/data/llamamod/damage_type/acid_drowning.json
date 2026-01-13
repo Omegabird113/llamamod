@@ -1,5 +1,5 @@
 {
-  "exhaustion": 0.4,
+  "exhaustion": 0.6,
   "message_id": "acid_drowning",
   "scaling": "never",
   "effects": "drowning"

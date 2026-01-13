@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "damagetype",
   "definition": {
-    "exhaustion": 0.65,
+    "exhaustion": 0.92,
     "scaling": "always",
     "effects": "burning",
     "normalDeathMessage": "%1$s disolved from Acid.",

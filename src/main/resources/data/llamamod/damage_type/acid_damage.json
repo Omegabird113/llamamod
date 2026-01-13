@@ -1,5 +1,5 @@
 {
-  "exhaustion": 0.65,
+  "exhaustion": 0.92,
   "message_id": "acid_damage",
   "scaling": "always",
   "effects": "burning"
