@@ -66,6 +66,11 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 			guiGraphics.setTooltipForNextFrame(font, Component.translatable("gui.llamamod.passwordchangergui.tooltip_worldserver_operators_may_be_ab"), mouseX, mouseY);
 			customTooltipShown = true;
 		}
+		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
+			if (mouseX > leftPos + 0 && mouseX < leftPos + 24 && mouseY > topPos + 106 && mouseY < topPos + 130) {
+				guiGraphics.setTooltipForNextFrame(font, Component.translatable("gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o"), mouseX, mouseY);
+				customTooltipShown = true;
+			}
 		if (!customTooltipShown)
 			this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
