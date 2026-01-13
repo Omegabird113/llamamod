@@ -28,7 +28,7 @@ Each color variant, or tile type, has a corresponding block set, which includes 
 - A pressure plate
 - A button
 
-### Bananas, Banana Plants, and Farm Scraps
+### Bananas, Banana Plants, Banana Patches, and Farm Scraps
 All of these items are related together.
 
 #### The Banana
@@ -51,7 +51,7 @@ This is a naturally spawning plant which works similarly to something like sugar
 Banana Plants naturally generate in Banana Patches, and here's some info about them:
 - They can generate in the following biomes: *`Flower Forest`, `Forest`, `Jungle`, `Cherry Grove`, `Plains`*
 - They can only generate on Grass and Dirt blocks
-- They have a `1/28` chance of trying to generate in a chunk
+- They have a `1/70` chance of trying to generate in a chunk
 
 #### Farm Scraps
 
@@ -76,15 +76,15 @@ The player gets the effect:
 
 On each tick the effect is active:
 - Damage of type `acid_damage` is dealt according to the rounded-up result of the formula, `(a + 1.05) * 1.18` where `a` is the amplifier
-- If the player is ≥ 1.8 blocks deep in acid, 2 damage of type `acid_drowning` is dealt
+- If the player is `≥ 1.9` blocks deep in acid, 2 damage of type `acid_drowning` is dealt
 
 The Acid Damage type:
 - Scales with difficulty
-- Has an exhaustion value of `0.65`
+- Has an exhaustion value of `0.92`
 
 The Acid Drowning damage type:
 - Does not scale with difficulty
-- Has an exhaustion value of `0.4`
+- Has an exhaustion value of `0.6`
 
 ### The Password System
 
@@ -117,6 +117,7 @@ The complex offers a variety of features for information, math, player managemen
 - Players can generate a random number with a minimum and maximum values as low as `-1,000` and as high as `1,000`, inclusive or exclusive (exclusive also causes random numbers decimal values).
 - Players can access a formatted string of the 24-hour time (Ex. `7 o'clock (10% through the day)`)
 - Players can set a redstone output between 0 and 15, and they can choose to have the computer pick a random power output between 0 and 15.
+- It shows a list of the names of every player connected to a world/server.
 
 ### The Backpacks
 
@@ -129,9 +130,9 @@ This is the cheaper to craft, but less functional, variant of the backpack. It c
 #### The Netherite Backpack
 
 The Netherite backpack is an upgrade to the backpack which:
-- has `4` rows of items, instead of `3`
-- cannot burn, which protects your items if you drop them or die in fire or lava.
-- has a `Delete Items` button which deletes every item, though it is protected with a checkbox to prevent accidental deletions
+- Has `4` rows of items, instead of `3`
+- Cannot burn, which protects your items if you drop them or die in fire or lava.
+- Has a `Delete Items` button which deletes every item, though it is protected with a checkbox to prevent accidental deletions
 
 ### The Variable Light
 
