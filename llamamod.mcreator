@@ -770,26 +770,6 @@
       "path": "~/Blocks/Computer"
     },
     {
-      "name": "Ifplayerhaspermission2",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "ifplayerhaspermission_2",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/mc/omegabird/llamamod/procedures/Ifplayerhaspermission2Procedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Blocks/Computer"
-    },
-    {
       "name": "Compsendmsgprocidure",
       "type": "procedure",
       "compiles": true,
@@ -18121,6 +18101,26 @@
         ]
       },
       "path": "~/Blocks/Computer"
+    },
+    {
+      "name": "ComputerPlayerManagementPermissionCheck",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_player_management_permission_check",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/mc/omegabird/llamamod/procedures/ComputerPlayerManagementPermissionCheckProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Computer"
     }
   ],
   "variable_elements": [],
@@ -20326,7 +20326,8 @@
       "llamamod.configuration.prevent_nested_storage_item_placement": "Prevent Nested Storage Item Placement",
       "gui.llamamod.computergui.label_players": "Players:",
       "gui.llamamod.passwordchangergui.tooltip_worldserver_operators_may_be_ab": "Operators can SEE your passwords",
-      "gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o": "You see this becuase you\u0027re an operator"
+      "gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o": "You see this becuase you\u0027re an operator",
+      "llamamod.configuration.player_management_permission_level": "Player Management Permission Level"
     }
   },
   "metadata": {

@@ -133,7 +133,7 @@
             "name": "CompClearInventoryOfPlayerXProcedure"
           },
           "displayCondition": {
-            "name": "Ifplayerhaspermission2"
+            "name": "ComputerPlayerManagementPermissionCheck"
           },
           "width": 103,
           "height": 20,
@@ -152,7 +152,7 @@
             "name": "CompkillplayerXprocedure"
           },
           "displayCondition": {
-            "name": "Ifplayerhaspermission2"
+            "name": "ComputerPlayerManagementPermissionCheck"
           },
           "width": 46,
           "height": 20,

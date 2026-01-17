@@ -9,6 +9,7 @@ public class LlamamodserverconfigConfiguration {
 	public static final ModConfigSpec.ConfigValue<Boolean> GENERATE_ACID_LAKES;
 	public static final ModConfigSpec.ConfigValue<Boolean> GENERATE_BANANA_PATCHES;
 	public static final ModConfigSpec.ConfigValue<Double> ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL;
+	public static final ModConfigSpec.ConfigValue<Double> COMPUTER_PLAYER_MANAGEMENT_PERMISSION_LEVEL;
 	public static final ModConfigSpec.ConfigValue<Boolean> GIVE_ALL_RECIPES_ON_PLAYER_JOIN;
 	public static final ModConfigSpec.ConfigValue<Boolean> ALLOW_ITEM_CLEARING;
 	public static final ModConfigSpec.ConfigValue<Boolean> PREVENT_NESTED_STORAGE_ITEM_PLACEMENT;
@@ -20,6 +21,8 @@ public class LlamamodserverconfigConfiguration {
 		BUILDER.push("permissions");
 		ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL = BUILDER.comment("This controls the permission level required for people to be able to see the existing password in the Password Changer GUI").define("password_viewing_permission_level",
 				(double) 3);
+		COMPUTER_PLAYER_MANAGEMENT_PERMISSION_LEVEL = BUILDER.comment("This controls the permission level required for people to be able to kill or clear the inventory of players in the Computer GUI").define("player_management_permission_level",
+				(double) 2);
 		BUILDER.pop();
 		BUILDER.push("misc");
 		GIVE_ALL_RECIPES_ON_PLAYER_JOIN = BUILDER.comment("When enabled, this runs /recipe give @a * when an player joins the server or world").define("give_players_all_recipes", true);

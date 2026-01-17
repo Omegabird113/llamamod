@@ -248,7 +248,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		button_clear_inventory = Button.builder(Component.translatable("gui.llamamod.computergui.button_clear_inventory"), e -> {
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
-			if (Ifplayerhaspermission2Procedure.execute(entity)) {
+			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(1, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
@@ -257,7 +257,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		button_kill = Button.builder(Component.translatable("gui.llamamod.computergui.button_kill"), e -> {
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
-			if (Ifplayerhaspermission2Procedure.execute(entity)) {
+			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
@@ -367,8 +367,8 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	@Override
 	protected void containerTick() {
 		super.containerTick();
-		this.button_clear_inventory.visible = Ifplayerhaspermission2Procedure.execute(entity);
-		this.button_kill.visible = Ifplayerhaspermission2Procedure.execute(entity);
+		this.button_clear_inventory.visible = ComputerPlayerManagementPermissionCheckProcedure.execute(entity);
+		this.button_kill.visible = ComputerPlayerManagementPermissionCheckProcedure.execute(entity);
 		this.button_load.visible = CompmsgnotblankProcedure.execute(world, x, y, z);
 	}
 }
