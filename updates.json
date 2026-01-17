@@ -1,7 +1,7 @@
 {
   "homepage": "https://github.com/Omegabird113/llamamod/releases",
   "1.21.8" : {
-    "0.45": "Added Large Tiles w/ various color variants\nAdded Trapdoor variants of all building blocks (bricks, large tiles, & tiles)\nAdded Teal Bricks & Large Tiles + variants\nRe-textured the Secure Storage Block, and Authenticator Block.\nAdded the Variable Light Block\nRemoved the About GUI, and replaced it with a message that appears in chat when you run \"/llamamod about\"\nRemoved the \"/llamamodabout\" command\nAdded Tile & Ceiling Tile fences & fence gates\nUpdated the Time string in the computer to be more clear & detailed (Ex. \"~ (10% through the day/night)\" would now be \"7 o'clock (10% through the day)\")\nAdded/Updated/Removed tons of crafting recipes\nRe-added giving player all recipes automatically when they join a world.\nAdded the ability to make the computer give a redstone output, including a random one.\nWhen an operator attempts to kill or clear the inventory of a player that does not exist in the Computer, it now gives an error.\nThe error for invalid usernames in the computer now reminds the player that the name field is case-sensitive\nThere are now check boxes which control whether or not the \"Delete Items\" button is visible in the Netherite backpack and Secure Storage Block GUIs, in order to prevent accidental item deletions\nThe Creative Tab Icon was changed to the Lime Large Tile block\nProbably some other things I forgot"
+      "0.45": "first public version"
   },
   "promos": {
     "1.21.8-latest": "0.45",
