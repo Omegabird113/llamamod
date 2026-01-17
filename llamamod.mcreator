@@ -20509,7 +20509,7 @@
   "workspaceSettings": {
     "modid": "llamamod",
     "modName": "LlamaMod",
-    "version": "1.0.0.beta6",
+    "version": "1.0.0.rc",
     "description": "A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code.",
     "author": "Omegabird113",
     "websiteURL": "https://github.com/Omegabird113/llamamod",
