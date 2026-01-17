@@ -20515,6 +20515,7 @@
     "websiteURL": "https://github.com/Omegabird113/llamamod",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
+    "updateURL": "https://raw.githubusercontent.com/Omegabird113/llamamod/refs/heads/master/updates.json",
     "modPicture": "llamamod_logo",
     "requiredMods": [],
     "dependencies": [],
