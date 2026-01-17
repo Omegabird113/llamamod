@@ -10,12 +10,12 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:banana_plant",
-          "weight": 15,
+          "weight": 12,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 2
               }
             }

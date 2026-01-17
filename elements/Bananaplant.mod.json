@@ -16,8 +16,8 @@
             "item": {
               "value": "CUSTOM:Bannanaplant"
             },
-            "weight": 15,
-            "minCount": 1,
+            "weight": 12,
+            "minCount": 0,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
