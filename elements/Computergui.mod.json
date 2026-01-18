@@ -25,7 +25,7 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Enter Second Number",
+          "placeholder": "Enter second Number",
           "name": "number2",
           "width": 120,
           "height": 20,
