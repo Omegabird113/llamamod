@@ -110,7 +110,7 @@ This asks for a password using the [Password System](#the-password-system), and,
 
 The complex offers a variety of features for information, math, player management, and more. Here's a list of its features:
 - It supports having passwords with the [Password System](#the-password-system), so only people with access can use the other features
-- Players can make calculations between 2 numbers using the operations: `+`, `-`, `*`, `/`, and `^`
+- Players can make calculations between 2 numbers using the operations: `+`, `-`, `*`, `/`, `^`, `MOD`, `MIN`, and `MAX`
 - Players can send messages to other players
 - Operators can clear the inventory of and kill players
 - Players can store and retrieve a message within the computer block itself
@@ -142,14 +142,16 @@ This is a block which, when a block next to it is updated, will set the light le
 
 This table explains the entries in the `llamamod_server.toml` file in the `config` folder of your client or server installation folder, though your client's will only apply to singleplayer worlds.
 
-| Variable name (in file)                 | Type     | Default value | Description                                                                                                                                                     |
-|-----------------------------------------|----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `generate_acid_lakes`                   | `logic`  | `true`        | This enables or disables the generation of the `acid_lake` feature                                                                                              |
-| `generate_banana_patches`               | `logic`  | `true`        | This enables or disables the generation of the `banana_patch` feature                                                                                           |
-| `password_viewing_permission_level`     | `number` | `3`           | This controls the permission level required for players to be able to see passwords in the Password Changer GUI (Must be a whole number from 1 to 4 inclusive). |
-| `give_players_all_recipes`              | `logic`  | `true`        | When enabled, this runs the command `/recipe give @a *` when a player joins the server or world                                                                 |
-| `allow_features_to_delete_items`        | `logic`  | `true`        | This controls whether the `Clear` button in the Secure Storage Block and the `Delete Items` in the Netherite Backpack work                                      |
-| `prevent_nested_storage_item_placement` | `logic`  | `true`        | This controls (inversely) whether Backpacks and Shulker Boxes can be placed in Backpacks and Secure Storage Blocks                                              |
+| Variable name (in file)                 | Type     | Default value | Description                                                                                                                            |
+|-----------------------------------------|----------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| `generate_acid_lakes`                   | `logic`  | `true`        | This enables or disables the generation of the `acid_lake` feature                                                                     |
+| `generate_banana_patches`               | `logic`  | `true`        | This enables or disables the generation of the `banana_patch` feature                                                                  |
+| `password_viewing_permission_level`     | `number` | `3`           | This controls the permission level required for players to be able to see passwords in the Password Changer GUI                        |
+| `player_management_permission_level`    | `number` | `2`           | This controls the permission level required for players to be able to clear inventories of or kill other players from the Computer GUI |
+| `give_players_all_recipes`              | `logic`  | `true`        | When enabled, this runs the command `/recipe give @a *` when a player joins the server or world                                        |
+| `allow_features_to_delete_items`        | `logic`  | `true`        | This controls whether the `Clear` button in the Secure Storage Block and the `Delete Items` in the Netherite Backpack work             |
+| `prevent_nested_storage_item_placement` | `logic`  | `true`        | This controls (inversely) whether Backpacks and Shulker Boxes can be placed in Backpacks and Secure Storage Blocks                     |
+
 
 ## Development
 
