@@ -114,7 +114,7 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Enter username",
+          "placeholder": "Enter player name",
           "name": "player_name",
           "width": 120,
           "height": 20,
@@ -199,7 +199,7 @@
         "data": {
           "name": "label_meassage",
           "text": {
-            "fixedValue": "Stored Meassage:"
+            "fixedValue": "Stored Message:"
           },
           "color": {
             "value": -12829636,
@@ -213,7 +213,7 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Enter Text Here",
+          "placeholder": "Enter text here",
           "name": "msgbox",
           "width": 120,
           "height": 20,
@@ -260,7 +260,7 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Enter Meassage",
+          "placeholder": "Enter message",
           "name": "msg",
           "width": 120,
           "height": 20,
