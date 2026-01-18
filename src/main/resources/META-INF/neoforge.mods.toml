@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="llamamod"
-version="1.0.0."
+version="1.0.0"
 displayName="LlamaMod"
 updateJSONURL="https://raw.githubusercontent.com/Omegabird113/llamamod/refs/heads/master/updates.json"
 displayURL="https://github.com/Omegabird113/llamamod"
