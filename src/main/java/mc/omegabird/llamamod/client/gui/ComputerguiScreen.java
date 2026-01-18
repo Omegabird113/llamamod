@@ -40,10 +40,10 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	private Button button_kill;
 	private Button button_load;
 	private Button button_save;
-	private Button button_meassage;
 	private Button button_generate;
 	private Button button_set;
 	private Button button_random;
+	private Button button_message;
 	private ExtendedSlider minimumRand;
 	private ExtendedSlider maximumRand;
 	private ExtendedSlider power_output;
@@ -261,7 +261,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 195, this.topPos + 87, 46, 20).build();
+		}).bounds(this.leftPos + 189, this.topPos + 87, 46, 20).build();
 		this.addRenderableWidget(button_kill);
 		button_load = Button.builder(Component.translatable("gui.llamamod.computergui.button_load"), e -> {
 			int x = ComputerguiScreen.this.x;
@@ -281,21 +281,12 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			}
 		}).bounds(this.leftPos + 127, this.topPos + 119, 46, 20).build();
 		this.addRenderableWidget(button_save);
-		button_meassage = Button.builder(Component.translatable("gui.llamamod.computergui.button_meassage"), e -> {
+		button_generate = Button.builder(Component.translatable("gui.llamamod.computergui.button_generate"), e -> {
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 5, x, y, z);
-			}
-		}).bounds(this.leftPos + 127, this.topPos + 87, 67, 20).build();
-		this.addRenderableWidget(button_meassage);
-		button_generate = Button.builder(Component.translatable("gui.llamamod.computergui.button_generate"), e -> {
-			int x = ComputerguiScreen.this.x;
-			int y = ComputerguiScreen.this.y;
-			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 172, 67, 20).build();
 		this.addRenderableWidget(button_generate);
@@ -303,8 +294,8 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
 		}).bounds(this.leftPos + 141, this.topPos + 199, 40, 20).build();
 		this.addRenderableWidget(button_set);
@@ -312,11 +303,20 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(8, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 8, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}).bounds(this.leftPos + 184, this.topPos + 199, 56, 20).build();
 		this.addRenderableWidget(button_random);
+		button_message = Button.builder(Component.translatable("gui.llamamod.computergui.button_message"), e -> {
+			int x = ComputerguiScreen.this.x;
+			int y = ComputerguiScreen.this.y;
+			if (true) {
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(8, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 8, x, y, z);
+			}
+		}).bounds(this.leftPos + 127, this.topPos + 87, 61, 20).build();
+		this.addRenderableWidget(button_message);
 		boolean includedRandSelected = ReturnTrueProcedure.execute();
 		includedRand = Checkbox.builder(Component.translatable("gui.llamamod.computergui.includedRand"), this.font).pos(this.leftPos + 144, this.topPos + 151).onValueChange((checkbox, value) -> {
 			if (!menuStateUpdateActive)

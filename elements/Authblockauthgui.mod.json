@@ -27,7 +27,7 @@
         "data": {
           "name": "label_secure_stoorage_block",
           "text": {
-            "fixedValue": "Authenticator Block"
+            "fixedValue": "Authenticator"
           },
           "color": {
             "value": -16777216,
@@ -43,7 +43,7 @@
         "data": {
           "name": "label_enter_password",
           "text": {
-            "fixedValue": "Enter Password:"
+            "fixedValue": "Enter password:"
           },
           "color": {
             "value": -16777016,
