@@ -158,7 +158,7 @@ public class ComputercalculateprocidureProcedure {
 				}
 			}.convert((entity instanceof Player _entity24 && _entity24.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu24) ? _menu24.getMenuState(0, "number2", "") : ""));
 		} else {
-			result = "Invalid Operator";
+			result = "Invalid operator";
 		}
 		return result;
 	}
