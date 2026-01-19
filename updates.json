@@ -1,11 +1,12 @@
 {
   "homepage": "https://github.com/Omegabird113/llamamod/releases",
   "1.21.8" : {
+    "1.1.0": "Rebranded to LlamaBlocks, fixed computer UI typo",
     "1.0.0": "MOD-ID Update so INCOMPATIBLE with previous versions, some computer/banana/acid changes, config options added, etc",
     "0.45": "first public version"
   },
   "promos": {
-    "1.21.8-latest": "1.0.0",
-    "1.21.8-recommended": "1.0.0"
+    "1.21.8-latest": "1.1.0",
+    "1.21.8-recommended": "1.1.0"
   }
 }
