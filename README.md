@@ -1,5 +1,5 @@
-# LlamaMod
-LlamaMod is a chaotic, but interesting Minecraft mod I've made using [MCreator](https://mcreator.net) over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code. Its features range from a massive amount of similar building blocks with specific color variants, to single blocks with tons of functionality.
+# LlamaBlocks
+LlamaBlocks is a chaotic, but interesting Minecraft mod I've made using [MCreator](https://mcreator.net) over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code. Its features range from a massive amount of similar building blocks with specific color variants, to single blocks with tons of functionality.
 
 ## The Features
 Each sub-category of this section represents a feature or set of related features.
@@ -92,7 +92,7 @@ The [Secure Storage Block](#the-secure-storage-block), [Computer](#the-computer)
 
 #### <ins>**Important Security Concerns**</ins>
 1. **Operators can see any password**, meaning that all passwords aren't actually private.
-2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamaMod.
+2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamaBlocks.
 > More specifically, passwords are stored in a NBT text tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
 
 #### The Secure Storage Block
@@ -155,9 +155,9 @@ This table explains the entries in the `llamamod_server.toml` file in the `confi
 
 ## Development
 
-Here's some information about the development of LlamaMod.
+Here's some information about the development of LlamaBlocks.
 
-### Current Requirements to Run LlamaMod in Minecraft:
+### Current Requirements to Run LlamaBlocks in Minecraft:
 - [Minecraft](https://minecraft.net) version 1.21.8
 - [NeoForge](https://neoforged.net/) version [21.8.31](https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.31/neoforge-21.8.31-installer.jar) or higher
 
@@ -168,13 +168,13 @@ Here's some information about the development of LlamaMod.
 
 > Note that in order to connect to the GitHub repo, I'm also using the [Remote Workspaces Support](https://mcreator.net/plugin/97468/remote-workspaces-support-20232) plugin
 
-### The LlamaMod Versioning system
+### The LlamaBlocks Versioning system
 
-The current LlamaMod version system produces versions in the format `x.y.z` where:
+The current LlamaBlocks version system produces versions in the format `x.y.z` where:
 - `x` represents what I deem to be a huge update (ex. a rewrite, tons of new features, etc)
 - `y` represents an update which adds features, changes behavior in a noticeable way, or changes the neoforge or Minecraft version requirement (ex. some new blocks, a Minecraft version update, a new feature is added to the computer, etc)
 - `z` represents a bugfix or very small update (ex. an important hotfix, a consistency or bugfix, a small texture or GUI change, etc)
 
 ### Licensing, Modpacks, etc
 
-You can use LlamaMod in any modpack with credit, you may use LlamaMod's code or jar files as long as the use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+You can use LlamaBlocks in any modpack with credit, you may use LlamaBlocks's code or jar files as long as the use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
