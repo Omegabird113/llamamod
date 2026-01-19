@@ -25,7 +25,7 @@ import com.mojang.brigadier.arguments.BoolArgumentType;
 public class LmcmdCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("llamamod").requires(s -> s.hasPermission(3)).then(Commands.literal("about").executes(arguments -> {
+		event.getDispatcher().register(Commands.literal("llamablocks").requires(s -> s.hasPermission(3)).then(Commands.literal("about").executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();

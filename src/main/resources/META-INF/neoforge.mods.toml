@@ -5,13 +5,13 @@ license="GNU General Public License version 3 (GPLv3)"
 [[mods]]
 modId="llamamod"
 version="1.0.0"
-displayName="LlamaMod"
+displayName="LlamaBlocks"
 updateJSONURL="https://raw.githubusercontent.com/Omegabird113/llamamod/refs/heads/master/updates.json"
 displayURL="https://github.com/Omegabird113/llamamod"
 logoFile="logo.png"
 credits="Made with Mcreator 2025.3 with the Blockstates plugin"
 authors="Omegabird113"
-description="A mod with a chaotic set of features based on what I thought would be interesting to play with and/or to code."
+description="LlamaBlocks is a chaotic, but interesting Minecraft mod I've made using MCreator over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code. Its features range from a massive amount of similar building blocks with specific color variants, to single blocks with tons of functionality."
 
 # Start of user code block mod configuration
 # End of user code block mod configuration

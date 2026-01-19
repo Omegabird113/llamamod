@@ -73,7 +73,7 @@
   "gui.llamamod.incorrect_password_gui.label_retry_entering_the_password": "try entering it again.",
   "gui.llamamod.incorrect_password_gui.label_please_close_this_gui_and": "Please close this GUI, and",
   "gui.llamamod.incorrect_password_gui.button_x": "X",
-  "item_group.llamamod.llama_mod": "LlamaMod",
+  "item_group.llamamod.llama_mod": "LlamaBlocks",
   "gui.llamamod.double_secure_stoorafe_block_gui.button_close": "Close",
   "gui.llamamod.double_secure_stoorafe_block_gui.button_clear": "Clear",
   "gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block": "Secure Storage Block:",
