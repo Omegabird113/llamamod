@@ -247,6 +247,24 @@ public class ComputercalculateprocidureProcedure {
 					return 0;
 				}
 			}.convert((entity instanceof Player _entity39 && _entity39.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu39) ? _menu39.getMenuState(0, "number2", "") : ""));
+		} else if ((((entity instanceof Player _entity40 && _entity40.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu40) ? _menu40.getMenuState(0, "operation", "") : "").toUpperCase()).equals("LOG")) {
+			result = "" + ((int) Math.log(new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity41 && _entity41.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu41) ? _menu41.getMenuState(0, "number2", "") : "")) ^ (int) Math.log(new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity42 && _entity42.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu42) ? _menu42.getMenuState(0, "number1", "") : "")));
 		} else {
 			result = "Invalid operator";
 		}
