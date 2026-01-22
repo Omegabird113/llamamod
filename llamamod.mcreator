@@ -83,7 +83,7 @@
           }
         ]
       },
-      "path": "~/Prodicudureas"
+      "path": "~/Procedures"
     },
     {
       "name": "Backpackrec",
@@ -520,7 +520,7 @@
           }
         ]
       },
-      "path": "~/Prodicudureas"
+      "path": "~/Procedures"
     },
     {
       "name": "Tiles",
@@ -665,7 +665,7 @@
           }
         ]
       },
-      "path": "~/Prodicudureas"
+      "path": "~/Procedures"
     },
     {
       "name": "Savemeassage",
@@ -20450,7 +20450,7 @@
         ]
       },
       {
-        "name": "Prodicudureas",
+        "name": "Procedures",
         "children": []
       },
       {
