@@ -1,12 +1,13 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/llamablocks/files?page=1&pageSize=20&showAlphaFiles=hide",
   "1.21.8" : {
+    "1.1.1": "Fixed missing Acid Effect display texture, renamed Java Package, added several operators to the computer calculator",
     "1.1.0": "Rebranded to LlamaBlocks, fixed computer UI typo",
     "1.0.0": "MOD-ID Update so INCOMPATIBLE with previous versions, some computer/banana/acid changes, config options added, etc",
-    "0.45": "first public version"
+    "0.45": "first public version (only on github)"
   },
   "promos": {
-    "1.21.8-latest": "1.1.0",
-    "1.21.8-recommended": "1.1.0"
+    "1.21.8-latest": "1.1.1",
+    "1.21.8-recommended": "1.1.1"
   }
 }
