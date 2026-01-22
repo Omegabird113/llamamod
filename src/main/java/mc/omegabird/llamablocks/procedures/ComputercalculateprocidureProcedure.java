@@ -157,6 +157,96 @@ public class ComputercalculateprocidureProcedure {
 					return 0;
 				}
 			}.convert((entity instanceof Player _entity24 && _entity24.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu24) ? _menu24.getMenuState(0, "number2", "") : ""));
+		} else if ((((entity instanceof Player _entity25 && _entity25.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu25) ? _menu25.getMenuState(0, "operation", "") : "").toUpperCase()).equals("ATAN2")) {
+			result = "" + Math.atan2(new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity26 && _entity26.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu26) ? _menu26.getMenuState(0, "number1", "") : ""), new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity27 && _entity27.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu27) ? _menu27.getMenuState(0, "number2", "") : ""));
+		} else if ((((entity instanceof Player _entity28 && _entity28.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu28) ? _menu28.getMenuState(0, "operation", "") : "").toUpperCase()).equals("HYPOT")) {
+			result = "" + Math.hypot(new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity29 && _entity29.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu29) ? _menu29.getMenuState(0, "number1", "") : ""), new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity30 && _entity30.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu30) ? _menu30.getMenuState(0, "number2", "") : ""));
+		} else if ((((entity instanceof Player _entity31 && _entity31.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu31) ? _menu31.getMenuState(0, "operation", "") : "").toUpperCase()).equals("AND")) {
+			result = "" + ((int) new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity32 && _entity32.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu32) ? _menu32.getMenuState(0, "number1", "") : "") & (int) new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity33 && _entity33.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu33) ? _menu33.getMenuState(0, "number2", "") : ""));
+		} else if ((((entity instanceof Player _entity34 && _entity34.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu34) ? _menu34.getMenuState(0, "operation", "") : "").toUpperCase()).equals("OR")) {
+			result = "" + ((int) new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity35 && _entity35.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu35) ? _menu35.getMenuState(0, "number1", "") : "") | (int) new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity36 && _entity36.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu36) ? _menu36.getMenuState(0, "number2", "") : ""));
+		} else if ((((entity instanceof Player _entity37 && _entity37.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu37) ? _menu37.getMenuState(0, "operation", "") : "").toUpperCase()).equals("XOR")) {
+			result = "" + ((int) new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity38 && _entity38.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu38) ? _menu38.getMenuState(0, "number1", "") : "") ^ (int) new Object() {
+				double convert(String s) {
+					try {
+						return Double.parseDouble(s.trim());
+					} catch (Exception e) {
+					}
+					return 0;
+				}
+			}.convert((entity instanceof Player _entity39 && _entity39.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu39) ? _menu39.getMenuState(0, "number2", "") : ""));
 		} else {
 			result = "Invalid operator";
 		}
