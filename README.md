@@ -110,7 +110,10 @@ This asks for a password using the [Password System](#the-password-system), and,
 
 The complex offers a variety of features for information, math, player management, and more. Here's a list of its features:
 - It supports having passwords with the [Password System](#the-password-system), so only people with access can use the other features
-- Players can make calculations between 2 numbers using the operations: `+`, `-`, `*`, `/`, `^`, `MOD`, `MIN`, and `MAX`
+- Players can make calculations between 2 numbers using the operations: `+`, `-`, `*`, `/`, `^`, `MOD`, `MIN`, `MAX`, `ATAN2`, `HYPOT`, `AND`, `OR`, `XOR`, and `LOG`
+  - `AND`, `OR`, and `XOR` are all bitwise operations
+  - `LOG` is a logbase operation with the syntax `<base> log <n>`
+  - LlamaMod supports the irrational numbers `pi` and `e` to be entered.
 - Players can send messages to other players
 - Operators can clear the inventory of and kill players
 - Players can store and retrieve a message within the computer block itself
