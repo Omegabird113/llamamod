@@ -2591,7 +2591,7 @@
           "src/main/resources/data/llamamod/recipe/whhite_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "LightGrayBrickSlabRec",
@@ -2604,7 +2604,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "GrayBrickSlabRec",
@@ -2617,7 +2617,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "BlackBrickSlabRec",
@@ -2630,7 +2630,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "OrangeBrickSlabRec",
@@ -2643,7 +2643,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "MagentaBrickSlabRec",
@@ -2656,7 +2656,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "LightBlueBrickSlabRec",
@@ -2669,7 +2669,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "YellowBrickSlabRec",
@@ -2682,7 +2682,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "LimeBrickSlabRec",
@@ -2695,7 +2695,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "PinkBrickSlabRec",
@@ -2708,7 +2708,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "CyanBrickSlabRec",
@@ -2721,7 +2721,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "PurpleBrickSlabRec",
@@ -2734,7 +2734,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "BlueBrickSlabRec",
@@ -2747,7 +2747,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "BrownBrickSlabRec",
@@ -2760,7 +2760,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "GreenBrickSlabRec",
@@ -2773,7 +2773,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "RedBrickSlabRec",
@@ -2786,7 +2786,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "CherryBrickSlabRec",
@@ -2799,7 +2799,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "WhiteBrickStairs",
@@ -2812,7 +2812,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "LightGrayBrickStairs",
@@ -2825,7 +2825,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "GrayBrickStairs",
@@ -2838,7 +2838,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "BlackBrickStairs",
@@ -2851,7 +2851,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "OrangeBrickStairs",
@@ -2864,7 +2864,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "MagentaBrickStairs",
@@ -2877,7 +2877,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "LightBlueBrickStairs",
@@ -2890,7 +2890,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "YellowBrickStairs",
@@ -2903,7 +2903,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "LimeBrickStairs",
@@ -2916,7 +2916,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "PinkBrickStairs",
@@ -2929,7 +2929,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "CyanBrickStairs",
@@ -2942,7 +2942,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "PurpleBrickStairs",
@@ -2955,7 +2955,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_stairs.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "BlueBrickStairsRec",
@@ -2968,7 +2968,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "BrownBrickStairsRec",
@@ -2981,7 +2981,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "GreenBrickStairsRec",
@@ -2994,7 +2994,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "RedBrickStairsRec",
@@ -3007,7 +3007,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "CherryBrickStairsRec",
@@ -3020,7 +3020,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "IndustrialBricksRec",
@@ -3059,7 +3059,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "IndustrialBrickStairsRec",
@@ -3072,7 +3072,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "FarmscrapsToCarrotRec",
@@ -3755,7 +3755,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "LightGrayBrickWallRec",
@@ -3768,7 +3768,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "GrayBrickWallRec",
@@ -3781,7 +3781,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "BlackBrickWallRec",
@@ -3794,7 +3794,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "OrangeBrickWallRec",
@@ -3807,7 +3807,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "MagentaBrickWallRec",
@@ -3820,7 +3820,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "LightBlueBrickWallRec",
@@ -3833,7 +3833,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "YellowBrickWallRec",
@@ -3846,7 +3846,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "LimwBrickWallRec",
@@ -3859,7 +3859,7 @@
           "src/main/resources/data/llamamod/recipe/limw_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "PinkBrickWallRec",
@@ -3872,7 +3872,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "CyanBrickWallRec",
@@ -3885,7 +3885,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "PurpleBrickWallRec",
@@ -3898,7 +3898,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "BlueBrickWallRec",
@@ -3911,7 +3911,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "BrownBrickWallRec",
@@ -3924,7 +3924,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "GreenBrickWallRec",
@@ -3937,7 +3937,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "RedBrickWallRec",
@@ -3950,7 +3950,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "IndustrialBrickWallRec",
@@ -3963,7 +3963,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "CherryBrickWallRec",
@@ -3976,7 +3976,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "IndustrialBrickFenceRec",
@@ -3989,7 +3989,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "IndustrialBrickFenceGateRec",
@@ -4002,7 +4002,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "IndustrialBrickButtonRec",
@@ -4015,7 +4015,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "IndustrialBrickPreassurePlateRec",
@@ -4028,7 +4028,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "GivePasswordChangerProcedure",
@@ -5596,7 +5596,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "LightGrayBrickFenceRec",
@@ -5609,7 +5609,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "GrayBrickFenceRec",
@@ -5622,7 +5622,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "BlackBrickFenceRec",
@@ -5635,7 +5635,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "OrangeBrickFenceRec",
@@ -5648,7 +5648,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "MagentaBrickFenceRec",
@@ -5661,7 +5661,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "LightBlueBrickFenceRec",
@@ -5674,7 +5674,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "YellowBrickFenceRec",
@@ -5687,7 +5687,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "LimeBrickFenceRec",
@@ -5700,7 +5700,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "PinkBrickFenceRec",
@@ -5713,7 +5713,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "CyanBrickFenceRec",
@@ -5726,7 +5726,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "PurpleBrickFenceRec",
@@ -5739,7 +5739,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "BlueBrickFenceRec",
@@ -5752,7 +5752,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "BrownBrickFenceRec",
@@ -5765,7 +5765,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "GreenBrickFenceRec",
@@ -5778,7 +5778,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "RedBrickFenceRec",
@@ -5791,7 +5791,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "CherryBrickFenceRec",
@@ -5804,7 +5804,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "WhiteBrickFenceGateRec",
@@ -5817,7 +5817,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "LightGrayBrickFenceGateRec",
@@ -5830,7 +5830,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "GrayBrickFenceGateRec",
@@ -5843,7 +5843,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "BlackBrickFenceGateRec",
@@ -5856,7 +5856,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "OrangeBrickFenceGateRec",
@@ -5869,7 +5869,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "MagentaBrickFenceGateRec",
@@ -5882,7 +5882,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "LightBlueBrickFenceGateRec",
@@ -5895,7 +5895,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "YellowBrickFenceGateRec",
@@ -5908,7 +5908,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "LimeBrickFenceGateRec",
@@ -5921,7 +5921,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "PinkBrickFenceGateRec",
@@ -5934,7 +5934,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "CyanBrickFenceGateRec",
@@ -5947,7 +5947,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "PurpleBrickFenceGateRec",
@@ -5960,7 +5960,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "BlueBrickFenceGateRec",
@@ -5973,7 +5973,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "BrownBrickFenceGateRec",
@@ -5986,7 +5986,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "GreenBrickFenceGateRec",
@@ -5999,7 +5999,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "RedBrickFenceGateRec",
@@ -6012,7 +6012,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "CherryBrickFenceGateRec",
@@ -6025,7 +6025,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "WhiteBrickButtonRec",
@@ -6038,7 +6038,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "LightGrayBrickButtonRec",
@@ -6051,7 +6051,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "GrayBrickButtonRec",
@@ -6064,7 +6064,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "BlackBrickButtonRec",
@@ -6077,7 +6077,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "OrangeBrickButtonRec",
@@ -6090,7 +6090,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "MagentaBrickButtonRec",
@@ -6103,7 +6103,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "LightBlueBrickButtonRec",
@@ -6116,7 +6116,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "YellowBrickButtonRec",
@@ -6129,7 +6129,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "LimeBrickButtonRec",
@@ -6142,7 +6142,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "PinkBrickButtonRec",
@@ -6155,7 +6155,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "CyanBrickButtonRec",
@@ -6168,7 +6168,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "PurpleBrickButtonRec",
@@ -6181,7 +6181,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "BrownBrickButtonRec",
@@ -6194,7 +6194,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "BlueBrickButtonRec",
@@ -6207,7 +6207,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "GreenBrickButtonRec",
@@ -6220,7 +6220,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "RedBrickButtonRec",
@@ -6233,7 +6233,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "CherryBrickButtonRec",
@@ -6246,7 +6246,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "WhiteBrickPreassurePlateRec",
@@ -6259,7 +6259,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "LightGrayBrickPreassurePlateRec",
@@ -6272,7 +6272,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "GrayBrickPreassurePlateRec",
@@ -6285,7 +6285,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "BlackBrickPreassurePlateRec",
@@ -6298,7 +6298,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "OrangeBrickPreassurePlateRec",
@@ -6311,7 +6311,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "MagentaBrickPreassurePlateRec",
@@ -6324,7 +6324,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "LightBlueBrickPreassurePlateRec",
@@ -6337,7 +6337,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "YellowBrickPreassurePlateRec",
@@ -6350,7 +6350,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "LimeBrickPreassurePlateRec",
@@ -6363,7 +6363,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "PinkBrickPreassurePlateRec",
@@ -6376,7 +6376,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "CyanBrickPreassurePlateRec",
@@ -6389,7 +6389,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "PurpleBrickPreassurePlateRec",
@@ -6402,7 +6402,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "BlueBrickPreassurePlateRec",
@@ -6415,7 +6415,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "BrownBrickPreassurePlateRec",
@@ -6428,7 +6428,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "GReenBrickPreassurePlateRec",
@@ -6441,7 +6441,7 @@
           "src/main/resources/data/llamamod/recipe/g_reen_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "RedBrickPreassurePlateRec",
@@ -6454,7 +6454,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "CherryBrickPreassurePlateRec",
@@ -6467,7 +6467,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "Passwordchangerresetpasswordprocedure",
@@ -6717,7 +6717,7 @@
           "src/main/resources/data/llamamod/recipe/tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Tiles"
     },
     {
       "name": "CeilingTileSlabRec",
@@ -6730,7 +6730,7 @@
           "src/main/resources/data/llamamod/recipe/ceiling_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Tiles"
     },
     {
       "name": "TileStairsRec",
@@ -6743,7 +6743,7 @@
           "src/main/resources/data/llamamod/recipe/tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Tiles"
     },
     {
       "name": "CeilingTileStairsRec",
@@ -6756,7 +6756,7 @@
           "src/main/resources/data/llamamod/recipe/ceiling_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Tiles"
     },
     {
       "name": "TileBrickWallRec",
@@ -6769,7 +6769,7 @@
           "src/main/resources/data/llamamod/recipe/tile_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Tiles"
     },
     {
       "name": "CeilingTileBrickWallRec",
@@ -6782,7 +6782,7 @@
           "src/main/resources/data/llamamod/recipe/ceiling_tile_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Tiles"
     },
     {
       "name": "Tilepressureplate",
@@ -6873,7 +6873,7 @@
           "src/main/resources/data/llamamod/recipe/tile_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Tiles"
     },
     {
       "name": "CeilingTilePreassurePlateRec",
@@ -6886,7 +6886,7 @@
           "src/main/resources/data/llamamod/recipe/ceiling_tile_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Tiles"
     },
     {
       "name": "TileBrickButtonRec",
@@ -6899,7 +6899,7 @@
           "src/main/resources/data/llamamod/recipe/tile_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Tiles"
     },
     {
       "name": "CeilingTileBrickButtonRec",
@@ -6912,7 +6912,7 @@
           "src/main/resources/data/llamamod/recipe/ceiling_tile_brick_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Tiles"
     },
     {
       "name": "ReturnTrue",
@@ -7071,7 +7071,7 @@
           "src/main/resources/data/llamamod/recipe/large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "LargeTileStairsRec",
@@ -7084,7 +7084,7 @@
           "src/main/resources/data/llamamod/recipe/large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "LargeTileWallRec",
@@ -7097,7 +7097,7 @@
           "src/main/resources/data/llamamod/recipe/large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "LargeTilePressurePlateRec",
@@ -7110,7 +7110,7 @@
           "src/main/resources/data/llamamod/recipe/large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "LargeTileButtonRec",
@@ -7123,7 +7123,7 @@
           "src/main/resources/data/llamamod/recipe/large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "Variablelight",
@@ -9959,7 +9959,7 @@
           "src/main/resources/data/llamamod/recipe/tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Tiles"
     },
     {
       "name": "CeilingTileFenceRec",
@@ -9972,7 +9972,7 @@
           "src/main/resources/data/llamamod/recipe/ceiling_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Tiles"
     },
     {
       "name": "TileFenceGateRec",
@@ -9985,7 +9985,7 @@
           "src/main/resources/data/llamamod/recipe/tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Tiles"
     },
     {
       "name": "CeilingTileFenceGateRec",
@@ -9998,7 +9998,7 @@
           "src/main/resources/data/llamamod/recipe/ceiling_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Tiles"
     },
     {
       "name": "LightGrayLargeTileSlabRec",
@@ -10011,7 +10011,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "GrayLargeTileSlabRec",
@@ -10024,7 +10024,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "BlackLargeTileSlabRec",
@@ -10037,7 +10037,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "BrownLargeTileSlabRec",
@@ -10050,7 +10050,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "RedLargeTileSlabRec",
@@ -10063,7 +10063,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "OrangeLargeTileSlabRec",
@@ -10076,7 +10076,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "YellowLargeTileSlabRec",
@@ -10089,7 +10089,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "LimeLargeTileSlabRec",
@@ -10102,7 +10102,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "GreenLargeTileSlabRec",
@@ -10115,7 +10115,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "CyanLargeTileSlabRec",
@@ -10128,7 +10128,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "LightBlueLargeTileSlabRec",
@@ -10141,7 +10141,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "BlueLargeTileSlabRec",
@@ -10154,7 +10154,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "PurpleLargeTileSlabRec",
@@ -10167,7 +10167,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "MagentaLargeTileSlabRec",
@@ -10180,7 +10180,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "PinkLargeTileSlabRec",
@@ -10193,7 +10193,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "LightGrayLargeTileStairsRec",
@@ -10206,7 +10206,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "GrayLargeTileStairsRec",
@@ -10219,7 +10219,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "BlackLargeTileStairsRec",
@@ -10232,7 +10232,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "BrownLargeTileStairsRec",
@@ -10245,7 +10245,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "RedLargeTileStairsRec",
@@ -10258,7 +10258,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "OrangeLargeTileStairsRec",
@@ -10271,7 +10271,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "YellowLargeTileStairsRec",
@@ -10284,7 +10284,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "LimeLargeTileStairsRec",
@@ -10297,7 +10297,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "GreenLargeTileStairsRec",
@@ -10310,7 +10310,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "CyanLargeTileStairsRec",
@@ -10323,7 +10323,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "LightBlueLargeTileStairsRec",
@@ -10336,7 +10336,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "BlueLargeTileStairsRec",
@@ -10349,7 +10349,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "PurpleLargeTileStairsRec",
@@ -10362,7 +10362,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "MagentaLargeTileStairsRec",
@@ -10375,7 +10375,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "PinkLargeTileStairsRec",
@@ -10388,7 +10388,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "LightGrayLargeTileWallRec",
@@ -10401,7 +10401,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "GrayLargeTileWallRec",
@@ -10414,7 +10414,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "BlackLargeTileWallRec",
@@ -10427,7 +10427,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "BrownLargeTileWallRec",
@@ -10440,7 +10440,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "RedLargeTileWallRec",
@@ -10453,7 +10453,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "OrangeLargeTileWallRec",
@@ -10466,7 +10466,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "YellowLargeTileWallRec",
@@ -10479,7 +10479,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "LimeLargeTileWallRec",
@@ -10492,7 +10492,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "GreenLargeTileWallRec",
@@ -10505,7 +10505,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "CyanLargeTileWallRec",
@@ -10518,7 +10518,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "LightBlueLargeTileWallRec",
@@ -10531,7 +10531,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "BlueLargeTileWallRec",
@@ -10544,7 +10544,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "PurpleLargeTileWallRec",
@@ -10557,7 +10557,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "MagentaLargeTileWallRec",
@@ -10570,7 +10570,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "PinkLargeTileWallRec",
@@ -10583,7 +10583,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "LightGrayLargeTilePressurePlateRec",
@@ -10596,7 +10596,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "GrayLargeTilePressurePlateRec",
@@ -10609,7 +10609,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "BlackLargeTilePressurePlateRec",
@@ -10622,7 +10622,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "BrownLargeTilePressurePlateRec",
@@ -10635,7 +10635,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "RedLargeTilePressurePlateRec",
@@ -10648,7 +10648,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "OrangeLargeTilePressurePlateRec",
@@ -10661,7 +10661,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "YellowLargeTilePressurePlateRec",
@@ -10674,7 +10674,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "LimeLargeTilePressurePlateRec",
@@ -10687,7 +10687,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "GreenLargeTilePressurePlateRec",
@@ -10700,7 +10700,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "CyanLargeTilePressurePlateRec",
@@ -10713,7 +10713,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "LightBlueLargeTilePressurePlateRec",
@@ -10726,7 +10726,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "BlueLargeTilePressurePlateRec",
@@ -10739,7 +10739,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "PurpleLargeTilePressurePlateRec",
@@ -10752,7 +10752,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "MagentaLargeTilePressurePlateRec",
@@ -10765,7 +10765,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "PinkLargeTilePressurePlateRec",
@@ -10778,7 +10778,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Conversions"
     },
     {
       "name": "WhiteLargeTileFenceRec",
@@ -10791,7 +10791,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "LightGrayLargeTileFenceRec",
@@ -10804,7 +10804,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "GrayLargeTileFenceRec",
@@ -10817,7 +10817,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "BlackLargeTileFenceRec",
@@ -10830,7 +10830,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "BrownLargeTileFenceRec",
@@ -10843,7 +10843,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "RedLargeTileFenceRec",
@@ -10856,7 +10856,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "OrangeLargeTileFenceRec",
@@ -10869,7 +10869,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "YellowLargeTileFenceRec",
@@ -10882,7 +10882,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "LimeLargeTileFenceRec",
@@ -10895,7 +10895,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "GreenLargeTileFenceRec",
@@ -10908,7 +10908,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "CyanLargeTileFenceRec",
@@ -10921,7 +10921,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "LightBlueLargeTileFenceRec",
@@ -10934,7 +10934,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "BlueLargeTileFenceRec",
@@ -10947,7 +10947,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "PurpleLargeTileFenceRec",
@@ -10960,7 +10960,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "MagentaLargeTileFenceRec",
@@ -10973,7 +10973,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "PinkLargeTileFenceRec",
@@ -10986,7 +10986,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "WhiteLargeTileFenceGateRec",
@@ -10999,7 +10999,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "LightGrayLargeTileFenceGateRec",
@@ -11012,7 +11012,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "GrayLargeTileFenceGateRec",
@@ -11025,7 +11025,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "BlackLargeTileFenceGateRec",
@@ -11038,7 +11038,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "BrownLargeTileFenceGateRec",
@@ -11051,7 +11051,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "RedLargeTileFenceGateRec",
@@ -11064,7 +11064,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "OrangeLargeTileFenceGateRec",
@@ -11077,7 +11077,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "YellowLargeTileFenceGateRec",
@@ -11090,7 +11090,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "LimeLargeTileFenceGateRec",
@@ -11103,7 +11103,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "GreenLargeTileFenceGateRec",
@@ -11116,7 +11116,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "CyanLargeTileFenceGateRec",
@@ -11129,7 +11129,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "LightBlueLargeTileFenceGateRec",
@@ -11142,7 +11142,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "BlueLargeTileFenceGateRec",
@@ -11155,7 +11155,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "PurpleLargeTileFenceGateRec",
@@ -11168,7 +11168,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "MagentaLargeTileFenceGateRec",
@@ -11181,7 +11181,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "PinkLargeTileFenceGateRec",
@@ -11194,7 +11194,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "LightGrayLargeTileButtonRec",
@@ -11207,7 +11207,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "GrayLargeTileButtonRec",
@@ -11220,7 +11220,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "BlackLargeTileButtonRec",
@@ -11233,7 +11233,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "BrownLargeTileButtonRec",
@@ -11246,7 +11246,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "RedLargeTileButtonRec",
@@ -11259,7 +11259,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "OrangeLargeTileButtonRec",
@@ -11272,7 +11272,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "YellowLargeTileButtonRec",
@@ -11285,7 +11285,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "LimeLargeTileButtonRec",
@@ -11298,7 +11298,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "GreenLargeTileButtonRec",
@@ -11311,7 +11311,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "CyanLargeTileButtonRec",
@@ -11324,7 +11324,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "LightBlueLargeTileButtonRec",
@@ -11337,7 +11337,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "BlueLargeTileButtonRec",
@@ -11350,7 +11350,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "PurpleLargeTileButtonRec",
@@ -11363,7 +11363,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "MegentaLargeTileButtonRec",
@@ -11376,7 +11376,7 @@
           "src/main/resources/data/llamamod/recipe/megenta_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "PinkLargeTileButtonRec",
@@ -11389,7 +11389,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "WhiteLargeTileStairsExistingConversionRec",
@@ -11402,7 +11402,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "LightGrayLargeTileStairsExistingConversionRec",
@@ -11415,7 +11415,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "GrayLargeTileStairsExistingConversionRec",
@@ -11428,7 +11428,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "BlackLargeTileStairsExistingConversionRec",
@@ -11441,7 +11441,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "BrownLargeTileStairsExistingConversionRec",
@@ -11454,7 +11454,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "RedLargeTileStairsExistingConversionRec",
@@ -11467,7 +11467,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "OrangeLargeTileStairsExistingConversionRec",
@@ -11480,7 +11480,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "YellowLargeTileStairsExistingConversionRec",
@@ -11493,7 +11493,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "LimeLargeTileStairsExistingConversionRec",
@@ -11506,7 +11506,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "GreenLargeTileStairsExistingConversionRec",
@@ -11519,7 +11519,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "CyanLargeTileStairsExistingConversionRec",
@@ -11532,7 +11532,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "LightBlueLargeTileStairsExistingConversionRec",
@@ -11545,7 +11545,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "BlueLargeTileStairsExistingConversionRec",
@@ -11558,7 +11558,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "PurpleLargeTileStairsExistingConversionRec",
@@ -11571,7 +11571,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "MagentaLargeTileStairsExistingConversionRec",
@@ -11584,7 +11584,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "PinkLargeTileStairsExistingConversionRec",
@@ -11597,7 +11597,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "WhiteLargeTileSlabExistingConversionRec",
@@ -11610,7 +11610,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "LightGrayLargeTileSlabExistingConversionRec",
@@ -11623,7 +11623,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "GrayLargeTileSlabExistingConversionRec",
@@ -11636,7 +11636,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "BlackLargeTileSlabExistingConversionRec",
@@ -11649,7 +11649,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "BrownLargeTileSlabExistingConversionRec",
@@ -11662,7 +11662,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "RedLargeTileSlabExistingConversionRec",
@@ -11675,7 +11675,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "OrangeLargeTileSlabExistingConversionRec",
@@ -11688,7 +11688,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "YellowLargeTileSlabExistingConversionRec",
@@ -11701,7 +11701,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "LimeLargeTileSlabExistingConversionRec",
@@ -11714,7 +11714,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "GreenLargeTileSlabExistingConversionRec",
@@ -11727,7 +11727,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "CyanLargeTileSlabExistingConversionRec",
@@ -11740,7 +11740,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "LightBlueLargeTileSlabExistingConversionRec",
@@ -11753,7 +11753,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "BlueLargeTileSlabExistingConversionRec",
@@ -11766,7 +11766,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "PurpleLargeTileSlabExistingConversionRec",
@@ -11779,7 +11779,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "MagentaLargeTileSlabExistingConversionRec",
@@ -11792,7 +11792,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "PinkLargeTileSlabExistingConversionRec",
@@ -11805,7 +11805,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "WhiteLargeTileWallExistingConversionRec",
@@ -11818,7 +11818,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "LightDyeLargeTileWallExistingConversionRec",
@@ -11831,7 +11831,7 @@
           "src/main/resources/data/llamamod/recipe/light_dye_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "GrayLargeTileWallExistingConversionRec",
@@ -11844,7 +11844,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "BlackLargeTileWallExistingConversionRec",
@@ -11857,7 +11857,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "BrownLargeTileWallExistingConversionRec",
@@ -11870,7 +11870,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "RedLargeTileWallExistingConversionRec",
@@ -11883,7 +11883,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "OrangeLargeTileWallExistingConversionRec",
@@ -11896,7 +11896,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "YellowLargeTileWallExistingConversionRec",
@@ -11909,7 +11909,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "LimeLargeTileWallExistingConversionRec",
@@ -11922,7 +11922,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "GreenLargeTileWallExistingConversionRec",
@@ -11935,7 +11935,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "CyanLargeTileWallExistingConversionRec",
@@ -11948,7 +11948,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "LightBlueLargeTileWallExistingConversionRec",
@@ -11961,7 +11961,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "BlueLargeTileWallExistingConversionRec",
@@ -11974,7 +11974,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "PurpleLargeTileWallExistingConversionRec",
@@ -11987,7 +11987,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "MagentaLargeTileWallExistingConversionRec",
@@ -12000,7 +12000,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "PinkLargeTileWallExistingConversionRec",
@@ -12013,7 +12013,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "WhiteLargeTilePressurePlateExistingConversionRec",
@@ -12026,7 +12026,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "LightGrayLargeTilePressurePlateExistingConversionRec",
@@ -12039,7 +12039,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "GrayLargeTilePressurePlateExistingConversionRec",
@@ -12052,7 +12052,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "BlackLargeTilePressurePlateExistingConversionRec",
@@ -12065,7 +12065,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "BrownLargeTilePressurePlateExistingConversionRec",
@@ -12078,7 +12078,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "RedLargeTilePressurePlateExistingConversionRec",
@@ -12091,7 +12091,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "OrangeLargeTilePressurePlateExistingConversionRec",
@@ -12104,7 +12104,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "YellowLargeTilePressurePlateExistingConversionRec",
@@ -12117,7 +12117,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "LimeLargeTilePressurePlateExistingConversionRec",
@@ -12130,7 +12130,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "GreenLargeTilePressurePlateExistingConversionRec",
@@ -12143,7 +12143,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "CyanLargeTilePressurePlateExistingConversionRec",
@@ -12156,7 +12156,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "LightBlueLargeTilePressurePlateExistingConversionRec",
@@ -12169,7 +12169,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "BlueLargeTilePressurePlateExistingConversionRec",
@@ -12182,7 +12182,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "PurpleLargeTilePressurePlateExistingConversionRec",
@@ -12195,7 +12195,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "MegentaLargeTilePressurePlateExistingConversionRec",
@@ -12208,7 +12208,7 @@
           "src/main/resources/data/llamamod/recipe/megenta_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "PinkLargeTilePressurePlateExistingConversionRec",
@@ -12221,7 +12221,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "WhiteLargeTileFenceExistingConversionRec",
@@ -12234,7 +12234,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "LightGrayLargeTileFenceExistingConversionRec",
@@ -12247,7 +12247,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "GrayLargeTileFenceExistingConversionRec",
@@ -12260,7 +12260,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "BlackLargeTileFenceExistingConversionRec",
@@ -12273,7 +12273,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "BrownLargeTileFenceExistingConversionRec",
@@ -12286,7 +12286,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "RedLargeTileFenceExistingConversionRec",
@@ -12299,7 +12299,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "OrangeLargeTileFenceExistingConversionRec",
@@ -12312,7 +12312,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "YellowLargeTileFenceExistingConversionRec",
@@ -12325,7 +12325,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "LimeLargeTileFenceExistingConversionRec",
@@ -12338,7 +12338,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "GreenLargeTileFenceExistingConversionRec",
@@ -12351,7 +12351,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "CyanLargeTileFenceExistingConversionRec",
@@ -12364,7 +12364,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "LightBlueLargeTileFenceExistingConversionRec",
@@ -12377,7 +12377,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "BlueLargeTileFenceExistingConversionRec",
@@ -12390,7 +12390,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "PurpleLargeTileFenceExistingConversionRec",
@@ -12403,7 +12403,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "MagentaLargeTileFenceExistingConversionRec",
@@ -12416,7 +12416,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "PinkLargeTileFenceExistingConversionRec",
@@ -12429,7 +12429,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "WhiteLargeTileFenceGateExistingConversionRec",
@@ -12442,7 +12442,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "LightGrayLargeTileFenceGateExistingConversionRec",
@@ -12455,7 +12455,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "GrayLargeTileFenceGateExistingConversionRec",
@@ -12468,7 +12468,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "BlackLargeTileFenceGateExistingConversionRec",
@@ -12481,7 +12481,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "BrownLargeTileFenceGateExistingConversionRec",
@@ -12494,7 +12494,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "RedLargeTileFenceGateExistingConversionRec",
@@ -12507,7 +12507,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "OrangeLargeTileFenceGateExistingConversionRec",
@@ -12520,7 +12520,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "YellowLargeTileFenceGateExistingConversionRec",
@@ -12533,7 +12533,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "LimeLargeTileFenceGateExistingConversionRec",
@@ -12546,7 +12546,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "GreenLargeTileFenceGateExistingConversionRec",
@@ -12559,7 +12559,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "CyanLargeTileFenceGateExistingConversionRec",
@@ -12572,7 +12572,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "LightBlueLargeTileFenceGateExistingConversionRec",
@@ -12585,7 +12585,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "BlueLargeTileFenceGateExistingConversionRec",
@@ -12598,7 +12598,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "PurpleLargeTileFenceGateExistingConversionRec",
@@ -12611,7 +12611,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "MagentaLargeTileFenceGateExistingConversionRec",
@@ -12624,7 +12624,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "PinkLargeTileFenceGateExistingConversionRec",
@@ -12637,7 +12637,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "WhiteLargeTileButtonExistingConversionRec",
@@ -12650,7 +12650,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "LightGrayLargeTileButtonExistingConversionRec",
@@ -12663,7 +12663,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "GrayLargeTileButtonExistingConversionRec",
@@ -12676,7 +12676,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "BlackLargeTileButtonExistingConversionRec",
@@ -12689,7 +12689,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "BrownLargeTileButtonExistingConversionRec",
@@ -12702,7 +12702,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "RedLargeTileButtonExistingConversionRec",
@@ -12715,7 +12715,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "OrangeLargeTileButtonExistingConversionRec",
@@ -12728,7 +12728,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "YellowLargeTileButtonExistingConversionRec",
@@ -12741,7 +12741,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "LimeLargeTileButtonExistingConversionRec",
@@ -12754,7 +12754,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "GreenLargeTileButtonExistingConversionRec",
@@ -12767,7 +12767,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "CyanLargeTileButtonExistingConversionRec",
@@ -12780,7 +12780,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "LightBlueLargeTileButtonExistingConversionRec",
@@ -12793,7 +12793,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "BlueLargeTileButtonExistingConversionRec",
@@ -12806,7 +12806,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "PurpleLargeTileButtonExistingConversionRec",
@@ -12819,7 +12819,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "MagentaLargeTileButtonExistingConversionRec",
@@ -12832,7 +12832,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "PinkLargeTileButtonExistingConversionRec",
@@ -12845,7 +12845,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "WhiteBrickStairsExistingConversionRec",
@@ -12858,7 +12858,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "LightGrayBrickStairsExistingConversionRec",
@@ -12871,7 +12871,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "GrayBrickStairsExistingConversionRec",
@@ -12884,7 +12884,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "BlackBrickStairsExistingConversionRec",
@@ -12897,7 +12897,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "BrownBrickStairsExistingConversionRec",
@@ -12910,7 +12910,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "RedBrickStairsExistingConversionRec",
@@ -12923,7 +12923,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "OrangeBrickStairsExistingConversionRec",
@@ -12936,7 +12936,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "YellowBrickStairsExistingConversionRec",
@@ -12949,7 +12949,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "LimeBrickStairsExistingConversionRec",
@@ -12962,7 +12962,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "GreenBrickStairsExistingConversionRec",
@@ -12975,7 +12975,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "CyanBrickStairsExistingConversionRec",
@@ -12988,7 +12988,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "LightBlueBrickStairsExistingConversionRec",
@@ -13001,7 +13001,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "BlueBrickStairsExistingConversionRec",
@@ -13014,7 +13014,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "PurpleBrickStairsExistingConversionRec",
@@ -13027,7 +13027,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "MagentaBrickStairsExistingConversionRec",
@@ -13040,7 +13040,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "PinkBrickStairsExistingConversionRec",
@@ -13053,7 +13053,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "VanillaBrickStairsExistingConversionRec",
@@ -13066,7 +13066,7 @@
           "src/main/resources/data/llamamod/recipe/vanilla_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "CherryBrickStairsExistingConversionRec",
@@ -13079,7 +13079,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "InsutrialBrickStairsExistingConversionRec",
@@ -13092,7 +13092,7 @@
           "src/main/resources/data/llamamod/recipe/insutrial_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "WhiteBrickSlabExistingConversionRec",
@@ -13105,7 +13105,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "LightGrayBrickSlabExistingConversionRec",
@@ -13118,7 +13118,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "GrayBrickSlabExistingConversionRec",
@@ -13131,7 +13131,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "BlackBrickSlabExistingConversionRec",
@@ -13144,7 +13144,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "BrownBrickSlabExistingConversionRec",
@@ -13157,7 +13157,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "RedBrickSlabExistingConversionRec",
@@ -13170,7 +13170,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "OrangeBrickSlabExistingConversionRec",
@@ -13183,7 +13183,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "YellowBrickSlabExistingConversionRec",
@@ -13196,7 +13196,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "LimeBrickSlabExistingConversionRec",
@@ -13209,7 +13209,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "GreenBrickSlabExistingConversionRec",
@@ -13222,7 +13222,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "CyanBrickSlabExistingConversionRec",
@@ -13235,7 +13235,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "LightBlueBrickSlabExistingConversionRec",
@@ -13248,7 +13248,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "BlueBrickSlabExistingConversionRec",
@@ -13261,7 +13261,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "PurpleBrickSlabExistingConversionRec",
@@ -13274,7 +13274,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "MagentaBrickSlabExistingConversionRec",
@@ -13287,7 +13287,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "PinkBrickSlabExistingConversionRec",
@@ -13300,7 +13300,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "VinillaBrickSlabExistingConversionRec",
@@ -13313,7 +13313,7 @@
           "src/main/resources/data/llamamod/recipe/vinilla_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "CherryBrickSlabExistingConversionRec",
@@ -13326,7 +13326,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "IndustrialBrickSlabExistingConversionRec",
@@ -13339,7 +13339,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "WhiteBrickWallExistingConversionRec",
@@ -13352,7 +13352,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "LightGrayBrickWallExistingConversionRec",
@@ -13365,7 +13365,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "GrayBrickWallExistingConversionRec",
@@ -13378,7 +13378,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "BlackBrickWallExistingConversionRec",
@@ -13391,7 +13391,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "BrownBrickWallExistingConversionRec",
@@ -13404,7 +13404,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "RedBrickWallExistingConversionRec",
@@ -13417,7 +13417,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "OrangeBrickWallExistingConversionRec",
@@ -13430,7 +13430,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "YellowBrickWallExistingConversionRec",
@@ -13443,7 +13443,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "LimeBrickWallExistingConversionRec",
@@ -13456,7 +13456,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "GreenBrickWallExistingConversionRec",
@@ -13469,7 +13469,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "CyanBrickWallExistingConversionRec",
@@ -13482,7 +13482,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "LightBlueBrickWallExistingConversionRec",
@@ -13495,7 +13495,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "BlueBrickWallExistingConversionRec",
@@ -13508,7 +13508,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "PurpleBrickWallExistingConversionRec",
@@ -13521,7 +13521,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "MagentaBrickWallExistingConversionRec",
@@ -13534,7 +13534,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "PinkBrickWallExistingConversionRec",
@@ -13547,7 +13547,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "VanillaBrickWallExistingConversionRec",
@@ -13560,7 +13560,7 @@
           "src/main/resources/data/llamamod/recipe/vanilla_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "CherryBrickWallExistingConversionRec",
@@ -13573,7 +13573,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "IndustrialBrickWallExistingConversionRec",
@@ -13586,7 +13586,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "WhiteBrickFenceExistingConversionRec",
@@ -13599,7 +13599,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "LightGrayBrickFenceExistingConversionRec",
@@ -13612,7 +13612,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "GrayBrickFenceExistingConversionRec",
@@ -13625,7 +13625,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "BlackBrickFenceExistingConversionRec",
@@ -13638,7 +13638,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "BrownBrickFenceExistingConversionRec",
@@ -13651,7 +13651,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "RedBrickFenceExistingConversionRec",
@@ -13664,7 +13664,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "OrangeBrickFenceExistingConversionRec",
@@ -13677,7 +13677,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "YellowBrickFenceExistingConversionRec",
@@ -13690,7 +13690,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "LimeBrickFenceExistingConversionRec",
@@ -13703,7 +13703,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "GreenBrickFenceExistingConversionRec",
@@ -13716,7 +13716,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "CyanBrickFenceExistingConversionRec",
@@ -13729,7 +13729,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "LightBlueBrickFenceExistingConversionRec",
@@ -13742,7 +13742,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "BlueBrickFenceExistingConversionRec",
@@ -13755,7 +13755,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "PurpleBrickFenceExistingConversionRec",
@@ -13768,7 +13768,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "MagentaBrickFenceExistingConversionRec",
@@ -13781,7 +13781,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "PinkBrickFenceExistingConversionRec",
@@ -13794,7 +13794,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "CherryBrickFenceExistingConversionRec",
@@ -13807,7 +13807,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "IndustrialBrickFenceExistingConversionRec",
@@ -13820,7 +13820,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "WhiteBrickFenceGateExistingConversionRec",
@@ -13833,7 +13833,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "LightGrayBrickFenceGateExistingConversionRec",
@@ -13847,7 +13847,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/light_gray_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "GrayBrickFenceGateExistingConversionRec",
@@ -13861,7 +13861,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/gray_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "BlackBrickFenceGateExistingConversionRec",
@@ -13875,7 +13875,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/black_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "BrownBrickFenceGateExistingConversionRec",
@@ -13889,7 +13889,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/brown_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "RedBrickFenceGateExistingConversionRec",
@@ -13903,7 +13903,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "OrangeBrickFenceGateExistingConversionRec",
@@ -13917,7 +13917,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/orange_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "YellowBrickFenceGateExistingConversionRec",
@@ -13931,7 +13931,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/yellow_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "LimeBrickFenceGateExistingConversionRec",
@@ -13945,7 +13945,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "GreenBrickFenceGateExistingConversionRec",
@@ -13959,7 +13959,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/green_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "CyanBrickFenceGateExistingConversionRec",
@@ -13973,7 +13973,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "LightBlueBrickFenceGateExistingConversionRec",
@@ -13987,7 +13987,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "BlueBrickFenceGateExistingConversionRec",
@@ -14001,7 +14001,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/blue_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "PurpleBrickFenceGateExistingConversionRec",
@@ -14015,7 +14015,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/purple_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "MagentaBrickFenceGateExistingConversionRec",
@@ -14029,7 +14029,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "PinkBrickFenceGateExistingConversionRec",
@@ -14043,7 +14043,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/pink_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "CherryBrickFenceGateExistingConversionRec",
@@ -14057,7 +14057,7 @@
           "src/main/resources/data/llamamod/advancement/recipes/cherry_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "IndustrialBrickFenceGateExistingConversionRec",
@@ -14071,7 +14071,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "WhiteBrickPressurePlateExistingConversionRec",
@@ -14084,7 +14084,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "LightGrayBrickPressurePlateExistingConversionRec",
@@ -14097,7 +14097,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "GrayBrickPressurePlateExistingConversionRec",
@@ -14110,7 +14110,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "BlackBrickPressurePlateExistingConversionRec",
@@ -14123,7 +14123,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "BrownBrickPressurePlateExistingConversionRec",
@@ -14136,7 +14136,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "RedBrickPressurePlateExistingConversionRec",
@@ -14149,7 +14149,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "OrangeBrickPressurePlateExistingConversionRec",
@@ -14162,7 +14162,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "YellowBrickPressurePlateExistingConversionRec",
@@ -14175,7 +14175,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "LimeBrickPressurePlateExistingConversionRec",
@@ -14188,7 +14188,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "GreenBrickPressurePlateExistingConversionRec",
@@ -14201,7 +14201,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "CyanBrickPressurePlateExistingConversionRec",
@@ -14214,7 +14214,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "LightBlueBrickPressurePlateExistingConversionRec",
@@ -14227,7 +14227,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "BlueBrickPressurePlateExistingConversionRec",
@@ -14240,7 +14240,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "PurpleBrickPressurePlateExistingConversionRec",
@@ -14253,7 +14253,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "MagentaBrickPressurePlateExistingConversionRec",
@@ -14266,7 +14266,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "PinkBrickPressurePlateExistingConversionRec",
@@ -14279,7 +14279,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "CherryBrickPressurePlateExistingConversionRec",
@@ -14292,7 +14292,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "IndustrialBrickPressurePlateExistingConversionRec",
@@ -14305,7 +14305,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "WhiteBrickButtonExistingConversionRec",
@@ -14318,7 +14318,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "LightGrayBrickButtonExistingConversionRec",
@@ -14331,7 +14331,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "GrayBrickButtonExistingConversionRec",
@@ -14344,7 +14344,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "BlackBrickButtonExistingConversionRec",
@@ -14357,7 +14357,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "BrownBrickButtonExistingConversionRec",
@@ -14370,7 +14370,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "RedBrickButtonExistingConversionRec",
@@ -14383,7 +14383,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "OrangeBrickButtonExistingConversionRec",
@@ -14396,7 +14396,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "YellowBrickButtonExistingConversionRec",
@@ -14409,7 +14409,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "LimeBrickButtonExistingConversionRec",
@@ -14422,7 +14422,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "GreenBrickButtonExistingConversionRec",
@@ -14435,7 +14435,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "CyanBrickButtonExistingConversionRec",
@@ -14448,7 +14448,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "LightBlueBrickButtonExistingConversionRec",
@@ -14461,7 +14461,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "BlueBrickButtonExistingConversionRec",
@@ -14474,7 +14474,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "PurpleBrickButtonExistingConversionRec",
@@ -14487,7 +14487,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "MagentaBrickButtonExistingConversionRec",
@@ -14500,7 +14500,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "PinkBrickButtonExistingConversionRec",
@@ -14513,7 +14513,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "CherryBrickButtonExistingConversionRec",
@@ -14526,7 +14526,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "IndustrialBrickButtonExistingConversionRec",
@@ -14539,7 +14539,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "Variablelightrec",
@@ -14724,7 +14724,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Tiles"
     },
     {
       "name": "IndustrialLargeTileSlabExistingConversionRec",
@@ -14737,7 +14737,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "IndustrialLargeTileRec",
@@ -14763,7 +14763,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "IndustrialLargeTileStairsExistingConversionRec",
@@ -14776,7 +14776,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "IndustrialLargeTileWallRec",
@@ -14789,7 +14789,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "IndustrialLargeTileWallExistingConversionRec",
@@ -14802,7 +14802,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "IndustrialLargeTilePressurePlateRec",
@@ -14815,7 +14815,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Tiles"
     },
     {
       "name": "IndustrialLargeTilePressurePlateExistingConversionRec",
@@ -14828,7 +14828,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "IndustrialLargeTileFenceRec",
@@ -14841,7 +14841,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "IndustrialLargeTileFenceGateRec",
@@ -14854,7 +14854,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "IndustrialBlueLargeTileButtonRec",
@@ -14867,7 +14867,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_blue_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "SendAboutInfoInChatProcedure",
@@ -15239,7 +15239,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "LightGrayLargeTileTrapdoorRec",
@@ -15252,7 +15252,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "GrayLargeTileTrapdoorRec",
@@ -15265,7 +15265,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "BlackLargeTileTrapdoorRec",
@@ -15278,7 +15278,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "BrownLargeTileTrapdoorRec",
@@ -15291,7 +15291,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "RedLargeTileTrapdoorRec",
@@ -15304,7 +15304,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "OrangeLargeTileTrapdoorRec",
@@ -15317,7 +15317,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "YelllowLargeTileTrapdoorRec",
@@ -15330,7 +15330,7 @@
           "src/main/resources/data/llamamod/recipe/yelllow_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "LimeLargeTileTrapdoorRec",
@@ -15343,7 +15343,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "GreenLargeTileTrapdoorRec",
@@ -15356,7 +15356,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "CyanLargeTileTrapdoorRec",
@@ -15369,7 +15369,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "LightBlueLargeTileTrapdoorRec",
@@ -15382,7 +15382,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "BlueLargeTileTrapdoorRec",
@@ -15395,7 +15395,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "PurpleLargeTileTrapdoorRec",
@@ -15408,7 +15408,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "MagentaLargeTileTrapdoorRec",
@@ -15421,7 +15421,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "PinkLargeTileTrapdoorRec",
@@ -15434,7 +15434,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "IndustrialLargeTileTrapdoorRec",
@@ -15447,7 +15447,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "WhiteLargeTileTrapdoorExistingConversionRec",
@@ -15460,7 +15460,7 @@
           "src/main/resources/data/llamamod/recipe/white_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "LightGrayLargeTileTrapdoorExistingConversionRec",
@@ -15473,7 +15473,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "GrayLargeTileTrapdoorExistingConversionRec",
@@ -15486,7 +15486,7 @@
           "src/main/resources/data/llamamod/recipe/gray_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "BlackLargeTileTrapdoorExistingConversionRec",
@@ -15499,7 +15499,7 @@
           "src/main/resources/data/llamamod/recipe/black_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "BrownLargeTileTrapdoorExistingConversionRec",
@@ -15512,7 +15512,7 @@
           "src/main/resources/data/llamamod/recipe/brown_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "RedLargeTileTrapdoorExistingConversionRec",
@@ -15525,7 +15525,7 @@
           "src/main/resources/data/llamamod/recipe/red_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "OrangeLargeTileTrapdoorExistingConversionRec",
@@ -15538,7 +15538,7 @@
           "src/main/resources/data/llamamod/recipe/orange_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "YellowLargeTileTrapdoorExistingConversionRec",
@@ -15551,7 +15551,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "LimeLargeTileTrapdoorExistingConversionRec",
@@ -15564,7 +15564,7 @@
           "src/main/resources/data/llamamod/recipe/lime_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "GreenLargeTileTrapdoorExistingConversionRec",
@@ -15577,7 +15577,7 @@
           "src/main/resources/data/llamamod/recipe/green_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "CyanLargeTileTrapdoorExistingConversionRec",
@@ -15590,7 +15590,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "LightBlueLargeTileTrapdoorExistingConversionRec",
@@ -15603,7 +15603,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "BlueLargeTileTrapdoorExistingConversionRec",
@@ -15616,7 +15616,7 @@
           "src/main/resources/data/llamamod/recipe/blue_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "PurpleLargeTileTrapdoorExistingConversionRec",
@@ -15629,7 +15629,7 @@
           "src/main/resources/data/llamamod/recipe/purple_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "MagentaLargeTileTrapdoorExistingConversionRec",
@@ -15642,7 +15642,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "PinkLargeTileTrapdoorExistingConversionRec",
@@ -15655,7 +15655,7 @@
           "src/main/resources/data/llamamod/recipe/pink_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "Whitebricktrapdoor",
@@ -16068,7 +16068,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "LightGrayBrickTrapdoorRec",
@@ -16081,7 +16081,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "GrayBrickTrapdoorRec",
@@ -16094,7 +16094,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "BlackBrickTrapdoorRec",
@@ -16107,7 +16107,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "BrownBrickTrapdoorRec",
@@ -16120,7 +16120,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "RedBrickTrapdoorRec",
@@ -16133,7 +16133,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "OrangeBrickTrapdoorRec",
@@ -16146,7 +16146,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "YellowBrickTrapdoorRec",
@@ -16159,7 +16159,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "LimeBrickTrapdoorRec",
@@ -16172,7 +16172,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "GreenBrickTrapdoorRec",
@@ -16185,7 +16185,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "CyanBrickTrapdoorRec",
@@ -16198,7 +16198,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "LightBlueBrickTrapdoorRec",
@@ -16211,7 +16211,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "BlueBrickTrapdoorRec",
@@ -16224,7 +16224,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "PurpleBrickTrapdoorRec",
@@ -16237,7 +16237,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "MagentaBrickTrapdoorRec",
@@ -16250,7 +16250,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "PinkBrickTrapdoorRec",
@@ -16263,7 +16263,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "CherryBrickTrapdoorRec",
@@ -16276,7 +16276,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "IndustrialBrickTrapdoorRec",
@@ -16289,7 +16289,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Conversion"
     },
     {
       "name": "WhiteBrickTrapdoorExistingConversionRec",
@@ -16302,7 +16302,7 @@
           "src/main/resources/data/llamamod/recipe/white_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "LightGrayBrickTrapdoorExistingConversionRec",
@@ -16315,7 +16315,7 @@
           "src/main/resources/data/llamamod/recipe/light_gray_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "GrayBrickTrapdoorExistingConversionRec",
@@ -16328,7 +16328,7 @@
           "src/main/resources/data/llamamod/recipe/gray_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "BlackBrickTrapdoorExistingConversionRec",
@@ -16341,7 +16341,7 @@
           "src/main/resources/data/llamamod/recipe/black_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "BrownBrickTrapdoorExistingConversionRec",
@@ -16354,7 +16354,7 @@
           "src/main/resources/data/llamamod/recipe/brown_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "RedBrickTrapdoorExistingConversionRec",
@@ -16367,7 +16367,7 @@
           "src/main/resources/data/llamamod/recipe/red_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "OrangeBrickTrapdoorExistingConversionRec",
@@ -16380,7 +16380,7 @@
           "src/main/resources/data/llamamod/recipe/orange_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "YellowBrickTrapdoorExistingConversionRec",
@@ -16393,7 +16393,7 @@
           "src/main/resources/data/llamamod/recipe/yellow_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "LimeBrickTrapdoorExistingConversionRec",
@@ -16406,7 +16406,7 @@
           "src/main/resources/data/llamamod/recipe/lime_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "GreenBrickTrapdoorExistingConversionRec",
@@ -16419,7 +16419,7 @@
           "src/main/resources/data/llamamod/recipe/green_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "CyanBrickTrapdoorExistingConversionRec",
@@ -16432,7 +16432,7 @@
           "src/main/resources/data/llamamod/recipe/cyan_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "LightBlueBrickTrapdoorExistingConversionRec",
@@ -16445,7 +16445,7 @@
           "src/main/resources/data/llamamod/recipe/light_blue_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "BlueBrickTrapdoorExistingConversionRec",
@@ -16458,7 +16458,7 @@
           "src/main/resources/data/llamamod/recipe/blue_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "PurpleBrickTrapdoorExistingConversionRec",
@@ -16471,7 +16471,7 @@
           "src/main/resources/data/llamamod/recipe/purple_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "MagentaBrickTrapdoorExistingConversionRec",
@@ -16484,7 +16484,7 @@
           "src/main/resources/data/llamamod/recipe/magenta_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "PinkBrickTrapdoorExistingConversionRec",
@@ -16497,7 +16497,7 @@
           "src/main/resources/data/llamamod/recipe/pink_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "CherryBrickTrapdoorExistingConversionRec",
@@ -16510,7 +16510,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "IndustrialBrickTrapdoorExistingConversionRec",
@@ -16523,7 +16523,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "Cherrylargetile",
@@ -16715,7 +16715,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Tiles"
     },
     {
       "name": "CherryLargeTileSlabExistingConversionRec",
@@ -16728,7 +16728,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "CherryLargeTileStairsRec",
@@ -16741,7 +16741,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "CherryLargeTileStairsExistingConversionRec",
@@ -16754,7 +16754,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "CherryLargeTileWallRec",
@@ -16767,7 +16767,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "CherryLargeTileWallExistingConversionRec",
@@ -16780,7 +16780,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "CherryLargeTilePressurePlateRec",
@@ -16793,7 +16793,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Tiles"
     },
     {
       "name": "CherryLargeTilePressurePlateExistingConversionRec",
@@ -16806,7 +16806,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "CherryLargeTileFenceRec",
@@ -16819,7 +16819,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "IndustrialLargeTileFenceExistingConversionRec",
@@ -16832,7 +16832,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "CherryLargeTileFenceExistingConversionRec",
@@ -16845,7 +16845,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "CherryLargeTileFenceGateRec",
@@ -16858,7 +16858,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "IndustrialLargeTileFenceGateExistingConversionRec",
@@ -16871,7 +16871,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "CherryLargeTileFenceGateExistingConversionRec",
@@ -16884,7 +16884,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "CherryLargeTileButtonRec",
@@ -16897,7 +16897,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "IndustrialLargeTileButtonExistingConversionRec",
@@ -16910,7 +16910,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "CherryLargeTileButtonExistingConversionRec",
@@ -16923,7 +16923,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "IndustrialLargeTileTrapdoorExistingConversionRec",
@@ -16936,7 +16936,7 @@
           "src/main/resources/data/llamamod/recipe/industrial_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "CherryLargeTileTrapdoorExistingConversionRec",
@@ -16949,7 +16949,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "CherryLargeTileTrapdoorRec",
@@ -16962,7 +16962,7 @@
           "src/main/resources/data/llamamod/recipe/cherry_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "IsAllowClearingBoxChecked",
@@ -17569,7 +17569,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Bricks - Creation Recipes"
     },
     {
       "name": "TealLargeTileSlabRec",
@@ -17582,7 +17582,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_slab_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile - Creation Recipes"
     },
     {
       "name": "TealLargeTileSlabExistingConversionRec",
@@ -17595,7 +17595,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Large Tile -- Existing Conversions"
     },
     {
       "name": "TealBrickSlabExistingConversionRec",
@@ -17608,7 +17608,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_slab_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Slabs"
+      "path": "~/Recipes/Slabs/Brick - Existing Conversion Recipes"
     },
     {
       "name": "TealLargeTileStairsRec",
@@ -17621,7 +17621,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Creation"
     },
     {
       "name": "TealLargeTileStairsExistingConversionRec",
@@ -17634,7 +17634,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Large Tile - Existing Conversions"
     },
     {
       "name": "TealBrickStairsRec",
@@ -17647,7 +17647,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_stairs_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Creation"
     },
     {
       "name": "TealBrickStairsExistingConversionRec",
@@ -17660,7 +17660,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_stairs_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Stairs"
+      "path": "~/Recipes/Stairs/Brick - Existing Conversions"
     },
     {
       "name": "TealLargeTileWallRec",
@@ -17673,7 +17673,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Conversions"
     },
     {
       "name": "TealLargeTileWallExistingConversionRec",
@@ -17686,7 +17686,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Large Tile - Existing Conversions"
     },
     {
       "name": "TealBrickWallRec",
@@ -17699,7 +17699,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_wall_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Conversions"
     },
     {
       "name": "TealBrickWallExistingConversionRec",
@@ -17712,7 +17712,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_wall_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Walls"
+      "path": "~/Recipes/Walls/Brick - Existing Conversions"
     },
     {
       "name": "TealLargeTilePressurePlateRec",
@@ -17725,7 +17725,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_pressure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Tiles"
     },
     {
       "name": "TealLargeTilePressurePlateExistingConversionRec",
@@ -17738,7 +17738,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Large Tile - Existing Conversions"
     },
     {
       "name": "TealBrickPreassurePlateRec",
@@ -17751,7 +17751,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_preassure_plate_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
       "name": "TealBrickPressurePlateExistingConversionRec",
@@ -17764,7 +17764,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_pressure_plate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Preasure Plate"
+      "path": "~/Recipes/Preasure Plate/Brick - Existing Conversion"
     },
     {
       "name": "TealLargeTileFenceRec",
@@ -17777,7 +17777,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tile - Conversions"
     },
     {
       "name": "TealLargeTileFenceExistingConversionRec",
@@ -17790,7 +17790,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Large Tiles - Existing Conversions"
     },
     {
       "name": "TealBrickFenceRec",
@@ -17803,7 +17803,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_fence_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Converesions"
     },
     {
       "name": "TealBrickFenceExistingConversionRec",
@@ -17816,7 +17816,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_fence_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fences"
+      "path": "~/Recipes/Fences/Brick - Existing Conversions"
     },
     {
       "name": "TealLargeTileFenceGateRec",
@@ -17829,7 +17829,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Conversion"
     },
     {
       "name": "TealLargeTileFenceGateExistingConversionRec",
@@ -17842,7 +17842,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Large Tile - Existing Conversion"
     },
     {
       "name": "TealBrickFenceGateRec",
@@ -17855,7 +17855,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_fence_gate_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Conversion"
     },
     {
       "name": "TealBrickFenceGateExistingConversionRec",
@@ -17869,7 +17869,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_fence_gate_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Fence Gates"
+      "path": "~/Recipes/Fence Gates/Brick - Existing Conversion"
     },
     {
       "name": "TealLargeTileButtonRec",
@@ -17882,7 +17882,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_button_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Conversion"
     },
     {
       "name": "TealLargeTileButtonExistingConversionRec",
@@ -17895,7 +17895,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Large Tile - Existing Conversion"
     },
     {
       "name": "TealBrickButtonRec",
@@ -17907,8 +17907,7 @@
         "files": [
           "src/main/resources/data/llamamod/recipe/teal_brick_button_rec.json"
         ]
-      },
-      "path": "~/Recipes/Buttons"
+      }
     },
     {
       "name": "TealBrickButtonExistingConversionRec",
@@ -17921,7 +17920,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_button_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Buttons"
+      "path": "~/Recipes/Buttons/Brick - Existing Conversions"
     },
     {
       "name": "TealLargeTileTrapdoorRec",
@@ -17934,7 +17933,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - COnversion"
     },
     {
       "name": "TealLargeTileTrapdoorExistingConversionRec",
@@ -17947,7 +17946,7 @@
           "src/main/resources/data/llamamod/recipe/teal_large_tile_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Large Tile - Existing Conversion"
     },
     {
       "name": "TealBrickTrapdoorRec",
@@ -17960,7 +17959,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_trapdoor_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "TealBrickTrapdoorExistingConversionRec",
@@ -17973,7 +17972,7 @@
           "src/main/resources/data/llamamod/recipe/teal_brick_trapdoor_existing_conversion_rec.json"
         ]
       },
-      "path": "~/Recipes/Trapdoors"
+      "path": "~/Recipes/Trapdoors/Brick - Existing COnversion"
     },
     {
       "name": "Acidlake",
@@ -20359,11 +20358,53 @@
           },
           {
             "name": "Slabs",
-            "children": []
+            "children": [
+              {
+                "name": "Bricks - Creation Recipes",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Creation Recipes",
+                "children": []
+              },
+              {
+                "name": "Brick - Existing Conversion Recipes",
+                "children": []
+              },
+              {
+                "name": "Large Tile -- Existing Conversions",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Stairs",
-            "children": []
+            "children": [
+              {
+                "name": "Brick - Creation",
+                "children": []
+              },
+              {
+                "name": "Brick - Existing Conversions",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Creation",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Existing Conversions",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Farm Scrap Recipes",
@@ -20371,23 +20412,128 @@
           },
           {
             "name": "Walls",
-            "children": []
+            "children": [
+              {
+                "name": "Brick - Conversions",
+                "children": []
+              },
+              {
+                "name": "Brick - Existing Conversions",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Conversions",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Existing Conversions",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Preasure Plate",
-            "children": []
+            "children": [
+              {
+                "name": "Brick - Conversions",
+                "children": []
+              },
+              {
+                "name": "Brick - Existing Conversion",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Conversions",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Existing Conversions",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Fences",
-            "children": []
+            "children": [
+              {
+                "name": "Brick - Converesions",
+                "children": []
+              },
+              {
+                "name": "Brick - Existing Conversions",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Conversions",
+                "children": []
+              },
+              {
+                "name": "Large Tiles - Existing Conversions",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Fence Gates",
-            "children": []
+            "children": [
+              {
+                "name": "Brick - Conversion",
+                "children": []
+              },
+              {
+                "name": "Brick - Existing Conversion",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Conversion",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Existing Conversion",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Buttons",
-            "children": []
+            "children": [
+              {
+                "name": "Brick - Conversions",
+                "children": []
+              },
+              {
+                "name": "Brick - Existing Conversions",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Conversion",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Existing Conversion",
+                "children": []
+              }
+            ]
           },
           {
             "name": "large tile types",
@@ -20395,7 +20541,28 @@
           },
           {
             "name": "Trapdoors",
-            "children": []
+            "children": [
+              {
+                "name": "Brick - Conversion",
+                "children": []
+              },
+              {
+                "name": "Brick - Existing COnversion",
+                "children": []
+              },
+              {
+                "name": "Tiles",
+                "children": []
+              },
+              {
+                "name": "Large Tile - COnversion",
+                "children": []
+              },
+              {
+                "name": "Large Tile - Existing Conversion",
+                "children": []
+              }
+            ]
           }
         ]
       },
