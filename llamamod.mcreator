@@ -18120,6 +18120,32 @@
         ]
       },
       "path": "~/Blocks/Computer"
+    },
+    {
+      "name": "TileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Trapdoors/Tiles"
+    },
+    {
+      "name": "CeilingTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceiling_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/ceiling_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Trapdoors/Tiles"
     }
   ],
   "variable_elements": [],
