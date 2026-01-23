@@ -19,7 +19,7 @@ public class LlamamodModConfigs {
 		public static void register(FMLConstructModEvent event) {
 			event.enqueueWork(() -> {
 				ModContainer container = ModList.get().getModContainerById("llamamod").get();
-				container.registerConfig(ModConfig.Type.SERVER, LlamamodserverconfigConfiguration.SPEC, "llamamod_server.toml");
+				container.registerConfig(ModConfig.Type.SERVER, LlamamodserverconfigConfiguration.SPEC, "llamablocks_server.toml");
 			});
 		}
 	}
