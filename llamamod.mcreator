@@ -18884,14 +18884,6 @@
       "~CUSTOM:Redbrickfence",
       "~CUSTOM:Industrialbrickfence"
     ],
-    "ITEMS:mod:stoorage_items": [
-      "CUSTOM:Backpack",
-      "CUSTOM:Netheritebackpack",
-      "Blocks.CHEST",
-      "Blocks.TRAPPED_CHEST",
-      "Blocks.ENDER_CHEST",
-      "Blocks.BARREL"
-    ],
     "BLOCKS:minecraft:wooden_buttons": [
       "~CUSTOM:Tilebutton",
       "~CUSTOM:Cherrybrickbutton",

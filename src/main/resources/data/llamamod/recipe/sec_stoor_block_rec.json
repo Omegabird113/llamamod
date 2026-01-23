@@ -10,7 +10,7 @@
     "a": "#llamamod:large_tiles",
     "b": "llamamod:password_changer",
     "c": "minecraft:iron_ingot",
-    "d": "#llamamod:stoorage_items"
+    "d": "llamamod:netherite_backpack"
   },
   "result": {
     "id": "llamamod:secure_storage_block",
