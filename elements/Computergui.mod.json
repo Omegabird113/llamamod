@@ -13,7 +13,7 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Enter first number",
+          "placeholder": "1st #",
           "name": "number1",
           "width": 120,
           "height": 20,
@@ -25,7 +25,7 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Enter second number",
+          "placeholder": "2nd # (if needed)",
           "name": "number2",
           "width": 120,
           "height": 20,
@@ -37,7 +37,7 @@
       {
         "type": "textfield",
         "data": {
-          "placeholder": "Enter the operation",
+          "placeholder": "Operation",
           "name": "operation",
           "width": 120,
           "height": 20,

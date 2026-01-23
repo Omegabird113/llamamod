@@ -74,7 +74,42 @@ public class ComputercalculateprocidureProcedure {
 		} else if ((((entity instanceof Player _entity20 && _entity20.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu20) ? _menu20.getMenuState(0, "operation", "") : "").toUpperCase()).equals("LOG")) {
 			result = "" + Math.log(num2) / Math.log(num1);
 		} else {
-			result = "Invalid operator";
+			if ((((entity instanceof Player _entity21 && _entity21.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu21) ? _menu21.getMenuState(0, "operation", "") : "").toUpperCase()).equals("NLOG")) {
+				result = "" + Math.log(num1);
+			} else if ((((entity instanceof Player _entity22 && _entity22.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu22) ? _menu22.getMenuState(0, "operation", "") : "").toUpperCase()).equals("ROUND")) {
+				result = "" + Math.round(num1);
+			} else if ((((entity instanceof Player _entity23 && _entity23.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu23) ? _menu23.getMenuState(0, "operation", "") : "").toUpperCase()).equals("CEIL")) {
+				result = "" + Math.ceil(num1);
+			} else if ((((entity instanceof Player _entity24 && _entity24.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu24) ? _menu24.getMenuState(0, "operation", "") : "").toUpperCase()).equals("FLOOR")) {
+				result = "" + Math.floor(num1);
+			} else if ((((entity instanceof Player _entity25 && _entity25.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu25) ? _menu25.getMenuState(0, "operation", "") : "").toUpperCase()).equals("SQRT")
+					|| (((entity instanceof Player _entity26 && _entity26.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu26) ? _menu26.getMenuState(0, "operation", "") : "").toUpperCase()).equals("2ROOT")) {
+				result = "" + Math.sqrt(num1);
+			} else if ((((entity instanceof Player _entity27 && _entity27.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu27) ? _menu27.getMenuState(0, "operation", "") : "").toUpperCase()).equals("3ROOT")) {
+				result = "" + Math.cbrt(num1);
+			} else if ((((entity instanceof Player _entity28 && _entity28.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu28) ? _menu28.getMenuState(0, "operation", "") : "").toUpperCase()).equals("ABS")) {
+				result = "" + Math.abs(num1);
+			} else if ((((entity instanceof Player _entity29 && _entity29.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu29) ? _menu29.getMenuState(0, "operation", "") : "").toUpperCase()).equals("SIGNUM")) {
+				result = "" + Math.signum(num1);
+			} else if ((((entity instanceof Player _entity30 && _entity30.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu30) ? _menu30.getMenuState(0, "operation", "") : "").toUpperCase()).equals("SIN")) {
+				result = "" + Math.sin(num1);
+			} else if ((((entity instanceof Player _entity31 && _entity31.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu31) ? _menu31.getMenuState(0, "operation", "") : "").toUpperCase()).equals("COS")) {
+				result = "" + Math.cos(num1);
+			} else if ((((entity instanceof Player _entity32 && _entity32.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu32) ? _menu32.getMenuState(0, "operation", "") : "").toUpperCase()).equals("TAN")) {
+				result = "" + Math.tan(num1);
+			} else if ((((entity instanceof Player _entity33 && _entity33.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu33) ? _menu33.getMenuState(0, "operation", "") : "").toUpperCase()).equals("ASIN")) {
+				result = "" + Math.asin(num1);
+			} else if ((((entity instanceof Player _entity34 && _entity34.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu34) ? _menu34.getMenuState(0, "operation", "") : "").toUpperCase()).equals("ACOS")) {
+				result = "" + Math.acos(num1);
+			} else if ((((entity instanceof Player _entity35 && _entity35.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu35) ? _menu35.getMenuState(0, "operation", "") : "").toUpperCase()).equals("ATAN")) {
+				result = "" + Math.atan(num1);
+			} else if ((((entity instanceof Player _entity36 && _entity36.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu36) ? _menu36.getMenuState(0, "operation", "") : "").toUpperCase()).equals("RAD>DEG")) {
+				result = "" + Math.toDegrees(num1);
+			} else if ((((entity instanceof Player _entity37 && _entity37.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu37) ? _menu37.getMenuState(0, "operation", "") : "").toUpperCase()).equals("DEG>RAD")) {
+				result = "" + Math.toRadians(num1);
+			} else {
+				result = "Invalid operator";
+			}
 		}
 		return result;
 	}
