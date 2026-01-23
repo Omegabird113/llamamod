@@ -20523,7 +20523,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
-    "credits": "Made with Mcreator 2025.3 with the Blockstates plugin",
+    "credits": "Made with Mcreator 2025.3 with the Blockstates \u0026 Configuration Files plugins",
     "modElementsPackage": "mc.omegabird.llamablocks"
   },
   "mcreatorVersion": 202500345720
