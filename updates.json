@@ -1,13 +1,14 @@
 {
   "homepage": "https://modrinth.com/mod/llamablocks/versions",
   "1.21.8" : {
+    "1.1.2": "Added 1-value operations and e/pi to Computer Calculator, updated about to use Modrinth and credit the Config Files plugin, made about command link clickable, and added Tile Trapdoor recipes.",
     "1.1.1": "Fixed missing Acid Effect display texture, renamed Java Package, added several operators to the computer calculator",
     "1.1.0": "Rebranded to LlamaBlocks, fixed computer UI typo",
     "1.0.0": "MOD-ID Update so INCOMPATIBLE with previous versions, some computer/banana/acid changes, config options added, etc",
     "0.45": "first public version (only on github)"
   },
   "promos": {
-    "1.21.8-latest": "1.1.1",
-    "1.21.8-recommended": "1.1.1"
+    "1.21.8-latest": "1.1.2",
+    "1.21.8-recommended": "1.1.2"
   }
 }
