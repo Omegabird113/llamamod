@@ -74,6 +74,8 @@ public class ComputercalculateprocidureProcedure {
 			result = "" + ((int) num1 ^ (int) num2);
 		} else if ((operation).equals("LOG")) {
 			result = "" + Math.log(num2) / Math.log(num1);
+		} else if ((operation).equals("ROOT")) {
+			result = "" + Math.pow(num2, 1 / num1);
 		} else {
 			if ((operation).equals("NLOG")) {
 				result = "" + Math.log(num1);
