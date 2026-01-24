@@ -20698,7 +20698,7 @@
     "version": "1.1.1",
     "description": "LlamaBlocks is a chaotic, but interesting Minecraft mod I\u0027ve made using MCreator over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code. Its features range from a massive amount of similar building blocks with specific color variants, to single blocks with tons of functionality.",
     "author": "Omegabird113",
-    "websiteURL": "https://github.com/Omegabird113/llamamod",
+    "websiteURL": "https://modrinth.com/mod/llamablocks",
     "license": "GNU General Public License version 3 (GPLv3)",
     "serverSideOnly": false,
     "updateURL": "https://raw.githubusercontent.com/Omegabird113/llamamod/refs/heads/master/updates.json",

@@ -22,7 +22,7 @@ public class SendAboutInfoInChatProcedureProcedure {
 				_ent.getServer().getCommands().performPrefixedCommand(
 						new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4, _ent.getName().getString(), _ent.getDisplayName(),
 								_ent.level().getServer(), _ent),
-						"tellraw @s [\"To view LlamaBlocks' source code, see:\",{\"text\":\" https://github.com/Omegabird113/llamamod\",\"underlined\":true,\"color\":\"green\",\"click_event\":{\"action\":\"open_url\",\"url\":\"https://github.com/Omegabird113/llamamod\"}},\". \"]");
+						"tellraw @s [\"Download it or see more info from: \",{\"text\":\"https://modrinth.com/mod/llamablocks\",\"underlined\":true,\"color\":\"green\",\"click_event\":{\"action\":\"open_url\",\"url\":\"https://modrinth.com/mod/llamablocks\"}},\".\"]");
 			}
 		}
 	}
