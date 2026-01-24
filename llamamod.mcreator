@@ -17907,7 +17907,8 @@
         "files": [
           "src/main/resources/data/llamamod/recipe/teal_brick_button_rec.json"
         ]
-      }
+      },
+      "path": "~/Recipes/Buttons/Brick - Conversions"
     },
     {
       "name": "TealBrickButtonExistingConversionRec",
