@@ -13,7 +13,7 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Tiles"
+        "value": "CUSTOM:Ceilingtiles"
       },
       {
         "value": "Items.IRON_INGOT"
