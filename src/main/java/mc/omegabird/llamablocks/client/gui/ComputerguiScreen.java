@@ -175,6 +175,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_redstone_output"), 5, 201, -1, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_players"), 4, -19, -1, false);
 		guiGraphics.drawString(this.font, ReturnPlayerListProcedureProcedure.execute(world), 50, -19, -16742401, false);
+		guiGraphics.drawString(this.font, CurentlyBlankRedstonePowerTextCompProcedureProcedure.execute(world, x, y, z), 5, 210, -256, false);
 	}
 
 	@Override

@@ -495,6 +495,23 @@
           "y": 107,
           "locked": false
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_curently_blank_redstone_pow",
+          "text": {
+            "fixedValue": "",
+            "name": "CurentlyBlankRedstonePowerTextCompProcedure"
+          },
+          "color": {
+            "value": -256,
+            "falpha": 0.0
+          },
+          "x": 91,
+          "y": 230,
+          "locked": false
+        }
       }
     ],
     "gridSettings": {

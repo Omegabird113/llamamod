@@ -18147,6 +18147,38 @@
         ]
       },
       "path": "~/Recipes/Trapdoors/Tiles"
+    },
+    {
+      "name": "CurentlyBlankRedstonePowerTextCompProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "curently_blank_redstone_power_text_comp_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/CurentlyBlankRedstonePowerTextCompProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Computer"
     }
   ],
   "variable_elements": [],
