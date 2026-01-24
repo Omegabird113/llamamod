@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [],
     "cookingBookCategory": "MISC",
@@ -16,19 +16,19 @@
         "value": "CUSTOM:Tiles"
       },
       {
-        "value": "CUSTOM:Tiles"
-      },
-      {
         "value": "Items.IRON_INGOT"
       },
       {
-        "value": "CUSTOM:Tiles"
-      },
-      {
-        "value": "CUSTOM:Tiles"
-      },
-      {
         "value": "Items.QUARTZ"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""

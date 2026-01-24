@@ -2,8 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aab",
-    "aac"
+    "abc"
   ],
   "key": {
     "a": "llamamod:tiles",
@@ -12,6 +11,6 @@
   },
   "result": {
     "id": "llamamod:white_large_tile",
-    "count": 4
+    "count": 1
   }
 }
