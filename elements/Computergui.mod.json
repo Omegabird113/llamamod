@@ -512,6 +512,32 @@
           "y": 230,
           "locked": false
         }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_v112",
+          "text": {
+            "fixedValue": "v1.1.2"
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "x": 298,
+          "y": 25,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "logo_16_border.png",
+          "use1Xscale": true,
+          "x": 329,
+          "y": 24,
+          "locked": false
+        }
       }
     ],
     "gridSettings": {

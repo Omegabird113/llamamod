@@ -113,6 +113,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png"), this.leftPos + 243, this.topPos + 4, 0, 0, 8, 8, 8, 8);
 	}
 
 	@Override
@@ -176,6 +177,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_players"), 4, -19, -1, false);
 		guiGraphics.drawString(this.font, ReturnPlayerListProcedureProcedure.execute(world), 50, -19, -16742401, false);
 		guiGraphics.drawString(this.font, CurentlyBlankRedstonePowerTextCompProcedureProcedure.execute(world, x, y, z), 5, 210, -256, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_v112"), 212, 5, -16777216, false);
 	}
 
 	@Override
