@@ -1,6 +1,8 @@
 # LlamaBlocks
 LlamaBlocks is a chaotic, but interesting Minecraft mod I've made using [MCreator](https://mcreator.net) over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code. Its features range from a massive amount of similar building blocks with specific color variants, to single blocks with tons of functionality.
 
+![A showcase build w/ teal & white blocks plus Secure Storage Blocks and more](https://github.com/user-attachments/assets/50106e12-fee9-433e-afd0-c3dcc8ad3796)
+
 ## The Features
 Each sub-category of this section represents a feature or set of related features.
 
@@ -15,6 +17,8 @@ Both sets come in 19 colors:
 - Cherry (Hot Pink) variants
 - Teal variants
 
+![Showcases all 16 vanilla colors of all brick & large tile block variants](https://github.com/user-attachments/assets/a48eeedb-e050-49eb-aaad-ff086ab20845)
+
 There are also the Tiles *(Black and White)* and the Ceiling tiles *(Blue and Light Gray)*.
 
 Each color variant, or tile type, has a corresponding block set, which includes the following:
@@ -28,8 +32,11 @@ Each color variant, or tile type, has a corresponding block set, which includes 
 - A pressure plate
 - A button
 
+
 ### Bananas, Banana Plants, Banana Patches, and Farm Scraps
 All of these items are related together.
+
+![Showcases Banana Plants in a Banana Patch](https://github.com/user-attachments/assets/f524dfa5-bfbe-4a32-921c-873f788b57c2)
 
 #### The Banana
 The banana is a somewhat bad food item in terms of nutrition, but you can eat them very fast. Here are their exact properties:
@@ -62,9 +69,13 @@ Farm scraps are non-plantable items which can be used for the following:
 - They can be composted at a `17.5%` success rate
 - `3` of them can be crafted into `1` brown dye
 
+
 ### Acid
 
 Acid is a fluid which naturally generates in Acid Lakes (technically a feature named `acid_lake`) in the Outer End Islands, and can be accessed in the Creative menu.
+
+![Showcases a naturally generating Acid Lake in the Outer End Islands](https://media.forgecdn.net/attachments/1476/635/2026-01-18_12-13-50-large-jpeg.jpeg)
+
 
 #### The Acid Dissolving effect
 
