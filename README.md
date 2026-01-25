@@ -34,8 +34,8 @@ All of these items are related together.
 #### The Banana
 The banana is a somewhat bad food item in terms of nutrition, but you can eat them very fast. Here are their exact properties:
 - A nutritional value of `2` *(it heals 1 hunger bar)*
-- A saturation of `3.55` *(not very good)*
-- It can be eaten in `8 ticks` *(You can eat them in `0.4 seconds` instead of the typical `1.6 seconds` for food)*
+- A saturation of `4.1` *(not very good)*
+- It can be eaten in `12 ticks` *(You can eat them in `0.6 seconds` instead of the typical `1.6 seconds` for food)*
 - It can be composted with a `32.5%` success rate
 
 #### The Banana Plant
