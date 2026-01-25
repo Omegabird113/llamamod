@@ -50,8 +50,8 @@
         "value": "CUSTOM:LlamaMod"
       }
     ],
-    "hardness": 0.12,
-    "resistance": 0.55,
+    "hardness": 0.07,
+    "resistance": 0.31,
     "luminance": 0,
     "unbreakable": false,
     "isSolid": true,
