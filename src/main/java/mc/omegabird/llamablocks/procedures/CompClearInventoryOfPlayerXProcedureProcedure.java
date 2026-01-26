@@ -18,14 +18,15 @@ public class CompClearInventoryOfPlayerXProcedureProcedure {
 			return;
 		Entity player_to_msg = null;
 		for (Entity entityiterator : new ArrayList<>(world.players())) {
-			if ((entityiterator.getDisplayName().getString()).equals((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "player_name", "") : "")) {
+			if (((entityiterator.getDisplayName().getString()).toUpperCase())
+					.equals((((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "player_name", "") : "").toUpperCase()).strip())) {
 				player_to_msg = entityiterator;
 			}
 		}
 		if (player_to_msg == null) {
 			player_to_msg = entity;
 			if (player_to_msg instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("ERROR: Invalid player name. (Please note the player name input feild is case sensitive)"), false);
+				_player.displayClientMessage(Component.literal("ERROR: Invalid player name."), false);
 		} else {
 			{
 				Entity _ent = entity;

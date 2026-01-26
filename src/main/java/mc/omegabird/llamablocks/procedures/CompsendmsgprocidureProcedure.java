@@ -16,13 +16,14 @@ public class CompsendmsgprocidureProcedure {
 		Entity player_to_msg = null;
 		String msg_to_send = "";
 		for (Entity entityiterator : new ArrayList<>(world.players())) {
-			if ((entityiterator.getDisplayName().getString()).equals((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "player_name", "") : "")) {
+			if (((entityiterator.getDisplayName().getString()).toUpperCase())
+					.equals((((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "player_name", "") : "").toUpperCase()).strip())) {
 				msg_to_send = (entity instanceof Player _entity2 && _entity2.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu2) ? _menu2.getMenuState(0, "msg", "") : "";
 				player_to_msg = entityiterator;
 			}
 		}
 		if (player_to_msg == null) {
-			msg_to_send = "ERROR: Invalid player name. (Please note the player name input feild is case sensitive)";
+			msg_to_send = "ERROR: Invalid player name.";
 			player_to_msg = entity;
 		}
 		if (player_to_msg instanceof Player _player && !_player.level().isClientSide())
