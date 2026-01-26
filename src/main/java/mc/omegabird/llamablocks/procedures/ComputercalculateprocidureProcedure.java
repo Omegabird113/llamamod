@@ -15,7 +15,7 @@ public class ComputercalculateprocidureProcedure {
 		double num2 = 0;
 		String result = "";
 		String operation = "";
-		operation = ((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "operation", "") : "").toUpperCase();
+		operation = (((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "operation", "") : "").toUpperCase()).strip();
 		if ((((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "number1", "") : "").toUpperCase()).equals("PI")) {
 			num1 = Math.PI;
 		} else if ((((entity instanceof Player _entity2 && _entity2.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu2) ? _menu2.getMenuState(0, "number1", "") : "").toUpperCase()).equals("E")) {
