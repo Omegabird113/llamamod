@@ -9,12 +9,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/llamamod/models/item/banana_plant.json",
-          "src/main/resources/data/llamamod/worldgen/placed_feature/banana_plant.json",
           "src/main/resources/assets/llamamod/items/banana_plant.json",
           "src/main/resources/assets/llamamod/blockstates/banana_plant.json",
-          "src/main/resources/data/llamamod/neoforge/biome_modifier/banana_plant_biome_modifier.json",
           "src/main/java/mc/omegabird/llamablocks/block/BannanaplantBlock.java",
-          "src/main/resources/data/llamamod/worldgen/configured_feature/banana_plant.json",
           "src/main/resources/assets/llamamod/models/block/banana_plant.json"
         ]
       },
