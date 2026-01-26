@@ -32,7 +32,6 @@ Each color variant, or tile type, has a corresponding block set, which includes 
 - A pressure plate
 - A button
 
-
 ### Bananas, Banana Plants, Banana Patches, and Farm Scraps
 All of these items are related together.
 
@@ -69,13 +68,11 @@ Farm scraps are non-plantable items which can be used for the following:
 - They can be composted at a `17.5%` success rate
 - `3` of them can be crafted into `1` brown dye
 
-
 ### Acid
 
 Acid is a fluid which naturally generates in Acid Lakes (technically a feature named `acid_lake`) in the Outer End Islands, and can be accessed in the Creative menu.
 
 ![Showcases a naturally generating Acid Lake in the Outer End Islands](https://media.forgecdn.net/attachments/1476/635/2026-01-18_12-13-50-large-jpeg.jpeg)
-
 
 #### The Acid Dissolving effect
 
@@ -167,6 +164,11 @@ This table explains the entries in the `llamamod_server.toml` file in the `confi
 | `allow_features_to_delete_items`        | `logic`  | `true`        | This controls whether the `Clear` button in the Secure Storage Block and the `Delete Items` in the Netherite Backpack work             |
 | `prevent_nested_storage_item_placement` | `logic`  | `true`        | This controls (inversely) whether Backpacks and Shulker Boxes can be placed in Backpacks and Secure Storage Blocks                     |
 
+## Where to Download
+LlamaBlocks is avaliable on the following mod hosting websites:
+- [Modrinth](https://modrinth.com/mod/llamablocks)
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
+- [MCreator's Website](https://mcreator.net/modification/121457/llamablocks)
 
 ## Development
 
