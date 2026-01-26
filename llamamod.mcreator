@@ -18179,6 +18179,110 @@
         ]
       },
       "path": "~/Blocks/Computer"
+    },
+    {
+      "name": "FarmscrapsToOakSaplingRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmscraps_to_oak_sapling_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farmscraps_to_oak_sapling_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
+    },
+    {
+      "name": "FarmscrapsToDarkOakSaplingRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmscraps_to_dark_oak_sapling_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farmscraps_to_dark_oak_sapling_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
+    },
+    {
+      "name": "FarmscrapsToBirchSaplingRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmscraps_to_birch_sapling_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farmscraps_to_birch_sapling_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
+    },
+    {
+      "name": "FarmscrapsToSpruceSaplingRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmscraps_to_spruce_sapling_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farmscraps_to_spruce_sapling_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
+    },
+    {
+      "name": "FarmscrapsToJungleSaplingRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmscraps_to_jungle_sapling_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farmscraps_to_jungle_sapling_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
+    },
+    {
+      "name": "FarmscrapsToAcaciaSaplingRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmscraps_to_acacia_sapling_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farmscraps_to_acacia_sapling_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
+    },
+    {
+      "name": "FarmscrapsToCherrySaplingRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmscraps_to_cherry_sapling_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farmscraps_to_cherry_sapling_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
+    },
+    {
+      "name": "FarmscrapsToPaleOakSaplingRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmscraps_to_pale_oak_sapling_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farmscraps_to_pale_oak_sapling_rec.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
     }
   ],
   "variable_elements": [],
