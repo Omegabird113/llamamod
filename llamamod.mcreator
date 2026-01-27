@@ -20510,7 +20510,9 @@
       "llamamod.configuration.player_management_permission_level": "Player Management Permission Level",
       "gui.llamamod.computergui.button_message": "Message",
       "gui.llamamod.computergui.label_v112": "v1.1.4",
-      "item.llamamod.golden_banana": "Golden Banana"
+      "item.llamamod.golden_banana": "Golden Banana",
+      "gui.llamamod.passwordchangergui.label_see_your_passwords": "SEE passwords.",
+      "gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords": "Operators can"
     }
   },
   "metadata": {
