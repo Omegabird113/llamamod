@@ -76,7 +76,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "RED",
     "noteBlockInstrument": "harp",
     "creativePickItem": {
       "value": ""
