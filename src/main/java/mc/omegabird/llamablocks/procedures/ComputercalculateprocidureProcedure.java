@@ -109,6 +109,8 @@ public class ComputercalculateprocidureProcedure {
 				result = "" + Math.toDegrees(num1);
 			} else if ((operation).equals("DEG>RAD")) {
 				result = "" + Math.toRadians(num1);
+			} else if ((operation).equals("LOG10")) {
+				result = "" + Math.log10(num1);
 			} else {
 				result = "Invalid operator";
 			}
