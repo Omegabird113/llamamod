@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot",
+    "b": "llamamod:banana"
+  },
+  "result": {
+    "id": "llamamod:golden_banana",
+    "count": 1
+  }
+}

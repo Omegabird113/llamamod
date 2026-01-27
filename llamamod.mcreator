@@ -18280,6 +18280,34 @@
         ]
       },
       "path": "~/Recipes/Farm Scrap Recipes"
+    },
+    {
+      "name": "GoldenBannana",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_banana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/llamamod/models/item/golden_banana.json",
+          "src/main/java/mc/omegabird/llamablocks/item/GoldenBannanaItem.java",
+          "src/main/resources/assets/llamamod/items/golden_banana.json"
+        ]
+      },
+      "path": "~/Food and Farming/Golden Banana"
+    },
+    {
+      "name": "GoldenBananaRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_banana_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/golden_banana_rec.json"
+        ]
+      },
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -20004,6 +20032,7 @@
       "Backpack",
       "Netheritebackpack",
       "Bannana",
+      "GoldenBannana",
       "Bannanaplant",
       "Farmscraps",
       "Acid"
@@ -20480,7 +20509,8 @@
       "gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o": "You see this becuase you\u0027re an operator",
       "llamamod.configuration.player_management_permission_level": "Player Management Permission Level",
       "gui.llamamod.computergui.button_message": "Message",
-      "gui.llamamod.computergui.label_v112": "v1.1.4"
+      "gui.llamamod.computergui.label_v112": "v1.1.4",
+      "item.llamamod.golden_banana": "Golden Banana"
     }
   },
   "metadata": {
@@ -20765,6 +20795,10 @@
           },
           {
             "name": "Farm scraps",
+            "children": []
+          },
+          {
+            "name": "Golden Banana",
             "children": []
           }
         ]
