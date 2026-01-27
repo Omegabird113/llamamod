@@ -62,10 +62,6 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		password.render(guiGraphics, mouseX, mouseY, partialTicks);
 		current_password.render(guiGraphics, mouseX, mouseY, partialTicks);
 		boolean customTooltipShown = false;
-		if (mouseX > leftPos + -4 && mouseX < leftPos + 20 && mouseY > topPos + -22 && mouseY < topPos + 2) {
-			guiGraphics.setTooltipForNextFrame(font, Component.translatable("gui.llamamod.passwordchangergui.tooltip_worldserver_operators_may_be_ab"), mouseX, mouseY);
-			customTooltipShown = true;
-		}
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
 			if (mouseX > leftPos + 0 && mouseX < leftPos + 24 && mouseY > topPos + 106 && mouseY < topPos + 130) {
 				guiGraphics.setTooltipForNextFrame(font, Component.translatable("gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o"), mouseX, mouseY);
@@ -113,6 +109,8 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_change_password"), 1, 107, -1, false);
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
 			guiGraphics.drawString(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 1, 116, -65536, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 16, -17, -256, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 16, -9, -256, false);
 	}
 
 	@Override
