@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.SoundType;
 
 public class TealbricktrapdoorBlock extends TrapDoorBlock {
 	public TealbricktrapdoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, properties.mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(2f, 6f));
+		super(BlockSetType.STONE, properties.mapColor(MapColor.WARPED_WART_BLOCK).sound(SoundType.METAL).strength(2f, 6f));
 	}
 }

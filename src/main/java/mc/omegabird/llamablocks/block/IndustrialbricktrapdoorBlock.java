@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class IndustrialbricktrapdoorBlock extends TrapDoorBlock {
 	public IndustrialbricktrapdoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops());
+		super(BlockSetType.OAK, properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops());
 	}
 
 	@Override

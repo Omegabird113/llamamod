@@ -1,11 +1,12 @@
 package mc.omegabird.llamablocks.block;
 
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SlabBlock;
 
 public class WhitebrickslabBlock extends SlabBlock {
 	public WhitebrickslabBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
+		super(properties.mapColor(MapColor.QUARTZ).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
 	}
 }

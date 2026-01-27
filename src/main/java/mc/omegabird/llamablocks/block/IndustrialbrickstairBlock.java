@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class IndustrialbrickstairBlock extends StairBlock {
 	public IndustrialbrickstairBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().speedFactor(0.95f).jumpFactor(0.95f));
+		super(Blocks.AIR.defaultBlockState(), properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().speedFactor(0.95f).jumpFactor(0.95f));
 	}
 
 	@Override

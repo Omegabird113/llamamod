@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.ButtonBlock;
 
 public class TealbrickbuttonBlock extends ButtonBlock {
 	public TealbrickbuttonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, 20, properties.mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(2f, 6f));
+		super(BlockSetType.STONE, 20, properties.mapColor(MapColor.WARPED_WART_BLOCK).sound(SoundType.METAL).strength(2f, 6f));
 	}
 }

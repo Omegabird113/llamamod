@@ -12,7 +12,7 @@ import net.minecraft.core.BlockPos;
 
 public class IndustrialbrickslabBlock extends SlabBlock {
 	public IndustrialbrickslabBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().speedFactor(0.95f).jumpFactor(0.95f));
+		super(properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().speedFactor(0.95f).jumpFactor(0.95f));
 	}
 
 	@Override

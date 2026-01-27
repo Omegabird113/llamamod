@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.FenceGateBlock;
 
 public class TealbrickfencegateBlock extends FenceGateBlock {
 	public TealbrickfencegateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
+		super(WoodType.OAK, properties.mapColor(MapColor.WARPED_WART_BLOCK).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
 	}
 }

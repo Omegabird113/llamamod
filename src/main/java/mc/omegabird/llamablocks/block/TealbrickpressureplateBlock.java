@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class TealbrickpressureplateBlock extends PressurePlateBlock {
 	public TealbrickpressureplateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, properties.mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
+		super(BlockSetType.STONE, properties.mapColor(MapColor.WARPED_WART_BLOCK).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
 	}
 }

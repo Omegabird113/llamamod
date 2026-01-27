@@ -7,6 +7,6 @@ import net.minecraft.world.level.block.SoundType;
 
 public class TealbrickwallBlock extends WallBlock {
 	public TealbrickwallBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
+		super(properties.mapColor(MapColor.WARPED_WART_BLOCK).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
 	}
 }

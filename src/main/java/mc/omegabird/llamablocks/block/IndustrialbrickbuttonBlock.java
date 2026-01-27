@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class IndustrialbrickbuttonBlock extends ButtonBlock {
 	public IndustrialbrickbuttonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, 30, properties.mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops());
+		super(BlockSetType.OAK, 30, properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops());
 	}
 
 	@Override
