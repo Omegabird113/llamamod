@@ -16,7 +16,7 @@
         "value": "CUSTOM:LlamaMod"
       }
     ],
-    "stackSize": 32,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 18,
     "toolType": 1.0,

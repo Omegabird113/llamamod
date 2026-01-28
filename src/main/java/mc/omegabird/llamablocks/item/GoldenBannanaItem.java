@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class GoldenBannanaItem extends Item {
 	public GoldenBannanaItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.UNCOMMON).stacksTo(32).food((new FoodProperties.Builder()).nutrition(5).saturationModifier(12.2f).build(), Consumables.defaultFood().consumeSeconds(0.9F).build()));
+		super(properties.rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(5).saturationModifier(12.2f).build(), Consumables.defaultFood().consumeSeconds(0.9F).build()));
 	}
 }
