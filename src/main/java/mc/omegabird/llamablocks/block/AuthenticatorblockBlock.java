@@ -31,7 +31,7 @@ public class AuthenticatorblockBlock extends Block implements EntityBlock {
 	public static final BooleanProperty POWERED = BlockStateProperties.POWERED;
 
 	public AuthenticatorblockBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.CLAY).sound(SoundType.METAL).strength(29f, 50f));
+		super(properties.mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(29f, 50f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(POWERED, false));
 	}
 
