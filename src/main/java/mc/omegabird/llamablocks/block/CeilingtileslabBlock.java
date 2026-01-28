@@ -7,6 +7,6 @@ import net.minecraft.world.level.block.SlabBlock;
 
 public class CeilingtileslabBlock extends SlabBlock {
 	public CeilingtileslabBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.CLAY).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops());
+		super(properties.mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops());
 	}
 }

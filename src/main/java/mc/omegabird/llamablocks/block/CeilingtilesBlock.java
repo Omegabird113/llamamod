@@ -8,7 +8,7 @@ import net.minecraft.world.level.block.Block;
 
 public class CeilingtilesBlock extends Block {
 	public CeilingtilesBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.CLAY).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops());
+		super(properties.mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops());
 	}
 
 	@Override

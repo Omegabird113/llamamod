@@ -7,6 +7,6 @@ import net.minecraft.world.level.block.FenceBlock;
 
 public class CeilingtilefenceBlock extends FenceBlock {
 	public CeilingtilefenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.CLAY).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops().forceSolidOn());
+		super(properties.mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

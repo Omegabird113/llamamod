@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.FenceGateBlock;
 
 public class CeilingtilefencegateBlock extends FenceGateBlock {
 	public CeilingtilefencegateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.mapColor(MapColor.CLAY).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops().forceSolidOn());
+		super(WoodType.OAK, properties.mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

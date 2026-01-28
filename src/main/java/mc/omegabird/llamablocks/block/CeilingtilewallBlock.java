@@ -7,6 +7,6 @@ import net.minecraft.world.level.block.SoundType;
 
 public class CeilingtilewallBlock extends WallBlock {
 	public CeilingtilewallBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.CLAY).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops().forceSolidOn());
+		super(properties.mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }
