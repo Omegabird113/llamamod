@@ -31,7 +31,7 @@ public class SecurestorageblockBlock extends Block implements EntityBlock {
 	public static final EnumProperty<Direction> FACING = DirectionalBlock.FACING;
 
 	public SecurestorageblockBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.CLAY).sound(SoundType.METAL).strength(24f, 89f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
+		super(properties.mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(24f, 89f).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

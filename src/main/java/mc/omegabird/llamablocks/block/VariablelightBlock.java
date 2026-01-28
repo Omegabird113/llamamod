@@ -5,6 +5,7 @@ import org.checkerframework.checker.units.qual.s;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.redstone.Orientation;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -36,7 +37,7 @@ public class VariablelightBlock extends Block {
 	private static final VoxelShape SHAPE_DOWN = box(0, 0, 0, 16, 16, 16);
 
 	public VariablelightBlock(BlockBehaviour.Properties properties) {
-		super(properties.sound(SoundType.METAL).strength(13.5f, 20f).lightLevel(s -> (new Object() {
+		super(properties.mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(13.5f, 20f).lightLevel(s -> (new Object() {
 			public int getLightLevel() {
 				if (s.getValue(BLOCKSTATE) == 1)
 					return 0;
