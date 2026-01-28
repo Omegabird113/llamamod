@@ -518,7 +518,7 @@
         "data": {
           "name": "label_v112",
           "text": {
-            "fixedValue": "v1.1.4"
+            "fixedValue": "v1.2.0"
           },
           "color": {
             "value": -16777216,
@@ -536,6 +536,25 @@
           "use1Xscale": true,
           "x": 329,
           "y": 24,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_beta",
+          "text": {
+            "fixedValue": "BETA"
+          },
+          "color": {
+            "value": -65536,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "ReturnTrue"
+          },
+          "x": 316,
+          "y": 10,
           "locked": false
         }
       }

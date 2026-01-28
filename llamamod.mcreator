@@ -20509,10 +20509,11 @@
       "gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o": "You see this becuase you\u0027re an operator",
       "llamamod.configuration.player_management_permission_level": "Player Management Permission Level",
       "gui.llamamod.computergui.button_message": "Message",
-      "gui.llamamod.computergui.label_v112": "v1.1.4",
+      "gui.llamamod.computergui.label_v112": "v1.2.0",
       "item.llamamod.golden_banana": "Golden Banana",
       "gui.llamamod.passwordchangergui.label_see_your_passwords": "SEE passwords.",
-      "gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords": "Operators can"
+      "gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords": "Operators can",
+      "gui.llamamod.computergui.label_beta": "BETA"
     }
   },
   "metadata": {
@@ -20866,7 +20867,7 @@
   "workspaceSettings": {
     "modid": "llamamod",
     "modName": "LlamaBlocks",
-    "version": "1.1.4",
+    "version": "1.2.0.beta1",
     "description": "LlamaBlocks is a chaotic, but interesting Minecraft mod I\u0027ve made using MCreator over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code. Its features range from a massive amount of similar building blocks with specific color variants, to single blocks with tons of functionality.",
     "author": "Omegabird113",
     "websiteURL": "https://modrinth.com/mod/llamablocks",
