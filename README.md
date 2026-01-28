@@ -39,10 +39,19 @@ All of these items are related together.
 
 #### The Banana
 The banana is a somewhat bad food item in terms of nutrition, but you can eat them very fast. Here are their exact properties:
-- A nutritional value of `2` *(it heals 1 hunger bar)*
+- A nutritional value of `2` *(it heals `1` hunger bar)*
 - A saturation of `4.1` *(not very good)*
 - It can be eaten in `12 ticks` *(You can eat them in `0.6 seconds` instead of the typical `1.6 seconds` for food)*
 - It can be composted with a `32.5%` success rate
+- It can fuel a furnace for `100 ticks` *(`5 seconds`)*
+
+### The Golden Banana
+A Golden Banana is a variant of the banana which is much better, but a bit slower and somewhat expensive:
+- A nutritional value of `5` *(it heals `2.5` hunger bar)*
+- A saturation of `12.2`
+- It can be eaten in `18 ticks` *(You can eat them in `0.9 seconds` instead of the typical `1.6 seconds` for food)*
+- It can't be composted or used as furnace fuel
+- It can be crafted with a Banana suronded by Gold Ingots
 
 #### The Banana Plant
 
@@ -152,7 +161,7 @@ This is a block which, when a block next to it is updated, will set the light le
 
 ### Server Configuration entries:
 
-This table explains the entries in the `llamamod_server.toml` file in the `config` folder of your client or server installation folder, though your client's will only apply to singleplayer worlds.
+This table explains the entries in the `llamamod_server.toml` file in the `config` folder of your client or server installation folder, though your client's will only apply to single-player worlds.
 
 | Variable name (in file)                 | Type     | Default value | Description                                                                                                                            |
 |-----------------------------------------|----------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|
@@ -165,7 +174,7 @@ This table explains the entries in the `llamamod_server.toml` file in the `confi
 | `prevent_nested_storage_item_placement` | `logic`  | `true`        | This controls (inversely) whether Backpacks and Shulker Boxes can be placed in Backpacks and Secure Storage Blocks                     |
 
 ## Where to Download
-LlamaBlocks is avaliable on the following mod hosting websites:
+LlamaBlocks is avalible on the following mod hosting websites:
 - [Modrinth](https://modrinth.com/mod/llamablocks)
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
 - [MCreator's Website](https://mcreator.net/modification/121457/llamablocks)
@@ -188,8 +197,8 @@ Here's some information about the development of LlamaBlocks.
 ### The LlamaBlocks Versioning system
 
 The current LlamaBlocks version system produces versions in the format `x.y.z` where:
-- `x` represents what a game-changing update (ex. a rewrite, a ridiculous amoun of new features, etc)
-- `y` represents an update which adds features, changes behavior in a large way, or changes the neoforge or Minecraft version requirement (ex. some new blocks, a Minecraft version update, a new function is added to the computer, etc)
+- `x` represents what a game-changing update (ex. a rewrite, a ridiculous amount of new features, etc)
+- `y` represents an update which adds features, changes behavior in a large way, or changes the NeoForge or Minecraft version requirement (ex. some new blocks, a Minecraft version update, a new function is added to the computer, etc)
 - `z` represents a bugfix or small update with very few features (ex. an important hotfix, a consistency or bugfix, a small texture or GUI change, etc)
 
 ### Licensing, Modpacks, etc
