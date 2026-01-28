@@ -15,10 +15,14 @@ public class ComputercalculateprocidureProcedure {
 		double num2 = 0;
 		String result = "";
 		String operation = "";
+		String num1text = "";
+		String num2text = "";
 		operation = (((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "operation", "") : "").toUpperCase()).strip();
-		if ((((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "number1", "") : "").toUpperCase()).equals("PI")) {
+		num1text = (((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "number1", "") : "").toUpperCase()).strip();
+		num2text = (((entity instanceof Player _entity2 && _entity2.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu2) ? _menu2.getMenuState(0, "number2", "") : "").toUpperCase()).strip();
+		if ((num1text).equals("PI")) {
 			num1 = Math.PI;
-		} else if ((((entity instanceof Player _entity2 && _entity2.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu2) ? _menu2.getMenuState(0, "number1", "") : "").toUpperCase()).equals("E")) {
+		} else if ((num1text).equals("E")) {
 			num1 = Math.E;
 		} else {
 			num1 = new Object() {
@@ -29,11 +33,11 @@ public class ComputercalculateprocidureProcedure {
 					}
 					return 0;
 				}
-			}.convert((entity instanceof Player _entity3 && _entity3.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu3) ? _menu3.getMenuState(0, "number1", "") : "");
+			}.convert(num1text);
 		}
-		if ((((entity instanceof Player _entity4 && _entity4.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu4) ? _menu4.getMenuState(0, "number2", "") : "").toUpperCase()).equals("PI")) {
+		if ((num2text).equals("PI")) {
 			num2 = Math.PI;
-		} else if ((((entity instanceof Player _entity5 && _entity5.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu5) ? _menu5.getMenuState(0, "number2", "") : "").toUpperCase()).equals("E")) {
+		} else if ((num2text).equals("E")) {
 			num2 = Math.E;
 		} else {
 			num2 = new Object() {
@@ -44,7 +48,7 @@ public class ComputercalculateprocidureProcedure {
 					}
 					return 0;
 				}
-			}.convert((entity instanceof Player _entity6 && _entity6.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu6) ? _menu6.getMenuState(0, "number2", "") : "");
+			}.convert(num2text);
 		}
 		if ((operation).equals("+")) {
 			result = "" + (num1 + num2);
