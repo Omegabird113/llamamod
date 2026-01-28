@@ -45,7 +45,7 @@ The banana is a somewhat bad food item in terms of nutrition, but you can eat th
 - It can be composted with a `32.5%` success rate
 - It can fuel a furnace for `100 ticks` *(`5 seconds`)*
 
-### The Golden Banana
+#### The Golden Banana
 A Golden Banana is a variant of the banana which is much better, but a bit slower and somewhat expensive:
 - A nutritional value of `5` *(it heals `2.5` hunger bar)*
 - A saturation of `12.2`
