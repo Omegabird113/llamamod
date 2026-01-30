@@ -131,7 +131,7 @@ The complex offers a variety of features for information, math, player managemen
   - `AND`, `OR`, and `XOR` are all bitwise operations
   - `LOG` is a logbase operation with the syntax `<base> log <n>`
   - LlamaMod supports the irrational numbers `pi` and `e` to be entered.
-- One value operations supported with just value one: `NLOG`, `ROUND`, `CEIL`, `FLOOR`, `SQRT`, `3ROOT`, `ABS`, `SIGNUM`, `SIN`, `COS`, `TAN`, `ASIN`, `ACOS`, `ATAN`, `RAD>DEG`, and `DEG>RAD`.
+- One value operations supported with just value one: `NLOG`, `ROUND`, `CEIL`, `FLOOR`, `SQRT`, `3ROOT`, `ABS`, `SIGNUM`, `SIN`, `COS`, `TAN`, `ASIN`, `ACOS`, `ATAN`, `LOG10`, `RAD>DEG`, and `DEG>RAD`.
 - Players can send messages to other players
 - Operators can clear the inventory of and kill players
 - Players can store and retrieve a message within the computer block itself
