@@ -14,6 +14,7 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import mc.omegabird.llamablocks.world.inventory.DoubleSecureStoorafeBlockGuiMenu;
+import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.procedures.IsAllowClearingBoxCheckedProcedure;
 import mc.omegabird.llamablocks.network.DoubleSecureStoorafeBlockGuiButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
@@ -75,6 +76,8 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block"), 6, 6, -15658701, false);
+		if (IsThisBetaProcedureProcedure.execute())
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_beta"), 176, 21, -65536, false);
 	}
 
 	@Override

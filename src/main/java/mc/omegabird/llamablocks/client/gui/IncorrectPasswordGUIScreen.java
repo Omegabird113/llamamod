@@ -13,6 +13,7 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
+import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.IncorrectPasswordGUIButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
 
@@ -68,6 +69,8 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_error"), 24, 10, -65536, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_please_close_this_gui_and"), 5, 24, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_retry_entering_the_password"), 5, 33, -12829636, false);
+		if (IsThisBetaProcedureProcedure.execute())
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_beta"), 2, -11, -65536, false);
 	}
 
 	@Override

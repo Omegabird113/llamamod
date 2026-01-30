@@ -471,5 +471,13 @@
   "item.llamamod.golden_banana": "Golden Banana",
   "gui.llamamod.passwordchangergui.label_see_your_passwords": "SEE passwords.",
   "gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords": "Operators can",
-  "gui.llamamod.computergui.label_beta": "BETA"
+  "gui.llamamod.computergui.label_beta": "BETA",
+  "gui.llamamod.backpackgui.label_beta": "BETA",
+  "gui.llamamod.netherbackpackgui.label_beta": "BETA",
+  "gui.llamamod.securestooragepasswordgui.label_beta": "BETA",
+  "gui.llamamod.authblockauthgui.label_beta": "BETA",
+  "gui.llamamod.computerauthgui.label_beta": "BETA",
+  "gui.llamamod.passwordchangergui.label_beta": "BETA",
+  "gui.llamamod.incorrect_password_gui.label_beta": "BETA",
+  "gui.llamamod.double_secure_stoorafe_block_gui.label_beta": "BETA"
 }

@@ -17,6 +17,7 @@ import net.minecraft.client.Minecraft;
 import mc.omegabird.llamablocks.world.inventory.PasswordchangerguiMenu;
 import mc.omegabird.llamablocks.procedures.PasswordbananaprivlidgeescheckProcedure;
 import mc.omegabird.llamablocks.procedures.PasswordbananaRightclickedOnBlockProcedure;
+import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.PasswordchangerguiButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
 
@@ -111,6 +112,8 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 			guiGraphics.drawString(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 1, 116, -65536, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 16, -17, -256, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 16, -9, -256, false);
+		if (IsThisBetaProcedureProcedure.execute())
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 107, -31, -65536, false);
 	}
 
 	@Override

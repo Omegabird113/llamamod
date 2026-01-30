@@ -15,6 +15,7 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.Minecraft;
 
 import mc.omegabird.llamablocks.world.inventory.ComputerauthguiMenu;
+import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.ComputerauthguiButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
 
@@ -85,6 +86,8 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_secure_stoorage_block"), 5, 4, -16777216, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_enter_password"), 5, 15, -16777016, false);
+		if (IsThisBetaProcedureProcedure.execute())
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_beta"), 2, -11, -65536, false);
 	}
 
 	@Override

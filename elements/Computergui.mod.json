@@ -551,7 +551,7 @@
             "falpha": 0.0
           },
           "displayCondition": {
-            "name": "ReturnTrue"
+            "name": "IsThisBetaProcedure"
           },
           "x": 316,
           "y": 10,

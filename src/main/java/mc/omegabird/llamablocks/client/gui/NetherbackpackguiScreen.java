@@ -14,6 +14,7 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 
 import mc.omegabird.llamablocks.world.inventory.NetherbackpackguiMenu;
+import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.procedures.IsAllowClearingBoxCheckedProcedure;
 import mc.omegabird.llamablocks.network.NetherbackpackguiButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
@@ -75,6 +76,8 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.netherbackpackgui.label_netherite_backpack"), 5, 6, -12243393, false);
+		if (IsThisBetaProcedureProcedure.execute())
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.netherbackpackgui.label_beta"), 90, -12, -65536, false);
 	}
 
 	@Override
