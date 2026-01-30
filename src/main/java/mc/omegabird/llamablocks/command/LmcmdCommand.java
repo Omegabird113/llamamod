@@ -93,21 +93,7 @@ public class LmcmdCommand {
 
 			CloseAllOpenGUIsCommandProcedureProcedure.execute(arguments);
 			return 0;
-		}))).then(Commands.literal("open").then(Commands.literal("incorrectPassword").then(Commands.argument("targets", EntityArgument.players()).executes(arguments -> {
-			Level world = arguments.getSource().getUnsidedLevel();
-			double x = arguments.getSource().getPosition().x();
-			double y = arguments.getSource().getPosition().y();
-			double z = arguments.getSource().getPosition().z();
-			Entity entity = arguments.getSource().getEntity();
-			if (entity == null && world instanceof ServerLevel _servLevel)
-				entity = FakePlayerFactory.getMinecraft(_servLevel);
-			Direction direction = Direction.DOWN;
-			if (entity != null)
-				direction = entity.getDirection();
-
-			OpenIncorrectPasswordGUIforTargetsProcedureProcedure.execute(world, x, y, z, arguments);
-			return 0;
-		}))))).then(Commands.literal("send").then(Commands.literal("time").executes(arguments -> {
+		})))).then(Commands.literal("send").then(Commands.literal("time").executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
