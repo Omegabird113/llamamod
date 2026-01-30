@@ -13,19 +13,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "TAG:mod:white_concrete_or_powder"
+        "value": "Blocks.CONCRETE#0"
       },
       {
-        "value": "TAG:mod:non_white_concrete_or_powder"
+        "value": "TAG:mod:non_white_concrete"
       },
       {
         "value": ""
       },
       {
-        "value": "TAG:mod:non_white_concrete_or_powder"
+        "value": "TAG:mod:non_white_concrete"
       },
       {
-        "value": "TAG:mod:white_concrete_or_powder"
+        "value": "Blocks.CONCRETE#0"
       },
       {
         "value": ""
