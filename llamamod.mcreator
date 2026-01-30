@@ -4028,25 +4028,6 @@
       "path": "~/Recipes/Preasure Plate/Brick - Conversions"
     },
     {
-      "name": "GivePasswordChangerProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "give_password_changer_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "arguments",
-            "type": "cmdcontext"
-          }
-        ],
-        "files": [
-          "src/main/java/mc/omegabird/llamablocks/procedures/GivePasswordChangerProcedureProcedure.java"
-        ]
-      },
-      "path": "~/Commands/llamammod command"
-    },
-    {
       "name": "CloseAllOpenGUIsCommandProcedure",
       "type": "procedure",
       "compiles": true,
