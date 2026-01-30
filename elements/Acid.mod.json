@@ -27,7 +27,7 @@
     "dripParticle": {
       "value": "CUSTOM:Acidparticle"
     },
-    "flowStrength": -0.13,
+    "flowStrength": -0.06,
     "luminosity": 0,
     "density": 1000,
     "viscosity": 1000,
