@@ -31,7 +31,7 @@ public class LlamamodModBlockEntities {
 	// Start of user code block custom block entities
 	// End of user code block custom block entities
 	private static <T extends BlockEntity> DeferredHolder<BlockEntityType<?>, BlockEntityType<T>> register(String registryname, DeferredHolder<Block, Block> block, BlockEntityType.BlockEntitySupplier<T> supplier) {
-		return REGISTRY.register(registryname, () -> new BlockEntityType(supplier, block.get()));
+		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
 	}
 
 	@SubscribeEvent

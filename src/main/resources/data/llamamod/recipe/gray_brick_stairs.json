@@ -6,7 +6,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:gray_bricks"
+    "a": {
+      "item": "llamamod:gray_bricks"
+    }
   },
   "result": {
     "id": "llamamod:gray_brick_stairs",

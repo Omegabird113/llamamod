@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.ButtonBlock;
 
 public class OrangeLargeTileButtonBlock extends ButtonBlock {
-	public OrangeLargeTileButtonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, 20, properties.mapColor(MapColor.COLOR_ORANGE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
+	public OrangeLargeTileButtonBlock() {
+		super(BlockSetType.STONE, 20, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_ORANGE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
 	}
 }

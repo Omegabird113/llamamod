@@ -1,13 +1,12 @@
 package mc.omegabird.llamablocks.client.gui;
 
-import net.neoforged.neoforge.client.network.ClientPacketDistributor;
+import net.neoforged.neoforge.network.PacketDistributor;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
@@ -18,6 +17,8 @@ import mc.omegabird.llamablocks.world.inventory.ComputerauthguiMenu;
 import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.ComputerauthguiButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
+
+import com.mojang.blaze3d.systems.RenderSystem;
 
 public class ComputerauthguiScreen extends AbstractContainerScreen<ComputerauthguiMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
@@ -60,8 +61,12 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png"), this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
+		RenderSystem.setShaderColor(1, 1, 1, 1);
+		RenderSystem.enableBlend();
+		RenderSystem.defaultBlendFunc();
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(ResourceLocation.parse("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png"), this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
+		RenderSystem.disableBlend();
 	}
 
 	@Override
@@ -105,7 +110,7 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 			int x = ComputerauthguiScreen.this.x;
 			int y = ComputerauthguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerauthguiButtonMessage(0, x, y, z));
+				PacketDistributor.sendToServer(new ComputerauthguiButtonMessage(0, x, y, z));
 				ComputerauthguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 48, 56, 20).build();
@@ -114,7 +119,7 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 			int x = ComputerauthguiScreen.this.x;
 			int y = ComputerauthguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerauthguiButtonMessage(1, x, y, z));
+				PacketDistributor.sendToServer(new ComputerauthguiButtonMessage(1, x, y, z));
 				ComputerauthguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 100, this.topPos + -21, 30, 20).build();

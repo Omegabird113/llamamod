@@ -2,11 +2,21 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:farm_scraps",
-    "llamamod:farm_scraps",
-    "minecraft:bamboo",
-    "llamamod:farm_scraps",
-    "llamamod:farm_scraps"
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "minecraft:bamboo"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    }
   ],
   "result": {
     "id": "minecraft:bamboo",

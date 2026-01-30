@@ -6,8 +6,12 @@
     "aba"
   ],
   "key": {
-    "a": "minecraft:stick",
-    "b": "llamamod:industrial_bricks"
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "llamamod:industrial_bricks"
+    }
   },
   "result": {
     "id": "llamamod:industrial_brick_fence_gate",

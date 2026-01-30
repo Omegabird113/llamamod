@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:orange_bricks"
+    {
+      "item": "llamamod:orange_bricks"
+    }
   ],
   "result": {
     "id": "llamamod:orange_brick_button",

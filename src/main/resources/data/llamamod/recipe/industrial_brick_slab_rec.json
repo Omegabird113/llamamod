@@ -5,7 +5,9 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:industrial_bricks"
+    "a": {
+      "item": "llamamod:industrial_bricks"
+    }
   },
   "result": {
     "id": "llamamod:industrial_brick_slab",

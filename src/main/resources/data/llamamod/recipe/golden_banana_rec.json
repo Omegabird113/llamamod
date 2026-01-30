@@ -7,8 +7,12 @@
     "aaa"
   ],
   "key": {
-    "a": "minecraft:gold_ingot",
-    "b": "llamamod:banana"
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "llamamod:banana"
+    }
   },
   "result": {
     "id": "llamamod:golden_banana",

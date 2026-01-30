@@ -5,7 +5,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:cyan_large_tile"
+    "a": {
+      "item": "llamamod:cyan_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:cyan_large_tile_pressure_plate",

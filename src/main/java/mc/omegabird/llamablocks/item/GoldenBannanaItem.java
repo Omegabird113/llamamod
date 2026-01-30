@@ -1,12 +1,18 @@
 package mc.omegabird.llamablocks.item;
 
-import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.entity.LivingEntity;
 
 public class GoldenBannanaItem extends Item {
-	public GoldenBannanaItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(5).saturationModifier(12.2f).build(), Consumables.defaultFood().consumeSeconds(0.95F).build()));
+	public GoldenBannanaItem() {
+		super(new Item.Properties().rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(5).saturationModifier(12.2f).build()));
+	}
+
+	@Override
+	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
+		return 19;
 	}
 }

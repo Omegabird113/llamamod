@@ -10,7 +10,6 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.entity.InsideBlockEffectApplier;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -19,8 +18,9 @@ import mc.omegabird.llamablocks.procedures.AcidMobplayerCollidesBlockProcedure;
 import mc.omegabird.llamablocks.init.LlamamodModFluids;
 
 public class AcidBlock extends LiquidBlock {
-	public AcidBlock(BlockBehaviour.Properties properties) {
-		super(LlamamodModFluids.ACID.get(), properties.mapColor(MapColor.WARPED_WART_BLOCK).strength(13f).lightLevel(s -> 5).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+	public AcidBlock() {
+		super(LlamamodModFluids.ACID.get(),
+				BlockBehaviour.Properties.of().mapColor(MapColor.WARPED_WART_BLOCK).strength(13f).lightLevel(s -> 5).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override
@@ -29,13 +29,13 @@ public class AcidBlock extends LiquidBlock {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 2;
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
-		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity) {
+		super.entityInside(blockstate, world, pos, entity);
 		AcidMobplayerCollidesBlockProcedure.execute(entity);
 	}
 }

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_types",
-    "minecraft:yellow_dye"
+    {
+      "tag": "llamamod:brick_types"
+    },
+    {
+      "item": "minecraft:yellow_dye"
+    }
   ],
   "result": {
     "id": "llamamod:yellow_bricks",

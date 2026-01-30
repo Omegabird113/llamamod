@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_pressure_plate",
-    "minecraft:green_dye",
-    "minecraft:blue_dye"
+    {
+      "tag": "llamamod:large_tile_pressure_plate"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:teal_large_tile_pressure_plate",

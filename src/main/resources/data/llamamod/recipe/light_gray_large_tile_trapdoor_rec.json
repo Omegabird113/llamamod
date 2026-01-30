@@ -6,7 +6,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:light_gray_large_tile"
+    "a": {
+      "item": "llamamod:light_gray_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:light_gray_large_tile_trapdoor",

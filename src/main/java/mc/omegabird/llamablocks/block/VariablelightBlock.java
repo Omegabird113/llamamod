@@ -4,10 +4,9 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.redstone.Orientation;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -24,11 +23,9 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.VariablelightNeighbourBlockChangesProcedure;
 
-import javax.annotation.Nullable;
-
 public class VariablelightBlock extends Block {
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 16);
-	public static final EnumProperty<Direction> FACING = DirectionalBlock.FACING;
+	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 	private static final VoxelShape SHAPE_NORTH = box(0, 0, 0, 16, 16, 16);
 	private static final VoxelShape SHAPE_SOUTH = box(0, 0, 0, 16, 16, 16);
 	private static final VoxelShape SHAPE_EAST = box(0, 0, 0, 16, 16, 16);
@@ -36,8 +33,8 @@ public class VariablelightBlock extends Block {
 	private static final VoxelShape SHAPE_UP = box(0, 0, 0, 16, 16, 16);
 	private static final VoxelShape SHAPE_DOWN = box(0, 0, 0, 16, 16, 16);
 
-	public VariablelightBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(13.5f, 20f).lightLevel(s -> (new Object() {
+	public VariablelightBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(13.5f, 20f).lightLevel(s -> (new Object() {
 			public int getLightLevel() {
 				if (s.getValue(BLOCKSTATE) == 1)
 					return 0;
@@ -78,7 +75,7 @@ public class VariablelightBlock extends Block {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
 	}
 
@@ -115,8 +112,8 @@ public class VariablelightBlock extends Block {
 	}
 
 	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, @Nullable Orientation orientation, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, orientation, moving);
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		VariablelightNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_pressure_plate",
-    "minecraft:white_dye"
+    {
+      "tag": "llamamod:large_tile_pressure_plate"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
   ],
   "result": {
     "id": "llamamod:white_large_tile_pressure_plate",

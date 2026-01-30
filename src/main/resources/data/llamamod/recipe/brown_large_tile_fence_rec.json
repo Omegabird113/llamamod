@@ -6,8 +6,12 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:brown_large_tile",
-    "b": "minecraft:stick"
+    "a": {
+      "item": "llamamod:brown_large_tile"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
     "id": "llamamod:brown_large_tile_fence",

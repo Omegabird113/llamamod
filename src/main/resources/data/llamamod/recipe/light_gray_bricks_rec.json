@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_types",
-    "minecraft:light_gray_dye"
+    {
+      "tag": "llamamod:brick_types"
+    },
+    {
+      "item": "minecraft:light_gray_dye"
+    }
   ],
   "result": {
     "id": "llamamod:light_gray_bricks",

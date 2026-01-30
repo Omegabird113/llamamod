@@ -23,14 +23,14 @@ description="LlamaBlocks is a chaotic, but interesting Minecraft mod I've made u
 [[dependencies.llamamod]]
     modId="neoforge"
     type="required"
-    versionRange="[21.8.31,)"
+    versionRange="[21.1.190,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.llamamod]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.8]"
+    versionRange="[1.21.1]"
     ordering="AFTER"
     side="BOTH"
 

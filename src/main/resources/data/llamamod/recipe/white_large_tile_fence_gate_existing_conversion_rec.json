@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tiel_fence_gates",
-    "minecraft:white_dye"
+    {
+      "tag": "llamamod:large_tiel_fence_gates"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
   ],
   "result": {
     "id": "llamamod:large_tile_fence_gate",

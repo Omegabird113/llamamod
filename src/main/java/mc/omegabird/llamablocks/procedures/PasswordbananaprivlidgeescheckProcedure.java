@@ -13,7 +13,7 @@ public class PasswordbananaprivlidgeescheckProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if (getEntityGameType(entity) == GameType.CREATIVE && entity instanceof Player _playerCmd2 && _playerCmd2.hasPermissions((int) (double) LlamamodserverconfigConfiguration.ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL.get())) {
+		if (getEntityGameType(entity) == GameType.CREATIVE && entity.hasPermissions((int) (double) LlamamodserverconfigConfiguration.ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL.get())) {
 			return true;
 		}
 		return false;

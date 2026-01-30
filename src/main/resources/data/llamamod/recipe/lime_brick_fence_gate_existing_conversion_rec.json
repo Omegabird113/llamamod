@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_fence_gates",
-    "minecraft:lime_dye"
+    {
+      "tag": "llamamod:brick_fence_gates"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
   ],
   "result": {
     "id": "llamamod:lime_brick_fence_gate",

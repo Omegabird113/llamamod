@@ -7,12 +7,24 @@
     "afa"
   ],
   "key": {
-    "a": "minecraft:smooth_stone",
-    "b": "llamamod:password_changer",
-    "c": "#c:glass_blocks/cheap",
-    "d": "llamamod:variable_light",
-    "e": "minecraft:repeater",
-    "f": "minecraft:clock"
+    "a": {
+      "item": "minecraft:smooth_stone"
+    },
+    "b": {
+      "item": "llamamod:password_changer"
+    },
+    "c": {
+      "tag": "c:glass_blocks/cheap"
+    },
+    "d": {
+      "item": "llamamod:variable_light"
+    },
+    "e": {
+      "item": "minecraft:repeater"
+    },
+    "f": {
+      "item": "minecraft:clock"
+    }
   },
   "result": {
     "id": "llamamod:computer",

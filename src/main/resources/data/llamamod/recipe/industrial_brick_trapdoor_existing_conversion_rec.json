@@ -5,9 +5,15 @@
     "abc"
   ],
   "key": {
-    "a": "#llamamod:brick_trapdoors",
-    "b": "minecraft:iron_ingot",
-    "c": "minecraft:copper_ingot"
+    "a": {
+      "tag": "llamamod:brick_trapdoors"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:copper_ingot"
+    }
   },
   "result": {
     "id": "llamamod:industrial_brick_trapdoor",

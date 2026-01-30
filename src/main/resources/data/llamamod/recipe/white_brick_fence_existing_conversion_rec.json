@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_fences",
-    "minecraft:white_dye"
+    {
+      "tag": "llamamod:brick_fences"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
   ],
   "result": {
     "id": "llamamod:white_brick_fence",

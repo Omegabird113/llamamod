@@ -6,7 +6,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:purple_large_tile"
+    "a": {
+      "item": "llamamod:purple_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:purple_large_tile_trapdoor",

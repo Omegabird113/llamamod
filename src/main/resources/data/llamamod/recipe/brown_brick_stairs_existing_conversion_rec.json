@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_stairs",
-    "minecraft:brown_dye"
+    {
+      "tag": "llamamod:brick_stairs"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    }
   ],
   "result": {
     "id": "llamamod:brown_brick_stairs",

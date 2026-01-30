@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:cherry_bricks"
+    {
+      "item": "llamamod:cherry_bricks"
+    }
   ],
   "result": {
     "id": "llamamod:cherry_brick_button",

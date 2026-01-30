@@ -5,7 +5,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:green_large_tile"
+    "a": {
+      "item": "llamamod:green_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:green_large_tile_pressure_plate",

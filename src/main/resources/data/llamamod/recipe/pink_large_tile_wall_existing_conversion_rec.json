@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_walls",
-    "minecraft:pink_dye"
+    {
+      "tag": "llamamod:large_tile_walls"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    }
   ],
   "result": {
     "id": "llamamod:pink_large_tile_wall",

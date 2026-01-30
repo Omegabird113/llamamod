@@ -2,13 +2,27 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:farm_scraps",
-    "llamamod:farm_scraps",
-    "minecraft:oak_sapling",
-    "llamamod:farm_scraps",
-    "llamamod:farm_scraps",
-    "llamamod:farm_scraps",
-    "llamamod:farm_scraps"
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "minecraft:oak_sapling"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    }
   ],
   "result": {
     "id": "minecraft:oak_sapling",

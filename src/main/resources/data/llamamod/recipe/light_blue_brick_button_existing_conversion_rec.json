@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_buttons",
-    "minecraft:light_blue_dye"
+    {
+      "tag": "llamamod:brick_buttons"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:light_blue_brick_button",
