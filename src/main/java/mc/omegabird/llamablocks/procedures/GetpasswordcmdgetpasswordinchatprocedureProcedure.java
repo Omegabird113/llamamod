@@ -9,6 +9,8 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.commands.arguments.coordinates.BlockPosArgument;
 import net.minecraft.commands.CommandSourceStack;
 
+import mc.omegabird.llamablocks.configuration.LlamamodserverconfigConfiguration;
+
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.context.CommandContext;
 
@@ -16,7 +18,7 @@ public class GetpasswordcmdgetpasswordinchatprocedureProcedure {
 	public static void execute(LevelAccessor world, CommandContext<CommandSourceStack> arguments, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerCmd0 && _playerCmd0.hasPermissions(4)) {
+		if (entity instanceof Player _playerCmd1 && _playerCmd1.hasPermissions((int) (double) LlamamodserverconfigConfiguration.ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL.get())) {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal((getBlockNBTString(world,
 						new BlockPos(commandParameterBlockPos(arguments, "location").getX(), commandParameterBlockPos(arguments, "location").getY(), commandParameterBlockPos(arguments, "location").getZ()), "access_password"))), false);

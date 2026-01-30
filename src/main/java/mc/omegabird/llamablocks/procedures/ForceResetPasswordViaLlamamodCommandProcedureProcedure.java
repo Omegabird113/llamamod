@@ -15,6 +15,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.commands.arguments.coordinates.BlockPosArgument;
 import net.minecraft.commands.CommandSourceStack;
 
+import mc.omegabird.llamablocks.configuration.LlamamodserverconfigConfiguration;
 import mc.omegabird.llamablocks.LlamamodMod;
 
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
@@ -25,7 +26,7 @@ public class ForceResetPasswordViaLlamamodCommandProcedureProcedure {
 		if (entity == null)
 			return;
 		BlockState oldBlock = Blocks.AIR.defaultBlockState();
-		if (entity instanceof Player _playerCmd0 && _playerCmd0.hasPermissions(4)) {
+		if (entity instanceof Player _playerCmd1 && _playerCmd1.hasPermissions((int) (double) LlamamodserverconfigConfiguration.PASSWORD_CONTROL_PASSWORDS_PERMISSION_LEVEL.get())) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos(commandParameterBlockPos(arguments, "location").getX(), commandParameterBlockPos(arguments, "location").getY(), commandParameterBlockPos(arguments, "location").getZ());
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);

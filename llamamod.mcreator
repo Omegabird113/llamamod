@@ -18308,6 +18308,26 @@
         ]
       },
       "path": "~/ABOUT"
+    },
+    {
+      "name": "PasswordResetPasswordChangerGUIPermissionProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "password_reset_password_changer_gui_permission_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/PasswordResetPasswordChangerGUIPermissionProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Items/Password Changer"
     }
   ],
   "variable_elements": [],
@@ -20521,7 +20541,8 @@
       "gui.llamamod.computerauthgui.label_beta": "BETA",
       "gui.llamamod.passwordchangergui.label_beta": "BETA",
       "gui.llamamod.incorrect_password_gui.label_beta": "BETA",
-      "gui.llamamod.double_secure_stoorafe_block_gui.label_beta": "BETA"
+      "gui.llamamod.double_secure_stoorafe_block_gui.label_beta": "BETA",
+      "llamamod.configuration.command_password_control_permission_level": "Command Password Control Permission Level"
     }
   },
   "metadata": {

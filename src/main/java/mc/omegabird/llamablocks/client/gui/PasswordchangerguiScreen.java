@@ -17,6 +17,7 @@ import net.minecraft.client.Minecraft;
 import mc.omegabird.llamablocks.world.inventory.PasswordchangerguiMenu;
 import mc.omegabird.llamablocks.procedures.PasswordbananaprivlidgeescheckProcedure;
 import mc.omegabird.llamablocks.procedures.PasswordbananaRightclickedOnBlockProcedure;
+import mc.omegabird.llamablocks.procedures.PasswordResetPasswordChangerGUIPermissionProcedureProcedure;
 import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.PasswordchangerguiButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
@@ -156,7 +157,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		button_reset = Button.builder(Component.translatable("gui.llamamod.passwordchangergui.button_reset"), e -> {
 			int x = PasswordchangerguiScreen.this.x;
 			int y = PasswordchangerguiScreen.this.y;
-			if (PasswordbananaprivlidgeescheckProcedure.execute(entity)) {
+			if (PasswordResetPasswordChangerGUIPermissionProcedureProcedure.execute(entity)) {
 				ClientPacketDistributor.sendToServer(new PasswordchangerguiButtonMessage(2, x, y, z));
 				PasswordchangerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
@@ -167,6 +168,6 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 	@Override
 	protected void containerTick() {
 		super.containerTick();
-		this.button_reset.visible = PasswordbananaprivlidgeescheckProcedure.execute(entity);
+		this.button_reset.visible = PasswordResetPasswordChangerGUIPermissionProcedureProcedure.execute(entity);
 	}
 }
