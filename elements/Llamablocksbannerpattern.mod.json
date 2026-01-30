@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "bannerpattern",
+  "definition": {
+    "texture": "llamablocks_banner_pattern",
+    "shieldTexture": "llamablocks_banner_pattern_sheild",
+    "name": "LlamaBlocks",
+    "requireItem": false
+  }
+}

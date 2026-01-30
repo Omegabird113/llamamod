@@ -480,5 +480,21 @@
   "gui.llamamod.passwordchangergui.label_beta": "BETA",
   "gui.llamamod.incorrect_password_gui.label_beta": "BETA",
   "gui.llamamod.double_secure_stoorafe_block_gui.label_beta": "BETA",
-  "llamamod.configuration.command_password_control_permission_level": "Command Password Control Permission Level"
+  "llamamod.configuration.command_password_control_permission_level": "Command Password Control Permission Level",
+  "block.llamamod.banner.llamablocksbannerpattern.gray": "Gray LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.light_gray": "Light Gray LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.brown": "Brown LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.cyan": "Cyan LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.red": "Red LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.orange": "Orange LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.yellow": "Yellow LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.light_blue": "Light Blue LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.black": "Black LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.magenta": "Magenta LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.purple": "Purple LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.green": "Green LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.lime": "Lime LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.blue": "Blue LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.white": "White LlamaBlocks",
+  "block.llamamod.banner.llamablocksbannerpattern.pink": "Pink LlamaBlocks"
 }
