@@ -1,6 +1,8 @@
 {
   "homepage": "https://modrinth.com/mod/llamablocks/versions",
   "1.21.8" : {
+    "1.2.0.2": "1.2.0-beta2, see github changelog for more info",
+    "1.2.0.1": "1.2.0-beta1, see github changelog for more info",
     "1.1.4": "Farm Scrap recipe changes, Computer trimming extra spaces, computer message player box case-insensitive, and blocks have proper map colors.",
     "1.1.3": "Crafting Recipe & Banana Balance changes, and added things to the Computer.",
     "1.1.2": "Added 1-value operations and e/pi to Computer Calculator, updated about to use Modrinth and credit the Config Files plugin, made about command link clickable, and added Tile Trapdoor recipes.",
@@ -11,6 +13,8 @@
   },
   "promos": {
     "1.21.8-latest": "1.1.4",
-    "1.21.8-recommended": "1.1.4"
+    "1.21.8-recommended": "1.1.4",
+    "1.21.1-latest": "1.2.0.2"
+    "1.21.1-recommended": "1.2.0.2"
   }
 }
