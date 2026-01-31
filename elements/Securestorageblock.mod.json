@@ -50,7 +50,7 @@
     "hasBlockItem": true,
     "maxStackSize": 64,
     "rarity": "COMMON",
-    "immuneToFire": false,
+    "immuneToFire": true,
     "creativeTabs": [
       {
         "value": "CUSTOM:LlamaMod"

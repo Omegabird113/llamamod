@@ -751,7 +751,7 @@ public class LlamamodModItems {
 		CHERRY_LARGE_TILE_TRAPDOOR = block(LlamamodModBlocks.CHERRY_LARGE_TILE_TRAPDOOR);
 		CHERRY_LARGE_TILE_PRESSURE_PLATE = block(LlamamodModBlocks.CHERRY_LARGE_TILE_PRESSURE_PLATE);
 		CHERRY_LARGE_TILE_BUTTON = block(LlamamodModBlocks.CHERRY_LARGE_TILE_BUTTON);
-		SECURE_STORAGE_BLOCK = block(LlamamodModBlocks.SECURE_STORAGE_BLOCK);
+		SECURE_STORAGE_BLOCK = block(LlamamodModBlocks.SECURE_STORAGE_BLOCK, new Item.Properties().fireResistant());
 		TEAL_BRICKS = block(LlamamodModBlocks.TEAL_BRICKS);
 		TEAL_LARGE_TILE = block(LlamamodModBlocks.TEAL_LARGE_TILE);
 		TEAL_LARGE_TILE_STAIRS = block(LlamamodModBlocks.TEAL_LARGE_TILE_STAIRS);
