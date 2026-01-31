@@ -1,6 +1,7 @@
 {
   "homepage": "https://modrinth.com/mod/llamablocks/versions",
   "1.21.8" : {
+    "1.2.0.3": "1.2.0-beta3, see github changelog for more info",
     "1.2.0.2": "1.2.0-beta2, see github changelog for more info",
     "1.2.0.1": "1.2.0-beta1, see github changelog for more info",
     "1.1.4": "Farm Scrap recipe changes, Computer trimming extra spaces, computer message player box case-insensitive, and blocks have proper map colors.",
@@ -12,9 +13,9 @@
     "0.45": "first public version (only on github)."
   },
   "promos": {
-    "1.21.8-latest": "1.2.0.2",
+    "1.21.8-latest": "1.2.0.3",
     "1.21.8-recommended": "1.1.4",
-    "1.21.1-latest": "1.2.0.2",
-    "1.21.1-recommended": "1.2.0.2"
+    "1.21.1-latest": "1.2.0.3",
+    "1.21.1-recommended": "1.2.0.3"
   }
 }
