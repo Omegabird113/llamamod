@@ -18,7 +18,6 @@ import net.minecraft.client.Minecraft;
 
 import mc.omegabird.llamablocks.world.inventory.ComputerguiMenu;
 import mc.omegabird.llamablocks.procedures.*;
-import mc.omegabird.llamablocks.network.ComputerguiSliderMessage;
 import mc.omegabird.llamablocks.network.ComputerguiButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
 
@@ -336,8 +335,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			protected void applyValue() {
 				if (!menuStateUpdateActive)
 					menu.sendMenuStateUpdate(entity, 2, "minimumRand", this.getValue(), false);
-				ClientPacketDistributor.sendToServer(new ComputerguiSliderMessage(0, x, y, z, this.getValue()));
-				ComputerguiSliderMessage.handleSliderAction(entity, 0, x, y, z, this.getValue());
 			}
 		};
 		this.addRenderableWidget(minimumRand);
@@ -349,8 +346,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			protected void applyValue() {
 				if (!menuStateUpdateActive)
 					menu.sendMenuStateUpdate(entity, 2, "maximumRand", this.getValue(), false);
-				ClientPacketDistributor.sendToServer(new ComputerguiSliderMessage(1, x, y, z, this.getValue()));
-				ComputerguiSliderMessage.handleSliderAction(entity, 1, x, y, z, this.getValue());
 			}
 		};
 		this.addRenderableWidget(maximumRand);

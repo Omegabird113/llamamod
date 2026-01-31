@@ -339,9 +339,6 @@
           "step": 1.0,
           "prefix": "",
           "suffix": "",
-          "whenSliderMoves": {
-            "name": "GenRandomNumberProcedure"
-          },
           "width": 67,
           "height": 20,
           "x": 91,
@@ -359,9 +356,6 @@
           "step": 1.0,
           "prefix": "",
           "suffix": "",
-          "whenSliderMoves": {
-            "name": "GenRandomNumberProcedure"
-          },
           "width": 67,
           "height": 20,
           "x": 160,

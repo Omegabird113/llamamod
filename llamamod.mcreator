@@ -598,7 +598,6 @@
       "metadata": {
         "files": [
           "src/main/java/mc/omegabird/llamablocks/network/ComputerguiButtonMessage.java",
-          "src/main/java/mc/omegabird/llamablocks/network/ComputerguiSliderMessage.java",
           "src/main/java/mc/omegabird/llamablocks/world/inventory/ComputerguiMenu.java",
           "src/main/java/mc/omegabird/llamablocks/client/gui/ComputerguiScreen.java"
         ]
