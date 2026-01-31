@@ -3,7 +3,7 @@
   "_type": "potioneffect",
   "definition": {
     "effectName": "Acid Dissolving",
-    "icon": "acid_dissolving_icon",
+    "icon": "acid_dissolving",
     "color": {
       "value": -8932233,
       "falpha": 0.0
