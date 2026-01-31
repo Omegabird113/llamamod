@@ -1,7 +1,6 @@
 package mc.omegabird.llamablocks.block;
 
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.pathfinder.PathType;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
@@ -12,11 +11,9 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.Containers;
@@ -62,11 +59,6 @@ public class SecurestorageblockBlock extends Block implements EntityBlock {
 	@Override
 	public float getEnchantPowerBonus(BlockState state, LevelReader world, BlockPos pos) {
 		return 0.1f;
-	}
-
-	@Override
-	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return PathType.DANGER_OTHER;
 	}
 
 	@Override

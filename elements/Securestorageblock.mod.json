@@ -82,7 +82,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "DANGER_OTHER",
+    "aiPathNodeType": "DEFAULT",
     "strippingResult": {
       "value": ""
     },

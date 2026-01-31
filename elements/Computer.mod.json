@@ -91,7 +91,7 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "FENCE",
+    "aiPathNodeType": "DEFAULT",
     "strippingResult": {
       "value": ""
     },
