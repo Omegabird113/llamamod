@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:industrial_large_tile"
+    {
+      "item": "llamamod:industrial_large_tile"
+    }
   ],
   "result": {
     "id": "llamamod:industrial_large_tile_button",

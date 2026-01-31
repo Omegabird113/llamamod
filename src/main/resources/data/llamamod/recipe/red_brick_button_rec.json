@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:red_bricks"
+    {
+      "item": "llamamod:red_bricks"
+    }
   ],
   "result": {
     "id": "llamamod:red_brick_button",

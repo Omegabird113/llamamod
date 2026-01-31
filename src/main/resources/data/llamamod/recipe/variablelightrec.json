@@ -7,11 +7,21 @@
     "aea"
   ],
   "key": {
-    "a": "#c:stones",
-    "b": "#llamamod:torches",
-    "c": "minecraft:iron_ingot",
-    "d": "#llamamod:large_tiles",
-    "e": "minecraft:comparator"
+    "a": {
+      "tag": "c:stones"
+    },
+    "b": {
+      "tag": "llamamod:torches"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "tag": "llamamod:large_tiles"
+    },
+    "e": {
+      "item": "minecraft:comparator"
+    }
   },
   "result": {
     "id": "llamamod:variable_light",

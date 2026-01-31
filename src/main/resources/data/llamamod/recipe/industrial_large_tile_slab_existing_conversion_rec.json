@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_slabs",
-    "minecraft:iron_ingot",
-    "minecraft:copper_ingot"
+    {
+      "tag": "llamamod:large_tile_slabs"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
   ],
   "result": {
     "id": "llamamod:industrial_large_tile_slab",

@@ -11,8 +11,8 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class IndustrialbrickwallBlock extends WallBlock {
-	public IndustrialbrickwallBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().forceSolidOn());
+	public IndustrialbrickwallBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 
 	@Override

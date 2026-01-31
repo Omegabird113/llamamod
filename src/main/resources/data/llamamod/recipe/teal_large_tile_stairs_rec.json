@@ -6,7 +6,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:teal_large_tile"
+    "a": {
+      "item": "llamamod:teal_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:teal_large_tile_stairs",

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_walls",
-    "minecraft:orange_dye"
+    {
+      "tag": "llamamod:brick_walls"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
   ],
   "result": {
     "id": "llamamod:orange_large_tile_wall",

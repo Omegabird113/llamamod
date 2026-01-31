@@ -6,7 +6,9 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:green_bricks"
+    "a": {
+      "item": "llamamod:green_bricks"
+    }
   },
   "result": {
     "id": "llamamod:green_brick_wall",

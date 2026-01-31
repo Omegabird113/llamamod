@@ -5,7 +5,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:yellow_bricks"
+    "a": {
+      "item": "llamamod:yellow_bricks"
+    }
   },
   "result": {
     "id": "llamamod:yellow_brick_pressure_plate",

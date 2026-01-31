@@ -7,9 +7,15 @@
     " b "
   ],
   "key": {
-    "a": "minecraft:leather",
-    "b": "#minecraft:planks",
-    "c": "minecraft:string"
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "tag": "minecraft:planks"
+    },
+    "c": {
+      "item": "minecraft:string"
+    }
   },
   "result": {
     "id": "llamamod:backpack",

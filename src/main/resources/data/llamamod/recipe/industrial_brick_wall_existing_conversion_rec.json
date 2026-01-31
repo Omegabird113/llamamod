@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_walls",
-    "minecraft:iron_ingot",
-    "minecraft:copper_ingot"
+    {
+      "tag": "llamamod:brick_walls"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
   ],
   "result": {
     "id": "llamamod:industrial_brick_wall",

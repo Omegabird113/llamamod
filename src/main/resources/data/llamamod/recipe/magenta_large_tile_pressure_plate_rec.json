@@ -5,7 +5,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:magenta_large_tile"
+    "a": {
+      "item": "llamamod:magenta_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:magenta_large_tile_pressure_plate",

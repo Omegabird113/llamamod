@@ -1,6 +1,5 @@
 package mc.omegabird.llamablocks.procedures;
 
-import net.minecraft.world.level.storage.TagValueInput;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -9,7 +8,6 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.ProblemReporter;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.arguments.coordinates.BlockPosArgument;
@@ -26,7 +24,7 @@ public class ForceResetPasswordViaLlamamodCommandProcedureProcedure {
 		if (entity == null)
 			return;
 		BlockState oldBlock = Blocks.AIR.defaultBlockState();
-		if (entity instanceof Player _playerCmd1 && _playerCmd1.hasPermissions((int) (double) LlamamodserverconfigConfiguration.PASSWORD_CONTROL_PASSWORDS_PERMISSION_LEVEL.get())) {
+		if (entity.hasPermissions((int) (double) LlamamodserverconfigConfiguration.PASSWORD_CONTROL_PASSWORDS_PERMISSION_LEVEL.get())) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos(commandParameterBlockPos(arguments, "location").getX(), commandParameterBlockPos(arguments, "location").getY(), commandParameterBlockPos(arguments, "location").getZ());
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -61,7 +59,7 @@ public class ForceResetPasswordViaLlamamodCommandProcedureProcedure {
 					_be = world.getBlockEntity(_bp);
 					if (_be != null) {
 						try {
-							_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+							_be.loadWithComponents(_bnbt, world.registryAccess());
 						} catch (Exception ignored) {
 						}
 					}
@@ -92,7 +90,7 @@ public class ForceResetPasswordViaLlamamodCommandProcedureProcedure {
 					_be = world.getBlockEntity(_bp);
 					if (_be != null) {
 						try {
-							_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+							_be.loadWithComponents(_bnbt, world.registryAccess());
 						} catch (Exception ignored) {
 						}
 					}

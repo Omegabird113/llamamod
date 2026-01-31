@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_buttons",
-    "minecraft:purple_dye"
+    {
+      "tag": "llamamod:large_tile_buttons"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
   ],
   "result": {
     "id": "llamamod:purple_large_tile_button",

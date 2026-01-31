@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_slabs",
-    "minecraft:clay_ball"
+    {
+      "tag": "llamamod:large_tile_slabs"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
   ],
   "result": {
     "id": "minecraft:brick_slab",
