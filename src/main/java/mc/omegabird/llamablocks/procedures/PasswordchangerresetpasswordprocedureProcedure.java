@@ -13,8 +13,6 @@ import net.minecraft.util.ProblemReporter;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
-import mc.omegabird.llamablocks.LlamamodMod;
-
 public class PasswordchangerresetpasswordprocedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
@@ -60,8 +58,6 @@ public class PasswordchangerresetpasswordprocedureProcedure {
 				}
 			}
 		}
-		LlamamodMod.queueServerWork(1, () -> {
-		});
 		{
 			BlockPos _bp = BlockPos.containing(x, y + 1, z);
 			BlockState _bs = oldBlock;

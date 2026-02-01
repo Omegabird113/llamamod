@@ -21,7 +21,6 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
-import mc.omegabird.llamablocks.LlamamodMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -74,8 +73,6 @@ public class PasswordchangerchangepasswordprocedureProcedure {
 					}
 				}
 			}
-			LlamamodMod.queueServerWork(1, () -> {
-			});
 			{
 				BlockPos _bp = BlockPos.containing(x, y + 1, z);
 				BlockState _bs = oldBlock;

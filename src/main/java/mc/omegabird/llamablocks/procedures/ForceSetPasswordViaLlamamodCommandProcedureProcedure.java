@@ -16,7 +16,6 @@ import net.minecraft.commands.arguments.coordinates.BlockPosArgument;
 import net.minecraft.commands.CommandSourceStack;
 
 import mc.omegabird.llamablocks.configuration.LlamamodserverconfigConfiguration;
-import mc.omegabird.llamablocks.LlamamodMod;
 
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
 import com.mojang.brigadier.context.CommandContext;
@@ -68,8 +67,6 @@ public class ForceSetPasswordViaLlamamodCommandProcedureProcedure {
 					}
 				}
 			}
-			LlamamodMod.queueServerWork(1, () -> {
-			});
 			{
 				BlockPos _bp = new BlockPos(commandParameterBlockPos(arguments, "location").getX(), commandParameterBlockPos(arguments, "location").getY() + 1, commandParameterBlockPos(arguments, "location").getZ());
 				BlockState _bs = oldBlock;
