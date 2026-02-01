@@ -35,7 +35,7 @@ public class LmcmdCommand {
 			if (entity != null)
 				direction = entity.getDirection();
 
-			SendAboutInfoInChatProcedureProcedure.execute(entity);
+			SendAboutInfoInChatProcedureProcedure.execute(world, entity);
 			return 0;
 		})).then(Commands.literal("password").then(Commands.literal("get").then(Commands.argument("location", BlockPosArgument.blockPos()).executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();

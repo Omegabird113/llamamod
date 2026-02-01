@@ -1,5 +1,6 @@
 package mc.omegabird.llamablocks.procedures;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerLevel;
@@ -7,8 +8,10 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
+import mc.omegabird.llamablocks.LlamamodMod;
+
 public class SendAboutInfoInChatProcedureProcedure {
-	public static void execute(Entity entity) {
+	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player && !_player.level().isClientSide())
@@ -24,9 +27,11 @@ public class SendAboutInfoInChatProcedureProcedure {
 						"tellraw @s [\"Download it or see more info from: \",{\"text\":\"https://modrinth.com/mod/llamablocks\",\"underlined\":true,\"color\":\"green\",\"click_event\":{\"action\":\"open_url\",\"url\":\"https://modrinth.com/mod/llamablocks\"}},\".\"]");
 			}
 		}
-		if (IsThisBetaProcedureProcedure.execute() == true) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("WARNING: This is a BETA version of LlamaMod. Please report any issues or suggestions as Issues on GitHub. (https://github.com/Omegabird113/llamamod)"), false);
-		}
+		LlamamodMod.queueServerWork(1, () -> {
+			if (IsThisBetaProcedureProcedure.execute() == true) {
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal("WARNING: This is a BETA version of LlamaMod. Please report any issues or suggestions as Issues on GitHub. (https://github.com/Omegabird113/llamamod)"), false);
+			}
+		});
 	}
 }
