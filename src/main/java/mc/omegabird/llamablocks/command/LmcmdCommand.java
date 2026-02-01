@@ -51,7 +51,7 @@ public class LmcmdCommand {
 
 			GetpasswordcmdgetpasswordinchatprocedureProcedure.execute(world, arguments, entity);
 			return 0;
-		}))).then(Commands.literal("set").then(Commands.argument("location", BlockPosArgument.blockPos()).then(Commands.argument("password", StringArgumentType.word()).executes(arguments -> {
+		}))).then(Commands.literal("set").then(Commands.argument("location", BlockPosArgument.blockPos()).then(Commands.argument("password", StringArgumentType.string()).executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
