@@ -14,7 +14,7 @@ public class GettimeasstringProcedure {
 		twenty_four_hour_hour = (gametime / 1000 + 6) % 24;
 		minute = (twenty_four_hour_hour - Math.floor(twenty_four_hour_hour)) * 60;
 		percentage_througth_day_night = (((daytime / 24000) * 100) % 50) * 2;
-		return new java.text.DecimalFormat("#0").format(Math.floor(twenty_four_hour_hour)) + ":" + new java.text.DecimalFormat("00").format(Math.floor(minute)) + " (" + percentage_througth_day_night + "% through the "
+		return new java.text.DecimalFormat("#0").format(Math.floor(twenty_four_hour_hour)) + ":" + new java.text.DecimalFormat("00").format(Math.floor(minute)) + " (" + Math.floor(percentage_througth_day_night) + "% through the "
 				+ (daytime < 12000 ? "day" : "night") + ")";
 	}
 }
