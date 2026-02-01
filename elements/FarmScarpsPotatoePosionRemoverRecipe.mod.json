@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "Items.POISONOUS_POTATO"
+      },
+      {
+        "value": "CUSTOM:Farmscraps"
+      },
+      {
+        "value": "Items.MILK_BUCKET"
+      },
+      {
+        "value": "Items.HONEY_BOTTLE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "Items.POTATO"
+    },
+    "name": "farm_scarps_potatoe_posion_remover_recipe",
+    "namespace": "mod"
+  }
+}

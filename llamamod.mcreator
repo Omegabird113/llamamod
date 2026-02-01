@@ -18185,6 +18185,19 @@
         ]
       },
       "path": "~/Food and Farming/Golden Banana"
+    },
+    {
+      "name": "FarmScarpsPotatoePosionRemoverRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farm_scarps_potatoe_posion_remover_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/farm_scarps_potatoe_posion_remover_recipe.json"
+        ]
+      },
+      "path": "~/Recipes/Farm Scrap Recipes"
     }
   ],
   "variable_elements": [],

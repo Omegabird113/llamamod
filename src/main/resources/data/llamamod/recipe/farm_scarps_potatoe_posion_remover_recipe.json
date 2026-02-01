@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamamod:farm_scraps",
+    "llamamod:farm_scraps",
+    "minecraft:poisonous_potato",
+    "llamamod:farm_scraps",
+    "minecraft:milk_bucket",
+    "minecraft:honey_bottle"
+  ],
+  "result": {
+    "id": "minecraft:potato",
+    "count": 1
+  }
+}
