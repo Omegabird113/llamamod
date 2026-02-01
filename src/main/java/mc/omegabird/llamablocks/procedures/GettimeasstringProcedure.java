@@ -1,23 +1,20 @@
 package mc.omegabird.llamablocks.procedures;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.level.LevelAccessor;
 
 public class GettimeasstringProcedure {
 	public static String execute(LevelAccessor world) {
 		double twenty_four_hour_hour = 0;
 		double percentage_througth_day_night = 0;
-		twenty_four_hour_hour = ((world.dayTime() + 6000) % 24000) / 1000d;
-		percentage_througth_day_night = (((new Object() {
-			double convert(String s) {
-				try {
-					return Double.parseDouble(s.trim());
-				} catch (Exception e) {
-				}
-				return 0;
-			}
-		}.convert(world.dayTime() % 24000 + ".0") / 24000) * 100) % 50) * 2;
-		return Math.round(twenty_four_hour_hour) + " o'clock (" + Math.round(percentage_througth_day_night) + "% through the " + (twenty_four_hour_hour >= 6 && twenty_four_hour_hour <= 18 ? "day" : "night") + ")";
+		double gametime = 0;
+		double daytime = 0;
+		double minute = 0;
+		gametime = world.dayTime();
+		daytime = gametime % 24000;
+		twenty_four_hour_hour = (gametime / 1000 + 6) % 24;
+		minute = (twenty_four_hour_hour - Math.floor(twenty_four_hour_hour)) * 60;
+		percentage_througth_day_night = (((daytime / 24000) * 100) % 50) * 2;
+		return new java.text.DecimalFormat("#0").format(Math.floor(twenty_four_hour_hour)) + ":" + new java.text.DecimalFormat("00").format(Math.floor(minute)) + " (" + percentage_througth_day_night + "% through the "
+				+ (daytime < 12000 ? "day" : "night") + ")";
 	}
 }
