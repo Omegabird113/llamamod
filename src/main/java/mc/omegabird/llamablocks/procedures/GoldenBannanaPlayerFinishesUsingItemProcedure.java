@@ -11,5 +11,7 @@ public class GoldenBannanaPlayerFinishesUsingItemProcedure {
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 14, 0));
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+			_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 900, 0));
 	}
 }
