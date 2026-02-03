@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "netheritebackpack_texture",
+    "texture": "netherite_backpack",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
