@@ -46,9 +46,34 @@
               "value": "CUSTOM:Bannana"
             },
             "countOffer": 3,
-            "level": 1,
+            "level": 2,
             "maxTrades": 12,
             "xp": 3,
+            "priceMultiplier": 0.05
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "FARMER"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.EMERALD"
+            },
+            "countPrice1": 1,
+            "price2": {
+              "value": "CUSTOM:Bannana"
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Farmscraps"
+            },
+            "countOffer": 18,
+            "level": 1,
+            "maxTrades": 8,
+            "xp": 1,
             "priceMultiplier": 0.05
           }
         ]

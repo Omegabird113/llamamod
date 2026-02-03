@@ -25,5 +25,8 @@ public class LlamamodModTrades {
 		if (event.getType() == VillagerProfession.FARMER) {
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2), new ItemStack(LlamamodModItems.BANANA.get(), 3), 15, 3, 0.05f));
 		}
+		if (event.getType() == VillagerProfession.FARMER) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD), new ItemStack(LlamamodModItems.BANANA.get()), new ItemStack(LlamamodModItems.FARM_SCRAPS.get(), 18), 8, 1, 0.05f));
+		}
 	}
 }
