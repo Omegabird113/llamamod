@@ -7,7 +7,7 @@
     "textureLeft": "variable_light_block_sides",
     "textureFront": "variable_light_front_off",
     "textureRight": "variable_light_block_sides",
-    "textureBack": "variable_light_block_sides",
+    "textureBack": "variable_light_back",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 2,
