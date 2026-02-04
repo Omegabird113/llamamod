@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:brown_large_tile"
+    {
+      "item": "llamamod:brown_large_tile"
+    }
   ],
   "result": {
     "id": "llamamod:brown_large_tile_button",

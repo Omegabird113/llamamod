@@ -21,8 +21,6 @@ import mc.omegabird.llamablocks.item.inventory.BackpackInventoryCapability;
 import mc.omegabird.llamablocks.item.*;
 import mc.omegabird.llamablocks.LlamamodMod;
 
-import java.util.function.Function;
-
 @EventBusSubscriber
 public class LlamamodModItems {
 	public static final DeferredRegister.Items REGISTRY = DeferredRegister.createItems(LlamamodMod.MODID);
@@ -400,10 +398,10 @@ public class LlamamodModItems {
 	public static final DeferredItem<Item> GOLDEN_BANANA;
 	static {
 		BANANA_PLANT = block(LlamamodModBlocks.BANANA_PLANT);
-		BANANA = register("banana", BannanaItem::new);
-		BACKPACK = register("backpack", BackpackItem::new);
-		NETHERITE_BACKPACK = register("netherite_backpack", NetheritebackpackItem::new);
-		ACID_BUCKET = register("acid_bucket", AcidItem::new);
+		BANANA = REGISTRY.register("banana", BannanaItem::new);
+		BACKPACK = REGISTRY.register("backpack", BackpackItem::new);
+		NETHERITE_BACKPACK = REGISTRY.register("netherite_backpack", NetheritebackpackItem::new);
+		ACID_BUCKET = REGISTRY.register("acid_bucket", AcidItem::new);
 		RED_BRICKS = block(LlamamodModBlocks.RED_BRICKS);
 		ORANGE_BRICKS = block(LlamamodModBlocks.ORANGE_BRICKS);
 		YELLOW_BRICKS = block(LlamamodModBlocks.YELLOW_BRICKS);
@@ -417,10 +415,10 @@ public class LlamamodModItems {
 		INDUSTRIAL_BRICKS = block(LlamamodModBlocks.INDUSTRIAL_BRICKS);
 		COMPUTER = block(LlamamodModBlocks.COMPUTER);
 		TILES = block(LlamamodModBlocks.TILES);
-		FARM_SCRAPS = register("farm_scraps", FarmscrapsItem::new);
+		FARM_SCRAPS = REGISTRY.register("farm_scraps", FarmscrapsItem::new);
 		CEILING_TILES = block(LlamamodModBlocks.CEILING_TILES);
 		AUTHENTICATOR = block(LlamamodModBlocks.AUTHENTICATOR);
-		PASSWORD_CHANGER = register("password_changer", PasswordchangerItem::new);
+		PASSWORD_CHANGER = REGISTRY.register("password_changer", PasswordchangerItem::new);
 		RED_BRICK_SLAB = block(LlamamodModBlocks.RED_BRICK_SLAB);
 		RED_BRICK_STAIRS = block(LlamamodModBlocks.RED_BRICK_STAIRS);
 		ORANGE_BRICK_SLAB = block(LlamamodModBlocks.ORANGE_BRICK_SLAB);
@@ -770,13 +768,16 @@ public class LlamamodModItems {
 		TEAL_BRICK_TRAPDOOR = block(LlamamodModBlocks.TEAL_BRICK_TRAPDOOR);
 		TEAL_BRICK_PRESSURE_PLATE = block(LlamamodModBlocks.TEAL_BRICK_PRESSURE_PLATE);
 		TEAL_BRICK_BUTTON = block(LlamamodModBlocks.TEAL_BRICK_BUTTON);
-		GOLDEN_BANANA = register("golden_banana", GoldenBannanaItem::new);
+		GOLDEN_BANANA = REGISTRY.register("golden_banana", GoldenBannanaItem::new);
 	}
 
 	// Start of user code block custom items
 	// End of user code block custom items
-	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
-		return REGISTRY.registerItem(name, supplier, new Item.Properties());
+	@SubscribeEvent
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new BackpackInventoryCapability(stack), BACKPACK.get());
+		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new NetheritebackpackInventoryCapability(stack), NETHERITE_BACKPACK.get());
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), ACID_BUCKET.get());
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
@@ -784,13 +785,6 @@ public class LlamamodModItems {
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
-	}
-
-	@SubscribeEvent
-	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new BackpackInventoryCapability(stack), BACKPACK.get());
-		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new NetheritebackpackInventoryCapability(stack), NETHERITE_BACKPACK.get());
-		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), ACID_BUCKET.get());
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
 	}
 }

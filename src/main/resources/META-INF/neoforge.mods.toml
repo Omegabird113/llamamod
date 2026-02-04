@@ -23,14 +23,14 @@ description="LlamaBlocks is a mod I've been working on, on and off, since the su
 [[dependencies.llamamod]]
     modId="neoforge"
     type="required"
-    versionRange="[21.8.31,)"
+    versionRange="[21.1.190,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.llamamod]]
     modId="minecraft"
     type="required"
-    versionRange="[1.21.8]"
+    versionRange="[1.21.1]"
     ordering="AFTER"
     side="BOTH"
 

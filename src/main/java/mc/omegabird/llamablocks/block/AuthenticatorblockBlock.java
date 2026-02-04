@@ -2,7 +2,7 @@ package mc.omegabird.llamablocks.block;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -27,16 +27,16 @@ import mc.omegabird.llamablocks.procedures.AuthblockupdateprocedureProcedure;
 import mc.omegabird.llamablocks.block.entity.AuthenticatorblockBlockEntity;
 
 public class AuthenticatorblockBlock extends Block implements EntityBlock {
-	public static final EnumProperty<Direction> FACING = DirectionalBlock.FACING;
+	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 	public static final BooleanProperty POWERED = BlockStateProperties.POWERED;
 
-	public AuthenticatorblockBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(29f, 50f));
+	public AuthenticatorblockBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(29f, 50f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(POWERED, false));
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
 	}
 

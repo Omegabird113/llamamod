@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:purple_bricks"
+    {
+      "item": "llamamod:purple_bricks"
+    }
   ],
   "result": {
     "id": "llamamod:purple_brick_button",

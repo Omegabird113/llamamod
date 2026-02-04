@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class OrangebrickfencegatepreasureplateBlock extends PressurePlateBlock {
-	public OrangebrickfencegatepreasureplateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, properties.mapColor(MapColor.COLOR_ORANGE).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
+	public OrangebrickfencegatepreasureplateBlock() {
+		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_ORANGE).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
 	}
 }

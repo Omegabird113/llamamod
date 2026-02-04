@@ -5,7 +5,9 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:red_bricks"
+    "a": {
+      "item": "llamamod:red_bricks"
+    }
   },
   "result": {
     "id": "llamamod:red_brick_slab",

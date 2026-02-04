@@ -7,11 +7,21 @@
     "aea"
   ],
   "key": {
-    "a": "#llamamod:large_tiles",
-    "b": "minecraft:lever",
-    "c": "minecraft:redstone",
-    "d": "llamamod:password_changer",
-    "e": "minecraft:iron_ingot"
+    "a": {
+      "tag": "llamamod:large_tiles"
+    },
+    "b": {
+      "item": "minecraft:lever"
+    },
+    "c": {
+      "item": "minecraft:redstone"
+    },
+    "d": {
+      "item": "llamamod:password_changer"
+    },
+    "e": {
+      "item": "minecraft:iron_ingot"
+    }
   },
   "result": {
     "id": "llamamod:authenticator",

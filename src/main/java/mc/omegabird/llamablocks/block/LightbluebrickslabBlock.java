@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SlabBlock;
 
 public class LightbluebrickslabBlock extends SlabBlock {
-	public LightbluebrickslabBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_LIGHT_BLUE).sound(SoundType.METAL).strength(2f, 6f));
+	public LightbluebrickslabBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_BLUE).sound(SoundType.METAL).strength(2f, 6f));
 	}
 }

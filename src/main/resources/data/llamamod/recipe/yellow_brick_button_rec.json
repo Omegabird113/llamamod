@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:yellow_bricks"
+    {
+      "item": "llamamod:yellow_bricks"
+    }
   ],
   "result": {
     "id": "llamamod:yellow_brick_button",

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_walls",
-    "minecraft:white_dye"
+    {
+      "tag": "llamamod:brick_walls"
+    },
+    {
+      "item": "minecraft:white_dye"
+    }
   ],
   "result": {
     "id": "llamamod:white_brick_wall",

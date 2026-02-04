@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class BlueLargeTilePressurePlateBlock extends PressurePlateBlock {
-	public BlueLargeTilePressurePlateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, properties.mapColor(MapColor.COLOR_BLUE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
+	public BlueLargeTilePressurePlateBlock() {
+		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_buttons",
-    "minecraft:red_dye"
+    {
+      "tag": "llamamod:large_tile_buttons"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
   ],
   "result": {
     "id": "llamamod:red_large_tile_button",

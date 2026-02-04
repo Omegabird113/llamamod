@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FenceGateBlock;
 
 public class LightGrayLargeTileFenceGateBlock extends FenceGateBlock {
-	public LightGrayLargeTileFenceGateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.mapColor(MapColor.COLOR_LIGHT_GRAY).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
+	public LightGrayLargeTileFenceGateBlock() {
+		super(WoodType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GRAY).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

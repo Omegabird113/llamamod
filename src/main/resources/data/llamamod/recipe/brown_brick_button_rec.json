@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:brown_bricks"
+    {
+      "item": "llamamod:brown_bricks"
+    }
   ],
   "result": {
     "id": "llamamod:brown_brick_button",

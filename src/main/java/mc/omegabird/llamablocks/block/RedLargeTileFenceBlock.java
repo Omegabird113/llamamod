@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FenceBlock;
 
 public class RedLargeTileFenceBlock extends FenceBlock {
-	public RedLargeTileFenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_RED).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
+	public RedLargeTileFenceBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

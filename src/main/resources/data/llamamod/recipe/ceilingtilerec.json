@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:tiles",
-    "minecraft:clay_ball"
+    {
+      "item": "llamamod:tiles"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
   ],
   "result": {
     "id": "llamamod:ceiling_tiles",

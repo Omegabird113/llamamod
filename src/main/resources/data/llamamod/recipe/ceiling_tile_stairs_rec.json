@@ -6,7 +6,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:ceiling_tiles"
+    "a": {
+      "item": "llamamod:ceiling_tiles"
+    }
   },
   "result": {
     "id": "llamamod:ceiling_tile_stairs",

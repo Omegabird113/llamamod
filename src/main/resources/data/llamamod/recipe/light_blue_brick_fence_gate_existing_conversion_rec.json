@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_fence_gates",
-    "minecraft:light_blue_dye"
+    {
+      "tag": "llamamod:brick_fence_gates"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:light_blue_brick_fence_gate",

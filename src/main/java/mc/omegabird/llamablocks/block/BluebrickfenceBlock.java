@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FenceBlock;
 
 public class BluebrickfenceBlock extends FenceBlock {
-	public BluebrickfenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_BLUE).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
+	public BluebrickfenceBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
 	}
 }

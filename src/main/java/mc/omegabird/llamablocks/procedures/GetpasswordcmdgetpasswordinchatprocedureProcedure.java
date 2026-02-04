@@ -18,7 +18,7 @@ public class GetpasswordcmdgetpasswordinchatprocedureProcedure {
 	public static void execute(LevelAccessor world, CommandContext<CommandSourceStack> arguments, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerCmd1 && _playerCmd1.hasPermissions((int) (double) LlamamodserverconfigConfiguration.ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL.get())) {
+		if (entity.hasPermissions((int) (double) LlamamodserverconfigConfiguration.ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL.get())) {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal((getBlockNBTString(world,
 						new BlockPos(commandParameterBlockPos(arguments, "location").getX(), commandParameterBlockPos(arguments, "location").getY(), commandParameterBlockPos(arguments, "location").getZ()), "access_password"))), false);
@@ -40,7 +40,7 @@ public class GetpasswordcmdgetpasswordinchatprocedureProcedure {
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		if (blockEntity != null)
-			return blockEntity.getPersistentData().getStringOr(tag, "");
+			return blockEntity.getPersistentData().getString(tag);
 		return "";
 	}
 }
