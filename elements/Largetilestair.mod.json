@@ -2,10 +2,10 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "large_tile",
-    "textureTop": "large_tile",
+    "texture": "white_large_tile",
+    "textureTop": "white_large_tile",
     "textureLeft": "large_tile",
-    "textureFront": "large_tile",
+    "textureFront": "white_large_tile",
     "textureRight": "large_tile",
     "textureBack": "large_tile",
     "renderType": 11,

@@ -1,13 +1,8 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "llamamod:block/large_tile",
-    "up": "llamamod:block/large_tile",
-    "north": "llamamod:block/large_tile",
-    "east": "llamamod:block/large_tile",
-    "south": "llamamod:block/large_tile",
-    "west": "llamamod:block/large_tile",
-    "particle": "llamamod:block/large_tile"
+    "all": "llamamod:block/white_large_tile",
+    "particle": "llamamod:block/white_large_tile"
   },
   "render_type": "solid"
 }
