@@ -40,7 +40,7 @@ All of these items are related together.
 #### The Banana
 The banana is a somewhat bad food item in terms of nutrition, but you can eat them very fast. Here are their exact properties:
 - A nutritional value of `2` *(it heals `1` hunger bar)*
-- A saturation of `4.1` *(not very good)*
+- A saturation of `3.65` *(not very good)*
 - It can be eaten in `12 ticks` *(You can eat them in `0.6 seconds` instead of the typical `1.6 seconds` for food)*
 - It can be composted with a `32.5%` success rate
 - It can fuel a furnace for `100 ticks` *(`5 seconds`)*
@@ -48,8 +48,8 @@ The banana is a somewhat bad food item in terms of nutrition, but you can eat th
 #### The Golden Banana
 A Golden Banana is a variant of the banana which is much better, but a bit slower and somewhat expensive:
 - A nutritional value of `5` *(it heals `2.5` hunger bar)*
-- A saturation of `12.2`
-- It can be eaten in `19 ticks` *(You can eat them in `0.95 seconds` instead of the typical `1.6 seconds` for food)*
+- A saturation of `7.1`
+- It can be eaten in `1 second` *(`20 ticks`)*
 - It can't be composted or used as furnace fuel
 - It can be crafted with a Banana suronded by Gold Ingots
 
@@ -74,6 +74,8 @@ Farm scraps are non-plantable items which can be used for the following:
 - Placing 4 of them, plus one of the following items in a crafting table makes 2 of that item:
   - Wheat seeds, carrots, beetroot seeds, melon seeds, potatoes, sugar cane, and bamboo
 - Placing 8 of them and a banana plant in a crafting table makes another banana plant
+- Placing 6 of them plus a sapling creates 2 of those saplings
+- You can add 3 Farm Scraps, a Milk Bucket, and a Honey Bottle to the Posionous Potato in a crafting grid to make a reguluar potato
 - They can be composted at a `17.5%` success rate
 - `3` of them can be crafted into `1` brown dye
 
@@ -168,7 +170,7 @@ This table explains the entries in the `llamamod_server.toml` file in the `confi
 | `generate_acid_lakes`                         | `logic`  | `true`        | This enables or disables the generation of the `acid_lake` feature                                                                                              |
 | `generate_banana_patches`                     | `logic`  | `true`        | This enables or disables the generation of the `banana_patch` feature                                                                                           |
 | `password_viewing_permission_level`           | `number` | `3`           | This controls the permission level required for people to be able to see the existing password in the Password Changer GUI and /llamablocks password get        |
-| `password_control_passwords_permission_level` | `number` | `3`           | This controls the permission level required for people to be able to use /llamamod password set and reset, alongside the Password Changer Password Reset button |
+| `password_control_permission_level` | `number` | `3`           | This controls the permission level required for people to be able to use /llamamod password set and reset, alongside the Password Changer Password Reset button |
 | `player_management_permission_level`          | `number` | `3`           | This controls the permission level required for players to be able to clear inventories of or kill other players from the Computer GUI                          |
 | `give_players_all_recipes`                    | `logic`  | `true`        | When enabled, this runs the command `/recipe give @a *` when a player joins the server or world                                                                 |
 | `allow_features_to_delete_items`              | `logic`  | `true`        | This controls whether the `Clear` button in the Secure Storage Block and the `Delete Items` in the Netherite Backpack work                                      |
@@ -185,8 +187,13 @@ LlamaBlocks is avalible on the following mod hosting websites:
 Here's some information about the development of LlamaBlocks.
 
 ### Current Requirements to Run LlamaBlocks in Minecraft:
+#### 1.21.8 version:
 - [Minecraft](https://minecraft.net) version 1.21.8
 - [NeoForge](https://neoforged.net/) version [21.8.31](https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.31/neoforge-21.8.31-installer.jar) or higher
+
+#### 1.21.1 version:
+- [Minecraft](https://minecraft.net) version 1.21.1
+- [NeoForge](https://neoforged.net/) version [21.1.190](https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.190/neoforge-21.1.190-installer.jar) or higher
 
 ### Current Requirements to Open the Workspace in MCreator:
 - [MCreator](https://mcreator.net) version [2025.3](https://mcreator.net/download/2025-3)
