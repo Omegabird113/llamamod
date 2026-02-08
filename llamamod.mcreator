@@ -18281,6 +18281,38 @@
         ]
       },
       "path": "~/Commands/llamammod command"
+    },
+    {
+      "name": "ReturnIfBlockDoesNotSupportsPasswordSystem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_if_block_does_not_supports_password_system",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ReturnIfBlockDoesNotSupportsPasswordSystemProcedure.java"
+        ]
+      },
+      "path": "~/Items/Password Changer"
     }
   ],
   "variable_elements": [],
@@ -19612,6 +19644,11 @@
       "Blocks.CONCRETE#13",
       "Blocks.CONCRETE#14",
       "Blocks.CONCRETE#15"
+    ],
+    "BLOCKS:mod:supports_password_system": [
+      "CUSTOM:Authenticatorblock",
+      "CUSTOM:Securestorageblock",
+      "CUSTOM:Computer"
     ]
   },
   "tab_element_order": {
@@ -20490,7 +20527,9 @@
       "block.llamamod.banner.llamablocks_banner_pattern.magenta": "Magenta LlamaBlocks",
       "block.llamamod.banner.llamablocks_banner_pattern.yellow": "Yellow LlamaBlocks",
       "block.llamamod.banner.llamablocks_banner_pattern.orange": "Orange LlamaBlocks",
-      "block.llamamod.banner.llamablocks_banner_pattern.red": "Red LlamaBlocks"
+      "block.llamamod.banner.llamablocks_banner_pattern.red": "Red LlamaBlocks",
+      "gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw": "This lock doesn\u0027t",
+      "gui.llamamod.passwordchangergui.label_a_password": "support passwords."
     }
   },
   "metadata": {

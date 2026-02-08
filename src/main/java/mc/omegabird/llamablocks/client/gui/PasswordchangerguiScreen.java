@@ -15,6 +15,7 @@ import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.Minecraft;
 
 import mc.omegabird.llamablocks.world.inventory.PasswordchangerguiMenu;
+import mc.omegabird.llamablocks.procedures.ReturnIfBlockDoesNotSupportsPasswordSystemProcedure;
 import mc.omegabird.llamablocks.procedures.PasswordbananaprivlidgeescheckProcedure;
 import mc.omegabird.llamablocks.procedures.PasswordbananaRightclickedOnBlockProcedure;
 import mc.omegabird.llamablocks.procedures.PasswordResetPasswordChangerGUIPermissionProcedureProcedure;
@@ -76,7 +77,10 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/warning.png"), this.leftPos + 0, this.topPos + -16, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/warning.png"), this.leftPos + 1, this.topPos + -16, 0, 0, 16, 16, 16, 16);
+		if (ReturnIfBlockDoesNotSupportsPasswordSystemProcedure.execute(world, x, y, z)) {
+			guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/error.png"), this.leftPos + 0, this.topPos + -37, 0, 0, 16, 16, 16, 16);
+		}
 	}
 
 	@Override
@@ -110,11 +114,15 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_change_password"), 1, 107, -1, false);
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
-			guiGraphics.drawString(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 1, 116, -65536, false);
+			guiGraphics.drawString(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 1, 116, -16711936, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 16, -17, -256, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 16, -9, -256, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 107, -31, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 103, 4, -65536, false);
+		if (ReturnIfBlockDoesNotSupportsPasswordSystemProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw"), 16, -37, -65536, false);
+		if (ReturnIfBlockDoesNotSupportsPasswordSystemProcedure.execute(world, x, y, z))
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_a_password"), 16, -30, -65536, false);
 	}
 
 	@Override
