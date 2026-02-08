@@ -18213,6 +18213,36 @@
         "files": []
       },
       "path": "~/Recipes and Trades"
+    },
+    {
+      "name": "ReturnMinecraftVersionProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_minecraft_version_procedure",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ReturnMinecraftVersionProcedureProcedure.java"
+        ]
+      },
+      "path": "~/ABOUT"
+    },
+    {
+      "name": "ReturnLlamaModVersionProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_llama_mod_version_procedure",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ReturnLlamaModVersionProcedureProcedure.java"
+        ]
+      },
+      "path": "~/ABOUT"
     }
   ],
   "variable_elements": [],
