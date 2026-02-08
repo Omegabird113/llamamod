@@ -18243,6 +18243,44 @@
         ]
       },
       "path": "~/ABOUT"
+    },
+    {
+      "name": "SendLlamaBlocksVersionInChatProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "send_llama_blocks_version_in_chat_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/SendLlamaBlocksVersionInChatProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Commands/llamammod command"
+    },
+    {
+      "name": "SendMinecraftVersionInChatProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "send_minecraft_version_in_chat_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/SendMinecraftVersionInChatProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Commands/llamammod command"
     }
   ],
   "variable_elements": [],

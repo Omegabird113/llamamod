@@ -37,7 +37,35 @@ public class LmcmdCommand {
 
 			SendAboutInfoInChatProcedureProcedure.execute(world, entity);
 			return 0;
-		})).then(Commands.literal("password").then(Commands.literal("get").then(Commands.argument("location", BlockPosArgument.blockPos()).executes(arguments -> {
+		}).then(Commands.literal("version").executes(arguments -> {
+			Level world = arguments.getSource().getUnsidedLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null && world instanceof ServerLevel _servLevel)
+				entity = FakePlayerFactory.getMinecraft(_servLevel);
+			Direction direction = Direction.DOWN;
+			if (entity != null)
+				direction = entity.getDirection();
+
+			SendLlamaBlocksVersionInChatProcedureProcedure.execute(entity);
+			return 0;
+		})).then(Commands.literal("mcversion").executes(arguments -> {
+			Level world = arguments.getSource().getUnsidedLevel();
+			double x = arguments.getSource().getPosition().x();
+			double y = arguments.getSource().getPosition().y();
+			double z = arguments.getSource().getPosition().z();
+			Entity entity = arguments.getSource().getEntity();
+			if (entity == null && world instanceof ServerLevel _servLevel)
+				entity = FakePlayerFactory.getMinecraft(_servLevel);
+			Direction direction = Direction.DOWN;
+			if (entity != null)
+				direction = entity.getDirection();
+
+			SendMinecraftVersionInChatProcedureProcedure.execute(entity);
+			return 0;
+		}))).then(Commands.literal("password").then(Commands.literal("get").then(Commands.argument("location", BlockPosArgument.blockPos()).executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();
