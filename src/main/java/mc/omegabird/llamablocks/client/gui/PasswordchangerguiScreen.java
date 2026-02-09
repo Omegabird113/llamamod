@@ -79,7 +79,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/warning.png"), this.leftPos + 1, this.topPos + -16, 0, 0, 16, 16, 16, 16);
 		if (ReturnIfBlockDoesNotSupportsPasswordSystemProcedure.execute(world, x, y, z)) {
-			guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/error.png"), this.leftPos + 0, this.topPos + -37, 0, 0, 16, 16, 16, 16);
+			guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/error.png"), this.leftPos + 1, this.topPos + -37, 0, 0, 16, 16, 16, 16);
 		}
 	}
 
