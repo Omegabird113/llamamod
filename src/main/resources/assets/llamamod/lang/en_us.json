@@ -499,5 +499,6 @@
   "block.llamamod.banner.llamablocks_banner_pattern.red": "Red LlamaBlocks",
   "gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw": "This lock doesn\u0027t",
   "gui.llamamod.passwordchangergui.label_a_password": "support passwords.",
-  "item.llamamod.golden_banana_upgrade_template": "Golden Banana Upgrade Template"
+  "item.llamamod.golden_banana_upgrade_template": "Golden Banana Upgrade Template",
+  "llamamod.configuration.enable_golden_banana_effects": "Enable Golden Banana Effects"
 }
