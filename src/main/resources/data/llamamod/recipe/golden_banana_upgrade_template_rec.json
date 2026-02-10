@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": "minecraft:gold_ingot",
+    "b": "minecraft:clay_ball",
+    "c": "minecraft:book",
+    "d": "minecraft:diamond",
+    "e": "llamamod:farm_scraps"
+  },
+  "result": {
+    "id": "llamamod:golden_banana_upgrade_template",
+    "count": 1
+  }
+}

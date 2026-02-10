@@ -398,6 +398,7 @@ public class LlamamodModItems {
 	public static final DeferredItem<Item> TEAL_BRICK_PRESSURE_PLATE;
 	public static final DeferredItem<Item> TEAL_BRICK_BUTTON;
 	public static final DeferredItem<Item> GOLDEN_BANANA;
+	public static final DeferredItem<Item> GOLDEN_BANANA_UPGRADE_TEMPLATE;
 	static {
 		BANANA_PLANT = block(LlamamodModBlocks.BANANA_PLANT);
 		BANANA = register("banana", BannanaItem::new);
@@ -771,6 +772,7 @@ public class LlamamodModItems {
 		TEAL_BRICK_PRESSURE_PLATE = block(LlamamodModBlocks.TEAL_BRICK_PRESSURE_PLATE);
 		TEAL_BRICK_BUTTON = block(LlamamodModBlocks.TEAL_BRICK_BUTTON);
 		GOLDEN_BANANA = register("golden_banana", GoldenBannanaItem::new);
+		GOLDEN_BANANA_UPGRADE_TEMPLATE = register("golden_banana_upgrade_template", GoldenBananaUpgradeTemplateItem::new);
 	}
 
 	// Start of user code block custom items

@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [],
@@ -11,36 +11,16 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "recipeSlots": [
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "CUSTOM:Bannana"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      }
-    ],
-    "recipeReturnStack": {
+    "smithingInputStack": {
+      "value": "CUSTOM:Bannana"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "smithingInputTemplateStack": {
+      "value": "CUSTOM:GoldenBananaUpgradeTemplate"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:GoldenBannana"
     },
     "name": "golden_banana_rec",

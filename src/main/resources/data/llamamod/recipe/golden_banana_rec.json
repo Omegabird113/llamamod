@@ -1,17 +1,9 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "misc",
-  "pattern": [
-    "aaa",
-    "aba",
-    "aaa"
-  ],
-  "key": {
-    "a": "minecraft:gold_ingot",
-    "b": "llamamod:banana"
-  },
+  "type": "minecraft:smithing_transform",
+  "template": "llamamod:golden_banana_upgrade_template",
+  "base": "llamamod:banana",
+  "addition": "minecraft:gold_block",
   "result": {
-    "id": "llamamod:golden_banana",
-    "count": 1
+    "id": "llamamod:golden_banana"
   }
 }

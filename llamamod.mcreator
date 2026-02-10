@@ -18112,19 +18112,6 @@
       "path": "~/Food and Farming/Golden Banana"
     },
     {
-      "name": "GoldenBananaRec",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "golden_banana_rec",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/llamamod/recipe/golden_banana_rec.json"
-        ]
-      },
-      "path": "~/Recipes and Trades"
-    },
-    {
       "name": "IsThisBetaProcedure",
       "type": "procedure",
       "compiles": true,
@@ -18313,6 +18300,60 @@
         ]
       },
       "path": "~/Items/Password Changer"
+    },
+    {
+      "name": "GoldenBananaUpgradeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_banana_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/item/GoldenBananaUpgradeTemplateItem.java",
+          "src/main/resources/assets/llamamod/items/golden_banana_upgrade_template.json",
+          "src/main/resources/assets/llamamod/models/item/golden_banana_upgrade_template.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "GoldenBananaUpgradeTemplateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_banana_upgrade_template_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/golden_banana_upgrade_template_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades"
+    },
+    {
+      "name": "GoldenBananaRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_banana_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/golden_banana_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades"
+    },
+    {
+      "name": "GoldenBananaUpgradeTemplateDuplicationRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_banana_upgrade_template_duplication_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/golden_banana_upgrade_template_duplication_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades"
     }
   ],
   "variable_elements": [],
@@ -20024,7 +20065,8 @@
       "GoldenBannana",
       "Bannanaplant",
       "Farmscraps",
-      "Acid"
+      "Acid",
+      "GoldenBananaUpgradeTemplate"
     ],
     "OP_BLOCKS": []
   },
@@ -20529,7 +20571,8 @@
       "block.llamamod.banner.llamablocks_banner_pattern.orange": "Orange LlamaBlocks",
       "block.llamamod.banner.llamablocks_banner_pattern.red": "Red LlamaBlocks",
       "gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw": "This lock doesn\u0027t",
-      "gui.llamamod.passwordchangergui.label_a_password": "support passwords."
+      "gui.llamamod.passwordchangergui.label_a_password": "support passwords.",
+      "item.llamamod.golden_banana_upgrade_template": "Golden Banana Upgrade Template"
     }
   },
   "metadata": {
