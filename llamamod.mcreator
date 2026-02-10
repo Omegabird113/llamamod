@@ -79,8 +79,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Procedures"
+      }
     },
     {
       "name": "Backpackrec",
@@ -501,25 +500,6 @@
       "path": "~/Blocks/Computer"
     },
     {
-      "name": "InformSuccessProcidure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "inform_success_procidure",
-      "metadata": {
-        "files": [
-          "src/main/java/mc/omegabird/llamablocks/procedures/InformSuccessProcidureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Procedures"
-    },
-    {
       "name": "Tiles",
       "type": "block",
       "compiles": true,
@@ -661,7 +641,7 @@
           }
         ]
       },
-      "path": "~/Procedures"
+      "path": "~/Commands/llamammod command"
     },
     {
       "name": "Savemeassage",
@@ -20867,10 +20847,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Procedures",
-        "children": []
       },
       {
         "name": "Items",
