@@ -97,7 +97,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 24, 17) {
@@ -107,7 +107,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 42, 17) {
@@ -117,7 +117,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 60, 17) {
@@ -127,7 +127,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 78, 17) {
@@ -137,7 +137,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 96, 17) {
@@ -147,7 +147,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 114, 17) {
@@ -157,7 +157,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 132, 17) {
@@ -167,7 +167,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 150, 17) {
@@ -177,7 +177,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 6, 35) {
@@ -187,7 +187,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 24, 35) {
@@ -197,7 +197,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 42, 35) {
@@ -207,7 +207,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 60, 35) {
@@ -217,7 +217,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 78, 35) {
@@ -227,7 +227,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 96, 35) {
@@ -237,7 +237,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 114, 35) {
@@ -247,7 +247,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 132, 35) {
@@ -257,7 +257,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 150, 35) {
@@ -267,7 +267,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 6, 53) {
@@ -277,7 +277,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 24, 53) {
@@ -287,7 +287,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 42, 53) {
@@ -297,7 +297,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 60, 53) {
@@ -307,7 +307,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 78, 53) {
@@ -317,7 +317,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 96, 53) {
@@ -327,7 +327,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 114, 53) {
@@ -337,7 +337,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 132, 53) {
@@ -347,7 +347,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 150, 53) {
@@ -357,7 +357,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 6, 71) {
@@ -367,7 +367,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 24, 71) {
@@ -377,7 +377,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 42, 71) {
@@ -387,7 +387,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(30, this.addSlot(new SlotItemHandler(internal, 30, 60, 71) {
@@ -397,7 +397,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(31, this.addSlot(new SlotItemHandler(internal, 31, 78, 71) {
@@ -407,7 +407,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 96, 71) {
@@ -417,7 +417,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 114, 71) {
@@ -427,7 +427,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(34, this.addSlot(new SlotItemHandler(internal, 34, 132, 71) {
@@ -437,7 +437,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(35, this.addSlot(new SlotItemHandler(internal, 35, 150, 71) {
@@ -447,7 +447,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		for (int si = 0; si < 3; ++si)

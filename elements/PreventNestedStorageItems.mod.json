@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "preventNestedStorageItems",
+    "description": "This controls whether LlamaBlocks stops Shulker Boxes, Bundles, Backpacks, etc, from being placed in the Secure Storage Block and backpacks.",
+    "category": "MISC",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

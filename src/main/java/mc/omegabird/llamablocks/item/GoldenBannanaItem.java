@@ -17,7 +17,7 @@ public class GoldenBannanaItem extends Item {
 	@Override
 	public ItemStack finishUsingItem(ItemStack itemstack, Level world, LivingEntity entity) {
 		ItemStack retval = super.finishUsingItem(itemstack, world, entity);
-		GoldenBannanaPlayerFinishesUsingItemProcedure.execute(entity);
+		GoldenBannanaPlayerFinishesUsingItemProcedure.execute(world, entity);
 		return retval;
 	}
 }

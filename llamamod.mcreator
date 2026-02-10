@@ -152,6 +152,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -6418,6 +6422,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -17797,33 +17805,6 @@
       "path": "~/Fluids/Acid/Acid Damage Types"
     },
     {
-      "name": "Llamamodserverconfig",
-      "type": "config",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "llamamodserverconfig",
-      "metadata": {
-        "files": [
-          "src/main/java/mc/omegabird/llamablocks/configuration/LlamamodserverconfigConfiguration.java"
-        ]
-      }
-    },
-    {
-      "name": "AcidLakeGenerationConditionProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "acid_lake_generation_condition_procedure",
-      "metadata": {
-        "dependencies": [],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/mc/omegabird/llamablocks/procedures/AcidLakeGenerationConditionProcedureProcedure.java"
-        ]
-      },
-      "path": "~/Fluids/Acid/Acid Lakes"
-    },
-    {
       "name": "Bananapatch",
       "type": "feature",
       "compiles": true,
@@ -17840,21 +17821,6 @@
       "path": "~/Food and Farming/Bananas"
     },
     {
-      "name": "BananapatchAdditionalGenerationCondition",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bananapatch_additional_generation_condition",
-      "metadata": {
-        "dependencies": [],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/mc/omegabird/llamablocks/procedures/BananapatchAdditionalGenerationConditionProcedure.java"
-        ]
-      },
-      "path": "~/Food and Farming/Bananas"
-    },
-    {
       "name": "DisablePlacementOfItemsInABackpackProcedure",
       "type": "procedure",
       "compiles": true,
@@ -17865,6 +17831,10 @@
           {
             "name": "itemstack",
             "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "return_type": "logic",
@@ -18149,6 +18119,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -18334,6 +18308,54 @@
         ]
       },
       "path": "~/Recipes and Trades"
+    },
+    {
+      "name": "GiveAllRecipes",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_all_recipes",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/Gamerules"
+    },
+    {
+      "name": "AllowItemDeletion",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "allow_item_deletion",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/Gamerules"
+    },
+    {
+      "name": "PreventNestedStorageItems",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prevent_nested_storage_items",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/Gamerules"
+    },
+    {
+      "name": "GiveGoldenBananaEffects",
+      "type": "gamerule",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_golden_banana_effects",
+      "metadata": {
+        "type": "logic",
+        "files": []
+      },
+      "path": "~/Gamerules"
     }
   ],
   "variable_elements": [],
@@ -20503,18 +20525,12 @@
       "death.attack.acid_drowning.player": "%1$s drowned in acid whilst trying to escape %2$s",
       "death.attack.acid_drowning": "%1$s drowned in acid",
       "death.attack.acid_drowning.item": "%1$s was killed by %2$s using %3$s",
-      "llamamod.configuration.generation": "generation",
       "llamamod.configuration.generate_acid_lakes": "Generate Acid Lakes",
       "llamamod.configuration.passowrd_veiwing_permission_level": "Passowrd Veiwing Permission Level",
-      "llamamod.configuration.permissions": "permissions",
       "llamamod.configuration.password_viewing_permission_level": "Password Viewing Permission Level",
-      "llamamod.configuration.give_players_all_recipes": "Give Players All Recipes",
-      "llamamod.configuration.misc": "misc",
       "llamamod.configuration.allow_featuresto_delete_items": "Allow Features to Delete Items",
       "llamamod.configuration.generate_banana_patches": "Generate Banana Patches",
-      "llamamod.configuration.allow_features_to_delete_items": "Allow Features To Delete Items",
       "llamamod.configuration.prevent_nested_backpack_placement": "Prevent Nested Backpack Placement",
-      "llamamod.configuration.prevent_nested_storage_item_placement": "Prevent Nested Storage Item Placement",
       "gui.llamamod.computergui.label_players": "Players:",
       "gui.llamamod.passwordchangergui.tooltip_worldserver_operators_may_be_ab": "Operators can SEE your passwords",
       "gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o": "You see this becuase you\u0027re an operator",
@@ -20553,18 +20569,25 @@
       "gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw": "This lock doesn\u0027t",
       "gui.llamamod.passwordchangergui.label_a_password": "support passwords.",
       "item.llamamod.golden_banana_upgrade_template": "Golden Banana Upgrade Template",
-      "llamamod.configuration.enable_golden_banana_effects": "Enable Golden Banana Effects"
+      "gamerule.giveAllRecipes.description": "This controls whether all players are given all crafting recipes when they join.",
+      "gamerule.giveAllRecipes": "giveAllRecipes",
+      "gamerule.allowItemDeletion": "allowItemDeletion",
+      "gamerule.allowItemDeletion.description": "This controls whether the \"Delete Items\" button in the Netherite Backpack and the \"Clear\" button in the Secure Storage Block work.",
+      "gamerule.preventNestedStorageItems": "preventNestedStorageItems",
+      "gamerule.preventNestedStorageItems.description": "This controls whether LlamaBlocks stops Shulker Boxes, Bundles, Backpacks, etc, from being placed in the Secure Storage Block and backpacks.",
+      "gamerule.giveGoldenBananaEffects.description": "This controls whether the players get effects from eating a Golden Banana.",
+      "gamerule.giveGoldenBananaEffects": "giveGoldenBananaEffects"
     }
   },
   "metadata": {
     "files": [
       "src/main/resources/data/minecraft/tags/banner_pattern/no_item_required.json",
-      "src/main/java/mc/omegabird/llamablocks/init/LlamamodModConfigs.java",
       "src/main/java/mc/omegabird/llamablocks/init/LlamamodModFluids.java",
       "src/main/java/mc/omegabird/llamablocks/init/LlamamodModFluidTypes.java",
       "src/main/java/mc/omegabird/llamablocks/init/LlamamodModMenus.java",
       "src/main/java/mc/omegabird/llamablocks/init/LlamamodModScreens.java",
       "src/main/java/mc/omegabird/llamablocks/network/MenuStateUpdateMessage.java",
+      "src/main/java/mc/omegabird/llamablocks/init/LlamamodModGameRules.java",
       "src/main/resources/data/neoforge/data_maps/item/compostables.json",
       "src/main/java/mc/omegabird/llamablocks/init/LlamamodModFuels.java",
       "src/main/java/mc/omegabird/llamablocks/init/LlamamodModParticles.java",
@@ -20898,6 +20921,10 @@
       },
       {
         "name": "ABOUT",
+        "children": []
+      },
+      {
+        "name": "Gamerules",
         "children": []
       }
     ]

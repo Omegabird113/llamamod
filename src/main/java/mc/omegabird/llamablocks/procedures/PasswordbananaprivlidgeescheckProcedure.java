@@ -7,13 +7,11 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.client.multiplayer.PlayerInfo;
 import net.minecraft.client.Minecraft;
 
-import mc.omegabird.llamablocks.configuration.LlamamodserverconfigConfiguration;
-
 public class PasswordbananaprivlidgeescheckProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if (getEntityGameType(entity) == GameType.CREATIVE && entity instanceof Player _playerCmd2 && _playerCmd2.hasPermissions((int) (double) LlamamodserverconfigConfiguration.ACCESS_EXISTING_PASSWORDS_PERMISSION_LEVEL.get())) {
+		if (getEntityGameType(entity) == GameType.CREATIVE && entity instanceof Player _playerCmd1 && _playerCmd1.hasPermissions(3)) {
 			return true;
 		}
 		return false;

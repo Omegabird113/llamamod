@@ -50,7 +50,7 @@ public record DoubleSecureStoorafeBlockGuiButtonMessage(int buttonID, int x, int
 			return;
 		if (buttonID == 0) {
 
-			ClearSecStoorageBlockProcedureProcedure.execute(entity);
+			ClearSecStoorageBlockProcedureProcedure.execute(world, entity);
 		}
 		if (buttonID == 1) {
 

@@ -97,7 +97,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 17) {
@@ -107,7 +107,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 17) {
@@ -117,7 +117,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 17) {
@@ -127,7 +127,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 17) {
@@ -137,7 +137,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 17) {
@@ -147,7 +147,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 17) {
@@ -157,7 +157,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 17) {
@@ -167,7 +167,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 17) {
@@ -177,7 +177,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 7, 35) {
@@ -187,7 +187,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 25, 35) {
@@ -197,7 +197,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 35) {
@@ -207,7 +207,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 61, 35) {
@@ -217,7 +217,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 35) {
@@ -227,7 +227,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 97, 35) {
@@ -237,7 +237,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 115, 35) {
@@ -247,7 +247,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 133, 35) {
@@ -257,7 +257,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 151, 35) {
@@ -267,7 +267,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 7, 53) {
@@ -277,7 +277,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 25, 53) {
@@ -287,7 +287,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 43, 53) {
@@ -297,7 +297,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 61, 53) {
@@ -307,7 +307,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 79, 53) {
@@ -317,7 +317,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 97, 53) {
@@ -327,7 +327,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 115, 53) {
@@ -337,7 +337,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 133, 53) {
@@ -347,7 +347,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 151, 53) {
@@ -357,7 +357,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 7, 71) {
@@ -367,7 +367,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 25, 71) {
@@ -377,7 +377,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 43, 71) {
@@ -387,7 +387,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(30, this.addSlot(new SlotItemHandler(internal, 30, 61, 71) {
@@ -397,7 +397,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(31, this.addSlot(new SlotItemHandler(internal, 31, 79, 71) {
@@ -407,7 +407,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 97, 71) {
@@ -417,7 +417,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 115, 71) {
@@ -427,7 +427,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(34, this.addSlot(new SlotItemHandler(internal, 34, 133, 71) {
@@ -437,7 +437,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(35, this.addSlot(new SlotItemHandler(internal, 35, 151, 71) {
@@ -447,7 +447,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(36, this.addSlot(new SlotItemHandler(internal, 36, 7, 89) {
@@ -457,7 +457,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(37, this.addSlot(new SlotItemHandler(internal, 37, 25, 89) {
@@ -467,7 +467,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(38, this.addSlot(new SlotItemHandler(internal, 38, 43, 89) {
@@ -477,7 +477,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(39, this.addSlot(new SlotItemHandler(internal, 39, 61, 89) {
@@ -487,7 +487,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(40, this.addSlot(new SlotItemHandler(internal, 40, 79, 89) {
@@ -497,7 +497,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(41, this.addSlot(new SlotItemHandler(internal, 41, 97, 89) {
@@ -507,7 +507,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(42, this.addSlot(new SlotItemHandler(internal, 42, 115, 89) {
@@ -517,7 +517,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(43, this.addSlot(new SlotItemHandler(internal, 43, 133, 89) {
@@ -527,7 +527,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(44, this.addSlot(new SlotItemHandler(internal, 44, 151, 89) {
@@ -537,7 +537,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(45, this.addSlot(new SlotItemHandler(internal, 45, 7, 107) {
@@ -547,7 +547,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(46, this.addSlot(new SlotItemHandler(internal, 46, 25, 107) {
@@ -557,7 +557,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(47, this.addSlot(new SlotItemHandler(internal, 47, 43, 107) {
@@ -567,7 +567,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(48, this.addSlot(new SlotItemHandler(internal, 48, 61, 107) {
@@ -577,7 +577,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(49, this.addSlot(new SlotItemHandler(internal, 49, 79, 107) {
@@ -587,7 +587,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(50, this.addSlot(new SlotItemHandler(internal, 50, 97, 107) {
@@ -597,7 +597,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(51, this.addSlot(new SlotItemHandler(internal, 51, 115, 107) {
@@ -607,7 +607,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(52, this.addSlot(new SlotItemHandler(internal, 52, 133, 107) {
@@ -617,7 +617,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(53, this.addSlot(new SlotItemHandler(internal, 53, 151, 107) {
@@ -627,7 +627,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(54, this.addSlot(new SlotItemHandler(internal, 54, 7, 125) {
@@ -637,7 +637,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(55, this.addSlot(new SlotItemHandler(internal, 55, 25, 125) {
@@ -647,7 +647,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(56, this.addSlot(new SlotItemHandler(internal, 56, 43, 125) {
@@ -657,7 +657,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(57, this.addSlot(new SlotItemHandler(internal, 57, 61, 125) {
@@ -667,7 +667,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(58, this.addSlot(new SlotItemHandler(internal, 58, 79, 125) {
@@ -677,7 +677,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(59, this.addSlot(new SlotItemHandler(internal, 59, 97, 125) {
@@ -687,7 +687,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(60, this.addSlot(new SlotItemHandler(internal, 60, 115, 125) {
@@ -697,7 +697,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(61, this.addSlot(new SlotItemHandler(internal, 61, 133, 125) {
@@ -707,7 +707,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		this.customSlots.put(62, this.addSlot(new SlotItemHandler(internal, 62, 151, 125) {
@@ -717,7 +717,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 
 			@Override
 			public boolean mayPlace(ItemStack itemstack) {
-				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(itemstack);
+				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
 		for (int si = 0; si < 3; ++si)
