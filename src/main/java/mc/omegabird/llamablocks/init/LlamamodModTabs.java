@@ -384,11 +384,11 @@ public class LlamamodModTabs {
 				tabData.accept(LlamamodModItems.PASSWORD_CHANGER.get());
 				tabData.accept(LlamamodModItems.BACKPACK.get());
 				tabData.accept(LlamamodModItems.NETHERITE_BACKPACK.get());
-				tabData.accept(LlamamodModItems.BANANA.get());
-				tabData.accept(LlamamodModItems.GOLDEN_BANANA.get());
 				tabData.accept(LlamamodModBlocks.BANANA_PLANT.get().asItem());
 				tabData.accept(LlamamodModItems.FARM_SCRAPS.get());
-				tabData.accept(LlamamodModItems.ACID_BUCKET.get());
+				tabData.accept(LlamamodModItems.BANANA.get());
+				tabData.accept(LlamamodModItems.GOLDEN_BANANA.get());
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA_UPGRADE_TEMPLATE.get());
+				tabData.accept(LlamamodModItems.ACID_BUCKET.get());
 			}).build());
 }

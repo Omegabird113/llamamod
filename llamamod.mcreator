@@ -20061,12 +20061,12 @@
       "Passwordchanger",
       "Backpack",
       "Netheritebackpack",
-      "Bannana",
-      "GoldenBannana",
       "Bannanaplant",
       "Farmscraps",
-      "Acid",
-      "GoldenBananaUpgradeTemplate"
+      "Bannana",
+      "GoldenBannana",
+      "GoldenBananaUpgradeTemplate",
+      "Acid"
     ],
     "OP_BLOCKS": []
   },
