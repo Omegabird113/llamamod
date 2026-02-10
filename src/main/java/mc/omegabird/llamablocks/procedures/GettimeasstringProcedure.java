@@ -18,16 +18,16 @@ public class GettimeasstringProcedure {
 		percentage_througth_day_night = (((daytime / 24000) * 100) % 50) * 2;
 		if (Math.floor(twenty_four_hour_hour) == 0) {
 			twelve_hour_hour = 12;
-			am_or_pm = "AM";
+			am_or_pm = "am";
 		} else if (Math.floor(twenty_four_hour_hour) < 12) {
 			twelve_hour_hour = Math.floor(twenty_four_hour_hour);
-			am_or_pm = "AM";
+			am_or_pm = "am";
 		} else if (Math.floor(twenty_four_hour_hour) == 12) {
 			twelve_hour_hour = 12;
-			am_or_pm = "PM";
+			am_or_pm = "pm";
 		} else {
 			twelve_hour_hour = Math.floor(twenty_four_hour_hour) - 12;
-			am_or_pm = "PM";
+			am_or_pm = "pm";
 		}
 		return new java.text.DecimalFormat("#0").format(twelve_hour_hour) + ":" + new java.text.DecimalFormat("00").format(Math.floor(minute)) + " " + am_or_pm + " (" + new java.text.DecimalFormat("#0.0").format(percentage_througth_day_night)
 				+ "% through the " + (daytime < 12000 ? "day" : "night") + ")";
