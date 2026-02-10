@@ -3,7 +3,7 @@
   "_type": "gamerule",
   "definition": {
     "type": "Logic",
-    "displayName": "giveAllRecipes",
+    "displayName": "Give Players All Recipes After Joining",
     "description": "This controls whether all players are given all crafting recipes when they join.",
     "category": "PLAYER",
     "defaultValueLogic": true,

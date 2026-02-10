@@ -3,7 +3,7 @@
   "_type": "gamerule",
   "definition": {
     "type": "Logic",
-    "displayName": "giveGoldenBananaEffects",
+    "displayName": "Enable Golden Banana Effects",
     "description": "This controls whether the players get effects from eating a Golden Banana.",
     "category": "MISC",
     "defaultValueLogic": true,

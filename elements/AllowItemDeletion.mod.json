@@ -3,7 +3,7 @@
   "_type": "gamerule",
   "definition": {
     "type": "Logic",
-    "displayName": "allowItemDeletion",
+    "displayName": "Allow Item Deletion Buttons to Function",
     "description": "This controls whether the \"Delete Items\" button in the Netherite Backpack and the \"Clear\" button in the Secure Storage Block work.",
     "category": "MISC",
     "defaultValueLogic": true,
