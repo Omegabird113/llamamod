@@ -495,11 +495,11 @@
   "gui.llamamod.passwordchangergui.label_a_password": "support passwords.",
   "item.llamamod.golden_banana_upgrade_template": "Golden Banana Upgrade Template",
   "gamerule.giveAllRecipes.description": "This controls whether all players are given all crafting recipes when they join.",
-  "gamerule.giveAllRecipes": "Give Players All Recipes After Joining",
-  "gamerule.allowItemDeletion": "Allow Item Deletion Buttons to Function",
+  "gamerule.giveAllRecipes": "[LlamaBlocks] Give Players All Recipes After Joining",
+  "gamerule.allowItemDeletion": "[LlamaBlocks] Allow Item Deletion Buttons to Function",
   "gamerule.allowItemDeletion.description": "This controls whether the \"Delete Items\" button in the Netherite Backpack and the \"Clear\" button in the Secure Storage Block work.",
-  "gamerule.preventNestedStorageItems": "Prevent Placement of Nested Storage Item",
+  "gamerule.preventNestedStorageItems": "[LlamaBlocks] Prevent Placement of Nested Storage Items",
   "gamerule.preventNestedStorageItems.description": "This controls whether LlamaBlocks stops Shulker Boxes, Bundles, Backpacks, etc, from being placed in the Secure Storage Block and backpacks.",
   "gamerule.giveGoldenBananaEffects.description": "This controls whether the players get effects from eating a Golden Banana.",
-  "gamerule.giveGoldenBananaEffects": "Enable Golden Banana Effects"
+  "gamerule.giveGoldenBananaEffects": "[LlamaBlocks] Enable Golden Banana Effects"
 }

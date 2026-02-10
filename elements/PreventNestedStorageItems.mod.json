@@ -3,7 +3,7 @@
   "_type": "gamerule",
   "definition": {
     "type": "Logic",
-    "displayName": "Prevent Placement of Nested Storage Item",
+    "displayName": "[LlamaBlocks] Prevent Placement of Nested Storage Items",
     "description": "This controls whether LlamaBlocks stops Shulker Boxes, Bundles, Backpacks, etc, from being placed in the Secure Storage Block and backpacks.",
     "category": "MISC",
     "defaultValueLogic": true,
