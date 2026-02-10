@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 2,
+    "recipeRetstackSize": 3,
     "group": "",
     "unlockingItems": [],
     "cookingBookCategory": "MISC",
@@ -13,7 +13,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "Items.DIAMOND"
+        "value": "Items.GOLD_INGOT"
       },
       {
         "value": "Items.GOLD_INGOT"
@@ -28,7 +28,7 @@
         "value": "CUSTOM:GoldenBananaUpgradeTemplate"
       },
       {
-        "value": "Blocks.NETHERRACK"
+        "value": ""
       },
       {
         "value": ""

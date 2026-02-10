@@ -2,15 +2,14 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "minecraft:diamond",
     "minecraft:gold_ingot",
     "minecraft:gold_ingot",
     "minecraft:gold_ingot",
-    "llamamod:golden_banana_upgrade_template",
-    "minecraft:netherrack"
+    "minecraft:gold_ingot",
+    "llamamod:golden_banana_upgrade_template"
   ],
   "result": {
     "id": "llamamod:golden_banana_upgrade_template",
-    "count": 2
+    "count": 3
   }
 }
