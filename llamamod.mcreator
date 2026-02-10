@@ -20933,7 +20933,7 @@
     "modid": "llamamod",
     "modName": "LlamaBlocks",
     "version": "1.2.1",
-    "description": "This is a mod I\u0027ve been working on, on and off, since the summer of 2022 using MCreator. It has a massive variety of interesting features that range from massive sets of building blocks with specific color variants, to the Computer block with a bunch of varied features, or specialized blocks like the Variable Light Block.",
+    "description": "This is a mod i\u0027ve been working on, on and off, since the summer of 2022 using MCreator. It has a massive variety of interesting features that range from massive sets of building blocks with specific color variants, to the Computer block with a bunch of varied features, or specialized blocks like the Variable Light Block.",
     "author": "Omegabird113",
     "websiteURL": "https://modrinth.com/mod/llamablocks",
     "license": "GNU General Public License version 3 (GPLv3)",
@@ -20945,7 +20945,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
-    "credits": "Made with MCreator 2025.3 with the Blockstates \u0026 Configuration Files plugins.",
+    "credits": "Made with MCreator 2025.3 with the Blockstates plugin.",
     "modElementsPackage": "mc.omegabird.llamablocks"
   },
   "mcreatorVersion": 202500345720
