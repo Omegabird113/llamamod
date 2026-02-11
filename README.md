@@ -161,20 +161,8 @@ The Netherite backpack is an upgrade to the backpack which:
 
 This is a block which, when a block next to it is updated, will set the light level it produces to the maximum redstone power going into the block.
 
-### Server Configuration entries:
-
-This table explains the entries in the `llamamod_server.toml` file in the `config` folder of your client or server installation folder, though your client's will only apply to single-player worlds.
-
-| Variable name (in file)                       | Type     | Default value | Description                                                                                                                                                     |
-|-----------------------------------------------|----------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `generate_acid_lakes`                         | `logic`  | `true`        | This enables or disables the generation of the `acid_lake` feature                                                                                              |
-| `generate_banana_patches`                     | `logic`  | `true`        | This enables or disables the generation of the `banana_patch` feature                                                                                           |
-| `password_viewing_permission_level`           | `number` | `3`           | This controls the permission level required for people to be able to see the existing password in the Password Changer GUI and /llamablocks password get        |
-| `password_control_permission_level` | `number` | `3`           | This controls the permission level required for people to be able to use /llamamod password set and reset, alongside the Password Changer Password Reset button |
-| `player_management_permission_level`          | `number` | `3`           | This controls the permission level required for players to be able to clear inventories of or kill other players from the Computer GUI                          |
-| `give_players_all_recipes`                    | `logic`  | `true`        | When enabled, this runs the command `/recipe give @a *` when a player joins the server or world                                                                 |
-| `allow_features_to_delete_items`              | `logic`  | `true`        | This controls whether the `Clear` button in the Secure Storage Block and the `Delete Items` in the Netherite Backpack work                                      |
-| `prevent_nested_storage_item_placement`       | `logic`  | `true`        | This controls (inversely) whether Backpacks and Shulker Boxes can be placed in Backpacks and Secure Storage Blocks                                              |
+### Game Rules
+**TBD**
 
 ## Where to Download
 LlamaBlocks is avalible on the following mod hosting websites:
