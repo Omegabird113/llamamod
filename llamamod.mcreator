@@ -18371,6 +18371,19 @@
         ]
       },
       "path": "~/ABOUT"
+    },
+    {
+      "name": "OnModLoadProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_mod_load_procedure",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/OnModLoadProcedureProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],

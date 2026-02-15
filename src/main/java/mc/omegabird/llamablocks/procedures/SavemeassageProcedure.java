@@ -9,6 +9,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 public class SavemeassageProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -24,5 +25,7 @@ public class SavemeassageProcedure {
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
+		LlamamodMod.LOGGER.debug(("Message \"" + "" + ((entity instanceof Player _entity2 && _entity2.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu2) ? _menu2.getMenuState(0, "msgbox", "") : "") + "\" saved to Computer at (" + x + ", "
+				+ y + ", " + z + ")"));
 	}
 }

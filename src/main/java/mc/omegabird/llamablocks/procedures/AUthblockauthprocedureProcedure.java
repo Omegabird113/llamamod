@@ -17,6 +17,7 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -50,6 +51,7 @@ public class AUthblockauthprocedureProcedure {
 			}
 			if (entity instanceof Player _player)
 				_player.closeContainer();
+			LlamamodMod.LOGGER.debug(("Authenticator block at (" + x + ", " + y + ", " + z + ") succeeded to Authenticate."));
 		} else {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -70,6 +72,7 @@ public class AUthblockauthprocedureProcedure {
 					}
 				}, _bpos);
 			}
+			LlamamodMod.LOGGER.debug(("Authenticator block at (" + x + ", " + y + ", " + z + ") FAILED to Authenticate."));
 		}
 	}
 

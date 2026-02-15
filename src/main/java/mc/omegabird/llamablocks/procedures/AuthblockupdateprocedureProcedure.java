@@ -6,6 +6,8 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
+import mc.omegabird.llamablocks.LlamamodMod;
+
 public class AuthblockupdateprocedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world.dayTime() - getBlockNBTNumber(world, BlockPos.containing(x, y, z), "end_power_after_tick") > 15) {
@@ -15,6 +17,7 @@ public class AuthblockupdateprocedureProcedure {
 				if (_bs.getBlock().getStateDefinition().getProperty("powered") instanceof BooleanProperty _booleanProp)
 					world.setBlock(_pos, _bs.setValue(_booleanProp, false), 3);
 			}
+			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") is powered as of tick: " + world.dayTime()));
 		}
 	}
 

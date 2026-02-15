@@ -15,6 +15,7 @@ import net.minecraft.core.BlockPos;
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
 import mc.omegabird.llamablocks.world.inventory.ComputerguiMenu;
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -43,6 +44,7 @@ public class ComputerauthprocedureProcedure {
 					}
 				}, _bpos);
 			}
+			LlamamodMod.LOGGER.debug(("Computer at (" + x + ", " + y + ", " + z + ") succeeded to authenticate."));
 		} else {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -63,6 +65,7 @@ public class ComputerauthprocedureProcedure {
 					}
 				}, _bpos);
 			}
+			LlamamodMod.LOGGER.debug(("Computer at (" + x + ", " + y + ", " + z + ") FAILED to authenticate."));
 		}
 	}
 

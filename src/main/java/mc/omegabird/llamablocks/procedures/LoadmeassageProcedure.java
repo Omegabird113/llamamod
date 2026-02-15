@@ -7,6 +7,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 public class LoadmeassageProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -14,6 +15,7 @@ public class LoadmeassageProcedure {
 			return;
 		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "msgbox", (getBlockNBTString(world, BlockPos.containing(x, y, z), "msg")), true);
+		LlamamodMod.LOGGER.debug(("Loaded message \"" + "" + getBlockNBTString(world, BlockPos.containing(x, y, z), "msg") + "\" to Computer at (" + x + ", " + y + ", " + z + ")"));
 	}
 
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {

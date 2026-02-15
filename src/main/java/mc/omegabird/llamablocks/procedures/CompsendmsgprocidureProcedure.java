@@ -6,6 +6,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
 
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 import java.util.ArrayList;
 
@@ -26,6 +27,7 @@ public class CompsendmsgprocidureProcedure {
 			msg_to_send = Component.translatable("block.llamamod.computer.playernamenotfounderror").getString();
 			player_to_msg = entity;
 		}
+		LlamamodMod.LOGGER.debug(("The following player has a message attempting to be sent to them: " + player_to_msg));
 		if (player_to_msg instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal(msg_to_send), false);
 	}
