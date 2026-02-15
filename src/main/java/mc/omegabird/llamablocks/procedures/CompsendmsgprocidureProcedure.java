@@ -23,7 +23,7 @@ public class CompsendmsgprocidureProcedure {
 			}
 		}
 		if (player_to_msg == null) {
-			msg_to_send = "ERROR: Invalid player name.";
+			msg_to_send = Component.translatable("block.llamamod.computer.playernamenotfounderror").getString();
 			player_to_msg = entity;
 		}
 		if (player_to_msg instanceof Player _player && !_player.level().isClientSide())

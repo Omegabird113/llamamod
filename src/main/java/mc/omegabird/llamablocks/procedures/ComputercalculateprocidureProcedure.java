@@ -4,6 +4,7 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.Component;
 
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
 
@@ -116,7 +117,7 @@ public class ComputercalculateprocidureProcedure {
 			} else if ((operation).equals("LOG10")) {
 				result = "" + Math.log10(num1);
 			} else {
-				result = "Invalid Operation";
+				result = Component.translatable("block.llamamod.computer.invalidoperationerror").getString();
 			}
 		}
 		return result;

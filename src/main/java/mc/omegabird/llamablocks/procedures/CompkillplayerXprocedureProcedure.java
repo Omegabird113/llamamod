@@ -26,7 +26,7 @@ public class CompkillplayerXprocedureProcedure {
 		if (player_to_msg == null) {
 			player_to_msg = entity;
 			if (player_to_msg instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("ERROR: Invalid player name."), false);
+				_player.displayClientMessage(Component.literal((Component.translatable("block.llamamod.computer.playernamenotfounderror").getString())), false);
 		} else {
 			{
 				Entity _ent = entity;
