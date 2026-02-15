@@ -15,6 +15,7 @@ import net.minecraft.core.BlockPos;
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
 import mc.omegabird.llamablocks.world.inventory.DoubleSecureStoorafeBlockGuiMenu;
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -43,6 +44,7 @@ public class SubmitsecstoorblockpasswordprocidureProcedure {
 					}
 				}, _bpos);
 			}
+			LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") authenticated successfully."));
 		} else {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -63,6 +65,7 @@ public class SubmitsecstoorblockpasswordprocidureProcedure {
 					}
 				}, _bpos);
 			}
+			LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") FAILED to authenticate."));
 		}
 	}
 

@@ -17,6 +17,7 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.SecurestooragepasswordguiMenu;
 import mc.omegabird.llamablocks.world.inventory.DoubleSecureStoorafeBlockGuiMenu;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -45,6 +46,7 @@ public class SecurestoorageblockOnBlockRightClickedProcedure {
 						}
 					}, _bpos);
 				}
+				LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") clicked on CORRECT face (" + direction + ") with password. Auth GUI opened."));
 			} else {
 				if (entity instanceof ServerPlayer _ent) {
 					BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -65,7 +67,10 @@ public class SecurestoorageblockOnBlockRightClickedProcedure {
 						}
 					}, _bpos);
 				}
+				LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") clicked on CORRECT face (" + direction + ") WITHOUT password. Main GUI opened."));
 			}
+		} else {
+			LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") clicked on INCORRECT face (" + direction + ") NO UI opened."));
 		}
 	}
 

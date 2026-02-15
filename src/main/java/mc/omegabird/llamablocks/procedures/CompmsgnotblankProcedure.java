@@ -9,6 +9,7 @@ import mc.omegabird.llamablocks.LlamamodMod;
 public class CompmsgnotblankProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {
 		if (!(getBlockNBTString(world, BlockPos.containing(x, y, z), "msg")).equals("")) {
+			LlamamodMod.LOGGER.debug(("There is a message saved in Computer at (" + x + ", " + y + ", " + z + "). The Load button will be displayed."));
 			return true;
 		} else {
 			LlamamodMod.LOGGER.debug(("NO MESSAGE saved in Computer at (" + x + ", " + y + ", " + z + ")"));

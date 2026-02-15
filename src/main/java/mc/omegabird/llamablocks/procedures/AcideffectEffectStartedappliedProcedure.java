@@ -9,6 +9,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
 
 import mc.omegabird.llamablocks.init.LlamamodModMobEffects;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 public class AcideffectEffectStartedappliedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -18,6 +19,10 @@ public class AcideffectEffectStartedappliedProcedure {
 		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) >= 4) {
 			entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:acid_damage")))),
 					(float) (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) - 2) * 3.05));
+			LlamamodMod.LOGGER.debug(("Dealt 1.5 + " + (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) - 2) * 3.05)
+					+ " base Affect Effect applied damage: " + entity));
+		} else if (true) {
+			LlamamodMod.LOGGER.debug(("Dealt 1.5 base Affect Effect applied damage: " + entity));
 		}
 	}
 }

@@ -11,6 +11,7 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.init.LlamamodModMobEffects;
 import mc.omegabird.llamablocks.init.LlamamodModBlocks;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 public class AcideffectOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -19,8 +20,12 @@ public class AcideffectOnEffectActiveTickProcedure {
 		if ((world.getBlockState(BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()))).getBlock() == LlamamodModBlocks.ACID.get()
 				&& (world.getBlockState(BlockPos.containing(entity.getX(), entity.getY() + 1.9, entity.getZ()))).getBlock() == LlamamodModBlocks.ACID.get()) {
 			entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:acid_drowning")))), 2);
+			LlamamodMod.LOGGER.debug(("Dealt 2 acid tick drowning damage to " + entity + " at (" + entity.getX() + ", " + entity.getY() + ", " + entity.getZ() + ")"));
 		}
 		entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:acid_damage")))),
 				(float) Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) + 1.05) * 1.118));
+		LlamamodMod.LOGGER
+				.debug(("Dealt " + Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) + 1.05) * 1.118)
+						+ " acid tick damage to " + entity + " at (" + entity.getX() + ", " + entity.getY() + ", " + entity.getZ() + ")"));
 	}
 }

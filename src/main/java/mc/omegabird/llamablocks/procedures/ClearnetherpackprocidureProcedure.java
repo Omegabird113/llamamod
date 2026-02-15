@@ -8,6 +8,7 @@ import net.minecraft.server.level.ServerLevel;
 
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
 import mc.omegabird.llamablocks.init.LlamamodModGameRules;
+import mc.omegabird.llamablocks.LlamamodMod;
 
 public class ClearnetherpackprocidureProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -23,6 +24,7 @@ public class ClearnetherpackprocidureProcedure {
 				}
 				iteratir = iteratir + 1;
 			}
+			LlamamodMod.LOGGER.debug("Netherite Backpack cleared");
 		}
 	}
 }

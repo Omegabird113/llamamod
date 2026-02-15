@@ -43,9 +43,9 @@ public class OpenauthblockguiprocedureProcedure {
 					}
 				}, _bpos);
 			}
-			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") clicked on a CORRECT FACE. Auth Block UI opened" + direction));
+			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") clicked on a CORRECT FACE. Auth Block UI opened " + direction));
 		} else {
-			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") clicked on a INCORRECT FACE" + direction));
+			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") clicked on a INCORRECT FACE " + direction));
 		}
 	}
 
