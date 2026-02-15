@@ -85,6 +85,8 @@ public class ComputercalculateprocidureProcedure {
 			result = "" + Math.pow(num2, 1 / num1);
 		} else if ((operation).equals("RAND") || (operation).equals("RANDOM")) {
 			result = "" + Mth.nextInt(RandomSource.create(), (int) Math.min(num1, num2), (int) Math.max(num1, num2));
+		} else if ((operation).equals("RANDEX") || (operation).equals("RANDOM EXC")) {
+			result = "" + Mth.nextDouble(RandomSource.create(), Math.min(num1, num2), Math.max(num1, num2));
 		} else {
 			if ((operation).equals("NLOG")) {
 				result = "" + Math.log(num1);
