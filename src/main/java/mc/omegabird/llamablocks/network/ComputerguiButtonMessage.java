@@ -53,35 +53,39 @@ public record ComputerguiButtonMessage(int buttonID, int x, int y, int z) implem
 		}
 		if (buttonID == 1) {
 
-			CompClearInventoryOfPlayerXProcedureProcedure.execute(world, entity);
+			CompkillplayerXprocedureProcedure.execute(world, entity);
 		}
 		if (buttonID == 2) {
 
-			CompkillplayerXprocedureProcedure.execute(world, entity);
+			LoadmeassageProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 3) {
 
-			LoadmeassageProcedure.execute(world, x, y, z, entity);
+			SavemeassageProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 
-			SavemeassageProcedure.execute(world, x, y, z, entity);
+			GenRandomNumberProcedureProcedure.execute(entity);
 		}
 		if (buttonID == 5) {
 
-			GenRandomNumberProcedureProcedure.execute(entity);
+			SetComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 6) {
 
-			SetComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z, entity);
+			SetRANDOMComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z);
 		}
 		if (buttonID == 7) {
 
-			SetRANDOMComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z);
+			CompsendmsgprocidureProcedure.execute(world, entity);
 		}
 		if (buttonID == 8) {
 
-			CompsendmsgprocidureProcedure.execute(world, entity);
+			ComputercalculateprocidureProcedure.execute(entity);
+		}
+		if (buttonID == 9) {
+
+			CompClearInventoryOfPlayerXProcedureProcedure.execute(world, entity);
 		}
 	}
 

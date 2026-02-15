@@ -4,14 +4,16 @@ import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.util.RandomSource;
+import net.minecraft.util.Mth;
 import net.minecraft.network.chat.Component;
 
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
 
 public class ComputercalculateprocidureProcedure {
-	public static String execute(Entity entity) {
+	public static void execute(Entity entity) {
 		if (entity == null)
-			return "";
+			return;
 		double num1 = 0;
 		double num2 = 0;
 		String result = "";
@@ -81,6 +83,8 @@ public class ComputercalculateprocidureProcedure {
 			result = "" + Math.log(num2) / Math.log(num1);
 		} else if ((operation).equals("ROOT")) {
 			result = "" + Math.pow(num2, 1 / num1);
+		} else if ((operation).equals("RAND") || (operation).equals("RANDOM")) {
+			result = "" + Mth.nextInt(RandomSource.create(), (int) Math.min(num1, num2), (int) Math.max(num1, num2));
 		} else {
 			if ((operation).equals("NLOG")) {
 				result = "" + Math.log(num1);
@@ -120,6 +124,7 @@ public class ComputercalculateprocidureProcedure {
 				result = Component.translatable("block.llamamod.computer.invalidoperationerror").getString();
 			}
 		}
-		return result;
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+			_menu.sendMenuStateUpdate(_player, 0, "calculator_result", result, true);
 	}
 }

@@ -126,25 +126,6 @@
       {
         "type": "button",
         "data": {
-          "name": "button_clear_inventory",
-          "text": "Clear Inventory",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "CompClearInventoryOfPlayerXProcedure"
-          },
-          "displayCondition": {
-            "name": "ComputerPlayerManagementPermissionCheck"
-          },
-          "width": 103,
-          "height": 20,
-          "x": 213,
-          "y": 86,
-          "locked": false
-        }
-      },
-      {
-        "type": "button",
-        "data": {
           "name": "button_kill",
           "text": "Kill",
           "isUndecorated": false,
@@ -158,39 +139,6 @@
           "height": 20,
           "x": 275,
           "y": 107,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_result",
-          "text": {
-            "fixedValue": "Result:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 214,
-          "y": 54,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_proc_computercalculateprocidure",
-          "text": {
-            "fixedValue": "",
-            "name": "Computercalculateprocidure"
-          },
-          "color": {
-            "value": -65536,
-            "falpha": 0.0
-          },
-          "x": 214,
-          "y": 63,
           "locked": false
         }
       },
@@ -550,6 +498,53 @@
           },
           "x": 316,
           "y": 10,
+          "locked": false
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "Result",
+          "name": "calculator_result",
+          "width": 120,
+          "height": 20,
+          "x": 212,
+          "y": 54,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_calculate",
+          "text": "Calculate",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Computercalculateprocidure"
+          },
+          "width": 72,
+          "height": 20,
+          "x": 212,
+          "y": 75,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_clear",
+          "text": "Clear",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "CompClearInventoryOfPlayerXProcedure"
+          },
+          "displayCondition": {
+            "name": "ComputerPlayerManagementPermissionCheck"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 285,
+          "y": 86,
           "locked": false
         }
       }

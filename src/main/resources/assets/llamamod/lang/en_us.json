@@ -505,5 +505,8 @@
   "llamamod.about.version": "1.3.0-beta1",
   "llamamod.about.version.excludebeta": "1.3.0",
   "block.llamamod.computer.invalidoperationerror": "Invalid Operation",
-  "block.llamamod.computer.playernamenotfounderror": "ERROR: Player mame not found"
+  "block.llamamod.computer.playernamenotfounderror": "ERROR: Player mame not found",
+  "gui.llamamod.computergui.button_clear": "Clear",
+  "gui.llamamod.computergui.button_calculate": "Calculate",
+  "gui.llamamod.computergui.calculator_result": "Result"
 }
