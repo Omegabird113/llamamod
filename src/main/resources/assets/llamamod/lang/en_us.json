@@ -501,5 +501,7 @@
   "gamerule.preventNestedStorageItems": "[LlamaBlocks] Prevent Placement of Nested Storage Items",
   "gamerule.preventNestedStorageItems.description": "This controls whether LlamaBlocks stops Shulker Boxes, Bundles, Backpacks, etc, from being placed in the Secure Storage Block and backpacks.",
   "gamerule.giveGoldenBananaEffects.description": "This controls whether the players get effects from eating a Golden Banana.",
-  "gamerule.giveGoldenBananaEffects": "[LlamaBlocks] Enable Golden Banana Effects"
+  "gamerule.giveGoldenBananaEffects": "[LlamaBlocks] Enable Golden Banana Effects",
+  "llamamod.about.version": "1.3.0-beta1",
+  "llamamod.about.version.excludebeta": "1.3.0"
 }

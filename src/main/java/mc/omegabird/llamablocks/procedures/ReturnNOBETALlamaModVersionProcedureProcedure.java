@@ -1,7 +1,9 @@
 package mc.omegabird.llamablocks.procedures;
 
+import net.minecraft.network.chat.Component;
+
 public class ReturnNOBETALlamaModVersionProcedureProcedure {
 	public static String execute() {
-		return "v1.3.0";
+		return Component.translatable("llamamod.about.version.excludebeta").getString();
 	}
 }
