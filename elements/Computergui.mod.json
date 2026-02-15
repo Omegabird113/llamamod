@@ -417,7 +417,7 @@
           "text": "Clear Inventory",
           "isUndecorated": false,
           "onClick": {
-            "name": "CompkillplayerXprocedure"
+            "name": "CompClearInventoryOfPlayerXProcedure"
           },
           "displayCondition": {
             "name": "ComputerPlayerManagementPermissionCheck"

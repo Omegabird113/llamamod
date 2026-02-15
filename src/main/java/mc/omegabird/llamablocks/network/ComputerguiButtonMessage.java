@@ -81,7 +81,7 @@ public record ComputerguiButtonMessage(int buttonID, int x, int y, int z) implem
 		}
 		if (buttonID == 8) {
 
-			CompkillplayerXprocedureProcedure.execute(world, entity);
+			CompClearInventoryOfPlayerXProcedureProcedure.execute(world, entity);
 		}
 	}
 
