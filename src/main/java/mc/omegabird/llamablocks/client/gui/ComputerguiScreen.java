@@ -11,7 +11,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
-import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.Minecraft;
@@ -32,21 +31,16 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	private EditBox player_name;
 	private EditBox msgbox;
 	private EditBox msg;
-	private EditBox result;
 	private EditBox calculator_result;
-	private Checkbox includedRand;
 	private Button button_x;
 	private Button button_kill;
 	private Button button_load;
 	private Button button_save;
-	private Button button_generate;
 	private Button button_set;
 	private Button button_random;
 	private Button button_message;
 	private Button button_calculate;
 	private Button button_clear;
-	private ExtendedSlider minimumRand;
-	private ExtendedSlider maximumRand;
 	private ExtendedSlider power_output;
 
 	public ComputerguiScreen(ComputerguiMenu container, Inventory inventory, Component text) {
@@ -76,23 +70,11 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 				msgbox.setValue(stringState);
 			else if (name.equals("msg"))
 				msg.setValue(stringState);
-			else if (name.equals("result"))
-				result.setValue(stringState);
 			else if (name.equals("calculator_result"))
 				calculator_result.setValue(stringState);
 		}
-		if (elementType == 1 && elementState instanceof Boolean logicState) {
-			if (name.equals("includedRand")) {
-				if (includedRand.selected() != logicState)
-					includedRand.onPress();
-			}
-		}
 		if (elementType == 2 && elementState instanceof Number n) {
-			if (name.equals("minimumRand"))
-				minimumRand.setValue(n.doubleValue());
-			else if (name.equals("maximumRand"))
-				maximumRand.setValue(n.doubleValue());
-			else if (name.equals("power_output"))
+			if (name.equals("power_output"))
 				power_output.setValue(n.doubleValue());
 		}
 		menuStateUpdateActive = false;
@@ -109,7 +91,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		player_name.render(guiGraphics, mouseX, mouseY, partialTicks);
 		msgbox.render(guiGraphics, mouseX, mouseY, partialTicks);
 		msg.render(guiGraphics, mouseX, mouseY, partialTicks);
-		result.render(guiGraphics, mouseX, mouseY, partialTicks);
 		calculator_result.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -138,8 +119,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			return msgbox.keyPressed(key, b, c);
 		if (msg.isFocused())
 			return msg.keyPressed(key, b, c);
-		if (result.isFocused())
-			return result.keyPressed(key, b, c);
 		if (calculator_result.isFocused())
 			return calculator_result.keyPressed(key, b, c);
 		return super.keyPressed(key, b, c);
@@ -158,7 +137,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		String player_nameValue = player_name.getValue();
 		String msgboxValue = msgbox.getValue();
 		String msgValue = msg.getValue();
-		String resultValue = result.getValue();
 		String calculator_resultValue = calculator_result.getValue();
 		super.resize(minecraft, width, height);
 		number1.setValue(number1Value);
@@ -167,22 +145,20 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		player_name.setValue(player_nameValue);
 		msgbox.setValue(msgboxValue);
 		msg.setValue(msgValue);
-		result.setValue(resultValue);
 		calculator_result.setValue(calculator_resultValue);
 	}
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_calculator"), 6, 5, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_calculator"), 7, 5, -12829636, false);
 		guiGraphics.drawString(this.font, GettimeasstringProcedure.execute(world), 31, -10, -16711936, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_player_controll"), 6, 57, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_meassage"), 6, 110, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_random_number"), 6, 141, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_player_controll"), 7, 70, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_meassage"), 7, 123, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_time"), 4, -10, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_redstone_output"), 5, 201, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_redstone_output"), 8, 202, -1, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_players"), 4, -19, -1, false);
 		guiGraphics.drawString(this.font, ReturnPlayerListProcedureProcedure.execute(world), 50, -19, -16742401, false);
-		guiGraphics.drawString(this.font, CurentlyBlankRedstonePowerTextCompProcedureProcedure.execute(world, x, y, z), 5, 210, -256, false);
+		guiGraphics.drawString(this.font, CurentlyBlankRedstonePowerTextCompProcedureProcedure.execute(world, x, y, z), 7, 210, -256, false);
 		guiGraphics.drawString(this.font, ReturnNOBETALlamaModVersionProcedureProcedure.execute(), 218, 5, -16777216, false);
 		if (IsThisBetaProcedureProcedure.execute())
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_beta"), 230, -10, -65536, false);
@@ -215,7 +191,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		});
 		operation.setHint(Component.translatable("gui.llamamod.computergui.operation"));
 		this.addWidget(this.operation);
-		player_name = new EditBox(this.font, this.leftPos + 6, this.topPos + 67, 118, 18, Component.translatable("gui.llamamod.computergui.player_name"));
+		player_name = new EditBox(this.font, this.leftPos + 6, this.topPos + 79, 118, 18, Component.translatable("gui.llamamod.computergui.player_name"));
 		player_name.setMaxLength(8192);
 		player_name.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -223,7 +199,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		});
 		player_name.setHint(Component.translatable("gui.llamamod.computergui.player_name"));
 		this.addWidget(this.player_name);
-		msgbox = new EditBox(this.font, this.leftPos + 6, this.topPos + 120, 118, 18, Component.translatable("gui.llamamod.computergui.msgbox"));
+		msgbox = new EditBox(this.font, this.leftPos + 6, this.topPos + 132, 118, 18, Component.translatable("gui.llamamod.computergui.msgbox"));
 		msgbox.setMaxLength(8192);
 		msgbox.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -231,7 +207,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		});
 		msgbox.setHint(Component.translatable("gui.llamamod.computergui.msgbox"));
 		this.addWidget(this.msgbox);
-		msg = new EditBox(this.font, this.leftPos + 6, this.topPos + 88, 118, 18, Component.translatable("gui.llamamod.computergui.msg"));
+		msg = new EditBox(this.font, this.leftPos + 6, this.topPos + 100, 118, 18, Component.translatable("gui.llamamod.computergui.msg"));
 		msg.setMaxLength(8192);
 		msg.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -239,14 +215,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		});
 		msg.setHint(Component.translatable("gui.llamamod.computergui.msg"));
 		this.addWidget(this.msg);
-		result = new EditBox(this.font, this.leftPos + 75, this.topPos + 173, 118, 18, Component.translatable("gui.llamamod.computergui.result"));
-		result.setMaxLength(8192);
-		result.setResponder(content -> {
-			if (!menuStateUpdateActive)
-				menu.sendMenuStateUpdate(entity, 0, "result", content, false);
-		});
-		result.setHint(Component.translatable("gui.llamamod.computergui.result"));
-		this.addWidget(this.result);
 		calculator_result = new EditBox(this.font, this.leftPos + 127, this.topPos + 35, 118, 18, Component.translatable("gui.llamamod.computergui.calculator_result"));
 		calculator_result.setMaxLength(8192);
 		calculator_result.setResponder(content -> {
@@ -271,7 +239,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(1, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 189, this.topPos + 87, 46, 20).build();
+		}).bounds(this.leftPos + 188, this.topPos + 99, 46, 20).build();
 		this.addRenderableWidget(button_kill);
 		button_load = Button.builder(Component.translatable("gui.llamamod.computergui.button_load"), e -> {
 			int x = ComputerguiScreen.this.x;
@@ -280,7 +248,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 174, this.topPos + 119, 46, 20).build();
+		}).bounds(this.leftPos + 173, this.topPos + 131, 46, 20).build();
 		this.addRenderableWidget(button_load);
 		button_save = Button.builder(Component.translatable("gui.llamamod.computergui.button_save"), e -> {
 			int x = ComputerguiScreen.this.x;
@@ -289,50 +257,41 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
-		}).bounds(this.leftPos + 127, this.topPos + 119, 46, 20).build();
+		}).bounds(this.leftPos + 126, this.topPos + 131, 46, 20).build();
 		this.addRenderableWidget(button_save);
-		button_generate = Button.builder(Component.translatable("gui.llamamod.computergui.button_generate"), e -> {
+		button_set = Button.builder(Component.translatable("gui.llamamod.computergui.button_set"), e -> {
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
-		}).bounds(this.leftPos + 5, this.topPos + 172, 67, 20).build();
-		this.addRenderableWidget(button_generate);
-		button_set = Button.builder(Component.translatable("gui.llamamod.computergui.button_set"), e -> {
+		}).bounds(this.leftPos + 140, this.topPos + 199, 40, 20).build();
+		this.addRenderableWidget(button_set);
+		button_random = Button.builder(Component.translatable("gui.llamamod.computergui.button_random"), e -> {
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
-		}).bounds(this.leftPos + 141, this.topPos + 199, 40, 20).build();
-		this.addRenderableWidget(button_set);
-		button_random = Button.builder(Component.translatable("gui.llamamod.computergui.button_random"), e -> {
+		}).bounds(this.leftPos + 181, this.topPos + 199, 56, 20).build();
+		this.addRenderableWidget(button_random);
+		button_message = Button.builder(Component.translatable("gui.llamamod.computergui.button_message"), e -> {
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
 				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
-		}).bounds(this.leftPos + 184, this.topPos + 199, 56, 20).build();
-		this.addRenderableWidget(button_random);
-		button_message = Button.builder(Component.translatable("gui.llamamod.computergui.button_message"), e -> {
-			int x = ComputerguiScreen.this.x;
-			int y = ComputerguiScreen.this.y;
-			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
-			}
-		}).bounds(this.leftPos + 127, this.topPos + 87, 61, 20).build();
+		}).bounds(this.leftPos + 126, this.topPos + 99, 61, 20).build();
 		this.addRenderableWidget(button_message);
 		button_calculate = Button.builder(Component.translatable("gui.llamamod.computergui.button_calculate"), e -> {
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(8, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 8, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}).bounds(this.leftPos + 126, this.topPos + 55, 72, 20).build();
 		this.addRenderableWidget(button_calculate);
@@ -340,42 +299,12 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(9, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 9, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(8, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 8, x, y, z);
 			}
-		}).bounds(this.leftPos + 199, this.topPos + 66, 51, 20).build();
+		}).bounds(this.leftPos + 126, this.topPos + 78, 51, 20).build();
 		this.addRenderableWidget(button_clear);
-		boolean includedRandSelected = ReturnTrueProcedure.execute();
-		includedRand = Checkbox.builder(Component.translatable("gui.llamamod.computergui.includedRand"), this.font).pos(this.leftPos + 144, this.topPos + 151).onValueChange((checkbox, value) -> {
-			if (!menuStateUpdateActive)
-				menu.sendMenuStateUpdate(entity, 1, "includedRand", value, false);
-		}).selected(includedRandSelected).build();
-		if (includedRandSelected)
-			menu.sendMenuStateUpdate(entity, 1, "includedRand", true, false);
-		this.addRenderableWidget(includedRand);
-		minimumRand = new ExtendedSlider(this.leftPos + 5, this.topPos + 151, 67, 20, Component.translatable("gui.llamamod.computergui.minimumRand_prefix"), Component.translatable("gui.llamamod.computergui.minimumRand_suffix"), -1000, 1000, 0, 1, 0,
-				true) {
-			@Override
-			protected void applyValue() {
-				if (!menuStateUpdateActive)
-					menu.sendMenuStateUpdate(entity, 2, "minimumRand", this.getValue(), false);
-			}
-		};
-		this.addRenderableWidget(minimumRand);
-		if (!menuStateUpdateActive)
-			menu.sendMenuStateUpdate(entity, 2, "minimumRand", minimumRand.getValue(), false);
-		maximumRand = new ExtendedSlider(this.leftPos + 74, this.topPos + 151, 67, 20, Component.translatable("gui.llamamod.computergui.maximumRand_prefix"), Component.translatable("gui.llamamod.computergui.maximumRand_suffix"), -1000, 1000, 1000, 1,
-				0, true) {
-			@Override
-			protected void applyValue() {
-				if (!menuStateUpdateActive)
-					menu.sendMenuStateUpdate(entity, 2, "maximumRand", this.getValue(), false);
-			}
-		};
-		this.addRenderableWidget(maximumRand);
-		if (!menuStateUpdateActive)
-			menu.sendMenuStateUpdate(entity, 2, "maximumRand", maximumRand.getValue(), false);
-		power_output = new ExtendedSlider(this.leftPos + 92, this.topPos + 199, 46, 20, Component.translatable("gui.llamamod.computergui.power_output_prefix"), Component.translatable("gui.llamamod.computergui.power_output_suffix"), 0, 15, 0, 1, 0,
+		power_output = new ExtendedSlider(this.leftPos + 93, this.topPos + 200, 46, 20, Component.translatable("gui.llamamod.computergui.power_output_prefix"), Component.translatable("gui.llamamod.computergui.power_output_suffix"), 0, 15, 0, 1, 0,
 				true) {
 			@Override
 			protected void applyValue() {

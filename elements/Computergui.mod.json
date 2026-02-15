@@ -57,7 +57,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 92,
+          "x": 93,
           "y": 25,
           "locked": false
         }
@@ -106,8 +106,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 92,
-          "y": 77,
+          "x": 93,
+          "y": 90,
           "locked": false
         }
       },
@@ -119,7 +119,7 @@
           "width": 120,
           "height": 20,
           "x": 91,
-          "y": 86,
+          "y": 98,
           "locked": false
         }
       },
@@ -137,8 +137,8 @@
           },
           "width": 46,
           "height": 20,
-          "x": 275,
-          "y": 107,
+          "x": 274,
+          "y": 119,
           "locked": false
         }
       },
@@ -153,8 +153,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 92,
-          "y": 130,
+          "x": 93,
+          "y": 143,
           "locked": false
         }
       },
@@ -166,7 +166,7 @@
           "width": 120,
           "height": 20,
           "x": 91,
-          "y": 139,
+          "y": 151,
           "locked": false
         }
       },
@@ -184,8 +184,8 @@
           },
           "width": 46,
           "height": 20,
-          "x": 260,
-          "y": 139,
+          "x": 259,
+          "y": 151,
           "locked": false
         }
       },
@@ -200,8 +200,8 @@
           },
           "width": 46,
           "height": 20,
-          "x": 213,
-          "y": 139,
+          "x": 212,
+          "y": 151,
           "locked": false
         }
       },
@@ -213,39 +213,7 @@
           "width": 120,
           "height": 20,
           "x": 91,
-          "y": 107,
-          "locked": false
-        }
-      },
-      {
-        "type": "label",
-        "data": {
-          "name": "label_random_number",
-          "text": {
-            "fixedValue": "Random Number:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 92,
-          "y": 161,
-          "locked": false
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_generate",
-          "text": "Generate",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "GenRandomNumberProcedure"
-          },
-          "width": 67,
-          "height": 20,
-          "x": 91,
-          "y": 192,
+          "y": 119,
           "locked": false
         }
       },
@@ -266,65 +234,6 @@
         }
       },
       {
-        "type": "textfield",
-        "data": {
-          "placeholder": "Result",
-          "name": "result",
-          "width": 120,
-          "height": 20,
-          "x": 160,
-          "y": 192,
-          "locked": false
-        }
-      },
-      {
-        "type": "slider",
-        "data": {
-          "name": "minimumRand",
-          "min": -1000.0,
-          "max": 1000.0,
-          "value": 0.0,
-          "step": 1.0,
-          "prefix": "",
-          "suffix": "",
-          "width": 67,
-          "height": 20,
-          "x": 91,
-          "y": 171,
-          "locked": false
-        }
-      },
-      {
-        "type": "slider",
-        "data": {
-          "name": "maximumRand",
-          "min": -1000.0,
-          "max": 1000.0,
-          "value": 1000.0,
-          "step": 1.0,
-          "prefix": "",
-          "suffix": "",
-          "width": 67,
-          "height": 20,
-          "x": 160,
-          "y": 171,
-          "locked": false
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "name": "includedRand",
-          "text": "Inclusive",
-          "isCheckedProcedure": {
-            "name": "ReturnTrue"
-          },
-          "x": 230,
-          "y": 171,
-          "locked": false
-        }
-      },
-      {
         "type": "label",
         "data": {
           "name": "label_redstone_output",
@@ -335,8 +244,8 @@
             "value": -1,
             "falpha": 0.0
           },
-          "x": 91,
-          "y": 221,
+          "x": 94,
+          "y": 222,
           "locked": false
         }
       },
@@ -352,8 +261,8 @@
           "suffix": "",
           "width": 46,
           "height": 20,
-          "x": 178,
-          "y": 219,
+          "x": 179,
+          "y": 220,
           "locked": false
         }
       },
@@ -368,7 +277,7 @@
           },
           "width": 40,
           "height": 20,
-          "x": 227,
+          "x": 226,
           "y": 219,
           "locked": false
         }
@@ -384,7 +293,7 @@
           },
           "width": 56,
           "height": 20,
-          "x": 270,
+          "x": 267,
           "y": 219,
           "locked": false
         }
@@ -433,8 +342,8 @@
           },
           "width": 61,
           "height": 20,
-          "x": 213,
-          "y": 107,
+          "x": 212,
+          "y": 119,
           "locked": false
         }
       },
@@ -450,7 +359,7 @@
             "value": -256,
             "falpha": 0.0
           },
-          "x": 91,
+          "x": 93,
           "y": 230,
           "locked": false
         }
@@ -543,8 +452,8 @@
           },
           "width": 51,
           "height": 20,
-          "x": 285,
-          "y": 86,
+          "x": 212,
+          "y": 98,
           "locked": false
         }
       }

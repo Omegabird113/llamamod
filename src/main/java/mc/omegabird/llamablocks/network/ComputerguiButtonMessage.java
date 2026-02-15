@@ -65,25 +65,21 @@ public record ComputerguiButtonMessage(int buttonID, int x, int y, int z) implem
 		}
 		if (buttonID == 4) {
 
-			GenRandomNumberProcedureProcedure.execute(entity);
+			SetComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 5) {
 
-			SetComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z, entity);
+			SetRANDOMComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z);
 		}
 		if (buttonID == 6) {
 
-			SetRANDOMComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z);
+			CompsendmsgprocidureProcedure.execute(world, entity);
 		}
 		if (buttonID == 7) {
 
-			CompsendmsgprocidureProcedure.execute(world, entity);
-		}
-		if (buttonID == 8) {
-
 			ComputercalculateprocidureProcedure.execute(entity);
 		}
-		if (buttonID == 9) {
+		if (buttonID == 8) {
 
 			CompClearInventoryOfPlayerXProcedureProcedure.execute(world, entity);
 		}
