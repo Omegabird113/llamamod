@@ -18356,6 +18356,21 @@
         "files": []
       },
       "path": "~/Gamerules"
+    },
+    {
+      "name": "ReturnNOBETALlamaModVersionProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_nobeta_llama_mod_version_procedure",
+      "metadata": {
+        "dependencies": [],
+        "return_type": "string",
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ReturnNOBETALlamaModVersionProcedureProcedure.java"
+        ]
+      },
+      "path": "~/ABOUT"
     }
   ],
   "variable_elements": [],
@@ -20932,7 +20947,7 @@
   "workspaceSettings": {
     "modid": "llamamod",
     "modName": "LlamaBlocks",
-    "version": "1.2.1",
+    "version": "1.3.0.beta1",
     "description": "This is a mod i\u0027ve been working on, on and off, since the summer of 2022 using MCreator. It has a massive variety of interesting features that range from massive sets of building blocks with specific color variants, to the Computer block with a bunch of varied features, or specialized blocks like the Variable Light Block.",
     "author": "Omegabird113",
     "websiteURL": "https://modrinth.com/mod/llamablocks",

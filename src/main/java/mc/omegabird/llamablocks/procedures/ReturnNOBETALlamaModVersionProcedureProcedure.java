@@ -1,7 +1,7 @@
 package mc.omegabird.llamablocks.procedures;
 
-public class ReturnLlamaModVersionProcedureProcedure {
+public class ReturnNOBETALlamaModVersionProcedureProcedure {
 	public static String execute() {
-		return "v1.3.0beta1";
+		return "v1.3.0";
 	}
 }

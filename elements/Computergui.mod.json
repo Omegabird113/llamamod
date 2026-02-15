@@ -513,7 +513,7 @@
           "name": "label_v112",
           "text": {
             "fixedValue": "v1.2.0",
-            "name": "ReturnLlamaModVersionProcedure"
+            "name": "ReturnNOBETALlamaModVersionProcedure"
           },
           "color": {
             "value": -16777216,
