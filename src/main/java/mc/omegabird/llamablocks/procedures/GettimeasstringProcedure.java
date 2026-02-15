@@ -29,7 +29,7 @@ public class GettimeasstringProcedure {
 			twelve_hour_hour = Math.floor(twenty_four_hour_hour) - 12;
 			am_or_pm = "pm";
 		}
-		return new java.text.DecimalFormat("#0").format(twelve_hour_hour) + ":" + new java.text.DecimalFormat("00").format(Math.floor(minute)) + " " + am_or_pm + " (" + new java.text.DecimalFormat("#0.0").format(percentage_througth_day_night)
+		return new java.text.DecimalFormat("#0").format(twelve_hour_hour) + ":" + new java.text.DecimalFormat("00").format(Math.floor(minute)) + am_or_pm + " (" + new java.text.DecimalFormat("#0.0").format(percentage_througth_day_night)
 				+ "% through the " + (daytime < 12000 ? "day" : "night") + ")";
 	}
 }
