@@ -491,7 +491,7 @@
   "block.llamamod.banner.llamablocks_banner_pattern.yellow": "Yellow LlamaBlocks",
   "block.llamamod.banner.llamablocks_banner_pattern.orange": "Orange LlamaBlocks",
   "block.llamamod.banner.llamablocks_banner_pattern.red": "Red LlamaBlocks",
-  "gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw": "This lock doesn\u0027t",
+  "gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw": "This block doesn\u0027t",
   "gui.llamamod.passwordchangergui.label_a_password": "support passwords.",
   "item.llamamod.golden_banana_upgrade_template": "Golden Banana Upgrade Template",
   "gamerule.giveAllRecipes.description": "This controls whether all players are given all crafting recipes when they join.",
