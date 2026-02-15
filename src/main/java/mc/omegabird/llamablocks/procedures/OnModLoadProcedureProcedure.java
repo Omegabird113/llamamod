@@ -22,9 +22,10 @@ public class OnModLoadProcedureProcedure {
 
 	private static void execute(@Nullable Event event) {
 		LlamamodMod.LOGGER.info("LlamaBlocks (modid: \"llamamod\") loaded. Run \"/llamablocks about\" for more info.");
-		LlamamodMod.LOGGER.info("LlamaBlocks is made with MCreator, and therefore may have some extra performance issues or bugs.");
 		if (IsThisBetaProcedureProcedure.execute()) {
 			LlamamodMod.LOGGER.warn("WARNING: This is a BETA version of LlamaBlocks and may be unstable.");
 		}
+		LlamamodMod.LOGGER.info("LlamaBlocks is made with MCreator, and therefore may have some extra performance issues or bugs.");
+		LlamamodMod.LOGGER.debug(("LlamaBlocks is set to Minecraft Version: " + ReturnMinecraftVersionProcedureProcedure.execute()));
 	}
 }
