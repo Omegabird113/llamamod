@@ -116,7 +116,7 @@ public class ComputercalculateprocidureProcedure {
 			} else if ((operation).equals("LOG10")) {
 				result = "" + Math.log10(num1);
 			} else {
-				result = "Invalid operator";
+				result = "Invalid Operation";
 			}
 		}
 		return result;
