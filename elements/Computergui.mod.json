@@ -4,12 +4,22 @@
   "definition": {
     "type": 0,
     "width": 256,
-    "height": 200,
+    "height": 145,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
     "doesPauseGame": false,
     "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "logo_16_border.png",
+          "use1Xscale": true,
+          "x": 329,
+          "y": 53,
+          "locked": false
+        }
+      },
       {
         "type": "textfield",
         "data": {
@@ -17,8 +27,8 @@
           "name": "number1",
           "width": 120,
           "height": 20,
-          "x": 91,
-          "y": 33,
+          "x": 90,
+          "y": 61,
           "locked": false
         }
       },
@@ -29,8 +39,8 @@
           "name": "number2",
           "width": 120,
           "height": 20,
-          "x": 91,
-          "y": 54,
+          "x": 90,
+          "y": 82,
           "locked": false
         }
       },
@@ -41,8 +51,8 @@
           "name": "operation",
           "width": 120,
           "height": 20,
-          "x": 212,
-          "y": 33,
+          "x": 211,
+          "y": 61,
           "locked": false
         }
       },
@@ -57,8 +67,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 93,
-          "y": 25,
+          "x": 91,
+          "y": 53,
           "locked": false
         }
       },
@@ -74,7 +84,7 @@
           "width": 30,
           "height": 20,
           "x": 343,
-          "y": 20,
+          "y": 48,
           "locked": false
         }
       },
@@ -91,7 +101,7 @@
             "falpha": 0.0
           },
           "x": 117,
-          "y": 10,
+          "y": 39,
           "locked": false
         }
       },
@@ -106,8 +116,8 @@
             "value": -12829636,
             "falpha": 0.0
           },
-          "x": 93,
-          "y": 90,
+          "x": 92,
+          "y": 116,
           "locked": false
         }
       },
@@ -118,8 +128,8 @@
           "name": "player_name",
           "width": 120,
           "height": 20,
-          "x": 91,
-          "y": 98,
+          "x": 90,
+          "y": 124,
           "locked": false
         }
       },
@@ -137,8 +147,8 @@
           },
           "width": 46,
           "height": 20,
-          "x": 274,
-          "y": 119,
+          "x": 273,
+          "y": 145,
           "locked": false
         }
       },
@@ -156,8 +166,8 @@
           },
           "width": 46,
           "height": 20,
-          "x": 138,
-          "y": 140,
+          "x": 137,
+          "y": 168,
           "locked": false
         }
       },
@@ -172,8 +182,8 @@
           },
           "width": 46,
           "height": 20,
-          "x": 91,
-          "y": 140,
+          "x": 90,
+          "y": 168,
           "locked": false
         }
       },
@@ -184,8 +194,8 @@
           "name": "msg",
           "width": 120,
           "height": 20,
-          "x": 91,
-          "y": 119,
+          "x": 90,
+          "y": 145,
           "locked": false
         }
       },
@@ -201,7 +211,7 @@
             "falpha": 0.0
           },
           "x": 90,
-          "y": 10,
+          "y": 39,
           "locked": false
         }
       },
@@ -216,8 +226,8 @@
             "value": -1,
             "falpha": 0.0
           },
-          "x": 94,
-          "y": 222,
+          "x": 90,
+          "y": 195,
           "locked": false
         }
       },
@@ -234,7 +244,7 @@
           "width": 46,
           "height": 20,
           "x": 179,
-          "y": 220,
+          "y": 193,
           "locked": false
         }
       },
@@ -250,7 +260,7 @@
           "width": 40,
           "height": 20,
           "x": 226,
-          "y": 219,
+          "y": 193,
           "locked": false
         }
       },
@@ -266,7 +276,7 @@
           "width": 56,
           "height": 20,
           "x": 267,
-          "y": 219,
+          "y": 193,
           "locked": false
         }
       },
@@ -282,7 +292,7 @@
             "falpha": 0.0
           },
           "x": 90,
-          "y": 1,
+          "y": 30,
           "locked": false
         }
       },
@@ -298,8 +308,8 @@
             "value": -16742401,
             "falpha": 0.0
           },
-          "x": 136,
-          "y": 1,
+          "x": 132,
+          "y": 30,
           "locked": false
         }
       },
@@ -314,8 +324,8 @@
           },
           "width": 61,
           "height": 20,
-          "x": 212,
-          "y": 119,
+          "x": 211,
+          "y": 145,
           "locked": false
         }
       },
@@ -331,8 +341,8 @@
             "value": -256,
             "falpha": 0.0
           },
-          "x": 93,
-          "y": 230,
+          "x": 90,
+          "y": 203,
           "locked": false
         }
       },
@@ -348,18 +358,8 @@
             "value": -16777216,
             "falpha": 0.0
           },
-          "x": 304,
-          "y": 25,
-          "locked": false
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "logo_16_border.png",
-          "use1Xscale": true,
-          "x": 329,
-          "y": 24,
+          "x": 305,
+          "y": 54,
           "locked": false
         }
       },
@@ -377,8 +377,8 @@
           "displayCondition": {
             "name": "IsThisBetaProcedure"
           },
-          "x": 316,
-          "y": 10,
+          "x": 313,
+          "y": 39,
           "locked": false
         }
       },
@@ -389,8 +389,8 @@
           "name": "calculator_result",
           "width": 120,
           "height": 20,
-          "x": 212,
-          "y": 54,
+          "x": 211,
+          "y": 82,
           "locked": false
         }
       },
@@ -405,8 +405,8 @@
           },
           "width": 72,
           "height": 20,
-          "x": 212,
-          "y": 75,
+          "x": 258,
+          "y": 102,
           "locked": false
         }
       },
@@ -424,8 +424,8 @@
           },
           "width": 103,
           "height": 20,
-          "x": 212,
-          "y": 98,
+          "x": 211,
+          "y": 124,
           "locked": false
         }
       }
