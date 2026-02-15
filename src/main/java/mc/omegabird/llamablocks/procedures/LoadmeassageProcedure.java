@@ -14,7 +14,7 @@ public class LoadmeassageProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
-			_menu.sendMenuStateUpdate(_player, 0, "msgbox", (getBlockNBTString(world, BlockPos.containing(x, y, z), "msg")), true);
+			_menu.sendMenuStateUpdate(_player, 0, "msg", (getBlockNBTString(world, BlockPos.containing(x, y, z), "msg")), true);
 		LlamamodMod.LOGGER.debug(("Loaded message \"" + "" + getBlockNBTString(world, BlockPos.containing(x, y, z), "msg") + "\" to Computer at (" + x + ", " + y + ", " + z + ")"));
 	}
 

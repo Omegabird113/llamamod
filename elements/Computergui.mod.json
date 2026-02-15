@@ -143,34 +143,6 @@
         }
       },
       {
-        "type": "label",
-        "data": {
-          "name": "label_meassage",
-          "text": {
-            "fixedValue": "Stored Message:"
-          },
-          "color": {
-            "value": -12829636,
-            "falpha": 0.0
-          },
-          "x": 93,
-          "y": 143,
-          "locked": false
-        }
-      },
-      {
-        "type": "textfield",
-        "data": {
-          "placeholder": "Enter text here",
-          "name": "msgbox",
-          "width": 120,
-          "height": 20,
-          "x": 91,
-          "y": 151,
-          "locked": false
-        }
-      },
-      {
         "type": "button",
         "data": {
           "name": "button_load",
@@ -184,8 +156,8 @@
           },
           "width": 46,
           "height": 20,
-          "x": 259,
-          "y": 151,
+          "x": 138,
+          "y": 140,
           "locked": false
         }
       },
@@ -200,8 +172,8 @@
           },
           "width": 46,
           "height": 20,
-          "x": 212,
-          "y": 151,
+          "x": 91,
+          "y": 140,
           "locked": false
         }
       },
@@ -441,16 +413,16 @@
       {
         "type": "button",
         "data": {
-          "name": "button_clear",
-          "text": "Clear",
+          "name": "button_clear_inventory",
+          "text": "Clear Inventory",
           "isUndecorated": false,
           "onClick": {
-            "name": "CompClearInventoryOfPlayerXProcedure"
+            "name": "CompkillplayerXprocedure"
           },
           "displayCondition": {
             "name": "ComputerPlayerManagementPermissionCheck"
           },
-          "width": 51,
+          "width": 103,
           "height": 20,
           "x": 212,
           "y": 98,
