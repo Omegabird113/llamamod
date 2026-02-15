@@ -17,6 +17,7 @@ public class AuthblockupdateprocedureProcedure {
 				if (_bs.getBlock().getStateDefinition().getProperty("powered") instanceof BooleanProperty _booleanProp)
 					world.setBlock(_pos, _bs.setValue(_booleanProp, false), 3);
 			}
+		} else {
 			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") is powered as of tick: " + world.dayTime()));
 		}
 	}
