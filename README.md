@@ -114,12 +114,16 @@ The [Secure Storage Block](#the-secure-storage-block), [Computer](#the-computer)
 2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamaBlocks.
 > More specifically, passwords are stored in a NBT text tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
 
+![This shows the UI of the Password changer being used to change a sample block's password.](https://cdn.modrinth.com/data/cached_images/521c9c8838c4b49edaf5008d1d5dfa1560ae33ac.jpeg)
+
 #### The Secure Storage Block
 
 This is like a barrel, but:
 - It has `7` rows of items
 - There is a button which deletes all items, though there's a checkbox on whether or not to show that button in order to prevent accidental deletions
 - It supports having passwords with the [Password System](#the-password-system)
+
+![This shows a Secure Storage Block's UI with a bunch of items in it.](https://cdn.modrinth.com/data/cached_images/4b23d8becca8ca368aa103337e5704d2cc9be8c9.jpeg)
 
 #### The Authenticator
 
@@ -142,6 +146,8 @@ The complex offers a variety of features for information, math, player managemen
 - Players can set a redstone output between 0 and 15, and they can choose to have the computer pick a random power output between 0 and 15.
 - It shows a list of the names of every player connected to a world/server.
 
+![This shows the Computer UI as of v1.2.0, with a calculator, redstone output selector, random number generator, player management controls, in-game time, player list, LlamaBlocks version, and message loading/saving.](https://cdn.modrinth.com/data/cached_images/83a8dc9f58808e295b15323dfc782b793afd8463.png)
+
 ### The Backpacks
 
 The Backpacks are items which store items like a chest, but are kept in your inventory instead of being placed as a block.
@@ -160,6 +166,8 @@ The Netherite backpack is an upgrade to the backpack which:
 ### The Variable Light
 
 This is a block which, when a block next to it is updated, will set the light level it produces to the maximum redstone power going into the block.
+
+![This showcases Cherry walls, Industrial floor/ceiling, and mood mood lighting with the Variable light with no shaders.](https://cdn.modrinth.com/data/cached_images/563992bdd456b962c393e0771959f22365f5d028.jpeg)
 
 ### Game Rules
 **TBD**
