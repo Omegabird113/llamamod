@@ -508,5 +508,21 @@
   "block.llamamod.computer.playernamenotfounderror": "ERROR: Player mame not found",
   "gui.llamamod.computergui.button_clear": "Clear",
   "gui.llamamod.computergui.button_calculate": "Calculate",
-  "gui.llamamod.computergui.calculator_result": "Result"
+  "gui.llamamod.computergui.calculator_result": "Result",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.orange": "Orange Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.light_gray": "Light Gray Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.white": "White Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.black": "Black Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.red": "Red Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.gray": "Gray Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.green": "Green Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.cyan": "Cyan Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.light_blue": "Light Blue Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.magenta": "Magenta Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.purple": "Purple Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.blue": "Blue Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.brown": "Brown Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.pink": "Pink Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.lime": "Lime Reverse LlamaBlocks",
+  "block.llamamod.banner.reverse_llamablocks_banner_pattern.yellow": "Yellow Reverse LlamaBlocks"
 }

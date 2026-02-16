@@ -1,0 +1,10 @@
+{
+  "_fv": 79,
+  "_type": "bannerpattern",
+  "definition": {
+    "texture": "reversed_llamablocks_banner_pattern",
+    "shieldTexture": "reverse_llamablocks_banner_pattern_sheild",
+    "name": "Reverse LlamaBlocks",
+    "requireItem": false
+  }
+}

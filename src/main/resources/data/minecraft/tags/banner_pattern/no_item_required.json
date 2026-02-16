@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "llamamod:llamablocks_banner_pattern"
+    "llamamod:llamablocks_banner_pattern",
+    "llamamod:reverse_llamablocks_banner_pattern"
   ]
 }
