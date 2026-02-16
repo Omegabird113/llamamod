@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_stairs",
-    "minecraft:pink_dye",
-    "minecraft:red_dye"
+    {
+      "tag": "llamamod:brick_stairs"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cherry_brick_stair",

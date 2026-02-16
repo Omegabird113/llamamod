@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_buttons",
-    "minecraft:pink_dye"
+    {
+      "tag": "llamamod:brick_buttons"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    }
   ],
   "result": {
     "id": "llamamod:pink_brick_button",

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_pressure_plates",
-    "minecraft:light_blue_dye"
+    {
+      "tag": "llamamod:brick_pressure_plates"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:light_blue_brick_pressure_plate",

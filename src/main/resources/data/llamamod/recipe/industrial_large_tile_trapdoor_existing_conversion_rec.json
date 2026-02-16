@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_trapdoors",
-    "minecraft:copper_ingot",
-    "minecraft:iron_ingot"
+    {
+      "tag": "llamamod:large_tile_trapdoors"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
   ],
   "result": {
     "id": "llamamod:industrial_large_tile_trapdoor",

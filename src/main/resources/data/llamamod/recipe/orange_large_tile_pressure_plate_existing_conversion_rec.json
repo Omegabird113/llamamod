@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_pressure_plate",
-    "minecraft:orange_dye"
+    {
+      "tag": "llamamod:large_tile_pressure_plate"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
   ],
   "result": {
     "id": "llamamod:orange_large_tile_pressure_plate",

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tile_fence",
-    "minecraft:blue_dye"
+    {
+      "tag": "llamamod:large_tile_fence"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:blue_large_tile_fence",

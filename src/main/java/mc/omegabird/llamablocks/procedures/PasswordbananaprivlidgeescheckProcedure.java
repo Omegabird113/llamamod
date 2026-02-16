@@ -11,7 +11,7 @@ public class PasswordbananaprivlidgeescheckProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if (getEntityGameType(entity) == GameType.CREATIVE && entity instanceof Player _playerCmd1 && _playerCmd1.hasPermissions(3)) {
+		if (getEntityGameType(entity) == GameType.CREATIVE && entity.hasPermissions(3)) {
 			return true;
 		}
 		return false;

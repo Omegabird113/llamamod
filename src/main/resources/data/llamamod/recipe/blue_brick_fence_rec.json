@@ -6,8 +6,12 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:blue_bricks",
-    "b": "minecraft:stick"
+    "a": {
+      "item": "llamamod:blue_bricks"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
     "id": "llamamod:blue_brick_fence",

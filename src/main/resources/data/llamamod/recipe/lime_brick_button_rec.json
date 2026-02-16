@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:lime_bricks"
+    {
+      "item": "llamamod:lime_bricks"
+    }
   ],
   "result": {
     "id": "llamamod:lime_brick_button",

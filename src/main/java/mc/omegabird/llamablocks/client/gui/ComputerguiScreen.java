@@ -1,6 +1,6 @@
 package mc.omegabird.llamablocks.client.gui;
 
-import net.neoforged.neoforge.client.network.ClientPacketDistributor;
+import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.client.gui.widget.ExtendedSlider;
 
 import net.minecraft.world.level.Level;
@@ -8,7 +8,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
@@ -19,6 +18,8 @@ import mc.omegabird.llamablocks.world.inventory.ComputerguiMenu;
 import mc.omegabird.llamablocks.procedures.*;
 import mc.omegabird.llamablocks.network.ComputerguiButtonMessage;
 import mc.omegabird.llamablocks.init.LlamamodModScreens;
+
+import com.mojang.blaze3d.systems.RenderSystem;
 
 public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
@@ -93,8 +94,12 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png"), this.leftPos + 243, this.topPos + 5, 0, 0, 8, 8, 8, 8);
+		RenderSystem.setShaderColor(1, 1, 1, 1);
+		RenderSystem.enableBlend();
+		RenderSystem.defaultBlendFunc();
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png"), this.leftPos + 243, this.topPos + 5, 0, 0, 8, 8, 8, 8);
+		RenderSystem.disableBlend();
 	}
 
 	@Override
@@ -210,7 +215,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(0, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(0, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 257, this.topPos + 0, 30, 20).build();
@@ -219,7 +224,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(1, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(1, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 187, this.topPos + 97, 46, 20).build();
@@ -228,7 +233,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (CompmsgnotblankProcedure.execute(world, x, y, z)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}).bounds(this.leftPos + 51, this.topPos + 120, 46, 20).build();
@@ -237,7 +242,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
 		}).bounds(this.leftPos + 4, this.topPos + 120, 46, 20).build();
@@ -246,7 +251,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}).bounds(this.leftPos + 140, this.topPos + 145, 40, 20).build();
@@ -255,7 +260,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
 		}).bounds(this.leftPos + 181, this.topPos + 145, 56, 20).build();
@@ -264,7 +269,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 97, 61, 20).build();
@@ -273,7 +278,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}).bounds(this.leftPos + 172, this.topPos + 54, 72, 20).build();
@@ -282,7 +287,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(8, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(8, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 8, x, y, z);
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 76, 103, 20).build();

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:large_tiles",
-    "minecraft:black_dye"
+    {
+      "tag": "llamamod:large_tiles"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
   ],
   "result": {
     "id": "llamamod:black_large_tile",

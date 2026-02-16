@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:brick_fences",
-    "minecraft:magenta_dye"
+    {
+      "tag": "llamamod:brick_fences"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
   ],
   "result": {
     "id": "llamamod:purple_large_tile_fence",

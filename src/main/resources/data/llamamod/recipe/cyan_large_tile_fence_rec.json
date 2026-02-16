@@ -6,8 +6,12 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:cyan_large_tile",
-    "b": "minecraft:stick"
+    "a": {
+      "item": "llamamod:cyan_large_tile"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
     "id": "llamamod:cyan_large_tile_fence",
