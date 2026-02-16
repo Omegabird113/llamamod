@@ -20654,7 +20654,7 @@
       "block.llamamod.banner.reverse_llamablocks_banner_pattern.yellow": "Yellow Reverse LlamaBlocks",
       "death.attack.computer_player_management_damage.item": "%1$s was killed by %2$s using a %3$s",
       "death.attack.computer_player_management_damage.player": "%1$s was killed by an operator using a computer whilst trying to escape %2$s",
-      "death.attack.computer_player_management_damage": "%1$s was killed by an %2$s using a computer"
+      "death.attack.computer_player_management_damage": "%1$s was killed by %2$s using a computer"
     }
   },
   "metadata": {
