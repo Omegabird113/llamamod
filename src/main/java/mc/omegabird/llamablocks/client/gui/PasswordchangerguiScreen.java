@@ -118,7 +118,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 16, -17, -256, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 16, -9, -256, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 103, 4, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 131, 0, -65536, false);
 		if (ReturnIfBlockDoesNotSupportsPasswordSystemProcedure.execute(world, x, y, z))
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw"), 16, -36, -42406, false);
 		if (ReturnIfBlockDoesNotSupportsPasswordSystemProcedure.execute(world, x, y, z))
