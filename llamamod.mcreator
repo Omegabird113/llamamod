@@ -18395,6 +18395,19 @@
           "src/main/resources/data/llamamod/banner_pattern/reverse_llamablocks_banner_pattern.json"
         ]
       }
+    },
+    {
+      "name": "ComputerPlayerManagementDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computer_player_management_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/damage_type/computer_player_management_damage.json"
+        ]
+      },
+      "path": "~/Blocks/Computer"
     }
   ],
   "variable_elements": [],
@@ -20638,7 +20651,10 @@
       "block.llamamod.banner.reverse_llamablocks_banner_pattern.brown": "Brown Reverse LlamaBlocks",
       "block.llamamod.banner.reverse_llamablocks_banner_pattern.pink": "Pink Reverse LlamaBlocks",
       "block.llamamod.banner.reverse_llamablocks_banner_pattern.lime": "Lime Reverse LlamaBlocks",
-      "block.llamamod.banner.reverse_llamablocks_banner_pattern.yellow": "Yellow Reverse LlamaBlocks"
+      "block.llamamod.banner.reverse_llamablocks_banner_pattern.yellow": "Yellow Reverse LlamaBlocks",
+      "death.attack.computer_player_management_damage.item": "%1$s was killed by %2$s using a %3$s",
+      "death.attack.computer_player_management_damage.player": "%1$s was killed by an operator using a computer whilst trying to escape %2$s",
+      "death.attack.computer_player_management_damage": "%1$s was killed by an %2$s using a computer"
     }
   },
   "metadata": {

@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 100.0,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "%1$s was killed by an %2$s using a computer",
+    "itemDeathMessage": "%1$s was killed by %2$s using a %3$s",
+    "playerDeathMessage": "%1$s was killed by an operator using a computer whilst trying to escape %2$s"
+  }
+}

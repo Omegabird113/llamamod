@@ -3,10 +3,11 @@ package mc.omegabird.llamablocks.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.network.chat.Component;
-import net.minecraft.commands.CommandSourceStack;
-import net.minecraft.commands.CommandSource;
+import net.minecraft.core.registries.Registries;
 
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
 
@@ -28,13 +29,7 @@ public class CompkillplayerXprocedureProcedure {
 			if (player_to_msg instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal((Component.translatable("block.llamamod.computer.playernamenotfounderror").getString())), false);
 		} else {
-			{
-				Entity _ent = entity;
-				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), ("/kill " + player_to_msg.getDisplayName().getString()));
-				}
-			}
+			player_to_msg.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:computer_player_management_damage"))), entity), 1000000);
 		}
 	}
 }
