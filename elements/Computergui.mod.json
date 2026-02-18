@@ -393,6 +393,25 @@
           "y": 124,
           "locked": false
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_clear_textboxes",
+          "text": "Clear Textboxes",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ComputerguiClearTextboxes"
+          },
+          "displayCondition": {
+            "name": "ReturnComputerguiClearTextboxesButtonDisplayCondition"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 90,
+          "y": 167,
+          "locked": false
+        }
       }
     ],
     "onOpen": {

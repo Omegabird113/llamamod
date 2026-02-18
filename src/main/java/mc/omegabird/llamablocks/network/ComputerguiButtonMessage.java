@@ -75,6 +75,10 @@ public record ComputerguiButtonMessage(int buttonID, int x, int y, int z) implem
 
 			CompClearInventoryOfPlayerXProcedureProcedure.execute(world, entity);
 		}
+		if (buttonID == 7) {
+
+			ComputerguiClearTextboxesProcedure.execute(entity);
+		}
 	}
 
 	@SubscribeEvent

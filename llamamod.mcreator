@@ -18408,6 +18408,45 @@
         ]
       },
       "path": "~/Blocks/Computer"
+    },
+    {
+      "name": "ComputerguiClearTextboxes",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computergui_clear_textboxes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ComputerguiClearTextboxesProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Computer"
+    },
+    {
+      "name": "ReturnComputerguiClearTextboxesButtonDisplayCondition",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_computergui_clear_textboxes_button_display_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "return_type": "logic",
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ReturnComputerguiClearTextboxesButtonDisplayConditionProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Computer"
     }
   ],
   "variable_elements": [],
@@ -20654,7 +20693,8 @@
       "block.llamamod.banner.reverse_llamablocks_banner_pattern.yellow": "Yellow Reverse LlamaBlocks",
       "death.attack.computer_player_management_damage.item": "%1$s was killed by %2$s using a %3$s",
       "death.attack.computer_player_management_damage.player": "%1$s was killed by an operator using a computer whilst trying to escape %2$s",
-      "death.attack.computer_player_management_damage": "%1$s was killed by %2$s using a computer"
+      "death.attack.computer_player_management_damage": "%1$s was killed by %2$s using a computer",
+      "gui.llamamod.computergui.button_clear_textboxes": "Clear Textboxes"
     }
   },
   "metadata": {

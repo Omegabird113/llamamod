@@ -38,6 +38,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	private Button button_message;
 	private Button button_calculate;
 	private Button button_clear_inventory;
+	private Button button_clear_textboxes;
 	private ExtendedSlider power_output;
 
 	public ComputerguiScreen(ComputerguiMenu container, Inventory inventory, Component text) {
@@ -267,6 +268,15 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 76, 103, 20).build();
 		this.addRenderableWidget(button_clear_inventory);
+		button_clear_textboxes = Button.builder(Component.translatable("gui.llamamod.computergui.button_clear_textboxes"), e -> {
+			int x = ComputerguiScreen.this.x;
+			int y = ComputerguiScreen.this.y;
+			if (ReturnComputerguiClearTextboxesButtonDisplayConditionProcedure.execute(entity)) {
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
+			}
+		}).bounds(this.leftPos + 4, this.topPos + 119, 103, 20).build();
+		this.addRenderableWidget(button_clear_textboxes);
 		power_output = new ExtendedSlider(this.leftPos + 93, this.topPos + 145, 46, 20, Component.translatable("gui.llamamod.computergui.power_output_prefix"), Component.translatable("gui.llamamod.computergui.power_output_suffix"), 0, 15, 0, 1, 0,
 				true) {
 			@Override
@@ -285,5 +295,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		super.containerTick();
 		this.button_kill.visible = ComputerPlayerManagementPermissionCheckProcedure.execute(entity);
 		this.button_clear_inventory.visible = ComputerPlayerManagementPermissionCheckProcedure.execute(entity);
+		this.button_clear_textboxes.visible = ReturnComputerguiClearTextboxesButtonDisplayConditionProcedure.execute(entity);
 	}
 }
