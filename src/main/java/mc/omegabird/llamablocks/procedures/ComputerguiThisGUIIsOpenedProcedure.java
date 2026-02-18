@@ -33,7 +33,7 @@ public class ComputerguiThisGUIIsOpenedProcedure {
 		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "calculator_result", (getBlockNBTString(world, BlockPos.containing(x, y, z), "calculator_result")), true);
 		{
-			BlockPos _bp = BlockPos.containing(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y + 1, z);
 			BlockState _bs = Blocks.REINFORCED_DEEPSLATE.defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Property<?> _propertyOld : _bso.getProperties()) {
@@ -62,7 +62,7 @@ public class ComputerguiThisGUIIsOpenedProcedure {
 			}
 		}
 		{
-			BlockPos _bp = BlockPos.containing(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y + 1, z);
 			BlockState _bs = oldBlock;
 			BlockState _bso = world.getBlockState(_bp);
 			for (Property<?> _propertyOld : _bso.getProperties()) {
