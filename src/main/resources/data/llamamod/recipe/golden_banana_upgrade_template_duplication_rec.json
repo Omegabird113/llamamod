@@ -6,10 +6,10 @@
     "minecraft:gold_ingot",
     "minecraft:gold_ingot",
     "minecraft:gold_ingot",
-    "llamamod:golden_banana_upgrade_template"
+    "llamamod:golden_banana_upgrade"
   ],
   "result": {
-    "id": "llamamod:golden_banana_upgrade_template",
+    "id": "llamamod:golden_banana_upgrade",
     "count": 3
   }
 }

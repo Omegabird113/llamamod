@@ -493,7 +493,6 @@
   "block.llamamod.banner.llamablocks_banner_pattern.red": "Red LlamaBlocks",
   "gui.llamamod.passwordchangergui.label_this_block_doesnt_support_passw": "This block doesn\u0027t",
   "gui.llamamod.passwordchangergui.label_a_password": "support passwords.",
-  "item.llamamod.golden_banana_upgrade_template": "Golden Banana Upgrade Template",
   "gamerule.giveAllRecipes.description": "This controls whether all players are given all crafting recipes when they join.",
   "gamerule.giveAllRecipes": "[LlamaBlocks] Give Players All Recipes After Joining",
   "gamerule.allowItemDeletion": "[LlamaBlocks] Allow Item Deletion Buttons to Function",
@@ -528,5 +527,7 @@
   "death.attack.computer_player_management_damage.item": "%1$s was killed by %2$s using a %3$s",
   "death.attack.computer_player_management_damage.player": "%1$s was killed by an operator using a computer whilst trying to escape %2$s",
   "death.attack.computer_player_management_damage": "%1$s was killed by %2$s using a computer",
-  "gui.llamamod.computergui.button_clear_textboxes": "Clear Textboxes"
+  "gui.llamamod.computergui.button_clear_textboxes": "Clear Textboxes",
+  "item.llamamod.golden_banana_upgrade_template.description_0": "Smithing Template",
+  "item.llamamod.golden_banana_upgrade": "Golden Banana Upgrade"
 }
