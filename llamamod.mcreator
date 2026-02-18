@@ -19783,6 +19783,18 @@
       "CUSTOM:Authenticatorblock",
       "CUSTOM:Securestorageblock",
       "CUSTOM:Computer"
+    ],
+    "BLOCKS:minecraft:dirt": [],
+    "BLOCKS:minecraft:sand": [],
+    "BLOCKS:minecraft:logs": [],
+    "BIOMES:minecraft:is_overworld": [],
+    "DAMAGE_TYPES:minecraft:bypasses_armor": [
+      "CUSTOM:Aciddrowning",
+      "CUSTOM:ComputerPlayerManagementDamage"
+    ],
+    "DAMAGE_TYPES:minecraft:bypasses_enchantments": [
+      "CUSTOM:Aciddrowning",
+      "CUSTOM:ComputerPlayerManagementDamage"
     ]
   },
   "tab_element_order": {
