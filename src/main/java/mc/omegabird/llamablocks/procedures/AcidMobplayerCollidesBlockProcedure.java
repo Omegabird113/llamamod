@@ -4,13 +4,13 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffectInstance;
 
-import mc.omegabird.llamablocks.init.LlamamodModMobEffects;
+import mc.omegabird.llamablocks.init.LlamablocksModMobEffects;
 
 public class AcidMobplayerCollidesBlockProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_DISSOLVING, 150, 0, true, true));
+			_entity.addEffect(new MobEffectInstance(LlamablocksModMobEffects.ACID_DISSOLVING, 150, 0, true, true));
 	}
 }

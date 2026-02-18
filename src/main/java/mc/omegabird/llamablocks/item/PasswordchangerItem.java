@@ -8,7 +8,7 @@ import net.minecraft.world.InteractionResult;
 
 import mc.omegabird.llamablocks.procedures.PasswordbananaprivlidgeescheckProcedure;
 import mc.omegabird.llamablocks.procedures.OpenpasswordchangerguiprocedureProcedure;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 public class PasswordchangerItem extends Item {
 	public PasswordchangerItem(Item.Properties properties) {
@@ -17,7 +17,7 @@ public class PasswordchangerItem extends Item {
 
 	@Override
 	public boolean isFoil(ItemStack itemstack) {
-		Entity entity = LlamamodMod.clientPlayer();
+		Entity entity = LlamablocksMod.clientPlayer();
 		return PasswordbananaprivlidgeescheckProcedure.execute(entity);
 	}
 

@@ -4,12 +4,12 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 public class CompmsgnotblankProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {
 		if (!(getBlockNBTString(world, BlockPos.containing(x, y, z), "msg")).equals("")) {
-			LlamamodMod.LOGGER.debug(("There is a message saved in Computer at (" + x + ", " + y + ", " + z + "). The Load button is displayed as of tick: " + world.dayTime()));
+			LlamablocksMod.LOGGER.debug(("There is a message saved in Computer at (" + x + ", " + y + ", " + z + "). The Load button is displayed as of tick: " + world.dayTime()));
 			return true;
 		}
 		return false;

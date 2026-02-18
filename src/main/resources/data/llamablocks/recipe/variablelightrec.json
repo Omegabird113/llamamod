@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": "#c:stones",
+    "b": "#llamablocks:torches",
+    "c": "minecraft:iron_ingot",
+    "d": "#llamablocks:large_tiles",
+    "e": "minecraft:comparator"
+  },
+  "result": {
+    "id": "llamablocks:variable_light",
+    "count": 1
+  }
+}

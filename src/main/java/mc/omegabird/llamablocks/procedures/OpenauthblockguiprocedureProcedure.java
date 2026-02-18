@@ -15,7 +15,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.AuthblockauthguiMenu;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -43,9 +43,9 @@ public class OpenauthblockguiprocedureProcedure {
 					}
 				}, _bpos);
 			}
-			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") clicked on a CORRECT FACE. Auth Block UI opened " + direction));
+			LlamablocksMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") clicked on a CORRECT FACE. Auth Block UI opened " + direction));
 		} else {
-			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") clicked on a INCORRECT FACE " + direction));
+			LlamablocksMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") clicked on a INCORRECT FACE " + direction));
 		}
 	}
 

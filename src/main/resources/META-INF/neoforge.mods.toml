@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
-modId="llamamod"
+modId="llamablocks"
 version="1.3.0.1"
 displayName="LlamaBlocks"
 updateJSONURL="https://raw.githubusercontent.com/Omegabird113/llamamod/refs/heads/master/updates.json"
@@ -20,14 +20,14 @@ description="This is a mod i've been working on, on and off, since the summer of
 # Start of user code block custom mixins
 # End of user code block custom mixins
 
-[[dependencies.llamamod]]
+[[dependencies.llamablocks]]
     modId="neoforge"
     type="required"
     versionRange="[21.8.31,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.llamamod]]
+[[dependencies.llamablocks]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.8]"

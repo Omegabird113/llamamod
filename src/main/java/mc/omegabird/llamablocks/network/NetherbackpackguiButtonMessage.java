@@ -17,12 +17,12 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.XbuttonprocidureProcedure;
 import mc.omegabird.llamablocks.procedures.ClearnetherpackprocidureProcedure;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 @EventBusSubscriber
 public record NetherbackpackguiButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<NetherbackpackguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "netherbackpackgui_buttons"));
+	public static final Type<NetherbackpackguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamablocksMod.MODID, "netherbackpackgui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, NetherbackpackguiButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, NetherbackpackguiButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
@@ -60,6 +60,6 @@ public record NetherbackpackguiButtonMessage(int buttonID, int x, int y, int z) 
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(NetherbackpackguiButtonMessage.TYPE, NetherbackpackguiButtonMessage.STREAM_CODEC, NetherbackpackguiButtonMessage::handleData);
+		LlamablocksMod.addNetworkMessage(NetherbackpackguiButtonMessage.TYPE, NetherbackpackguiButtonMessage.STREAM_CODEC, NetherbackpackguiButtonMessage::handleData);
 	}
 }

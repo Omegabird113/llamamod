@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamablocks:lime_bricks"
+  },
+  "result": {
+    "id": "llamablocks:lime_brick_slab",
+    "count": 6
+  }
+}

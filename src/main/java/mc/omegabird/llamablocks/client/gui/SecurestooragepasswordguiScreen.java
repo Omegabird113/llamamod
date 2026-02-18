@@ -17,9 +17,9 @@ import net.minecraft.client.Minecraft;
 import mc.omegabird.llamablocks.world.inventory.SecurestooragepasswordguiMenu;
 import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.SecurestooragepasswordguiButtonMessage;
-import mc.omegabird.llamablocks.init.LlamamodModScreens;
+import mc.omegabird.llamablocks.init.LlamablocksModScreens;
 
-public class SecurestooragepasswordguiScreen extends AbstractContainerScreen<SecurestooragepasswordguiMenu> implements LlamamodModScreens.ScreenAccessor {
+public class SecurestooragepasswordguiScreen extends AbstractContainerScreen<SecurestooragepasswordguiMenu> implements LlamablocksModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -49,7 +49,7 @@ public class SecurestooragepasswordguiScreen extends AbstractContainerScreen<Sec
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/securestooragepasswordgui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("llamablocks:textures/screens/securestooragepasswordgui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -83,24 +83,24 @@ public class SecurestooragepasswordguiScreen extends AbstractContainerScreen<Sec
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.securestooragepasswordgui.label_secure_stoorage_block"), 5, 4, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.securestooragepasswordgui.label_enter_password"), 5, 15, -16777016, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.securestooragepasswordgui.label_secure_stoorage_block"), 5, 4, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.securestooragepasswordgui.label_enter_password"), 5, 15, -16777016, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.securestooragepasswordgui.label_beta"), 2, -11, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.securestooragepasswordgui.label_beta"), 2, -11, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		password = new EditBox(this.font, this.leftPos + 6, this.topPos + 26, 118, 18, Component.translatable("gui.llamamod.securestooragepasswordgui.password"));
+		password = new EditBox(this.font, this.leftPos + 6, this.topPos + 26, 118, 18, Component.translatable("gui.llamablocks.securestooragepasswordgui.password"));
 		password.setMaxLength(8192);
 		password.setResponder(content -> {
 			if (!menuStateUpdateActive)
 				menu.sendMenuStateUpdate(entity, 0, "password", content, false);
 		});
-		password.setHint(Component.translatable("gui.llamamod.securestooragepasswordgui.password"));
+		password.setHint(Component.translatable("gui.llamablocks.securestooragepasswordgui.password"));
 		this.addWidget(this.password);
-		button_submit = Button.builder(Component.translatable("gui.llamamod.securestooragepasswordgui.button_submit"), e -> {
+		button_submit = Button.builder(Component.translatable("gui.llamablocks.securestooragepasswordgui.button_submit"), e -> {
 			int x = SecurestooragepasswordguiScreen.this.x;
 			int y = SecurestooragepasswordguiScreen.this.y;
 			if (true) {
@@ -109,7 +109,7 @@ public class SecurestooragepasswordguiScreen extends AbstractContainerScreen<Sec
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 48, 56, 20).build();
 		this.addRenderableWidget(button_submit);
-		button_x = Button.builder(Component.translatable("gui.llamamod.securestooragepasswordgui.button_x"), e -> {
+		button_x = Button.builder(Component.translatable("gui.llamablocks.securestooragepasswordgui.button_x"), e -> {
 			int x = SecurestooragepasswordguiScreen.this.x;
 			int y = SecurestooragepasswordguiScreen.this.y;
 			if (true) {

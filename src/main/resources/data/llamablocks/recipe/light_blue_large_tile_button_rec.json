@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:light_blue_large_tile"
+  ],
+  "result": {
+    "id": "llamablocks:light_blue_large_tile_button",
+    "count": 10
+  }
+}

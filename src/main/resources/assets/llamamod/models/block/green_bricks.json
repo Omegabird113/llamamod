@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "llamamod:block/green_brick",
-    "particle": "llamamod:block/green_brick"
-  },
-  "render_type": "solid"
-}

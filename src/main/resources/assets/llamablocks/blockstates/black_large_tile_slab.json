@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamablocks:block/black_large_tile_slab"
+    },
+    "type=top": {
+      "model": "llamablocks:block/black_large_tile_slab_top"
+    },
+    "type=double": {
+      "model": "llamablocks:block/black_large_tile_slab_full"
+    }
+  }
+}

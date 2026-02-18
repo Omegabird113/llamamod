@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "llamablocks:red_bricks",
+    "b": "minecraft:stick"
+  },
+  "result": {
+    "id": "llamablocks:red_brick_fence",
+    "count": 8
+  }
+}

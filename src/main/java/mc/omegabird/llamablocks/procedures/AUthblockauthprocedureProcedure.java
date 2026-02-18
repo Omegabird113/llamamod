@@ -16,8 +16,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -31,7 +31,7 @@ public class AUthblockauthprocedureProcedure {
 			if (_bs.getBlock().getStateDefinition().getProperty("powered") instanceof BooleanProperty _booleanProp)
 				world.setBlock(_pos, _bs.setValue(_booleanProp, false), 3);
 		}
-		if (((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "password", "") : "")
+		if (((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "password", "") : "")
 				.equals(getBlockNBTString(world, BlockPos.containing(x, y, z), "access_password"))) {
 			{
 				BlockPos _pos = BlockPos.containing(x, y, z);
@@ -51,7 +51,7 @@ public class AUthblockauthprocedureProcedure {
 			}
 			if (entity instanceof Player _player)
 				_player.closeContainer();
-			LlamamodMod.LOGGER.debug(("Authenticator block at (" + x + ", " + y + ", " + z + ") succeeded to Authenticate."));
+			LlamablocksMod.LOGGER.debug(("Authenticator block at (" + x + ", " + y + ", " + z + ") succeeded to Authenticate."));
 		} else {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -72,7 +72,7 @@ public class AUthblockauthprocedureProcedure {
 					}
 				}, _bpos);
 			}
-			LlamamodMod.LOGGER.debug(("Authenticator block at (" + x + ", " + y + ", " + z + ") FAILED to Authenticate."));
+			LlamablocksMod.LOGGER.debug(("Authenticator block at (" + x + ", " + y + ", " + z + ") FAILED to Authenticate."));
 		}
 	}
 

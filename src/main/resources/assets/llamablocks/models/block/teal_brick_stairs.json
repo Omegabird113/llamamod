@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "llamablocks:block/teal_bricks",
+    "bottom": "llamablocks:block/teal_bricks",
+    "top": "llamablocks:block/teal_bricks",
+    "side": "llamablocks:block/teal_bricks"
+  },
+  "render_type": "solid"
+}

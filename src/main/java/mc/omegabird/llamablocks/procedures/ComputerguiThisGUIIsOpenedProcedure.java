@@ -6,25 +6,25 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.core.BlockPos;
 
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
 
 public class ComputerguiThisGUIIsOpenedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "msg", (getBlockNBTString(world, BlockPos.containing(x, y, z), "msg")), true);
-		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "player_name", (getBlockNBTString(world, BlockPos.containing(x, y, z), "player_name")), true);
-		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "number1", (getBlockNBTString(world, BlockPos.containing(x, y, z), "number1")), true);
-		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "number2", (getBlockNBTString(world, BlockPos.containing(x, y, z), "number2")), true);
-		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "operation", (getBlockNBTString(world, BlockPos.containing(x, y, z), "operation")), true);
-		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "calculator_result", (getBlockNBTString(world, BlockPos.containing(x, y, z), "calculator_result")), true);
-		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 2, "power_output", (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "power_output")), true);
 	}
 

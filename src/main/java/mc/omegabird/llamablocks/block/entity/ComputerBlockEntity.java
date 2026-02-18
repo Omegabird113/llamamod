@@ -19,7 +19,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.ComputerguiMenu;
-import mc.omegabird.llamablocks.init.LlamamodModBlockEntities;
+import mc.omegabird.llamablocks.init.LlamablocksModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -31,7 +31,7 @@ public class ComputerBlockEntity extends RandomizableContainerBlockEntity implem
 	private NonNullList<ItemStack> stacks = NonNullList.withSize(0, ItemStack.EMPTY);
 
 	public ComputerBlockEntity(BlockPos position, BlockState state) {
-		super(LlamamodModBlockEntities.COMPUTER.get(), position, state);
+		super(LlamablocksModBlockEntities.COMPUTER.get(), position, state);
 	}
 
 	@Override

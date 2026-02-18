@@ -11,15 +11,15 @@ import net.minecraft.world.level.block.LiquidBlock;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleOptions;
 
-import mc.omegabird.llamablocks.init.LlamamodModParticleTypes;
-import mc.omegabird.llamablocks.init.LlamamodModItems;
-import mc.omegabird.llamablocks.init.LlamamodModFluids;
-import mc.omegabird.llamablocks.init.LlamamodModFluidTypes;
-import mc.omegabird.llamablocks.init.LlamamodModBlocks;
+import mc.omegabird.llamablocks.init.LlamablocksModParticleTypes;
+import mc.omegabird.llamablocks.init.LlamablocksModItems;
+import mc.omegabird.llamablocks.init.LlamablocksModFluids;
+import mc.omegabird.llamablocks.init.LlamablocksModFluidTypes;
+import mc.omegabird.llamablocks.init.LlamablocksModBlocks;
 
 public abstract class AcidFluid extends BaseFlowingFluid {
-	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> LlamamodModFluidTypes.ACID_TYPE.get(), () -> LlamamodModFluids.ACID.get(), () -> LlamamodModFluids.FLOWING_ACID.get()).explosionResistance(13f)
-			.tickRate(7).slopeFindDistance(5).bucket(() -> LlamamodModItems.ACID_BUCKET.get()).block(() -> (LiquidBlock) LlamamodModBlocks.ACID.get());
+	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> LlamablocksModFluidTypes.ACID_TYPE.get(), () -> LlamablocksModFluids.ACID.get(), () -> LlamablocksModFluids.FLOWING_ACID.get())
+			.explosionResistance(13f).tickRate(7).slopeFindDistance(5).bucket(() -> LlamablocksModItems.ACID_BUCKET.get()).block(() -> (LiquidBlock) LlamablocksModBlocks.ACID.get());
 
 	private AcidFluid() {
 		super(PROPERTIES);
@@ -27,7 +27,7 @@ public abstract class AcidFluid extends BaseFlowingFluid {
 
 	@Override
 	public ParticleOptions getDripParticle() {
-		return (SimpleParticleType) (LlamamodModParticleTypes.ACIDPARTICLE.get());
+		return (SimpleParticleType) (LlamablocksModParticleTypes.ACIDPARTICLE.get());
 	}
 
 	public static class Source extends AcidFluid {

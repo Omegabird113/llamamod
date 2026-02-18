@@ -1,8 +1,0 @@
-{
-  "parent": "block/button_pressed",
-  "textures": {
-    "texture": "llamamod:block/black_large_tile",
-    "particle": "llamamod:block/black_large_tile"
-  },
-  "render_type": "solid"
-}

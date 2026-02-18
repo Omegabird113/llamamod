@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamablocks:brick_buttons",
+    "minecraft:pink_dye"
+  ],
+  "result": {
+    "id": "llamablocks:pink_brick_button",
+    "count": 1
+  }
+}

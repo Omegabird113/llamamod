@@ -17,12 +17,12 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.XbuttonprocidureProcedure;
 import mc.omegabird.llamablocks.procedures.SubmitsecstoorblockpasswordprocidureProcedure;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 @EventBusSubscriber
 public record SecurestooragepasswordguiButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<SecurestooragepasswordguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "securestooragepasswordgui_buttons"));
+	public static final Type<SecurestooragepasswordguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamablocksMod.MODID, "securestooragepasswordgui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, SecurestooragepasswordguiButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, SecurestooragepasswordguiButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
@@ -60,6 +60,6 @@ public record SecurestooragepasswordguiButtonMessage(int buttonID, int x, int y,
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(SecurestooragepasswordguiButtonMessage.TYPE, SecurestooragepasswordguiButtonMessage.STREAM_CODEC, SecurestooragepasswordguiButtonMessage::handleData);
+		LlamablocksMod.addNetworkMessage(SecurestooragepasswordguiButtonMessage.TYPE, SecurestooragepasswordguiButtonMessage.STREAM_CODEC, SecurestooragepasswordguiButtonMessage::handleData);
 	}
 }

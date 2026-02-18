@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_fence_gate_wall",
-  "textures": {
-    "texture": "llamamod:block/cherry_large_tile",
-    "particle": "llamamod:block/cherry_large_tile"
-  },
-  "render_type": "solid"
-}

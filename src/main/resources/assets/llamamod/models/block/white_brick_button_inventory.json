@@ -1,8 +1,0 @@
-{
-  "parent": "block/button_inventory",
-  "textures": {
-    "texture": "llamamod:block/white_bricks",
-    "particle": "llamamod:block/white_bricks"
-  },
-  "render_type": "solid"
-}

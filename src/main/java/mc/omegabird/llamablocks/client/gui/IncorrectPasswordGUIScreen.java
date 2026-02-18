@@ -15,9 +15,9 @@ import net.minecraft.client.gui.GuiGraphics;
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
 import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.IncorrectPasswordGUIButtonMessage;
-import mc.omegabird.llamablocks.init.LlamamodModScreens;
+import mc.omegabird.llamablocks.init.LlamablocksModScreens;
 
-public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<IncorrectPasswordGUIMenu> implements LlamamodModScreens.ScreenAccessor {
+public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<IncorrectPasswordGUIMenu> implements LlamablocksModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -41,7 +41,7 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/incorrect_password_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("llamablocks:textures/screens/incorrect_password_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -52,7 +52,7 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png"), this.leftPos + 5, this.topPos + 4, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamablocks:textures/screens/logo_16_border.png"), this.leftPos + 5, this.topPos + 4, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override
@@ -66,17 +66,17 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_error"), 24, 10, -65536, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_please_close_this_gui_and"), 5, 24, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_retry_entering_the_password"), 5, 33, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.incorrect_password_gui.label_error"), 24, 10, -65536, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.incorrect_password_gui.label_please_close_this_gui_and"), 5, 24, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.incorrect_password_gui.label_retry_entering_the_password"), 5, 33, -12829636, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_beta"), 2, -11, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.incorrect_password_gui.label_beta"), 2, -11, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		button_x = Button.builder(Component.translatable("gui.llamamod.incorrect_password_gui.button_x"), e -> {
+		button_x = Button.builder(Component.translatable("gui.llamablocks.incorrect_password_gui.button_x"), e -> {
 			int x = IncorrectPasswordGUIScreen.this.x;
 			int y = IncorrectPasswordGUIScreen.this.y;
 			if (true) {

@@ -17,9 +17,9 @@ import mc.omegabird.llamablocks.world.inventory.DoubleSecureStoorafeBlockGuiMenu
 import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.procedures.IsAllowClearingBoxCheckedProcedure;
 import mc.omegabird.llamablocks.network.DoubleSecureStoorafeBlockGuiButtonMessage;
-import mc.omegabird.llamablocks.init.LlamamodModScreens;
+import mc.omegabird.llamablocks.init.LlamablocksModScreens;
 
-public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<DoubleSecureStoorafeBlockGuiMenu> implements LlamamodModScreens.ScreenAccessor {
+public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<DoubleSecureStoorafeBlockGuiMenu> implements LlamablocksModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -51,7 +51,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/double_secure_stoorafe_block_gui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("llamablocks:textures/screens/double_secure_stoorafe_block_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -75,15 +75,15 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block"), 6, 6, -15658701, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.double_secure_stoorafe_block_gui.label_secure_stoorage_block"), 6, 6, -15658701, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_beta"), 176, 21, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.double_secure_stoorafe_block_gui.label_beta"), 176, 21, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		button_clear = Button.builder(Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.button_clear"), e -> {
+		button_clear = Button.builder(Component.translatable("gui.llamablocks.double_secure_stoorafe_block_gui.button_clear"), e -> {
 			int x = DoubleSecureStoorafeBlockGuiScreen.this.x;
 			int y = DoubleSecureStoorafeBlockGuiScreen.this.y;
 			if (IsAllowClearingBoxCheckedProcedure.execute(entity)) {
@@ -92,7 +92,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 			}
 		}).bounds(this.leftPos + 175, this.topPos + 122, 51, 20).build();
 		this.addRenderableWidget(button_clear);
-		button_close = Button.builder(Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.button_close"), e -> {
+		button_close = Button.builder(Component.translatable("gui.llamablocks.double_secure_stoorafe_block_gui.button_close"), e -> {
 			int x = DoubleSecureStoorafeBlockGuiScreen.this.x;
 			int y = DoubleSecureStoorafeBlockGuiScreen.this.y;
 			if (true) {
@@ -101,7 +101,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 			}
 		}).bounds(this.leftPos + 175, this.topPos + 0, 51, 20).build();
 		this.addRenderableWidget(button_close);
-		allow_clearing = Checkbox.builder(Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.allow_clearing"), this.font).pos(this.leftPos + 175, this.topPos + 100).onValueChange((checkbox, value) -> {
+		allow_clearing = Checkbox.builder(Component.translatable("gui.llamablocks.double_secure_stoorafe_block_gui.allow_clearing"), this.font).pos(this.leftPos + 175, this.topPos + 100).onValueChange((checkbox, value) -> {
 			if (!menuStateUpdateActive)
 				menu.sendMenuStateUpdate(entity, 1, "allow_clearing", value, false);
 		}).build();

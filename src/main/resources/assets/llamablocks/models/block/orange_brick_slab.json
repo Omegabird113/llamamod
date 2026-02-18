@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "llamablocks:block/orange_brick",
+    "bottom": "llamablocks:block/orange_brick",
+    "top": "llamablocks:block/orange_brick",
+    "side": "llamablocks:block/orange_brick"
+  },
+  "render_type": "solid"
+}

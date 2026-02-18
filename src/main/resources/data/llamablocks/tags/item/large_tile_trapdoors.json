@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:light_blue_large_tile_trapdoor",
+    "llamablocks:white_large_tile_trapdoor",
+    "llamablocks:pink_large_tile_trapdoor",
+    "llamablocks:brown_large_tile_trapdoor",
+    "llamablocks:yellow_large_tile_trapdoor",
+    "llamablocks:lime_large_tile_trapdoor",
+    "llamablocks:blue_large_tile_trapdoor",
+    "llamablocks:orange_large_tile_trapdoor",
+    "llamablocks:green_large_tile_trapdoor",
+    "llamablocks:magenta_large_tile_trapdoor",
+    "llamablocks:light_gray_large_tile_trapdoor",
+    "llamablocks:gray_large_tile_trapdoor",
+    "llamablocks:red_large_tile_trapdoor",
+    "llamablocks:teal_large_tile_trapdoor",
+    "llamablocks:black_large_tile_trapdoor",
+    "llamablocks:cyan_large_tile_trapdoor",
+    "llamablocks:purple_large_tile_trapdoor",
+    "llamablocks:industrial_large_tile_trapdoor",
+    "llamablocks:cherry_large_tile_trapdoor"
+  ]
+}

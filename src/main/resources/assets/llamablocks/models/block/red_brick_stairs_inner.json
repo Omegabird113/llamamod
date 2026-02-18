@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "llamablocks:block/red_brick",
+    "bottom": "llamablocks:block/red_brick",
+    "top": "llamablocks:block/red_brick",
+    "side": "llamablocks:block/red_brick"
+  },
+  "render_type": "solid"
+}

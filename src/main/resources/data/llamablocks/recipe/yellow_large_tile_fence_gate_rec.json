@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamablocks:yellow_large_tile"
+  },
+  "result": {
+    "id": "llamablocks:yellow_large_tile_fence_gate",
+    "count": 4
+  }
+}

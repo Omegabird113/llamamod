@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:gray_bricks"
+  ],
+  "result": {
+    "id": "llamablocks:gray_brick_button",
+    "count": 9
+  }
+}

@@ -29,7 +29,7 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.CanBoneMealBeUsedOnBananaPlantProcedure;
 import mc.omegabird.llamablocks.procedures.BannanaplantOnBoneMealSuccessProcedure;
-import mc.omegabird.llamablocks.init.LlamamodModBlocks;
+import mc.omegabird.llamablocks.init.LlamablocksModBlocks;
 
 public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlock, SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
@@ -127,6 +127,6 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 		event.getBlockColors().register((bs, world, pos, index) -> {
 			return FoliageColor.FOLIAGE_BIRCH;
-		}, LlamamodModBlocks.BANANA_PLANT.get());
+		}, LlamablocksModBlocks.BANANA_PLANT.get());
 	}
 }

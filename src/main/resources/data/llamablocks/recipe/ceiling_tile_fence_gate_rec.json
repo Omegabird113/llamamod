@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamablocks:ceiling_tiles"
+  },
+  "result": {
+    "id": "llamablocks:ceiling_tile_fence_gate",
+    "count": 4
+  }
+}

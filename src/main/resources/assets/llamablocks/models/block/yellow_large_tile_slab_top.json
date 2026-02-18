@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "particle": "llamablocks:block/yellow_large_tile",
+    "bottom": "llamablocks:block/yellow_large_tile",
+    "top": "llamablocks:block/yellow_large_tile",
+    "side": "llamablocks:block/yellow_large_tile"
+  },
+  "render_type": "solid"
+}

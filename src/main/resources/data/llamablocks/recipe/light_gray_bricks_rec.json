@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamablocks:brick_types",
+    "minecraft:light_gray_dye"
+  ],
+  "result": {
+    "id": "llamablocks:light_gray_bricks",
+    "count": 1
+  }
+}

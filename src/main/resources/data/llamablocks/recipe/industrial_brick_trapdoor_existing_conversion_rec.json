@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": "#llamablocks:brick_trapdoors",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:copper_ingot"
+  },
+  "result": {
+    "id": "llamablocks:industrial_brick_trapdoor",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "llamablocks:block/authenticator_sides",
+    "up": "llamablocks:block/authenticator_sides",
+    "north": "llamablocks:block/authenticator_front",
+    "east": "llamablocks:block/authenticator_sides",
+    "south": "llamablocks:block/authenticator_front",
+    "west": "llamablocks:block/authenticator_sides",
+    "particle": "llamablocks:block/authenticator_sides"
+  },
+  "render_type": "solid"
+}

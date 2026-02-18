@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:industrial_bricks"
+  ],
+  "result": {
+    "id": "llamablocks:industrial_brick_button",
+    "count": 9
+  }
+}

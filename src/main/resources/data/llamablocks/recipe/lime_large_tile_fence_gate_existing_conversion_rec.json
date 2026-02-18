@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamablocks:large_tiel_fence_gates",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "llamablocks:lime_large_tile_fence_gate",
+    "count": 1
+  }
+}

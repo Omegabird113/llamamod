@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamablocks:orange_bricks"
+  },
+  "result": {
+    "id": "llamablocks:orange_brick_fence_gate",
+    "count": 4
+  }
+}

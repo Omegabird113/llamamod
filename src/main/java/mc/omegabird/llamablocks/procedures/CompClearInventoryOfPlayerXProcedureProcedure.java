@@ -8,7 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,7 @@ public class CompClearInventoryOfPlayerXProcedureProcedure {
 		Entity player_to_msg = null;
 		for (Entity entityiterator : new ArrayList<>(world.players())) {
 			if (((entityiterator.getDisplayName().getString()).toUpperCase())
-					.equals((((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "player_name", "") : "").toUpperCase()).strip())) {
+					.equals((((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "player_name", "") : "").toUpperCase()).strip())) {
 				player_to_msg = entityiterator;
 			}
 		}

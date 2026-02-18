@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_post",
-  "textures": {
-    "texture": "llamamod:block/gray_brick",
-    "particle": "llamamod:block/gray_brick"
-  },
-  "render_type": "solid"
-}

@@ -17,7 +17,7 @@ import net.minecraft.client.multiplayer.ClientLevel;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.Camera;
 
-import mc.omegabird.llamablocks.init.LlamamodModFluidTypes;
+import mc.omegabird.llamablocks.init.LlamablocksModFluidTypes;
 
 import javax.annotation.Nullable;
 
@@ -26,9 +26,9 @@ public class AcidFluidExtension {
 	@SubscribeEvent
 	public static void registerFluidTypeExtensions(RegisterClientExtensionsEvent event) {
 		event.registerFluidType(new IClientFluidTypeExtensions() {
-			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("llamamod:block/acid");
-			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("llamamod:block/acid_flowing");
-			private static final ResourceLocation RENDER_OVERLAY_TEXTURE = ResourceLocation.parse("llamamod:textures/acid_fog.png");
+			private static final ResourceLocation STILL_TEXTURE = ResourceLocation.parse("llamablocks:block/acid");
+			private static final ResourceLocation FLOWING_TEXTURE = ResourceLocation.parse("llamablocks:block/acid_flowing");
+			private static final ResourceLocation RENDER_OVERLAY_TEXTURE = ResourceLocation.parse("llamablocks:textures/acid_fog.png");
 
 			@Override
 			public ResourceLocation getStillTexture() {
@@ -59,6 +59,6 @@ public class AcidFluidExtension {
 				fogData.environmentalStart = 0.38f;
 				fogData.environmentalEnd = Math.min(16.04f, renderDistance);
 			}
-		}, LlamamodModFluidTypes.ACID_TYPE.get());
+		}, LlamablocksModFluidTypes.ACID_TYPE.get());
 	}
 }

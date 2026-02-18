@@ -3,7 +3,7 @@ package mc.omegabird.llamablocks.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
-import mc.omegabird.llamablocks.init.LlamamodModBlocks;
+import mc.omegabird.llamablocks.init.LlamablocksModBlocks;
 
 public class CountBananaPlantHeightProcedureProcedure {
 	public static double execute(LevelAccessor world, double x, double y, double z) {
@@ -12,14 +12,14 @@ public class CountBananaPlantHeightProcedureProcedure {
 		blocks_below = 0;
 		blocks_above = 0;
 		while (true) {
-			if ((world.getBlockState(BlockPos.containing(x, y - (1 + blocks_below), z))).getBlock() == LlamamodModBlocks.BANANA_PLANT.get()) {
+			if ((world.getBlockState(BlockPos.containing(x, y - (1 + blocks_below), z))).getBlock() == LlamablocksModBlocks.BANANA_PLANT.get()) {
 				blocks_below = blocks_below + 1;
 			} else {
 				break;
 			}
 		}
 		while (true) {
-			if ((world.getBlockState(BlockPos.containing(x, y + 1 + blocks_above, z))).getBlock() == LlamamodModBlocks.BANANA_PLANT.get()) {
+			if ((world.getBlockState(BlockPos.containing(x, y + 1 + blocks_above, z))).getBlock() == LlamablocksModBlocks.BANANA_PLANT.get()) {
 				blocks_above = blocks_above + 1;
 			} else {
 				break;

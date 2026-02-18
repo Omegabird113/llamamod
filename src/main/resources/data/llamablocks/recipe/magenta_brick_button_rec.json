@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:magenta_bricks"
+  ],
+  "result": {
+    "id": "llamablocks:magenta_brick_button",
+    "count": 9
+  }
+}

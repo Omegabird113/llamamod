@@ -20,7 +20,7 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
 
 import io.netty.buffer.Unpooled;
 
@@ -30,8 +30,8 @@ public class PasswordchangerchangepasswordprocedureProcedure {
 			return;
 		String newPassword = "";
 		BlockState oldBlock = Blocks.AIR.defaultBlockState();
-		newPassword = (entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "password", "") : "";
-		if (((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "current_password", "") : "")
+		newPassword = (entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "password", "") : "";
+		if (((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "current_password", "") : "")
 				.equals(getBlockNBTString(world, BlockPos.containing(x, y, z), "access_password"))) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);

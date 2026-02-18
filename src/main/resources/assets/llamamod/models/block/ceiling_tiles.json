@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "llamamod:block/ceiling_tile",
-    "particle": "llamamod:block/ceiling_tile"
-  },
-  "render_type": "solid"
-}

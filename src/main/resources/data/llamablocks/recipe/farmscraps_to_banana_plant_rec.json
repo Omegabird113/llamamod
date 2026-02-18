@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:banana_plant"
+  ],
+  "result": {
+    "id": "llamablocks:banana_plant",
+    "count": 2
+  }
+}

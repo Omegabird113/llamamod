@@ -17,12 +17,12 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.XbuttonprocidureProcedure;
 import mc.omegabird.llamablocks.procedures.ClearSecStoorageBlockProcedureProcedure;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 @EventBusSubscriber
 public record DoubleSecureStoorafeBlockGuiButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<DoubleSecureStoorafeBlockGuiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "double_secure_stoorafe_block_gui_buttons"));
+	public static final Type<DoubleSecureStoorafeBlockGuiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamablocksMod.MODID, "double_secure_stoorafe_block_gui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, DoubleSecureStoorafeBlockGuiButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, DoubleSecureStoorafeBlockGuiButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
@@ -60,6 +60,6 @@ public record DoubleSecureStoorafeBlockGuiButtonMessage(int buttonID, int x, int
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(DoubleSecureStoorafeBlockGuiButtonMessage.TYPE, DoubleSecureStoorafeBlockGuiButtonMessage.STREAM_CODEC, DoubleSecureStoorafeBlockGuiButtonMessage::handleData);
+		LlamablocksMod.addNetworkMessage(DoubleSecureStoorafeBlockGuiButtonMessage.TYPE, DoubleSecureStoorafeBlockGuiButtonMessage.STREAM_CODEC, DoubleSecureStoorafeBlockGuiButtonMessage::handleData);
 	}
 }

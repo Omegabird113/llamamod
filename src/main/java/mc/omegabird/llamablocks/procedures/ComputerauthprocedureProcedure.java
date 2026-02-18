@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
 import mc.omegabird.llamablocks.world.inventory.ComputerguiMenu;
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -23,7 +23,7 @@ public class ComputerauthprocedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "password", "") : "")
+		if (((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "password", "") : "")
 				.equals(getBlockNBTString(world, BlockPos.containing(x, y, z), "access_password"))) {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -44,7 +44,7 @@ public class ComputerauthprocedureProcedure {
 					}
 				}, _bpos);
 			}
-			LlamamodMod.LOGGER.debug(("Computer at (" + x + ", " + y + ", " + z + ") succeeded to authenticate."));
+			LlamablocksMod.LOGGER.debug(("Computer at (" + x + ", " + y + ", " + z + ") succeeded to authenticate."));
 		} else {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -65,7 +65,7 @@ public class ComputerauthprocedureProcedure {
 					}
 				}, _bpos);
 			}
-			LlamamodMod.LOGGER.debug(("Computer at (" + x + ", " + y + ", " + z + ") FAILED to authenticate."));
+			LlamablocksMod.LOGGER.debug(("Computer at (" + x + ", " + y + ", " + z + ") FAILED to authenticate."));
 		}
 	}
 

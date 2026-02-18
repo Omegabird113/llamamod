@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "llamamod:banana_plant",
-    "llamamod:acid"
+    "llamablocks:banana_plant",
+    "llamablocks:acid"
   ]
 }

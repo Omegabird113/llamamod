@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "llamamod:block/teal_large_tiles",
-    "particle": "llamamod:block/teal_large_tiles"
-  },
-  "render_type": "solid"
-}

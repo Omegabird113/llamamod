@@ -18,7 +18,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import mc.omegabird.llamablocks.init.LlamamodModBlockEntities;
+import mc.omegabird.llamablocks.init.LlamablocksModBlockEntities;
 
 import javax.annotation.Nullable;
 
@@ -28,7 +28,7 @@ public class AuthenticatorblockBlockEntity extends RandomizableContainerBlockEnt
 	private NonNullList<ItemStack> stacks = NonNullList.withSize(0, ItemStack.EMPTY);
 
 	public AuthenticatorblockBlockEntity(BlockPos position, BlockState state) {
-		super(LlamamodModBlockEntities.AUTHENTICATOR.get(), position, state);
+		super(LlamablocksModBlockEntities.AUTHENTICATOR.get(), position, state);
 	}
 
 	@Override

@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "llamablocks:block/industrial_bricks",
+    "bottom": "llamablocks:block/industrial_bricks",
+    "top": "llamablocks:block/industrial_bricks",
+    "side": "llamablocks:block/industrial_bricks"
+  },
+  "render_type": "solid"
+}

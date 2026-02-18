@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:cyan_bricks"
+  ],
+  "result": {
+    "id": "llamablocks:cyan_brick_button",
+    "count": 9
+  }
+}

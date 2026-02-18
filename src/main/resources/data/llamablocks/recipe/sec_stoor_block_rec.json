@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aca"
+  ],
+  "key": {
+    "a": "#llamablocks:large_tiles",
+    "b": "llamablocks:password_changer",
+    "c": "minecraft:iron_block",
+    "d": "llamablocks:netherite_backpack"
+  },
+  "result": {
+    "id": "llamablocks:secure_storage_block",
+    "count": 1
+  }
+}

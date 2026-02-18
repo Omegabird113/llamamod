@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:light_blue_large_tile_stairs",
+    "llamablocks:lime_brick_stairs",
+    "llamablocks:red_brick_stairs",
+    "minecraft:brick_stairs",
+    "llamablocks:purple_brick_stairs",
+    "llamablocks:teal_brick_stairs",
+    "llamablocks:pink_brick_stairs",
+    "llamablocks:yellow_brick_stairs",
+    "llamablocks:cherry_brick_stair",
+    "llamablocks:light_gray_brick_stairs",
+    "llamablocks:gray_brick_stairs",
+    "llamablocks:blue_brick_stairs",
+    "llamablocks:magenta_brick_stairs",
+    "llamablocks:cyan_brick_stairs",
+    "llamablocks:brown_brick_stairs",
+    "llamablocks:white_brick_stairs",
+    "llamablocks:orange_brick_stairs",
+    "llamablocks:industrial_brick_stairs",
+    "llamablocks:green_brick_stairs",
+    "llamablocks:black_brick_stairs"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "particle": "llamablocks:block/ceiling_tile",
+    "bottom": "llamablocks:block/ceiling_tile",
+    "top": "llamablocks:block/ceiling_tile",
+    "side": "llamablocks:block/ceiling_tile"
+  },
+  "render_type": "solid"
+}

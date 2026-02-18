@@ -15,8 +15,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
-import mc.omegabird.llamablocks.init.LlamamodModGameRules;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.init.LlamablocksModGameRules;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 import javax.annotation.Nullable;
 
@@ -34,12 +34,12 @@ public class OnPlayerJoinProcedureProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		LlamamodMod.LOGGER.debug("LlamaBlocks Procedure \"onPlayerJoin\" executed, as a player has joined world.");
-		if ((world instanceof ServerLevel _serverLevelGR1 && _serverLevelGR1.getGameRules().getBoolean(LlamamodModGameRules.GIVE_ALL_RECIPES)) == true) {
+		LlamablocksMod.LOGGER.debug("LlamaBlocks Procedure \"onPlayerJoin\" executed, as a player has joined world.");
+		if ((world instanceof ServerLevel _serverLevelGR1 && _serverLevelGR1.getGameRules().getBoolean(LlamablocksModGameRules.GIVE_ALL_RECIPES)) == true) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"recipe give @a *");
-			LlamamodMod.LOGGER.debug("All recipe given to all players.");
+			LlamablocksMod.LOGGER.debug("All recipe given to all players.");
 		}
 		if (IsThisBetaProcedureProcedure.execute() == true) {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
@@ -47,7 +47,7 @@ public class OnPlayerJoinProcedureProcedure {
 			if (world instanceof ServerLevel _level) {
 				_level.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("You're running: " + ReturnLlamaModVersionProcedureProcedure.execute())).withColor(0xff00ff), false);
 			}
-			LlamamodMod.LOGGER.debug("Beta warning message sent.");
+			LlamablocksMod.LOGGER.debug("Beta warning message sent.");
 		}
 	}
 }

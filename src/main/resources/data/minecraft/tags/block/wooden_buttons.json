@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "llamamod:industrial_brick_button",
-    "llamamod:tile_button",
-    "llamamod:cherry_brick_button"
+    "llamablocks:industrial_brick_button",
+    "llamablocks:tile_button",
+    "llamablocks:cherry_brick_button"
   ]
 }

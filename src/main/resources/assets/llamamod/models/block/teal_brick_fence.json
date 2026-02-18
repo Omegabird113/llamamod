@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_side",
-  "textures": {
-    "texture": "llamamod:block/teal_bricks",
-    "particle": "llamamod:block/teal_bricks"
-  },
-  "render_type": "solid"
-}

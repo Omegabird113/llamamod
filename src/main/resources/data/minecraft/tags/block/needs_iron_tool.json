@@ -1,15 +1,15 @@
 {
   "replace": false,
   "values": [
-    "llamamod:industrial_large_tile_stairs",
-    "llamamod:secure_storage_block",
-    "llamamod:industrial_large_tile_fence_gate",
-    "llamamod:industrial_large_tile_pressure_plate",
-    "llamamod:industrial_large_tile_slab",
-    "llamamod:industrial_large_tile_trapdoor",
-    "llamamod:industrial_large_tile_wall",
-    "llamamod:industrial_large_tile_button",
-    "llamamod:industrial_large_tile_fence",
-    "llamamod:industrial_large_tile"
+    "llamablocks:industrial_large_tile_stairs",
+    "llamablocks:secure_storage_block",
+    "llamablocks:industrial_large_tile_fence_gate",
+    "llamablocks:industrial_large_tile_pressure_plate",
+    "llamablocks:industrial_large_tile_slab",
+    "llamablocks:industrial_large_tile_trapdoor",
+    "llamablocks:industrial_large_tile_wall",
+    "llamablocks:industrial_large_tile_button",
+    "llamablocks:industrial_large_tile_fence",
+    "llamablocks:industrial_large_tile"
   ]
 }

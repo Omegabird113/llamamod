@@ -15,14 +15,14 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-public class SecurestooragepasswordguiMenu extends AbstractContainerMenu implements LlamamodModMenus.MenuAccessor {
+public class SecurestooragepasswordguiMenu extends AbstractContainerMenu implements LlamablocksModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
@@ -43,7 +43,7 @@ public class SecurestooragepasswordguiMenu extends AbstractContainerMenu impleme
 	private BlockEntity boundBlockEntity = null;
 
 	public SecurestooragepasswordguiMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(LlamamodModMenus.SECURESTOORAGEPASSWORDGUI.get(), id);
+		super(LlamablocksModMenus.SECURESTOORAGEPASSWORDGUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(0);

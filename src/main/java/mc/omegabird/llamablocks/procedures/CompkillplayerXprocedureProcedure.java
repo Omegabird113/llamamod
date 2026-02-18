@@ -9,7 +9,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
 
 import java.util.ArrayList;
 
@@ -20,7 +20,7 @@ public class CompkillplayerXprocedureProcedure {
 		Entity player_to_msg = null;
 		for (Entity entityiterator : new ArrayList<>(world.players())) {
 			if (((entityiterator.getDisplayName().getString()).toUpperCase())
-					.equals((((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "player_name", "") : "").toUpperCase()).strip())) {
+					.equals((((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "player_name", "") : "").toUpperCase()).strip())) {
 				player_to_msg = entityiterator;
 			}
 		}
@@ -33,7 +33,7 @@ public class CompkillplayerXprocedureProcedure {
 				_player.getAbilities().invulnerable = false;
 				_player.onUpdateAbilities();
 			}
-			player_to_msg.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:computer_player_management_damage"))), entity), 1000000);
+			player_to_msg.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamablocks:computer_player_management_damage"))), entity), 1000000);
 		}
 	}
 }

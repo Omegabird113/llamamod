@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "llamablocks:block/gray_bricks"
+    }
+  }
+}

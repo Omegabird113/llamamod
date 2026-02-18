@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:tiles",
+    "minecraft:clay_ball"
+  ],
+  "result": {
+    "id": "llamablocks:ceiling_tiles",
+    "count": 1
+  }
+}

@@ -8,7 +8,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.network.chat.Component;
 
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
 
 public class ComputercalculateprocidureProcedure {
 	public static void execute(Entity entity) {
@@ -20,9 +20,9 @@ public class ComputercalculateprocidureProcedure {
 		String operation = "";
 		String num1text = "";
 		String num2text = "";
-		operation = (((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "operation", "") : "").toUpperCase()).strip();
-		num1text = (((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "number1", "") : "").toUpperCase()).strip();
-		num2text = (((entity instanceof Player _entity2 && _entity2.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu2) ? _menu2.getMenuState(0, "number2", "") : "").toUpperCase()).strip();
+		operation = (((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "operation", "") : "").toUpperCase()).strip();
+		num1text = (((entity instanceof Player _entity1 && _entity1.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu1) ? _menu1.getMenuState(0, "number1", "") : "").toUpperCase()).strip();
+		num2text = (((entity instanceof Player _entity2 && _entity2.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu2) ? _menu2.getMenuState(0, "number2", "") : "").toUpperCase()).strip();
 		if ((num1text).equals("PI")) {
 			num1 = Math.PI;
 		} else if ((num1text).equals("E")) {
@@ -126,7 +126,7 @@ public class ComputercalculateprocidureProcedure {
 				result = Component.translatable("block.llamamod.computer.invalidoperationerror").getString();
 			}
 		}
-		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamablocksModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 0, "calculator_result", result, true);
 	}
 }

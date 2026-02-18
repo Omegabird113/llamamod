@@ -16,12 +16,12 @@ import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.XbuttonprocidureProcedure;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 @EventBusSubscriber
 public record IncorrectPasswordGUIButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<IncorrectPasswordGUIButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "incorrect_password_gui_buttons"));
+	public static final Type<IncorrectPasswordGUIButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamablocksMod.MODID, "incorrect_password_gui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, IncorrectPasswordGUIButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, IncorrectPasswordGUIButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
@@ -55,6 +55,6 @@ public record IncorrectPasswordGUIButtonMessage(int buttonID, int x, int y, int 
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(IncorrectPasswordGUIButtonMessage.TYPE, IncorrectPasswordGUIButtonMessage.STREAM_CODEC, IncorrectPasswordGUIButtonMessage::handleData);
+		LlamablocksMod.addNetworkMessage(IncorrectPasswordGUIButtonMessage.TYPE, IncorrectPasswordGUIButtonMessage.STREAM_CODEC, IncorrectPasswordGUIButtonMessage::handleData);
 	}
 }

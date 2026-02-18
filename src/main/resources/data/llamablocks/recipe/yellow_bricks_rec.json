@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamablocks:brick_types",
+    "minecraft:yellow_dye"
+  ],
+  "result": {
+    "id": "llamablocks:yellow_bricks",
+    "count": 1
+  }
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/template_orientable_trapdoor_open",
-  "textures": {
-    "texture": "llamamod:block/cherry_large_tile",
-    "particle": "llamamod:block/cherry_large_tile"
-  },
-  "render_type": "solid"
-}

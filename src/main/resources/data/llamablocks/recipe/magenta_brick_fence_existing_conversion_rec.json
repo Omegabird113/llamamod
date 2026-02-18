@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamablocks:brick_fences",
+    "minecraft:magenta_dye"
+  ],
+  "result": {
+    "id": "llamablocks:purple_large_tile_fence",
+    "count": 1
+  }
+}

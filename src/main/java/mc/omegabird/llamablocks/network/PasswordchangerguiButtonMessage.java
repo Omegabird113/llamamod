@@ -18,12 +18,12 @@ import net.minecraft.core.BlockPos;
 import mc.omegabird.llamablocks.procedures.XbuttonprocidureProcedure;
 import mc.omegabird.llamablocks.procedures.PasswordchangerresetpasswordprocedureProcedure;
 import mc.omegabird.llamablocks.procedures.PasswordchangerchangepasswordprocedureProcedure;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 @EventBusSubscriber
 public record PasswordchangerguiButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<PasswordchangerguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "passwordchangergui_buttons"));
+	public static final Type<PasswordchangerguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamablocksMod.MODID, "passwordchangergui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, PasswordchangerguiButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, PasswordchangerguiButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
@@ -65,6 +65,6 @@ public record PasswordchangerguiButtonMessage(int buttonID, int x, int y, int z)
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(PasswordchangerguiButtonMessage.TYPE, PasswordchangerguiButtonMessage.STREAM_CODEC, PasswordchangerguiButtonMessage::handleData);
+		LlamablocksMod.addNetworkMessage(PasswordchangerguiButtonMessage.TYPE, PasswordchangerguiButtonMessage.STREAM_CODEC, PasswordchangerguiButtonMessage::handleData);
 	}
 }

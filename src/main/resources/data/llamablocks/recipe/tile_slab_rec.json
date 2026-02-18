@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamablocks:tiles"
+  },
+  "result": {
+    "id": "llamablocks:tile_slab",
+    "count": 6
+  }
+}

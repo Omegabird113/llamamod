@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "llamablocks:block/brown_brick_slab"
+    },
+    "type=top": {
+      "model": "llamablocks:block/brown_brick_slab_top"
+    },
+    "type=double": {
+      "model": "llamablocks:block/brown_brick_slab_full"
+    }
+  }
+}

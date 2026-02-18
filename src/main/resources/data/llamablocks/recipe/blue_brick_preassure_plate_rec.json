@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llamablocks:blue_bricks"
+  },
+  "result": {
+    "id": "llamablocks:blue_brick_pressure_plate",
+    "count": 8
+  }
+}

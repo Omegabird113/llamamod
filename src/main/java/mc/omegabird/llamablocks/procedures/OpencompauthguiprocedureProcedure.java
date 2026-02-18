@@ -17,7 +17,7 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.world.inventory.ComputerguiMenu;
 import mc.omegabird.llamablocks.world.inventory.ComputerauthguiMenu;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 import io.netty.buffer.Unpooled;
 
@@ -46,7 +46,7 @@ public class OpencompauthguiprocedureProcedure {
 						}
 					}, _bpos);
 				}
-				LlamamodMod.LOGGER.debug(("Player clicked correct face of Computer at (" + x + ", " + y + ", " + z + "):" + direction + " and it DOES HAVE A PASSWORD. Computer AUTH UI Opened."));
+				LlamablocksMod.LOGGER.debug(("Player clicked correct face of Computer at (" + x + ", " + y + ", " + z + "):" + direction + " and it DOES HAVE A PASSWORD. Computer AUTH UI Opened."));
 			} else {
 				if (entity instanceof ServerPlayer _ent) {
 					BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -67,10 +67,10 @@ public class OpencompauthguiprocedureProcedure {
 						}
 					}, _bpos);
 				}
-				LlamamodMod.LOGGER.debug(("Player clicked correct face of Computer at (" + x + ", " + y + ", " + z + "):" + direction + " and it DOES NOT HAVE A PASSWORD. Computer UI opened."));
+				LlamablocksMod.LOGGER.debug(("Player clicked correct face of Computer at (" + x + ", " + y + ", " + z + "):" + direction + " and it DOES NOT HAVE A PASSWORD. Computer UI opened."));
 			}
 		} else {
-			LlamamodMod.LOGGER.debug(("Player clicked WRONG FACE of Computer at (" + x + ", " + y + ", " + z + "):" + direction));
+			LlamablocksMod.LOGGER.debug(("Player clicked WRONG FACE of Computer at (" + x + ", " + y + ", " + z + "):" + direction));
 		}
 	}
 

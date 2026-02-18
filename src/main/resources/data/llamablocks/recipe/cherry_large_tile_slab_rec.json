@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamablocks:cherry_large_tile"
+  },
+  "result": {
+    "id": "llamablocks:cherry_large_tile_trapdoor",
+    "count": 6
+  }
+}

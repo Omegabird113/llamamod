@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamablocks:large_tiles",
+    "minecraft:gray_dye"
+  ],
+  "result": {
+    "id": "llamablocks:gray_large_tile",
+    "count": 1
+  }
+}

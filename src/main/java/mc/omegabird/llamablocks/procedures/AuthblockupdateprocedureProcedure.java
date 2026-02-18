@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 public class AuthblockupdateprocedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
@@ -18,7 +18,7 @@ public class AuthblockupdateprocedureProcedure {
 					world.setBlock(_pos, _bs.setValue(_booleanProp, false), 3);
 			}
 		} else {
-			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") is powered as of tick: " + world.dayTime()));
+			LlamablocksMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") is powered as of tick: " + world.dayTime()));
 		}
 	}
 

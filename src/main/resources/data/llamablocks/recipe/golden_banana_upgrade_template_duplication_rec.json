@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:gold_ingot",
+    "llamablocks:golden_banana_upgrade"
+  ],
+  "result": {
+    "id": "llamablocks:golden_banana_upgrade",
+    "count": 3
+  }
+}

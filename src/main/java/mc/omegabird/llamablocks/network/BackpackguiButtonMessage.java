@@ -16,12 +16,12 @@ import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.XbuttonprocidureProcedure;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 @EventBusSubscriber
 public record BackpackguiButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<BackpackguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "backpackgui_buttons"));
+	public static final Type<BackpackguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamablocksMod.MODID, "backpackgui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, BackpackguiButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, BackpackguiButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
@@ -55,6 +55,6 @@ public record BackpackguiButtonMessage(int buttonID, int x, int y, int z) implem
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(BackpackguiButtonMessage.TYPE, BackpackguiButtonMessage.STREAM_CODEC, BackpackguiButtonMessage::handleData);
+		LlamablocksMod.addNetworkMessage(BackpackguiButtonMessage.TYPE, BackpackguiButtonMessage.STREAM_CODEC, BackpackguiButtonMessage::handleData);
 	}
 }

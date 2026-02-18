@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "llamablocks:block/tile",
+    "particle": "llamablocks:block/tile"
+  },
+  "render_type": "solid"
+}

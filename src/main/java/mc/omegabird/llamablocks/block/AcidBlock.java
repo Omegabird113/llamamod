@@ -16,11 +16,11 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.AcidMobplayerCollidesBlockProcedure;
-import mc.omegabird.llamablocks.init.LlamamodModFluids;
+import mc.omegabird.llamablocks.init.LlamablocksModFluids;
 
 public class AcidBlock extends LiquidBlock {
 	public AcidBlock(BlockBehaviour.Properties properties) {
-		super(LlamamodModFluids.ACID.get(), properties.mapColor(MapColor.WARPED_WART_BLOCK).strength(13f).lightLevel(s -> 5).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(LlamablocksModFluids.ACID.get(), properties.mapColor(MapColor.WARPED_WART_BLOCK).strength(13f).lightLevel(s -> 5).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": "llamablocks:magenta_large_tile"
+  },
+  "result": {
+    "id": "llamablocks:magenta_large_tile_pressure_plate",
+    "count": 8
+  }
+}

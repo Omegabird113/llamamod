@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_side",
+  "textures": {
+    "wall": "llamablocks:block/green_brick",
+    "particle": "llamablocks:block/green_brick"
+  },
+  "render_type": "solid"
+}

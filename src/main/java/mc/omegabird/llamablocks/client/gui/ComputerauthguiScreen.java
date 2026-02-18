@@ -17,9 +17,9 @@ import net.minecraft.client.Minecraft;
 import mc.omegabird.llamablocks.world.inventory.ComputerauthguiMenu;
 import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.ComputerauthguiButtonMessage;
-import mc.omegabird.llamablocks.init.LlamamodModScreens;
+import mc.omegabird.llamablocks.init.LlamablocksModScreens;
 
-public class ComputerauthguiScreen extends AbstractContainerScreen<ComputerauthguiMenu> implements LlamamodModScreens.ScreenAccessor {
+public class ComputerauthguiScreen extends AbstractContainerScreen<ComputerauthguiMenu> implements LlamablocksModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -49,7 +49,7 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/computerauthgui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("llamablocks:textures/screens/computerauthgui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -61,7 +61,7 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png"), this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamablocks:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png"), this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
 	}
 
 	@Override
@@ -84,24 +84,24 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_secure_stoorage_block"), 5, 4, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_enter_password"), 5, 15, -16777016, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.computerauthgui.label_secure_stoorage_block"), 5, 4, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.computerauthgui.label_enter_password"), 5, 15, -16777016, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_beta"), 2, -11, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.computerauthgui.label_beta"), 2, -11, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		password = new EditBox(this.font, this.leftPos + 6, this.topPos + 26, 118, 18, Component.translatable("gui.llamamod.computerauthgui.password"));
+		password = new EditBox(this.font, this.leftPos + 6, this.topPos + 26, 118, 18, Component.translatable("gui.llamablocks.computerauthgui.password"));
 		password.setMaxLength(8192);
 		password.setResponder(content -> {
 			if (!menuStateUpdateActive)
 				menu.sendMenuStateUpdate(entity, 0, "password", content, false);
 		});
-		password.setHint(Component.translatable("gui.llamamod.computerauthgui.password"));
+		password.setHint(Component.translatable("gui.llamablocks.computerauthgui.password"));
 		this.addWidget(this.password);
-		button_submit = Button.builder(Component.translatable("gui.llamamod.computerauthgui.button_submit"), e -> {
+		button_submit = Button.builder(Component.translatable("gui.llamablocks.computerauthgui.button_submit"), e -> {
 			int x = ComputerauthguiScreen.this.x;
 			int y = ComputerauthguiScreen.this.y;
 			if (true) {
@@ -110,7 +110,7 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 48, 56, 20).build();
 		this.addRenderableWidget(button_submit);
-		button_x = Button.builder(Component.translatable("gui.llamamod.computerauthgui.button_x"), e -> {
+		button_x = Button.builder(Component.translatable("gui.llamablocks.computerauthgui.button_x"), e -> {
 			int x = ComputerauthguiScreen.this.x;
 			int y = ComputerauthguiScreen.this.y;
 			if (true) {

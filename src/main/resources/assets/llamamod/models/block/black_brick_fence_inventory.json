@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_inventory",
-  "textures": {
-    "texture": "llamamod:block/black_brick",
-    "particle": "llamamod:block/black_brick"
-  },
-  "render_type": "solid"
-}

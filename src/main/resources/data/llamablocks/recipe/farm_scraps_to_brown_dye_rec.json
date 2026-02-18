@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps"
+  ],
+  "result": {
+    "id": "minecraft:brown_dye",
+    "count": 1
+  }
+}

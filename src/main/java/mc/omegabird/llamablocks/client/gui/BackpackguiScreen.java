@@ -15,9 +15,9 @@ import net.minecraft.client.gui.GuiGraphics;
 import mc.omegabird.llamablocks.world.inventory.BackpackguiMenu;
 import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.network.BackpackguiButtonMessage;
-import mc.omegabird.llamablocks.init.LlamamodModScreens;
+import mc.omegabird.llamablocks.init.LlamablocksModScreens;
 
-public class BackpackguiScreen extends AbstractContainerScreen<BackpackguiMenu> implements LlamamodModScreens.ScreenAccessor {
+public class BackpackguiScreen extends AbstractContainerScreen<BackpackguiMenu> implements LlamablocksModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -41,7 +41,7 @@ public class BackpackguiScreen extends AbstractContainerScreen<BackpackguiMenu> 
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/backpackgui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("llamablocks:textures/screens/backpackgui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -65,15 +65,15 @@ public class BackpackguiScreen extends AbstractContainerScreen<BackpackguiMenu> 
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.backpackgui.label_backpack1"), 6, 6, -14477568, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.backpackgui.label_backpack1"), 6, 6, -14477568, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.backpackgui.label_beta"), 2, -11, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.backpackgui.label_beta"), 2, -11, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		button_x = Button.builder(Component.translatable("gui.llamamod.backpackgui.button_x"), e -> {
+		button_x = Button.builder(Component.translatable("gui.llamablocks.backpackgui.button_x"), e -> {
 			int x = BackpackguiScreen.this.x;
 			int y = BackpackguiScreen.this.y;
 			if (true) {

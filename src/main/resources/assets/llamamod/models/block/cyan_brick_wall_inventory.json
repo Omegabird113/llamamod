@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "llamamod:block/cyan_brick",
-    "particle": "llamamod:block/cyan_brick"
-  },
-  "render_type": "solid"
-}

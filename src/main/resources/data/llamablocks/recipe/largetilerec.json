@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc"
+  ],
+  "key": {
+    "a": "llamablocks:ceiling_tiles",
+    "b": "minecraft:iron_ingot",
+    "c": "minecraft:quartz"
+  },
+  "result": {
+    "id": "llamablocks:white_large_tile",
+    "count": 1
+  }
+}

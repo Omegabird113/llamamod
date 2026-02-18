@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "minecraft:acacia_sapling",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps",
+    "llamablocks:farm_scraps"
+  ],
+  "result": {
+    "id": "minecraft:acacia_sapling",
+    "count": 2
+  }
+}

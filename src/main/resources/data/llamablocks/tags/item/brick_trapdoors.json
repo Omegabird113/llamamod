@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:purple_brick_trapdoor",
+    "llamablocks:gray_brick_trapdoor",
+    "llamablocks:yellow_brick_trapdoor",
+    "llamablocks:orange_brick_trapdoor",
+    "llamablocks:light_gray_brick_trapdoor",
+    "llamablocks:red_brick_trapdoor",
+    "llamablocks:lime_brick_trapdoor",
+    "llamablocks:light_blue_brick_trapdoor",
+    "llamablocks:brown_brick_trapdoor",
+    "llamablocks:white_brick_trapdoor",
+    "llamablocks:magenta_brick_trapdoor",
+    "llamablocks:cyan_brick_trapdoor",
+    "llamablocks:pink_brick_trapdoor",
+    "llamablocks:black_brick_trapdoor",
+    "llamablocks:industrial_brick_trapdoor",
+    "llamablocks:cherry_brick_trapdoor",
+    "llamablocks:green_brick_trapdoor",
+    "llamablocks:blue_brick_trapdoor",
+    "llamablocks:teal_brick_trapdoor"
+  ]
+}

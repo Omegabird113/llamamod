@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:light_gray_large_tile",
+    "llamablocks:light_blue_large_tile",
+    "llamablocks:red_large_tile",
+    "llamablocks:yellow_large_tile",
+    "llamablocks:pink_large_tile",
+    "llamablocks:cyan_large_tile",
+    "llamablocks:magenta_large_tile",
+    "llamablocks:brown_large_tile",
+    "llamablocks:purple_large_tile",
+    "llamablocks:green_large_tile",
+    "llamablocks:gray_large_tile",
+    "llamablocks:teal_large_tile",
+    "llamablocks:blue_large_tile",
+    "llamablocks:lime_large_tile",
+    "llamablocks:cherry_large_tile",
+    "llamablocks:orange_large_tile",
+    "llamablocks:industrial_large_tile",
+    "llamablocks:white_large_tile",
+    "llamablocks:black_large_tile"
+  ]
+}

@@ -22,14 +22,14 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.DisablePlacementOfItemsInABackpackProcedureProcedure;
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Collections;
 
-public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu implements LlamamodModMenus.MenuAccessor {
+public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu implements LlamablocksModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
@@ -50,7 +50,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 	private BlockEntity boundBlockEntity = null;
 
 	public DoubleSecureStoorafeBlockGuiMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(LlamamodModMenus.DOUBLE_SECURE_STOORAFE_BLOCK_GUI.get(), id);
+		super(LlamablocksModMenus.DOUBLE_SECURE_STOORAFE_BLOCK_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(63);

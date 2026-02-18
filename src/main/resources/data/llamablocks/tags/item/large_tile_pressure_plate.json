@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:purple_large_tile_pressure_plate",
+    "llamablocks:red_large_tile_pressure_plate",
+    "llamablocks:cherry_large_tile_pressure_plate",
+    "llamablocks:green_large_tile_pressure_plate",
+    "llamablocks:gray_large_tile_pressure_plate",
+    "llamablocks:blue_large_tile_pressure_plate",
+    "llamablocks:black_large_tile_pressure_plate",
+    "llamablocks:light_gray_large_tile_pressure_plate",
+    "llamablocks:cyan_large_tile_pressure_plate",
+    "llamablocks:industrial_large_tile_pressure_plate",
+    "llamablocks:lime_large_tile_pressure_plate",
+    "llamablocks:orange_large_tile_pressure_plate",
+    "llamablocks:light_blue_large_tile_pressure_plate",
+    "llamablocks:white_large_tile_pressure_plate",
+    "llamablocks:teal_large_tile_pressure_plate",
+    "llamablocks:yellow_large_tile_pressure_plate",
+    "llamablocks:pink_large_tile_pressure_plate",
+    "llamablocks:brown_large_tile_pressure_plate",
+    "llamablocks:magenta_large_tile_pressure_plate"
+  ]
+}

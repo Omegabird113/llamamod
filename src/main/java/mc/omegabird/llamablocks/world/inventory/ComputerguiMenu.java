@@ -20,7 +20,7 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.ComputerguiThisGUIIsOpenedProcedure;
 import mc.omegabird.llamablocks.procedures.ComputerguiThisGUIIsClosedProcedure;
-import mc.omegabird.llamablocks.init.LlamamodModMenus;
+import mc.omegabird.llamablocks.init.LlamablocksModMenus;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Collections;
 
 @EventBusSubscriber
-public class ComputerguiMenu extends AbstractContainerMenu implements LlamamodModMenus.MenuAccessor {
+public class ComputerguiMenu extends AbstractContainerMenu implements LlamablocksModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
@@ -49,7 +49,7 @@ public class ComputerguiMenu extends AbstractContainerMenu implements LlamamodMo
 	private BlockEntity boundBlockEntity = null;
 
 	public ComputerguiMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(LlamamodModMenus.COMPUTERGUI.get(), id);
+		super(LlamablocksModMenus.COMPUTERGUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(0);

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:purple_bricks",
+    "llamablocks:brown_bricks",
+    "llamablocks:light_blue_bricks",
+    "llamablocks:light_gray_bricks",
+    "llamablocks:red_bricks",
+    "llamablocks:yellow_bricks",
+    "llamablocks:teal_bricks",
+    "llamablocks:blue_bricks",
+    "llamablocks:cherry_bricks",
+    "llamablocks:gray_bricks",
+    "llamablocks:orange_bricks",
+    "llamablocks:black_bricks",
+    "llamablocks:industrial_bricks",
+    "llamablocks:lime_bricks",
+    "minecraft:bricks",
+    "llamablocks:white_bricks",
+    "llamablocks:green_bricks",
+    "llamablocks:magenta_bricks",
+    "llamablocks:cyan_bricks",
+    "llamablocks:pink_bricks"
+  ]
+}

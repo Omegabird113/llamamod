@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamablocks:light_gray_bricks"
+  },
+  "result": {
+    "id": "llamablocks:light_gray_brick_fence",
+    "count": 4
+  }
+}

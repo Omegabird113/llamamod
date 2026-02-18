@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "llamablocks:block/computer_bottom",
+    "up": "llamablocks:block/computer_empty",
+    "north": "llamablocks:block/computer_front",
+    "east": "llamablocks:block/computer_side_empty",
+    "south": "llamablocks:block/computer_side_empty",
+    "west": "llamablocks:block/computer_side_empty",
+    "particle": "llamablocks:block/computer_bottom"
+  },
+  "render_type": "solid"
+}

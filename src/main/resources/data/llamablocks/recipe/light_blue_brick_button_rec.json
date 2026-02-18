@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "llamablocks:light_blue_bricks"
+  ],
+  "result": {
+    "id": "llamablocks:light_blue_brick_button",
+    "count": 9
+  }
+}

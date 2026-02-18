@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "llamablocks:block/pink_brick",
+    "bottom": "llamablocks:block/pink_brick",
+    "top": "llamablocks:block/pink_brick",
+    "side": "llamablocks:block/pink_brick"
+  },
+  "render_type": "solid"
+}

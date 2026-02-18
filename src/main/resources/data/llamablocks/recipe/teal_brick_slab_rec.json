@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamablocks:teal_bricks"
+  },
+  "result": {
+    "id": "llamablocks:teal_brick_slab",
+    "count": 6
+  }
+}

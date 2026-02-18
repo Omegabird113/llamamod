@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamablocks:light_gray_bricks"
+  },
+  "result": {
+    "id": "llamablocks:light_gray_brick_slab",
+    "count": 6
+  }
+}

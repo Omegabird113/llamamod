@@ -17,9 +17,9 @@ import mc.omegabird.llamablocks.world.inventory.NetherbackpackguiMenu;
 import mc.omegabird.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import mc.omegabird.llamablocks.procedures.IsAllowClearingBoxCheckedProcedure;
 import mc.omegabird.llamablocks.network.NetherbackpackguiButtonMessage;
-import mc.omegabird.llamablocks.init.LlamamodModScreens;
+import mc.omegabird.llamablocks.init.LlamablocksModScreens;
 
-public class NetherbackpackguiScreen extends AbstractContainerScreen<NetherbackpackguiMenu> implements LlamamodModScreens.ScreenAccessor {
+public class NetherbackpackguiScreen extends AbstractContainerScreen<NetherbackpackguiMenu> implements LlamablocksModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -51,7 +51,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/netherbackpackgui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("llamablocks:textures/screens/netherbackpackgui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -75,15 +75,15 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.netherbackpackgui.label_netherite_backpack"), 5, 6, -12243393, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.netherbackpackgui.label_netherite_backpack"), 5, 6, -12243393, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.netherbackpackgui.label_beta"), 90, -12, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamablocks.netherbackpackgui.label_beta"), 90, -12, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		button_x = Button.builder(Component.translatable("gui.llamamod.netherbackpackgui.button_x"), e -> {
+		button_x = Button.builder(Component.translatable("gui.llamablocks.netherbackpackgui.button_x"), e -> {
 			int x = NetherbackpackguiScreen.this.x;
 			int y = NetherbackpackguiScreen.this.y;
 			if (true) {
@@ -92,7 +92,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 			}
 		}).bounds(this.leftPos + 144, this.topPos + -21, 30, 20).build();
 		this.addRenderableWidget(button_x);
-		button_delete_items = Button.builder(Component.translatable("gui.llamamod.netherbackpackgui.button_delete_items"), e -> {
+		button_delete_items = Button.builder(Component.translatable("gui.llamablocks.netherbackpackgui.button_delete_items"), e -> {
 			int x = NetherbackpackguiScreen.this.x;
 			int y = NetherbackpackguiScreen.this.y;
 			if (IsAllowClearingBoxCheckedProcedure.execute(entity)) {
@@ -101,7 +101,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 			}
 		}).bounds(this.leftPos + 0, this.topPos + -21, 87, 20).build();
 		this.addRenderableWidget(button_delete_items);
-		allow_clearing = Checkbox.builder(Component.translatable("gui.llamamod.netherbackpackgui.allow_clearing"), this.font).pos(this.leftPos + 2, this.topPos + 176).onValueChange((checkbox, value) -> {
+		allow_clearing = Checkbox.builder(Component.translatable("gui.llamablocks.netherbackpackgui.allow_clearing"), this.font).pos(this.leftPos + 2, this.topPos + 176).onValueChange((checkbox, value) -> {
 			if (!menuStateUpdateActive)
 				menu.sendMenuStateUpdate(entity, 1, "allow_clearing", value, false);
 		}).build();

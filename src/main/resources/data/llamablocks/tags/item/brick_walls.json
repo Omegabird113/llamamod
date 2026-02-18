@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:brown_brick_wall",
+    "llamablocks:industrial_brick_wall",
+    "llamablocks:orange_brick_wall",
+    "llamablocks:gray_brick_wall",
+    "llamablocks:teal_brick_wall",
+    "minecraft:brick_wall",
+    "llamablocks:lime_brick_wall",
+    "llamablocks:blue_brick_wall",
+    "llamablocks:white_brick_wall",
+    "llamablocks:black_brick_wall",
+    "llamablocks:cherry_brick_wall",
+    "llamablocks:light_gray_brick_wall",
+    "llamablocks:red_brick_wall",
+    "llamablocks:light_blue_brick_wall",
+    "llamablocks:magenta_brick_wall",
+    "llamablocks:yellow_brick_wall",
+    "llamablocks:pink_brick_wall",
+    "llamablocks:cyan_brick_wall",
+    "llamablocks:green_brick_wall",
+    "llamablocks:purple_brick_wall"
+  ]
+}

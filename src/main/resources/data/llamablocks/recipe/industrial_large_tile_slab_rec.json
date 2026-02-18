@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamablocks:industrial_large_tile"
+  },
+  "result": {
+    "id": "llamablocks:industrial_large_tile_slab",
+    "count": 6
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamablocks:brick_types",
+    "minecraft:magenta_dye"
+  ],
+  "result": {
+    "id": "llamablocks:magenta_bricks",
+    "count": 1
+  }
+}

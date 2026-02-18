@@ -17,12 +17,12 @@ import net.minecraft.core.BlockPos;
 
 import mc.omegabird.llamablocks.procedures.XbuttonprocidureProcedure;
 import mc.omegabird.llamablocks.procedures.ComputerauthprocedureProcedure;
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 @EventBusSubscriber
 public record ComputerauthguiButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<ComputerauthguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "computerauthgui_buttons"));
+	public static final Type<ComputerauthguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamablocksMod.MODID, "computerauthgui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, ComputerauthguiButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, ComputerauthguiButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
@@ -60,6 +60,6 @@ public record ComputerauthguiButtonMessage(int buttonID, int x, int y, int z) im
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(ComputerauthguiButtonMessage.TYPE, ComputerauthguiButtonMessage.STREAM_CODEC, ComputerauthguiButtonMessage::handleData);
+		LlamablocksMod.addNetworkMessage(ComputerauthguiButtonMessage.TYPE, ComputerauthguiButtonMessage.STREAM_CODEC, ComputerauthguiButtonMessage::handleData);
 	}
 }

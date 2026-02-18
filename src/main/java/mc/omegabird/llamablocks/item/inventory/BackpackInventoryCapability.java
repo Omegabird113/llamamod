@@ -11,7 +11,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.component.DataComponents;
 
 import mc.omegabird.llamablocks.world.inventory.BackpackguiMenu;
-import mc.omegabird.llamablocks.init.LlamamodModItems;
+import mc.omegabird.llamablocks.init.LlamablocksModItems;
 
 import javax.annotation.Nonnull;
 
@@ -19,7 +19,7 @@ import javax.annotation.Nonnull;
 public class BackpackInventoryCapability extends ComponentItemHandler {
 	@SubscribeEvent
 	public static void onItemDropped(ItemTossEvent event) {
-		if (event.getEntity().getItem().getItem() == LlamamodModItems.BACKPACK.get()) {
+		if (event.getEntity().getItem().getItem() == LlamablocksModItems.BACKPACK.get()) {
 			Player player = event.getPlayer();
 			if (player.containerMenu instanceof BackpackguiMenu)
 				player.closeContainer();
@@ -37,7 +37,7 @@ public class BackpackInventoryCapability extends ComponentItemHandler {
 
 	@Override
 	public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-		return stack.getItem() != LlamamodModItems.BACKPACK.get();
+		return stack.getItem() != LlamablocksModItems.BACKPACK.get();
 	}
 
 	@Override

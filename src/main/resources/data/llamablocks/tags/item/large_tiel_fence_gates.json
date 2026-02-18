@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:light_gray_large_tile_fence_gate",
+    "llamablocks:yellow_large_tile_fence_gate",
+    "llamablocks:red_large_tile_fence_gate",
+    "llamablocks:industrial_large_tile_fence_gate",
+    "llamablocks:cyan_large_tile_fence_gate",
+    "llamablocks:light_blue_large_tile_fence_gate",
+    "llamablocks:pink_large_tile_fence_gate",
+    "llamablocks:magenta_large_tile_fence_gate",
+    "llamablocks:large_tile_fence_gate",
+    "llamablocks:brown_large_tile_fence_gate",
+    "llamablocks:gray_large_tile_fence_gate",
+    "llamablocks:teal_large_tile_fence_gate",
+    "llamablocks:orange_large_tile_fence_gate",
+    "llamablocks:green_large_tile_fence_gate",
+    "llamablocks:black_large_tile_fence_gate",
+    "llamablocks:lime_large_tile_fence_gate",
+    "llamablocks:blue_large_tile_fence_gate",
+    "llamablocks:cherry_large_tile_fence_gate",
+    "llamablocks:purple_large_tile_fence_gate"
+  ]
+}

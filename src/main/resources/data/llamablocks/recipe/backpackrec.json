@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": "minecraft:leather",
+    "b": "#minecraft:planks",
+    "c": "minecraft:string"
+  },
+  "result": {
+    "id": "llamablocks:backpack",
+    "count": 1
+  }
+}

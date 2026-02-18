@@ -8,7 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.CommandSource;
 
-import mc.omegabird.llamablocks.LlamamodMod;
+import mc.omegabird.llamablocks.LlamablocksMod;
 
 public class SendAboutInfoInChatProcedureProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -38,7 +38,7 @@ public class SendAboutInfoInChatProcedureProcedure {
 				}
 			}
 		}
-		LlamamodMod.queueServerWork(1, () -> {
+		LlamablocksMod.queueServerWork(1, () -> {
 			if (IsThisBetaProcedureProcedure.execute() == true) {
 				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(Component.literal("WARNING: This is a BETA version of LlamaMod. Please report any issues or suggestions as Issues on GitHub. (https://github.com/Omegabird113/llamamod)"), false);

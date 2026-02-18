@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": "#llamablocks:large_tiles",
+    "b": "minecraft:lever",
+    "c": "minecraft:redstone",
+    "d": "llamablocks:password_changer",
+    "e": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "llamablocks:authenticator",
+    "count": 1
+  }
+}

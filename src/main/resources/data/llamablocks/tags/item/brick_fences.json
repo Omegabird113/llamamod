@@ -1,0 +1,24 @@
+{
+  "replace": false,
+  "values": [
+    "llamablocks:industrial_brick_fence",
+    "llamablocks:white_brick_fence",
+    "llamablocks:black_brick_fence",
+    "llamablocks:orange_large_tile_fence",
+    "llamablocks:blue_brick_fence",
+    "llamablocks:light_gray_brick_fence",
+    "llamablocks:red_large_tile_fence",
+    "llamablocks:magenta_brick_fence",
+    "llamablocks:cyan_brick_fence",
+    "llamablocks:cherry_brick_fence",
+    "llamablocks:yellow_brick_fence",
+    "llamablocks:green_brick_fence",
+    "llamablocks:purple_brick_fence",
+    "llamablocks:pink_brick_fence",
+    "llamablocks:teal_brick_fence",
+    "llamablocks:gray_brick_fence",
+    "llamablocks:brown_large_tile_fence",
+    "llamablocks:light_blue_brick_fence",
+    "llamablocks:lime_brick_fence"
+  ]
+}

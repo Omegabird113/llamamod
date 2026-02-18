@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamablocks:brick_fence_gates",
+    "minecraft:cyan_dye"
+  ],
+  "result": {
+    "id": "llamablocks:cyan_brick_fence_gate",
+    "count": 1
+  }
+}

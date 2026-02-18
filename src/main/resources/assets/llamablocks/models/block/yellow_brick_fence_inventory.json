@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "llamablocks:block/yellow_brick",
+    "particle": "llamablocks:block/yellow_brick"
+  },
+  "render_type": "solid"
+}
