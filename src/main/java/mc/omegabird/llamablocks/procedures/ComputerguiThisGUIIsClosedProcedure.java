@@ -33,6 +33,7 @@ public class ComputerguiThisGUIIsClosedProcedure {
 				_blockEntity.getPersistentData().putString("operation", ((entity instanceof Player _entity9 && _entity9.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu9) ? _menu9.getMenuState(0, "operation", "") : ""));
 				_blockEntity.getPersistentData().putString("calculator_result",
 						((entity instanceof Player _entity11 && _entity11.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu11) ? _menu11.getMenuState(0, "calculator_result", "") : ""));
+				_blockEntity.getPersistentData().putDouble("power_output", ((entity instanceof Player _entity13 && _entity13.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu13) ? _menu13.getMenuState(2, "power_output", 0.0) : 0.0));
 			}
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
