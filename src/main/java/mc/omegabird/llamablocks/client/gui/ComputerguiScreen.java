@@ -33,8 +33,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	private EditBox calculator_result;
 	private Button button_x;
 	private Button button_kill;
-	private Button button_load;
-	private Button button_save;
 	private Button button_set;
 	private Button button_random;
 	private Button button_message;
@@ -224,30 +222,12 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			}
 		}).bounds(this.leftPos + 187, this.topPos + 97, 46, 20).build();
 		this.addRenderableWidget(button_kill);
-		button_load = Button.builder(Component.translatable("gui.llamamod.computergui.button_load"), e -> {
-			int x = ComputerguiScreen.this.x;
-			int y = ComputerguiScreen.this.y;
-			if (CompmsgnotblankProcedure.execute(world, x, y, z)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
-			}
-		}).bounds(this.leftPos + 51, this.topPos + 120, 46, 20).build();
-		this.addRenderableWidget(button_load);
-		button_save = Button.builder(Component.translatable("gui.llamamod.computergui.button_save"), e -> {
-			int x = ComputerguiScreen.this.x;
-			int y = ComputerguiScreen.this.y;
-			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 3, x, y, z);
-			}
-		}).bounds(this.leftPos + 4, this.topPos + 120, 46, 20).build();
-		this.addRenderableWidget(button_save);
 		button_set = Button.builder(Component.translatable("gui.llamamod.computergui.button_set"), e -> {
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 4, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}).bounds(this.leftPos + 140, this.topPos + 145, 40, 20).build();
 		this.addRenderableWidget(button_set);
@@ -255,8 +235,8 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 5, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
 		}).bounds(this.leftPos + 181, this.topPos + 145, 56, 20).build();
 		this.addRenderableWidget(button_random);
@@ -264,8 +244,8 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 97, 61, 20).build();
 		this.addRenderableWidget(button_message);
@@ -273,8 +253,8 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
 		}).bounds(this.leftPos + 172, this.topPos + 54, 72, 20).build();
 		this.addRenderableWidget(button_calculate);
@@ -282,8 +262,8 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(8, x, y, z));
-				ComputerguiButtonMessage.handleButtonAction(entity, 8, x, y, z);
+				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
+				ComputerguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 76, 103, 20).build();
 		this.addRenderableWidget(button_clear_inventory);
@@ -304,7 +284,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	protected void containerTick() {
 		super.containerTick();
 		this.button_kill.visible = ComputerPlayerManagementPermissionCheckProcedure.execute(entity);
-		this.button_load.visible = CompmsgnotblankProcedure.execute(world, x, y, z);
 		this.button_clear_inventory.visible = ComputerPlayerManagementPermissionCheckProcedure.execute(entity);
 	}
 }

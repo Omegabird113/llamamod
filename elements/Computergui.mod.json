@@ -153,41 +153,6 @@
         }
       },
       {
-        "type": "button",
-        "data": {
-          "name": "button_load",
-          "text": "Load",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "Loadmeassage"
-          },
-          "displayCondition": {
-            "name": "Compmsgnotblank"
-          },
-          "width": 46,
-          "height": 20,
-          "x": 137,
-          "y": 168,
-          "locked": false
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "name": "button_save",
-          "text": "Save",
-          "isUndecorated": false,
-          "onClick": {
-            "name": "Savemeassage"
-          },
-          "width": 46,
-          "height": 20,
-          "x": 90,
-          "y": 168,
-          "locked": false
-        }
-      },
-      {
         "type": "textfield",
         "data": {
           "placeholder": "Enter message",
@@ -430,6 +395,12 @@
         }
       }
     ],
+    "onOpen": {
+      "name": "ComputerguiThisGUIIsOpened"
+    },
+    "onClosed": {
+      "name": "ComputerguiThisGUIIsClosed"
+    },
     "gridSettings": {
       "sx": 18,
       "sy": 18,

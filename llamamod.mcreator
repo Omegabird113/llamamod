@@ -647,76 +647,6 @@
       "path": "~/Commands/llamammod command"
     },
     {
-      "name": "Savemeassage",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "savemeassage",
-      "metadata": {
-        "files": [
-          "src/main/java/mc/omegabird/llamablocks/procedures/SavemeassageProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocks/Computer"
-    },
-    {
-      "name": "Loadmeassage",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "loadmeassage",
-      "metadata": {
-        "files": [
-          "src/main/java/mc/omegabird/llamablocks/procedures/LoadmeassageProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocks/Computer"
-    },
-    {
       "name": "Compmsgnotblank",
       "type": "procedure",
       "compiles": true,
@@ -18405,6 +18335,76 @@
       "metadata": {
         "files": [
           "src/main/resources/data/llamamod/damage_type/computer_player_management_damage.json"
+        ]
+      },
+      "path": "~/Blocks/Computer"
+    },
+    {
+      "name": "ComputerguiThisGUIIsClosed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computergui_this_gui_is_closed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ComputerguiThisGUIIsClosedProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Computer"
+    },
+    {
+      "name": "ComputerguiThisGUIIsOpened",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computergui_this_gui_is_opened",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ComputerguiThisGUIIsOpenedProcedure.java"
         ]
       },
       "path": "~/Blocks/Computer"
