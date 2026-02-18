@@ -388,7 +388,7 @@ public class LlamamodModTabs {
 				tabData.accept(LlamamodModItems.FARM_SCRAPS.get());
 				tabData.accept(LlamamodModItems.BANANA.get());
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA.get());
-				tabData.accept(LlamamodModItems.ACID_BUCKET.get());
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA_UPGRADE.get());
+				tabData.accept(LlamamodModItems.ACID_BUCKET.get());
 			}).build());
 }
