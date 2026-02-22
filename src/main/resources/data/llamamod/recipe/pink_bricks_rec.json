@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "building",
   "ingredients": [
     "#llamamod:brick_types",
     "minecraft:pink_dye"

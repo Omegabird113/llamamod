@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "category": "misc",
+  "category": "building",
   "ingredients": [
     "#llamamod:large_tile_slabs",
     "minecraft:iron_ingot",
