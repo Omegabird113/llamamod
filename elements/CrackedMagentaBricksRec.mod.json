@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Whitebricks"
+      }
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 2.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Magentabricks"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CrackedMagentaBricks"
+    },
+    "name": "cracked_magenta_bricks_rec",
+    "namespace": "mod"
+  }
+}

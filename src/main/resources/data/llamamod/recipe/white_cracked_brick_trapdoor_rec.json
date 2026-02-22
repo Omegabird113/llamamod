@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:cracked_white_bricks"
+  },
+  "result": {
+    "id": "llamamod:cracked_white_brick_trapdoor",
+    "count": 12
+  }
+}

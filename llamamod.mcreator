@@ -18464,7 +18464,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_white_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedWhiteBrickSlab",
@@ -18484,7 +18484,7 @@
           "src/main/resources/assets/llamamod/items/cracked_white_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedWhiteBrickStairs",
@@ -18504,7 +18504,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedWhiteBrickWall",
@@ -18525,7 +18525,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_white_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedWhiteBrickFence",
@@ -18545,7 +18545,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_brick_fence_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedWhiteBrickFenceGate",
@@ -18566,7 +18566,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedWhiteBrickTrapdoor",
@@ -18586,7 +18586,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_white_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedWhiteBrickPressurePlate",
@@ -18605,7 +18605,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedWhiteBrickButton",
@@ -18625,7 +18625,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_white_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBricks",
@@ -18643,7 +18643,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_gray_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBrickSlab",
@@ -18663,7 +18663,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_gray_brick_slab_full.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBrickStairs",
@@ -18683,7 +18683,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_gray_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBrickWall",
@@ -18704,7 +18704,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_gray_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBrickFence",
@@ -18724,7 +18724,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_gray_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBrickFenceGate",
@@ -18745,7 +18745,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLightGrayBrickFenceGateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBrickTrapdoor",
@@ -18765,7 +18765,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_light_gray_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBrickPressurePlate",
@@ -18784,7 +18784,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLightGrayBrickPressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightGrayBrickButton",
@@ -18804,7 +18804,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_gray_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBricks",
@@ -18822,7 +18822,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_gray_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBrickSlab",
@@ -18842,7 +18842,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_gray_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBrickStairs",
@@ -18862,7 +18862,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBrickWall",
@@ -18883,7 +18883,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_wall_side_tall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBrickFence",
@@ -18903,7 +18903,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedGrayBrickFenceBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBrickFenceGate",
@@ -18924,7 +18924,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_fence_gate_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBrickTrapdoor",
@@ -18944,7 +18944,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_gray_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBrickPressurePlate",
@@ -18963,7 +18963,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGrayBrickButton",
@@ -18983,7 +18983,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBricks",
@@ -19001,7 +19001,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_black_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBrickStairs",
@@ -19021,7 +19021,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_black_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBrickSlab",
@@ -19041,7 +19041,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlackBrickSlabBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBrickWall",
@@ -19062,7 +19062,7 @@
           "src/main/resources/assets/llamamod/items/cracked_black_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBrickFence",
@@ -19082,7 +19082,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_black_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBrickFenceGate",
@@ -19103,7 +19103,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_black_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBrickTrapdoor",
@@ -19123,7 +19123,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlackBrickTrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBrickPressurePlate",
@@ -19142,7 +19142,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_black_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlackBrickButton",
@@ -19162,7 +19162,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlackBrickButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBricks",
@@ -19180,7 +19180,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBrownBricksBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBrickStairs",
@@ -19200,7 +19200,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBrickSlab",
@@ -19220,7 +19220,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_brown_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBrickWall",
@@ -19241,7 +19241,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBrickFence",
@@ -19261,7 +19261,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_brown_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBrickFenceGate",
@@ -19282,7 +19282,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBrownBrickFenceGateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBrickTrapdoor",
@@ -19302,7 +19302,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBrickPressurePlate",
@@ -19321,7 +19321,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBrownBrickPressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBrownBrickButton",
@@ -19341,7 +19341,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBrownBrickButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBricks",
@@ -19359,7 +19359,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_red_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBrickStairs",
@@ -19379,7 +19379,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBrickSlab",
@@ -19399,7 +19399,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_red_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBrickWall",
@@ -19420,7 +19420,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_red_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBrickFence",
@@ -19440,7 +19440,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_red_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBrickFenceGate",
@@ -19461,7 +19461,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBrickTrapdoor",
@@ -19481,7 +19481,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_red_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBrickPressurePlate",
@@ -19500,7 +19500,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedRedBrickButton",
@@ -19520,7 +19520,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_brick_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBricks",
@@ -19538,7 +19538,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_orange_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBrickStairs",
@@ -19558,7 +19558,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBrickSlab",
@@ -19578,7 +19578,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_orange_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBrickWall",
@@ -19599,7 +19599,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_wall_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBrickFence",
@@ -19619,7 +19619,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_fence_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBrickFenceGate",
@@ -19640,7 +19640,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBrickTrapdoor",
@@ -19660,7 +19660,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_orange_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBrickPressurePlate",
@@ -19679,7 +19679,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedOrangeBrickButton",
@@ -19699,7 +19699,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBricks",
@@ -19717,7 +19717,7 @@
           "src/main/resources/assets/llamamod/items/cracked_yellow_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBrickStairs",
@@ -19737,7 +19737,7 @@
           "src/main/resources/assets/llamamod/items/cracked_yellow_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBrickSlab",
@@ -19757,7 +19757,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBrickWall",
@@ -19778,7 +19778,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBrickFence",
@@ -19798,7 +19798,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_yellow_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBrickFenceGate",
@@ -19819,7 +19819,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBrickTrapdoor",
@@ -19839,7 +19839,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_yellow_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBrickPressurePlate",
@@ -19858,7 +19858,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_yellow_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedYellowBrickButton",
@@ -19878,7 +19878,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedYellowBrickButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBricks",
@@ -19896,7 +19896,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLimeBricksBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBrickStairs",
@@ -19916,7 +19916,7 @@
           "src/main/resources/assets/llamamod/items/cracked_lime_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBrickSlab",
@@ -19936,7 +19936,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBrickWall",
@@ -19957,7 +19957,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLimeBrickWallBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBrickFence",
@@ -19977,7 +19977,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBrickFenceGate",
@@ -19998,7 +19998,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBrickTrapdoor",
@@ -20018,7 +20018,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBrickPressurePlate",
@@ -20037,7 +20037,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLimeBrickButton",
@@ -20057,7 +20057,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBricks",
@@ -20075,7 +20075,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedGreenBricksBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBrickStairs",
@@ -20095,7 +20095,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBrickSlab",
@@ -20115,7 +20115,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_green_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBrickWall",
@@ -20136,7 +20136,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_brick_wall_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBrickFence",
@@ -20156,7 +20156,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBrickFenceGate",
@@ -20177,7 +20177,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBrickTrapdoor",
@@ -20197,7 +20197,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_green_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBrickPressurePlate",
@@ -20216,7 +20216,7 @@
           "src/main/resources/assets/llamamod/items/cracked_green_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedGreenBrickButton",
@@ -20236,7 +20236,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_green_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBricks",
@@ -20254,7 +20254,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBrickStairs",
@@ -20274,7 +20274,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBrickSlab",
@@ -20294,7 +20294,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBrickWall",
@@ -20315,7 +20315,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBrickFence",
@@ -20335,7 +20335,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_cyan_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBrickFenceGate",
@@ -20356,7 +20356,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBrickTrapdoor",
@@ -20376,7 +20376,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBrickPressurePlate",
@@ -20395,7 +20395,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCyanBrickButton",
@@ -20415,7 +20415,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBricks",
@@ -20433,7 +20433,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_blue_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBrickStairs",
@@ -20453,7 +20453,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_blue_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBrickSlab",
@@ -20473,7 +20473,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_light_blue_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBrickWall",
@@ -20494,7 +20494,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_blue_brick_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBrickFence",
@@ -20514,7 +20514,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLightBlueBrickFenceBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBrickFenceGate",
@@ -20535,7 +20535,7 @@
           "src/main/resources/assets/llamamod/items/cracked_light_blue_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBrickTrapdoor",
@@ -20555,7 +20555,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_blue_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBrickPressurePlate",
@@ -20574,7 +20574,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_blue_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedLightBlueBrickButton",
@@ -20594,7 +20594,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_blue_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBricks",
@@ -20612,7 +20612,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlueBricksBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBrickStairs",
@@ -20632,7 +20632,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_blue_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBrickSlab",
@@ -20652,7 +20652,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlueBrickSlabBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBrickWall",
@@ -20673,7 +20673,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_blue_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBrickFence",
@@ -20693,7 +20693,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_blue_brick_fence_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBrickFenceGate",
@@ -20714,7 +20714,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBrickTrapdoor",
@@ -20734,7 +20734,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_blue_brick_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBrickPressurePlate",
@@ -20753,7 +20753,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedBlueBrickButton",
@@ -20773,7 +20773,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBricks",
@@ -20791,7 +20791,7 @@
           "src/main/resources/assets/llamamod/items/cracked_purple_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBrickStairs",
@@ -20811,7 +20811,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBrickSlab",
@@ -20831,7 +20831,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_purple_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBrickWall",
@@ -20852,7 +20852,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedPurpleBrickWallBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBrickFence",
@@ -20872,7 +20872,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBrickFenceGate",
@@ -20893,7 +20893,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBrickTrapdoor",
@@ -20913,7 +20913,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBrickPressurePlate",
@@ -20932,7 +20932,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedPurpleBrickPressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPurpleBrickButton",
@@ -20952,7 +20952,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_purple_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBricks",
@@ -20970,7 +20970,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_magenta_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBrickStairs",
@@ -20990,7 +20990,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_magenta_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBrickSlab",
@@ -21010,7 +21010,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBrickWall",
@@ -21031,7 +21031,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_magenta_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBrickFence",
@@ -21051,7 +21051,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBrickFenceGate",
@@ -21072,7 +21072,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_fence_gate_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBrickTrapdoor",
@@ -21092,7 +21092,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedMagentaBrickTrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBrickPressurePlate",
@@ -21111,7 +21111,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedMagentaBrickButton",
@@ -21131,7 +21131,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBricks",
@@ -21149,7 +21149,7 @@
           "src/main/resources/assets/llamamod/items/cracked_pink_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBrickStairs",
@@ -21169,7 +21169,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBrickSlab",
@@ -21189,7 +21189,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBrickWall",
@@ -21210,7 +21210,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_pink_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBrickFence",
@@ -21230,7 +21230,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_pink_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBrickFenceGate",
@@ -21251,7 +21251,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedPinkBrickFenceGateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBrickTrapdoor",
@@ -21271,7 +21271,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_pink_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBrickPressurePlate",
@@ -21290,7 +21290,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedPinkBrickButton",
@@ -21310,7 +21310,7 @@
           "src/main/resources/assets/llamamod/items/cracked_pink_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBricks",
@@ -21328,7 +21328,7 @@
           "src/main/resources/assets/llamamod/items/cracked_cherry_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBrickStairs",
@@ -21348,7 +21348,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBrickSlab",
@@ -21368,7 +21368,7 @@
           "src/main/resources/assets/llamamod/items/cracked_cherry_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBrickWall",
@@ -21389,7 +21389,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_brick_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBrickFence",
@@ -21409,7 +21409,7 @@
           "src/main/resources/assets/llamamod/items/cracked_cherry_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBrickFenceGate",
@@ -21430,7 +21430,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_cherry_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBrickTrapdoor",
@@ -21450,7 +21450,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBrickPressurePlate",
@@ -21469,7 +21469,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedCherryBrickPressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedCherryBrickButton",
@@ -21489,7 +21489,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBricks",
@@ -21507,7 +21507,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBrickStairs",
@@ -21527,7 +21527,7 @@
           "src/main/resources/assets/llamamod/items/cracked_teal_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBrickSlab",
@@ -21547,7 +21547,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBrickWall",
@@ -21568,7 +21568,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedTealBrickWallBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBrickFence",
@@ -21588,7 +21588,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBrickFenceGate",
@@ -21609,7 +21609,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBrickTrapdoor",
@@ -21629,7 +21629,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedTealBrickTrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBrickPressurePlate",
@@ -21648,7 +21648,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_teal_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedTealBrickButton",
@@ -21668,7 +21668,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_brick_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBricks",
@@ -21686,7 +21686,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_industrial_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBrickStairs",
@@ -21706,7 +21706,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedIndustrialBrickStairsBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBrickSlab",
@@ -21726,7 +21726,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_industrial_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBrickWall",
@@ -21747,7 +21747,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_industrial_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBrickFence",
@@ -21767,7 +21767,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_industrial_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBrickFenceGate",
@@ -21788,7 +21788,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_industrial_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBrickTrapdoor",
@@ -21808,7 +21808,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_industrial_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBrickPressurePlate",
@@ -21827,7 +21827,7 @@
           "src/main/resources/assets/llamamod/items/cracked_industrial_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
     },
     {
       "name": "CrackedIndustrialBrickButton",
@@ -21847,7 +21847,1755 @@
           "src/main/resources/assets/llamamod/models/item/cracked_industrial_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Cracked Bricks"
+    },
+    {
+      "name": "CrackedWhiteBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_white_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_white_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_white_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedLightGrayBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_light_gray_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_light_gray_bricks_rec.json",
+          "src/main/resources/data/llamamod/recipe/cracked_light_gray_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedGrayBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_gray_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_gray_bricks_rec.json",
+          "src/main/resources/data/llamamod/recipe/cracked_gray_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedBlackBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_black_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_black_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_black_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedBrownBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_brown_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_brown_bricks_rec.json",
+          "src/main/resources/data/llamamod/recipe/cracked_brown_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedRedBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_red_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_red_bricks_rec.json",
+          "src/main/resources/data/llamamod/recipe/cracked_red_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedOrangeBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_orange_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_orange_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_orange_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedYellowBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_yellow_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_yellow_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_yellow_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedLimeBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_lime_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_lime_bricks_rec.json",
+          "src/main/resources/data/llamamod/recipe/cracked_lime_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedGreenBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_green_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_green_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_green_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedCyanBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_cyan_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_cyan_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_cyan_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedLightBlueBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_light_blue_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_light_blue_bricks_rec.json",
+          "src/main/resources/data/llamamod/recipe/cracked_light_blue_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedBlueBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_blue_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_blue_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_blue_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedPurpleBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_purple_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_purple_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_purple_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedMagentaBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_magenta_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_magenta_bricks_rec.json",
+          "src/main/resources/data/llamamod/recipe/cracked_magenta_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedPinkBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_pink_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_pink_bricks_rec.json",
+          "src/main/resources/data/llamamod/recipe/cracked_pink_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedCherryBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_cherry_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_cherry_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_cherry_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedIndustrialBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_industrial_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_industrial_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_industrial_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "CrackedTealBricksRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked_teal_bricks_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cracked_teal_bricks_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/cracked_teal_bricks_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/bricks"
+    },
+    {
+      "name": "WhhiteCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whhite_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/whhite_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "LightGrayCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "GrayCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "BlackCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "BrownCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "RedCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "OrangeCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "YellowCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "LimeCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "GreenCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "CyanCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "LightBlueCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "BlueCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "PurpleCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "MagentaCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "PinkCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "CherryCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "TealCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "IndustrialCrackedBrickSlabRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_brick_slab_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_brick_slab_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks"
+    },
+    {
+      "name": "WhiteCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "LightGrayCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "GrayCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "BlackCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "BrownCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "RedCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "OrangeCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "YellowCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "LimeCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "GreenCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "CyanCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "LightBlueCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "BlueCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "PurpleCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "MagentaCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "PinkCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "CherryCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "IndustrialCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "TealCrackedBrickRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_brick_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_brick_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks"
+    },
+    {
+      "name": "WhiteCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "LightGrayCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "GrayCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "BlackCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "BrownCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "RedCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "OrangeCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "YellowCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "LimeCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "GreenCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "CyanCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "LightBlueCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "BlueCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "PurpleCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "MagentaCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "PinkCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "CherryCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "TealCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "IndustrialCrackedBrickWallRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_brick_wall_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_brick_wall_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks"
+    },
+    {
+      "name": "WhiteCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "LightGrayCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "GrayCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "BlackCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "BrownCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "RedCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "OrangeCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "YellowCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "LimeCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "GreenCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "CyanCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "LightBlueCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "BlueCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "PurpleCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "MagentaCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "PinkCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "CherryCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "TealCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "IndustrialCrackedBrickPreassurePlateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_brick_preassure_plate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_brick_preassure_plate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks"
+    },
+    {
+      "name": "WhiteCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "LightGrayCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "GrayCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "BlackCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "BrownCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "RedCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "OrangeCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "YellowCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "LimeCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "GreenCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "CyanCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "LightBlueCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "BlueCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "PurpleCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "MagentaCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "PinkCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "CherryCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "TealCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "IndustrialCrackedBrickButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_brick_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_brick_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks"
+    },
+    {
+      "name": "WhiteCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "LightGrayCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "GrayCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "BlackCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "BrownCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "RedCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "OrangeCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "YellowCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "LimeCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "GreenCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "CyanCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "LightBlueCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "BlueCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "PurpleCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "MagentaCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "PinkCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "CherryCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "TealCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
+    },
+    {
+      "name": "IndustrialCrackedBrickTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_brick_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_brick_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks"
     }
   ],
   "variable_elements": [],
@@ -24820,6 +26568,10 @@
               {
                 "name": "Large Tile -- Existing Conversions",
                 "children": []
+              },
+              {
+                "name": "Cracked Bricks",
+                "children": []
               }
             ]
           },
@@ -24844,6 +26596,10 @@
               },
               {
                 "name": "Large Tile - Existing Conversions",
+                "children": []
+              },
+              {
+                "name": "Crack Bricks",
                 "children": []
               }
             ]
@@ -24874,6 +26630,10 @@
               {
                 "name": "Large Tile - Existing Conversions",
                 "children": []
+              },
+              {
+                "name": "Cracked Bricks",
+                "children": []
               }
             ]
           },
@@ -24898,6 +26658,10 @@
               },
               {
                 "name": "Large Tile - Existing Conversions",
+                "children": []
+              },
+              {
+                "name": "Cracked Bricks",
                 "children": []
               }
             ]
@@ -24974,6 +26738,10 @@
               {
                 "name": "Large Tile - Existing Conversion",
                 "children": []
+              },
+              {
+                "name": "Cracked Bricks",
+                "children": []
               }
             ]
           },
@@ -25002,6 +26770,10 @@
               },
               {
                 "name": "Large Tile - Existing Conversion",
+                "children": []
+              },
+              {
+                "name": "Cracked Bricks",
                 "children": []
               }
             ]
@@ -25033,6 +26805,10 @@
           },
           {
             "name": "Large Tiles",
+            "children": []
+          },
+          {
+            "name": "Cracked Bricks",
             "children": []
           }
         ]

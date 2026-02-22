@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": "llamamod:cracked_pink_bricks"
+  },
+  "result": {
+    "id": "llamamod:cracked_pink_brick_slab",
+    "count": 6
+  }
+}

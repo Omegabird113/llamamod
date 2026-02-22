@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:cracked_purple_bricks"
+  },
+  "result": {
+    "id": "llamamod:cracked_purple_brick_stairs",
+    "count": 4
+  }
+}

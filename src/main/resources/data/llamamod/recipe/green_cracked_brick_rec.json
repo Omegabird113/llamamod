@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:cracked_green_bricks"
+  },
+  "result": {
+    "id": "llamamod:cracked_green_brick_stairs",
+    "count": 4
+  }
+}
