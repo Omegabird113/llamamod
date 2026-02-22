@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.TrapDoorBlock;
 import net.minecraft.world.level.block.SoundType;
 
 public class CeilingtiletrapdoorBlock extends TrapDoorBlock {
-	public CeilingtiletrapdoorBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, properties.mapColor(MapColor.ICE).sound(SoundType.METAL).strength(25.5f, 33f).requiresCorrectToolForDrops());
+	public CeilingtiletrapdoorBlock() {
+		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.ICE).sound(SoundType.METAL).strength(25.5f, 33f).requiresCorrectToolForDrops());
 	}
 }

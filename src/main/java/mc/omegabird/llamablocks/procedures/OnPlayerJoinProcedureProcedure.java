@@ -35,7 +35,7 @@ public class OnPlayerJoinProcedureProcedure {
 		if (entity == null)
 			return;
 		LlamamodMod.LOGGER.debug("LlamaBlocks Procedure \"onPlayerJoin\" executed, as a player has joined world.");
-		if ((world instanceof ServerLevel _serverLevelGR1 && _serverLevelGR1.getGameRules().getBoolean(LlamamodModGameRules.GIVE_ALL_RECIPES)) == true) {
+		if (world.getLevelData().getGameRules().getBoolean(LlamamodModGameRules.GIVE_ALL_RECIPES) == true) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"recipe give @a *");
