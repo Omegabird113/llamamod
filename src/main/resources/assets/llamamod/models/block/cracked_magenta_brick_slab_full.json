@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "llamamod:block/cracked_magenta_bricks",
+    "bottom": "llamamod:block/cracked_magenta_bricks",
+    "top": "llamamod:block/cracked_magenta_bricks",
+    "side": "llamamod:block/cracked_magenta_bricks"
+  },
+  "render_type": "solid"
+}

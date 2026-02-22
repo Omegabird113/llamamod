@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "llamamod:block/cracked_black_bricks",
+    "particle": "llamamod:block/cracked_black_bricks"
+  },
+  "render_type": "solid"
+}

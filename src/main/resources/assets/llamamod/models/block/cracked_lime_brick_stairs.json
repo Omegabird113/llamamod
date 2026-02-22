@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "llamamod:block/cracked_lime_bricks",
+    "bottom": "llamamod:block/cracked_lime_bricks",
+    "top": "llamamod:block/cracked_lime_bricks",
+    "side": "llamamod:block/cracked_lime_bricks"
+  },
+  "render_type": "solid"
+}
