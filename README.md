@@ -197,6 +197,32 @@ Here's some information about the development of LlamaBlocks.
 
 > Note that in order to connect to the GitHub repo, I'm also using the [Remote Workspaces Support](https://mcreator.net/plugin/97468/remote-workspaces-support-20232) plugin
 
+### Color Hex Codes
+These are applied using the MCreator texture maker’s `Colorize` tool (with `Lock Hue, Saturation, and Brightness` disabled unless said otherwise)
+
+#### Vanilla Colors:
+- White: `cfd5d6`
+- Light Gray: `7d7d73`
+- Gray: `373a3e`
+- Black: `080a0f`
+- Brown: “603c20`
+- Red: `8e2121`
+- Orange: `e06101`
+- Yellow: `f1af15`
+- Lime: `5ea918`
+- Green: `495b24`
+- Cyan: `157788`
+- Light Blue: `2489c7`
+- Blue: `2d2f8f`
+- Purple: `64209c`
+- Magenta: `a9309f`
+- Pink: `d5658f`
+
+#### Custom Colors
+- Industrial: `452e3f`
+- Teal: `037c6e`
+- Cherry: `a84365` with `Lock Hue, Saturation, and Brightness` enabled
+
 ### The LlamaBlocks Versioning system
 
 The current LlamaBlocks version system produces versions in the format `x.y.z` where:
