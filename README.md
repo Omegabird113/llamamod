@@ -205,7 +205,7 @@ These are applied using the MCreator texture maker’s `Colorize` tool (with `Lo
 - Light Gray: `7d7d73`
 - Gray: `373a3e`
 - Black: `080a0f`
-- Brown: “603c20`
+- Brown: `603c20`
 - Red: `8e2121`
 - Orange: `e06101`
 - Yellow: `f1af15`
