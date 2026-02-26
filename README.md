@@ -1,5 +1,5 @@
 # LlamaBlocks
-LlamaBlocks is a chaotic, but interesting Minecraft mod I've made using [MCreator](https://mcreator.net) over the past few years. It has a massive variety of features, with the only real criteria for each being what I thought would be interesting, either to play or code. Its features range from a massive amount of similar building blocks with specific color variants, to single blocks with tons of functionality.
+LlamaBlocks is a mod I've been working on on and off since the summer of 2022 using [MCreator](https://mcreator.net). It has a massive variety of interesting features that range from massive sets of building blocks with specific color variants, to the Computer block with a bunch of varied features, or specialized blocks like the Variable Light Block.
 
 ![A showcase build w/ teal & white blocks plus Secure Storage Blocks and more](https://github.com/user-attachments/assets/50106e12-fee9-433e-afd0-c3dcc8ad3796)
 
@@ -7,19 +7,20 @@ LlamaBlocks is a chaotic, but interesting Minecraft mod I've made using [MCreato
 Each sub-category of this section represents a feature or set of related features.
 
 ### Building Blocks
-There are 2 massive sets of building blocks:
+There are 3 massive sets of building blocks:
 1. The custom colored bricks
-2. The Large Tiles
+2. The custom cracked colored bricks
+3. The Large Tiles
 
-Both sets come in 19 colors:
+Each set comes in 19 colors:
 - All **16 vanilla colors** *(White, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, Light Blue, Blue, Purple, Magenta, Pink)*
-- Industrial (Netherite Colored) variants
+- Industrial (Netherite-colored) variants
 - Cherry (Hot Pink) variants
 - Teal variants
 
 ![Showcases all 16 vanilla colors of all brick & large tile block variants](https://github.com/user-attachments/assets/a48eeedb-e050-49eb-aaad-ff086ab20845)
 
-There are also the Tiles *(Black and White)* and the Ceiling tiles *(Blue and Light Gray)*.
+There are also Tiles *(Black and White checkered)* and Ceiling Tiles *(Blue and Light Gray checkered)*.
 
 Each color variant, or tile type, has a corresponding block set, which includes the following:
 - A full block
@@ -38,16 +39,16 @@ All of these items are related together.
 ![Showcases Banana Plants in a Banana Patch](https://github.com/user-attachments/assets/f524dfa5-bfbe-4a32-921c-873f788b57c2)
 
 #### The Banana
-The banana is a somewhat bad food item in terms of nutrition, but you can eat them very fast. Here are their exact properties:
+The Banana is a somewhat bad food item in terms of nutrition, but you can eat them very fast. Here are their exact properties:
 - A nutritional value of `2` *(it heals `1` hunger bar)*
 - A saturation of `3.65` *(not very good)*
-- It can be eaten in `12 ticks` *(You can eat them in `0.6 seconds` instead of the typical `1.6 seconds` for food)*
+- It can be eaten in `13 ticks` *(You can eat them in `0.65 seconds` instead of the typical `1.6 seconds` for food)*
 - It can be composted with a `32.5%` success rate
 - It can fuel a furnace for `100 ticks` *(`5 seconds`)*
 
 #### The Golden Banana
 A Golden Banana is a variant of the banana which is much better, but a bit slower and somewhat expensive:
-- A nutritional value of `5` *(it heals `2.5` hunger bar)*
+- A nutritional value of `5` *(it heals `2.5` hunger bars)*
 - A saturation of `7.1`
 - It can be eaten in `1 second` *(`20 ticks`)*
 - It can't be composted or used as furnace fuel
@@ -57,8 +58,8 @@ A Golden Banana is a variant of the banana which is much better, but a bit slowe
 
 This is a naturally spawning plant which works similarly to something like sugar cane, but:
 - It grows up to `5` blocks high
-- Its drops are random and can include Bananas, Banana plants, and Farm Scraps
-- It can be bonemealed in vanilla Java Edition.
+- Its drops are random and can include Bananas, Banana Plants, and Farm Scraps
+- It can be bonemealed
 - It can be composted with a `50%` success rate
 
 #### Banana Patches
@@ -66,7 +67,7 @@ This is a naturally spawning plant which works similarly to something like sugar
 Banana Plants naturally generate in Banana Patches, and here's some info about them:
 - They can generate in the following biomes: *`Flower Forest`, `Forest`, `Jungle`, `Cherry Grove`, `Plains`*
 - They can only generate on Grass and Dirt blocks
-- They have a `1/70` chance of trying to generate in a chunk
+- They have a `1/70` chance of attempting to generate in a chunk
 
 #### Farm Scraps
 
@@ -75,7 +76,7 @@ Farm scraps are non-plantable items which can be used for the following:
   - Wheat seeds, carrots, beetroot seeds, melon seeds, potatoes, sugar cane, and bamboo
 - Placing 8 of them and a banana plant in a crafting table makes another banana plant
 - Placing 6 of them plus a sapling creates 2 of those saplings
-- You can add 3 Farm Scraps, a Milk Bucket, and a Honey Bottle to the Posionous Potato in a crafting grid to make a reguluar potato
+- You can add 3 Farm Scraps, a Milk Bucket, and a Honey Bottle to the Poisonous Potato in a crafting grid to make a regular potato
 - They can be composted at a `17.5%` success rate
 - `3` of them can be crafted into `1` brown dye
 
@@ -87,15 +88,15 @@ Acid is a fluid which naturally generates in Acid Lakes (technically a feature n
 
 #### The Acid Dissolving effect
 
-Coming into contact with acid gives level 1 of this effect to the entity for 7.5 seconds *(150 ticks)*.
+Coming into contact with Acid gives Level 1 of this effect to the entity for 7.5 seconds *(150 ticks)*.
 
 The player gets the effect:
 - If the level is below 5, `1.5` damage of type `acid_damage` is dealt
 - If the level is at or above 5, damage of type `acid_damage` is dealt according to the formula `(a - 2) * 3.05 + 1.5` where `a` is the amplifier
 
-On each tick the effect is active:
+On each tick while the effect is active:
 - Damage of type `acid_damage` is dealt according to the rounded-up result of the formula, `(a + 1.05) * 1.18` where `a` is the amplifier
-- If the player is `≥ 1.9` blocks deep in acid, 2 damage of type `acid_drowning` is dealt
+- If the player is `≥ 1.9` blocks deep in Acid, 2 damage of type `acid_drowning` is dealt
 
 The Acid Damage type:
 - Scales with difficulty
@@ -110,7 +111,7 @@ The Acid Drowning damage type:
 The [Secure Storage Block](#the-secure-storage-block), [Computer](#the-computer), and [Authenticator](#the-authenticator) all support passwords. By default, the password is blank. When there is no password yet, the [Computer](#the-computer) and [Secure Storage Block](#the-secure-storage-block) skip the password screen, but the Authenticator instead requires the user to leave the password field blank. The user can change passwords using the Password Changer, though they need to enter the existing password. 
 
 #### <ins>**Important Security Concerns**</ins>
-1. **Operators can see any password**, meaning that all passwords aren't actually private.
+1. **Operators can see any password**, meaning that passwords aren't actually private from them.
 2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamaBlocks.
 > More specifically, passwords are stored in a NBT text tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
 
@@ -133,18 +134,18 @@ This asks for a password using the [Password System](#the-password-system), and,
 
 The complex offers a variety of features for information, math, player management, and more. Here's a list of its features:
 - It supports having passwords with the [Password System](#the-password-system), so only people with access can use the other features
-- Players can make calculations between 2 numbers using the operations: `+`, `-`, `*`, `/`, `^`, `MOD`, `MIN`, `MAX`, `ATAN2`, `HYPOT`, `AND`, `OR`, `XOR`, `LOG`, and `ROOT`.
+- Players can make calculations using the 2-value operations: `+`, `-`, `*`, `/`, `^`, `MOD`, `MIN`, `MAX`, `ATAN2`, `HYPOT`, `AND`, `OR`, `XOR`, `LOG`, `RAND`, `RANDEX`, and `ROOT`.
   - `AND`, `OR`, and `XOR` are all bitwise operations
   - `LOG` is a logbase operation with the syntax `<base> log <n>`
-  - LlamaMod supports the irrational numbers `pi` and `e` to be entered.
-- One value operations supported with just value one: `NLOG`, `ROUND`, `CEIL`, `FLOOR`, `SQRT`, `3ROOT`, `ABS`, `SIGNUM`, `SIN`, `COS`, `TAN`, `ASIN`, `ACOS`, `ATAN`, `LOG10`, `RAD>DEG`, and `DEG>RAD`.
+  - `RAND` is random inclusive and `RANDEX` is random exclusive
+- The Computer Calculator supports the irrational numbers `pi` and `e` to be entered.
+- The single-value operations supported with just value one: `NLOG`, `ROUND`, `CEIL`, `FLOOR`, `SQRT`, `3ROOT`, `ABS`, `SIGNUM`, `SIN`, `COS`, `TAN`, `ASIN`, `ACOS`, `ATAN`, `LOG10`, `RAD>DEG`, and `DEG>RAD`.
 - Players can send messages to other players
 - Operators can clear the inventory of and kill players
-- Players can store and retrieve a message within the computer block itself
-- Players can generate a random number with a minimum and maximum values as low as `-1,000` and as high as `1,000`, inclusive or exclusive (exclusive also causes random numbers decimal values).
 - Players can access a formatted string of the 24-hour time (Ex. `7 o'clock (10% through the day)`)
 - Players can set a redstone output between 0 and 15, and they can choose to have the computer pick a random power output between 0 and 15.
 - It shows a list of the names of every player connected to a world/server.
+- The contents of all textboxes in the computer are automatically saved to that computer and reloaded when the Computer is reopened.
 
 ![This shows the Computer UI as of v1.2.0, with a calculator, redstone output selector, random number generator, player management controls, in-game time, player list, LlamaBlocks version, and message loading/saving.](https://cdn.modrinth.com/data/cached_images/83a8dc9f58808e295b15323dfc782b793afd8463.png)
 
@@ -154,11 +155,11 @@ The Backpacks are items which store items like a chest, but are kept in your inv
 
 #### The Backpack
 
-This is the cheaper to craft, but less functional, variant of the backpack. It can store `3` rows of items, but that's pretty much it.
+This is the cheaper-to-craft, but less functional, variant of the backpack. It can store `3` rows of items, but that's pretty much it.
 
 #### The Netherite Backpack
 
-The Netherite backpack is an upgrade to the backpack which:
+The Netherite Backpack is an upgrade to the Backpack which:
 - Has `4` rows of items, instead of `3`
 - Cannot burn, which protects your items if you drop them or die in fire or lava.
 - Has a `Delete Items` button which deletes every item, though it is protected with a checkbox to prevent accidental deletions
@@ -167,13 +168,13 @@ The Netherite backpack is an upgrade to the backpack which:
 
 This is a block which, when a block next to it is updated, will set the light level it produces to the maximum redstone power going into the block.
 
-![This showcases Cherry walls, Industrial floor/ceiling, and mood mood lighting with the Variable light with no shaders.](https://cdn.modrinth.com/data/cached_images/563992bdd456b962c393e0771959f22365f5d028.jpeg)
+![This showcases Cherry walls, Industrial floor/ceiling, and mood lighting with the Variable light with no shaders.](https://cdn.modrinth.com/data/cached_images/563992bdd456b962c393e0771959f22365f5d028.jpeg)
 
 ### Game Rules
 **TBD**
 
 ## Where to Download
-LlamaBlocks is avalible on the following mod hosting websites:
+LlamaBlocks is available on the following mod hosting websites:
 - [Modrinth](https://modrinth.com/mod/llamablocks)
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
 - [MCreator's Website](https://mcreator.net/modification/121457/llamablocks)
@@ -226,10 +227,10 @@ These are applied using the MCreator texture maker’s `Colorize` tool (with `Lo
 ### The LlamaBlocks Versioning system
 
 The current LlamaBlocks version system produces versions in the format `x.y.z` where:
-- `x` represents what a game-changing update (ex. a rewrite, a ridiculous amount of new features, etc)
+- `x` represents a game-changing update (ex. a rewrite, a ridiculous amount of new features, etc)
 - `y` represents an update which adds features, changes behavior in a large way, or changes the NeoForge or Minecraft version requirement (ex. some new blocks, a Minecraft version update, a new function is added to the computer, etc)
-- `z` represents a bugfix or small update with very few features (ex. an important hotfix, a consistency or bugfix, a small texture or GUI change, etc)
+- `z` represents a bugfix or small update with a few features (ex. an important hotfix, a consistency or bugfix, a small texture or GUI change, etc)
 
 ### Licensing, Modpacks, etc
 
-You can use LlamaBlocks in any modpack with credit, you may use LlamaBlocks's code or jar files as long as the use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+You can use LlamaBlocks with credit, or use its code or even jar files in w Modpqck or other project, as long as that use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
