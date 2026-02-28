@@ -3,8 +3,6 @@
 # Gradle build system ignores
 .gradle/
 build/
-gradle/
-gradle.properties
 
 # Other IDE related folders
 .idea/
