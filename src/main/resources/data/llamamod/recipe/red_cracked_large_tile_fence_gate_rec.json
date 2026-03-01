@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamamod:cracked_red_large_tile"
+  },
+  "result": {
+    "id": "llamamod:cracked_black_large_tile_fence_gate",
+    "count": 4
+  }
+}

@@ -28937,6 +28937,747 @@
         ]
       },
       "path": "~/Recipes and Trades/Fences/Cracked Large Tiles"
+    },
+    {
+      "name": "WhiteCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "LightGrayCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "GrayCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "BlackCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "BrownCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "RedCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "OrangeCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "YellowCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "LimeCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "GreenCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "CyanCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "LightBlueCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "BlueCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "PurpleCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "MagentaCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "PinkCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "CherryCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "TealCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "IndustrialCrackedLargeTileFenceGateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_large_tile_fence_gate_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_large_tile_fence_gate_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Fence Gates/Cracked Large Tiiles"
+    },
+    {
+      "name": "WhiteCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "LightGrayCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "GrayCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "BlackCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "BrownCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "RedCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "OrangeCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "YellowCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "LimeCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "GreenCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "CyanCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "LightBlueCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "BlueCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "PurpleCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "MegentaCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "megenta_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/megenta_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "PinkCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "CherryCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "TealCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "IndustrialCrackedLargeTileButtonRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_large_tile_button_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_large_tile_button_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles"
+    },
+    {
+      "name": "WhiteCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "LightGrayCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "GrayCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "BlackCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "BrownCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "RedCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "OrangeCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "YellowCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "LimeCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "GreenCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "CyanCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "LightBlueCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "BlueCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "PurpleCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "MagentaCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "PinkCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "CherryCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "TealCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "IndustrialCrackedLargeTileTrapdoorRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_large_tile_trapdoor_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_large_tile_trapdoor_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
     }
   ],
   "variable_elements": [],
@@ -32932,6 +33673,10 @@
               {
                 "name": "Cracked Bricks",
                 "children": []
+              },
+              {
+                "name": "Cracked Large Tiles",
+                "children": []
               }
             ]
           },
@@ -32964,6 +33709,10 @@
               },
               {
                 "name": "Cracked Bricks",
+                "children": []
+              },
+              {
+                "name": "Cracked Large Tiles",
                 "children": []
               }
             ]

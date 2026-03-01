@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 12,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrackedPurpleLargeTile"
+      },
+      {
+        "value": "CUSTOM:CrackedPurpleLargeTile"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CrackedPurpleLargeTile"
+      },
+      {
+        "value": "CUSTOM:CrackedPurpleLargeTile"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrackedPurpleLargeTileTrapdoor"
+    },
+    "name": "purple_cracked_large_tile_trapdoor_rec",
+    "namespace": "mod"
+  }
+}

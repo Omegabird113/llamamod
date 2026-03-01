@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:cracked_light_blue_large_tile"
+  },
+  "result": {
+    "id": "llamamod:cracked_light_blue_large_tile_trapdoor",
+    "count": 12
+  }
+}
