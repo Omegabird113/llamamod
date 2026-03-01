@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": "minecraft:stick",
+    "b": "llamamod:cracked_green_bricks"
+  },
+  "result": {
+    "id": "llamamod:cracked_green_brick_fence_gate",
+    "count": 4
+  }
+}

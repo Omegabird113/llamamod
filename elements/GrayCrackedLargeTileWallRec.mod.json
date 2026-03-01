@@ -1,0 +1,49 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 12,
+    "group": "",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrackedGrayLargeTile"
+      },
+      {
+        "value": "CUSTOM:CrackedGrayLargeTile"
+      },
+      {
+        "value": "CUSTOM:CrackedGrayLargeTile"
+      },
+      {
+        "value": "CUSTOM:CrackedGrayLargeTile"
+      },
+      {
+        "value": "CUSTOM:CrackedGrayLargeTile"
+      },
+      {
+        "value": "CUSTOM:CrackedGrayLargeTile"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrackedGrayLargeTileWall"
+    },
+    "name": "gray_cracked_large_tile_wall_rec",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": "llamamod:cracked_yellow_large_tile"
+  },
+  "result": {
+    "id": "llamamod:cracked_yellow_large_tile_stairs",
+    "count": 4
+  }
+}

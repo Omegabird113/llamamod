@@ -1,0 +1,10 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "llamamod:block/cracked_lime_large_tiles",
+    "bottom": "llamamod:block/cracked_lime_large_tiles",
+    "top": "llamamod:block/cracked_lime_large_tiles",
+    "side": "llamamod:block/cracked_lime_large_tiles"
+  },
+  "render_type": "solid"
+}
