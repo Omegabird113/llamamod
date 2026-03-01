@@ -10,6 +10,8 @@ import net.minecraft.network.chat.Component;
 
 import mc.omegabird.llamablocks.init.LlamamodModMenus;
 
+import java.util.Random;
+
 public class ComputercalculateprocidureProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
@@ -27,6 +29,16 @@ public class ComputercalculateprocidureProcedure {
 			num1 = Math.PI;
 		} else if ((num1text).equals("E")) {
 			num1 = Math.E;
+		} else if ((num1text).equals("RAND")) {
+			num1 = Math.random();
+		} else if ((num1text).equals("RANDSTD")) {
+			num1 = new Random().nextGaussian();
+		} else if ((num1text).equals("INF")) {
+			num1 = Double.POSITIVE_INFINITY;
+		} else if ((num1text).equals("-INF")) {
+			num1 = Double.NEGATIVE_INFINITY;
+		} else if ((num1text).equals("NAN")) {
+			num1 = Double.NaN;
 		} else {
 			num1 = new Object() {
 				double convert(String s) {
@@ -42,6 +54,16 @@ public class ComputercalculateprocidureProcedure {
 			num2 = Math.PI;
 		} else if ((num2text).equals("E")) {
 			num2 = Math.E;
+		} else if ((num2text).equals("RAND")) {
+			num2 = Math.random();
+		} else if ((num2text).equals("RANDSTD")) {
+			num2 = new Random().nextGaussian();
+		} else if ((num2text).equals("INF")) {
+			num2 = Double.POSITIVE_INFINITY;
+		} else if ((num2text).equals("-INF")) {
+			num2 = Double.NEGATIVE_INFINITY;
+		} else if ((num2text).equals("NAN")) {
+			num2 = Double.NaN;
 		} else {
 			num2 = new Object() {
 				double convert(String s) {
