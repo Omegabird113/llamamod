@@ -11,6 +11,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
+import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.Minecraft;
@@ -31,6 +32,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	private EditBox player_name;
 	private EditBox msg;
 	private EditBox calculator_result;
+	private Checkbox auto_calculate;
 	private Button button_x;
 	private Button button_kill;
 	private Button button_set;
@@ -68,6 +70,12 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 				msg.setValue(stringState);
 			else if (name.equals("calculator_result"))
 				calculator_result.setValue(stringState);
+		}
+		if (elementType == 1 && elementState instanceof Boolean logicState) {
+			if (name.equals("auto_calculate")) {
+				if (auto_calculate.selected() != logicState)
+					auto_calculate.onPress();
+			}
 		}
 		if (elementType == 2 && elementState instanceof Number n) {
 			if (name.equals("power_output"))
@@ -277,6 +285,11 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			}
 		}).bounds(this.leftPos + 4, this.topPos + 119, 103, 20).build();
 		this.addRenderableWidget(button_clear_textboxes);
+		auto_calculate = Checkbox.builder(Component.translatable("gui.llamamod.computergui.auto_calculate"), this.font).pos(this.leftPos + 97, this.topPos + 55).onValueChange((checkbox, value) -> {
+			if (!menuStateUpdateActive)
+				menu.sendMenuStateUpdate(entity, 1, "auto_calculate", value, false);
+		}).build();
+		this.addRenderableWidget(auto_calculate);
 		power_output = new ExtendedSlider(this.leftPos + 93, this.topPos + 145, 46, 20, Component.translatable("gui.llamamod.computergui.power_output_prefix"), Component.translatable("gui.llamamod.computergui.power_output_suffix"), 0, 15, 0, 1, 0,
 				true) {
 			@Override

@@ -26,6 +26,8 @@ public class ComputerguiThisGUIIsOpenedProcedure {
 			_menu.sendMenuStateUpdate(_player, 0, "calculator_result", (getBlockNBTString(world, BlockPos.containing(x, y, z), "calculator_result")), true);
 		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
 			_menu.sendMenuStateUpdate(_player, 2, "power_output", (getBlockNBTNumber(world, BlockPos.containing(x, y, z), "power_output")), true);
+		if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
+			_menu.sendMenuStateUpdate(_player, 1, "auto_calculate", (getBlockNBTLogic(world, BlockPos.containing(x, y, z), "auto_calculate")), true);
 	}
 
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {
@@ -40,5 +42,12 @@ public class ComputerguiThisGUIIsOpenedProcedure {
 		if (blockEntity != null)
 			return blockEntity.getPersistentData().getDoubleOr(tag, 0);
 		return -1;
+	}
+
+	private static boolean getBlockNBTLogic(LevelAccessor world, BlockPos pos, String tag) {
+		BlockEntity blockEntity = world.getBlockEntity(pos);
+		if (blockEntity != null)
+			return blockEntity.getPersistentData().getBooleanOr(tag, false);
+		return false;
 	}
 }

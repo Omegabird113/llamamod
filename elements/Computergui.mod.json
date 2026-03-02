@@ -412,10 +412,23 @@
           "y": 167,
           "locked": false
         }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "name": "auto_calculate",
+          "text": "Automatic",
+          "x": 183,
+          "y": 103,
+          "locked": false
+        }
       }
     ],
     "onOpen": {
       "name": "ComputerguiThisGUIIsOpened"
+    },
+    "onTick": {
+      "name": "ComputerguiWhileThisGUIIsOpenTick"
     },
     "onClosed": {
       "name": "ComputerguiThisGUIIsClosed"

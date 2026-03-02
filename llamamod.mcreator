@@ -29678,6 +29678,25 @@
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles"
+    },
+    {
+      "name": "ComputerguiWhileThisGUIIsOpenTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "computergui_while_this_gui_is_open_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/mc/omegabird/llamablocks/procedures/ComputerguiWhileThisGUIIsOpenTickProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Computer"
     }
   ],
   "variable_elements": [],
@@ -33406,7 +33425,8 @@
       "item.llamamod.cracked_industrial_large_tile_trapdoor": "Cracked Industrial Large Tile Trapdoor",
       "item.llamamod.cracked_industrial_large_tile_pressure_plate": "Cracked Industrial Large Tile Pressure Plate",
       "item.llamamod.cracked_industrial_large_tile_button": "Cracked Industrial Large Tile Button",
-      "item.llamamod.cracked_light_blue_large_tile_pressure_plate": "Cracked Light Blue Large Tile Pressure Plate"
+      "item.llamamod.cracked_light_blue_large_tile_pressure_plate": "Cracked Light Blue Large Tile Pressure Plate",
+      "gui.llamamod.computergui.auto_calculate": "Automatic"
     }
   },
   "metadata": {
