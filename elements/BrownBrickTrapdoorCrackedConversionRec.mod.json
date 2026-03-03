@@ -1,0 +1,27 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:Whitebricktrapdoor"
+      }
+    ],
+    "cookingBookCategory": "BLOCKS",
+    "xpReward": 2.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Brownbricktrapdoor"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CrackedBrownBrickTrapdoor"
+    },
+    "name": "brown_brick_trapdoor_cracked_conversion_rec",
+    "namespace": "mod"
+  }
+}
