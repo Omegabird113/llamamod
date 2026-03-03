@@ -29697,6 +29697,1982 @@
         ]
       },
       "path": "~/Blocks/Computer"
+    },
+    {
+      "name": "WhiteBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LightGrayBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "GrayBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BlackBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BrownBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "RedBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "OrangeBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "YellowBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LimeBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "GreenBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "CyanBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LightBlueBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BlueBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "PurpleBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "MagentaBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "PinkBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "CherryBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "TealBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "IndustrialBrickSlabCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_brick_slab_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_brick_slab_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "WhiteLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LightGrayLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "GrayLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BlackLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BrownLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "RedLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "OrangeLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "YellowLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LimeLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "GreenLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "CyanLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LightBlueLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BlueLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "PurpleLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "MagentaLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "PinkLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "CherryLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "TealLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "IndustrialLargeTileCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_large_tile_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_large_tile_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Slabs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "WhiteBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "LightGrayBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "GrayBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "BlackBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "BrownBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "RedBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "OrangeBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "YellowBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "LimeBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "GreenBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "CyanBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "LightBlueBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "BlueBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "PurpleBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "MagentaBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "PinkBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "CherryBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "TealBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "IndustrialBrickStairCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_brick_stair_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_brick_stair_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Crack Bricks/Cracked conversion"
+    },
+    {
+      "name": "WhiteLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LightGrayLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "GrayLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BlackLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BrownLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "RedLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "OrangeLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "YellowLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LimeLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "GreenLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "CyanLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LightBlueLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BlueLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "PurpleLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "MagentaLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "PinkLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "CherryLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "TealLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "IndustrialLargeTileStairsCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_large_tile_stairs_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_large_tile_stairs_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Stairs/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "WhiteLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LightGrayLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "GrayLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BlackLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BrownLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "RedLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "OrangeLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "YellowLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LimeLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "GreenLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "CyanLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LightBlueLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BlueLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "PurpleLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "MagentaLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "PinkLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "CherryLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "TealLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "IndustrialLargeTileWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_large_tile_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_large_tile_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "WhiteBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LightGrayBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "GrayBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BlackBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BrownBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "RedBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "OrangeBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "YellowBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LimeBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "GreenBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "CyanBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LightBlueBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BlueBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "PurpleBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "MagentaBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "PinkBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "CherryBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "TealBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "IndustrialBrickWallCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_brick_wall_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_brick_wall_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Walls/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "WhiteBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LightGrayBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "GrayBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BlackBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BrownBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "RedBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "OrangeBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "YellowBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LimeBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "GreenBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "CyanBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "LightBlueBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "BlueBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "PurpleBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "MagentaBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "PinkBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "CherryBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "TealBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "IndustrialBrickPressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_brick_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_brick_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Cracked Bricks/Cracked conversion"
+    },
+    {
+      "name": "WhiteLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LightGrayLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "GrayLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BlackLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BrownLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "RedLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "OrangeLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "YellowLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LimeLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "GreenLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "CyanLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "LightBlueLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "BlueLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "PurpleLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "MagentaLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "PinkLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "CherryLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "TealLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
+    },
+    {
+      "name": "IndustrialLargeTilePressurePlateCrackedConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_large_tile_pressure_plate_cracked_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_large_tile_pressure_plate_cracked_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Cracked conversion"
     }
   ],
   "variable_elements": [],
@@ -33499,6 +35475,10 @@
                   {
                     "name": "Cracked full to slab",
                     "children": []
+                  },
+                  {
+                    "name": "Cracked conversion",
+                    "children": []
                   }
                 ]
               },
@@ -33507,6 +35487,10 @@
                 "children": [
                   {
                     "name": "Cracked full to slab",
+                    "children": []
+                  },
+                  {
+                    "name": "Cracked conversion",
                     "children": []
                   }
                 ]
@@ -33542,6 +35526,10 @@
                   {
                     "name": "Cracked full to stairs",
                     "children": []
+                  },
+                  {
+                    "name": "Cracked conversion",
+                    "children": []
                   }
                 ]
               },
@@ -33550,6 +35538,10 @@
                 "children": [
                   {
                     "name": "Cracked full to stairs",
+                    "children": []
+                  },
+                  {
+                    "name": "Cracked conversion",
                     "children": []
                   }
                 ]
@@ -33589,6 +35581,10 @@
                   {
                     "name": "Cracked full to wall",
                     "children": []
+                  },
+                  {
+                    "name": "Cracked conversion",
+                    "children": []
                   }
                 ]
               },
@@ -33597,6 +35593,10 @@
                 "children": [
                   {
                     "name": "Cracked full to wall",
+                    "children": []
+                  },
+                  {
+                    "name": "Cracked conversion",
                     "children": []
                   }
                 ]
@@ -33632,6 +35632,10 @@
                   {
                     "name": "Cracked full to pressure plate",
                     "children": []
+                  },
+                  {
+                    "name": "Cracked conversion",
+                    "children": []
                   }
                 ]
               },
@@ -33640,6 +35644,10 @@
                 "children": [
                   {
                     "name": "Cracked full to pressure plate",
+                    "children": []
+                  },
+                  {
+                    "name": "Cracked conversion",
                     "children": []
                   }
                 ]
