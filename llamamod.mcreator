@@ -33411,7 +33411,6 @@
       "registry_name": "white_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/advancement/recipes/white_brick_trapdoor_cracked_conversion_rec.json",
           "src/main/resources/data/llamamod/recipe/white_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
@@ -33425,8 +33424,7 @@
       "registry_name": "light_gray_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/light_gray_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/light_gray_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/light_gray_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33439,7 +33437,6 @@
       "registry_name": "gray_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/advancement/recipes/gray_brick_trapdoor_cracked_conversion_rec.json",
           "src/main/resources/data/llamamod/recipe/gray_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
@@ -33453,8 +33450,7 @@
       "registry_name": "black_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/black_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/black_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/black_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33467,8 +33463,7 @@
       "registry_name": "brown_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/brown_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/brown_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/brown_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33481,8 +33476,7 @@
       "registry_name": "red_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/red_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/red_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/red_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33495,8 +33489,7 @@
       "registry_name": "orange_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/orange_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/orange_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/orange_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33509,8 +33502,7 @@
       "registry_name": "yellow_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/yellow_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/yellow_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/yellow_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33523,7 +33515,6 @@
       "registry_name": "lime_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/advancement/recipes/lime_brick_trapdoor_cracked_conversion_rec.json",
           "src/main/resources/data/llamamod/recipe/lime_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
@@ -33537,8 +33528,7 @@
       "registry_name": "green_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/green_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/green_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/green_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33551,8 +33541,7 @@
       "registry_name": "cyan_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/cyan_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/cyan_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/cyan_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33565,8 +33554,7 @@
       "registry_name": "light_blue_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/light_blue_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/light_blue_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/light_blue_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33579,8 +33567,7 @@
       "registry_name": "blue_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/blue_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/blue_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/blue_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33593,7 +33580,6 @@
       "registry_name": "purple_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/advancement/recipes/purple_brick_trapdoor_cracked_conversion_rec.json",
           "src/main/resources/data/llamamod/recipe/purple_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
@@ -33607,8 +33593,7 @@
       "registry_name": "pink_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/pink_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/pink_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/pink_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33621,7 +33606,6 @@
       "registry_name": "magenta_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/advancement/recipes/magenta_brick_trapdoor_cracked_conversion_rec.json",
           "src/main/resources/data/llamamod/recipe/magenta_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
@@ -33635,8 +33619,7 @@
       "registry_name": "cherry_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/cherry_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/cherry_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/cherry_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33649,8 +33632,7 @@
       "registry_name": "teal_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/teal_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/teal_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/teal_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
@@ -33663,8 +33645,7 @@
       "registry_name": "industrial_brick_trapdoor_cracked_conversion_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/industrial_brick_trapdoor_cracked_conversion_rec.json",
-          "src/main/resources/data/llamamod/advancement/recipes/industrial_brick_trapdoor_cracked_conversion_rec.json"
+          "src/main/resources/data/llamamod/recipe/industrial_brick_trapdoor_cracked_conversion_rec.json"
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Cracked conversion"
