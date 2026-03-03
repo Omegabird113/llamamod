@@ -4,7 +4,7 @@
   "definition": {
     "name": "LlamaBlocks",
     "icon": {
-      "value": "CUSTOM:LimeLargeTile"
+      "value": "CUSTOM:CrackedLimeLargeTile"
     },
     "showSearch": false
   }

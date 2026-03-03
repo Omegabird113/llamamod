@@ -16,7 +16,7 @@ import mc.omegabird.llamablocks.LlamamodMod;
 public class LlamamodModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LlamamodMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LLAMA_MOD = REGISTRY.register("llama_mod",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.llamamod.llama_mod")).icon(() -> new ItemStack(LlamamodModBlocks.LIME_LARGE_TILE.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.llamamod.llama_mod")).icon(() -> new ItemStack(LlamamodModBlocks.CRACKED_LIME_LARGE_TILE.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LlamamodModBlocks.WHITE_BRICKS.get().asItem());
 				tabData.accept(LlamamodModBlocks.WHITE_BRICK_STAIRS.get().asItem());
 				tabData.accept(LlamamodModBlocks.WHITE_BRICK_SLAB.get().asItem());
