@@ -31,7 +31,7 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 160;
+		this.imageWidth = 164;
 		this.imageHeight = 50;
 	}
 
@@ -66,11 +66,11 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_error"), 24, 10, -65536, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_error"), 23, 10, -6946816, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_please_close_this_gui_and"), 5, 24, -12829636, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_retry_entering_the_password"), 5, 33, -12829636, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_beta"), 2, -11, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.incorrect_password_gui.label_beta"), 1, -11, -65536, false);
 	}
 
 	@Override
@@ -83,7 +83,7 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 				ClientPacketDistributor.sendToServer(new IncorrectPasswordGUIButtonMessage(0, x, y, z));
 				IncorrectPasswordGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 130, this.topPos + -21, 30, 20).build();
+		}).bounds(this.leftPos + 134, this.topPos + -21, 30, 20).build();
 		this.addRenderableWidget(button_x);
 	}
 }
