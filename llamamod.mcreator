@@ -303,7 +303,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/RedbricksBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebricks",
@@ -321,7 +321,7 @@
           "src/main/resources/assets/llamamod/blockstates/orange_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbricks",
@@ -339,7 +339,7 @@
           "src/main/resources/assets/llamamod/models/item/yellow_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Greenbricks",
@@ -357,7 +357,7 @@
           "src/main/resources/assets/llamamod/models/block/green_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebricks",
@@ -375,7 +375,7 @@
           "src/main/resources/assets/llamamod/models/item/light_blue_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebricks",
@@ -393,7 +393,7 @@
           "src/main/resources/assets/llamamod/models/item/blue_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabricks",
@@ -411,7 +411,7 @@
           "src/main/resources/assets/llamamod/blockstates/magenta_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbricks",
@@ -429,7 +429,7 @@
           "src/main/resources/assets/llamamod/models/block/pink_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbricks",
@@ -447,7 +447,7 @@
           "src/main/resources/assets/llamamod/items/brown_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbricks",
@@ -465,7 +465,7 @@
           "src/main/resources/assets/llamamod/items/black_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Industrialbricks",
@@ -483,7 +483,7 @@
           "src/main/resources/assets/llamamod/blockstates/industrial_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Computer",
@@ -1350,7 +1350,7 @@
           "src/main/resources/assets/llamamod/blockstates/red_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Redbrickstair",
@@ -1370,7 +1370,7 @@
           "src/main/resources/assets/llamamod/blockstates/red_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebrickslab",
@@ -1390,7 +1390,7 @@
           "src/main/resources/assets/llamamod/blockstates/orange_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebrickstair",
@@ -1410,7 +1410,7 @@
           "src/main/resources/assets/llamamod/models/block/orange_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbrickslab",
@@ -1430,7 +1430,7 @@
           "src/main/resources/assets/llamamod/models/block/yellow_brick_slab_full.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbrickstair",
@@ -1450,7 +1450,7 @@
           "src/main/resources/assets/llamamod/models/item/yellow_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebrickslab",
@@ -1470,7 +1470,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/LightbluebrickslabBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebrickstair",
@@ -1490,7 +1490,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/light_blue_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebrickslab",
@@ -1510,7 +1510,7 @@
           "src/main/resources/assets/llamamod/blockstates/blue_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebrickstair",
@@ -1530,7 +1530,7 @@
           "src/main/resources/assets/llamamod/items/blue_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabrickslab",
@@ -1550,7 +1550,7 @@
           "src/main/resources/assets/llamamod/items/magenta_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabrickstair",
@@ -1570,7 +1570,7 @@
           "src/main/resources/assets/llamamod/blockstates/magenta_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbrickslab",
@@ -1590,7 +1590,7 @@
           "src/main/resources/assets/llamamod/models/block/pink_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbrickstair",
@@ -1610,7 +1610,7 @@
           "src/main/resources/assets/llamamod/blockstates/pink_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbrickslab",
@@ -1630,7 +1630,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/brown_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbrickstair",
@@ -1650,7 +1650,7 @@
           "src/main/resources/assets/llamamod/items/brown_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbrickslab",
@@ -1670,7 +1670,7 @@
           "src/main/resources/assets/llamamod/blockstates/black_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbrickstair",
@@ -1690,7 +1690,7 @@
           "src/main/resources/assets/llamamod/models/block/black_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Industrialbrickslab",
@@ -1710,7 +1710,7 @@
           "src/main/resources/assets/llamamod/models/item/industrial_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Industrialbrickstair",
@@ -1730,7 +1730,7 @@
           "src/main/resources/assets/llamamod/models/block/industrial_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Tileslab",
@@ -1838,7 +1838,7 @@
           "src/main/resources/assets/llamamod/models/block/white_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "LightGrayBricks",
@@ -1856,7 +1856,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/light_gray_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "GrayBricks",
@@ -1874,7 +1874,7 @@
           "src/main/resources/assets/llamamod/items/gray_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "LimeBricks",
@@ -1892,7 +1892,7 @@
           "src/main/resources/assets/llamamod/models/item/lime_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "CyanBricks",
@@ -1910,7 +1910,7 @@
           "src/main/resources/assets/llamamod/models/block/cyan_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "CherryBricks",
@@ -1928,7 +1928,7 @@
           "src/main/resources/assets/llamamod/models/block/cherry_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "PurpleBricksNew",
@@ -1946,7 +1946,7 @@
           "src/main/resources/assets/llamamod/models/block/purple_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Whitebricksrec",
@@ -2187,7 +2187,7 @@
           "src/main/resources/assets/llamamod/models/block/lime_brick_slab_full.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "LimeBrickStair",
@@ -2207,7 +2207,7 @@
           "src/main/resources/assets/llamamod/models/block/lime_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "GreenbricksSlab",
@@ -2227,7 +2227,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/green_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Greenbricksstair",
@@ -2247,7 +2247,7 @@
           "src/main/resources/assets/llamamod/models/block/green_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cyanbrickslab",
@@ -2267,7 +2267,7 @@
           "src/main/resources/assets/llamamod/models/block/cyan_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cyanbrickstair",
@@ -2287,7 +2287,7 @@
           "src/main/resources/assets/llamamod/items/cyan_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Purplebrickslab",
@@ -2307,7 +2307,7 @@
           "src/main/resources/assets/llamamod/items/purple_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Purplebrickstair",
@@ -2327,7 +2327,7 @@
           "src/main/resources/assets/llamamod/blockstates/purple_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Whitebrickslab",
@@ -2347,7 +2347,7 @@
           "src/main/resources/assets/llamamod/models/block/white_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Whitebrickstair",
@@ -2367,7 +2367,7 @@
           "src/main/resources/assets/llamamod/models/block/white_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightgraybrickslab",
@@ -2387,7 +2387,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/LightgraybrickslabBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightgraybrickstair",
@@ -2407,7 +2407,7 @@
           "src/main/resources/assets/llamamod/models/block/light_gray_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Graybrickslab",
@@ -2427,7 +2427,7 @@
           "src/main/resources/assets/llamamod/models/block/gray_brick_slab_full.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Graybrickstair",
@@ -2447,7 +2447,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/gray_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cherrybrickslab",
@@ -2467,7 +2467,7 @@
           "src/main/resources/assets/llamamod/models/block/cherry_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cherrybrickstair",
@@ -2487,7 +2487,7 @@
           "src/main/resources/assets/llamamod/models/block/cherry_brick_stair_outer.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "WhhiteBrickSlabRec",
@@ -3172,7 +3172,7 @@
           "src/main/resources/assets/llamamod/models/item/red_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebrickwall",
@@ -3193,7 +3193,7 @@
           "src/main/resources/assets/llamamod/models/block/orange_brick_wall_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbrickwall",
@@ -3214,7 +3214,7 @@
           "src/main/resources/assets/llamamod/blockstates/yellow_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Greenbrickwall",
@@ -3235,7 +3235,7 @@
           "src/main/resources/assets/llamamod/blockstates/green_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebrickwall",
@@ -3256,7 +3256,7 @@
           "src/main/resources/assets/llamamod/models/block/light_blue_brick_wall_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebrickwall",
@@ -3277,7 +3277,7 @@
           "src/main/resources/assets/llamamod/models/block/blue_brick_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabrickwall",
@@ -3298,7 +3298,7 @@
           "src/main/resources/assets/llamamod/models/item/magenta_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbrickwall",
@@ -3319,7 +3319,7 @@
           "src/main/resources/assets/llamamod/models/item/pink_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbrickwall",
@@ -3340,7 +3340,7 @@
           "src/main/resources/assets/llamamod/models/item/brown_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbrickwall",
@@ -3361,7 +3361,7 @@
           "src/main/resources/assets/llamamod/models/block/black_brick_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Industrialbrickwall",
@@ -3382,7 +3382,7 @@
           "src/main/resources/assets/llamamod/items/industrial_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Whitebrickwall",
@@ -3403,7 +3403,7 @@
           "src/main/resources/assets/llamamod/models/item/white_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightgraybrickwall",
@@ -3424,7 +3424,7 @@
           "src/main/resources/assets/llamamod/models/block/light_gray_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Graybrickwall",
@@ -3445,7 +3445,7 @@
           "src/main/resources/assets/llamamod/models/item/gray_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Limebrickwall",
@@ -3466,7 +3466,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/LimebrickwallBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cyanbrickwall",
@@ -3487,7 +3487,7 @@
           "src/main/resources/assets/llamamod/blockstates/cyan_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cherrybrickwall",
@@ -3508,7 +3508,7 @@
           "src/main/resources/assets/llamamod/models/block/cherry_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Purplebrickwall",
@@ -3529,7 +3529,7 @@
           "src/main/resources/assets/llamamod/models/block/purple_brick_wall_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Ceilingtilewall",
@@ -3591,7 +3591,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/IndustrialbrickfenceBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Industrialbrickfencegate",
@@ -3612,7 +3612,7 @@
           "src/main/resources/assets/llamamod/models/block/industrial_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Industrialbrickbutton",
@@ -3632,7 +3632,7 @@
           "src/main/resources/assets/llamamod/items/industrial_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Industrialbrickpreasureplate",
@@ -3651,7 +3651,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/industrial_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "WhiteBrickWallRec",
@@ -3995,7 +3995,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/red_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebrickfence",
@@ -4015,7 +4015,7 @@
           "src/main/resources/assets/llamamod/blockstates/orange_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbrickfence",
@@ -4035,7 +4035,7 @@
           "src/main/resources/assets/llamamod/blockstates/yellow_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Greenbrickfence",
@@ -4055,7 +4055,7 @@
           "src/main/resources/assets/llamamod/blockstates/green_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebrickfence",
@@ -4075,7 +4075,7 @@
           "src/main/resources/assets/llamamod/models/block/light_blue_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebrickfence",
@@ -4095,7 +4095,7 @@
           "src/main/resources/assets/llamamod/models/block/blue_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabrickfence",
@@ -4115,7 +4115,7 @@
           "src/main/resources/assets/llamamod/models/item/magenta_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbrickfence",
@@ -4135,7 +4135,7 @@
           "src/main/resources/assets/llamamod/models/block/pink_brick_fence_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbrickfence",
@@ -4155,7 +4155,7 @@
           "src/main/resources/assets/llamamod/blockstates/brown_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbrickfence",
@@ -4175,7 +4175,7 @@
           "src/main/resources/assets/llamamod/blockstates/black_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Whitebrickfence",
@@ -4195,7 +4195,7 @@
           "src/main/resources/assets/llamamod/models/block/white_brick_fence_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightgraybrickfence",
@@ -4215,7 +4215,7 @@
           "src/main/resources/assets/llamamod/blockstates/light_gray_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Graybrickfence",
@@ -4235,7 +4235,7 @@
           "src/main/resources/assets/llamamod/models/block/gray_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Limebrickfence",
@@ -4255,7 +4255,7 @@
           "src/main/resources/assets/llamamod/models/block/lime_brick_fence_post.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cyanbrickfence",
@@ -4275,7 +4275,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cyan_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Purplebrickfence",
@@ -4295,7 +4295,7 @@
           "src/main/resources/assets/llamamod/items/purple_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cherrybrickfence",
@@ -4315,7 +4315,7 @@
           "src/main/resources/assets/llamamod/blockstates/cherry_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Redbrickfencegate",
@@ -4336,7 +4336,7 @@
           "src/main/resources/assets/llamamod/models/block/red_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebrickfencegate",
@@ -4357,7 +4357,7 @@
           "src/main/resources/assets/llamamod/blockstates/orange_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbrickfenceagte",
@@ -4378,7 +4378,7 @@
           "src/main/resources/assets/llamamod/blockstates/yellow_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Greenbrickfencegate",
@@ -4399,7 +4399,7 @@
           "src/main/resources/assets/llamamod/models/block/green_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebrickfencegate",
@@ -4420,7 +4420,7 @@
           "src/main/resources/assets/llamamod/models/item/light_blue_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebrickfencegate",
@@ -4441,7 +4441,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/blue_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabrickfencegate",
@@ -4462,7 +4462,7 @@
           "src/main/resources/assets/llamamod/blockstates/magenta_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbrickfencegate",
@@ -4483,7 +4483,7 @@
           "src/main/resources/assets/llamamod/blockstates/pink_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbrickfencegate",
@@ -4504,7 +4504,7 @@
           "src/main/resources/assets/llamamod/models/block/brown_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbrickfencegate",
@@ -4525,7 +4525,7 @@
           "src/main/resources/assets/llamamod/models/block/black_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Whitebrickfencegate",
@@ -4546,7 +4546,7 @@
           "src/main/resources/assets/llamamod/blockstates/white_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightgraybrickfencegate",
@@ -4567,7 +4567,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/light_gray_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Graybrickfencegate",
@@ -4588,7 +4588,7 @@
           "src/main/resources/assets/llamamod/blockstates/gray_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Limebrickfencegate",
@@ -4609,7 +4609,7 @@
           "src/main/resources/assets/llamamod/blockstates/lime_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cyanbrickfencegate",
@@ -4630,7 +4630,7 @@
           "src/main/resources/assets/llamamod/models/block/cyan_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Purplebrickfencegate",
@@ -4651,7 +4651,7 @@
           "src/main/resources/assets/llamamod/models/item/purple_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cherrybrickfencegate",
@@ -4672,7 +4672,7 @@
           "src/main/resources/assets/llamamod/models/block/cherry_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Redbrickpreasureplate",
@@ -4691,7 +4691,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/RedbrickpreasureplateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebrickfencegatepreasureplate",
@@ -4710,7 +4710,7 @@
           "src/main/resources/assets/llamamod/blockstates/orange_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbrickfenceagtepreasureplate",
@@ -4729,7 +4729,7 @@
           "src/main/resources/assets/llamamod/blockstates/yellow_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Greenbrickpreasureplate",
@@ -4748,7 +4748,7 @@
           "src/main/resources/assets/llamamod/blockstates/green_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebrickpreasureplate",
@@ -4767,7 +4767,7 @@
           "src/main/resources/assets/llamamod/items/light_blue_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebrickpreasureplate",
@@ -4786,7 +4786,7 @@
           "src/main/resources/assets/llamamod/models/item/blue_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabrickpreasureplate",
@@ -4805,7 +4805,7 @@
           "src/main/resources/assets/llamamod/models/block/magenta_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbrickpreasureplate",
@@ -4824,7 +4824,7 @@
           "src/main/resources/assets/llamamod/models/item/pink_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbrickpreasureplate",
@@ -4843,7 +4843,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/brown_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbrickpreasureplate",
@@ -4862,7 +4862,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/BlackbrickpreasureplateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Whitebrickpreasureplate",
@@ -4881,7 +4881,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/white_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightgraybrickpreasureplate",
@@ -4900,7 +4900,7 @@
           "src/main/resources/assets/llamamod/blockstates/light_gray_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Graybrickpreasureplate",
@@ -4919,7 +4919,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/GraybrickpreasureplateBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Limebrickpreasureplate",
@@ -4938,7 +4938,7 @@
           "src/main/resources/assets/llamamod/items/lime_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cyanbrickpreasureplate",
@@ -4957,7 +4957,7 @@
           "src/main/resources/assets/llamamod/blockstates/cyan_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Purplebrickpreasureplate",
@@ -4976,7 +4976,7 @@
           "src/main/resources/assets/llamamod/models/block/purple_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cherrybrickpreasureplate",
@@ -4995,7 +4995,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cherry_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Redbrickbutton",
@@ -5015,7 +5015,7 @@
           "src/main/resources/assets/llamamod/items/red_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebrickbutton",
@@ -5035,7 +5035,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/OrangebrickbuttonBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbrickbutton",
@@ -5055,7 +5055,7 @@
           "src/main/resources/assets/llamamod/blockstates/yellow_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Greenbrickbutton",
@@ -5075,7 +5075,7 @@
           "src/main/resources/assets/llamamod/models/block/green_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebrickbutton",
@@ -5095,7 +5095,7 @@
           "src/main/resources/assets/llamamod/models/block/light_blue_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebrickbutton",
@@ -5115,7 +5115,7 @@
           "src/main/resources/assets/llamamod/models/item/blue_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabrickbutton",
@@ -5135,7 +5135,7 @@
           "src/main/resources/assets/llamamod/items/magenta_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbrickbutton",
@@ -5155,7 +5155,7 @@
           "src/main/resources/assets/llamamod/models/block/pink_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbrickbutton",
@@ -5175,7 +5175,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/BrownbrickbuttonBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbrickbutton",
@@ -5195,7 +5195,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/BlackbrickbuttonBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Whitebrickbutton",
@@ -5215,7 +5215,7 @@
           "src/main/resources/assets/llamamod/models/block/white_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightgraybrickbutton",
@@ -5235,7 +5235,7 @@
           "src/main/resources/assets/llamamod/models/block/light_gray_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Graybrickbutton",
@@ -5255,7 +5255,7 @@
           "src/main/resources/assets/llamamod/items/gray_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Limebrickbutton",
@@ -5275,7 +5275,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/LimebrickbuttonBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cyanbrickbutton",
@@ -5295,7 +5295,7 @@
           "src/main/resources/assets/llamamod/models/item/cyan_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Purplebrickbutton",
@@ -5315,7 +5315,7 @@
           "src/main/resources/assets/llamamod/models/block/purple_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cherrybrickbutton",
@@ -5335,7 +5335,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cherry_brick_button.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "WhiteBrickFenceRec",
@@ -15387,7 +15387,7 @@
           "src/main/resources/assets/llamamod/models/block/white_brick_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightgraybricktrapdoor",
@@ -15407,7 +15407,7 @@
           "src/main/resources/assets/llamamod/blockstates/light_gray_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Graybricktrapdoor",
@@ -15427,7 +15427,7 @@
           "src/main/resources/assets/llamamod/models/block/gray_brick_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Blackbricktrapdoor",
@@ -15447,7 +15447,7 @@
           "src/main/resources/assets/llamamod/models/block/black_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Brownbricktrapdoor",
@@ -15467,7 +15467,7 @@
           "src/main/resources/assets/llamamod/models/block/brown_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Redbricktrapdoor",
@@ -15487,7 +15487,7 @@
           "src/main/resources/assets/llamamod/models/item/red_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Orangebricktrapdoor",
@@ -15507,7 +15507,7 @@
           "src/main/resources/assets/llamamod/models/block/orange_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Yellowbricktrapdoor",
@@ -15527,7 +15527,7 @@
           "src/main/resources/assets/llamamod/models/block/yellow_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Limebricktrapdoor",
@@ -15547,7 +15547,7 @@
           "src/main/resources/assets/llamamod/models/block/lime_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Greenbricktrapdoor",
@@ -15567,7 +15567,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/GreenbricktrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cyanbricktrapdoor",
@@ -15587,7 +15587,7 @@
           "src/main/resources/assets/llamamod/models/item/cyan_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Lightbluebricktrapdoor",
@@ -15607,7 +15607,7 @@
           "src/main/resources/assets/llamamod/models/block/light_blue_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Bluebricktrapdoor",
@@ -15627,7 +15627,7 @@
           "src/main/resources/assets/llamamod/models/block/blue_brick_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Purplebricktrapdoor",
@@ -15647,7 +15647,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/purple_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Magentabricktrapdoor",
@@ -15667,7 +15667,7 @@
           "src/main/resources/assets/llamamod/models/block/magenta_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Pinkbricktrapdoor",
@@ -15687,7 +15687,7 @@
           "src/main/resources/assets/llamamod/models/item/pink_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Cherrybricktrapdoor",
@@ -15707,7 +15707,7 @@
           "src/main/resources/assets/llamamod/models/block/cherry_brick_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Industrialbricktrapdoor",
@@ -15727,7 +15727,7 @@
           "src/main/resources/assets/llamamod/models/block/industrial_brick_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Ceilingtiletrapdoor",
@@ -16902,7 +16902,7 @@
           "src/main/resources/assets/llamamod/items/teal_bricks.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "TealLargeTile",
@@ -17101,7 +17101,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/TealbrickstairBlock.java"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Tealbrickslab",
@@ -17121,7 +17121,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/teal_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Tealbrickwall",
@@ -17142,7 +17142,7 @@
           "src/main/resources/assets/llamamod/items/teal_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Tealbrickfence",
@@ -17162,7 +17162,7 @@
           "src/main/resources/assets/llamamod/models/item/teal_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Tealbrickfencegate",
@@ -17183,7 +17183,7 @@
           "src/main/resources/assets/llamamod/models/block/teal_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Tealbricktrapdoor",
@@ -17203,7 +17203,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/teal_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Tealbrickpressureplate",
@@ -17222,7 +17222,7 @@
           "src/main/resources/assets/llamamod/models/block/teal_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "Tealbrickbutton",
@@ -17242,7 +17242,7 @@
           "src/main/resources/assets/llamamod/models/block/teal_brick_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/New Bricks"
+      "path": "~/Blocks/Bricks"
     },
     {
       "name": "TealBricksRec",
@@ -18447,7 +18447,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_white_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBrickSlab",
@@ -18467,7 +18467,7 @@
           "src/main/resources/assets/llamamod/items/cracked_white_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBrickStairs",
@@ -18487,7 +18487,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBrickWall",
@@ -18508,7 +18508,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_white_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBrickFence",
@@ -18528,7 +18528,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_brick_fence_inventory.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBrickFenceGate",
@@ -18549,7 +18549,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBrickTrapdoor",
@@ -18569,7 +18569,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_white_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBrickPressurePlate",
@@ -18588,7 +18588,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBrickButton",
@@ -18608,7 +18608,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_white_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBricks",
@@ -18626,7 +18626,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_gray_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBrickSlab",
@@ -18646,7 +18646,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_gray_brick_slab_full.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBrickStairs",
@@ -18666,7 +18666,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_gray_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBrickWall",
@@ -18687,7 +18687,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_gray_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBrickFence",
@@ -18707,7 +18707,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_gray_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBrickFenceGate",
@@ -18728,7 +18728,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLightGrayBrickFenceGateBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBrickTrapdoor",
@@ -18748,7 +18748,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_light_gray_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBrickPressurePlate",
@@ -18767,7 +18767,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLightGrayBrickPressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightGrayBrickButton",
@@ -18787,7 +18787,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_gray_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBricks",
@@ -18805,7 +18805,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_gray_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBrickSlab",
@@ -18825,7 +18825,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_gray_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBrickStairs",
@@ -18845,7 +18845,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBrickWall",
@@ -18866,7 +18866,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_wall_side_tall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBrickFence",
@@ -18886,7 +18886,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedGrayBrickFenceBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBrickFenceGate",
@@ -18907,7 +18907,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_fence_gate_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBrickTrapdoor",
@@ -18927,7 +18927,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_gray_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBrickPressurePlate",
@@ -18946,7 +18946,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGrayBrickButton",
@@ -18966,7 +18966,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBricks",
@@ -18984,7 +18984,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_black_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBrickStairs",
@@ -19004,7 +19004,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_black_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBrickSlab",
@@ -19024,7 +19024,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlackBrickSlabBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBrickWall",
@@ -19045,7 +19045,7 @@
           "src/main/resources/assets/llamamod/items/cracked_black_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBrickFence",
@@ -19065,7 +19065,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_black_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBrickFenceGate",
@@ -19086,7 +19086,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_black_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBrickTrapdoor",
@@ -19106,7 +19106,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlackBrickTrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBrickPressurePlate",
@@ -19125,7 +19125,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_black_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlackBrickButton",
@@ -19145,7 +19145,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlackBrickButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBricks",
@@ -19163,7 +19163,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBrownBricksBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBrickStairs",
@@ -19183,7 +19183,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBrickSlab",
@@ -19203,7 +19203,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_brown_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBrickWall",
@@ -19224,7 +19224,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBrickFence",
@@ -19244,7 +19244,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_brown_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBrickFenceGate",
@@ -19265,7 +19265,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBrownBrickFenceGateBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBrickTrapdoor",
@@ -19285,7 +19285,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBrickPressurePlate",
@@ -19304,7 +19304,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBrownBrickPressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBrownBrickButton",
@@ -19324,7 +19324,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBrownBrickButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBricks",
@@ -19342,7 +19342,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_red_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBrickStairs",
@@ -19362,7 +19362,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBrickSlab",
@@ -19382,7 +19382,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_red_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBrickWall",
@@ -19403,7 +19403,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_red_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBrickFence",
@@ -19423,7 +19423,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_red_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBrickFenceGate",
@@ -19444,7 +19444,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBrickTrapdoor",
@@ -19464,7 +19464,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_red_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBrickPressurePlate",
@@ -19483,7 +19483,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedRedBrickButton",
@@ -19503,7 +19503,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_brick_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBricks",
@@ -19521,7 +19521,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_orange_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBrickStairs",
@@ -19541,7 +19541,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBrickSlab",
@@ -19561,7 +19561,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_orange_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBrickWall",
@@ -19582,7 +19582,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_wall_post.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBrickFence",
@@ -19602,7 +19602,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_fence_post.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBrickFenceGate",
@@ -19623,7 +19623,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBrickTrapdoor",
@@ -19643,7 +19643,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_orange_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBrickPressurePlate",
@@ -19662,7 +19662,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedOrangeBrickButton",
@@ -19682,7 +19682,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBricks",
@@ -19700,7 +19700,7 @@
           "src/main/resources/assets/llamamod/items/cracked_yellow_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBrickStairs",
@@ -19720,7 +19720,7 @@
           "src/main/resources/assets/llamamod/items/cracked_yellow_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBrickSlab",
@@ -19740,7 +19740,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBrickWall",
@@ -19761,7 +19761,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBrickFence",
@@ -19781,7 +19781,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_yellow_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBrickFenceGate",
@@ -19802,7 +19802,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBrickTrapdoor",
@@ -19822,7 +19822,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_yellow_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBrickPressurePlate",
@@ -19841,7 +19841,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_yellow_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedYellowBrickButton",
@@ -19861,7 +19861,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedYellowBrickButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBricks",
@@ -19879,7 +19879,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLimeBricksBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBrickStairs",
@@ -19899,7 +19899,7 @@
           "src/main/resources/assets/llamamod/items/cracked_lime_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBrickSlab",
@@ -19919,7 +19919,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBrickWall",
@@ -19940,7 +19940,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLimeBrickWallBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBrickFence",
@@ -19960,7 +19960,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBrickFenceGate",
@@ -19981,7 +19981,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBrickTrapdoor",
@@ -20001,7 +20001,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBrickPressurePlate",
@@ -20020,7 +20020,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLimeBrickButton",
@@ -20040,7 +20040,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_brick_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBricks",
@@ -20058,7 +20058,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedGreenBricksBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBrickStairs",
@@ -20078,7 +20078,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBrickSlab",
@@ -20098,7 +20098,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_green_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBrickWall",
@@ -20119,7 +20119,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_brick_wall_post.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBrickFence",
@@ -20139,7 +20139,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBrickFenceGate",
@@ -20160,7 +20160,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBrickTrapdoor",
@@ -20180,7 +20180,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_green_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBrickPressurePlate",
@@ -20199,7 +20199,7 @@
           "src/main/resources/assets/llamamod/items/cracked_green_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedGreenBrickButton",
@@ -20219,7 +20219,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_green_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBricks",
@@ -20237,7 +20237,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBrickStairs",
@@ -20257,7 +20257,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBrickSlab",
@@ -20277,7 +20277,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBrickWall",
@@ -20298,7 +20298,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBrickFence",
@@ -20318,7 +20318,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_cyan_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBrickFenceGate",
@@ -20339,7 +20339,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBrickTrapdoor",
@@ -20359,7 +20359,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBrickPressurePlate",
@@ -20378,7 +20378,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCyanBrickButton",
@@ -20398,7 +20398,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBricks",
@@ -20416,7 +20416,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_blue_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBrickStairs",
@@ -20436,7 +20436,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_blue_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBrickSlab",
@@ -20456,7 +20456,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_light_blue_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBrickWall",
@@ -20477,7 +20477,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_blue_brick_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBrickFence",
@@ -20497,7 +20497,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLightBlueBrickFenceBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBrickFenceGate",
@@ -20518,7 +20518,7 @@
           "src/main/resources/assets/llamamod/items/cracked_light_blue_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBrickTrapdoor",
@@ -20538,7 +20538,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_blue_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBrickPressurePlate",
@@ -20557,7 +20557,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_blue_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedLightBlueBrickButton",
@@ -20577,7 +20577,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_blue_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBricks",
@@ -20595,7 +20595,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlueBricksBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBrickStairs",
@@ -20615,7 +20615,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_blue_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBrickSlab",
@@ -20635,7 +20635,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlueBrickSlabBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBrickWall",
@@ -20656,7 +20656,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_blue_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBrickFence",
@@ -20676,7 +20676,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_blue_brick_fence_post.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBrickFenceGate",
@@ -20697,7 +20697,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBrickTrapdoor",
@@ -20717,7 +20717,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_blue_brick_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBrickPressurePlate",
@@ -20736,7 +20736,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedBlueBrickButton",
@@ -20756,7 +20756,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBricks",
@@ -20774,7 +20774,7 @@
           "src/main/resources/assets/llamamod/items/cracked_purple_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBrickStairs",
@@ -20794,7 +20794,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBrickSlab",
@@ -20814,7 +20814,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_purple_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBrickWall",
@@ -20835,7 +20835,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedPurpleBrickWallBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBrickFence",
@@ -20855,7 +20855,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBrickFenceGate",
@@ -20876,7 +20876,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_brick_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBrickTrapdoor",
@@ -20896,7 +20896,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_brick_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBrickPressurePlate",
@@ -20915,7 +20915,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedPurpleBrickPressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPurpleBrickButton",
@@ -20935,7 +20935,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_purple_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBricks",
@@ -20953,7 +20953,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_magenta_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBrickStairs",
@@ -20973,7 +20973,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_magenta_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBrickSlab",
@@ -20993,7 +20993,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBrickWall",
@@ -21014,7 +21014,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_magenta_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBrickFence",
@@ -21034,7 +21034,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBrickFenceGate",
@@ -21055,7 +21055,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_fence_gate_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBrickTrapdoor",
@@ -21075,7 +21075,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedMagentaBrickTrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBrickPressurePlate",
@@ -21094,7 +21094,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedMagentaBrickButton",
@@ -21114,7 +21114,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBricks",
@@ -21132,7 +21132,7 @@
           "src/main/resources/assets/llamamod/items/cracked_pink_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBrickStairs",
@@ -21152,7 +21152,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_brick_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBrickSlab",
@@ -21172,7 +21172,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBrickWall",
@@ -21193,7 +21193,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_pink_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBrickFence",
@@ -21213,7 +21213,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_pink_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBrickFenceGate",
@@ -21234,7 +21234,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedPinkBrickFenceGateBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBrickTrapdoor",
@@ -21254,7 +21254,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_pink_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBrickPressurePlate",
@@ -21273,7 +21273,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_brick_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedPinkBrickButton",
@@ -21293,7 +21293,7 @@
           "src/main/resources/assets/llamamod/items/cracked_pink_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBricks",
@@ -21311,7 +21311,7 @@
           "src/main/resources/assets/llamamod/items/cracked_cherry_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBrickStairs",
@@ -21331,7 +21331,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBrickSlab",
@@ -21351,7 +21351,7 @@
           "src/main/resources/assets/llamamod/items/cracked_cherry_brick_slab.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBrickWall",
@@ -21372,7 +21372,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_brick_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBrickFence",
@@ -21392,7 +21392,7 @@
           "src/main/resources/assets/llamamod/items/cracked_cherry_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBrickFenceGate",
@@ -21413,7 +21413,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_cherry_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBrickTrapdoor",
@@ -21433,7 +21433,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBrickPressurePlate",
@@ -21452,7 +21452,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedCherryBrickPressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedCherryBrickButton",
@@ -21472,7 +21472,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_brick_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBricks",
@@ -21490,7 +21490,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBrickStairs",
@@ -21510,7 +21510,7 @@
           "src/main/resources/assets/llamamod/items/cracked_teal_brick_stairs.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBrickSlab",
@@ -21530,7 +21530,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBrickWall",
@@ -21551,7 +21551,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedTealBrickWallBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBrickFence",
@@ -21571,7 +21571,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBrickFenceGate",
@@ -21592,7 +21592,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_brick_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBrickTrapdoor",
@@ -21612,7 +21612,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedTealBrickTrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBrickPressurePlate",
@@ -21631,7 +21631,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_teal_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedTealBrickButton",
@@ -21651,7 +21651,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_brick_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBricks",
@@ -21669,7 +21669,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_industrial_bricks.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBrickStairs",
@@ -21689,7 +21689,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedIndustrialBrickStairsBlock.java"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBrickSlab",
@@ -21709,7 +21709,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_industrial_brick_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBrickWall",
@@ -21730,7 +21730,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_industrial_brick_wall.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBrickFence",
@@ -21750,7 +21750,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_industrial_brick_fence.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBrickFenceGate",
@@ -21771,7 +21771,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_industrial_brick_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBrickTrapdoor",
@@ -21791,7 +21791,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_industrial_brick_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBrickPressurePlate",
@@ -21810,7 +21810,7 @@
           "src/main/resources/assets/llamamod/items/cracked_industrial_brick_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedIndustrialBrickButton",
@@ -21830,7 +21830,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_industrial_brick_button.json"
         ]
       },
-      "path": "~/Blocks/Cracked Bricks"
+      "path": "~/Blocks/Bricks/Cracked variants"
     },
     {
       "name": "CrackedWhiteBricksRec",
@@ -23577,7 +23577,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedWhiteLargeTileStairs",
@@ -23597,7 +23597,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_large_tile_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedWhiteLargeTileSlab",
@@ -23617,7 +23617,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_large_tile_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedWhiteLargeTileWall",
@@ -23638,7 +23638,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_white_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedWhiteLargeTileFence",
@@ -23658,7 +23658,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedWhiteLargeTileFenceBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedWhiteLargeTileFenceGate",
@@ -23679,7 +23679,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedWhiteLargeTileFenceGateBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedWhiteLargeTileTrapdoor",
@@ -23699,7 +23699,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_large_tile_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedWhiteLargeTilePressurePlate",
@@ -23718,7 +23718,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_white_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedWhiteLargeTileButton",
@@ -23738,7 +23738,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_white_large_tile_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTile",
@@ -23756,7 +23756,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_gray_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTileStairs",
@@ -23776,7 +23776,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_gray_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTileSlab",
@@ -23796,7 +23796,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_gray_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTileWall",
@@ -23817,7 +23817,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLightGrayLargeTileWallBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTileFence",
@@ -23837,7 +23837,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_gray_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTileFenceGate",
@@ -23858,7 +23858,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_gray_large_tile_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTileTrapdoor",
@@ -23878,7 +23878,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_gray_large_tile_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTilePressurePlate",
@@ -23897,7 +23897,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_gray_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightGrayLargeTileButton",
@@ -23917,7 +23917,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_gray_large_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTile",
@@ -23935,7 +23935,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_gray_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTileStairs",
@@ -23955,7 +23955,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedGrayLargeTileStairsBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTileSlab",
@@ -23975,7 +23975,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_gray_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTileWall",
@@ -23996,7 +23996,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_large_tile_wall_post.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTileFence",
@@ -24016,7 +24016,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_large_tile_fence_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTileFenceGate",
@@ -24037,7 +24037,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_large_tile_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTileTrapdoor",
@@ -24057,7 +24057,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_gray_large_tile_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTilePressurePlate",
@@ -24076,7 +24076,7 @@
           "src/main/resources/assets/llamamod/items/cracked_gray_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGrayLargeTileButton",
@@ -24096,7 +24096,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedGrayLargeTileButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTile",
@@ -24114,7 +24114,7 @@
           "src/main/resources/assets/llamamod/items/cracked_black_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTileStairs",
@@ -24134,7 +24134,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_black_large_tile_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTileSlab",
@@ -24154,7 +24154,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_black_large_tile_slab_full.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTileWall",
@@ -24175,7 +24175,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_black_large_tile_wall_side_tall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTileFence",
@@ -24195,7 +24195,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_black_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTileFenceGate",
@@ -24216,7 +24216,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_black_large_tile_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTileTrapdoor",
@@ -24236,7 +24236,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlackLargeTileTrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTilePressurePlate",
@@ -24255,7 +24255,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_black_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlackLargeTileButton",
@@ -24275,7 +24275,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedBlackLargeTileButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTile",
@@ -24293,7 +24293,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTileStairs",
@@ -24313,7 +24313,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTileSlab",
@@ -24333,7 +24333,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_brown_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTileWall",
@@ -24354,7 +24354,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTileFence",
@@ -24374,7 +24374,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTileFenceGate",
@@ -24395,7 +24395,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_large_tile_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTileTrapdoor",
@@ -24415,7 +24415,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_large_tile_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTilePressurePlate",
@@ -24434,7 +24434,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_large_tile_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBrownLargeTileButton",
@@ -24454,7 +24454,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_brown_large_tile_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTile",
@@ -24472,7 +24472,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_red_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTileStairs",
@@ -24492,7 +24492,7 @@
           "src/main/resources/assets/llamamod/items/cracked_red_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTileSlab",
@@ -24512,7 +24512,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_red_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTileWall",
@@ -24533,7 +24533,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTileFence",
@@ -24553,7 +24553,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_red_large_tile_fence_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTileFenceGate",
@@ -24574,7 +24574,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_red_large_tile_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTileTrapdoor",
@@ -24594,7 +24594,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_red_large_tile_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTilePressurePlate",
@@ -24613,7 +24613,7 @@
           "src/main/resources/assets/llamamod/items/cracked_red_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedRedLargeTileButton",
@@ -24633,7 +24633,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedRedLargeTileButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTile",
@@ -24651,7 +24651,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_orange_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTileStairs",
@@ -24671,7 +24671,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_large_tile_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTileSlab",
@@ -24691,7 +24691,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTileWall",
@@ -24712,7 +24712,7 @@
           "src/main/resources/assets/llamamod/items/cracked_orange_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTileFence",
@@ -24732,7 +24732,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_large_tile_fence_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTileFenceGate",
@@ -24753,7 +24753,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_large_tile_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTileTrapdoor",
@@ -24773,7 +24773,7 @@
           "src/main/resources/assets/llamamod/items/cracked_orange_large_tile_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTilePressurePlate",
@@ -24792,7 +24792,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_orange_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedOrangeLargeTileButton",
@@ -24812,7 +24812,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_orange_large_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTile",
@@ -24830,7 +24830,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedYellowLargeTileBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTileStairs",
@@ -24850,7 +24850,7 @@
           "src/main/resources/assets/llamamod/items/cracked_yellow_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTileSlab",
@@ -24870,7 +24870,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTileWall",
@@ -24891,7 +24891,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_yellow_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTileFence",
@@ -24911,7 +24911,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_large_tile_fence_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTileFenceGate",
@@ -24932,7 +24932,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_large_tile_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTileTrapdoor",
@@ -24952,7 +24952,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_large_tile_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTilePressurePlate",
@@ -24971,7 +24971,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedYellowLargeTilePressurePlateBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedYellowLargeTileButton",
@@ -24991,7 +24991,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_yellow_large_tile_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTile",
@@ -25009,7 +25009,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_lime_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTileStairs",
@@ -25029,7 +25029,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_lime_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTileSlab",
@@ -25049,7 +25049,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLimeLargeTileSlabBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTileWall",
@@ -25070,7 +25070,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_lime_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTileFence",
@@ -25090,7 +25090,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedLimeLargeTileFenceBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTileFenceGate",
@@ -25111,7 +25111,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_lime_large_tile_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTileTrapdoor",
@@ -25131,7 +25131,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_lime_large_tile_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTilePressurePlate",
@@ -25150,7 +25150,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_lime_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLimeLargeTileButton",
@@ -25170,7 +25170,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_lime_large_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTile",
@@ -25188,7 +25188,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTileStairs",
@@ -25208,7 +25208,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_large_tile_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTileSlab",
@@ -25228,7 +25228,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_green_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTileWall",
@@ -25249,7 +25249,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_large_tile_wall_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTileFence",
@@ -25269,7 +25269,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_large_tile_fence_post.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTileFenceGate",
@@ -25290,7 +25290,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_large_tile_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTileTrapdoor",
@@ -25310,7 +25310,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_large_tile_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTilePressurePlate",
@@ -25329,7 +25329,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedGreenLargeTileButton",
@@ -25349,7 +25349,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_green_large_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTile",
@@ -25367,7 +25367,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_cyan_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTileStairs",
@@ -25387,7 +25387,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTileSlab",
@@ -25407,7 +25407,7 @@
           "src/main/resources/assets/llamamod/items/cracked_cyan_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTileWall",
@@ -25428,7 +25428,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTileFence",
@@ -25448,7 +25448,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_cyan_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTileFenceGate",
@@ -25469,7 +25469,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_large_tile_fence_gate_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTileTrapdoor",
@@ -25489,7 +25489,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cyan_large_tile_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTilePressurePlate",
@@ -25508,7 +25508,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_cyan_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCyanLargeTileButton",
@@ -25528,7 +25528,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedCyanLargeTileButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTile",
@@ -25546,7 +25546,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_blue_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTileStairs",
@@ -25566,7 +25566,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_light_blue_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTileSlab",
@@ -25586,7 +25586,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_blue_large_tile_slab_top.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTileWall",
@@ -25607,7 +25607,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_light_blue_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTileFence",
@@ -25627,7 +25627,7 @@
           "src/main/resources/assets/llamamod/items/cracked_light_blue_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTileFenceGate",
@@ -25648,7 +25648,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_light_blue_large_tile_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTileTrapdoor",
@@ -25668,7 +25668,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_light_blue_large_tile_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTilePressurePlates",
@@ -25687,7 +25687,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_blue_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedLightBlueLargeTileButton",
@@ -25707,7 +25707,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_light_blue_large_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTile",
@@ -25725,7 +25725,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTileStairs",
@@ -25745,7 +25745,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTileSlab",
@@ -25765,7 +25765,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTileWall",
@@ -25786,7 +25786,7 @@
           "src/main/resources/assets/llamamod/items/cracked_blue_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTileFence",
@@ -25806,7 +25806,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_blue_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTileFenceGate",
@@ -25827,7 +25827,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_blue_large_tile_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTileTrapdoor",
@@ -25847,7 +25847,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_blue_large_tile_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTilePressurePlate",
@@ -25866,7 +25866,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_blue_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedBlueLargeTileButton",
@@ -25886,7 +25886,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_blue_large_tile_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTile",
@@ -25904,7 +25904,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_purple_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTileStairs",
@@ -25924,7 +25924,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_purple_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTileSlab",
@@ -25944,7 +25944,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTileWall",
@@ -25965,7 +25965,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_purple_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTileFence",
@@ -25985,7 +25985,7 @@
           "src/main/resources/assets/llamamod/items/cracked_purple_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTileFenceGate",
@@ -26006,7 +26006,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_purple_large_tile_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTileTrapdoor",
@@ -26026,7 +26026,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_large_tile_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTilePressurePlate",
@@ -26045,7 +26045,7 @@
           "src/main/resources/assets/llamamod/items/cracked_purple_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPurpleLargeTileButton",
@@ -26065,7 +26065,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_purple_large_tile_button_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTile",
@@ -26083,7 +26083,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_magenta_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTileStairs",
@@ -26103,7 +26103,7 @@
           "src/main/resources/assets/llamamod/items/cracked_magenta_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTileSlab",
@@ -26123,7 +26123,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_magenta_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTileWall",
@@ -26144,7 +26144,7 @@
           "src/main/resources/assets/llamamod/items/cracked_magenta_large_tile_wall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTileFence",
@@ -26164,7 +26164,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_large_tile_fence_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTileFenceGate",
@@ -26185,7 +26185,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_large_tile_fence_gate_wall_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTileTrapdoor",
@@ -26205,7 +26205,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_large_tile_trapdoor.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTilePressurePlate",
@@ -26224,7 +26224,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_magenta_large_tile_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedMagentaLargeTileButton",
@@ -26244,7 +26244,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_magenta_large_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTile",
@@ -26262,7 +26262,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_pink_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTileStairs",
@@ -26282,7 +26282,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_pink_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTileSlab",
@@ -26302,7 +26302,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTileWall",
@@ -26323,7 +26323,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_large_tile_wall_post.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTileFence",
@@ -26343,7 +26343,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedPinkLargeTileFenceBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTileFenceGate",
@@ -26364,7 +26364,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_large_tile_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTileTrapdoor",
@@ -26384,7 +26384,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_large_tile_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTilePressurePlate",
@@ -26403,7 +26403,7 @@
           "src/main/resources/assets/llamamod/items/cracked_pink_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedPinkLargeTileButton",
@@ -26423,7 +26423,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_pink_large_tile_button_pressed.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTile",
@@ -26441,7 +26441,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedCherryLargeTileBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTileStairs",
@@ -26461,7 +26461,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_large_tile_stairs_outer.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTileSlab",
@@ -26481,7 +26481,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_cherry_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTileWall",
@@ -26502,7 +26502,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_large_tile_wall_side_tall.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTileFence",
@@ -26522,7 +26522,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_large_tile_fence_inventory.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTileFenceGate",
@@ -26543,7 +26543,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_large_tile_fence_gate_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTileTrapdoor",
@@ -26563,7 +26563,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_cherry_large_tile_trapdoor_open.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTilePressurePlate",
@@ -26582,7 +26582,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_cherry_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedCherryLargeTileButton",
@@ -26602,7 +26602,7 @@
           "src/main/resources/assets/llamamod/items/cracked_cherry_large_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTile",
@@ -26620,7 +26620,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTileStairs",
@@ -26640,7 +26640,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_large_tile_stairs_inner.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTileSlab",
@@ -26660,7 +26660,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_large_tile_slab_full.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTileWall",
@@ -26681,7 +26681,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_large_tile_wall_post.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTileFence",
@@ -26701,7 +26701,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_teal_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTileFenceGate",
@@ -26722,7 +26722,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_teal_large_tile_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTileTrapdoor",
@@ -26742,7 +26742,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_large_tile_trapdoor_top.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTilePressurePlate",
@@ -26761,7 +26761,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_large_tile_pressure_plate_down.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedTealLargeTileButton",
@@ -26781,7 +26781,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_teal_large_tile_button.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTile",
@@ -26799,7 +26799,7 @@
           "src/main/resources/assets/llamamod/models/item/cracked_industrial_large_tile.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTileStairs",
@@ -26819,7 +26819,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_industrial_large_tile_stairs.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTileSlab",
@@ -26839,7 +26839,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_industrial_large_tile_slab.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTileWall",
@@ -26860,7 +26860,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedIndustrialLargeTileWallBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTileFence",
@@ -26880,7 +26880,7 @@
           "src/main/resources/data/llamamod/loot_table/blocks/cracked_industrial_large_tile_fence.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTileFenceGate",
@@ -26901,7 +26901,7 @@
           "src/main/resources/assets/llamamod/models/block/cracked_industrial_large_tile_fence_gate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTileTrapdoor",
@@ -26921,7 +26921,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedIndustrialLargeTileTrapdoorBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTilePressurePlate",
@@ -26940,7 +26940,7 @@
           "src/main/resources/assets/llamamod/blockstates/cracked_industrial_large_tile_pressure_plate.json"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "CrackedIndustrialLargeTileButton",
@@ -26960,7 +26960,7 @@
           "src/main/java/mc/omegabird/llamablocks/block/CrackedIndustrialLargeTileButtonBlock.java"
         ]
       },
-      "path": "~/Blocks/Large Tiles"
+      "path": "~/Blocks/Large Tiles/Cracked Variants"
     },
     {
       "name": "WhiteCrackedLargeTileRec",
@@ -40239,8 +40239,13 @@
             "children": []
           },
           {
-            "name": "New Bricks",
-            "children": []
+            "name": "Bricks",
+            "children": [
+              {
+                "name": "Cracked variants",
+                "children": []
+              }
+            ]
           },
           {
             "name": "Variable Light",
@@ -40248,11 +40253,12 @@
           },
           {
             "name": "Large Tiles",
-            "children": []
-          },
-          {
-            "name": "Cracked Bricks",
-            "children": []
+            "children": [
+              {
+                "name": "Cracked Variants",
+                "children": []
+              }
+            ]
           }
         ]
       },
