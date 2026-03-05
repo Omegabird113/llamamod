@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#llamamod:cracked_brick_slab",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "id": "llamamod:cracked_black_brick_slab",
+    "count": 1
+  }
+}
