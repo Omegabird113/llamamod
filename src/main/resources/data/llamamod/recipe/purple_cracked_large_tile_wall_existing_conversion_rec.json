@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#llamamod:cracked_large_tile_walls",
+    "minecraft:purple_dye"
+  ],
+  "result": {
+    "id": "llamamod:cracked_purple_large_tile_wall",
+    "count": 1
+  }
+}
