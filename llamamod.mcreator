@@ -33896,6 +33896,253 @@
         ]
       },
       "path": "~/Recipes and Trades/bricks/Cracked existing conversion"
+    },
+    {
+      "name": "WhiteCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "LightGrayCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "GrayCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "BlackCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "BrownCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "RedCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "OrangeCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "YellowCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "LimeCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "GreenCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "CyanCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "LightBlueCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "BlueCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "PurpleCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "MagentaCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "PinkCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "CherryCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "TealCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
+    },
+    {
+      "name": "IndustrialCrackedLargeTileExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_large_tile_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_large_tile_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/large tile types/Cracked existing conversion"
     }
   ],
   "variable_elements": [],
@@ -38417,6 +38664,10 @@
             "children": [
               {
                 "name": "Cracked Conversion",
+                "children": []
+              },
+              {
+                "name": "Cracked existing conversion",
                 "children": []
               }
             ]
