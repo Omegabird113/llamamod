@@ -16,7 +16,7 @@
           "image": "logo_16_border.png",
           "use1Xscale": true,
           "x": 329,
-          "y": 53,
+          "y": 52,
           "locked": false
         }
       },
@@ -316,7 +316,7 @@
         "data": {
           "name": "label_v112",
           "text": {
-            "fixedValue": "v1.2.0",
+            "fixedValue": "v1.3.0",
             "name": "ReturnNOBETALlamaModVersionProcedure"
           },
           "color": {
@@ -324,7 +324,7 @@
             "falpha": 0.0
           },
           "x": 305,
-          "y": 54,
+          "y": 53,
           "locked": false
         }
       },
