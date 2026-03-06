@@ -41,7 +41,7 @@ public class SendAboutInfoInChatProcedureProcedure {
 		LlamamodMod.queueServerWork(1, () -> {
 			if (IsThisBetaProcedureProcedure.execute() == true) {
 				if (entity instanceof Player _player && !_player.level().isClientSide())
-					_player.displayClientMessage(Component.literal("WARNING: This is a BETA version of LlamaMod. Please report any issues or suggestions as Issues on GitHub. (https://github.com/Omegabird113/llamamod)"), false);
+					_player.displayClientMessage(Component.literal("WARNING: This is a BETA version of LlamaBlocks. Please report any issues or suggestions as issues on the LlamaBlocksn GitHub page: https://github.com/Omegabird113/llamamod"), false);
 			}
 		});
 	}
