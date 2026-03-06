@@ -43,7 +43,7 @@ public class OnPlayerJoinProcedureProcedure {
 		}
 		if (IsThisBetaProcedureProcedure.execute() == true) {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("WARNING: This is a BETA version of LlamaMod. Please report any issues or suggestions as Issues on GitHub. (https://github.com/Omegabird113/llamamod)"), false);
+				_player.displayClientMessage(Component.literal((Component.translatable("llamamod.about.beta_warning_chat_message").getString())), false);
 			if (world instanceof ServerLevel _level) {
 				_level.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("You're running: " + ReturnLlamaModVersionProcedureProcedure.execute())).withColor(0xff00ff), false);
 			}

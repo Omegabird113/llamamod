@@ -864,5 +864,6 @@
   "item.llamamod.cracked_industrial_large_tile_pressure_plate": "Cracked Industrial Large Tile Pressure Plate",
   "item.llamamod.cracked_industrial_large_tile_button": "Cracked Industrial Large Tile Button",
   "item.llamamod.cracked_light_blue_large_tile_pressure_plate": "Cracked Light Blue Large Tile Pressure Plate",
-  "gui.llamamod.computergui.auto_calculate": "Automatic"
+  "gui.llamamod.computergui.auto_calculate": "Automatic",
+  "llamamod.about.beta_warning_chat_message": "WARNING: This is a BETA version of LlamaBlocks. Please report any issues or suggestions as issues on the LlamaBlocksn GitHub page: https://github.com/Omegabird113/llamamod."
 }
