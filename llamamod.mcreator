@@ -37601,6 +37601,500 @@
         ]
       },
       "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "WhiteLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "LightGrayLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "GrayLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "BlackLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "BrownLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "RedLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "OrangeLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "YellowLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "LimeLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "GreenLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "CyanLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "LightBlueLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "BlueLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "PurpleLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "MagentaLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "PinkLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "CherryLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "TealLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "IndustrialLargeTileTrapdoorEixstingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_large_tile_trapdoor_eixsting_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_large_tile_trapdoor_eixsting_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Large Tiles/Existing Conversions"
+    },
+    {
+      "name": "WhiteCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "LightGrayCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "GrayCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "BlackCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "BrownCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "RedCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "OrangeCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "YellowCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "LimeCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "CyanCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "LightBlueCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "BlueCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "PurpleCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "GreenCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "MagentaCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "PinkCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "CherryCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "TealCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "IndustrialCrackedBrickTrapdoorExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_brick_trapdoor_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_brick_trapdoor_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
     }
   ],
   "variable_elements": [],
@@ -42212,6 +42706,10 @@
                   {
                     "name": "Cracked conversion",
                     "children": []
+                  },
+                  {
+                    "name": "Existing Conversions",
+                    "children": []
                   }
                 ]
               },
@@ -42224,6 +42722,10 @@
                   },
                   {
                     "name": "Cracked conversion",
+                    "children": []
+                  },
+                  {
+                    "name": "Existing Conversions",
                     "children": []
                   }
                 ]
