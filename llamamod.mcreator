@@ -37107,6 +37107,500 @@
         ]
       },
       "path": "~/Recipes and Trades/Preasure Plate/Colored Large Tiles/Existing conversions"
+    },
+    {
+      "name": "WhiteCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "LightGrayCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "GrayCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "BlackCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "BrownCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "RedCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "OrangeCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "YellowCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "LimeCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "GreenCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "CyanCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "LightBlueCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "BlueCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "PurpleCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "MagentaCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "PinkCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "CherryCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "TealCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "IndustrialCrackedLargeTileButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_large_tile_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_large_tile_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Large Tiles/Existing conversions"
+    },
+    {
+      "name": "WhiteCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "LightGrayCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "GrayCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "BlackCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "BrownCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "RedCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "OrangeCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "YellowCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "LimeCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "GreenCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "CyanCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "LightBlueCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "BlueCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "PurpleCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "MagentaCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "PinkCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "CherryCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "TealCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
+    },
+    {
+      "name": "IndustrialCrackedBrickButtonExistingConversionRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_cracked_brick_button_existing_conversion_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_cracked_brick_button_existing_conversion_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Buttons/Cracked Bricks/Existing conversions"
     }
   ],
   "variable_elements": [],
@@ -41646,6 +42140,10 @@
                   {
                     "name": "Cracked conversion",
                     "children": []
+                  },
+                  {
+                    "name": "Existing conversions",
+                    "children": []
                   }
                 ]
               },
@@ -41658,6 +42156,10 @@
                   },
                   {
                     "name": "Cracked conversion",
+                    "children": []
+                  },
+                  {
+                    "name": "Existing conversions",
                     "children": []
                   }
                 ]

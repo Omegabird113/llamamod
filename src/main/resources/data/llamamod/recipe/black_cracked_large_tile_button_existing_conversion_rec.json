@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#llamamod:cracked_large_tile_buttons",
+    "minecraft:black_dye"
+  ],
+  "result": {
+    "id": "llamamod:cracked_black_large_tile_button",
+    "count": 1
+  }
+}
