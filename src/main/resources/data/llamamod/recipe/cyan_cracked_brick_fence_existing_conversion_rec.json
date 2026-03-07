@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#llamamod:cracked_brick_fences",
+    "minecraft:cyan_dye"
+  ],
+  "result": {
+    "id": "llamamod:cracked_cyan_brick_fence",
+    "count": 1
+  }
+}

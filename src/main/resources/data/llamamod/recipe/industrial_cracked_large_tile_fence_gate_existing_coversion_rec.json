@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#llamamod:cracked_large_tile_fence_gates",
+    "minecraft:copper_ingot",
+    "minecraft:iron_ingot"
+  ],
+  "result": {
+    "id": "llamamod:cracked_industrial_large_tile_fence_gate",
+    "count": 1
+  }
+}

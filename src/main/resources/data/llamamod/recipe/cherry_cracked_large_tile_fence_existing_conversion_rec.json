@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#llamamod:cracked_large_tile_fences",
+    "minecraft:pink_dye",
+    "minecraft:red_dye"
+  ],
+  "result": {
+    "id": "llamamod:cracked_cherry_large_tile_fence",
+    "count": 1
+  }
+}

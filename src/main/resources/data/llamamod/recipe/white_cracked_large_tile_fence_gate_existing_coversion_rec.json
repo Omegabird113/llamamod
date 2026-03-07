@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "#llamamod:cracked_large_tile_fence_gates",
+    "minecraft:white_dye"
+  ],
+  "result": {
+    "id": "llamamod:cracked_white_large_tile_fence_gate",
+    "count": 1
+  }
+}
