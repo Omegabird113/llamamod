@@ -14,8 +14,9 @@ build/
 # MCreator workspace
 .mcreator/
 
-# Minecraft client/server files
-run/
+# Minecraft client/server files, except options.txt bc I get annoyed when it gets reset
+run/*
+!run/options.txt
 
 # ---- MacOS system files ----
 .DS_STORE
