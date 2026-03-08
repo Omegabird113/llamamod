@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_large_tile_slabs",
-    "minecraft:light_blue_dye"
+    {
+      "tag": "llamamod:cracked_large_tile_slabs"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_light_blue_large_tile_slab",

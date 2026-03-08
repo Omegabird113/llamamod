@@ -1,6 +1,5 @@
 package mc.omegabird.llamablocks.procedures;
 
-import net.minecraft.world.level.storage.TagValueInput;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -9,7 +8,6 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.ProblemReporter;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.arguments.coordinates.BlockPosArgument;
@@ -24,7 +22,7 @@ public class ForceSetPasswordViaLlamamodCommandProcedureProcedure {
 		if (entity == null)
 			return;
 		BlockState oldBlock = Blocks.AIR.defaultBlockState();
-		if (entity instanceof Player _playerCmd0 && _playerCmd0.hasPermissions(3)) {
+		if (entity.hasPermissions(3)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos(commandParameterBlockPos(arguments, "location").getX(), commandParameterBlockPos(arguments, "location").getY(), commandParameterBlockPos(arguments, "location").getZ());
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -59,7 +57,7 @@ public class ForceSetPasswordViaLlamamodCommandProcedureProcedure {
 					_be = world.getBlockEntity(_bp);
 					if (_be != null) {
 						try {
-							_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+							_be.loadWithComponents(_bnbt, world.registryAccess());
 						} catch (Exception ignored) {
 						}
 					}
@@ -88,7 +86,7 @@ public class ForceSetPasswordViaLlamamodCommandProcedureProcedure {
 					_be = world.getBlockEntity(_bp);
 					if (_be != null) {
 						try {
-							_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+							_be.loadWithComponents(_bnbt, world.registryAccess());
 						} catch (Exception ignored) {
 						}
 					}

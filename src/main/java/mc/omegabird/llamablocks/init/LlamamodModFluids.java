@@ -13,7 +13,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.client.renderer.chunk.ChunkSectionLayer;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import mc.omegabird.llamablocks.fluid.AcidFluid;
@@ -28,8 +28,8 @@ public class LlamamodModFluids {
 	public static class FluidsClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
-			ItemBlockRenderTypes.setRenderLayer(ACID.get(), ChunkSectionLayer.TRANSLUCENT);
-			ItemBlockRenderTypes.setRenderLayer(FLOWING_ACID.get(), ChunkSectionLayer.TRANSLUCENT);
+			ItemBlockRenderTypes.setRenderLayer(ACID.get(), RenderType.translucent());
+			ItemBlockRenderTypes.setRenderLayer(FLOWING_ACID.get(), RenderType.translucent());
 		}
 	}
 }

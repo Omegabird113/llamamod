@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_large_tile_trapdoors",
-    "minecraft:brown_dye"
+    {
+      "tag": "llamamod:cracked_large_tile_trapdoors"
+    },
+    {
+      "item": "minecraft:brown_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_brown_large_tile_trapdoor",

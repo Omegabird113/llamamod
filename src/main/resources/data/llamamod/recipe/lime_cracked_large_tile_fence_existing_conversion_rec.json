@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_large_tile_fences",
-    "minecraft:lime_dye"
+    {
+      "tag": "llamamod:cracked_large_tile_fences"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_lime_large_tile_fence",
