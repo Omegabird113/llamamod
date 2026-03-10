@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "cracked_pink_large_tiles",
+    "texture": "lifted_cracked_pink_large_tile",
     "textureTop": "cracked_pink_large_tiles",
     "textureLeft": "large_tile",
     "textureFront": "cracked_pink_large_tiles",
