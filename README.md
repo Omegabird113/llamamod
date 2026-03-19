@@ -52,7 +52,7 @@ A Golden Banana is a variant of the banana which is much better, but a bit slowe
 - A saturation of `7.1`
 - It can be eaten in `1 second` *(`20 ticks`)*
 - It can't be composted or used as furnace fuel
-- It can be crafted with a Banana suronded by Gold Ingots
+- It can be crafted with a Banana surrounded by Gold Ingots
 
 #### The Banana Plant
 
@@ -132,7 +132,7 @@ This asks for a password using the [Password System](#the-password-system), and,
 
 ### The Computer
 
-The complex offers a variety of features for information, math, player management, and more. Here's a list of its features:
+The Computer offers a variety of features for information, math, player management, and more. Here's a list of its features:
 - It supports having passwords with the [Password System](#the-password-system), so only people with access can use the other features
 - Players can make calculations using the 2-value operations: `+`, `-`, `*`, `/`, `^`, `MOD`, `MIN`, `MAX`, `ATAN2`, `HYPOT`, `AND`, `OR`, `XOR`, `LOG`, `RAND`, `RANDEX`, and `ROOT`.
   - `AND`, `OR`, and `XOR` are all bitwise operations
@@ -233,4 +233,4 @@ The current LlamaBlocks version system produces versions in the format `x.y.z` w
 
 ### Licensing, Modpacks, etc
 
-You can use LlamaBlocks with credit, or use its code or even jar files in w Modpqck or other project, as long as that use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+You can use LlamaBlocks with credit, or use its code or even jar files in a Modpqck or other project, as long as that use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
