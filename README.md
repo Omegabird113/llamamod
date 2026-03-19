@@ -233,4 +233,4 @@ The current LlamaBlocks version system produces versions in the format `x.y.z` w
 
 ### Licensing, Modpacks, etc
 
-You can use LlamaBlocks with credit, or use its code or even jar files in a Modpqck or other project, as long as that use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
+You can use LlamaBlocks with credit, or use its code or even jar files in a Modpack or other project, as long as that use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
