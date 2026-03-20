@@ -60,7 +60,7 @@ jobs:
         run: |
           cd temp-docs
           zip -r ../LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip . --exclude='.git/*' --exclude='LICENSE'
-      - name: Create Documentation Release
+      - name: Create Documentation Repo Release
         if: steps.check-for-changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.DOCS_REPO_TOKEN }}
