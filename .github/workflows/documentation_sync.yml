@@ -50,9 +50,9 @@ jobs:
           path: mod-repo
           branch: documentation-sync-${{ steps.docs-date.outputs.date }}
           commit-message: "Documentation Sync: (${{ steps.docs-date.outputs.date }})"
-          title: "Documentation Sync: ${{ steps.docs-date.outputs.date }}"
+          title: "Documentation Sync"
           body: |
-            Automated documentation sync from [LlamaBlocks-Documentation](https://github.com/Omegabird113/LlamaBlocks-Documentation).
+            Automated documentation sync on ${{ steps.docs-date.outputs.date }} from [LlamaBlocks-Documentation](https://github.com/Omegabird113/LlamaBlocks-Documentation).
             **Documentation repo commit**: `${{ steps.docs-sha.outputs.sha }}`
           labels: documentation
       - name: Zip Documentation
