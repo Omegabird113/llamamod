@@ -1,14 +1,17 @@
 name: Documentation Sync
+
 on:
   schedule:
-    - cron: '0 12 * * 6' 
+    - cron: '0 13 * * 6' 
   workflow_dispatch:
+  
 jobs:
   documentation-sync:
     runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
+      
     steps:
       - name: Checkout Mod
         uses: actions/checkout@v4
