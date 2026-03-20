@@ -59,14 +59,14 @@ jobs:
         if: steps.check-for-changes.outputs.changed == 'true'
         run: |
           cd temp-docs
-          zip -r ../LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip . --exclude='.git/*' --exclude='LICENSE'
-      - name: Create Documentation Repo Release
+          zip -r ${{ github.workspace }}/LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip . --exclude='.git/*' --exclude='LICENSE'
+      - name: Create Documentation Release
         if: steps.check-for-changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.DOCS_REPO_TOKEN }}
         run: |
           gh release create ${{ steps.docs-date.outputs.date }} \
-            ../LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip \
+            ${{ github.workspace }}/LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip \
             --repo Omegabird113/LlamaBlocks-Documentation \
             --title "Documentation — ${{ steps.docs-date.outputs.date }}" \
             --notes "Automated documentation release.\n\n**Commit**: \`${{ steps.docs-sha.outputs.sha }}\`"
