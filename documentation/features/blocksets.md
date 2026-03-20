@@ -10,8 +10,6 @@ Each set comes in 19 colors:
 - Cherry (Hot Pink) variants
 - Teal variants
 
-![Showcases all 16 vanilla colors of all brick & large tile block variants](https://github.com/user-attachments/assets/a48eeedb-e050-49eb-aaad-ff086ab20845)
-
 There are also Tiles *(Black and White checkered)* and Ceiling Tiles *(Blue and Light Gray checkered)*.
 
 Each color variant, or tile type, has a corresponding block set, which includes the following:
@@ -24,3 +22,5 @@ Each color variant, or tile type, has a corresponding block set, which includes 
 - A trapdoor
 - A pressure plate
 - A button
+
+![Showcases all 16 vanilla colors of all brick & large tile block variants](https://github.com/user-attachments/assets/a48eeedb-e050-49eb-aaad-ff086ab20845)

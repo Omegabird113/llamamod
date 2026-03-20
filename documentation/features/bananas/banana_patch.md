@@ -1,6 +1,5 @@
 # Banana Patches
-This is a naturally spawning plant which works similarly to something like sugar cane, but:
-- It grows up to `5` blocks high
-- Its drops are random and can include Bananas, Banana Plants, and Farm Scraps
-- It can be bonemealed
-- It can be composted with a `50%` success rate
+Banana Plants naturally generate in Banana Patches, and here's some info about them:
+- They can generate in the following biomes: *`Flower Forest`, `Forest`, `Jungle`, `Cherry Grove`, `Plains`*
+- They can only generate on Grass and Dirt blocks
+- They have a `1/70` chance of attempting to generate in a chunk
