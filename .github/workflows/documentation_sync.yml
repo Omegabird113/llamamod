@@ -1,0 +1,55 @@
+name: Documentation Sync
+on:
+  schedule:
+    - cron: '0 12 * * 6' 
+  workflow_dispatch:
+jobs:
+  documentation-sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout Mod
+        uses: actions/checkout@v4
+        with:
+          path: mod-repo
+      - name: Checkout Documentation
+        uses: actions/checkout@v4
+        with:
+          repository: Omegabird113/LlamaBlocks-Documentation
+          path: temp-docs
+      - name: Get Documentation Repo Commit SHA
+        id: docs-sha
+        run: echo "sha=$(git -C temp-docs rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+      - name: Get Current Date
+        id: docs-date
+        run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+      - name: Sync Documentation Folder
+        run: |
+          rm -rf mod-repo/documentation
+          mkdir -p mod-repo/documentation
+          rsync -a --exclude='.git' --exclude='LICENSE' temp-docs/ mod-repo/documentation/
+      - name: Check for Changes
+        id: check-for-changes
+        working-directory: mod-repo
+        run: |
+          git add documentation/
+          git diff --cached --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+      - name: Exit if No Changes
+        if: steps.check-for-changes.outputs.changed == 'false'
+        run: |
+          echo "No documentation changes found, exiting..."
+          exit 0
+      - name: Create Pull Request
+        if: steps.check-for-changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          path: mod-repo
+          branch: documentation-sync-${{ steps.docs-date.outputs.date }}
+          commit-message: "Documentation sync: documentation (${{ steps.docs-date.outputs.date }})"
+          title: "Documentation Sync — ${{ steps.docs-date.outputs.date }}"
+          body: |
+            Automated documentation sync from [LlamaBlocks-Documentation](https://github.com/Omegabird113/LlamaBlocks-Documentation).
+            **Documentation repo commit**: `${{ steps.docs-sha.outputs.sha }}`
+          labels: documentation
