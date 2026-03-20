@@ -1,6 +1,6 @@
 # The Computer
 The Computer offers a variety of features for information, math, player management, and more. Here's a list of its features:
-- It supports having passwords with the [Password System](#the-password-system), so only people with access can use the other features
+- It supports having passwords with the Password System, so only people with access can use the other features
 - Players can make calculations using the 2-value operations: `+`, `-`, `*`, `/`, `^`, `MOD`, `MIN`, `MAX`, `ATAN2`, `HYPOT`, `AND`, `OR`, `XOR`, `LOG`, `RAND`, `RANDEX`, and `ROOT`.
   - `AND`, `OR`, and `XOR` are all bitwise operations
   - `LOG` is a logbase operation with the syntax `<base> log <n>`
