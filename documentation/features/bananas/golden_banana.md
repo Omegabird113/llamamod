@@ -4,4 +4,6 @@ A Golden Banana is a variant of the banana which is much better, but a bit slowe
 - A saturation of `7.1`
 - It can be eaten in `1 second` *(`20 ticks`)*
 - It can't be composted or used as furnace fuel
-- It can be crafted with a Banana surrounded by Gold Ingots
+
+## Crafting it:
+It can be crafted in a Smithing table using a `Golden Banana Upgrade` in the template slot, the banana, and a gold block.
