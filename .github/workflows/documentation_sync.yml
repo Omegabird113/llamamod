@@ -51,6 +51,8 @@ jobs:
           branch: documentation-sync-${{ steps.docs-date.outputs.date }}
           commit-message: "Documentation Sync: (${{ steps.docs-date.outputs.date }})"
           title: "Documentation Sync"
+          assignees: "Omegabird113"
+          reviewers: "Omegabird113"
           body: |
             Automated documentation sync on ${{ steps.docs-date.outputs.date }} from [LlamaBlocks-Documentation](https://github.com/Omegabird113/LlamaBlocks-Documentation).
             **Documentation repo commit**: `${{ steps.docs-sha.outputs.sha }}`
