@@ -1,12 +1,15 @@
 # LlamaBlocks
+
 LlamaBlocks is a mod I've been working on, on and off, since the summer of 2022 using [MCreator](https://mcreator.net). It has a massive variety of interesting features that range from massive sets of building blocks with specific color variants, to the Computer block with a bunch of varied features, or specialized blocks like the Variable Light Block.
 
 ![This showcases Teal Bricks, White Large Tiles, Secure Storage Blocks, the Authenticator, and the Variable Light Block with shaders in a building with some vanilla blocks also.](https://cdn.modrinth.com/data/cached_images/6941b4cd5c02161ce848f6a60105d11bd034ce34.jpeg)
 
 ## Features:
+
 Each sub-category of this section represents a feature or set of related features.
 
 ### Building Blocks
+
 There are Custom Bricks and "Large Tiles" added in LlamaBlocks. Bothcome in 19 colors: All 16 vanilla colors *(White, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, Light Blue, Blue, Purple, Magenta, Pink)*, Industrial (Netherite Colored) variants, Cherry (Hot Pink) variants, and Teal variants
 
 There are also the Tiles *(Black and White)* and the Ceiling tiles *(Blue and Light Gray)*.
@@ -16,10 +19,13 @@ Each color variant, or tile type, has a corresponding block set, which includes 
 ![This showcases every vanilla-colored variant of the Bricks and Large Tiles.](https://cdn.modrinth.com/data/cached_images/41e08bc20ee9215c4dcb19822d6d078fbe0905d9.jpeg)
 
 ### Banana-Adjacent Features
+
 #### The Banana
+
 The banana is a somewhat bad food item in terms of nutrition, but you can eat them **very fast**. Banana Plants naturally generate in Banana Patches
 
 #### The Golden Banana
+
 When you surround a Banana in 8 gold in a crafting table, you get a Golden Banana. These have more saturation/hunger healing, they give you regeneration for a split second (just enougth for you to heal up once), and you get the Luck effect for 45 seconds after eating them.
 
 #### The Banana Plant
@@ -73,6 +79,7 @@ This is like a barrel, but:
 The Secure Storage Block, Computer, and Authenticator all support passwords. By default, the password is blank. When there is no password yet, the Computer and Secure Storage Block skip the password screen, but the Authenticator instead requires the user to leave the password field blank. The user can change passwords using the Password Changer, though they need to enter the existing password. 
 
 #### Important Security Concerns
+
 1. **Operators can see any password**, meaning that all passwords aren't actually private.
 2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamaBlocks.
 > More specifically, passwords are stored in a NBT text tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
@@ -90,6 +97,7 @@ The computer offers a variety of features for information, math, player manageme
 ![This shows the Computer UI as of v1.2.0, with a calculator, redstone output selector, random number generator, player management controls, in-game time, player list, LlamaBlocks version, and message loading/saving.](https://cdn.modrinth.com/data/cached_images/83a8dc9f58808e295b15323dfc782b793afd8463.png)
 
 ### Where to Download
+
 LlamaBlocks is available on the following mod hosting websites:
 - [Modrinth](https://modrinth.com/mod/llamablocks)
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
@@ -103,7 +111,8 @@ Here's some information about the development of LlamaBlocks.
 - [MCreator](https://mcreator.net) version [2025.3](https://mcreator.net/download/2025-3)
 - The [Blockstates](https://mcreator.net/plugin/104253/blockstates) plugin
 
-> Note that in order to connect to the GitHub repo, I'm also using the [Remote Workspaces Support](https://mcreator.net/plugin/97468/remote-workspaces-support-20232) plugin
+> [!Note]
+> In order to connect to the GitHub repo, I'm also using the [Remote Workspaces Support](https://mcreator.net/plugin/97468/remote-workspaces-support-20232) plugin
 
 ### Licensing, Modpacks, etc
 
