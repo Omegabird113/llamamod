@@ -3,7 +3,7 @@ These are applied using the MCreator texture maker’s `Colorize` tool (with `Lo
 
 ## Vanilla Colors:
 | Color      | Hex Code  |
-|------------|-----------|
+|:-----------|:----------|
 | White      | `#cfd5d6` |
 | Light Gray | `#7d7d73` |
 | Gray       | `#373a3e` |
@@ -22,8 +22,8 @@ These are applied using the MCreator texture maker’s `Colorize` tool (with `Lo
 | Pink       | `#d5658f` |
 
 ## Custom Colors
-| Color      | Hex Code  |
-|------------|-----------|
-| Industrial | `#452e3f` |
-| Teal       | `#037c6e` |
-| Cherry:    | `#a84365` with `Lock Hue, Saturation, and Brightness` enabled |
+| Color      | Hex Code  | Lock HSB |
+|:-----------|:----------|:---------|
+| Industrial | `#452e3f` | No       |
+| Teal       | `#037c6e` | No       |
+| Cherry     | `#a84365` | Yes      |
