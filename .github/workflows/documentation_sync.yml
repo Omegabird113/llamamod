@@ -45,6 +45,7 @@ jobs:
           exit 0
       - name: Create Sync Pull Request
         if: steps.check-for-changes.outputs.changed == 'true'
+        continue-on-error: true
         uses: peter-evans/create-pull-request@v8
         with:
           path: mod-repo
