@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SlabBlock;
 
 public class CrackedWhiteLargeTileSlabBlock extends SlabBlock {
-	public CrackedWhiteLargeTileSlabBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.QUARTZ).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
+	public CrackedWhiteLargeTileSlabBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
 	}
 }
