@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "cracked_yellow_bricks",
+    "texture": "lifted_cracked_yellow_bricks",
     "textureTop": "cracked_yellow_bricks",
     "textureLeft": "yellowbricks_x32",
     "textureFront": "cracked_yellow_bricks",

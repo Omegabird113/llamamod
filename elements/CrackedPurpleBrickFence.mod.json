@@ -2,7 +2,7 @@
   "_fv": 79,
   "_type": "block",
   "definition": {
-    "texture": "cracked_purple_bricks",
+    "texture": "lifted_cracked_purple_bricks",
     "textureTop": "cracked_purple_bricks",
     "textureLeft": "new_light_gray_bricks",
     "textureFront": "cracked_purple_bricks",
