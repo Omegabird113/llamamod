@@ -103,17 +103,6 @@ LlamaBlocks is available on the following mod hosting websites:
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
 - [MCreator's Website](https://mcreator.net/modification/121457/llamablocks)
 
-## Development
-
-Here's some information about the development of LlamaBlocks.
-
-### Current Requirements to Open the Workspace in MCreator:
-- [MCreator](https://mcreator.net) version [2025.3](https://mcreator.net/download/2025-3)
-- The [Blockstates](https://mcreator.net/plugin/104253/blockstates) plugin
-
-> [!Note]
-> In order to connect to the GitHub repo, I'm also using the [Remote Workspaces Support](https://mcreator.net/plugin/97468/remote-workspaces-support-20232) plugin
-
 ### Licensing, Modpacks, etc
 
 You can use LlamaBlocks with credit, or use its code or even jar files in a Modpack or other project, as long as that use is compliant with the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
