@@ -31,7 +31,7 @@ jobs:
         run: |
           rm -rf mod-repo/documentation
           mkdir -p mod-repo/documentation
-          rsync -a --exclude='.git' --exclude='LICENSE' temp-docs/ mod-repo/documentation/
+          rsync -a --exclude='.git' temp-docs/ mod-repo/documentation/
       - name: Check for Changes
         id: check-for-changes
         working-directory: mod-repo
