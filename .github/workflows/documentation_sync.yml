@@ -13,38 +13,38 @@ jobs:
       pull-requests: write
       
     steps:
-      - name: Checkout Mod
-        uses: actions/checkout@v4
+      - name: Checkout mod repo
+        uses: actions/checkout@v6
         with:
           path: mod-repo
-      - name: Checkout Documentation
-        uses: actions/checkout@v4
+      - name: Checkout docs repo
+        uses: actions/checkout@v6
         with:
           repository: Omegabird113/LlamaBlocks-Documentation
           path: temp-docs
-      - name: Get Documentation Repo Commit SHA
+      - name: Get docs repo commit hash
         id: docs-sha
         run: echo "sha=$(git -C temp-docs rev-parse --short HEAD)" >> $GITHUB_OUTPUT
-      - name: Get Current Date
+      - name: Get current date
         id: docs-date
         run: echo "date=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
-      - name: Sync Documentation Folder
+      - name: Sync docs folder
         run: |
           rm -rf mod-repo/documentation
           mkdir -p mod-repo/documentation
           rsync -a --exclude='.git' temp-docs/ mod-repo/documentation/
-      - name: Check for Changes
+      - name: Check for changes
         id: check-for-changes
         working-directory: mod-repo
         run: |
           git add documentation/
           git diff --cached --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-      - name: Exit if No Changes
+      - name: Exit if no changes
         if: steps.check-for-changes.outputs.changed == 'false'
         run: |
           echo "No documentation changes found, exiting..."
           exit 0
-      - name: Create Sync Pull Request
+      - name: Create sync pr
         if: steps.check-for-changes.outputs.changed == 'true'
         continue-on-error: true
         uses: peter-evans/create-pull-request@v8
@@ -59,12 +59,12 @@ jobs:
             Automated documentation sync on ${{ steps.docs-date.outputs.date }} from [LlamaBlocks-Documentation](https://github.com/Omegabird113/LlamaBlocks-Documentation).
             **Documentation repo commit**: `${{ steps.docs-sha.outputs.sha }}`
           labels: "documentation"
-      - name: Zip Documentation
+      - name: Zip docs
         if: steps.check-for-changes.outputs.changed == 'true'
         run: |
           cd temp-docs
           zip -r ${{ github.workspace }}/LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip . --exclude='.git/*' --exclude='LICENSE'
-      - name: Create Documentation Release
+      - name: Create docs repo release
         if: steps.check-for-changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.DOCS_REPO_TOKEN }}
