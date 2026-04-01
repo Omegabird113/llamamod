@@ -58,7 +58,7 @@ jobs:
           body: |
             Automated documentation sync on ${{ steps.docs-date.outputs.date }} from [LlamaBlocks-Documentation](https://github.com/Omegabird113/LlamaBlocks-Documentation).
             **Documentation repo commit**: `${{ steps.docs-sha.outputs.sha }}`
-          labels: documentation
+          labels: "documentation"
       - name: Zip Documentation
         if: steps.check-for-changes.outputs.changed == 'true'
         run: |
