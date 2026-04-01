@@ -63,7 +63,7 @@ jobs:
         if: steps.check-for-changes.outputs.changed == 'true'
         run: |
           cd temp-docs
-          zip -r ${{ github.workspace }}/LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip . --exclude='.git/*' --exclude='LICENSE'
+          zip -r ${{ github.workspace }}/LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip . --exclude='.git/*'
       - name: Create docs repo release
         if: steps.check-for-changes.outputs.changed == 'true'
         env:
