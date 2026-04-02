@@ -6,8 +6,12 @@
     "ba"
   ],
   "key": {
-    "a": "#llamamod:non_black_concrete",
-    "b": "minecraft:black_concrete"
+    "a": {
+      "tag": "llamamod:non_black_concrete"
+    },
+    "b": {
+      "item": "minecraft:black_concrete"
+    }
   },
   "result": {
     "id": "llamamod:tiles",

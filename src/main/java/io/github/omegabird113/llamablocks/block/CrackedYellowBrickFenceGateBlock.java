@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FenceGateBlock;
 
 public class CrackedYellowBrickFenceGateBlock extends FenceGateBlock {
-	public CrackedYellowBrickFenceGateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.mapColor(MapColor.COLOR_YELLOW).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
+	public CrackedYellowBrickFenceGateBlock() {
+		super(WoodType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
 	}
 }

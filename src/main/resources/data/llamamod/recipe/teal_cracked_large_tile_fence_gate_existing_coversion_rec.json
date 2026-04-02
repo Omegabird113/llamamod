@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_large_tile_fence_gates",
-    "minecraft:green_dye",
-    "minecraft:blue_dye"
+    {
+      "tag": "llamamod:cracked_large_tile_fence_gates"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_teal_large_tile_fence_gate",

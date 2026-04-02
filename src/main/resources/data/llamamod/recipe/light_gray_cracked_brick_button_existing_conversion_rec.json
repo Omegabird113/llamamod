@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_brick_buttons",
-    "minecraft:light_gray_dye"
+    {
+      "tag": "llamamod:cracked_brick_buttons"
+    },
+    {
+      "item": "minecraft:light_gray_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_light_gray_brick_button",

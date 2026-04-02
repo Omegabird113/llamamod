@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SlabBlock;
 
 public class CrackedBlackBrickSlabBlock extends SlabBlock {
-	public CrackedBlackBrickSlabBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(2f, 6f));
+	public CrackedBlackBrickSlabBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(2f, 6f));
 	}
 }

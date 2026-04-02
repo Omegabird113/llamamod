@@ -2,11 +2,21 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "llamamod:farm_scraps",
-    "llamamod:farm_scraps",
-    "minecraft:pumpkin_seeds",
-    "llamamod:farm_scraps",
-    "llamamod:farm_scraps"
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    },
+    {
+      "item": "llamamod:farm_scraps"
+    }
   ],
   "result": {
     "id": "minecraft:pumpkin_seeds",

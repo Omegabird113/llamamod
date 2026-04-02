@@ -6,8 +6,12 @@
     "aba"
   ],
   "key": {
-    "a": "llamamod:purple_bricks",
-    "b": "minecraft:stick"
+    "a": {
+      "item": "llamamod:purple_bricks"
+    },
+    "b": {
+      "item": "minecraft:stick"
+    }
   },
   "result": {
     "id": "llamamod:purple_brick_fence",

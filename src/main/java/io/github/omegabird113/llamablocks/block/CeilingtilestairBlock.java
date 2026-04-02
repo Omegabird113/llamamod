@@ -7,8 +7,8 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Blocks;
 
 public class CeilingtilestairBlock extends StairBlock {
-	public CeilingtilestairBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops());
+	public CeilingtilestairBlock() {
+		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops());
 	}
 
 	@Override

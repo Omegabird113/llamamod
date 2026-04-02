@@ -7,10 +7,18 @@
     "aca"
   ],
   "key": {
-    "a": "#llamamod:large_tiles",
-    "b": "llamamod:password_changer",
-    "c": "minecraft:iron_block",
-    "d": "llamamod:netherite_backpack"
+    "a": {
+      "tag": "llamamod:large_tiles"
+    },
+    "b": {
+      "item": "llamamod:password_changer"
+    },
+    "c": {
+      "item": "minecraft:iron_block"
+    },
+    "d": {
+      "item": "llamamod:netherite_backpack"
+    }
   },
   "result": {
     "id": "llamamod:secure_storage_block",

@@ -3,7 +3,9 @@
   "category": "blocks",
   "experience": 2,
   "cookingtime": 200,
-  "ingredient": "llamamod:brown_large_tile_stairs",
+  "ingredient": {
+    "item": "llamamod:brown_large_tile_stairs"
+  },
   "result": {
     "id": "llamamod:cracked_brown_large_tile_stairs"
   }
