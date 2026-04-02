@@ -23,4 +23,4 @@ Each color variant, or tile type, has a corresponding block set, which includes 
 - A pressure plate
 - A button
 
-![Showcases all 16 vanilla colors of all brick & large tile block variants](https://github.com/user-attachments/assets/a48eeedb-e050-49eb-aaad-ff086ab20845)
+![Showcases all 16 vanilla colors of all brick & large tile block variants](../images/banana_showcase.png)
