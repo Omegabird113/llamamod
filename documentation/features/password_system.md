@@ -20,4 +20,4 @@ You can use a `Password Changer` to update the password of a block. If the block
 
 > More specifically, passwords are stored in a NBT text tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
 
-![This shows the UI of the Password changer being used to change a sample block's password.](https://cdn.modrinth.com/data/cached_images/521c9c8838c4b49edaf5008d1d5dfa1560ae33ac.jpeg)
+![This shows the UI of the Password changer being used to change a sample block's password.](../images/password_changer_showcase.png)

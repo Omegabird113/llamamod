@@ -6,4 +6,4 @@ This is a naturally spawning plant which works similarly to something like sugar
 - It can be waterlogged
 - It can be placed on: `Grass`, `Dirt`, `Farmland`, `Mud`, `Podzol`, `Coarse Dirt`
 - It can be composted with a `50%` success rate
-- It can fuel a furnace for `125 tick` (`6.25 seconds`)
+- It can fuel a furnace for `125 ticks` (`6.25 seconds`)

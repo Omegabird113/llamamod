@@ -31,7 +31,6 @@ The Computer Calculator supports the irrational numbers `pi` and `e` to be enter
 | `OR`                  | Bitwise OR            |
 | `XOR`                 | Bitwise XOR           |
 | `LOG`                 | LogBASE(`#1`) of `#2` |
-| `XOR`                 | Bitwise XOR           |
 | `RAND`                | Random Inclusive      |
 | `RANDEX`              | Random Exclusive      |
 | `ROOT`                | `#1` Root `#2`        |
@@ -57,4 +56,4 @@ The Computer Calculator supports the irrational numbers `pi` and `e` to be enter
 | `RAD>DEG`             | Radian to Degree Conversion   |
 | `DEG>RAD`             | Degree to Radian Conversion   |
 
-![This shows the Computer UI as of v1.2.0, with a calculator, redstone output selector, random number generator, player management controls, in-game time, player list, LlamaBlocks version, and message loading/saving.](https://cdn.modrinth.com/data/cached_images/83a8dc9f58808e295b15323dfc782b793afd8463.png)
+![This shows the Computer UI as of v1.2.0, with a calculator, redstone output selector, random number generator, player management controls, in-game time, player list, LlamaBlocks version, and message loading/saving.](../images/computer_showcase.png)
