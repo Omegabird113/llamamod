@@ -2,7 +2,7 @@
 
 LlamaBlocks is a mod I've been working on, on and off, since the summer of 2022 using [MCreator](https://mcreator.net). It has a massive variety of interesting features that range from massive sets of building blocks with specific color variants, to the Computer block with a bunch of varied features, or specialized blocks like the Variable Light Block.
 
-![This showcases Teal Bricks, White Large Tiles, Secure Storage Blocks, the Authenticator, and the Variable Light Block with shaders in a building with some vanilla blocks also.](https://cdn.modrinth.com/data/cached_images/6941b4cd5c02161ce848f6a60105d11bd034ce34.jpeg)
+![This showcases Teal Bricks, White Large Tiles, Secure Storage Blocks, the Authenticator, and the Variable Light Block with shaders in a building with some vanilla blocks also.](documentation/images/showcase.png)
 
 ## Features:
 
@@ -16,7 +16,7 @@ There are also the Tiles *(Black and White)* and the Ceiling tiles *(Blue and Li
 
 Each color variant, or tile type, has a corresponding block set, which includes the following full block, stair, slab, wall, fence, fence gate, trapdoor, pressure plate, and button.
 
-![This showcases every vanilla-colored variant of the Bricks and Large Tiles.](https://cdn.modrinth.com/data/cached_images/41e08bc20ee9215c4dcb19822d6d078fbe0905d9.jpeg)
+![This showcases every vanilla-colored variant of the Bricks and Large Tiles.](documentation/images/block_showcase.png)
 
 ### Banana-Adjacent Features
 
@@ -36,13 +36,13 @@ This is a naturally spawning plant which works similarly to something like sugar
 
 Farm scraps are non-plantable items which can be used to duplicate some seeds, be composted, and be crafting into brown dye.
 
-![This showcases the Banana Plants as seen in the Banana Patch Feature.](https://cdn.modrinth.com/data/cached_images/e70b91fc362fd4ae098ce912f154d4a5240bc672.jpeg)
+![This showcases the Banana Plants as seen in the Banana Patch Feature.](documentation/images/banana_showcase.png)
 
 ### Acid
 
 Acid is a fluid which naturally generates in Acid Lakes in the Outer End Islands, and can be accessed in the Creative menu. When you step into acid, it damages you instantly, kinda like lava. However, it's not based on fire and has a custom damage system.
 
-![This showcase a naturally generating Acid Lake in the End.](https://cdn.modrinth.com/data/cached_images/0c887786ebf1a161067662150855afde79fa6eb5.jpeg)
+![This showcase a naturally generating Acid Lake in the End.](documentation/images/acid_lake_showcase.png)
 
 ### The Backpacks
 
@@ -63,7 +63,7 @@ The Netherite backpack is an upgrade to the backpack which:
 
 This is a block which, when a block next to it is updated, will set the light level it produces to the maximum redstone power going into the block.
 
-![This showcases Cherry walls, Industrial floor/ceiling, and mood mood lighting with the Variable light with no shaders.](https://cdn.modrinth.com/data/cached_images/563992bdd456b962c393e0771959f22365f5d028.jpeg)
+![This showcases Cherry walls, Industrial floor/ceiling, and mood mood lighting with the Variable light with no shaders.](documentation/images/showcase_2.png)
 
 ### The Secure Storage Block
 
@@ -72,7 +72,7 @@ This is like a barrel, but:
 - There is a button which deletes all items, though there's a checkbox on whether or not to show that button in order to prevent accidental deletions
 - It supports having passwords with the Password System
 
-![This shows a Secure Storage Block's UI with a bunch of items in it.](https://cdn.modrinth.com/data/cached_images/4b23d8becca8ca368aa103337e5704d2cc9be8c9.jpeg)
+![This shows a Secure Storage Block's UI with a bunch of items in it.](documentation/images/secure_storage_block_showcase.png)
 
 ### The Password System
 
@@ -84,7 +84,7 @@ The Secure Storage Block, Computer, and Authenticator all support passwords. By 
 2. **Passwords are basically stored in plaintext**, this means that from a cybersecurity perspective, it is very unsafe to put a real password into LlamaBlocks.
 > More specifically, passwords are stored in a NBT text tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
 
-![This shows the UI of the Password changer being used to change a sample block's password.](https://cdn.modrinth.com/data/cached_images/521c9c8838c4b49edaf5008d1d5dfa1560ae33ac.jpeg)
+![This shows the UI of the Password changer being used to change a sample block's password.](documentation/images/password_changer_showcase.png)
 
 ### The Authenticator
 
@@ -94,7 +94,7 @@ This asks for a password using the Password System, and, if successful, gives a 
 
 The computer offers a variety of features for information, math, player management, and more. This includes a calculator, random number generator, a player messaging system, a message storage system, a redstone output slider, text with a formatted in-game time, and a list of players.
 
-![This shows the Computer UI as of v1.2.0, with a calculator, redstone output selector, random number generator, player management controls, in-game time, player list, LlamaBlocks version, and message loading/saving.](https://cdn.modrinth.com/data/cached_images/83a8dc9f58808e295b15323dfc782b793afd8463.png)
+![This shows the Computer UI, with a calculator, redstone output selector, random number generator, player management controls, in-game time, player list, LlamaBlocks version, and message loading/saving.](documentation/images/computer_showcase.png)
 
 ### Where to Download
 
