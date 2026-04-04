@@ -17,8 +17,8 @@
           "name": "password",
           "width": 120,
           "height": 20,
-          "x": 154,
-          "y": 107,
+          "x": 153,
+          "y": 108,
           "locked": false
         }
       },
@@ -34,7 +34,7 @@
             "falpha": 0.0
           },
           "x": 154,
-          "y": 86,
+          "y": 88,
           "locked": false
         }
       },
@@ -50,7 +50,7 @@
             "falpha": 0.0
           },
           "x": 154,
-          "y": 97,
+          "y": 99,
           "locked": false
         }
       },

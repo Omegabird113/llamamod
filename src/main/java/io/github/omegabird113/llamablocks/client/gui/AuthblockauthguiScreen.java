@@ -84,8 +84,8 @@ public class AuthblockauthguiScreen extends AbstractContainerScreen<Authblockaut
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.authblockauthgui.label_secure_stoorage_block"), 5, 4, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.authblockauthgui.label_enter_password"), 5, 15, -16777016, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.authblockauthgui.label_secure_stoorage_block"), 5, 6, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.authblockauthgui.label_enter_password"), 5, 17, -16777016, false);
 		if (IsThisBetaProcedureProcedure.execute())
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.authblockauthgui.label_beta"), 2, -11, -65536, false);
 	}
@@ -93,7 +93,7 @@ public class AuthblockauthguiScreen extends AbstractContainerScreen<Authblockaut
 	@Override
 	public void init() {
 		super.init();
-		password = new EditBox(this.font, this.leftPos + 6, this.topPos + 26, 118, 18, Component.translatable("gui.llamamod.authblockauthgui.password"));
+		password = new EditBox(this.font, this.leftPos + 5, this.topPos + 27, 118, 18, Component.translatable("gui.llamamod.authblockauthgui.password"));
 		password.setMaxLength(8192);
 		password.setResponder(content -> {
 			if (!menuStateUpdateActive)
