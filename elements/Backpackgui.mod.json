@@ -574,11 +574,11 @@
             "fixedValue": "Backpack"
           },
           "color": {
-            "value": -14477568,
+            "value": -16186368,
             "falpha": 0.0
           },
           "x": 133,
-          "y": 48,
+          "y": 50,
           "locked": false
         }
       },
