@@ -150,14 +150,14 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_calculator"), 5, 5, -12829636, false);
-		guiGraphics.drawString(this.font, GettimeasstringProcedure.execute(world), 29, -9, -16711936, false);
+		guiGraphics.drawString(this.font, GettimeasstringProcedure.execute(world), 28, -9, -16711936, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_player_controll"), 6, 68, -12829636, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_time"), 4, -9, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_redstone_output"), 4, 147, -1, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_players"), 4, -18, -1, false);
-		guiGraphics.drawString(this.font, ReturnPlayerListProcedureProcedure.execute(world), 48, -18, -16742401, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_time"), 3, -9, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_redstone_output"), 4, 146, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_players"), 3, -18, -1, false);
+		guiGraphics.drawString(this.font, ReturnPlayerListProcedureProcedure.execute(world), 47, -18, -16742401, false);
 		guiGraphics.drawString(this.font, CurentlyBlankRedstonePowerTextCompProcedureProcedure.execute(world, x, y, z), 4, 155, -256, false);
-		guiGraphics.drawString(this.font, ReturnNOBETALlamaModVersionProcedureProcedure.execute(), 219, 5, -16777216, false);
+		guiGraphics.drawString(this.font, ReturnNOBETALlamaModVersionProcedureProcedure.execute(), 220, 5, -16382202, false);
 		if (IsThisBetaProcedureProcedure.execute())
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_beta"), 227, -9, -65536, false);
 	}
