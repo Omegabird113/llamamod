@@ -3,7 +3,7 @@ The Computer offers a variety of features for information, math, player manageme
 - It supports having passwords with the Password System, so only people with access can use the other features
 - Players can send messages to other players
 - Operators can clear the inventory of and kill players
-- Players can access a formatted string of the 24-hour time (Ex. `7 o'clock (10% through the day)`)
+- Players can access a formatted string of the 24-hour time (e.g. `7 o'clock (10% through the day)`)
 - Players can set a redstone output between 0 and 15, and they can choose to have the computer pick a random power output between 0 and 15.
 - It shows a list of the names of every player connected to a world/server.
 - The contents of all textboxes in the computer are automatically saved to that computer and reloaded when the Computer is reopened.
@@ -56,4 +56,4 @@ The Computer Calculator supports the irrational numbers `pi` and `e` to be enter
 | `RAD>DEG`             | Radian to Degree Conversion   |
 | `DEG>RAD`             | Degree to Radian Conversion   |
 
-![This shows the Computer UI as of v1.2.0, with a calculator, redstone output selector, random number generator, player management controls, in-game time, player list, LlamaBlocks version, and message loading/saving.](../images/computer_showcase.png)
+![This shows the Computer UI with a calculator, redstone output selector, player management controls, in-game time, player list, and LlamaBlocks version.](../images/computer_showcase.png)
