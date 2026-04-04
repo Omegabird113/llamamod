@@ -111,7 +111,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_change_password"), 0, 107, -1, false);
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
 			guiGraphics.drawString(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 0, 116, -16711936, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 17, -18, -256, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 17, -17, -256, false);
 		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 17, -10, -256, false);
 		if (IsThisBetaProcedureProcedure.execute())
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 131, 0, -65536, false);
