@@ -22,11 +22,11 @@ import java.util.Collections;
 
 import io.github.omegabird113.llamablocks.init.LlamamodModMenus;
 
-public class PasswordchangerguiMenu extends AbstractContainerMenu implements LlamamodModMenus.MenuAccessor {
+public class PasswordsNotSupportedGUIMenu extends AbstractContainerMenu implements LlamamodModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 16)
+			if (!this.containsKey(key) && this.size() >= 7)
 				return null;
 			return super.put(key, value);
 		}
@@ -42,8 +42,8 @@ public class PasswordchangerguiMenu extends AbstractContainerMenu implements Lla
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public PasswordchangerguiMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(LlamamodModMenus.PASSWORDCHANGERGUI.get(), id);
+	public PasswordsNotSupportedGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(LlamamodModMenus.PASSWORDS_NOT_SUPPORTED_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(0);

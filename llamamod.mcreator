@@ -1303,7 +1303,7 @@
           "src/main/java/io/github/omegabird113/llamablocks/world/inventory/IncorrectPasswordGUIMenu.java"
         ]
       },
-      "path": "~/ABOUT"
+      "path": "~/Items/Password Changer"
     },
     {
       "name": "Getpasswordcmdgetpasswordinchatprocedure",
@@ -18134,38 +18134,6 @@
         ]
       },
       "path": "~/Commands/llamammod command"
-    },
-    {
-      "name": "ReturnIfBlockDoesNotSupportsPasswordSystem",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "return_if_block_does_not_supports_password_system",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/procedures/ReturnIfBlockDoesNotSupportsPasswordSystemProcedure.java"
-        ]
-      },
-      "path": "~/Items/Password Changer"
     },
     {
       "name": "GoldenBananaUpgradeTemplate",
@@ -38095,6 +38063,21 @@
         ]
       },
       "path": "~/Recipes and Trades/Trapdoors/Cracked Bricks/Existing Conversions"
+    },
+    {
+      "name": "PasswordsNotSupportedGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passwords_not_supported_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/world/inventory/PasswordsNotSupportedGUIMenu.java",
+          "src/main/java/io/github/omegabird113/llamablocks/network/PasswordsNotSupportedGUIButtonMessage.java",
+          "src/main/java/io/github/omegabird113/llamablocks/client/gui/PasswordsNotSupportedGUIScreen.java"
+        ]
+      },
+      "path": "~/Items/Password Changer"
     }
   ],
   "variable_elements": [],
@@ -42195,7 +42178,13 @@
       "item.llamamod.cracked_industrial_large_tile_button": "Cracked Industrial Large Tile Button",
       "item.llamamod.cracked_light_blue_large_tile_pressure_plate": "Cracked Light Blue Large Tile Pressure Plate",
       "gui.llamamod.computergui.auto_calculate": "Automatic",
-      "llamamod.about.beta_warning_chat_message": "WARNING: This is a BETA version of LlamaBlocks. Please report any issues or suggestions as issues on the LlamaBlocksn GitHub page: https://github.com/Omegabird113/llamamod."
+      "llamamod.about.beta_warning_chat_message": "WARNING: This is a BETA version of LlamaBlocks. Please report any issues or suggestions as issues on the LlamaBlocksn GitHub page: https://github.com/Omegabird113/llamamod.",
+      "gui.llamamod.passwords_not_supported_gui.label_retry_entering_the_password": "try clicking another block.",
+      "gui.llamamod.passwords_not_supported_gui.label_error": "This block doesn\u0027t support",
+      "gui.llamamod.passwords_not_supported_gui.button_x": "X",
+      "gui.llamamod.passwords_not_supported_gui.label_please_close_this_gui_and": "Please close this screen, and",
+      "gui.llamamod.passwords_not_supported_gui.label_beta": "BETA",
+      "gui.llamamod.passwords_not_supported_gui.label_passwords": "passwords!"
     }
   },
   "metadata": {

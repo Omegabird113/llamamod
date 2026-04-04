@@ -865,5 +865,11 @@
   "item.llamamod.cracked_industrial_large_tile_button": "Cracked Industrial Large Tile Button",
   "item.llamamod.cracked_light_blue_large_tile_pressure_plate": "Cracked Light Blue Large Tile Pressure Plate",
   "gui.llamamod.computergui.auto_calculate": "Automatic",
-  "llamamod.about.beta_warning_chat_message": "WARNING: This is a BETA version of LlamaBlocks. Please report any issues or suggestions as issues on the LlamaBlocksn GitHub page: https://github.com/Omegabird113/llamamod."
+  "llamamod.about.beta_warning_chat_message": "WARNING: This is a BETA version of LlamaBlocks. Please report any issues or suggestions as issues on the LlamaBlocksn GitHub page: https://github.com/Omegabird113/llamamod.",
+  "gui.llamamod.passwords_not_supported_gui.label_retry_entering_the_password": "try clicking another block.",
+  "gui.llamamod.passwords_not_supported_gui.label_error": "This block doesn\u0027t support",
+  "gui.llamamod.passwords_not_supported_gui.button_x": "X",
+  "gui.llamamod.passwords_not_supported_gui.label_please_close_this_gui_and": "Please close this screen, and",
+  "gui.llamamod.passwords_not_supported_gui.label_beta": "BETA",
+  "gui.llamamod.passwords_not_supported_gui.label_passwords": "passwords!"
 }

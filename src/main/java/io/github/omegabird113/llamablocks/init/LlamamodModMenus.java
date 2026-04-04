@@ -34,6 +34,7 @@ public class LlamamodModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<IncorrectPasswordGUIMenu>> INCORRECT_PASSWORD_GUI = REGISTRY.register("incorrect_password_gui", () -> IMenuTypeExtension.create(IncorrectPasswordGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<DoubleSecureStoorafeBlockGuiMenu>> DOUBLE_SECURE_STOORAFE_BLOCK_GUI = REGISTRY.register("double_secure_stoorafe_block_gui",
 			() -> IMenuTypeExtension.create(DoubleSecureStoorafeBlockGuiMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<PasswordsNotSupportedGUIMenu>> PASSWORDS_NOT_SUPPORTED_GUI = REGISTRY.register("passwords_not_supported_gui", () -> IMenuTypeExtension.create(PasswordsNotSupportedGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

@@ -23,6 +23,7 @@ public class LlamamodModScreens {
 		event.register(LlamamodModMenus.PASSWORDCHANGERGUI.get(), PasswordchangerguiScreen::new);
 		event.register(LlamamodModMenus.INCORRECT_PASSWORD_GUI.get(), IncorrectPasswordGUIScreen::new);
 		event.register(LlamamodModMenus.DOUBLE_SECURE_STOORAFE_BLOCK_GUI.get(), DoubleSecureStoorafeBlockGuiScreen::new);
+		event.register(LlamamodModMenus.PASSWORDS_NOT_SUPPORTED_GUI.get(), PasswordsNotSupportedGUIScreen::new);
 	}
 
 	public interface ScreenAccessor {
