@@ -1,4 +1,4 @@
-name: Build LlamaBlocks
+name: Build
 
 on:
   push:
