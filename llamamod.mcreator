@@ -41389,7 +41389,7 @@
       "item_group.llamamod.llama_mod": "LlamaBlocks",
       "gui.llamamod.double_secure_stoorafe_block_gui.button_close": "Close",
       "gui.llamamod.double_secure_stoorafe_block_gui.button_clear": "Clear",
-      "gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block": "Secure Storage Block:",
+      "gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block": "Secure Storage Block",
       "gui.llamamod.double_secure_stoorafe_block_gui.allow_clearing": "Show delete button",
       "item.llamamod.ceiling_tiles": "Ceiling Tiles",
       "item.llamamod.tile_slab": "Tile Slab",

@@ -4,7 +4,7 @@
   "definition": {
     "type": 1,
     "width": 174,
-    "height": 228,
+    "height": 229,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 31,
     "renderBgLayer": true,
@@ -15,14 +15,14 @@
         "data": {
           "name": "label_secure_stoorage_block",
           "text": {
-            "fixedValue": "Secure Storage Block:"
+            "fixedValue": "Secure Storage Block"
           },
           "color": {
-            "value": -15658701,
+            "value": -16316660,
             "falpha": 0.0
           },
           "x": 133,
-          "y": 12,
+          "y": 13,
           "locked": false
         }
       },

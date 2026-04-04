@@ -36,7 +36,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 174;
-		this.imageHeight = 228;
+		this.imageHeight = 229;
 	}
 
 	@Override
@@ -75,7 +75,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block"), 6, 6, -15658701, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block"), 6, 7, -16316660, false);
 		if (IsThisBetaProcedureProcedure.execute())
 			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_beta"), 176, 21, -65536, false);
 	}
