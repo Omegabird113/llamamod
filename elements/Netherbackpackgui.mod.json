@@ -34,11 +34,11 @@
             "fixedValue": "Netherite Backpack"
           },
           "color": {
-            "value": -12243393,
+            "value": -14477536,
             "falpha": 0.0
           },
           "x": 132,
-          "y": 39,
+          "y": 40,
           "locked": false
         }
       },
@@ -787,7 +787,7 @@
           "name": "allow_clearing",
           "text": "Show delete button",
           "x": 129,
-          "y": 209,
+          "y": 208,
           "locked": false
         }
       },
