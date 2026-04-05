@@ -90,7 +90,7 @@ public class AuthenticatorblockBlockEntity extends RandomizableContainerBlockEnt
 
 	@Override
 	public Component getDisplayName() {
-		return Component.literal("Authenticator Block");
+		return Component.literal("Authenticator");
 	}
 
 	@Override
