@@ -6,8 +6,12 @@
     "aba"
   ],
   "key": {
-    "a": "minecraft:stick",
-    "b": "llamamod:cracked_lime_large_tile"
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "llamamod:cracked_lime_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:cracked_lime_large_tile_fence_gate",

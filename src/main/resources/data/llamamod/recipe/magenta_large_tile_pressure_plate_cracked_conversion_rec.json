@@ -3,7 +3,9 @@
   "category": "blocks",
   "experience": 2,
   "cookingtime": 200,
-  "ingredient": "llamamod:magenta_large_tile_pressure_plate",
+  "ingredient": {
+    "item": "llamamod:magenta_large_tile_pressure_plate"
+  },
   "result": {
     "id": "llamamod:cracked_magenta_large_tile_pressure_plate"
   }

@@ -5,7 +5,9 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:tiles"
+    "a": {
+      "item": "llamamod:tiles"
+    }
   },
   "result": {
     "id": "llamamod:tile_slab",

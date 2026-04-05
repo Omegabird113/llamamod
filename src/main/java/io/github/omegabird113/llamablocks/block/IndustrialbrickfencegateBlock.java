@@ -12,8 +12,8 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class IndustrialbrickfencegateBlock extends FenceGateBlock {
-	public IndustrialbrickfencegateBlock(BlockBehaviour.Properties properties) {
-		super(WoodType.OAK, properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().forceSolidOn());
+	public IndustrialbrickfencegateBlock() {
+		super(WoodType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 
 	@Override

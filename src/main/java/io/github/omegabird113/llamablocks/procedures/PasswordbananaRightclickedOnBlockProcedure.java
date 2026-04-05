@@ -16,7 +16,7 @@ public class PasswordbananaRightclickedOnBlockProcedure {
 	public static String execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return "";
-		if (getEntityGameType(entity) == GameType.CREATIVE && entity instanceof Player _playerCmd1 && _playerCmd1.hasPermissions(3)) {
+		if (getEntityGameType(entity) == GameType.CREATIVE && entity.hasPermissions(3)) {
 			return getBlockNBTString(world, BlockPos.containing(x, y, z), "access_password");
 		} else {
 			LlamamodMod.LOGGER.debug(("Player DOES NOT have permission to see password. DId not return password." + entity));
@@ -38,7 +38,7 @@ public class PasswordbananaRightclickedOnBlockProcedure {
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		if (blockEntity != null)
-			return blockEntity.getPersistentData().getStringOr(tag, "");
+			return blockEntity.getPersistentData().getString(tag);
 		return "";
 	}
 }

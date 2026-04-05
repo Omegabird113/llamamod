@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class CherrybrickpreasureplateBlock extends PressurePlateBlock {
-	public CherrybrickpreasureplateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(18f, 37f).requiresCorrectToolForDrops().forceSolidOn());
+	public CherrybrickpreasureplateBlock() {
+		super(BlockSetType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(18f, 37f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

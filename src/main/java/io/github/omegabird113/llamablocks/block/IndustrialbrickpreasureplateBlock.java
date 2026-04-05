@@ -12,8 +12,8 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class IndustrialbrickpreasureplateBlock extends PressurePlateBlock {
-	public IndustrialbrickpreasureplateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().forceSolidOn());
+	public IndustrialbrickpreasureplateBlock() {
+		super(BlockSetType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 
 	@Override
