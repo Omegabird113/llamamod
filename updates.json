@@ -1,6 +1,7 @@
 {
   "homepage": "https://modrinth.com/mod/llamablocks/versions",
   "1.21.8": {
+    "1.3.1": "1. Improvements to every UI 2. Password Changer unsupported block warning UI 3. Authenticator Improvements 4. more",
     "1.3.0": "1. Cracked Bricks & Large Tile variants 2. Smaller & more integrated Computer UI 3. Automatic Checkbox and random support in the Computer Calculator 4. Golden Bananas are now crafted using a smithing table 5. Much more",
     "1.2.1": "1. Improvements to the Password Changer 2. Internal code improvements",
     "1.2.0": "1. Golden Banana 2. Computer Improvement 3. Much more",
@@ -13,14 +14,15 @@
     "0.45": "First public version (only on github)."
   },
   "1.21.1": {
+    "1.3.1": "1. Improvements to every UI 2. Password Changer unsupported block warning UI 3. Authenticator Improvements 4. more",
     "1.3.0": "1. Cracked Bricks & Large Tile variants 2. Smaller & more integrated Computer UI 3. Automatic Checkbox and random support in the Computer Calculator 4. Golden Bananas are now crafted using a smithing table 5. Much more",
     "1.2.1": "1. Improvements to the Password Changer 2. Internal code improvements",
     "1.2.0": "1. Golden Banana 2. Computer Improvement 3. Much more. (This is the first full version to support 1.21.1)"
   },
   "promos": {
-    "1.21.8-latest": "1.3.0",
-    "1.21.8-recommended": "1.3.0",
-    "1.21.1-latest": "1.3.0",
-    "1.21.1-recommended": "1.3.0"
+    "1.21.8-latest": "1.3.1",
+    "1.21.8-recommended": "1.3.1",
+    "1.21.1-latest": "1.3.1",
+    "1.21.1-recommended": "1.3.1"
   }
 }
