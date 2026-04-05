@@ -69,7 +69,7 @@ public record ComputerguiButtonMessage(int buttonID, int x, int y, int z) implem
 		}
 		if (buttonID == 5) {
 
-			ComputercalculateprocidureProcedure.execute(entity);
+			ComputercalculateprocidureProcedure.execute(world, entity);
 		}
 		if (buttonID == 6) {
 

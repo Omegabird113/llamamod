@@ -107,7 +107,7 @@ public class ComputerguiMenu extends AbstractContainerMenu implements LlamamodMo
 			double x = menu.x;
 			double y = menu.y;
 			double z = menu.z;
-			ComputerguiWhileThisGUIIsOpenTickProcedure.execute(entity);
+			ComputerguiWhileThisGUIIsOpenTickProcedure.execute(world, entity);
 		}
 	}
 
