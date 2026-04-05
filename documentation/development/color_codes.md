@@ -24,6 +24,6 @@ These are applied using the MCreator texture maker’s `Colorize` tool (with `Lo
 ## Custom Colors
 | Color      | Hex Code  | Lock HSB |
 |:-----------|:----------|:---------|
-| Industrial | `#452e3f` | No       |
-| Teal       | `#037c6e` | No       |
-| Cherry     | `#a84365` | Yes      |
+| Industrial | `#452e3f` | ✘        |
+| Teal       | `#037c6e` | ✘        |
+| Cherry     | `#a84365` | ✓        |
