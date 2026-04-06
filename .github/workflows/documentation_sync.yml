@@ -1,7 +1,7 @@
 name: Documentation Sync
 on:
   schedule:
-    - cron: '0 0 * * 3,0'
+    - cron: '0 0 * * 3,6'
       timezone: "America/New_York"
   workflow_dispatch:
   
@@ -42,7 +42,7 @@ jobs:
       - name: Exit if no changes
         if: steps.check-for-changes.outputs.changed == 'false'
         run: |
-          echo "No documentation changes found, exiting..."
+          echo "No docs changes found, exiting..."
           exit 0
       - name: Create sync pr
         if: steps.check-for-changes.outputs.changed == 'true'
@@ -51,7 +51,7 @@ jobs:
         with:
           path: mod-repo
           branch: documentation-sync-${{ steps.docs-date.outputs.date }}
-          commit-message: "Documentation Sync: (${{ steps.docs-date.outputs.date }})"
+          commit-message: "Documentation Sync"
           title: "Documentation Sync"
           assignees: "Omegabird113"
           reviewers: "Omegabird113"
@@ -72,5 +72,5 @@ jobs:
           gh release create ${{ steps.docs-date.outputs.date }} \
             ${{ github.workspace }}/LlamaBlocks-Documentation-${{ steps.docs-date.outputs.date }}.zip \
             --repo Omegabird113/LlamaBlocks-Documentation \
-            --title "Documentation update ${{ steps.docs-date.outputs.date }}" \
-            --notes "This is an automated documentation release due to LlamaBlocks sync workflow."
+            --title "Documentation ${{ steps.docs-date.outputs.date }}" \
+            --notes "This is an automated documentation release due to the LlamaBlocks documentation sync workflow."
