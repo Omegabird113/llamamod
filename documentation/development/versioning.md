@@ -1,4 +1,4 @@
-# The LlamaBlocks Versioning System
+# LlamaBlocks Versioning System
 The current LlamaBlocks version system produces versions in the format `x.y.z` or `x.y.z-s` where:
 
 | Segment | Meaning                                                 | Examples                                                                         |

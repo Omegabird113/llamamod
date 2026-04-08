@@ -1,4 +1,4 @@
-# The Password System
+# Password System
 The Secure Storage Block, Computer, and Authenticator all support passwords which are required to access them.
 
 ## Setting/Changing a Password

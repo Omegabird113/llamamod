@@ -1,4 +1,4 @@
-# The Banana
+# Banana
 The Banana is a somewhat bad food item in terms of nutrition, but you can eat them very fast. Here are their exact properties:
 - A nutritional value of `2` *(it heals `1` hunger bar)*
 - A saturation of `3.65` *(not very good)*
