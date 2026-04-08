@@ -1,4 +1,4 @@
-# The Netherite Backpack
+# Netherite Backpack
 The Netherite Backpack is an upgrade to the Backpack which:
 - Has `4` rows of items, instead of `3`
 - Cannot burn, which protects your items if you drop them or die in fire or lava.

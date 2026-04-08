@@ -4,7 +4,7 @@ This is a catalog of all existing non-public versions of LlamaBlocks I created.
 ## Why Some Versions Are Still Private
 As this was a very personal mod which I was not expecting to publish for a long time, many versions have textures I may not legally be able to distribute, or they contain way too much personal info. I can still publish that I hav these versions as a tool for myself or others being able to check their authenticity:
 
-## The Catalog
+## Catalog
 > [!Note]
 > Some early versions, due to being a personal mod, contained major typos in their version files. Also, the amount of info in filenames has changed overtime, and I used to think you couldn't use periods in filenames. I will not, however, retroactively change filenames to fix these issues for the purpose of historical preservation (even if only for myself).
 
