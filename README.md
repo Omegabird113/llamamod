@@ -1,4 +1,11 @@
 # LlamaBlocks
+[![Build status](https://img.shields.io/github/actions/workflow/status/Omegabird113/llamamod/build.yml)](https://github.com/Omegabird113/llamamod/actions/workflows/build.yml)
+[![GitHub License](https://img.shields.io/github/license/Omegabird113/llamamod)](https://github.com/Omegabird113/llamamod/blob/master/LICENSE)
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/XITt2S5x)](https://modrinth.com/mod/llamablocks)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/1435491)](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
+[![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Omegabird113/llamamod/total)](https://github.com/Omegabird113/llamamod/releases)
+
+
 
 LlamaBlocks is a mod I've been working on, on and off, since the summer of 2022 using [MCreator](https://mcreator.net). It has a massive variety of interesting features that range from massive sets of building blocks with specific color variants, to the Computer block with a bunch of varied features, or specialized blocks like the Variable Light Block.
 
@@ -99,6 +106,7 @@ The computer offers a variety of features for information, math, player manageme
 ### Where to Download
 
 LlamaBlocks is available on the following mod hosting websites:
+
 - [Modrinth](https://modrinth.com/mod/llamablocks)
 - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
 - [MCreator's Website](https://mcreator.net/modification/121457/llamablocks)
