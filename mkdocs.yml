@@ -6,26 +6,40 @@ theme:
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
-      primary: light green
-      accent: light green
+      primary: green
+      accent: green
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: light green
-      accent: light green
+      primary: green
+      accent: green
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: light green
-      accent: light green
+      primary: green
+      accent: green
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - toc.integrate
+    - navigation.top
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/omegabird113/llamamod/
+      name: LlamaBlocks GitHub Repository
+      
+    
 docs_dir: documentation/
