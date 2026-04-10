@@ -3,6 +3,7 @@ name: Deploy Docs
 on:
   workflow_dispatch:
   release:
+    types: [published]
 
 permissions:
   contents: read
@@ -21,7 +22,7 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install mkdocs-material
-      - run: mkdocs build
+      - run: mkdocs build --strict
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/
