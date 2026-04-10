@@ -2,31 +2,28 @@ site_name: LlamaBlocks Documentation
 site_url: https://omegabird113.github.io/llamamod/
 theme:
   name: material
-  theme:
-    palette:
+  palette:
     # Palette toggle for automatic mode
-      - media: "(prefers-color-scheme)"
-        primary: light green
-        accent: light green
-        toggle:
-          icon: material/brightness-auto
-          name: Switch to light mode
-
-      # Palette toggle for light mode
-      - media: "(prefers-color-scheme: light)"
-        scheme: default 
-        primary: light green
-        accent: light green
-        toggle:
-          icon: material/brightness-7
-          name: Switch to dark mode
-
-      # Palette toggle for dark mode
-      - media: "(prefers-color-scheme: dark)"
-        scheme: slate
-        primary: light green
-        accent: light green
-        toggle:
-          icon: material/brightness-4
-          name: Switch to system preference
+    - media: "(prefers-color-scheme)"
+      primary: light-green
+      accent: light-green
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light-green
+      accent: light-green
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light-green
+      accent: light-green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
 docs_dir: documentation/
