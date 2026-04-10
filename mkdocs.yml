@@ -1,17 +1,19 @@
 site_name: LlamaBlocks Documentation
 site_url: https://omegabird113.github.io/llamamod/
+repo_name: omegabird113/llamamod
+repo_url: https://github.com/omegabird113/llamamod/
+edit_uri: ""
+copyright: "© 2026 Omegabird113 — This documentation is available under the CC-BY-SA 4.0 license"
 
 theme:
   name: material
   palette:
-    # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       primary: green
       accent: green
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
-    # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: green
@@ -19,27 +21,35 @@ theme:
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: green
       accent: green
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to dark mode  # fixed — was "Switch to system preference"
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.path
-    - toc.integrate
+    - navigation.indexes
     - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search:
+      lang: en
 
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/omegabird113/llamamod/
       name: LlamaBlocks GitHub Repository
-      
-    
+  generator: false
+
 docs_dir: documentation/
