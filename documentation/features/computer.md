@@ -8,13 +8,16 @@ The Computer offers a variety of features for information, math, player manageme
 - It shows a list of the names of every player connected to a world/server.
 - The contents of all textboxes in the computer are automatically saved to that computer and reloaded when the Computer is reopened.
 
+## Showcase Image
+![This shows the Computer UI with a calculator, redstone output selector, player management controls, in-game time, player list, and LlamaBlocks version.](../images/computer_showcase.png)
+
 ## Computer Calculator
 The Computer has a calculator function, which can be used to calculate an output between 1 or 2 numbers. There's is a manual calculate button and also a `Automatic` checkbox which re-calculates every tick, when enabled.
 
 ### Special Numbers
 The Computer Calculator supports the irrational numbers `pi` and `e` to be entered, alongside the errors `nan`, `inf`, and `-inf`.
 
-### 2 Value Operations
+### Two Value Operations
 | Operators in Computer | Common Name           | 
 |-----------------------|-----------------------|
 | `+`                   | Addition              |
@@ -35,7 +38,7 @@ The Computer Calculator supports the irrational numbers `pi` and `e` to be enter
 | `RANDEX`              | Random Exclusive      |
 | `ROOT`                | `#1` Root `#2`        |
 
-### 1 Value Operations
+### One Value Operations
 | Operators in Computer | Common Name                   | 
 |-----------------------|-------------------------------|
 | `NLOG`                | Natural Logarithim            |
@@ -55,5 +58,3 @@ The Computer Calculator supports the irrational numbers `pi` and `e` to be enter
 | `LOG10`               | Log Base 10                   |
 | `RAD>DEG`             | Radian to Degree Conversion   |
 | `DEG>RAD`             | Degree to Radian Conversion   |
-
-![This shows the Computer UI with a calculator, redstone output selector, player management controls, in-game time, player list, and LlamaBlocks version.](../images/computer_showcase.png)
