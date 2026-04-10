@@ -1,10 +1,10 @@
 # Index
-This is a file that explains the structure and contents of all files in the documentation sorted alphabetically:
+This is a file that explains the structure and contents of all files in [the documentation](https://omegabird113.github.io/llamamod/) sorted alphabetically:
 ## changelogs/
 *The individual files will not be listed as they are just `version display name`.md*
 
 ## development/
-- [color_codes.md](development/versioning.md) - a list of all the color codes I use in making textures
+- [color_codes.md](development/color_codes.md) - a list of all the color codes I use in making textures
 - [open_requirements.md](development/open_requirements.md) - a list of the requirements to open the LlamaBlocks MCreator workspace
 - [versioning.md](development/versioning.md) - an explanation of the LlamaBlocks versioning system
 
@@ -12,15 +12,19 @@ This is a file that explains the structure and contents of all files in the docu
 - [authenticator.md](features/authenticator.md) - info about the Authenticator block
 - [blocksets.md](features/blocksets.md) - info about the decorative block Blocksets
 - [computer.md](features/computer.md) - info about the Computer
+- [gamerules.md](features/gamerules.md) - a table of every gamerule LlamaBlocks adds
 - [load_requirements.md](features/load_requirements.md) - the requirements to load into Minecraft with LlamaBlocks
 - [password_system.md](features/password_system.md) - an explanation of the Password System
 - [variable_light.md](features/variable_light.md) - info about the Variable Light block
+- [where_to_download.md](features/where_to_download.md) - a set of clickable badge links to every platform LlamaBlocks can be downloaded from
 
 **acid/**
-- [acid_fluid.md](features/acid/acid_fluid.md) - info about the acid liquid itself
+
 - [acid_effect.md](features/acid/acid_effect.md) - info about the Acid Dissolving effect
+- [acid_fluid.md](features/acid/acid_fluid.md) - info about the acid liquid itself
 
 **bananas/**
+
 - [banana.md](features/bananas/banana.md) - info about the Banana item
 - [banana_patch.md](features/bananas/banana_patch.md) - info about the feature Banana Plants generate in
 - [banana_plant.md](features/bananas/banana_plant.md) - info about the Banana Plant
@@ -28,6 +32,7 @@ This is a file that explains the structure and contents of all files in the docu
 - [golden_banana.md](features/bananas/golden_banana.md) - info about the Golden Banana item 
 
 **storage/**
+
 - [backpack.md](features/storage/backpack.md) - info about the basic Backpack item
 - [netherite_backpack.md](features/storage/netherite_backpack.md) - info about the upgraded Netherite Backpack
 - [secure_storage_block.md](features/storage/secure_storage_block.md) - info about the Secure Storage Block
