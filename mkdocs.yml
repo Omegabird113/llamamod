@@ -52,4 +52,33 @@ extra:
       name: LlamaBlocks GitHub Repository
   generator: false
 
+  analytics:
+    provider: google
+    property: G-RZXKT1MRC8
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: Yes
+          data: 1
+          note: Thanks for the feedback!
+        - icon: material/thumb-down-outline
+          name: No
+          data: 0
+          note: Thanks for the feedback!
+
+  consent:
+    title: Cookie consent
+    description: >-
+      This site uses Google Analytics to understand how it is being used.
+      Accepting helps me improve the documentation.
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: true   
+    actions:
+      - accept
+      - reject
+      - manage
+
 docs_dir: documentation/
