@@ -21,7 +21,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import io.github.omegabird113.llamablocks.procedures.OpenauthblockguiprocedureProcedure;
+import io.github.omegabird113.llamablocks.procedures.OpenAuthGUIProcedureProcedure;
 import io.github.omegabird113.llamablocks.procedures.IspoweredProcedure;
 import io.github.omegabird113.llamablocks.procedures.AuthblockupdateprocedureProcedure;
 import io.github.omegabird113.llamablocks.block.entity.AuthenticatorblockBlockEntity;
@@ -96,7 +96,7 @@ public class AuthenticatorblockBlock extends Block implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		OpenauthblockguiprocedureProcedure.execute(world, x, y, z, blockstate, direction, entity);
+		OpenAuthGUIProcedureProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 

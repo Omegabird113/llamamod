@@ -21,7 +21,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import io.github.omegabird113.llamablocks.procedures.SecurestoorageblockOnBlockRightClickedProcedure;
+import io.github.omegabird113.llamablocks.procedures.OpenAuthGUIProcedureProcedure;
 import io.github.omegabird113.llamablocks.block.entity.SecurestorageblockBlockEntity;
 
 public class SecurestorageblockBlock extends Block implements EntityBlock {
@@ -71,7 +71,7 @@ public class SecurestorageblockBlock extends Block implements EntityBlock {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		SecurestoorageblockOnBlockRightClickedProcedure.execute(world, x, y, z, blockstate, direction, entity);
+		OpenAuthGUIProcedureProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 

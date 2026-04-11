@@ -27,7 +27,8 @@
         "data": {
           "name": "label_secure_stoorage_block",
           "text": {
-            "fixedValue": "Authenticator"
+            "fixedValue": "Block",
+            "name": "ReturnNameOfSelectedBlockProcedure"
           },
           "color": {
             "value": -16777216,
@@ -61,7 +62,7 @@
           "text": "Submit",
           "isUndecorated": false,
           "onClick": {
-            "name": "AUthblockauthprocedure"
+            "name": "AuthProcedure"
           },
           "width": 56,
           "height": 20,
@@ -91,7 +92,7 @@
         "data": {
           "image": "my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png",
           "use1Xscale": true,
-          "x": 134,
+          "x": 135,
           "y": 158,
           "locked": false
         }

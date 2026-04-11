@@ -27,14 +27,12 @@ public class LlamamodModMenus {
 	public static final DeferredHolder<MenuType<?>, MenuType<BackpackguiMenu>> BACKPACKGUI = REGISTRY.register("backpackgui", () -> IMenuTypeExtension.create(BackpackguiMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<NetherbackpackguiMenu>> NETHERBACKPACKGUI = REGISTRY.register("netherbackpackgui", () -> IMenuTypeExtension.create(NetherbackpackguiMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<ComputerguiMenu>> COMPUTERGUI = REGISTRY.register("computergui", () -> IMenuTypeExtension.create(ComputerguiMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<SecurestooragepasswordguiMenu>> SECURESTOORAGEPASSWORDGUI = REGISTRY.register("securestooragepasswordgui", () -> IMenuTypeExtension.create(SecurestooragepasswordguiMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<AuthblockauthguiMenu>> AUTHBLOCKAUTHGUI = REGISTRY.register("authblockauthgui", () -> IMenuTypeExtension.create(AuthblockauthguiMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<ComputerauthguiMenu>> COMPUTERAUTHGUI = REGISTRY.register("computerauthgui", () -> IMenuTypeExtension.create(ComputerauthguiMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<PasswordchangerguiMenu>> PASSWORDCHANGERGUI = REGISTRY.register("passwordchangergui", () -> IMenuTypeExtension.create(PasswordchangerguiMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<IncorrectPasswordGUIMenu>> INCORRECT_PASSWORD_GUI = REGISTRY.register("incorrect_password_gui", () -> IMenuTypeExtension.create(IncorrectPasswordGUIMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<DoubleSecureStoorafeBlockGuiMenu>> DOUBLE_SECURE_STOORAFE_BLOCK_GUI = REGISTRY.register("double_secure_stoorafe_block_gui",
 			() -> IMenuTypeExtension.create(DoubleSecureStoorafeBlockGuiMenu::new));
 	public static final DeferredHolder<MenuType<?>, MenuType<PasswordsNotSupportedGUIMenu>> PASSWORDS_NOT_SUPPORTED_GUI = REGISTRY.register("passwords_not_supported_gui", () -> IMenuTypeExtension.create(PasswordsNotSupportedGUIMenu::new));
+	public static final DeferredHolder<MenuType<?>, MenuType<AuthGUIMenu>> AUTH_GUI = REGISTRY.register("auth_gui", () -> IMenuTypeExtension.create(AuthGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();

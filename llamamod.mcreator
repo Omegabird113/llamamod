@@ -720,99 +720,6 @@
       "path": "~/Fluids/Acid"
     },
     {
-      "name": "Securestooragepasswordgui",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "securestooragepasswordgui",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/world/inventory/SecurestooragepasswordguiMenu.java",
-          "src/main/java/io/github/omegabird113/llamablocks/client/gui/SecurestooragepasswordguiScreen.java",
-          "src/main/java/io/github/omegabird113/llamablocks/network/SecurestooragepasswordguiButtonMessage.java"
-        ]
-      },
-      "path": "~/Blocks/Secure Stoorage Block"
-    },
-    {
-      "name": "SecurestoorageblockOnBlockRightClicked",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "securestoorageblock_on_block_right_clicked",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/procedures/SecurestoorageblockOnBlockRightClickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "direction",
-            "type": "direction"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocks/Secure Stoorage Block"
-    },
-    {
-      "name": "Submitsecstoorblockpasswordprocidure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "submitsecstoorblockpasswordprocidure",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/procedures/SubmitsecstoorblockpasswordprocidureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocks/Secure Stoorage Block"
-    },
-    {
       "name": "Ceilingtiles",
       "type": "block",
       "compiles": true,
@@ -850,56 +757,6 @@
       "path": "~/Blocks/Authentiicator block"
     },
     {
-      "name": "Authblockauthgui",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "authblockauthgui",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/network/AuthblockauthguiButtonMessage.java",
-          "src/main/java/io/github/omegabird113/llamablocks/world/inventory/AuthblockauthguiMenu.java",
-          "src/main/java/io/github/omegabird113/llamablocks/client/gui/AuthblockauthguiScreen.java"
-        ]
-      },
-      "path": "~/Blocks/Authentiicator block"
-    },
-    {
-      "name": "AUthblockauthprocedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "a_uthblockauthprocedure",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/procedures/AUthblockauthprocedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocks/Authentiicator block"
-    },
-    {
       "name": "Ispowered",
       "type": "procedure",
       "compiles": true,
@@ -914,49 +771,6 @@
           {
             "name": "blockstate",
             "type": "blockstate"
-          }
-        ]
-      },
-      "path": "~/Blocks/Authentiicator block"
-    },
-    {
-      "name": "Openauthblockguiprocedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "openauthblockguiprocedure",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/procedures/OpenauthblockguiprocedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "direction",
-            "type": "direction"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
           }
         ]
       },
@@ -1043,99 +857,6 @@
         ]
       },
       "path": "~/Recipes and Trades"
-    },
-    {
-      "name": "Computerauthgui",
-      "type": "gui",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "computerauthgui",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/client/gui/ComputerauthguiScreen.java",
-          "src/main/java/io/github/omegabird113/llamablocks/world/inventory/ComputerauthguiMenu.java",
-          "src/main/java/io/github/omegabird113/llamablocks/network/ComputerauthguiButtonMessage.java"
-        ]
-      },
-      "path": "~/Blocks/Computer"
-    },
-    {
-      "name": "Computerauthprocedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "computerauthprocedure",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/procedures/ComputerauthprocedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocks/Computer"
-    },
-    {
-      "name": "Opencompauthguiprocedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "opencompauthguiprocedure",
-      "metadata": {
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/procedures/OpencompauthguiprocedureProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "blockstate",
-            "type": "blockstate"
-          },
-          {
-            "name": "direction",
-            "type": "direction"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Blocks/Computer"
     },
     {
       "name": "Authblockupdateprocedure",
@@ -38086,6 +37807,158 @@
         ]
       },
       "path": "~/Items/Password Changer"
+    },
+    {
+      "name": "AuthGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auth_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/client/gui/AuthGUIScreen.java",
+          "src/main/java/io/github/omegabird113/llamablocks/world/inventory/AuthGUIMenu.java",
+          "src/main/java/io/github/omegabird113/llamablocks/network/AuthGUIButtonMessage.java"
+        ]
+      },
+      "path": "~/Passwords"
+    },
+    {
+      "name": "ReturnNameOfSelectedBlockProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_name_of_selected_block_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "return_type": "string",
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/procedures/ReturnNameOfSelectedBlockProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Passwords"
+    },
+    {
+      "name": "AuthProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auth_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/procedures/AuthProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Passwords"
+    },
+    {
+      "name": "TriggerOnAuthBlockAuthenticatedProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trigger_on_auth_block_authenticated_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/procedures/TriggerOnAuthBlockAuthenticatedProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Authentiicator block"
+    },
+    {
+      "name": "OpenAuthGUIProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "open_auth_gui_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/procedures/OpenAuthGUIProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Passwords"
     }
   ],
   "variable_elements": [],
@@ -41365,21 +41238,6 @@
       "gui.llamamod.computergui.button_kill": "Kill",
       "gui.llamamod.computergui.label_random_number": "Random Number:",
       "gui.llamamod.computergui.label_redstone_output": "Redstone Output:",
-      "gui.llamamod.securestooragepasswordgui.button_submit": "Submit",
-      "gui.llamamod.securestooragepasswordgui.password": "Type here",
-      "gui.llamamod.securestooragepasswordgui.button_x": "X",
-      "gui.llamamod.securestooragepasswordgui.label_secure_stoorage_block": "Secure Storage Block",
-      "gui.llamamod.securestooragepasswordgui.label_enter_password": "Enter password:",
-      "gui.llamamod.authblockauthgui.label_secure_stoorage_block": "Authenticator",
-      "gui.llamamod.authblockauthgui.label_enter_password": "Enter password:",
-      "gui.llamamod.authblockauthgui.password": "Type here",
-      "gui.llamamod.authblockauthgui.button_x": "X",
-      "gui.llamamod.authblockauthgui.button_submit": "Submit",
-      "gui.llamamod.computerauthgui.label_secure_stoorage_block": "Computer",
-      "gui.llamamod.computerauthgui.password": "Type here",
-      "gui.llamamod.computerauthgui.label_enter_password": "Enter password:",
-      "gui.llamamod.computerauthgui.button_x": "X",
-      "gui.llamamod.computerauthgui.button_submit": "Submit",
       "gui.llamamod.passwordchangergui.label_if_there_is_one": "if there is one:",
       "gui.llamamod.passwordchangergui.current_password": "Type here",
       "gui.llamamod.passwordchangergui.button_submit": "Set",
@@ -41782,9 +41640,6 @@
       "gui.llamamod.computergui.label_beta": "BETA",
       "gui.llamamod.backpackgui.label_beta": "BETA",
       "gui.llamamod.netherbackpackgui.label_beta": "BETA",
-      "gui.llamamod.securestooragepasswordgui.label_beta": "BETA",
-      "gui.llamamod.authblockauthgui.label_beta": "BETA",
-      "gui.llamamod.computerauthgui.label_beta": "BETA",
       "gui.llamamod.passwordchangergui.label_beta": "BETA",
       "gui.llamamod.incorrect_password_gui.label_beta": "BETA",
       "gui.llamamod.double_secure_stoorafe_block_gui.label_beta": "BETA",
@@ -42192,7 +42047,13 @@
       "gui.llamamod.passwords_not_supported_gui.button_x": "X",
       "gui.llamamod.passwords_not_supported_gui.label_please_close_this_gui_and": "Please close this screen, and",
       "gui.llamamod.passwords_not_supported_gui.label_beta": "BETA",
-      "gui.llamamod.passwords_not_supported_gui.label_passwords": "passwords!"
+      "gui.llamamod.passwords_not_supported_gui.label_passwords": "passwords!",
+      "gui.llamamod.auth_gui.label_beta": "BETA",
+      "gui.llamamod.auth_gui.label_secure_stoorage_block": "Computer",
+      "gui.llamamod.auth_gui.label_enter_password": "Enter password:",
+      "gui.llamamod.auth_gui.password": "Type here",
+      "gui.llamamod.auth_gui.button_submit": "Submit",
+      "gui.llamamod.auth_gui.button_x": "X"
     }
   },
   "metadata": {
@@ -42841,6 +42702,10 @@
       },
       {
         "name": "Gamerules",
+        "children": []
+      },
+      {
+        "name": "Passwords",
         "children": []
       }
     ]

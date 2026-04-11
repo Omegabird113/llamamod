@@ -14,12 +14,13 @@ import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.Minecraft;
 
-import io.github.omegabird113.llamablocks.world.inventory.ComputerauthguiMenu;
+import io.github.omegabird113.llamablocks.world.inventory.AuthGUIMenu;
+import io.github.omegabird113.llamablocks.procedures.ReturnNameOfSelectedBlockProcedureProcedure;
 import io.github.omegabird113.llamablocks.procedures.IsThisBetaProcedureProcedure;
-import io.github.omegabird113.llamablocks.network.ComputerauthguiButtonMessage;
+import io.github.omegabird113.llamablocks.network.AuthGUIButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
 
-public class ComputerauthguiScreen extends AbstractContainerScreen<ComputerauthguiMenu> implements LlamamodModScreens.ScreenAccessor {
+public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
@@ -28,7 +29,7 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 	private Button button_submit;
 	private Button button_x;
 
-	public ComputerauthguiScreen(ComputerauthguiMenu container, Inventory inventory, Component text) {
+	public AuthGUIScreen(AuthGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -49,7 +50,7 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/computerauthgui.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/auth_gui.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
@@ -84,38 +85,38 @@ public class ComputerauthguiScreen extends AbstractContainerScreen<Computerauthg
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_secure_stoorage_block"), 5, 6, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_enter_password"), 5, 17, -16777016, false);
+		guiGraphics.drawString(this.font, ReturnNameOfSelectedBlockProcedureProcedure.execute(world, x, y, z), 5, 6, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.auth_gui.label_enter_password"), 5, 17, -16777016, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computerauthgui.label_beta"), 2, -11, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.auth_gui.label_beta"), 2, -11, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		password = new EditBox(this.font, this.leftPos + 5, this.topPos + 27, 118, 18, Component.translatable("gui.llamamod.computerauthgui.password"));
+		password = new EditBox(this.font, this.leftPos + 5, this.topPos + 27, 118, 18, Component.translatable("gui.llamamod.auth_gui.password"));
 		password.setMaxLength(8192);
 		password.setResponder(content -> {
 			if (!menuStateUpdateActive)
 				menu.sendMenuStateUpdate(entity, 0, "password", content, false);
 		});
-		password.setHint(Component.translatable("gui.llamamod.computerauthgui.password"));
+		password.setHint(Component.translatable("gui.llamamod.auth_gui.password"));
 		this.addWidget(this.password);
-		button_submit = Button.builder(Component.translatable("gui.llamamod.computerauthgui.button_submit"), e -> {
-			int x = ComputerauthguiScreen.this.x;
-			int y = ComputerauthguiScreen.this.y;
+		button_submit = Button.builder(Component.translatable("gui.llamamod.auth_gui.button_submit"), e -> {
+			int x = AuthGUIScreen.this.x;
+			int y = AuthGUIScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerauthguiButtonMessage(0, x, y, z));
-				ComputerauthguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
+				ClientPacketDistributor.sendToServer(new AuthGUIButtonMessage(0, x, y, z));
+				AuthGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 48, 56, 20).build();
 		this.addRenderableWidget(button_submit);
-		button_x = Button.builder(Component.translatable("gui.llamamod.computerauthgui.button_x"), e -> {
-			int x = ComputerauthguiScreen.this.x;
-			int y = ComputerauthguiScreen.this.y;
+		button_x = Button.builder(Component.translatable("gui.llamamod.auth_gui.button_x"), e -> {
+			int x = AuthGUIScreen.this.x;
+			int y = AuthGUIScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerauthguiButtonMessage(1, x, y, z));
-				ComputerauthguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
+				ClientPacketDistributor.sendToServer(new AuthGUIButtonMessage(1, x, y, z));
+				AuthGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 100, this.topPos + -21, 30, 20).build();
 		this.addRenderableWidget(button_x);

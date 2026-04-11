@@ -16,25 +16,25 @@ import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import io.github.omegabird113.llamablocks.procedures.XbuttonprocidureProcedure;
-import io.github.omegabird113.llamablocks.procedures.ComputerauthprocedureProcedure;
+import io.github.omegabird113.llamablocks.procedures.AuthProcedureProcedure;
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
 @EventBusSubscriber
-public record ComputerauthguiButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
+public record AuthGUIButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
 
-	public static final Type<ComputerauthguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "computerauthgui_buttons"));
-	public static final StreamCodec<RegistryFriendlyByteBuf, ComputerauthguiButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, ComputerauthguiButtonMessage message) -> {
+	public static final Type<AuthGUIButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "auth_gui_buttons"));
+	public static final StreamCodec<RegistryFriendlyByteBuf, AuthGUIButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, AuthGUIButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
 		buffer.writeInt(message.y);
 		buffer.writeInt(message.z);
-	}, (RegistryFriendlyByteBuf buffer) -> new ComputerauthguiButtonMessage(buffer.readInt(), buffer.readInt(), buffer.readInt(), buffer.readInt()));
+	}, (RegistryFriendlyByteBuf buffer) -> new AuthGUIButtonMessage(buffer.readInt(), buffer.readInt(), buffer.readInt(), buffer.readInt()));
 	@Override
-	public Type<ComputerauthguiButtonMessage> type() {
+	public Type<AuthGUIButtonMessage> type() {
 		return TYPE;
 	}
 
-	public static void handleData(final ComputerauthguiButtonMessage message, final IPayloadContext context) {
+	public static void handleData(final AuthGUIButtonMessage message, final IPayloadContext context) {
 		if (context.flow() == PacketFlow.SERVERBOUND) {
 			context.enqueueWork(() -> handleButtonAction(context.player(), message.buttonID, message.x, message.y, message.z)).exceptionally(e -> {
 				context.connection().disconnect(Component.literal(e.getMessage()));
@@ -50,7 +50,7 @@ public record ComputerauthguiButtonMessage(int buttonID, int x, int y, int z) im
 			return;
 		if (buttonID == 0) {
 
-			ComputerauthprocedureProcedure.execute(world, x, y, z, entity);
+			AuthProcedureProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 1) {
 
@@ -60,6 +60,6 @@ public record ComputerauthguiButtonMessage(int buttonID, int x, int y, int z) im
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(ComputerauthguiButtonMessage.TYPE, ComputerauthguiButtonMessage.STREAM_CODEC, ComputerauthguiButtonMessage::handleData);
+		LlamamodMod.addNetworkMessage(AuthGUIButtonMessage.TYPE, AuthGUIButtonMessage.STREAM_CODEC, AuthGUIButtonMessage::handleData);
 	}
 }

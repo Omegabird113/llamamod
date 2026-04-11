@@ -17,13 +17,11 @@ public class LlamamodModScreens {
 		event.register(LlamamodModMenus.BACKPACKGUI.get(), BackpackguiScreen::new);
 		event.register(LlamamodModMenus.NETHERBACKPACKGUI.get(), NetherbackpackguiScreen::new);
 		event.register(LlamamodModMenus.COMPUTERGUI.get(), ComputerguiScreen::new);
-		event.register(LlamamodModMenus.SECURESTOORAGEPASSWORDGUI.get(), SecurestooragepasswordguiScreen::new);
-		event.register(LlamamodModMenus.AUTHBLOCKAUTHGUI.get(), AuthblockauthguiScreen::new);
-		event.register(LlamamodModMenus.COMPUTERAUTHGUI.get(), ComputerauthguiScreen::new);
 		event.register(LlamamodModMenus.PASSWORDCHANGERGUI.get(), PasswordchangerguiScreen::new);
 		event.register(LlamamodModMenus.INCORRECT_PASSWORD_GUI.get(), IncorrectPasswordGUIScreen::new);
 		event.register(LlamamodModMenus.DOUBLE_SECURE_STOORAFE_BLOCK_GUI.get(), DoubleSecureStoorafeBlockGuiScreen::new);
 		event.register(LlamamodModMenus.PASSWORDS_NOT_SUPPORTED_GUI.get(), PasswordsNotSupportedGUIScreen::new);
+		event.register(LlamamodModMenus.AUTH_GUI.get(), AuthGUIScreen::new);
 	}
 
 	public interface ScreenAccessor {

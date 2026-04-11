@@ -16,35 +16,59 @@ import io.netty.buffer.Unpooled;
 
 import io.github.omegabird113.llamablocks.world.inventory.IncorrectPasswordGUIMenu;
 import io.github.omegabird113.llamablocks.world.inventory.DoubleSecureStoorafeBlockGuiMenu;
+import io.github.omegabird113.llamablocks.world.inventory.ComputerguiMenu;
 import io.github.omegabird113.llamablocks.init.LlamamodModMenus;
-import io.github.omegabird113.llamablocks.LlamamodMod;
+import io.github.omegabird113.llamablocks.init.LlamamodModBlocks;
 
-public class SubmitsecstoorblockpasswordprocidureProcedure {
+public class AuthProcedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		if (((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) ? _menu0.getMenuState(0, "password", "") : "")
 				.equals(getBlockNBTString(world, BlockPos.containing(x, y, z), "access_password"))) {
-			if (entity instanceof ServerPlayer _ent) {
-				BlockPos _bpos = BlockPos.containing(x, y, z);
-				_ent.openMenu(new MenuProvider() {
-					@Override
-					public Component getDisplayName() {
-						return Component.literal("DoubleSecureStoorafeBlockGui");
-					}
+			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LlamamodModBlocks.COMPUTER.get()) {
+				if (entity instanceof ServerPlayer _ent) {
+					BlockPos _bpos = BlockPos.containing(x, y, z);
+					_ent.openMenu(new MenuProvider() {
+						@Override
+						public Component getDisplayName() {
+							return Component.literal("Computergui");
+						}
 
-					@Override
-					public boolean shouldTriggerClientSideContainerClosingOnOpen() {
-						return false;
-					}
+						@Override
+						public boolean shouldTriggerClientSideContainerClosingOnOpen() {
+							return false;
+						}
 
-					@Override
-					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-						return new DoubleSecureStoorafeBlockGuiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
-					}
-				}, _bpos);
+						@Override
+						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+							return new ComputerguiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						}
+					}, _bpos);
+				}
+			} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LlamamodModBlocks.SECURE_STORAGE_BLOCK.get()) {
+				if (entity instanceof ServerPlayer _ent) {
+					BlockPos _bpos = BlockPos.containing(x, y, z);
+					_ent.openMenu(new MenuProvider() {
+						@Override
+						public Component getDisplayName() {
+							return Component.literal("DoubleSecureStoorafeBlockGui");
+						}
+
+						@Override
+						public boolean shouldTriggerClientSideContainerClosingOnOpen() {
+							return false;
+						}
+
+						@Override
+						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+							return new DoubleSecureStoorafeBlockGuiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						}
+					}, _bpos);
+				}
+			} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LlamamodModBlocks.AUTHENTICATOR.get()) {
+				TriggerOnAuthBlockAuthenticatedProcedureProcedure.execute(world, x, y, z, entity);
 			}
-			LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") authenticated successfully."));
 		} else {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
@@ -65,7 +89,6 @@ public class SubmitsecstoorblockpasswordprocidureProcedure {
 					}
 				}, _bpos);
 			}
-			LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") FAILED to authenticate."));
 		}
 	}
 

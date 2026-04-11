@@ -22,7 +22,7 @@ import java.util.Collections;
 
 import io.github.omegabird113.llamablocks.init.LlamamodModMenus;
 
-public class ComputerauthguiMenu extends AbstractContainerMenu implements LlamamodModMenus.MenuAccessor {
+public class AuthGUIMenu extends AbstractContainerMenu implements LlamamodModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
@@ -42,8 +42,8 @@ public class ComputerauthguiMenu extends AbstractContainerMenu implements Llamam
 	private Entity boundEntity = null;
 	private BlockEntity boundBlockEntity = null;
 
-	public ComputerauthguiMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(LlamamodModMenus.COMPUTERAUTHGUI.get(), id);
+	public AuthGUIMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(LlamamodModMenus.AUTH_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(0);

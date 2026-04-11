@@ -1,7 +1,5 @@
 package io.github.omegabird113.llamablocks.procedures;
 
-import net.minecraft.world.level.block.state.properties.EnumProperty;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -12,27 +10,27 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import io.netty.buffer.Unpooled;
 
-import io.github.omegabird113.llamablocks.world.inventory.SecurestooragepasswordguiMenu;
 import io.github.omegabird113.llamablocks.world.inventory.DoubleSecureStoorafeBlockGuiMenu;
-import io.github.omegabird113.llamablocks.LlamamodMod;
+import io.github.omegabird113.llamablocks.world.inventory.ComputerguiMenu;
+import io.github.omegabird113.llamablocks.world.inventory.AuthGUIMenu;
+import io.github.omegabird113.llamablocks.init.LlamamodModBlocks;
 
-public class SecurestoorageblockOnBlockRightClickedProcedure {
-	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate, Direction direction, Entity entity) {
-		if (direction == null || entity == null)
+public class OpenAuthGUIProcedureProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
+		if (entity == null)
 			return;
-		if (direction == (getDirectionFromBlockState(blockstate))) {
-			if (!(getBlockNBTString(world, BlockPos.containing(x, y, z), "access_password")).isEmpty()) {
+		if ((getBlockNBTString(world, BlockPos.containing(x, y, z), "access_password")).isEmpty()) {
+			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LlamamodModBlocks.COMPUTER.get()) {
 				if (entity instanceof ServerPlayer _ent) {
 					BlockPos _bpos = BlockPos.containing(x, y, z);
 					_ent.openMenu(new MenuProvider() {
 						@Override
 						public Component getDisplayName() {
-							return Component.literal("Securestooragepasswordgui");
+							return Component.literal("Computergui");
 						}
 
 						@Override
@@ -42,12 +40,11 @@ public class SecurestoorageblockOnBlockRightClickedProcedure {
 
 						@Override
 						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-							return new SecurestooragepasswordguiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+							return new ComputerguiMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
 						}
 					}, _bpos);
 				}
-				LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") clicked on CORRECT face (" + direction + ") with password. Auth GUI opened."));
-			} else {
+			} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LlamamodModBlocks.SECURE_STORAGE_BLOCK.get()) {
 				if (entity instanceof ServerPlayer _ent) {
 					BlockPos _bpos = BlockPos.containing(x, y, z);
 					_ent.openMenu(new MenuProvider() {
@@ -67,19 +64,48 @@ public class SecurestoorageblockOnBlockRightClickedProcedure {
 						}
 					}, _bpos);
 				}
-				LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") clicked on CORRECT face (" + direction + ") WITHOUT password. Main GUI opened."));
+			} else {
+				if (entity instanceof ServerPlayer _ent) {
+					BlockPos _bpos = BlockPos.containing(x, y, z);
+					_ent.openMenu(new MenuProvider() {
+						@Override
+						public Component getDisplayName() {
+							return Component.literal("AuthGUI");
+						}
+
+						@Override
+						public boolean shouldTriggerClientSideContainerClosingOnOpen() {
+							return false;
+						}
+
+						@Override
+						public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+							return new AuthGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+						}
+					}, _bpos);
+				}
 			}
 		} else {
-			LlamamodMod.LOGGER.debug(("Secure Storage Block at (" + x + ", " + y + ", " + z + ") clicked on INCORRECT face (" + direction + ") NO UI opened."));
-		}
-	}
+			if (entity instanceof ServerPlayer _ent) {
+				BlockPos _bpos = BlockPos.containing(x, y, z);
+				_ent.openMenu(new MenuProvider() {
+					@Override
+					public Component getDisplayName() {
+						return Component.literal("AuthGUI");
+					}
 
-	private static Direction getDirectionFromBlockState(BlockState blockState) {
-		if (blockState.getBlock().getStateDefinition().getProperty("facing") instanceof EnumProperty ep && ep.getValueClass() == Direction.class)
-			return (Direction) blockState.getValue(ep);
-		if (blockState.getBlock().getStateDefinition().getProperty("axis") instanceof EnumProperty ep && ep.getValueClass() == Direction.Axis.class)
-			return Direction.fromAxisAndDirection((Direction.Axis) blockState.getValue(ep), Direction.AxisDirection.POSITIVE);
-		return Direction.NORTH;
+					@Override
+					public boolean shouldTriggerClientSideContainerClosingOnOpen() {
+						return false;
+					}
+
+					@Override
+					public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
+						return new AuthGUIMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(_bpos));
+					}
+				}, _bpos);
+			}
+		}
 	}
 
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {
