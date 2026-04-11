@@ -6,7 +6,7 @@ edit_uri: ""
 copyright: "© 2026 Omegabird113 — This documentation is available under the CC-BY-SA 4.0 license"
 
 nav:
-  - Home: README.md
+  - Home: index.md
 
 theme:
   name: material
