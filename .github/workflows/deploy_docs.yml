@@ -4,6 +4,12 @@ on:
   workflow_dispatch:
   release:
     types: [published]
+  push:
+    branches:
+      - master
+    paths:
+      - 'documentation/**'
+      - 'mkdocs.yml'
 
 permissions:
   contents: read
