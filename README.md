@@ -11,7 +11,7 @@ LlamaBlocks is a complex, multi-year long development, [MCreator](https://mcreat
 
 ## Building Blocks
 
-There are Custom Bricks and "Large Tiles" added in LlamaBlocks. Bothcome in 19 colors: All 16 vanilla colors *(White, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, Light Blue, Blue, Purple, Magenta, Pink)*, Industrial (Netherite Colored) variants, Cherry (Hot Pink) variants, and Teal variants
+There are Custom Bricks and "Large Tiles" added in LlamaBlocks. Both come in 19 colors: All 16 vanilla colors *(White, Light Gray, Gray, Black, Brown, Red, Orange, Yellow, Lime, Green, Cyan, Light Blue, Blue, Purple, Magenta, Pink)*, Industrial (Netherite Colored) variants, Cherry (Hot Pink) variants, and Teal variants.
 
 There are also the Tiles *(Black and White)* and the Ceiling tiles *(Blue and Light Gray)*.
 
