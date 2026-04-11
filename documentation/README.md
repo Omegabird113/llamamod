@@ -14,7 +14,7 @@ LlamaBlocks is a complex, multi-year long development, mod which adds a ton of f
 
 ## The Index
 
-The easiest way to get around the documentation is to visit the [Index](index.md) which describes the exact structure of the documentation.
+The easiest way to get around the documentation is to visit the [Index](page-index.md) which describes the exact structure of the documentation.
 
 ## Contributing to the Documentation
 
