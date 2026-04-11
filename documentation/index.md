@@ -1,7 +1,8 @@
 # Index
-This is a file that explains the structure and contents of all files in [the documentation](https://omegabird113.github.io/llamamod/) sorted alphabetically:
+This is a file that explains the contents of [the documentation](https://omegabird113.github.io/llamamod/) sorted alphabetically:
+
 ## changelogs/
-*The individual files will not be listed as they are just `version display name`.md*
+The individual files will not be listed as they are just `version display name`.md
 
 ## development/
 - [color_codes.md](development/color_codes.md) - a list of all the color codes I use in making textures
@@ -46,6 +47,7 @@ This is a file that explains the structure and contents of all files in [the doc
 - [banana_showcase.png](images/banana_showcase.png) - a showcase of a Banana Patch
 - [block_showcase.png](images/block_showcase.png) - an image of every non-cracked variant of the Bricks & Large Tiles
 - [computer_showcase.png](images/computer_showcase.png) - an image of the Computer UI
+- [logo.png](images/logo.png) -- an image of the LlamaBlocks logo
 - [password_changer_showcase.png](images/password_changer_showcase.png) - an image of the Password Changer UI
 - [secure_storage_block_showcase.png](images/secure_storage_block_showcase.png) - an image of the Secure Storage Block UI
 - [showcase.png](images/showcase.png) - the main showcase image of a build with Teal & White Blocks, the Secure Storage Block, the Computer, and more
