@@ -1,7 +1,7 @@
 # Color Hex Codes
 These are applied using the MCreator texture maker’s `Colorize` tool (with `Lock Hue, Saturation, and Brightness` disabled unless said otherwise)
 
-## Vanilla Colors:
+## Vanilla Colors
 | Color      | Hex Code  |
 |:-----------|:----------|
 | White      | `#cfd5d6` |
