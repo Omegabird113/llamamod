@@ -37,7 +37,6 @@ theme:
     - navigation.sections
     - navigation.path
     - navigation.top
-    - toc.integrate
     - search.suggest
     - search.highlight
 
