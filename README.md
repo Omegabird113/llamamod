@@ -5,7 +5,7 @@
 [![CurseForge Downloads](https://img.shields.io/curseforge/dt/1435491)](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
 [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Omegabird113/llamamod/total)](https://github.com/Omegabird113/llamamod/releases)
 
-LlamaBlocks is a mod I've been working on, on and off, since the summer of 2022 using [MCreator](https://mcreator.net). It has a massive variety of interesting features that range from massive sets of building blocks with specific color variants, to the Computer block with a bunch of varied features, or specialized blocks like the Variable Light Block.
+LlamaBlocks is a complex, multi-year long development, [MCreator](https://mcreator.net) mod which adds a ton of features. These include 702 variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named Acid, and more!
 
 ![This showcases Teal Bricks, White Large Tiles, Secure Storage Blocks, the Authenticator, and the Variable Light Block with shaders in a building with some vanilla blocks also.](documentation/images/showcase.png)
 
