@@ -8,7 +8,33 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [page-index.md](#) - This index
 
 ### changelogs/
-The individual files will not be listed as they are just `version display name`.md
+Changelogs are available for the following versions:
+- [0.44.71 (Incomplete)](changelogs/0.44.71.incomplete.md)
+- [0.45 (Incomplete)](changelogs/0.45.incomplete.md)
+- [0.45.05](changelogs/0.45.05.md)
+- [1.0.0-beta2](changelogs/1.0.0-beta2.md)
+- [1.0.0-beta3](changelogs/1.0.0-beta3.md)
+- [1.0.0-beta4](changelogs/1.0.0-beta4.md)
+- [1.0.0-beta5](changelogs/1.0.0-beta5.md)
+- [1.0.0-rc](changelogs/1.0.0-rc.md)
+- [1.0.0](changelogs/1.0.0.md)
+- [1.1.0](changelogs/1.1.0.md)
+- [1.1.1](changelogs/1.1.1.md)
+- [1.1.2](changelogs/1.1.2.md)
+- [1.1.3](changelogs/1.1.3.md)
+- [1.1.4](changelogs/1.1.4.md)
+- [1.2.0-beta1](changelogs/1.2.0-beta1.md)
+- [1.2.0-beta2](changelogs/1.2.0-beta2.md)
+- [1.2.0-beta3](changelogs/1.2.0-beta3.md)
+- [1.2.0-rc1](changelogs/1.2.0-rc1.md)
+- [1.2.0](changelogs/1.2.0.md)
+- [1.2.1](changelogs/1.2.1.md)
+- [1.3.0-beta1](changelogs/1.3.0-beta1.md)
+- [1.3.0-beta2](changelogs/1.3.0-beta2.md)
+- [1.3.0-beta3](changelogs/1.3.0-beta3.md)
+- [1.3.0-rc1](changelogs/1.3.0-rc1.md)
+- [1.3.0](changelogs/1.3.0.md)
+- [1.3.1](changelogs/1.3.1.md)
 
 ### development/
 - [color_codes.md](development/color_codes.md) - a list of all the color codes I use in making textures
@@ -29,7 +55,6 @@ The individual files will not be listed as they are just `version display name`.
 - [acid_fluid.md](features/acid/acid_fluid.md) - info about the acid liquid itself
 
 #### bananas/
-
 - [banana.md](features/bananas/banana.md) - info about the Banana item
 - [banana_patch.md](features/bananas/banana_patch.md) - info about the feature Banana Plants generate in
 - [banana_plant.md](features/bananas/banana_plant.md) - info about the Banana Plant
@@ -37,7 +62,6 @@ The individual files will not be listed as they are just `version display name`.
 - [golden_banana.md](features/bananas/golden_banana.md) - info about the Golden Banana item 
 
 #### storage/
-
 - [backpack.md](features/storage/backpack.md) - info about the basic Backpack item
 - [netherite_backpack.md](features/storage/netherite_backpack.md) - info about the upgraded Netherite Backpack
 - [secure_storage_block.md](features/storage/secure_storage_block.md) - info about the Secure Storage Block
