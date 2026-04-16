@@ -17714,26 +17714,6 @@
       "path": "~/ABOUT"
     },
     {
-      "name": "PasswordResetPasswordChangerGUIPermissionProcedure",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "password_reset_password_changer_gui_permission_procedure",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ],
-        "return_type": "logic",
-        "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/procedures/PasswordResetPasswordChangerGUIPermissionProcedureProcedure.java"
-        ]
-      },
-      "path": "~/Items/Password Changer"
-    },
-    {
       "name": "Llamablocksbannerpattern",
       "type": "bannerpattern",
       "compiles": true,
