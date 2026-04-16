@@ -39,8 +39,8 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 130;
-		this.imageHeight = 107;
+		this.imageWidth = 134;
+		this.imageHeight = 108;
 	}
 
 	@Override
@@ -64,7 +64,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		current_password.render(guiGraphics, mouseX, mouseY, partialTicks);
 		boolean customTooltipShown = false;
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
-			if (mouseX > leftPos + -1 && mouseX < leftPos + 23 && mouseY > topPos + 106 && mouseY < topPos + 130) {
+			if (mouseX > leftPos + 0 && mouseX < leftPos + 24 && mouseY > topPos + 107 && mouseY < topPos + 131) {
 				guiGraphics.setTooltipForNextFrame(font, Component.translatable("gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o"), mouseX, mouseY);
 				customTooltipShown = true;
 			}
@@ -75,7 +75,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/warning.png"), this.leftPos + 1, this.topPos + -17, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/warning.png"), this.leftPos + -1, this.topPos + -17, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override
@@ -102,24 +102,24 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_secure_stoorage_block"), 4, 6, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_enter_password"), 4, 16, -16777016, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_enter_password_again"), 4, 45, -16777131, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_if_there_is_one"), 4, 53, -16777131, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_secure_stoorage_block"), 5, 6, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_enter_password"), 5, 16, -16777016, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_enter_password_again"), 5, 45, -16777131, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_if_there_is_one"), 5, 53, -16777131, false);
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_change_password"), 0, 107, -1, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_change_password"), 1, 108, -1, false);
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
-			guiGraphics.drawString(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 0, 116, -16711936, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 17, -17, -256, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 17, -10, -256, false);
+			guiGraphics.drawString(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 1, 117, -16711936, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 16, -17, -256, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 16, -10, -256, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 131, 0, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 135, 0, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		password = new EditBox(this.font, this.leftPos + 4, this.topPos + 25, 118, 18, Component.translatable("gui.llamamod.passwordchangergui.password"));
+		password = new EditBox(this.font, this.leftPos + 5, this.topPos + 25, 118, 18, Component.translatable("gui.llamamod.passwordchangergui.password"));
 		password.setMaxLength(8192);
 		password.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -127,7 +127,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		});
 		password.setHint(Component.translatable("gui.llamamod.passwordchangergui.password"));
 		this.addWidget(this.password);
-		current_password = new EditBox(this.font, this.leftPos + 4, this.topPos + 62, 118, 18, Component.translatable("gui.llamamod.passwordchangergui.current_password"));
+		current_password = new EditBox(this.font, this.leftPos + 5, this.topPos + 62, 118, 18, Component.translatable("gui.llamamod.passwordchangergui.current_password"));
 		current_password.setMaxLength(8192);
 		current_password.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -142,7 +142,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 				ClientPacketDistributor.sendToServer(new PasswordchangerguiButtonMessage(0, x, y, z));
 				PasswordchangerguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 4, this.topPos + 82, 56, 20).build();
+		}).bounds(this.leftPos + 5, this.topPos + 82, 56, 20).build();
 		this.addRenderableWidget(button_submit);
 		button_x = Button.builder(Component.translatable("gui.llamamod.passwordchangergui.button_x"), e -> {
 			int x = PasswordchangerguiScreen.this.x;
@@ -151,7 +151,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 				ClientPacketDistributor.sendToServer(new PasswordchangerguiButtonMessage(1, x, y, z));
 				PasswordchangerguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
-		}).bounds(this.leftPos + 100, this.topPos + -21, 30, 20).build();
+		}).bounds(this.leftPos + 104, this.topPos + -21, 30, 20).build();
 		this.addRenderableWidget(button_x);
 		button_reset = Button.builder(Component.translatable("gui.llamamod.passwordchangergui.button_reset"), e -> {
 			int x = PasswordchangerguiScreen.this.x;
@@ -160,7 +160,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 				ClientPacketDistributor.sendToServer(new PasswordchangerguiButtonMessage(2, x, y, z));
 				PasswordchangerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
-		}).bounds(this.leftPos + 71, this.topPos + 82, 51, 20).build();
+		}).bounds(this.leftPos + 72, this.topPos + 82, 51, 20).build();
 		this.addRenderableWidget(button_reset);
 	}
 
