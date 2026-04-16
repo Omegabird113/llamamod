@@ -1,6 +1,6 @@
 # LlamaBlocks
 [![Build status](https://img.shields.io/github/actions/workflow/status/Omegabird113/llamamod/build.yml)](https://github.com/Omegabird113/llamamod/actions/workflows/build.yml)
-[![GitHub License](https://img.shields.io/github/license/Omegabird113/llamamod)](https://github.com/Omegabird113/llamamod/blob/master/LICENSE)
+[![License](https://img.shields.io/badge/license-GPL%20v3.0-brightgreen.svg)](https://github.com/Omegabird113/llamamod/blob/master/LICENSE)
 [![Modrinth Downloads](https://img.shields.io/modrinth/dt/XITt2S5x)](https://modrinth.com/mod/llamablocks)
 [![CurseForge Downloads](https://img.shields.io/curseforge/dt/1435491)](https://www.curseforge.com/minecraft/mc-mods/llamablocks)
 [![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Omegabird113/llamamod/total)](https://github.com/Omegabird113/llamamod/releases)
