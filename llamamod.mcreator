@@ -42706,7 +42706,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.8",
-    "credits": "Made with MCreator 2025.3 with the Blockstates plugin.",
+    "credits": "Made with MCreator 2025.3 w/ the Blockstates \u0026 Remote Workspaces Support plugins.",
     "modElementsPackage": "io.github.omegabird113.llamablocks"
   },
   "mcreatorVersion": 202500345720

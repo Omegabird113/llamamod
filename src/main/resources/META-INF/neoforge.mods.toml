@@ -9,7 +9,7 @@ displayName="LlamaBlocks"
 updateJSONURL="https://raw.githubusercontent.com/Omegabird113/llamamod/refs/heads/master/updates.json"
 displayURL="https://modrinth.com/mod/llamablocks"
 logoFile="logo.png"
-credits="Made with MCreator 2025.3 with the Blockstates plugin."
+credits="Made with MCreator 2025.3 w/ the Blockstates & Remote Workspaces Support plugins."
 authors="Omegabird113"
 description="LlamaBlocks is a complex, multi-year long development, MCreator mod which adds a ton of features. These include 702 variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named Acid, and more!"
 
