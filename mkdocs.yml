@@ -12,13 +12,12 @@ nav:
       - Setup:
           - Load Requirements: features/load_requirements.md
           - Gamerules: features/gamerules.md
-      
-      - Core:
-          - Authenticator: features/authenticator.md
-          - Computer: features/computer.md
-          - Password System: features/password_system.md
-          - Variable Light: features/variable_light.md
-          - Blocksets: features/blocksets.md
+
+      - Blocksets: features/blocksets.md
+      - Authenticator: features/authenticator.md
+      - Computer: features/computer.md
+      - Password System: features/password_system.md
+      - Variable Light: features/variable_light.md
 
       - Acid:
           - Acid Fluid: features/acid/acid_fluid.md
