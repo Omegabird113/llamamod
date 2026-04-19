@@ -9,15 +9,15 @@ nav:
   - Home: README.md
 
   - Features:
-      - Setup:
-          - Load Requirements: features/load_requirements.md
-          - Gamerules: features/gamerules.md
-
       - Blocksets: features/blocksets.md
       - Authenticator: features/authenticator.md
       - Computer: features/computer.md
       - Password System: features/password_system.md
       - Variable Light: features/variable_light.md
+      
+      - Setup:
+          - Load Requirements: features/load_requirements.md
+          - Gamerules: features/gamerules.md
 
       - Acid:
           - Acid Fluid: features/acid/acid_fluid.md
