@@ -113,6 +113,7 @@ theme:
     - search.suggest
     - search.highlight
     - toc.integrate
+    - content.action.edit
 
 plugins:
   - search:
