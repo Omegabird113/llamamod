@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FenceBlock;
 
 public class CrackedIndustrialLargeTileFenceBlock extends FenceBlock {
-	public CrackedIndustrialLargeTileFenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(37.75f, 86.5f).requiresCorrectToolForDrops().forceSolidOn());
+	public CrackedIndustrialLargeTileFenceBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(37.75f, 86.5f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

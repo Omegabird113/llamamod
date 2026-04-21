@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:brick_stairs",
-    "minecraft:orange_dye"
+    {
+      "tag": "llamamod:brick_stairs"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
   ],
   "result": {
     "id": "llamamod:orange_brick_stairs",

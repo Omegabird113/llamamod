@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_brick_pressure_plates",
-    "minecraft:pink_dye",
-    "minecraft:red_dye"
+    {
+      "tag": "llamamod:cracked_brick_pressure_plates"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_cherry_brick_pressure_plate",

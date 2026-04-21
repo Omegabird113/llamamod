@@ -1,23 +1,27 @@
 package io.github.omegabird113.llamablocks.item;
 
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.client.Minecraft;
 
 import io.github.omegabird113.llamablocks.procedures.PasswordbananaprivlidgeescheckProcedure;
 import io.github.omegabird113.llamablocks.procedures.OpenpasswordchangerguiprocedureProcedure;
-import io.github.omegabird113.llamablocks.LlamamodMod;
 
 public class PasswordchangerItem extends Item {
-	public PasswordchangerItem(Item.Properties properties) {
-		super(properties.stacksTo(1));
+	public PasswordchangerItem() {
+		super(new Item.Properties().stacksTo(1));
 	}
 
 	@Override
+	@OnlyIn(Dist.CLIENT)
 	public boolean isFoil(ItemStack itemstack) {
-		Entity entity = LlamamodMod.clientPlayer();
+		Entity entity = Minecraft.getInstance().player;
 		return PasswordbananaprivlidgeescheckProcedure.execute(entity);
 	}
 

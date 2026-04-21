@@ -6,7 +6,9 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:cracked_lime_large_tile"
+    "a": {
+      "item": "llamamod:cracked_lime_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:cracked_lime_large_tile_wall",
