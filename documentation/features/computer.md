@@ -1,5 +1,6 @@
 # Computer
 The Computer offers a variety of features for information, math, player management, and more. Here's a list of its features:
+
 - It supports having passwords with the Password System, so only people with access can use the other features
 - Players can send messages to other players
 - Operators can clear the inventory of and kill players

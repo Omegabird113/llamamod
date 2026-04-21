@@ -1,5 +1,6 @@
 # Farm Scraps
 Farm scraps are non-plantable items which can be used for the following:
+
 - Placing 4 of them, plus one of the following items in a crafting table makes 2 of that item:
   - Wheat seeds, carrots, beetroot seeds, melon seeds, potatoes, sugar cane, and bamboo
 - Placing 8 of them and a banana plant in a crafting table makes another banana plant

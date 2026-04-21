@@ -45,6 +45,7 @@ This system was used until the switch to the current system with `1.0.0` develop
 Until MCreator 2026.1, it strips out any characters other than numbers and dots in mod versions before generating the actual NeoForge `mods.toml` file which is where the version that shows in the mod menu comes from. Alongside that, I did not have a git repository to track commits and how much I'd done in an update.
 
 I wanted a versioning system that met these requirements:
+
 - It could show pre-release versions in some clear way
 - MCreator's versioning stripping would end up not affecting it
 - Newer versions, when sorted as strings, would have newer versions come after older ones

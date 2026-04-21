@@ -22,7 +22,5 @@ You can use a `Password Changer` to update the password of a block. If the block
 > **Important**:
 > 
 > These issues are currently not possible for me to fix, due to the fact that MCreator does not support any form of cryptographic hashing function.
-
-> **Note**:
 > 
 > More specifically, passwords are stored in a NBT text tag named `access_password`, which can be easily viewed using the vanilla `/data` command.
