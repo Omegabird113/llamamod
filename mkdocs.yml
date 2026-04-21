@@ -2,7 +2,7 @@ site_name: LlamaBlocks Documentation
 site_url: https://omegabird113.github.io/llamamod/
 repo_name: omegabird113/llamamod
 repo_url: https://github.com/omegabird113/llamamod/
-edit_uri: ""
+edit_uri: https://github.com/omegabird113/LlamaBlocks-Documentation/edit/main/
 copyright: "© 2026 Omegabird113 — This documentation is available under the CC-BY-SA 4.0 license"
 
 nav:
@@ -113,6 +113,7 @@ theme:
     - search.suggest
     - search.highlight
     - toc.integrate
+    - content.action.edit
 
 plugins:
   - search:
