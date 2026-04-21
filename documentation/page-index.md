@@ -5,36 +5,38 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [LICENSE.md](LICENSE.md) - The license for the Documentation (`CC-BY-SA 4.0`)
 - [README.md](README.md) - An explanation of the Documentation and the homepage of the documentation website
 - [mod-license.md](mod-license.md) - The license of the Mod itself (`GPLv3`)
-- [page-index.md](#) - This index
+- [page-index.md](page-index.md) - This index
 
 ### changelogs/
-Changelogs are available for the following versions:
-- [0.44.71 (Incomplete)](changelogs/0.44.71.incomplete.md)
-- [0.45 (Incomplete)](changelogs/0.45.incomplete.md)
-- [0.45.05](changelogs/0.45.05.md)
-- [1.0.0-beta2](changelogs/1.0.0-beta2.md)
-- [1.0.0-beta3](changelogs/1.0.0-beta3.md)
-- [1.0.0-beta4](changelogs/1.0.0-beta4.md)
-- [1.0.0-beta5](changelogs/1.0.0-beta5.md)
-- [1.0.0-rc](changelogs/1.0.0-rc.md)
-- [1.0.0](changelogs/1.0.0.md)
-- [1.1.0](changelogs/1.1.0.md)
-- [1.1.1](changelogs/1.1.1.md)
-- [1.1.2](changelogs/1.1.2.md)
-- [1.1.3](changelogs/1.1.3.md)
-- [1.1.4](changelogs/1.1.4.md)
-- [1.2.0-beta1](changelogs/1.2.0-beta1.md)
-- [1.2.0-beta2](changelogs/1.2.0-beta2.md)
-- [1.2.0-beta3](changelogs/1.2.0-beta3.md)
-- [1.2.0-rc1](changelogs/1.2.0-rc1.md)
-- [1.2.0](changelogs/1.2.0.md)
-- [1.2.1](changelogs/1.2.1.md)
-- [1.3.0-beta1](changelogs/1.3.0-beta1.md)
-- [1.3.0-beta2](changelogs/1.3.0-beta2.md)
-- [1.3.0-beta3](changelogs/1.3.0-beta3.md)
-- [1.3.0-rc1](changelogs/1.3.0-rc1.md)
-- [1.3.0](changelogs/1.3.0.md)
-- [1.3.1](changelogs/1.3.1.md)
+#### full_versions/
+- [0.45 (Incomplete)](changelogs/full_versions/0.45.incomplete.md)
+- [1.0.0](changelogs/full_versions/1.0.0.md)
+- [1.1.0](changelogs/full_versions/1.1.0.md)
+- [1.1.1](changelogs/full_versions/1.1.1.md)
+- [1.1.2](changelogs/full_versions/1.1.2.md)
+- [1.1.3](changelogs/full_versions/1.1.3.md)
+- [1.1.4](changelogs/full_versions/1.1.4.md)
+- [1.2.0](changelogs/full_versions/1.2.0.md)
+- [1.2.1](changelogs/full_versions/1.2.1.md)
+- [1.3.0](changelogs/full_versions/1.3.0.md)
+- [1.3.1](changelogs/full_versions/1.3.1.md)
+
+#### dev_versions/
+- [0.44.71 (Incomplete)](changelogs/dev_versions/0.44.71.incomplete.md)
+- [0.45.05](changelogs/dev_versions/0.45.05.md)
+- [1.0.0-beta2](changelogs/dev_versions/1.0.0-beta2.md)
+- [1.0.0-beta3](changelogs/dev_versions/1.0.0-beta3.md)
+- [1.0.0-beta4](changelogs/dev_versions/1.0.0-beta4.md)
+- [1.0.0-beta5](changelogs/dev_versions/1.0.0-beta5.md)
+- [1.0.0-rc](changelogs/dev_versions/1.0.0-rc.md)
+- [1.2.0-beta1](changelogs/dev_versions/1.2.0-beta1.md)
+- [1.2.0-beta2](changelogs/dev_versions/1.2.0-beta2.md)
+- [1.2.0-beta3](changelogs/dev_versions/1.2.0-beta3.md)
+- [1.2.0-rc1](changelogs/dev_versions/1.2.0-rc1.md)
+- [1.3.0-beta1](changelogs/dev_versions/1.3.0-beta1.md)
+- [1.3.0-beta2](changelogs/dev_versions/1.3.0-beta2.md)
+- [1.3.0-beta3](changelogs/dev_versions/1.3.0-beta3.md)
+- [1.3.0-rc1](changelogs/dev_versions/1.3.0-rc1.md)
 
 ### development/
 - [color_codes.md](development/color_codes.md) - a list of all the color codes I use in making textures
@@ -48,6 +50,7 @@ Changelogs are available for the following versions:
 - [gamerules.md](features/gamerules.md) - a table of every gamerule LlamaBlocks adds
 - [load_requirements.md](features/load_requirements.md) - the requirements to load into Minecraft with LlamaBlocks
 - [password_system.md](features/password_system.md) - an explanation of the Password System
+- [storage_features.md](features/storage_features.md) - info about the Backpack, Netherite Backpack, and Secure Storage Block
 - [variable_light.md](features/variable_light.md) - info about the Variable Light block
 
 #### acid/
@@ -59,12 +62,7 @@ Changelogs are available for the following versions:
 - [banana_patch.md](features/bananas/banana_patch.md) - info about the feature Banana Plants generate in
 - [banana_plant.md](features/bananas/banana_plant.md) - info about the Banana Plant
 - [farm_scraps.md](features/bananas/farm_scraps.md) - info about the item: Farm Scraps
-- [golden_banana.md](features/bananas/golden_banana.md) - info about the Golden Banana item 
-
-#### storage/
-- [backpack.md](features/storage/backpack.md) - info about the basic Backpack item
-- [netherite_backpack.md](features/storage/netherite_backpack.md) - info about the upgraded Netherite Backpack
-- [secure_storage_block.md](features/storage/secure_storage_block.md) - info about the Secure Storage Block
+- [golden_banana.md](features/bananas/golden_banana.md) - info about the Golden Banana item
 
 ### history/
 - [old_versioning_systems.md](history/old_versioning_systems.md) - info about the old versioning systems from before LlamaBlocks was made public
