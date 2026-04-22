@@ -37,6 +37,7 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [1.3.0-beta2](changelogs/dev_versions/1.3.0-beta2.md)
 - [1.3.0-beta3](changelogs/dev_versions/1.3.0-beta3.md)
 - [1.3.0-rc1](changelogs/dev_versions/1.3.0-rc1.md)
+- [1.3.2-beta1](changelogs/dev_versions/1.3.2-beta1.md)
 
 ### development/
 - [color_codes.md](development/color_codes.md) - a list of all the color codes I use in making textures
