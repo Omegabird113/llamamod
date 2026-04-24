@@ -19,11 +19,10 @@ All issues, pull requests (PRs), and security reports must follow these rules:
 - Report security vulnerabilities via GitHub security advisories in the `Security` tab.
 
 ## Pull Request Rules
-- **Generally don't make PRs**, as LlamaBlocks can iterate very fast and reviewing/testing PRs is not a particularly easy task in MCreator.
 - LlamaBlocks is made with [MCreator](https://mcreator.net). If PRs make changes to the code that are not reflected in the MCreator mod elements or otherwise appear to be made outside of MCreator, they will be closed.
 - Registry names should have words separated with underscores (ex. `teal_large_tile_slab`) and Mod Element names should be in Snake Case (Ex. `TealLargeTileSlab`). Texture names should be consistent with others too.
 - PRs must have a limited scope of only 1 feature.
-- PRs must pass checks.
+- PRs must pass checks and have all merge comflicts resolved.
 - Low Quality or Large Change PRs will get closed (potentially without comment).
 - You agree that you have the legal rights to your contributions
 - You agree that your contribution will be licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) and that **Omegabird113 has the right to change that license with at least 14 days notice via a README.md update**. 
