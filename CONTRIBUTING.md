@@ -1,6 +1,6 @@
 # Contributing Guidelines
 ## General Contribution Rules
-All issues, pull requests (PRs), and security reports must follow these rules:
+All Issues, Pull Requests (PRs), Security Reports, and other contributions must follow these rules:
 - Be reasonable:
   - Follow GitHub's guidelines.
   - Treat people humanely.
