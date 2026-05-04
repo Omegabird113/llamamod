@@ -11,7 +11,7 @@
     "1.1.1": "1. Fixed missing Acid Effect display texture 2. Renamed Java Package 3. Added several operators to the computer calculator 4. More",
     "1.1.0": "1. Rebranded to LlamaBlocks 2. Fixed computer UI typo",
     "1.0.0": "1. Mod ID Update so INCOMPATIBLE with previous versions 2. Some Computer changes 3. Some Banana changes 4. Some Acid changes 5. Configuration options added 6. More",
-    "0.45": "First public version (only on github)."
+    "0.45": "First public full version (only on github)."
   },
   "1.21.1": {
     "1.3.1": "1. Improvements to every UI 2. Password Changer unsupported block warning UI 3. Authenticator Improvements 4. more",
