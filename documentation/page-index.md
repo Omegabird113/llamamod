@@ -71,6 +71,7 @@ This is a file that explains the contents of [the documentation](https://omegabi
 
 ### images/
 - [acid_lake_showcase.png](images/acid_lake_showcase.png) - image of a naturally generating Acid Lake in the End
+- [authenticator.png](images/authenticator_showcase.png) - image of the Authenticator Password Prompt UI
 - [banana_showcase.png](images/banana_showcase.png) - a showcase of a Banana Patch
 - [block_showcase.png](images/block_showcase.png) - an image of every non-cracked variant of the Bricks & Large Tiles
 - [computer_showcase.png](images/computer_showcase.png) - an image of the Computer UI
