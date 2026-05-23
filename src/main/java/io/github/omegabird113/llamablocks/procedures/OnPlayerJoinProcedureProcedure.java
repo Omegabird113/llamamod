@@ -1,9 +1,9 @@
 package io.github.omegabird113.llamablocks.procedures;
 
-import net.neoforged.neoforge.event.entity.player.PlayerEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.bus.api.Event;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
@@ -20,7 +20,7 @@ import javax.annotation.Nullable;
 import io.github.omegabird113.llamablocks.init.LlamamodModGameRules;
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
-@EventBusSubscriber
+@Mod.EventBusSubscriber
 public class OnPlayerJoinProcedureProcedure {
 	@SubscribeEvent
 	public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {
@@ -35,7 +35,7 @@ public class OnPlayerJoinProcedureProcedure {
 		if (entity == null)
 			return;
 		LlamamodMod.LOGGER.debug("LlamaBlocks Procedure \"onPlayerJoin\" executed, as a player has joined world.");
-		if ((world instanceof ServerLevel _serverLevelGR1 && _serverLevelGR1.getGameRules().getBoolean(LlamamodModGameRules.GIVE_ALL_RECIPES)) == true) {
+		if (world.getLevelData().getGameRules().getBoolean(LlamamodModGameRules.GIVE_ALL_RECIPES) == true) {
 			if (world instanceof ServerLevel _level)
 				_level.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, new Vec3(x, y, z), Vec2.ZERO, _level, 4, "", Component.literal(""), _level.getServer(), null).withSuppressedOutput(),
 						"recipe give @a *");
@@ -45,7 +45,7 @@ public class OnPlayerJoinProcedureProcedure {
 			if (entity instanceof Player _player && !_player.level().isClientSide())
 				_player.displayClientMessage(Component.literal((Component.translatable("llamamod.about.beta_warning_chat_message").getString())), false);
 			if (world instanceof ServerLevel _level) {
-				_level.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("You're running: " + ReturnLlamaModVersionProcedureProcedure.execute())).withColor(0xff00ff), false);
+				_level.getServer().getPlayerList().broadcastSystemMessage(Component.literal(("You're running: " + ReturnLlamaModVersionProcedureProcedure.execute())).withStyle(_s -> _s.withColor(0xff00ff)), false);
 			}
 			LlamamodMod.LOGGER.debug("Beta warning message sent.");
 		}

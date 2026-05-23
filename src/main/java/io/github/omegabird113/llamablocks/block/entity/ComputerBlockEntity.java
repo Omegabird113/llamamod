@@ -1,7 +1,11 @@
 package io.github.omegabird113.llamablocks.block.entity;
 
-import net.minecraft.world.level.storage.ValueOutput;
-import net.minecraft.world.level.storage.ValueInput;
+import net.minecraftforge.items.wrapper.SidedInvWrapper;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.common.capabilities.Capability;
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.RandomizableContainerBlockEntity;
 import net.minecraft.world.item.ItemStack;
@@ -14,7 +18,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.NonNullList;
-import net.minecraft.core.HolderLookup;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -29,28 +32,26 @@ import io.github.omegabird113.llamablocks.init.LlamamodModBlockEntities;
 
 public class ComputerBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.withSize(0, ItemStack.EMPTY);
+	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
 	public ComputerBlockEntity(BlockPos position, BlockState state) {
 		super(LlamamodModBlockEntities.COMPUTER.get(), position, state);
 	}
 
 	@Override
-	public void preRemoveSideEffects(BlockPos blockpos, BlockState blockstate) {
-	}
-
-	@Override
-	public void loadAdditional(ValueInput valueInput) {
-		super.loadAdditional(valueInput);
-		if (!this.tryLoadLootTable(valueInput))
+	public void load(CompoundTag compound) {
+		super.load(compound);
+		if (!this.tryLoadLootTable(compound))
 			this.stacks = NonNullList.withSize(this.getContainerSize(), ItemStack.EMPTY);
-		ContainerHelper.loadAllItems(valueInput, this.stacks);
+		ContainerHelper.loadAllItems(compound, this.stacks);
 	}
 
 	@Override
-	public void saveAdditional(ValueOutput valueOutput) {
-		super.saveAdditional(valueOutput);
-		if (!this.trySaveLootTable(valueOutput))
-			ContainerHelper.saveAllItems(valueOutput, this.stacks);
+	public void saveAdditional(CompoundTag compound) {
+		super.saveAdditional(compound);
+		if (!this.trySaveLootTable(compound)) {
+			ContainerHelper.saveAllItems(compound, this.stacks);
+		}
 	}
 
 	@Override
@@ -59,8 +60,8 @@ public class ComputerBlockEntity extends RandomizableContainerBlockEntity implem
 	}
 
 	@Override
-	public CompoundTag getUpdateTag(HolderLookup.Provider lookupProvider) {
-		return this.saveWithFullMetadata(lookupProvider);
+	public CompoundTag getUpdateTag() {
+		return this.saveWithFullMetadata();
 	}
 
 	@Override
@@ -124,5 +125,19 @@ public class ComputerBlockEntity extends RandomizableContainerBlockEntity implem
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack itemstack, Direction direction) {
 		return true;
+	}
+
+	@Override
+	public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
+		if (!this.remove && facing != null && capability == ForgeCapabilities.ITEM_HANDLER)
+			return handlers[facing.ordinal()].cast();
+		return super.getCapability(capability, facing);
+	}
+
+	@Override
+	public void setRemoved() {
+		super.setRemoved();
+		for (LazyOptional<? extends IItemHandler> handler : handlers)
+			handler.invalidate();
 	}
 }

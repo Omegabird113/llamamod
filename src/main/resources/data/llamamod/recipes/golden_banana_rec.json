@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "llamamod:golden_banana_upgrade"
+  },
+  "base": {
+    "item": "llamamod:banana"
+  },
+  "addition": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "item": "llamamod:golden_banana"
+  }
+}

@@ -3,13 +3,13 @@
  */
 package io.github.omegabird113.llamablocks.init;
 
-import net.neoforged.neoforge.event.furnace.FurnaceFuelBurnTimeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.furnace.FurnaceFuelBurnTimeEvent;
 
 import net.minecraft.world.item.ItemStack;
 
-@EventBusSubscriber
+@Mod.EventBusSubscriber
 public class LlamamodModFuels {
 	@SubscribeEvent
 	public static void furnaceFuelBurnTimeEvent(FurnaceFuelBurnTimeEvent event) {

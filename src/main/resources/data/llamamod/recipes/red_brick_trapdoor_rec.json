@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:red_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:red_brick_trapdoor",
+    "count": 12
+  }
+}

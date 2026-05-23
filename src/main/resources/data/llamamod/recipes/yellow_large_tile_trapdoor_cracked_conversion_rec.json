@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "llamamod:yellow_large_tile_trapdoor"
+  },
+  "result": "llamamod:cracked_yellow_large_tile_trapdoor"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "flower_forest",
+    "forest",
+    "jungle",
+    "cherry_grove",
+    "plains"
+  ],
+  "features": "llamamod:banana_patch",
+  "step": "vegetal_decoration"
+}

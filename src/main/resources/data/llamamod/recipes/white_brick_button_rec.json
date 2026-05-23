@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:white_bricks"
+    }
+  ],
+  "result": {
+    "item": "llamamod:white_brick_button",
+    "count": 9
+  }
+}

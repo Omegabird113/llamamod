@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:tile_trapdoor",
+    "llamamod:industrial_brick_trapdoor",
+    "llamamod:cherry_brick_trapdoor"
+  ]
+}

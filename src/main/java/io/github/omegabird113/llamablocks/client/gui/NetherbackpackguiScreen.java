@@ -1,13 +1,10 @@
 package io.github.omegabird113.llamablocks.client.gui;
 
-import net.neoforged.neoforge.client.network.ClientPacketDistributor;
-
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
@@ -18,6 +15,9 @@ import io.github.omegabird113.llamablocks.procedures.IsThisBetaProcedureProcedur
 import io.github.omegabird113.llamablocks.procedures.IsAllowClearingBoxCheckedProcedure;
 import io.github.omegabird113.llamablocks.network.NetherbackpackguiButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
+import io.github.omegabird113.llamablocks.LlamamodMod;
+
+import com.mojang.blaze3d.systems.RenderSystem;
 
 public class NetherbackpackguiScreen extends AbstractContainerScreen<NetherbackpackguiMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
@@ -27,7 +27,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 	private Checkbox allow_clearing;
 	private Button button_x;
 	private Button button_delete_items;
-	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/netherbackpackgui.png");
+	private static final ResourceLocation BACKGROUND = new ResourceLocation("llamamod:textures/screens/netherbackpackgui.png");
 
 	public NetherbackpackguiScreen(NetherbackpackguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -54,13 +54,18 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		RenderSystem.setShaderColor(1, 1, 1, 1);
+		RenderSystem.enableBlend();
+		RenderSystem.defaultBlendFunc();
+		guiGraphics.blit(BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		RenderSystem.disableBlend();
 	}
 
 	@Override
@@ -86,7 +91,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 			int x = NetherbackpackguiScreen.this.x;
 			int y = NetherbackpackguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new NetherbackpackguiButtonMessage(0, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new NetherbackpackguiButtonMessage(0, x, y, z));
 				NetherbackpackguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 144, this.topPos + -21, 30, 20).build();
@@ -95,15 +100,19 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 			int x = NetherbackpackguiScreen.this.x;
 			int y = NetherbackpackguiScreen.this.y;
 			if (IsAllowClearingBoxCheckedProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new NetherbackpackguiButtonMessage(1, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new NetherbackpackguiButtonMessage(1, x, y, z));
 				NetherbackpackguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 0, this.topPos + -21, 87, 20).build();
 		this.addRenderableWidget(button_delete_items);
-		allow_clearing = Checkbox.builder(Component.translatable("gui.llamamod.netherbackpackgui.allow_clearing"), this.font).pos(this.leftPos + 2, this.topPos + 175).onValueChange((checkbox, value) -> {
-			if (!menuStateUpdateActive)
-				menu.sendMenuStateUpdate(entity, 1, "allow_clearing", value, false);
-		}).build();
+		allow_clearing = new Checkbox(this.leftPos + 2, this.topPos + 175, 20, 20, Component.translatable("gui.llamamod.netherbackpackgui.allow_clearing"), false) {
+			@Override
+			public void onPress() {
+				super.onPress();
+				if (!menuStateUpdateActive)
+					menu.sendMenuStateUpdate(entity, 1, "allow_clearing", this.selected(), false);
+			}
+		};
 		this.addRenderableWidget(allow_clearing);
 	}
 

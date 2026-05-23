@@ -1,9 +1,9 @@
 package io.github.omegabird113.llamablocks.potion;
 
+import net.minecraft.world.entity.ai.attributes.AttributeMap;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
-import net.minecraft.server.level.ServerLevel;
 
 import io.github.omegabird113.llamablocks.procedures.AcideffectOnEffectActiveTickProcedure;
 import io.github.omegabird113.llamablocks.procedures.AcideffectEffectStartedappliedProcedure;
@@ -14,18 +14,18 @@ public class AcideffectMobEffect extends MobEffect {
 	}
 
 	@Override
-	public void onEffectStarted(LivingEntity entity, int amplifier) {
+	public void addAttributeModifiers(LivingEntity entity, AttributeMap attributeMap, int amplifier) {
+		super.addAttributeModifiers(entity, attributeMap, amplifier);
 		AcideffectEffectStartedappliedProcedure.execute(entity.level(), entity);
 	}
 
 	@Override
-	public boolean shouldApplyEffectTickThisTick(int duration, int amplifier) {
-		return true;
+	public void applyEffectTick(LivingEntity entity, int amplifier) {
+		AcideffectOnEffectActiveTickProcedure.execute(entity.level(), entity);
 	}
 
 	@Override
-	public boolean applyEffectTick(ServerLevel level, LivingEntity entity, int amplifier) {
-		AcideffectOnEffectActiveTickProcedure.execute(level, entity);
-		return super.applyEffectTick(level, entity, amplifier);
+	public boolean isDurationEffectTick(int duration, int amplifier) {
+		return true;
 	}
 }

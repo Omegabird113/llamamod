@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:white_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:white_brick_wall",
+    "count": 12
+  }
+}

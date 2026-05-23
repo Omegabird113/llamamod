@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:light_blue_large_tile"
+    }
+  },
+  "result": {
+    "item": "llamamod:light_blue_large_tile_stairs",
+    "count": 4
+  }
+}

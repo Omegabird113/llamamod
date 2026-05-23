@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:red_large_tile"
+    }
+  },
+  "result": {
+    "item": "llamamod:red_large_tile_trapdoor",
+    "count": 12
+  }
+}

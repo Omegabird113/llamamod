@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "llamamod:cracked_large_tile_walls"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
+  ],
+  "result": {
+    "item": "llamamod:cracked_lime_large_tile_wall",
+    "count": 1
+  }
+}

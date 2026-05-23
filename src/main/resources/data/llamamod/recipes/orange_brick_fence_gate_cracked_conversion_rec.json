@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "llamamod:orange_brick_fence_gate"
+  },
+  "result": "llamamod:cracked_orange_brick_fence_gate"
+}

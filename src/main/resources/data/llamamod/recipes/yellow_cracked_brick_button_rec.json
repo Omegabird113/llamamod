@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:cracked_yellow_bricks"
+    }
+  ],
+  "result": {
+    "item": "llamamod:cracked_yellow_brick_button",
+    "count": 9
+  }
+}

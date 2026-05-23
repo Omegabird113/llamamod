@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "llamamod:green_brick_slab"
+  },
+  "result": "llamamod:cracked_green_brick_slab"
+}

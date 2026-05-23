@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "llamamod:cracked_yellow_large_tile"
+    }
+  },
+  "result": {
+    "item": "llamamod:cracked_yellow_large_tile_fence_gate",
+    "count": 4
+  }
+}

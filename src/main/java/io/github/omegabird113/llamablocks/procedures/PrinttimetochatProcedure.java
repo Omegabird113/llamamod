@@ -7,7 +7,7 @@ import net.minecraft.network.chat.Component;
 public class PrinttimetochatProcedure {
 	public static void execute(LevelAccessor world) {
 		if (world instanceof ServerLevel _level) {
-			_level.getServer().getPlayerList().broadcastSystemMessage(Component.literal(GettimeasstringProcedure.execute(world)).withColor(0x00c800), false);
+			_level.getServer().getPlayerList().broadcastSystemMessage(Component.literal(GettimeasstringProcedure.execute(world)).withStyle(_s -> _s.withColor(0x00c800)), false);
 		}
 	}
 }

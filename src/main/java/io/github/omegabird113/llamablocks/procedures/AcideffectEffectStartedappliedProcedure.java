@@ -15,12 +15,13 @@ public class AcideffectEffectStartedappliedProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:acid_damage")))), (float) 1.5);
-		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) >= 4) {
-			entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:acid_damage")))),
-					(float) (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) - 2) * 3.05));
-			LlamamodMod.LOGGER.debug(("Dealt 1.5 + " + (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) - 2) * 3.05)
-					+ " base Affect Effect applied damage: " + entity));
+		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("llamamod:acid_damage")))), (float) 1.5);
+		if ((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING.get()) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING.get()).getAmplifier() : 0) >= 4) {
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("llamamod:acid_damage")))),
+					(float) (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING.get()) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING.get()).getAmplifier() : 0) - 2) * 3.05));
+			LlamamodMod.LOGGER
+					.debug(("Dealt 1.5 + " + (((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING.get()) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING.get()).getAmplifier() : 0) - 2) * 3.05)
+							+ " base Affect Effect applied damage: " + entity));
 		} else if (true) {
 			LlamamodMod.LOGGER.debug(("Dealt 1.5 base Affect Effect applied damage: " + entity));
 		}

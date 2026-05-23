@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:yellow_large_tile"
+    }
+  },
+  "result": {
+    "item": "llamamod:orange_large_tile_pressure_plate",
+    "count": 8
+  }
+}

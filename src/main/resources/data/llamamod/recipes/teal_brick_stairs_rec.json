@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:teal_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:teal_brick_stairs",
+    "count": 4
+  }
+}

@@ -1,5 +1,7 @@
 package io.github.omegabird113.llamablocks.procedures;
 
+import net.minecraftforge.network.NetworkHooks;
+
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.inventory.AbstractContainerMenu;
@@ -27,15 +29,10 @@ public class OpenAuthGUIProcedureProcedure {
 			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LlamamodModBlocks.COMPUTER.get()) {
 				if (entity instanceof ServerPlayer _ent) {
 					BlockPos _bpos = BlockPos.containing(x, y, z);
-					_ent.openMenu(new MenuProvider() {
+					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 						@Override
 						public Component getDisplayName() {
 							return Component.literal("Computergui");
-						}
-
-						@Override
-						public boolean shouldTriggerClientSideContainerClosingOnOpen() {
-							return false;
 						}
 
 						@Override
@@ -47,15 +44,10 @@ public class OpenAuthGUIProcedureProcedure {
 			} else if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == LlamamodModBlocks.SECURE_STORAGE_BLOCK.get()) {
 				if (entity instanceof ServerPlayer _ent) {
 					BlockPos _bpos = BlockPos.containing(x, y, z);
-					_ent.openMenu(new MenuProvider() {
+					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 						@Override
 						public Component getDisplayName() {
 							return Component.literal("DoubleSecureStoorafeBlockGui");
-						}
-
-						@Override
-						public boolean shouldTriggerClientSideContainerClosingOnOpen() {
-							return false;
 						}
 
 						@Override
@@ -67,15 +59,10 @@ public class OpenAuthGUIProcedureProcedure {
 			} else {
 				if (entity instanceof ServerPlayer _ent) {
 					BlockPos _bpos = BlockPos.containing(x, y, z);
-					_ent.openMenu(new MenuProvider() {
+					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 						@Override
 						public Component getDisplayName() {
 							return Component.literal("AuthGUI");
-						}
-
-						@Override
-						public boolean shouldTriggerClientSideContainerClosingOnOpen() {
-							return false;
 						}
 
 						@Override
@@ -88,15 +75,10 @@ public class OpenAuthGUIProcedureProcedure {
 		} else {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
-				_ent.openMenu(new MenuProvider() {
+				NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 					@Override
 					public Component getDisplayName() {
 						return Component.literal("AuthGUI");
-					}
-
-					@Override
-					public boolean shouldTriggerClientSideContainerClosingOnOpen() {
-						return false;
 					}
 
 					@Override
@@ -111,7 +93,7 @@ public class OpenAuthGUIProcedureProcedure {
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		if (blockEntity != null)
-			return blockEntity.getPersistentData().getStringOr(tag, "");
+			return blockEntity.getPersistentData().getString(tag);
 		return "";
 	}
 }

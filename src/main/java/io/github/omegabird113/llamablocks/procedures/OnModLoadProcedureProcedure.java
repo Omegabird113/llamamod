@@ -1,15 +1,15 @@
 package io.github.omegabird113.llamablocks.procedures;
 
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.bus.api.Event;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.Event;
 
 import javax.annotation.Nullable;
 
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
-@EventBusSubscriber
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class OnModLoadProcedureProcedure {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {

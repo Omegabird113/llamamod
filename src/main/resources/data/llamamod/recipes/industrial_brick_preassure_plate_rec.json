@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:industrial_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:industrial_brick_pressure_plate",
+    "count": 8
+  }
+}

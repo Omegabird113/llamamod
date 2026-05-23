@@ -1,6 +1,7 @@
 package io.github.omegabird113.llamablocks.procedures;
 
-import net.minecraft.world.level.storage.TagValueInput;
+import net.minecraftforge.network.NetworkHooks;
+
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -12,12 +13,13 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
-import net.minecraft.util.ProblemReporter;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
+
+import java.util.Map;
 
 import io.netty.buffer.Unpooled;
 
@@ -48,18 +50,18 @@ public class PasswordchangerchangepasswordprocedureProcedure {
 				BlockPos _bp = BlockPos.containing(x, y + 1, z);
 				BlockState _bs = Blocks.REINFORCED_DEEPSLATE.defaultBlockState();
 				BlockState _bso = world.getBlockState(_bp);
-				for (Property<?> _propertyOld : _bso.getProperties()) {
-					Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
-					if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+					if (_property != null && _bs.getValue(_property) != null)
 						try {
-							_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
 						} catch (Exception e) {
 						}
 				}
 				BlockEntity _be = world.getBlockEntity(_bp);
 				CompoundTag _bnbt = null;
 				if (_be != null) {
-					_bnbt = _be.saveWithFullMetadata(world.registryAccess());
+					_bnbt = _be.saveWithFullMetadata();
 					_be.setRemoved();
 				}
 				world.setBlock(_bp, _bs, 3);
@@ -67,7 +69,7 @@ public class PasswordchangerchangepasswordprocedureProcedure {
 					_be = world.getBlockEntity(_bp);
 					if (_be != null) {
 						try {
-							_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+							_be.load(_bnbt);
 						} catch (Exception ignored) {
 						}
 					}
@@ -77,18 +79,18 @@ public class PasswordchangerchangepasswordprocedureProcedure {
 				BlockPos _bp = BlockPos.containing(x, y + 1, z);
 				BlockState _bs = oldBlock;
 				BlockState _bso = world.getBlockState(_bp);
-				for (Property<?> _propertyOld : _bso.getProperties()) {
-					Property _propertyNew = _bs.getBlock().getStateDefinition().getProperty(_propertyOld.getName());
-					if (_propertyNew != null && _bs.getValue(_propertyNew) != null)
+				for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
+					Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
+					if (_property != null && _bs.getValue(_property) != null)
 						try {
-							_bs = _bs.setValue(_propertyNew, _bso.getValue(_propertyOld));
+							_bs = _bs.setValue(_property, (Comparable) entry.getValue());
 						} catch (Exception e) {
 						}
 				}
 				BlockEntity _be = world.getBlockEntity(_bp);
 				CompoundTag _bnbt = null;
 				if (_be != null) {
-					_bnbt = _be.saveWithFullMetadata(world.registryAccess());
+					_bnbt = _be.saveWithFullMetadata();
 					_be.setRemoved();
 				}
 				world.setBlock(_bp, _bs, 3);
@@ -96,7 +98,7 @@ public class PasswordchangerchangepasswordprocedureProcedure {
 					_be = world.getBlockEntity(_bp);
 					if (_be != null) {
 						try {
-							_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+							_be.load(_bnbt);
 						} catch (Exception ignored) {
 						}
 					}
@@ -107,15 +109,10 @@ public class PasswordchangerchangepasswordprocedureProcedure {
 		} else {
 			if (entity instanceof ServerPlayer _ent) {
 				BlockPos _bpos = BlockPos.containing(x, y, z);
-				_ent.openMenu(new MenuProvider() {
+				NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 					@Override
 					public Component getDisplayName() {
 						return Component.literal("IncorrectPasswordGUI");
-					}
-
-					@Override
-					public boolean shouldTriggerClientSideContainerClosingOnOpen() {
-						return false;
 					}
 
 					@Override
@@ -130,7 +127,7 @@ public class PasswordchangerchangepasswordprocedureProcedure {
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		if (blockEntity != null)
-			return blockEntity.getPersistentData().getStringOr(tag, "");
+			return blockEntity.getPersistentData().getString(tag);
 		return "";
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:blue_large_tile"
+    }
+  ],
+  "result": {
+    "item": "llamamod:blue_large_tile_button",
+    "count": 10
+  }
+}

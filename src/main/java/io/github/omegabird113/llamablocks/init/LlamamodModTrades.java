@@ -3,17 +3,17 @@
 */
 package io.github.omegabird113.llamablocks.init;
 
-import net.neoforged.neoforge.event.village.WandererTradesEvent;
-import net.neoforged.neoforge.event.village.VillagerTradesEvent;
-import net.neoforged.neoforge.common.BasicItemListing;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.village.WandererTradesEvent;
+import net.minecraftforge.event.village.VillagerTradesEvent;
+import net.minecraftforge.common.BasicItemListing;
 
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.npc.VillagerProfession;
 
-@EventBusSubscriber
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class LlamamodModTrades {
 	@SubscribeEvent
 	public static void registerWanderingTrades(WandererTradesEvent event) {

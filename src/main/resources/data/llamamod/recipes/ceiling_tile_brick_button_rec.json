@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:ceiling_tiles"
+    }
+  ],
+  "result": {
+    "item": "llamamod:ceiling_tile_button",
+    "count": 9
+  }
+}

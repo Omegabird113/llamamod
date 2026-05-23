@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:purple_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:purple_brick_pressure_plate",
+    "count": 8
+  }
+}

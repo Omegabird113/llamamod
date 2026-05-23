@@ -1,8 +1,6 @@
 package io.github.omegabird113.llamablocks.fluid;
 
-import org.apache.logging.log4j.core.util.Source;
-
-import net.neoforged.neoforge.fluids.BaseFlowingFluid;
+import net.minecraftforge.fluids.ForgeFlowingFluid;
 
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Fluid;
@@ -17,8 +15,8 @@ import io.github.omegabird113.llamablocks.init.LlamamodModFluids;
 import io.github.omegabird113.llamablocks.init.LlamamodModFluidTypes;
 import io.github.omegabird113.llamablocks.init.LlamamodModBlocks;
 
-public abstract class AcidFluid extends BaseFlowingFluid {
-	public static final BaseFlowingFluid.Properties PROPERTIES = new BaseFlowingFluid.Properties(() -> LlamamodModFluidTypes.ACID_TYPE.get(), () -> LlamamodModFluids.ACID.get(), () -> LlamamodModFluids.FLOWING_ACID.get()).explosionResistance(13f)
+public abstract class AcidFluid extends ForgeFlowingFluid {
+	public static final ForgeFlowingFluid.Properties PROPERTIES = new ForgeFlowingFluid.Properties(() -> LlamamodModFluidTypes.ACID_TYPE.get(), () -> LlamamodModFluids.ACID.get(), () -> LlamamodModFluids.FLOWING_ACID.get()).explosionResistance(13f)
 			.tickRate(7).slopeFindDistance(5).bucket(() -> LlamamodModItems.ACID_BUCKET.get()).block(() -> (LiquidBlock) LlamamodModBlocks.ACID.get());
 
 	private AcidFluid() {

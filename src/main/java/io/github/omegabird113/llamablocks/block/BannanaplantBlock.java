@@ -1,10 +1,14 @@
 package io.github.omegabird113.llamablocks.block;
 
-import net.neoforged.neoforge.common.CommonHooks;
-import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.common.PlantType;
+import net.minecraftforge.common.ForgeHooks;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.Fluids;
@@ -15,8 +19,8 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.ScheduledTickAccess;
 import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.FoliageColor;
 import net.minecraft.world.level.BlockGetter;
@@ -34,8 +38,8 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 	private static final VoxelShape SHAPE = box(3.46, 0, 3.46, 12.62, 16, 12.52);
 
-	public BannanaplantBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_GREEN).randomTicks().sound(SoundType.GRASS).strength(0.07f, 0.31f).noOcclusion().dynamicShape().replaceable().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XYZ)
+	public BannanaplantBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GREEN).randomTicks().sound(SoundType.GRASS).strength(0.07f, 0.31f).noOcclusion().dynamicShape().replaceable().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XYZ)
 				.pushReaction(PushReaction.DESTROY));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AGE, 0).setValue(WATERLOGGED, false));
 	}
@@ -58,16 +62,17 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	}
 
 	@Override
-	public BlockState updateShape(BlockState state, LevelReader world, ScheduledTickAccess scheduledTickAccess, BlockPos currentPos, Direction facing, BlockPos facingPos, BlockState facingState, RandomSource random) {
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
-			scheduledTickAccess.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
+			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
-		return super.updateShape(state, world, scheduledTickAccess, currentPos, facing, facingPos, facingState, random);
+		return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
 	}
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return SHAPE.move(state.getOffset(pos));
+		Vec3 offset = state.getOffset(world, pos);
+		return SHAPE.move(offset.x, offset.y, offset.z);
 	}
 
 	@Override
@@ -88,6 +93,11 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	}
 
 	@Override
+	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
+		return PlantType.PLAINS;
+	}
+
+	@Override
 	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		boolean flag = world.getBlockState(pos.above()).is(Blocks.WATER);
 		if (world.isEmptyBlock(pos.above()) || flag) {
@@ -95,10 +105,9 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 			for (; world.getBlockState(pos.below(i)).is(this); ++i);
 			if (i < 5) {
 				int j = blockstate.getValue(AGE);
-				if (CommonHooks.canCropGrow(world, pos, blockstate, true)) {
+				if (ForgeHooks.onCropsGrowPre(world, pos, blockstate, true)) {
 					if (j == 15) {
 						world.setBlockAndUpdate(pos.above(), defaultBlockState().setValue(WATERLOGGED, flag));
-						CommonHooks.fireCropGrowPost(world, pos.above(), defaultBlockState().setValue(WATERLOGGED, flag));
 						world.setBlock(pos, blockstate.setValue(AGE, 0), 4);
 					} else {
 						world.setBlock(pos, blockstate.setValue(AGE, j + 1), 4);
@@ -109,7 +118,7 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	}
 
 	@Override
-	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
 		return true;
 	}
 
@@ -123,9 +132,17 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 		BannanaplantOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
+	@OnlyIn(Dist.CLIENT)
 	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 		event.getBlockColors().register((bs, world, pos, index) -> {
-			return FoliageColor.FOLIAGE_BIRCH;
+			return FoliageColor.getBirchColor();
+		}, LlamamodModBlocks.BANANA_PLANT.get());
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
+		event.getItemColors().register((stack, index) -> {
+			return FoliageColor.getBirchColor();
 		}, LlamamodModBlocks.BANANA_PLANT.get());
 	}
 }

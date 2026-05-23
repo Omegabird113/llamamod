@@ -1,13 +1,10 @@
 package io.github.omegabird113.llamablocks.client.gui;
 
-import net.neoforged.neoforge.client.network.ClientPacketDistributor;
-
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.client.renderer.RenderPipelines;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
@@ -19,6 +16,9 @@ import io.github.omegabird113.llamablocks.procedures.ReturnNameOfSelectedBlockPr
 import io.github.omegabird113.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import io.github.omegabird113.llamablocks.network.AuthGUIButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
+import io.github.omegabird113.llamablocks.LlamamodMod;
+
+import com.mojang.blaze3d.systems.RenderSystem;
 
 public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
@@ -28,8 +28,8 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 	private EditBox password;
 	private Button button_submit;
 	private Button button_x;
-	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/auth_gui.png");
-	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png");
+	private static final ResourceLocation BACKGROUND = new ResourceLocation("llamamod:textures/screens/auth_gui.png");
+	private static final ResourceLocation IMAGE_0 = new ResourceLocation("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png");
 
 	public AuthGUIScreen(AuthGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -54,6 +54,7 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		password.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
@@ -61,8 +62,12 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
+		RenderSystem.setShaderColor(1, 1, 1, 1);
+		RenderSystem.enableBlend();
+		RenderSystem.defaultBlendFunc();
+		guiGraphics.blit(BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(IMAGE_0, this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
+		RenderSystem.disableBlend();
 	}
 
 	@Override
@@ -106,7 +111,7 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 			int x = AuthGUIScreen.this.x;
 			int y = AuthGUIScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new AuthGUIButtonMessage(0, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new AuthGUIButtonMessage(0, x, y, z));
 				AuthGUIButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 48, 56, 20).build();
@@ -115,10 +120,16 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 			int x = AuthGUIScreen.this.x;
 			int y = AuthGUIScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new AuthGUIButtonMessage(1, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new AuthGUIButtonMessage(1, x, y, z));
 				AuthGUIButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 100, this.topPos + -21, 30, 20).build();
 		this.addRenderableWidget(button_x);
+	}
+
+	@Override
+	protected void containerTick() {
+		super.containerTick();
+		password.tick();
 	}
 }
