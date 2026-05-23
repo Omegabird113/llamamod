@@ -50,3 +50,23 @@ I wanted a versioning system that met these requirements:
 - MCreator's versioning stripping would end up not affecting it
 - Newer versions, when sorted as strings, would have newer versions come after older ones
 - It could track changes like commits do before having a git repo
+
+# System 2 - Various Different Names of SemVer-ish Versions
+The 3rd LlamaBlocks version system produced versions in the format `x.y.z` or `x.y.z-s` where:
+
+| Segment | Meaning                                                 | Examples                                                                         |
+|:--------|:--------------------------------------------------------|:---------------------------------------------------------------------------------|
+| `x`     | a game-changing update                                  | A rewrite, a ridiculous amount of new features, etc                              |
+| `y`     | represents an update which changes features or behavior | New blocks, Minecraft version update, new function in the computer, etc          |
+| `z`     | a bugfix or smaller enhancement update                  | A hotfix/bugfix, small texture/GUI change, etc                                   |
+| `s`     | a development version suffix                            | A suffix to denote a beta or RC build of a future update (e.g. `beta2` or `rc1`) |
+
+> **Note**:
+>
+> In Beta/RC versions, the format in the mods menu would've been different to the version display in `/llamablocks about`. In betas, the format `x.y.z.b` was used where `b` is the beta number (e.g. `1.3.0-beta3` appeared as `1.3.0.3`).
+>
+> For Release Candidates, it was more complex with a `x.y.z.rb` system where `r` was the release candidate number, but the beta number also still incremented for the `b` value. They were then concatenated (e.g. `1.3.0-rc1` which would be `1.3.0-beta4` if it wasn't an `rc`, would be `1.3.0.14`).
+>
+> This weirdness was due to MCreator's stripping any text or special characters from mod versions before generating the final mod code before MCreator 2026.1.
+
+The reason this system existed, even though it was so much worse & more confusing than the previous systems, is that LlamaBlocks was now public. This met that something inconsistent but understandable to average Player was better than something consistent & technically correct but confusing to the average player.

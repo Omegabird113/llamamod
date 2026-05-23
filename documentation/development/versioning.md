@@ -1,17 +1,26 @@
-# LlamaBlocks Versioning System
-The current LlamaBlocks version system produces versions in the format `x.y.z` or `x.y.z-s` where:
+# The LlamaBlocks Versioning System
+LlamaBlocks uses [SemVer](https://semver.org) to determine versions. Here's an explanation:
 
-| Segment | Meaning                                                 | Examples                                                                         |
-|:--------|:--------------------------------------------------------|:---------------------------------------------------------------------------------|
-| `x`     | a game-changing update                                  | A rewrite, a ridiculous amount of new features, etc                              |
-| `y`     | represents an update which changes features or behavior | New blocks, Minecraft version update, new function in the computer, etc          |
-| `z`     | a bugfix or smaller enhancement update                  | A hotfix/bugfix, small texture/GUI change, etc                                   |
-| `s`     | a development version suffix                            | A suffix to denote a beta or RC build of a future update (e.g. `beta2` or `rc1`) |
+## The Main Version Number
+The main version number follows the pattern `x.y.z` where:
 
-> **Note**:
+| Segment | Meaning                                                 | Examples                                                                 |
+|:--------|:--------------------------------------------------------|:-------------------------------------------------------------------------|
+| `x`     | a game-changing update                                  | A rewrite, a ridiculous amount of new features, etc.                     |
+| `y`     | represents an update which changes features or behavior | New blocks, Minecraft version update, new function in the computer, etc. |
+| `z`     | a bugfix or smaller enhancement update                  | A hotfix/bugfix, small texture/GUI change, etc.                          |
+
+## The Pre-Release Suffix
+After the Main Version, you'll sometimes see `-betaX` or `-rcX` where:
+
+- `beta` represents a potentially unstable build of the main version.
+- `rc` is an almost complete build with beta branding which will likely receive little changes, if any, before becoming a full release. Their purpose is to catch major bugs before a full release.
+
+When using a `beta` or `rc` version, every UI in the mod has the text `BETA` in red somewhere within the GUI and the version of LlamaBlocks you're running is sent to you in chat every time you load a world. This behavior cannot be disabled.
+
+> **Warning**:
 > 
-> In Beta/RC versions, the format in the mods menu will be a different version to the display version in `/llamablocks about`. In betas, the format `x.y.z.b` is used where `b` is the beta number (e.g. `1.3.0-beta5` appears as `1.3.0.5`).
->
-> For Release Candidates, it's more complex with a `x.y.z.rb` system where `r` is the release candidate number, but the beta number also still increments for the `b` value, and they're being concatenated (e.g. `1.3.0-rc1` which would be `1.3.0-beta4` if it wasn't an `rc`, would be `1.3.0.14`).
->
-> This versioning weirdness is due to MCreator stripping any text or dashes from versions before generating code. 
+> Compatibility between beta versions is not guaranteed. Some items and other things may be deleted or not work in your world anymore if they are from a beta version.
+
+## The Minecraft Version Suffix
+Every release of LlamaBlocks is actually 2 versions: one that ends in `+mc1.21.8` and a backport that ends in `+mc1.21.1`. This final suffix tells you which version of Minecraft the specific build of LlamaBlocks is made for.
