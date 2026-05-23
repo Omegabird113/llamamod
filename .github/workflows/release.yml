@@ -54,7 +54,7 @@ jobs:
       - name: Build
         run: ./gradlew build --no-daemon
 
-      - name: Locate built JAR
+      - name: Locate and rename built JAR
         id: jar
         run: |
           JARS=$(find build/libs -maxdepth 1 -type f -name "*.jar" \
@@ -68,7 +68,9 @@ jobs:
             echo "$JARS"
             exit 1
           fi
-          echo "path=$JARS" >> "$GITHUB_OUTPUT"
+          RENAMED="build/libs/LlamaBlocks-${{ inputs.version_tag }}.jar"
+          mv "$JARS" "$RENAMED"
+          echo "path=$RENAMED" >> "$GITHUB_OUTPUT"
 
       - name: Format changelog
         run: |
@@ -81,7 +83,7 @@ jobs:
 
       - name: Zip documentation
         run: |
-          zip -r LlamaBlocks-Documentation.zip documentation/
+          zip -r "LlamaBlocks.${{ inputs.version_tag }}.documentation.zip" documentation/
 
       - name: Check if release already exists
         env:
@@ -102,7 +104,7 @@ jobs:
           fi
           gh release create "${{ inputs.version_tag }}" \
             "${{ steps.jar.outputs.path }}" \
-            "LlamaBlocks-Documentation.zip" \
+            "LlamaBlocks.${{ inputs.version_tag }}.documentation.zip" \
             --target "${{ github.sha }}" \
             --title "${{ inputs.release_title }}" \
             --notes-file changelog_body.md \
@@ -122,5 +124,3 @@ jobs:
           changelog-file: changelog_body.md
           game-versions: ${{ inputs.game_version }}
           loaders: neoforge
-          dependencies: |
-            neoforge(required)
