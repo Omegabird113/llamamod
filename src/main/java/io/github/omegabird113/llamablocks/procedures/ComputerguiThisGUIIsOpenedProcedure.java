@@ -33,21 +33,21 @@ public class ComputerguiThisGUIIsOpenedProcedure {
 	private static String getBlockNBTString(LevelAccessor world, BlockPos pos, String tag) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		if (blockEntity != null)
-			return blockEntity.getPersistentData().getStringOr(tag, "");
+			return blockEntity.getPersistentData().getString(tag);
 		return "";
 	}
 
 	private static double getBlockNBTNumber(LevelAccessor world, BlockPos pos, String tag) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		if (blockEntity != null)
-			return blockEntity.getPersistentData().getDoubleOr(tag, 0);
+			return blockEntity.getPersistentData().getDouble(tag);
 		return -1;
 	}
 
 	private static boolean getBlockNBTLogic(LevelAccessor world, BlockPos pos, String tag) {
 		BlockEntity blockEntity = world.getBlockEntity(pos);
 		if (blockEntity != null)
-			return blockEntity.getPersistentData().getBooleanOr(tag, false);
+			return blockEntity.getPersistentData().getBoolean(tag);
 		return false;
 	}
 }

@@ -5,9 +5,15 @@
     "abc"
   ],
   "key": {
-    "a": "llamamod:ceiling_tiles",
-    "b": "minecraft:iron_ingot",
-    "c": "minecraft:quartz"
+    "a": {
+      "item": "llamamod:ceiling_tiles"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:quartz"
+    }
   },
   "result": {
     "id": "llamamod:white_large_tile",

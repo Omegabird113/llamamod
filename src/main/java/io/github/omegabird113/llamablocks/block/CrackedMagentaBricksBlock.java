@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class CrackedMagentaBricksBlock extends Block {
-	public CrackedMagentaBricksBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_MAGENTA).sound(SoundType.METAL).strength(2f, 6f));
+	public CrackedMagentaBricksBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_MAGENTA).sound(SoundType.METAL).strength(2f, 6f));
 	}
 }

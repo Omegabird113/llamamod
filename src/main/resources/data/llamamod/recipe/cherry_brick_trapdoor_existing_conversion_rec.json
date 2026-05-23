@@ -5,9 +5,15 @@
     "abc"
   ],
   "key": {
-    "a": "#llamamod:brick_trapdoors",
-    "b": "minecraft:pink_dye",
-    "c": "minecraft:red_dye"
+    "a": {
+      "tag": "llamamod:brick_trapdoors"
+    },
+    "b": {
+      "item": "minecraft:pink_dye"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    }
   },
   "result": {
     "id": "llamamod:cherry_brick_trapdoor",

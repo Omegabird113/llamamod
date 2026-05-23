@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class BlackbricksBlock extends Block {
-	public BlackbricksBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(2f, 6f));
+	public BlackbricksBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(2f, 6f));
 	}
 }

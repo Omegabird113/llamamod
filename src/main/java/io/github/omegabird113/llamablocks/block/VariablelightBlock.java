@@ -1,9 +1,8 @@
 package io.github.omegabird113.llamablocks.block;
 
-import net.minecraft.world.level.redstone.Orientation;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -17,17 +16,15 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
-import javax.annotation.Nullable;
-
 import io.github.omegabird113.llamablocks.procedures.VariablelightNeighbourBlockChangesProcedure;
 import io.github.omegabird113.llamablocks.procedures.GetVariableLightLightLevelProcedureProcedure;
 
 public class VariablelightBlock extends Block {
-	public static final EnumProperty<Direction> FACING = DirectionalBlock.FACING;
+	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 16);
 
-	public VariablelightBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(13.5f, 20f).lightLevel(blockstate -> (int) GetVariableLightLightLevelProcedureProcedure.execute(blockstate)).requiresCorrectToolForDrops());
+	public VariablelightBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(13.5f, 20f).lightLevel(blockstate -> (int) GetVariableLightLightLevelProcedureProcedure.execute(blockstate)).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(BLOCKSTATE, 0));
 	}
 
@@ -51,8 +48,8 @@ public class VariablelightBlock extends Block {
 	}
 
 	@Override
-	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, @Nullable Orientation orientation, boolean moving) {
-		super.neighborChanged(blockstate, world, pos, neighborBlock, orientation, moving);
+	public void neighborChanged(BlockState blockstate, Level world, BlockPos pos, Block neighborBlock, BlockPos fromPos, boolean moving) {
+		super.neighborChanged(blockstate, world, pos, neighborBlock, fromPos, moving);
 		VariablelightNeighbourBlockChangesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.WallBlock;
 import net.minecraft.world.level.block.SoundType;
 
 public class CrackedPurpleLargeTileWallBlock extends WallBlock {
-	public CrackedPurpleLargeTileWallBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_PURPLE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
+	public CrackedPurpleLargeTileWallBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

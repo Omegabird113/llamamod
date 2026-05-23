@@ -6,7 +6,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:cracked_teal_bricks"
+    "a": {
+      "item": "llamamod:cracked_teal_bricks"
+    }
   },
   "result": {
     "id": "llamamod:cracked_teal_brick_stairs",
