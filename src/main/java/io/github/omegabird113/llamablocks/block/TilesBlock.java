@@ -1,7 +1,6 @@
 package io.github.omegabird113.llamablocks.block;
 
 import net.minecraft.world.level.material.MapColor;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
@@ -9,10 +8,5 @@ import net.minecraft.world.level.block.Block;
 public class TilesBlock extends Block {
 	public TilesBlock(BlockBehaviour.Properties properties) {
 		super(properties.mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(7f, 23.65f).requiresCorrectToolForDrops());
-	}
-
-	@Override
-	public int getLightBlock(BlockState state) {
-		return 15;
 	}
 }

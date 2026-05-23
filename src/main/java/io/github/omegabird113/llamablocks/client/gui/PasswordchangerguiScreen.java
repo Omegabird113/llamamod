@@ -31,6 +31,8 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 	private Button button_submit;
 	private Button button_x;
 	private Button button_reset;
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/passwordchangergui.png");
+	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/warning.png");
 
 	public PasswordchangerguiScreen(PasswordchangerguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -55,8 +57,6 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/passwordchangergui.png");
-
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -74,8 +74,8 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/warning.png"), this.leftPos + -1, this.topPos + -17, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + -1, this.topPos + -17, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override

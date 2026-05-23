@@ -42,6 +42,8 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	private Button button_clear_inventory;
 	private Button button_clear_textboxes;
 	private ExtendedSlider power_output;
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/computergui.png");
+	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png");
 
 	public ComputerguiScreen(ComputerguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -84,8 +86,6 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/computergui.png");
-
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -100,8 +100,8 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png"), this.leftPos + 243, this.topPos + 4, 0, 0, 8, 8, 8, 8);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + 243, this.topPos + 4, 0, 0, 8, 8, 8, 8);
 	}
 
 	@Override

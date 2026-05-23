@@ -27,6 +27,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 	private Checkbox allow_clearing;
 	private Button button_x;
 	private Button button_delete_items;
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/netherbackpackgui.png");
 
 	public NetherbackpackguiScreen(NetherbackpackguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -51,8 +52,6 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/netherbackpackgui.png");
-
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -61,7 +60,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 	}
 
 	@Override

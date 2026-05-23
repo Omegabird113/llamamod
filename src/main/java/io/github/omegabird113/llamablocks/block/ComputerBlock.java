@@ -1,7 +1,5 @@
 package io.github.omegabird113.llamablocks.block;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
@@ -31,7 +29,7 @@ public class ComputerBlock extends Block implements EntityBlock {
 	public static final IntegerProperty POWER = BlockStateProperties.POWER;
 
 	public ComputerBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(6.65f, 14.5f).lightLevel(s -> 5).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
+		super(properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(6.65f, 14.5f).lightLevel(blockstate -> 5).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(POWER, 0));
 	}
 

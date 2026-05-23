@@ -23,6 +23,8 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 	private final Player entity;
 	private boolean menuStateUpdateActive = false;
 	private Button button_x;
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/incorrect_password_gui.png");
+	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/error.png");
 
 	public IncorrectPasswordGUIScreen(IncorrectPasswordGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -41,8 +43,6 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/incorrect_password_gui.png");
-
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -51,8 +51,8 @@ public class IncorrectPasswordGUIScreen extends AbstractContainerScreen<Incorrec
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/error.png"), this.leftPos + 3, this.topPos + 4, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + 3, this.topPos + 4, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override

@@ -28,6 +28,8 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 	private EditBox password;
 	private Button button_submit;
 	private Button button_x;
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/auth_gui.png");
+	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png");
 
 	public AuthGUIScreen(AuthGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -50,8 +52,6 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/auth_gui.png");
-
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -61,8 +61,8 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, ResourceLocation.parse("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png"), this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
 	}
 
 	@Override

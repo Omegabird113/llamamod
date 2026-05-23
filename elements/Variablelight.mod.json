@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 85,
   "_type": "block",
   "definition": {
     "texture": "variable_light_block_sides",
@@ -14,6 +14,392 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
+    "states": [
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_off",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 1
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 2
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 3
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 4
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 5
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 6
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 7
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 8
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 9
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 10
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 11
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 12
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 13
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 14
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 15
+          }
+        ]
+      },
+      {
+        "texture": "variable_light_block_sides",
+        "textureTop": "variable_light_block_sides",
+        "textureLeft": "variable_light_block_sides",
+        "textureFront": "variable_light_front_on",
+        "textureRight": "variable_light_block_sides",
+        "textureBack": "variable_light_back",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "particleTexture": "",
+        "hasCustomBoundingBox": false,
+        "boundingBoxes": [],
+        "stateMap": [
+          {
+            "property": {
+              "min": 0,
+              "max": 16,
+              "name": "CUSTOM:blockstate",
+              "type": "integer"
+            },
+            "value": 16
+          }
+        ]
+      }
+    ],
     "animations": [],
     "itemTexture": "",
     "particleTexture": "",
@@ -21,6 +407,7 @@
     "pottedPlant": {
       "value": ""
     },
+    "leavesParticleChance": 0.0,
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -38,7 +425,15 @@
         "subtract": false
       }
     ],
-    "customProperties": [],
+    "customProperties": [
+      {
+        "min": 0,
+        "max": 16,
+        "name": "CUSTOM:blockstate",
+        "type": "integer",
+        "value": 0
+      }
+    ],
     "name": "Variable Light",
     "specialInformation": {
       "fixedValue": []
@@ -68,6 +463,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
+    "hasCustomOpacity": false,
     "lightOpacity": 15,
     "tickRate": 0,
     "tickRandomly": false,
@@ -114,7 +510,9 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 0,
+    "luminance": {
+      "fixedValue": 0.0
+    },
     "unbreakable": false,
     "vanillaToolTier": "STONE",
     "isBonemealable": false,

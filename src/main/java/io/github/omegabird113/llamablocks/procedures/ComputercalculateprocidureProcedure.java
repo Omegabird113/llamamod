@@ -42,15 +42,7 @@ public class ComputercalculateprocidureProcedure {
 			} else if ((num1text).equals("NAN")) {
 				num1 = Double.NaN;
 			} else {
-				num1 = new Object() {
-					double convert(String s) {
-						try {
-							return Double.parseDouble(s.trim());
-						} catch (Exception e) {
-						}
-						return 0;
-					}
-				}.convert(num1text);
+				num1 = parseDouble(num1text);
 			}
 			if ((num2text).equals("PI")) {
 				num2 = Math.PI;
@@ -67,15 +59,7 @@ public class ComputercalculateprocidureProcedure {
 			} else if ((num2text).equals("NAN")) {
 				num2 = Double.NaN;
 			} else {
-				num2 = new Object() {
-					double convert(String s) {
-						try {
-							return Double.parseDouble(s.trim());
-						} catch (Exception e) {
-						}
-						return 0;
-					}
-				}.convert(num2text);
+				num2 = parseDouble(num2text);
 			}
 			if ((operation).equals("+")) {
 				result = "" + (num1 + num2);
@@ -152,6 +136,14 @@ public class ComputercalculateprocidureProcedure {
 			}
 			if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu)
 				_menu.sendMenuStateUpdate(_player, 0, "calculator_result", result, true);
+		}
+	}
+
+	private static double parseDouble(String s) {
+		try {
+			return Double.parseDouble(s.trim());
+		} catch (Exception e) {
+			return 0;
 		}
 	}
 }

@@ -5,7 +5,6 @@ import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.Fluids;
@@ -33,6 +32,7 @@ import io.github.omegabird113.llamablocks.init.LlamamodModBlocks;
 
 public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlock, SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
+	private static final VoxelShape SHAPE = box(3.46, 0, 3.46, 12.62, 16, 12.52);
 
 	public BannanaplantBlock(BlockBehaviour.Properties properties) {
 		super(properties.mapColor(MapColor.COLOR_GREEN).randomTicks().sound(SoundType.GRASS).strength(0.07f, 0.31f).noOcclusion().dynamicShape().replaceable().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XYZ)
@@ -67,8 +67,7 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		Vec3 offset = state.getOffset(pos);
-		return box(3.46, 0, 3.46, 12.62, 16, 12.52).move(offset.x, offset.y, offset.z);
+		return SHAPE.move(state.getOffset(pos));
 	}
 
 	@Override

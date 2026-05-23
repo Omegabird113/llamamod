@@ -1,5 +1,5 @@
 {
-  "_fv": 79,
+  "_fv": 85,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -37,6 +37,7 @@
             "value": -14477536,
             "falpha": 0.0
           },
+          "hasShadow": false,
           "x": 132,
           "y": 40,
           "locked": false
@@ -802,6 +803,7 @@
             "value": -65536,
             "falpha": 0.0
           },
+          "hasShadow": false,
           "displayCondition": {
             "name": "IsThisBetaProcedure"
           },

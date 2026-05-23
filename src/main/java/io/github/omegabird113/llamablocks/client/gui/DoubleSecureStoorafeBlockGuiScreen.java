@@ -27,6 +27,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 	private Checkbox allow_clearing;
 	private Button button_clear;
 	private Button button_close;
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/double_secure_stoorafe_block_gui.png");
 
 	public DoubleSecureStoorafeBlockGuiScreen(DoubleSecureStoorafeBlockGuiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -51,8 +52,6 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 		menuStateUpdateActive = false;
 	}
 
-	private static final ResourceLocation texture = ResourceLocation.parse("llamamod:textures/screens/double_secure_stoorafe_block_gui.png");
-
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -61,7 +60,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 
 	@Override
 	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 	}
 
 	@Override

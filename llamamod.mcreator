@@ -6590,34 +6590,6 @@
       "path": "~/Blocks/Variable Light"
     },
     {
-      "name": "Variablelightblockstates",
-      "type": "blockstates",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "variablelightblockstates",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_0.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_9.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_5.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_14.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_11.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_2.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_1.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_10.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_7.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_4.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_13.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_3.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_12.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_8.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_6.json",
-          "src/main/resources/assets/llamamod/models/block/variablelightblockstates_blockstate_15.json"
-        ]
-      },
-      "path": "~/Blocks/Variable Light"
-    },
-    {
       "name": "VariablelightNeighbourBlockChanges",
       "type": "procedure",
       "compiles": true,
@@ -42709,5 +42681,5 @@
     "credits": "Made with MCreator 2025.3 w/ the Blockstates \u0026 Remote Workspaces Support plugins.",
     "modElementsPackage": "io.github.omegabird113.llamablocks"
   },
-  "mcreatorVersion": 202500345720
+  "mcreatorVersion": 202600114619
 }
