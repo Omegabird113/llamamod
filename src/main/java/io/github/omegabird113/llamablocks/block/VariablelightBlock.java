@@ -20,13 +20,14 @@ import net.minecraft.core.BlockPos;
 import javax.annotation.Nullable;
 
 import io.github.omegabird113.llamablocks.procedures.VariablelightNeighbourBlockChangesProcedure;
+import io.github.omegabird113.llamablocks.procedures.GetVariableLightLightLevelProcedureProcedure;
 
 public class VariablelightBlock extends Block {
 	public static final EnumProperty<Direction> FACING = DirectionalBlock.FACING;
 	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 16);
 
 	public VariablelightBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(13.5f, 20f).requiresCorrectToolForDrops());
+		super(properties.mapColor(MapColor.SNOW).sound(SoundType.METAL).strength(13.5f, 20f).lightLevel(blockstate -> (int) GetVariableLightLightLevelProcedureProcedure.execute(blockstate)).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(BLOCKSTATE, 0));
 	}
 

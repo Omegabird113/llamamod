@@ -6580,10 +6580,26 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/llamamod/items/variable_light.json",
-          "src/main/java/io/github/omegabird113/llamablocks/block/VariablelightBlock.java",
+          "src/main/resources/assets/llamamod/models/block/variable_light_3.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_9.json",
           "src/main/resources/assets/llamamod/blockstates/variable_light.json",
-          "src/main/resources/data/llamamod/loot_table/blocks/variable_light.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_2.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_6.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_13.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_14.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_10.json",
           "src/main/resources/assets/llamamod/models/block/variable_light.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_4.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_11.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_1.json",
+          "src/main/java/io/github/omegabird113/llamablocks/block/VariablelightBlock.java",
+          "src/main/resources/assets/llamamod/models/block/variable_light_15.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_12.json",
+          "src/main/resources/data/llamamod/loot_table/blocks/variable_light.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_7.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_5.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_0.json",
+          "src/main/resources/assets/llamamod/models/block/variable_light_8.json",
           "src/main/resources/assets/llamamod/models/item/variable_light.json"
         ]
       },
@@ -37911,6 +37927,26 @@
         ]
       },
       "path": "~/Passwords"
+    },
+    {
+      "name": "GetVariableLightLightLevelProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "get_variable_light_light_level_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ],
+        "return_type": "number",
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/procedures/GetVariableLightLightLevelProcedureProcedure.java"
+        ]
+      },
+      "path": "~/Blocks/Variable Light"
     }
   ],
   "variable_elements": [],
