@@ -1,6 +1,6 @@
 # LlamaBlocks Documentation
 
-This is a detailed set of user & developer documentation for LlamaBlocks hosted in its own [GitHub repository](https://github.com/Omegabird113/LlamaBlocks-Documentation/) and is synced into the `/documentation` folder of the main LlamaBlocks repository and then published to its [own website](https://omegabird113.github.io/llamamod/).
+This is a detailed set of player and developer documentation for LlamaBlocks hosted in its own [GitHub repository](https://github.com/Omegabird113/LlamaBlocks-Documentation/) and is synced into the `documentation` folder of the main LlamaBlocks repository and then published to its [own website](https://omegabird113.github.io/llamamod/).
 
 ## The Mod Itself
 

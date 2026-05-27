@@ -2,8 +2,8 @@
 This is a file that explains the contents of [the documentation](https://omegabird113.github.io/llamamod/) sorted alphabetically:
 
 ## Root of the Documentation
-- [LICENSE.md](LICENSE.md) - The license for the Documentation (`CC-BY-SA 4.0`)
 - [README.md](README.md) - An explanation of the Documentation and the homepage of the documentation website
+- [license.md](license.md) - The license for the Documentation (`CC-BY-SA 4.0`)
 - [mod-license.md](mod-license.md) - The license of the Mod itself (`GPLv3`)
 - [page-index.md](page-index.md) - This index
 
