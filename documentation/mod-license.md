@@ -5,9 +5,9 @@ The [LlamaBlocks Mod](https://github.com/omegabird113/llamamod/) is available un
 
 ## License Text
 
-Below the next line is an exact markdown copy of the GNU General Public License v3.0 license copied from https://github.com/IQAndreas/markdown-licenses/blob/master/gnu-gpl-v3.0.md.
+Below the next line is an exact markdown copy of the GNU General Public License v3.0 license copied from [https://github.com/IQAndreas/markdown-licenses/blob/master/gnu-gpl-v3.0.md](https://github.com/IQAndreas/markdown-licenses/blob/master/gnu-gpl-v3.0.md).
 
-<hr></hr>
+<hr/>
 
 GNU General Public License
 ==========================
