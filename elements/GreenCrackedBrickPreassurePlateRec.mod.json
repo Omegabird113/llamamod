@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedGreenBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedGreenBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedGreenBricks",
+      "CUSTOM:CrackedGreenBricks",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedGreenBrickPressurePlate"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedGreenBrickPressurePlate",
     "name": "green_cracked_brick_preassure_plate_rec",
     "namespace": "mod"
   }

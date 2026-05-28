@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "potioneffect",
   "definition": {
     "effectName": "Acid Dissolving",
@@ -8,20 +8,14 @@
       "value": -8932233,
       "falpha": 0.0
     },
-    "onAddedSound": {
-      "value": ""
-    },
+    "onAddedSound": "",
     "isInstant": false,
     "mobEffectCategory": "HARMFUL",
     "renderStatusInInventory": true,
     "renderStatusInHUD": true,
     "isCuredbyHoney": false,
     "modifiers": [],
-    "onStarted": {
-      "name": "AcideffectEffectStartedapplied"
-    },
-    "onActiveTick": {
-      "name": "AcideffectOnEffectActiveTick"
-    }
+    "onStarted": "AcideffectEffectStartedapplied",
+    "onActiveTick": "AcideffectOnEffectActiveTick"
   }
 }

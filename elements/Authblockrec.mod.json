@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "TAG:mod:large_tiles"
-      },
-      {
-        "value": "Blocks.LEVER"
-      },
-      {
-        "value": "TAG:mod:large_tiles"
-      },
-      {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": "CUSTOM:Passwordchanger"
-      },
-      {
-        "value": "Items.REDSTONE"
-      },
-      {
-        "value": "TAG:mod:large_tiles"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "TAG:mod:large_tiles"
-      }
+      "TAG:mod:large_tiles",
+      "Blocks.LEVER",
+      "TAG:mod:large_tiles",
+      "Items.REDSTONE",
+      "CUSTOM:Passwordchanger",
+      "Items.REDSTONE",
+      "TAG:mod:large_tiles",
+      "Items.IRON_INGOT",
+      "TAG:mod:large_tiles"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Authenticatorblock"
-    },
+    "recipeReturnStack": "CUSTOM:Authenticatorblock",
     "name": "authblockrec",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedMagentaBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedMagentaBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedMagentaBricks",
+      "CUSTOM:CrackedMagentaBricks",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedMagentaBrickPressurePlate"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedMagentaBrickPressurePlate",
     "name": "magenta_cracked_brick_preassure_plate_rec",
     "namespace": "mod"
   }

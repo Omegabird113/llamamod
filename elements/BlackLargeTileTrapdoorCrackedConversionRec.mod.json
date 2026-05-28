@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Blacklargetiletrapdoor"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedBlackLargeTileTrapdoor"
-    },
+    "smeltingInputStack": "CUSTOM:Blacklargetiletrapdoor",
+    "smeltingReturnStack": "CUSTOM:CrackedBlackLargeTileTrapdoor",
     "name": "black_large_tile_trapdoor_cracked_conversion_rec",
     "namespace": "mod"
   }

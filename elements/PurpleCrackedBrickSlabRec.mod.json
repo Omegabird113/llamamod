@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CrackedPurpleBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedPurpleBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedPurpleBricks"
-      }
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:CrackedPurpleBricks",
+      "CUSTOM:CrackedPurpleBricks",
+      "CUSTOM:CrackedPurpleBricks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedPurpleBrickSlab"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedPurpleBrickSlab",
     "name": "purple_cracked_brick_slab_rec",
     "namespace": "mod"
   }

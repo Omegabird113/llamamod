@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Industrialbricks"
-      },
-      {
-        "value": "CUSTOM:Industrialbricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Industrialbricks"
-      },
-      {
-        "value": "CUSTOM:Industrialbricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Industrialbricks",
+      "CUSTOM:Industrialbricks",
+      "",
+      "CUSTOM:Industrialbricks",
+      "CUSTOM:Industrialbricks",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Industrialbricktrapdoor"
-    },
+    "recipeReturnStack": "CUSTOM:Industrialbricktrapdoor",
     "name": "industrial_brick_trapdoor_rec",
     "namespace": "mod"
   }

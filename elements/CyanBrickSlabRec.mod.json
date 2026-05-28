@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CyanBricks"
-      },
-      {
-        "value": "CUSTOM:CyanBricks"
-      },
-      {
-        "value": "CUSTOM:CyanBricks"
-      }
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "CUSTOM:CyanBricks",
+      "CUSTOM:CyanBricks",
+      "CUSTOM:CyanBricks"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Cyanbrickslab"
-    },
+    "recipeReturnStack": "CUSTOM:Cyanbrickslab",
     "name": "cyan_brick_slab_rec",
     "namespace": "mod"
   }

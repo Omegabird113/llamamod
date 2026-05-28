@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Lightgraybrickpreasureplate"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedLightGrayBrickPressurePlate"
-    },
+    "smeltingInputStack": "CUSTOM:Lightgraybrickpreasureplate",
+    "smeltingReturnStack": "CUSTOM:CrackedLightGrayBrickPressurePlate",
     "name": "light_gray_brick_pressure_plate_cracked_conversion_rec",
     "namespace": "mod"
   }

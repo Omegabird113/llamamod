@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedBlueBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedBlueBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CrackedBlueBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedBlueBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedBlueBricks",
+      "CUSTOM:CrackedBlueBricks",
+      "",
+      "CUSTOM:CrackedBlueBricks",
+      "CUSTOM:CrackedBlueBricks",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedBlueBrickTrapdoor"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedBlueBrickTrapdoor",
     "name": "blue_cracked_brick_trapdoor_rec",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "Items.POISONOUS_POTATO"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "Items.MILK_BUCKET"
-      },
-      {
-        "value": "Items.HONEY_BOTTLE"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "Items.POISONOUS_POTATO",
+      "CUSTOM:Farmscraps",
+      "Items.MILK_BUCKET",
+      "Items.HONEY_BOTTLE",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "Items.POTATO"
-    },
+    "recipeReturnStack": "Items.POTATO",
     "name": "farm_scarps_potatoe_posion_remover_recipe",
     "namespace": "mod"
   }

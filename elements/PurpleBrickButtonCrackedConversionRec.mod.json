@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Purplebrickbutton"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedPurpleBrickButton"
-    },
+    "smeltingInputStack": "CUSTOM:Purplebrickbutton",
+    "smeltingReturnStack": "CUSTOM:CrackedPurpleBrickButton",
     "name": "purple_brick_button_cracked_conversion_rec",
     "namespace": "mod"
   }

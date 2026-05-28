@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Redbrickpreasureplate"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedRedBrickPressurePlate"
-    },
+    "smeltingInputStack": "CUSTOM:Redbrickpreasureplate",
+    "smeltingReturnStack": "CUSTOM:CrackedRedBrickPressurePlate",
     "name": "red_brick_pressure_plate_cracked_conversion_rec",
     "namespace": "mod"
   }

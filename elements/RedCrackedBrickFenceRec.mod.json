@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedRedBricks"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:CrackedRedBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedRedBricks"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:CrackedRedBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedRedBricks",
+      "Items.STICK",
+      "CUSTOM:CrackedRedBricks",
+      "CUSTOM:CrackedRedBricks",
+      "Items.STICK",
+      "CUSTOM:CrackedRedBricks",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedRedBrickFence"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedRedBrickFence",
     "name": "red_cracked_brick_fence_rec",
     "namespace": "mod"
   }

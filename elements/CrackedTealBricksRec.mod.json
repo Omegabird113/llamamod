@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Tealbricks"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedTealBricks"
-    },
+    "smeltingInputStack": "CUSTOM:Tealbricks",
+    "smeltingReturnStack": "CUSTOM:CrackedTealBricks",
     "name": "cracked_teal_bricks_rec",
     "namespace": "mod"
   }

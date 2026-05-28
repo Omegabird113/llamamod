@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:BlackLargeTile"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:BlackLargeTile"
-      },
-      {
-        "value": "CUSTOM:BlackLargeTile"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:BlackLargeTile"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:BlackLargeTile",
+      "Items.STICK",
+      "CUSTOM:BlackLargeTile",
+      "CUSTOM:BlackLargeTile",
+      "Items.STICK",
+      "CUSTOM:BlackLargeTile",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:BlackLargeTileFence"
-    },
+    "recipeReturnStack": "CUSTOM:BlackLargeTileFence",
     "name": "black_large_tile_fence_rec",
     "namespace": "mod"
   }

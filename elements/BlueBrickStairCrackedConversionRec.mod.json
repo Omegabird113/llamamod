@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Bluebrickstair"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedBlueBrickStairs"
-    },
+    "smeltingInputStack": "CUSTOM:Bluebrickstair",
+    "smeltingReturnStack": "CUSTOM:CrackedBlueBrickStairs",
     "name": "blue_brick_stair_cracked_conversion_rec",
     "namespace": "mod"
   }

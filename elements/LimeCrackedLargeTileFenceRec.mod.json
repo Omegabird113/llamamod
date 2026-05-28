@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedLimeLargeTile"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:CrackedLimeLargeTile"
-      },
-      {
-        "value": "CUSTOM:CrackedLimeLargeTile"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:CrackedLimeLargeTile"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedLimeLargeTile",
+      "Items.STICK",
+      "CUSTOM:CrackedLimeLargeTile",
+      "CUSTOM:CrackedLimeLargeTile",
+      "Items.STICK",
+      "CUSTOM:CrackedLimeLargeTile",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedLimeLargeTileFence"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedLimeLargeTileFence",
     "name": "lime_cracked_large_tile_fence_rec",
     "namespace": "mod"
   }

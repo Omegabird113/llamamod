@@ -23,7 +23,7 @@ description="LlamaBlocks is a complex, multi-year long development, MCreator mod
 [[dependencies.llamamod]]
     modId="neoforge"
     type="required"
-    versionRange="[21.8.31,)"
+    versionRange="[21.8.53,)"
     ordering="AFTER"
     side="BOTH"
 

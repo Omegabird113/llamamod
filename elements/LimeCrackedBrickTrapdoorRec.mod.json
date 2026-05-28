@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedLimeBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedLimeBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CrackedLimeBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedLimeBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedLimeBricks",
+      "CUSTOM:CrackedLimeBricks",
+      "",
+      "CUSTOM:CrackedLimeBricks",
+      "CUSTOM:CrackedLimeBricks",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedLimeBrickTrapdoor"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedLimeBrickTrapdoor",
     "name": "lime_cracked_brick_trapdoor_rec",
     "namespace": "mod"
   }

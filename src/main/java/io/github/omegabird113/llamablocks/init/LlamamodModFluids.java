@@ -21,8 +21,8 @@ import io.github.omegabird113.llamablocks.LlamamodMod;
 
 public class LlamamodModFluids {
 	public static final DeferredRegister<Fluid> REGISTRY = DeferredRegister.create(BuiltInRegistries.FLUID, LlamamodMod.MODID);
-	public static final DeferredHolder<Fluid, FlowingFluid> ACID = REGISTRY.register("acid", () -> new AcidFluid.Source());
-	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_ACID = REGISTRY.register("flowing_acid", () -> new AcidFluid.Flowing());
+	public static final DeferredHolder<Fluid, FlowingFluid> ACID = REGISTRY.register("acid", AcidFluid.Source::new);
+	public static final DeferredHolder<Fluid, FlowingFluid> FLOWING_ACID = REGISTRY.register("flowing_acid", AcidFluid.Flowing::new);
 
 	@EventBusSubscriber(Dist.CLIENT)
 	public static class FluidsClientSideHandler {

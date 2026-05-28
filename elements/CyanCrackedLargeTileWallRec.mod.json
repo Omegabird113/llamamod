@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedCyanLargeTile"
-      },
-      {
-        "value": "CUSTOM:CrackedCyanLargeTile"
-      },
-      {
-        "value": "CUSTOM:CrackedCyanLargeTile"
-      },
-      {
-        "value": "CUSTOM:CrackedCyanLargeTile"
-      },
-      {
-        "value": "CUSTOM:CrackedCyanLargeTile"
-      },
-      {
-        "value": "CUSTOM:CrackedCyanLargeTile"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedCyanLargeTile",
+      "CUSTOM:CrackedCyanLargeTile",
+      "CUSTOM:CrackedCyanLargeTile",
+      "CUSTOM:CrackedCyanLargeTile",
+      "CUSTOM:CrackedCyanLargeTile",
+      "CUSTOM:CrackedCyanLargeTile",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedCyanLargeTileWall"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedCyanLargeTileWall",
     "name": "cyan_cracked_large_tile_wall_rec",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Bannanaplant"
-      }
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Bannanaplant"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Bannanaplant"
-    },
+    "recipeReturnStack": "CUSTOM:Bannanaplant",
     "name": "farmscraps_to_banana_plant_rec",
     "namespace": "mod"
   }

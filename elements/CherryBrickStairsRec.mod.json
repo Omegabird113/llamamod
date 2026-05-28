@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 86,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CherryBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:CherryBricks"
-      },
-      {
-        "value": "CUSTOM:CherryBricks"
-      },
-      {
-        "value": ""
-      }
+      "",
+      "",
+      "",
+      "CUSTOM:CherryBricks",
+      "",
+      "",
+      "CUSTOM:CherryBricks",
+      "CUSTOM:CherryBricks",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Cherrybrickstair"
-    },
+    "recipeReturnStack": "CUSTOM:Cherrybrickstair",
     "name": "cherry_brick_stairs_rec",
     "namespace": "mod"
   }
