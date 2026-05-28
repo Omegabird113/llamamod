@@ -3,6 +3,5 @@
   "textures": {
     "all": "llamamod:block/orange_brick",
     "particle": "llamamod:block/orange_brick"
-  },
-  "render_type": "solid"
+  }
 }

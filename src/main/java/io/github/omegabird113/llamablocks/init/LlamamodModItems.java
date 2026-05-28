@@ -3,10 +3,10 @@
  */
 package io.github.omegabird113.llamablocks.init;
 
+import net.neoforged.neoforge.transfer.fluid.BucketResourceHandler;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -1462,7 +1462,7 @@ public class LlamamodModItems {
 	// Start of user code block custom items
 	// End of user code block custom items
 	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
-		return REGISTRY.registerItem(name, supplier, new Item.Properties());
+		return REGISTRY.registerItem(name, supplier, Item.Properties::new);
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
@@ -1470,13 +1470,13 @@ public class LlamamodModItems {
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), properties);
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), () -> properties);
 	}
 
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new BackpackInventoryCapability(stack), BACKPACK.get());
-		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new NetheritebackpackInventoryCapability(stack), NETHERITE_BACKPACK.get());
-		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), ACID_BUCKET.get());
+		event.registerItem(Capabilities.Item.ITEM, (stack, access) -> new BackpackInventoryCapability(access), BACKPACK.get());
+		event.registerItem(Capabilities.Item.ITEM, (stack, access) -> new NetheritebackpackInventoryCapability(access), NETHERITE_BACKPACK.get());
+		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), ACID_BUCKET.get());
 	}
 }

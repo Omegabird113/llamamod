@@ -3,6 +3,5 @@
   "textures": {
     "all": "llamamod:block/white_bricks",
     "particle": "llamamod:block/white_bricks"
-  },
-  "render_type": "solid"
+  }
 }

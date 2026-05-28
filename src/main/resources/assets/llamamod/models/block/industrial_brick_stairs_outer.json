@@ -5,6 +5,5 @@
     "bottom": "llamamod:block/industrial_bricks",
     "top": "llamamod:block/industrial_bricks",
     "side": "llamamod:block/industrial_bricks"
-  },
-  "render_type": "solid"
+  }
 }

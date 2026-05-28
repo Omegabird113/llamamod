@@ -1,7 +1,5 @@
 package io.github.omegabird113.llamablocks.block;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
@@ -20,7 +18,7 @@ import io.github.omegabird113.llamablocks.init.LlamamodModFluids;
 
 public class AcidBlock extends LiquidBlock {
 	public AcidBlock(BlockBehaviour.Properties properties) {
-		super(LlamamodModFluids.ACID.get(), properties.mapColor(MapColor.WARPED_WART_BLOCK).strength(13f).lightLevel(s -> 5).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
+		super(LlamamodModFluids.ACID.get(), properties.mapColor(MapColor.WARPED_WART_BLOCK).strength(13f).lightLevel(s -> 5).noCollision().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 
 	@Override
@@ -29,13 +27,13 @@ public class AcidBlock extends LiquidBlock {
 	}
 
 	@Override
-	public int getLightBlock(BlockState state) {
+	public int getLightDampening(BlockState state) {
 		return 2;
 	}
 
 	@Override
-	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier) {
-		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier);
+	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier, boolean isPrecise) {
+		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier, isPrecise);
 		AcidMobplayerCollidesBlockProcedure.execute(entity);
 	}
 }

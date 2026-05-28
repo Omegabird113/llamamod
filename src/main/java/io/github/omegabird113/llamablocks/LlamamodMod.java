@@ -56,6 +56,7 @@ public class LlamamodMod {
 		LlamamodModMobEffects.REGISTRY.register(modEventBus);
 		LlamamodModMenus.REGISTRY.register(modEventBus);
 		LlamamodModParticleTypes.REGISTRY.register(modEventBus);
+		LlamamodModGameRules.REGISTRY.register(modEventBus);
 		LlamamodModFluids.REGISTRY.register(modEventBus);
 		LlamamodModFluidTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
@@ -108,7 +109,7 @@ public class LlamamodMod {
 
 	@Nullable
 	public static Player clientPlayer() {
-		if (FMLEnvironment.dist.isClient()) {
+		if (FMLEnvironment.getDist().isClient()) {
 			try {
 				if (minecraft == null || playerHandle == null) {
 					Class<?> minecraftClass = Class.forName("net.minecraft.client.Minecraft");

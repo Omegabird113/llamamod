@@ -3,6 +3,5 @@
   "textures": {
     "wall": "llamamod:block/pink_brick",
     "particle": "llamamod:block/pink_brick"
-  },
-  "render_type": "solid"
+  }
 }

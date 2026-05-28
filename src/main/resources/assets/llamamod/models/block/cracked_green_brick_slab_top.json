@@ -5,6 +5,5 @@
     "bottom": "llamamod:block/cracked_green_bricks",
     "top": "llamamod:block/cracked_green_bricks",
     "side": "llamamod:block/cracked_green_bricks"
-  },
-  "render_type": "solid"
+  }
 }

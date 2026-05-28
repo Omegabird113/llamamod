@@ -4,8 +4,10 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
@@ -26,14 +28,19 @@ public class CompkillplayerXprocedureProcedure {
 		}
 		if (player_to_msg == null) {
 			player_to_msg = entity;
-			if (player_to_msg instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal((Component.translatable("block.llamamod.computer.playernamenotfounderror").getString())), false);
+			if (player_to_msg instanceof ServerPlayer _player)
+				_player.sendSystemMessage(Component.literal((Component.translatable("block.llamamod.computer.playernamenotfounderror").getString())), false);
 		} else {
 			if (player_to_msg instanceof Player _player) {
 				_player.getAbilities().invulnerable = false;
 				_player.onUpdateAbilities();
 			}
-			player_to_msg.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:computer_player_management_damage"))), entity), 1000000);
+			{
+				Entity _ent = player_to_msg;
+				if (_ent.level() instanceof ServerLevel _serverLevel) {
+					_ent.hurtServer(_serverLevel, new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, Identifier.parse("llamamod:computer_player_management_damage"))), entity), 1000000);
+				}
+			}
 		}
 	}
 }

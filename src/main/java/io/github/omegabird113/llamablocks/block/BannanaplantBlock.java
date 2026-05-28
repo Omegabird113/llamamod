@@ -25,6 +25,9 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.color.block.BlockTintSources;
+
+import java.util.List;
 
 import io.github.omegabird113.llamablocks.procedures.CanBoneMealBeUsedOnBananaPlantProcedure;
 import io.github.omegabird113.llamablocks.procedures.BannanaplantOnBoneMealSuccessProcedure;
@@ -123,9 +126,7 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 		BannanaplantOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
-	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
-		event.getBlockColors().register((bs, world, pos, index) -> {
-			return FoliageColor.FOLIAGE_BIRCH;
-		}, LlamamodModBlocks.BANANA_PLANT.get());
+	public static void blockColorLoad(RegisterColorHandlersEvent.BlockTintSources event) {
+		event.getBlockColors().register(List.of(BlockTintSources.constant(FoliageColor.FOLIAGE_BIRCH)), LlamamodModBlocks.BANANA_PLANT.get());
 	}
 }

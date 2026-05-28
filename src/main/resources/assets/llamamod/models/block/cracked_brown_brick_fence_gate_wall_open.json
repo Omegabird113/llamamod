@@ -3,6 +3,5 @@
   "textures": {
     "texture": "llamamod:block/lifted_cracked_brown_bricks",
     "particle": "llamamod:block/lifted_cracked_brown_bricks"
-  },
-  "render_type": "solid"
+  }
 }

@@ -1,7 +1,5 @@
 package io.github.omegabird113.llamablocks.procedures;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
@@ -23,7 +21,7 @@ public class ComputercalculateprocidureProcedure {
 		String operation = "";
 		String num1text = "";
 		String num2text = "";
-		if (!((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) && _menu0.getMenuState(1, "auto_calculate", false) && !(world.dayTime() % 5 == 0))) {
+		if (!((entity instanceof Player _entity0 && _entity0.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu0) && _menu0.getMenuState(1, "auto_calculate", false) && !(world.getGameTime() % 5 == 0))) {
 			operation = (((entity instanceof Player _entity2 && _entity2.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu2) ? _menu2.getMenuState(0, "operation", "") : "").toUpperCase()).strip();
 			num1text = (((entity instanceof Player _entity3 && _entity3.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu3) ? _menu3.getMenuState(0, "number1", "") : "").toUpperCase()).strip();
 			num2text = (((entity instanceof Player _entity4 && _entity4.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu4) ? _menu4.getMenuState(0, "number2", "") : "").toUpperCase()).strip();
