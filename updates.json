@@ -1,5 +1,8 @@
 {
   "homepage": "https://modrinth.com/mod/llamablocks/versions",
+  "26.1.2": {
+    "1.3.2-beta2+mc26.1.2-nonprod": "first (non-production) build for 26.1.2"
+  },
   "1.21.8": {
     "1.3.1": "1. Improvements to every UI 2. Password Changer unsupported block warning UI 3. Authenticator Improvements 4. more",
     "1.3.0": "1. Cracked Bricks & Large Tile variants 2. Smaller & more integrated Computer UI 3. Automatic Checkbox and random support in the Computer Calculator 4. Golden Bananas are now crafted using a smithing table 5. Much more",
