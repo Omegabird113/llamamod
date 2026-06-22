@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Ceilingtiles"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Items.QUARTZ"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Ceilingtiles",
+      "Items.IRON_INGOT",
+      "Items.QUARTZ",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Largetile"
-    },
+    "recipeReturnStack": "CUSTOM:Largetile",
     "name": "largetilerec",
     "namespace": "mod"
   }

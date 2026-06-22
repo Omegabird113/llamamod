@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:OrangeLargeTile"
-      },
-      {
-        "value": "CUSTOM:OrangeLargeTile"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:OrangeLargeTile",
+      "CUSTOM:OrangeLargeTile",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:OrangeLargeTilePressurePlate"
-    },
+    "recipeReturnStack": "CUSTOM:OrangeLargeTilePressurePlate",
     "name": "orange_large_tile_pressure_plate_rec",
     "namespace": "mod"
   }

@@ -10,7 +10,7 @@ import io.github.omegabird113.llamablocks.LlamamodMod;
 
 public class AuthblockupdateprocedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world.dayTime() - getBlockNBTNumber(world, BlockPos.containing(x, y, z), "end_power_after_tick") > 15) {
+		if (world.getGameTime() - getBlockNBTNumber(world, BlockPos.containing(x, y, z), "end_power_after_tick") > 15) {
 			{
 				BlockPos _pos = BlockPos.containing(x, y, z);
 				BlockState _bs = world.getBlockState(_pos);
@@ -18,7 +18,7 @@ public class AuthblockupdateprocedureProcedure {
 					world.setBlock(_pos, _bs.setValue(_booleanProp, false), 3);
 			}
 		} else {
-			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") is powered as of tick: " + world.dayTime()));
+			LlamamodMod.LOGGER.debug(("Authenticator at (" + x + ", " + y + ", " + z + ") is powered as of tick: " + world.getGameTime()));
 		}
 	}
 

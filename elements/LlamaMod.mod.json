@@ -1,11 +1,9 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "tab",
   "definition": {
     "name": "LlamaBlocks",
-    "icon": {
-      "value": "CUSTOM:CrackedLimeLargeTile"
-    },
+    "icon": "CUSTOM:CrackedLimeLargeTile",
     "showSearch": false
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:LightGrayLargeTile"
-      },
-      {
-        "value": "CUSTOM:LightGrayLargeTile"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:LightGrayLargeTile"
-      },
-      {
-        "value": "CUSTOM:LightGrayLargeTile"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:LightGrayLargeTile",
+      "CUSTOM:LightGrayLargeTile",
+      "",
+      "CUSTOM:LightGrayLargeTile",
+      "CUSTOM:LightGrayLargeTile",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Lightgraylargetiletrapdoor"
-    },
+    "recipeReturnStack": "CUSTOM:Lightgraylargetiletrapdoor",
     "name": "light_gray_large_tile_trapdoor_rec",
     "namespace": "mod"
   }

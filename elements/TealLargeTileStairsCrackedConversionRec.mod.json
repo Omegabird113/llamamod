@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:TealLargeTileStair"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedTealLargeTileStairs"
-    },
+    "smeltingInputStack": "CUSTOM:TealLargeTileStair",
+    "smeltingReturnStack": "CUSTOM:CrackedTealLargeTileStairs",
     "name": "teal_large_tile_stairs_cracked_conversion_rec",
     "namespace": "mod"
   }

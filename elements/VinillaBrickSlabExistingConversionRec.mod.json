@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "TAG:mod:large_tile_slabs"
-      },
-      {
-        "value": "Items.CLAY_BALL"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "TAG:mod:large_tile_slabs",
+      "Items.CLAY_BALL",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.STONE_SLAB#4"
-    },
+    "recipeReturnStack": "Blocks.STONE_SLAB#4",
     "name": "vinilla_brick_slab_existing_conversion_rec",
     "namespace": "mod"
   }

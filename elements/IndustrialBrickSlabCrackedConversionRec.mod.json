@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Industrialbrickslab"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedIndustrialBrickSlab"
-    },
+    "smeltingInputStack": "CUSTOM:Industrialbrickslab",
+    "smeltingReturnStack": "CUSTOM:CrackedIndustrialBrickSlab",
     "name": "industrial_brick_slab_cracked_conversion_rec",
     "namespace": "mod"
   }

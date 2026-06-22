@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -376,9 +376,7 @@
           "name": "button_x",
           "text": "X",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Xbuttonprocidure"
-          },
+          "onClick": "Xbuttonprocidure",
           "width": 30,
           "height": 20,
           "x": 271,
@@ -595,9 +593,7 @@
             "falpha": 0.0
           },
           "hasShadow": false,
-          "displayCondition": {
-            "name": "IsThisBetaProcedure"
-          },
+          "displayCondition": "IsThisBetaProcedure",
           "x": 129,
           "y": 31,
           "locked": false

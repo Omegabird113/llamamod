@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Bluebricks"
-      },
-      {
-        "value": "CUSTOM:Bluebricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Bluebricks"
-      },
-      {
-        "value": "CUSTOM:Bluebricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Bluebricks",
+      "CUSTOM:Bluebricks",
+      "",
+      "CUSTOM:Bluebricks",
+      "CUSTOM:Bluebricks",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Bluebricktrapdoor"
-    },
+    "recipeReturnStack": "CUSTOM:Bluebricktrapdoor",
     "name": "blue_brick_trapdoor_rec",
     "namespace": "mod"
   }

@@ -5,6 +5,5 @@
     "bottom": "llamamod:block/cherry_brick",
     "top": "llamamod:block/cherry_brick",
     "side": "llamamod:block/cherry_brick"
-  },
-  "render_type": "solid"
+  }
 }

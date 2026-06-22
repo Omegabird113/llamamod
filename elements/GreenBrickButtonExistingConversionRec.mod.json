@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "TAG:mod:brick_buttons"
-      },
-      {
-        "value": "Items.DYE#2"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "TAG:mod:brick_buttons",
+      "Items.DYE#2",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Greenbrickbutton"
-    },
+    "recipeReturnStack": "CUSTOM:Greenbrickbutton",
     "name": "green_brick_button_existing_conversion_rec",
     "namespace": "mod"
   }

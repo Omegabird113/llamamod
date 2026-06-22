@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.SMOOTH_STONE"
-      },
-      {
-        "value": "CUSTOM:Passwordchanger"
-      },
-      {
-        "value": "Blocks.SMOOTH_STONE"
-      },
-      {
-        "value": "Blocks.STAINED_GLASS"
-      },
-      {
-        "value": "CUSTOM:Variablelight"
-      },
-      {
-        "value": "Items.REPEATER"
-      },
-      {
-        "value": "Blocks.SMOOTH_STONE"
-      },
-      {
-        "value": "Items.CLOCK"
-      },
-      {
-        "value": "Blocks.SMOOTH_STONE"
-      }
+      "Blocks.SMOOTH_STONE",
+      "CUSTOM:Passwordchanger",
+      "Blocks.SMOOTH_STONE",
+      "Blocks.STAINED_GLASS",
+      "CUSTOM:Variablelight",
+      "Items.REPEATER",
+      "Blocks.SMOOTH_STONE",
+      "Items.CLOCK",
+      "Blocks.SMOOTH_STONE"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Computer"
-    },
+    "recipeReturnStack": "CUSTOM:Computer",
     "name": "computerrec",
     "namespace": "mod"
   }

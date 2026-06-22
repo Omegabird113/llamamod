@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smithing",
@@ -11,18 +11,10 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smithingInputStack": {
-      "value": "CUSTOM:Bannana"
-    },
-    "smithingInputAdditionStack": {
-      "value": "Blocks.GOLD_BLOCK"
-    },
-    "smithingInputTemplateStack": {
-      "value": "CUSTOM:GoldenBananaUpgradeTemplate"
-    },
-    "smithingReturnStack": {
-      "value": "CUSTOM:GoldenBannana"
-    },
+    "smithingInputStack": "CUSTOM:Bannana",
+    "smithingInputAdditionStack": "Blocks.GOLD_BLOCK",
+    "smithingInputTemplateStack": "CUSTOM:GoldenBananaUpgradeTemplate",
+    "smithingReturnStack": "CUSTOM:GoldenBannana",
     "name": "golden_banana_rec",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "Blocks.BAMBOO"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "Blocks.BAMBOO",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.BAMBOO"
-    },
+    "recipeReturnStack": "Blocks.BAMBOO",
     "name": "farmscraps_to_bamboo_rec",
     "namespace": "mod"
   }

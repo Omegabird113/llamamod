@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:IndustrialLargeTile"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedIndustrialLargeTile"
-    },
+    "smeltingInputStack": "CUSTOM:IndustrialLargeTile",
+    "smeltingReturnStack": "CUSTOM:CrackedIndustrialLargeTile",
     "name": "industrial_cracked_large_tile_rec",
     "namespace": "mod"
   }

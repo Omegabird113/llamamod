@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "TAG:mod:large_tiles"
-      },
-      {
-        "value": "CUSTOM:Passwordchanger"
-      },
-      {
-        "value": "TAG:mod:large_tiles"
-      },
-      {
-        "value": "Blocks.IRON_BLOCK"
-      },
-      {
-        "value": "CUSTOM:Netheritebackpack"
-      },
-      {
-        "value": "Blocks.IRON_BLOCK"
-      },
-      {
-        "value": "TAG:mod:large_tiles"
-      },
-      {
-        "value": "Blocks.IRON_BLOCK"
-      },
-      {
-        "value": "TAG:mod:large_tiles"
-      }
+      "TAG:mod:large_tiles",
+      "CUSTOM:Passwordchanger",
+      "TAG:mod:large_tiles",
+      "Blocks.IRON_BLOCK",
+      "CUSTOM:Netheritebackpack",
+      "Blocks.IRON_BLOCK",
+      "TAG:mod:large_tiles",
+      "Blocks.IRON_BLOCK",
+      "TAG:mod:large_tiles"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Securestorageblock"
-    },
+    "recipeReturnStack": "CUSTOM:Securestorageblock",
     "name": "sec_stoor_block_rec",
     "namespace": "mod"
   }

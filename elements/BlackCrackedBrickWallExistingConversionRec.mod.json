@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "TAG:mod:cracked_brick_wall"
-      },
-      {
-        "value": "Items.DYE#16"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "TAG:mod:cracked_brick_wall",
+      "Items.DYE#16",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedBlackBrickWall"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedBlackBrickWall",
     "name": "black_cracked_brick_wall_existing_conversion_rec",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "TAG:mod:cracked_large_tile_slabs"
-      },
-      {
-        "value": "Items.DYE#6"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "TAG:mod:cracked_large_tile_slabs",
+      "Items.DYE#6",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedCyanLargeTileSlab"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedCyanLargeTileSlab",
     "name": "cyan_cracked_large_tile_slab_existing_conversion_rec",
     "namespace": "mod"
   }

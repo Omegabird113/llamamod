@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "REDSTONE",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "TAG:mod:torches"
-      },
-      {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "TAG:mod:large_tiles"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Blocks.STONE"
-      },
-      {
-        "value": "Blocks.UNPOWERED_COMPARATOR"
-      },
-      {
-        "value": "Blocks.STONE"
-      }
+      "Blocks.STONE",
+      "TAG:mod:torches",
+      "Blocks.STONE",
+      "Items.IRON_INGOT",
+      "TAG:mod:large_tiles",
+      "Items.IRON_INGOT",
+      "Blocks.STONE",
+      "Blocks.UNPOWERED_COMPARATOR",
+      "Blocks.STONE"
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Variablelight"
-    },
+    "recipeReturnStack": "CUSTOM:Variablelight",
     "name": "variablelightrec",
     "namespace": "mod"
   }

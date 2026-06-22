@@ -3,24 +3,29 @@
  */
 package io.github.omegabird113.llamablocks.init;
 
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
 
-import net.minecraft.world.level.GameRules;
+import net.minecraft.world.level.gamerules.GameRuleTypeVisitor;
+import net.minecraft.world.level.gamerules.GameRuleType;
+import net.minecraft.world.level.gamerules.GameRuleCategory;
+import net.minecraft.world.level.gamerules.GameRule;
+import net.minecraft.world.flag.FeatureFlagSet;
+import net.minecraft.core.registries.Registries;
 
-@EventBusSubscriber
+import io.github.omegabird113.llamablocks.LlamamodMod;
+
+import com.mojang.serialization.Codec;
+import com.mojang.brigadier.arguments.BoolArgumentType;
+
 public class LlamamodModGameRules {
-	public static GameRules.Key<GameRules.BooleanValue> GIVE_ALL_RECIPES;
-	public static GameRules.Key<GameRules.BooleanValue> ALLOW_ITEM_DELETION;
-	public static GameRules.Key<GameRules.BooleanValue> PREVENT_NESTED_STORAGE_ITEMS;
-	public static GameRules.Key<GameRules.BooleanValue> GIVE_GOLDEN_BANANA_EFFECTS;
+	public static final DeferredRegister<GameRule<?>> REGISTRY = DeferredRegister.create(Registries.GAME_RULE, LlamamodMod.MODID);
+	public static DeferredHolder<GameRule<?>, GameRule<Boolean>> GIVE_ALL_RECIPES = registerBoolean("give_all_recipes", GameRuleCategory.PLAYER, true);
+	public static DeferredHolder<GameRule<?>, GameRule<Boolean>> ALLOW_ITEM_DELETION = registerBoolean("allow_item_deletion", GameRuleCategory.MISC, true);
+	public static DeferredHolder<GameRule<?>, GameRule<Boolean>> PREVENT_NESTED_STORAGE_ITEMS = registerBoolean("prevent_nested_storage_items", GameRuleCategory.MISC, true);
+	public static DeferredHolder<GameRule<?>, GameRule<Boolean>> GIVE_GOLDEN_BANANA_EFFECTS = registerBoolean("give_golden_banana_effects", GameRuleCategory.MISC, true);
 
-	@SubscribeEvent
-	public static void registerGameRules(FMLCommonSetupEvent event) {
-		GIVE_ALL_RECIPES = GameRules.register("giveAllRecipes", GameRules.Category.PLAYER, GameRules.BooleanValue.create(true));
-		ALLOW_ITEM_DELETION = GameRules.register("allowItemDeletion", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
-		PREVENT_NESTED_STORAGE_ITEMS = GameRules.register("preventNestedStorageItems", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
-		GIVE_GOLDEN_BANANA_EFFECTS = GameRules.register("giveGoldenBananaEffects", GameRules.Category.MISC, GameRules.BooleanValue.create(true));
+	private static DeferredHolder<GameRule<?>, GameRule<Boolean>> registerBoolean(String registryname, GameRuleCategory category, boolean value) {
+		return REGISTRY.register(registryname, () -> new GameRule<>(category, GameRuleType.BOOL, BoolArgumentType.bool(), GameRuleTypeVisitor::visitBoolean, Codec.BOOL, b -> b ? 1 : 0, value, FeatureFlagSet.of()));
 	}
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Whitebricks"
-      },
-      {
-        "value": "CUSTOM:Whitebricks"
-      },
-      {
-        "value": "CUSTOM:Whitebricks"
-      },
-      {
-        "value": "CUSTOM:Whitebricks"
-      },
-      {
-        "value": "CUSTOM:Whitebricks"
-      },
-      {
-        "value": "CUSTOM:Whitebricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Whitebricks",
+      "CUSTOM:Whitebricks",
+      "CUSTOM:Whitebricks",
+      "CUSTOM:Whitebricks",
+      "CUSTOM:Whitebricks",
+      "CUSTOM:Whitebricks",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Whitebrickwall"
-    },
+    "recipeReturnStack": "CUSTOM:Whitebrickwall",
     "name": "white_brick_wall_rec",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 88,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:MagentaLargeTile"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:MagentaLargeTile"
-      },
-      {
-        "value": "CUSTOM:MagentaLargeTile"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:MagentaLargeTile"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:MagentaLargeTile",
+      "Items.STICK",
+      "CUSTOM:MagentaLargeTile",
+      "CUSTOM:MagentaLargeTile",
+      "Items.STICK",
+      "CUSTOM:MagentaLargeTile",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:MagentaLargeTileFence"
-    },
+    "recipeReturnStack": "CUSTOM:MagentaLargeTileFence",
     "name": "magenta_large_tile_fence_rec",
     "namespace": "mod"
   }

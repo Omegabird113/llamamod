@@ -1,7 +1,5 @@
 package io.github.omegabird113.llamablocks.command;
 
-import org.checkerframework.checker.units.qual.s;
-
 import net.neoforged.neoforge.event.RegisterCommandsEvent;
 import net.neoforged.neoforge.common.util.FakePlayerFactory;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -23,7 +21,7 @@ import com.mojang.brigadier.arguments.StringArgumentType;
 public class LmcmdCommand {
 	@SubscribeEvent
 	public static void registerCommand(RegisterCommandsEvent event) {
-		event.getDispatcher().register(Commands.literal("llamablocks").requires(s -> s.hasPermission(3)).then(Commands.literal("about").executes(arguments -> {
+		event.getDispatcher().register(Commands.literal("llamablocks").requires(Commands.hasPermission(Commands.LEVEL_ADMINS)).then(Commands.literal("about").executes(arguments -> {
 			Level world = arguments.getSource().getUnsidedLevel();
 			double x = arguments.getSource().getPosition().x();
 			double y = arguments.getSource().getPosition().y();

@@ -9,8 +9,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
@@ -40,7 +40,10 @@ public class SecurestorageblockBlock extends Block implements EntityBlock {
 
 	@Override
 	public BlockState getStateForPlacement(BlockPlaceContext context) {
-		return super.getStateForPlacement(context).setValue(FACING, context.getNearestLookingDirection().getOpposite());
+		BlockState state = super.getStateForPlacement(context);
+		if (state == null)
+			return null;
+		return state.setValue(FACING, context.getNearestLookingDirection().getOpposite());
 	}
 
 	public BlockState rotate(BlockState state, Rotation rot) {
@@ -52,7 +55,7 @@ public class SecurestorageblockBlock extends Block implements EntityBlock {
 	}
 
 	@Override
-	public float getEnchantPowerBonus(BlockState state, LevelReader world, BlockPos pos) {
+	public float getEnchantPowerBonus(BlockState state, BlockGetter world, BlockPos pos) {
 		return 0.1f;
 	}
 
@@ -99,7 +102,7 @@ public class SecurestorageblockBlock extends Block implements EntityBlock {
 	}
 
 	@Override
-	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos) {
+	public int getAnalogOutputSignal(BlockState blockState, Level world, BlockPos pos, Direction direction) {
 		BlockEntity tileentity = world.getBlockEntity(pos);
 		if (tileentity instanceof SecurestorageblockBlockEntity be)
 			return AbstractContainerMenu.getRedstoneSignalFromContainer(be);
