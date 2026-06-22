@@ -1,7 +1,8 @@
 {
   "homepage": "https://modrinth.com/mod/llamablocks/versions",
   "26.1.2": {
-    "1.3.2-beta2+mc26.1.2-nonprod": "first (non-production) build for 26.1.2"
+    "1.3.2-beta.2+mc26.1.2+build.2": "second beta build for 26.1.2"
+    "1.3.2-beta2+mc26.1.2-nonprod": "first (non-production) beta build for 26.1.2"
   },
   "1.21.8": {
     "1.3.1": "1. Improvements to every UI 2. Password Changer unsupported block warning UI 3. Authenticator Improvements 4. more",
@@ -23,6 +24,8 @@
     "1.2.0": "1. Golden Banana 2. Computer Improvement 3. Much more. (This is the first full version to support 1.21.1)"
   },
   "promos": {
+    "26.1.2-latest": "1.3.2-beta.2+mc26.1.2+build.2",
+    "26.1.2-recommended": "1.3.2-beta.2+mc26.1.2+build.2",
     "1.21.8-latest": "1.3.1",
     "1.21.8-recommended": "1.3.1",
     "1.21.1-latest": "1.3.1",
