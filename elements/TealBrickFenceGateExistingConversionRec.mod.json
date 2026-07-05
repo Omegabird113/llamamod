@@ -1,14 +1,12 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
     "unlockingItems": [
-      {
-        "value": "Items.DYE#19"
-      }
+      "Items.DYE#19"
     ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -16,37 +14,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "TAG:mod:brick_fence_gates"
-      },
-      {
-        "value": "Items.DYE#2"
-      },
-      {
-        "value": "Items.DYE#18"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "TAG:mod:brick_fence_gates",
+      "Items.DYE#2",
+      "Items.DYE#18",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Tealbrickfencegate"
-    },
+    "recipeReturnStack": "CUSTOM:Tealbrickfencegate",
     "name": "teal_brick_fence_gate_existing_conversion_rec",
     "namespace": "mod"
   }

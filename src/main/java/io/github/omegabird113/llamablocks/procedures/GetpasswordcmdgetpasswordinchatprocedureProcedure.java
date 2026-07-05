@@ -4,6 +4,8 @@ import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.server.permissions.Permissions;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.arguments.coordinates.BlockPosArgument;
@@ -16,14 +18,27 @@ public class GetpasswordcmdgetpasswordinchatprocedureProcedure {
 	public static void execute(LevelAccessor world, CommandContext<CommandSourceStack> arguments, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerCmd0 && _playerCmd0.hasPermissions(3)) {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal((getBlockNBTString(world,
+		if (hasEntityPermissionLevel(entity, 3)) {
+			if (entity instanceof ServerPlayer _player)
+				_player.sendSystemMessage(Component.literal((getBlockNBTString(world,
 						new BlockPos(commandParameterBlockPos(arguments, "location").getX(), commandParameterBlockPos(arguments, "location").getY(), commandParameterBlockPos(arguments, "location").getZ()), "access_password"))), false);
 		} else {
-			if (entity instanceof Player _player && !_player.level().isClientSide())
-				_player.displayClientMessage(Component.literal("ERROR: Access Denied"), false);
+			if (entity instanceof ServerPlayer _player)
+				_player.sendSystemMessage(Component.literal("ERROR: Access Denied"), false);
 		}
+	}
+
+	private static boolean hasEntityPermissionLevel(Entity entity, int permissionLevel) {
+		if (entity instanceof Player _player) {
+			return switch (permissionLevel) {
+				case 0 -> true;
+				case 1 -> _player.permissions().hasPermission(Permissions.COMMANDS_MODERATOR);
+				case 2 -> _player.permissions().hasPermission(Permissions.COMMANDS_GAMEMASTER);
+				case 3 -> _player.permissions().hasPermission(Permissions.COMMANDS_ADMIN);
+				default -> _player.permissions().hasPermission(Permissions.COMMANDS_OWNER);
+			};
+		}
+		return false;
 	}
 
 	private static BlockPos commandParameterBlockPos(CommandContext<CommandSourceStack> arguments, String parameter) {

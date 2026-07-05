@@ -5,6 +5,5 @@
     "bottom": "llamamod:block/yellow_brick",
     "top": "llamamod:block/yellow_brick",
     "side": "llamamod:block/yellow_brick"
-  },
-  "render_type": "solid"
+  }
 }

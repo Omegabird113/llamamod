@@ -3,6 +3,5 @@
   "textures": {
     "texture": "llamamod:block/tile",
     "particle": "llamamod:block/tile"
-  },
-  "render_type": "solid"
+  }
 }

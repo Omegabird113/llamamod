@@ -14,7 +14,7 @@ public class ClearSecStoorageBlockProcedureProcedure {
 		if (entity == null)
 			return;
 		double iteratir = 0;
-		if (world instanceof ServerLevel _serverLevelGR0 && _serverLevelGR0.getGameRules().getBoolean(LlamamodModGameRules.ALLOW_ITEM_DELETION)) {
+		if (world instanceof ServerLevel _serverLevelGR0 && _serverLevelGR0.getGameRules().get(LlamamodModGameRules.ALLOW_ITEM_DELETION.get())) {
 			iteratir = 0;
 			while (iteratir <= 62) {
 				if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu) {

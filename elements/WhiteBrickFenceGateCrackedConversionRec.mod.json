@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Whitebrickfencegate"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedWhiteBrickFenceGate"
-    },
+    "smeltingInputStack": "CUSTOM:Whitebrickfencegate",
+    "smeltingReturnStack": "CUSTOM:CrackedWhiteBrickFenceGate",
     "name": "white_brick_fence_gate_cracked_conversion_rec",
     "namespace": "mod"
   }

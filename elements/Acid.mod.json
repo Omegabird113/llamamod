@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "fluid",
   "definition": {
     "name": "Acid",
@@ -24,9 +24,7 @@
     "levelDecrease": 1,
     "slopeFindDistance": 5,
     "spawnParticles": true,
-    "dripParticle": {
-      "value": "CUSTOM:Acidparticle"
-    },
+    "dripParticle": "CUSTOM:Acidparticle",
     "flowStrength": -0.06,
     "luminosity": 0,
     "density": 1000,
@@ -36,13 +34,9 @@
     "generateBucket": true,
     "textureBucket": "acid_bucket",
     "creativeTabs": [
-      {
-        "value": "CUSTOM:LlamaMod"
-      }
+      "CUSTOM:LlamaMod"
     ],
-    "emptySound": {
-      "value": "item.bucket.empty"
-    },
+    "emptySound": "item.bucket.empty",
     "rarity": "COMMON",
     "specialInformation": {
       "fixedValue": []
@@ -56,8 +50,6 @@
     "flammability": 0,
     "fireSpreadSpeed": 400,
     "colorOnMap": "WARPED_WART",
-    "onEntityCollides": {
-      "name": "AcidMobplayerCollidesBlock"
-    }
+    "onEntityCollides": "AcidMobplayerCollidesBlock"
   }
 }

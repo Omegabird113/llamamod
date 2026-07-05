@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -16,9 +16,7 @@
           "name": "button_x",
           "text": "X",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Xbuttonprocidure"
-          },
+          "onClick": "Xbuttonprocidure",
           "width": 30,
           "height": 20,
           "x": 271,
@@ -469,12 +467,8 @@
           "name": "button_delete_items",
           "text": "Delete Items",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Clearnetherpackprocidure"
-          },
-          "displayCondition": {
-            "name": "IsAllowClearingBoxChecked"
-          },
+          "onClick": "Clearnetherpackprocidure",
+          "displayCondition": "IsAllowClearingBoxChecked",
           "width": 87,
           "height": 20,
           "x": 127,
@@ -804,9 +798,7 @@
             "falpha": 0.0
           },
           "hasShadow": false,
-          "displayCondition": {
-            "name": "IsThisBetaProcedure"
-          },
+          "displayCondition": "IsThisBetaProcedure",
           "x": 217,
           "y": 21,
           "locked": false

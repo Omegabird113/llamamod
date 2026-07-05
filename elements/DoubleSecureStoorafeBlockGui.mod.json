@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -1293,12 +1293,8 @@
           "name": "button_clear",
           "text": "Clear",
           "isUndecorated": false,
-          "onClick": {
-            "name": "ClearSecStoorageBlockProcedure"
-          },
-          "displayCondition": {
-            "name": "IsAllowClearingBoxChecked"
-          },
+          "onClick": "ClearSecStoorageBlockProcedure",
+          "displayCondition": "IsAllowClearingBoxChecked",
           "width": 51,
           "height": 20,
           "x": 302,
@@ -1312,9 +1308,7 @@
           "name": "button_close",
           "text": "Close",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Xbuttonprocidure"
-          },
+          "onClick": "Xbuttonprocidure",
           "width": 51,
           "height": 20,
           "x": 302,
@@ -1344,9 +1338,7 @@
             "falpha": 0.0
           },
           "hasShadow": false,
-          "displayCondition": {
-            "name": "IsThisBetaProcedure"
-          },
+          "displayCondition": "IsThisBetaProcedure",
           "x": 303,
           "y": 27,
           "locked": false

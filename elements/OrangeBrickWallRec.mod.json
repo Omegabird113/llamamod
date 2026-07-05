@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Orangebricks"
-      },
-      {
-        "value": "CUSTOM:Orangebricks"
-      },
-      {
-        "value": "CUSTOM:Orangebricks"
-      },
-      {
-        "value": "CUSTOM:Orangebricks"
-      },
-      {
-        "value": "CUSTOM:Orangebricks"
-      },
-      {
-        "value": "CUSTOM:Orangebricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Orangebricks",
+      "CUSTOM:Orangebricks",
+      "CUSTOM:Orangebricks",
+      "CUSTOM:Orangebricks",
+      "CUSTOM:Orangebricks",
+      "CUSTOM:Orangebricks",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Orangebrickwall"
-    },
+    "recipeReturnStack": "CUSTOM:Orangebrickwall",
     "name": "orange_brick_wall_rec",
     "namespace": "mod"
   }

@@ -5,6 +5,5 @@
     "bottom": "llamamod:block/ceiling_tile",
     "top": "llamamod:block/ceiling_tile",
     "side": "llamamod:block/ceiling_tile"
-  },
-  "render_type": "solid"
+  }
 }

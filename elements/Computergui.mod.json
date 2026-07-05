@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -79,9 +79,7 @@
           "name": "button_x",
           "text": "X",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Xbuttonprocidure"
-          },
+          "onClick": "Xbuttonprocidure",
           "width": 30,
           "height": 20,
           "x": 343,
@@ -142,12 +140,8 @@
           "name": "button_kill",
           "text": "Kill",
           "isUndecorated": false,
-          "onClick": {
-            "name": "CompkillplayerXprocedure"
-          },
-          "displayCondition": {
-            "name": "ComputerPlayerManagementPermissionCheck"
-          },
+          "onClick": "CompkillplayerXprocedure",
+          "displayCondition": "ComputerPlayerManagementPermissionCheck",
           "width": 46,
           "height": 20,
           "x": 273,
@@ -224,9 +218,7 @@
           "name": "button_set",
           "text": "Set",
           "isUndecorated": false,
-          "onClick": {
-            "name": "SetComputerRedstoneOutputPowerLevelProcedure"
-          },
+          "onClick": "SetComputerRedstoneOutputPowerLevelProcedure",
           "width": 40,
           "height": 20,
           "x": 226,
@@ -240,9 +232,7 @@
           "name": "button_random",
           "text": "Random",
           "isUndecorated": false,
-          "onClick": {
-            "name": "SetRANDOMComputerRedstoneOutputPowerLevelProcedure"
-          },
+          "onClick": "SetRANDOMComputerRedstoneOutputPowerLevelProcedure",
           "width": 56,
           "height": 20,
           "x": 267,
@@ -291,9 +281,7 @@
           "name": "button_message",
           "text": "Message",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Compsendmsgprocidure"
-          },
+          "onClick": "Compsendmsgprocidure",
           "width": 61,
           "height": 20,
           "x": 211,
@@ -349,9 +337,7 @@
             "falpha": 0.0
           },
           "hasShadow": false,
-          "displayCondition": {
-            "name": "IsThisBetaProcedure"
-          },
+          "displayCondition": "IsThisBetaProcedure",
           "x": 313,
           "y": 39,
           "locked": false
@@ -375,9 +361,7 @@
           "name": "button_calculate",
           "text": "Calculate",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Computercalculateprocidure"
-          },
+          "onClick": "Computercalculateprocidure",
           "width": 72,
           "height": 20,
           "x": 258,
@@ -391,12 +375,8 @@
           "name": "button_clear_inventory",
           "text": "Clear Inventory",
           "isUndecorated": false,
-          "onClick": {
-            "name": "CompClearInventoryOfPlayerXProcedure"
-          },
-          "displayCondition": {
-            "name": "ComputerPlayerManagementPermissionCheck"
-          },
+          "onClick": "CompClearInventoryOfPlayerXProcedure",
+          "displayCondition": "ComputerPlayerManagementPermissionCheck",
           "width": 103,
           "height": 20,
           "x": 211,
@@ -410,12 +390,8 @@
           "name": "button_clear_textboxes",
           "text": "Clear Textboxes",
           "isUndecorated": false,
-          "onClick": {
-            "name": "ComputerguiClearTextboxes"
-          },
-          "displayCondition": {
-            "name": "ReturnComputerguiClearTextboxesButtonDisplayCondition"
-          },
+          "onClick": "ComputerguiClearTextboxes",
+          "displayCondition": "ReturnComputerguiClearTextboxesButtonDisplayCondition",
           "width": 103,
           "height": 20,
           "x": 90,
@@ -434,15 +410,9 @@
         }
       }
     ],
-    "onOpen": {
-      "name": "ComputerguiThisGUIIsOpened"
-    },
-    "onTick": {
-      "name": "ComputerguiWhileThisGUIIsOpenTick"
-    },
-    "onClosed": {
-      "name": "ComputerguiThisGUIIsClosed"
-    },
+    "onOpen": "ComputerguiThisGUIIsOpened",
+    "onTick": "ComputerguiWhileThisGUIIsOpenTick",
+    "onClosed": "ComputerguiThisGUIIsClosed",
     "gridSettings": {
       "sx": 18,
       "sy": 18,

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "gui",
   "definition": {
     "type": 0,
@@ -63,9 +63,7 @@
           "name": "button_submit",
           "text": "Submit",
           "isUndecorated": false,
-          "onClick": {
-            "name": "AuthProcedure"
-          },
+          "onClick": "AuthProcedure",
           "width": 56,
           "height": 20,
           "x": 154,
@@ -79,9 +77,7 @@
           "name": "button_x",
           "text": "X",
           "isUndecorated": false,
-          "onClick": {
-            "name": "Xbuttonprocidure"
-          },
+          "onClick": "Xbuttonprocidure",
           "width": 30,
           "height": 20,
           "x": 249,
@@ -111,9 +107,7 @@
             "falpha": 0.0
           },
           "hasShadow": false,
-          "displayCondition": {
-            "name": "IsThisBetaProcedure"
-          },
+          "displayCondition": "IsThisBetaProcedure",
           "x": 151,
           "y": 71,
           "locked": false

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Ceilingtiles"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:Ceilingtiles"
-      },
-      {
-        "value": "CUSTOM:Ceilingtiles"
-      },
-      {
-        "value": "Items.STICK"
-      },
-      {
-        "value": "CUSTOM:Ceilingtiles"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Ceilingtiles",
+      "Items.STICK",
+      "CUSTOM:Ceilingtiles",
+      "CUSTOM:Ceilingtiles",
+      "Items.STICK",
+      "CUSTOM:Ceilingtiles",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Ceilingtilefence"
-    },
+    "recipeReturnStack": "CUSTOM:Ceilingtilefence",
     "name": "ceiling_tile_fence_rec",
     "namespace": "mod"
   }

@@ -3,6 +3,5 @@
   "textures": {
     "wall": "llamamod:block/yellow_large_tile",
     "particle": "llamamod:block/yellow_large_tile"
-  },
-  "render_type": "solid"
+  }
 }

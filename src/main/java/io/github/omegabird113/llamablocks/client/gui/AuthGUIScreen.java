@@ -5,20 +5,22 @@ import net.neoforged.neoforge.client.network.ClientPacketDistributor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.renderer.RenderPipelines;
+import net.minecraft.client.input.KeyEvent;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 
 import io.github.omegabird113.llamablocks.world.inventory.AuthGUIMenu;
 import io.github.omegabird113.llamablocks.procedures.ReturnNameOfSelectedBlockProcedureProcedure;
 import io.github.omegabird113.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import io.github.omegabird113.llamablocks.network.AuthGUIButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
+
+import com.mojang.blaze3d.platform.InputConstants;
 
 public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
@@ -28,18 +30,16 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 	private EditBox password;
 	private Button button_submit;
 	private Button button_x;
-	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/auth_gui.png");
-	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png");
+	private static final Identifier BACKGROUND = Identifier.parse("llamamod:textures/screens/auth_gui.png");
+	private static final Identifier IMAGE_0 = Identifier.parse("llamamod:textures/screens/my-levae_the_password_feild_empty_if_you_havent_yet_configured_a_password..png");
 
 	public AuthGUIScreen(AuthGUIMenu container, Inventory inventory, Component text) {
-		super(container, inventory, text);
+		super(container, inventory, text, 130, 76);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 130;
-		this.imageHeight = 76;
 	}
 
 	@Override
@@ -53,48 +53,49 @@ public class AuthGUIScreen extends AbstractContainerScreen<AuthGUIMenu> implemen
 	}
 
 	@Override
-	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-		password.render(guiGraphics, mouseX, mouseY, partialTicks);
-		this.renderTooltip(guiGraphics, mouseX, mouseY);
+	public void extractRenderState(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		super.extractRenderState(guiGraphics, mouseX, mouseY, partialTicks);
+		password.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
 	}
 
 	@Override
-	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
+	public void extractBackground(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		super.extractBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + -14, this.topPos + 76, 0, 0, 0, 0, 0, 0);
 	}
 
 	@Override
-	public boolean keyPressed(int key, int b, int c) {
+	public boolean keyPressed(KeyEvent event) {
+		int key = InputConstants.getKey(event).getValue();
 		if (key == 256) {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
 		if (password.isFocused())
-			return password.keyPressed(key, b, c);
-		return super.keyPressed(key, b, c);
+			return password.keyPressed(event);
+		return super.keyPressed(event);
 	}
 
 	@Override
-	public void resize(Minecraft minecraft, int width, int height) {
+	public void resize(int width, int height) {
 		String passwordValue = password.getValue();
-		super.resize(minecraft, width, height);
+		super.resize(width, height);
 		password.setValue(passwordValue);
 	}
 
 	@Override
-	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, ReturnNameOfSelectedBlockProcedureProcedure.execute(world, x, y, z), 5, 6, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.auth_gui.label_enter_password"), 5, 17, -16777016, false);
+	protected void extractLabels(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.text(this.font, ReturnNameOfSelectedBlockProcedureProcedure.execute(world, x, y, z), 5, 6, -16777216, false);
+		guiGraphics.text(this.font, Component.translatable("gui.llamamod.auth_gui.label_enter_password"), 5, 17, -16777016, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.auth_gui.label_beta"), 2, -11, -65536, false);
+			guiGraphics.text(this.font, Component.translatable("gui.llamamod.auth_gui.label_beta"), 2, -11, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		password = new EditBox(this.font, this.leftPos + 5, this.topPos + 27, 118, 18, Component.translatable("gui.llamamod.auth_gui.password"));
+		password = new EditBox(this.font, this.leftPos + 4, this.topPos + 26, 120, 20, Component.translatable("gui.llamamod.auth_gui.password"));
 		password.setMaxLength(8192);
 		password.setResponder(content -> {
 			if (!menuStateUpdateActive)

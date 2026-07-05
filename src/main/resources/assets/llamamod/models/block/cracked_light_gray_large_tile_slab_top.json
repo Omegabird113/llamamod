@@ -5,6 +5,5 @@
     "bottom": "llamamod:block/cracked_light_gray_large_tiles",
     "top": "llamamod:block/cracked_light_gray_large_tiles",
     "side": "llamamod:block/cracked_light_gray_large_tiles"
-  },
-  "render_type": "solid"
+  }
 }

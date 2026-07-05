@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedLightBlueBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedLightBlueBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedLightBlueBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedLightBlueBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedLightBlueBricks"
-      },
-      {
-        "value": "CUSTOM:CrackedLightBlueBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedLightBlueBricks",
+      "CUSTOM:CrackedLightBlueBricks",
+      "CUSTOM:CrackedLightBlueBricks",
+      "CUSTOM:CrackedLightBlueBricks",
+      "CUSTOM:CrackedLightBlueBricks",
+      "CUSTOM:CrackedLightBlueBricks",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedLightBlueBrickWall"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedLightBlueBrickWall",
     "name": "light_blue_cracked_brick_wall_rec",
     "namespace": "mod"
   }

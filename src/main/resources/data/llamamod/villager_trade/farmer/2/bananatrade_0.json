@@ -1,0 +1,13 @@
+{
+  "wants": {
+    "id": "minecraft:emerald",
+    "count": 2
+  },
+  "gives": {
+    "id": "llamamod:banana",
+    "count": 3
+  },
+  "max_uses": 15,
+  "xp": 3,
+  "reputation_discount": 0.05
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "plant",
   "definition": {
     "renderType": 120,
@@ -46,9 +46,7 @@
       "fixedValue": []
     },
     "creativeTabs": [
-      {
-        "value": "CUSTOM:LlamaMod"
-      }
+      "CUSTOM:LlamaMod"
     ],
     "hardness": 0.07,
     "resistance": 0.31,
@@ -60,29 +58,15 @@
     "maxStackSize": 64,
     "rarity": "COMMON",
     "immuneToFire": false,
+    "soundOnStep": "PLANT",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "PLANT"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "stepSound": "",
+    "placeSound": "",
+    "hitSound": "",
+    "fallSound": "",
     "useLootTableForDrops": true,
-    "customDrop": {
-      "value": "Blocks.SAPLING#5"
-    },
+    "customDrop": "Blocks.SAPLING#5",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -91,46 +75,26 @@
     "hasTileEntity": false,
     "isReplaceable": true,
     "colorOnMap": "GREEN",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "XYZ",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": true,
     "flammability": 100,
     "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [
-      {
-        "value": "Blocks.GRASS"
-      },
-      {
-        "value": "Blocks.DIRT#0"
-      },
-      {
-        "value": "Blocks.FARMLAND"
-      },
-      {
-        "value": "Blocks.MUD"
-      },
-      {
-        "value": "Blocks.DIRT#2"
-      },
-      {
-        "value": "Blocks.DIRT#1"
-      }
+      "Blocks.GRASS",
+      "Blocks.DIRT#0",
+      "Blocks.FARMLAND",
+      "Blocks.MUD",
+      "Blocks.DIRT#2",
+      "Blocks.DIRT#1"
     ],
     "isBonemealable": true,
-    "bonemealSuccessCondition": {
-      "name": "CanBoneMealBeUsedOnBananaPlant"
-    },
-    "onBonemealSuccess": {
-      "name": "BannanaplantOnBoneMealSuccess"
-    },
+    "bonemealSuccessCondition": "CanBoneMealBeUsedOnBananaPlant",
+    "onBonemealSuccess": "BannanaplantOnBoneMealSuccess",
     "frequencyOnChunks": 3,
     "generateFeature": false,
     "restrictionBiomes": [],

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:Cherrybrickslab"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedCherryBrickSlab"
-    },
+    "smeltingInputStack": "CUSTOM:Cherrybrickslab",
+    "smeltingReturnStack": "CUSTOM:CrackedCherryBrickSlab",
     "name": "cherry_brick_slab_cracked_conversion_rec",
     "namespace": "mod"
   }

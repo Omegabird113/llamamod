@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:LightGrayBricks"
-      },
-      {
-        "value": "CUSTOM:LightGrayBricks"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:LightGrayBricks",
+      "CUSTOM:LightGrayBricks",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Lightgraybrickpreasureplate"
-    },
+    "recipeReturnStack": "CUSTOM:Lightgraybrickpreasureplate",
     "name": "light_gray_brick_preassure_plate_rec",
     "namespace": "mod"
   }

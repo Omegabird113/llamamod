@@ -8,6 +8,5 @@
     "south": "llamamod:block/computer_side_empty",
     "west": "llamamod:block/computer_side_empty",
     "particle": "llamamod:block/computer_bottom"
-  },
-  "render_type": "solid"
+  }
 }

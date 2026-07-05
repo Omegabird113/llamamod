@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "TAG:mod:non_black_concrete"
-      },
-      {
-        "value": "Blocks.CONCRETE#15"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "Blocks.CONCRETE#15"
-      },
-      {
-        "value": "TAG:mod:non_black_concrete"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "TAG:mod:non_black_concrete",
+      "Blocks.CONCRETE#15",
+      "",
+      "Blocks.CONCRETE#15",
+      "TAG:mod:non_black_concrete",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:Tiles"
-    },
+    "recipeReturnStack": "CUSTOM:Tiles",
     "name": "blackandnonblacktilerecipe",
     "namespace": "mod"
   }

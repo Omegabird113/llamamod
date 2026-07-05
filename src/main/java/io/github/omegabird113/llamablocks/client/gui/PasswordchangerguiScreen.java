@@ -5,14 +5,14 @@ import net.neoforged.neoforge.client.network.ClientPacketDistributor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.renderer.RenderPipelines;
+import net.minecraft.client.input.KeyEvent;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiGraphicsExtractor;
 
 import io.github.omegabird113.llamablocks.world.inventory.PasswordchangerguiMenu;
 import io.github.omegabird113.llamablocks.procedures.PasswordbananaprivlidgeescheckProcedure;
@@ -20,6 +20,8 @@ import io.github.omegabird113.llamablocks.procedures.PasswordbananaRightclickedO
 import io.github.omegabird113.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import io.github.omegabird113.llamablocks.network.PasswordchangerguiButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
+
+import com.mojang.blaze3d.platform.InputConstants;
 
 public class PasswordchangerguiScreen extends AbstractContainerScreen<PasswordchangerguiMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
@@ -31,18 +33,16 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 	private Button button_submit;
 	private Button button_x;
 	private Button button_reset;
-	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/passwordchangergui.png");
-	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/warning.png");
+	private static final Identifier BACKGROUND = Identifier.parse("llamamod:textures/screens/passwordchangergui.png");
+	private static final Identifier IMAGE_0 = Identifier.parse("llamamod:textures/screens/warning.png");
 
 	public PasswordchangerguiScreen(PasswordchangerguiMenu container, Inventory inventory, Component text) {
-		super(container, inventory, text);
+		super(container, inventory, text, 134, 108);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 134;
-		this.imageHeight = 108;
 	}
 
 	@Override
@@ -58,68 +58,66 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 	}
 
 	@Override
-	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		super.render(guiGraphics, mouseX, mouseY, partialTicks);
-		password.render(guiGraphics, mouseX, mouseY, partialTicks);
-		current_password.render(guiGraphics, mouseX, mouseY, partialTicks);
-		boolean customTooltipShown = false;
+	public void extractRenderState(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTicks) {
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
 			if (mouseX > leftPos + 0 && mouseX < leftPos + 24 && mouseY > topPos + 107 && mouseY < topPos + 131) {
 				guiGraphics.setTooltipForNextFrame(font, Component.translatable("gui.llamamod.passwordchangergui.tooltip_you_see_this_becuase_youre_an_o"), mouseX, mouseY);
-				customTooltipShown = true;
 			}
-		if (!customTooltipShown)
-			this.renderTooltip(guiGraphics, mouseX, mouseY);
+		super.extractRenderState(guiGraphics, mouseX, mouseY, partialTicks);
+		password.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
+		current_password.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
 	}
 
 	@Override
-	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
+	public void extractBackground(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		super.extractBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + -1, this.topPos + -17, 0, 0, 16, 16, 16, 16);
 	}
 
 	@Override
-	public boolean keyPressed(int key, int b, int c) {
+	public boolean keyPressed(KeyEvent event) {
+		int key = InputConstants.getKey(event).getValue();
 		if (key == 256) {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
 		if (password.isFocused())
-			return password.keyPressed(key, b, c);
+			return password.keyPressed(event);
 		if (current_password.isFocused())
-			return current_password.keyPressed(key, b, c);
-		return super.keyPressed(key, b, c);
+			return current_password.keyPressed(event);
+		return super.keyPressed(event);
 	}
 
 	@Override
-	public void resize(Minecraft minecraft, int width, int height) {
+	public void resize(int width, int height) {
 		String passwordValue = password.getValue();
 		String current_passwordValue = current_password.getValue();
-		super.resize(minecraft, width, height);
+		super.resize(width, height);
 		password.setValue(passwordValue);
 		current_password.setValue(current_passwordValue);
 	}
 
 	@Override
-	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_secure_stoorage_block"), 5, 6, -16777216, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_enter_password"), 5, 16, -16777016, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_enter_password_again"), 5, 45, -16777131, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_if_there_is_one"), 5, 53, -16777131, false);
+	protected void extractLabels(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.text(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_secure_stoorage_block"), 5, 6, -16777216, false);
+		guiGraphics.text(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_enter_password"), 5, 16, -16777016, false);
+		guiGraphics.text(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_enter_password_again"), 5, 45, -16777131, false);
+		guiGraphics.text(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_if_there_is_one"), 5, 53, -16777131, false);
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_change_password"), 1, 108, -1, false);
+			guiGraphics.text(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_change_password"), 1, 108, -1, false);
 		if (PasswordbananaprivlidgeescheckProcedure.execute(entity))
-			guiGraphics.drawString(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 1, 117, -16711936, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 16, -17, -256, false);
-		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 16, -10, -256, false);
+			guiGraphics.text(this.font, PasswordbananaRightclickedOnBlockProcedure.execute(world, x, y, z, entity), 1, 117, -16711936, false);
+		guiGraphics.text(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_operators_can_see_your_passwords"), 16, -17, -256, false);
+		guiGraphics.text(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_see_your_passwords"), 16, -10, -256, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 135, 0, -65536, false);
+			guiGraphics.text(this.font, Component.translatable("gui.llamamod.passwordchangergui.label_beta"), 135, 0, -65536, false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		password = new EditBox(this.font, this.leftPos + 5, this.topPos + 25, 118, 18, Component.translatable("gui.llamamod.passwordchangergui.password"));
+		password = new EditBox(this.font, this.leftPos + 4, this.topPos + 24, 120, 20, Component.translatable("gui.llamamod.passwordchangergui.password"));
 		password.setMaxLength(8192);
 		password.setResponder(content -> {
 			if (!menuStateUpdateActive)
@@ -127,7 +125,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 		});
 		password.setHint(Component.translatable("gui.llamamod.passwordchangergui.password"));
 		this.addWidget(this.password);
-		current_password = new EditBox(this.font, this.leftPos + 5, this.topPos + 62, 118, 18, Component.translatable("gui.llamamod.passwordchangergui.current_password"));
+		current_password = new EditBox(this.font, this.leftPos + 4, this.topPos + 61, 120, 20, Component.translatable("gui.llamamod.passwordchangergui.current_password"));
 		current_password.setMaxLength(8192);
 		current_password.setResponder(content -> {
 			if (!menuStateUpdateActive)

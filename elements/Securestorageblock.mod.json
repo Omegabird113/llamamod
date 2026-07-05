@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "block",
   "definition": {
     "texture": "secure_stoorage_block_sides",
@@ -19,9 +19,7 @@
     "itemTexture": "",
     "particleTexture": "",
     "blockSetType": "OAK",
-    "pottedPlant": {
-      "value": ""
-    },
+    "pottedPlant": "",
     "leavesParticleChance": 0.0,
     "tintType": "No tint",
     "isItemTinted": false,
@@ -54,14 +52,10 @@
     "rarity": "COMMON",
     "immuneToFire": true,
     "creativeTabs": [
-      {
-        "value": "CUSTOM:LlamaMod"
-      }
+      "CUSTOM:LlamaMod"
     ],
     "destroyTool": "pickaxe",
-    "customDrop": {
-      "value": ""
-    },
+    "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,
@@ -81,14 +75,10 @@
     },
     "colorOnMap": "SNOW",
     "noteBlockInstrument": "harp",
-    "creativePickItem": {
-      "value": ""
-    },
+    "creativePickItem": "",
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "strippingResult": {
-      "value": ""
-    },
+    "strippingResult": "",
     "ignitedByLava": false,
     "flammability": 0,
     "fireSpreadSpeed": 0,
@@ -98,25 +88,13 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "BLOCK",
     "isNotColidable": false,
+    "soundOnStep": "METAL",
     "isCustomSoundType": false,
-    "soundOnStep": {
-      "value": "METAL"
-    },
-    "breakSound": {
-      "value": ""
-    },
-    "fallSound": {
-      "value": ""
-    },
-    "hitSound": {
-      "value": ""
-    },
-    "placeSound": {
-      "value": ""
-    },
-    "stepSound": {
-      "value": ""
-    },
+    "breakSound": "",
+    "fallSound": "",
+    "hitSound": "",
+    "placeSound": "",
+    "stepSound": "",
     "luminance": {
       "fixedValue": 0.0
     },
@@ -137,9 +115,7 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "inventoryInSlotIDs": [],
-    "inventoryAutomationTakeCondition": {
-      "name": "ReturnFalse"
-    },
+    "inventoryAutomationTakeCondition": "ReturnFalse",
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
@@ -148,9 +124,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "OpenAuthGUIProcedure"
-    },
+    "onRightClicked": "OpenAuthGUIProcedure",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],

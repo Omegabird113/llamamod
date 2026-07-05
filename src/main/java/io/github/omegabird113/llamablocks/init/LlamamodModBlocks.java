@@ -1448,7 +1448,7 @@ public class LlamamodModBlocks {
 	@EventBusSubscriber(Dist.CLIENT)
 	public static class BlocksClientSideHandler {
 		@SubscribeEvent
-		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+		public static void blockColorLoad(RegisterColorHandlersEvent.BlockTintSources event) {
 			BannanaplantBlock.blockColorLoad(event);
 		}
 	}

@@ -1,10 +1,8 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "itemextension",
   "definition": {
-    "item": {
-      "value": "CUSTOM:Bannana"
-    },
+    "item": "CUSTOM:Bannana",
     "enableFuel": true,
     "fuelPower": {
       "fixedValue": 100.0

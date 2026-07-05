@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
@@ -11,12 +11,8 @@
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
-    "smeltingInputStack": {
-      "value": "CUSTOM:YellowLargeTileSlab"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:CrackedYellowLargeTileSlab"
-    },
+    "smeltingInputStack": "CUSTOM:YellowLargeTileSlab",
+    "smeltingReturnStack": "CUSTOM:CrackedYellowLargeTileSlab",
     "name": "yellow_large_tile_cracked_conversion_rec",
     "namespace": "mod"
   }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "Blocks.SAPLING#4"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": "CUSTOM:Farmscraps"
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "Blocks.SAPLING#4",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      "",
+      "CUSTOM:Farmscraps",
+      "CUSTOM:Farmscraps",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "Blocks.SAPLING#4"
-    },
+    "recipeReturnStack": "Blocks.SAPLING#4",
     "name": "farmscraps_to_acacia_sapling_rec",
     "namespace": "mod"
   }

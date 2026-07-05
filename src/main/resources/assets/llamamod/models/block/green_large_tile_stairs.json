@@ -5,6 +5,5 @@
     "bottom": "llamamod:block/green_large_tile",
     "top": "llamamod:block/green_large_tile",
     "side": "llamamod:block/green_large_tile"
-  },
-  "render_type": "solid"
+  }
 }

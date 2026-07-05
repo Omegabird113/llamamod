@@ -5,6 +5,5 @@
     "bottom": "llamamod:block/cracked_pink_bricks",
     "top": "llamamod:block/cracked_pink_bricks",
     "side": "llamamod:block/cracked_pink_bricks"
-  },
-  "render_type": "solid"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 85,
+  "_fv": 89,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -12,37 +12,17 @@
     "craftingBookCategory": "BUILDING",
     "recipeShapeless": false,
     "recipeSlots": [
-      {
-        "value": "CUSTOM:CrackedGreenLargeTile"
-      },
-      {
-        "value": "CUSTOM:CrackedGreenLargeTile"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
+      "CUSTOM:CrackedGreenLargeTile",
+      "CUSTOM:CrackedGreenLargeTile",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
     ],
-    "recipeReturnStack": {
-      "value": "CUSTOM:CrackedGreenLargeTilePressurePlate"
-    },
+    "recipeReturnStack": "CUSTOM:CrackedGreenLargeTilePressurePlate",
     "name": "green_cracked_large_tile_pressure_plate_rec",
     "namespace": "mod"
   }
