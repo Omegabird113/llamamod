@@ -4,12 +4,12 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="llamamod"
-version="1.3.2-beta2+mc1.21.8"
+version="1.3.2-rc1+mc26.1.2"
 displayName="LlamaBlocks"
 updateJSONURL="https://raw.githubusercontent.com/Omegabird113/llamamod/refs/heads/master/updates.json"
 displayURL="https://omegabird113.github.io/llamamod/"
 logoFile="logo.png"
-credits="Made with MCreator 2026.1."
+credits="Made with MCreator 2026.2."
 authors="Omegabird113"
 description="LlamaBlocks is a complex, multi-year long development, MCreator mod which adds a ton of features. These include 702 variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named Acid, and more!"
 
