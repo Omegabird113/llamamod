@@ -3,7 +3,9 @@
   "category": "blocks",
   "experience": 2,
   "cookingtime": 200,
-  "ingredient": "llamamod:cyan_bricks",
+  "ingredient": {
+    "item": "llamamod:cyan_bricks"
+  },
   "result": {
     "id": "llamamod:cracked_cyan_bricks"
   }

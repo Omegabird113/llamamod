@@ -5,5 +5,6 @@
     "bottom": "llamamod:block/teal_large_tiles",
     "top": "llamamod:block/teal_large_tiles",
     "side": "llamamod:block/teal_large_tiles"
-  }
+  },
+  "render_type": "solid"
 }

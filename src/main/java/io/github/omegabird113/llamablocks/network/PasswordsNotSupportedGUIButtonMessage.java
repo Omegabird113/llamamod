@@ -7,7 +7,7 @@ import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.protocol.PacketFlow;
 import net.minecraft.network.codec.StreamCodec;
@@ -20,7 +20,7 @@ import io.github.omegabird113.llamablocks.LlamamodMod;
 
 @EventBusSubscriber
 public record PasswordsNotSupportedGUIButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
-	public static final Type<PasswordsNotSupportedGUIButtonMessage> TYPE = new Type<>(Identifier.fromNamespaceAndPath(LlamamodMod.MODID, "passwords_not_supported_gui_buttons"));
+	public static final Type<PasswordsNotSupportedGUIButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "passwords_not_supported_gui_buttons"));
 	public static final StreamCodec<RegistryFriendlyByteBuf, PasswordsNotSupportedGUIButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, PasswordsNotSupportedGUIButtonMessage message) -> {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);

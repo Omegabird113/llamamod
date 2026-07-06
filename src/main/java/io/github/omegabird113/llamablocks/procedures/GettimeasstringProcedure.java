@@ -11,7 +11,7 @@ public class GettimeasstringProcedure {
 		double minute = 0;
 		double twelve_hour_hour = 0;
 		String am_or_pm = "";
-		gametime = world.getGameTime();
+		gametime = world.dayTime();
 		daytime = gametime % 24000;
 		twenty_four_hour_hour = (gametime / 1000 + 6) % 24;
 		minute = (twenty_four_hour_hour - Math.floor(twenty_four_hour_hour)) * 60;

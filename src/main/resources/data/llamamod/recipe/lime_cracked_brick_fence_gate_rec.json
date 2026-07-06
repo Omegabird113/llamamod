@@ -6,8 +6,12 @@
     "aba"
   ],
   "key": {
-    "a": "minecraft:stick",
-    "b": "llamamod:cracked_lime_bricks"
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "llamamod:cracked_lime_bricks"
+    }
   },
   "result": {
     "id": "llamamod:cracked_lime_brick_fence_gate",

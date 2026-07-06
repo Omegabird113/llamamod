@@ -12,12 +12,12 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class CrackedIndustrialBrickButtonBlock extends ButtonBlock {
-	public CrackedIndustrialBrickButtonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, 20, properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops());
+	public CrackedIndustrialBrickButtonBlock() {
+		super(BlockSetType.STONE, 20, BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops());
 	}
 
 	@Override
 	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return PathType.DAMAGING_IN_NEIGHBOR;
+		return PathType.DANGER_OTHER;
 	}
 }

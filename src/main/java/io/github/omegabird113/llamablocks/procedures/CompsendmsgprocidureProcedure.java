@@ -3,7 +3,6 @@ package io.github.omegabird113.llamablocks.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 
 import java.util.ArrayList;
@@ -29,7 +28,7 @@ public class CompsendmsgprocidureProcedure {
 			player_to_msg = entity;
 		}
 		LlamamodMod.LOGGER.debug(("The following player has a message attempting to be sent to them: " + player_to_msg));
-		if (player_to_msg instanceof ServerPlayer _player)
-			_player.sendSystemMessage(Component.literal(msg_to_send), false);
+		if (player_to_msg instanceof Player _player && !_player.level().isClientSide())
+			_player.displayClientMessage(Component.literal(msg_to_send), false);
 	}
 }

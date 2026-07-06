@@ -2,9 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_bricks",
-    "minecraft:copper_ingot",
-    "minecraft:iron_ingot"
+    {
+      "tag": "llamamod:cracked_bricks"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_industrial_bricks",

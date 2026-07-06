@@ -3,5 +3,6 @@
   "textures": {
     "texture": "llamamod:block/lifted_cracked_light_blue_large_tile",
     "particle": "llamamod:block/lifted_cracked_light_blue_large_tile"
-  }
+  },
+  "render_type": "solid"
 }
