@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:lights",
+    "minecraft:prismarine_shard"
+  ],
+  "result": {
+    "id": "minecraft:sea_lantern",
+    "count": 1
+  }
+}

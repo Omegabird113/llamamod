@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:lights",
+    "minecraft:light_gray_dye"
+  ],
+  "result": {
+    "id": "llamamod:light_gray_light",
+    "count": 1
+  }
+}

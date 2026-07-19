@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:lights",
+    "minecraft:lime_dye"
+  ],
+  "result": {
+    "id": "llamamod:lime_light",
+    "count": 1
+  }
+}

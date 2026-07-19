@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "llamamod:lime_light",
+    "llamamod:industrial_light",
+    "llamamod:brown_light",
+    "llamamod:green_light",
+    "llamamod:purple_light",
+    "llamamod:gray_light",
+    "llamamod:yellow_light",
+    "llamamod:white_light",
+    "llamamod:blue_light",
+    "llamamod:teal_light",
+    "llamamod:red_light",
+    "llamamod:orange_light",
+    "llamamod:pink_light",
+    "llamamod:light_blue_light",
+    "llamamod:magenta_light",
+    "llamamod:black_light",
+    "llamamod:cherry_light",
+    "minecraft:sea_lantern",
+    "llamamod:cyan_light",
+    "llamamod:light_gray_light"
+  ]
+}

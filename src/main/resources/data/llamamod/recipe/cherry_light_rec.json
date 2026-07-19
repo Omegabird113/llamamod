@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "#llamamod:lights",
+    "minecraft:pink_dye",
+    "minecraft:red_dye"
+  ],
+  "result": {
+    "id": "llamamod:cherry_light",
+    "count": 1
+  }
+}

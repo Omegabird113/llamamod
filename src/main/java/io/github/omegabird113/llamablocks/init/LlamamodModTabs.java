@@ -717,6 +717,9 @@ public class LlamamodModTabs {
 				tabData.accept(LlamamodModBlocks.PURPLE_LIGHT.get().asItem());
 				tabData.accept(LlamamodModBlocks.MAGENTA_LIGHT.get().asItem());
 				tabData.accept(LlamamodModBlocks.PINK_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.CHERRY_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.TEAL_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.INDUSTRIAL_LIGHT.get().asItem());
 				tabData.accept(LlamamodModBlocks.TILES.get().asItem());
 				tabData.accept(LlamamodModBlocks.TILE_STAIRS.get().asItem());
 				tabData.accept(LlamamodModBlocks.TILE_SLAB.get().asItem());
@@ -748,8 +751,5 @@ public class LlamamodModTabs {
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA.get());
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA_UPGRADE.get());
 				tabData.accept(LlamamodModItems.ACID_BUCKET.get());
-				tabData.accept(LlamamodModBlocks.CHERRY_LIGHT.get().asItem());
-				tabData.accept(LlamamodModBlocks.TEAL_LIGHT.get().asItem());
-				tabData.accept(LlamamodModBlocks.INDUSTRIAL_LIGHT.get().asItem());
 			}).build());
 }

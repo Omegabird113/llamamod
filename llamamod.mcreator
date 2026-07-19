@@ -38305,6 +38305,266 @@
         ]
       },
       "path": "~/Blocks/Lights"
+    },
+    {
+      "name": "WhiteLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/white_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "LightGrayLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_gray_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_gray_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "GrayLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gray_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/gray_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "BlackLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/black_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "BrownLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/brown_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "RedLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/red_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "OrangeLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orange_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/orange_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "YellowLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellow_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/yellow_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "LimeLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lime_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/lime_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "GreenLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/green_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "CyanLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cyan_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "LightBlueLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_blue_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/light_blue_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "BlueLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/blue_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "PurpleLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purple_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/purple_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "MagentaLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magenta_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/magenta_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "PinkLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/pink_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "CherryLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cherry_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/cherry_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "TealLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "teal_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/teal_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "IndustrialLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "industrial_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/industrial_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "VanilliaLightRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vanillia_light_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/vanillia_light_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades/Lights"
     }
   ],
   "variable_elements": [],
@@ -40866,6 +41126,28 @@
     ],
     "VILLAGER_TRADES:minecraft:wandering_trader/common": [
       "~BananatradeExtraProfession@bananatrade_extra_profession_0"
+    ],
+    "ITEMS:mod:lights": [
+      "Blocks.SEA_LANTERN",
+      "CUSTOM:WhiteLight",
+      "CUSTOM:LightGrayLight",
+      "CUSTOM:GrayLight",
+      "CUSTOM:BlackLight",
+      "CUSTOM:BrownLight",
+      "CUSTOM:RedLight",
+      "CUSTOM:OrangeLight",
+      "CUSTOM:YellowLight",
+      "CUSTOM:LimeLight",
+      "CUSTOM:GreenLight",
+      "CUSTOM:CyanLight",
+      "CUSTOM:LightBlueLight",
+      "CUSTOM:BlueLight",
+      "CUSTOM:PurpleLight",
+      "CUSTOM:MagentaLight",
+      "CUSTOM:PinkLight",
+      "CUSTOM:CherryLight",
+      "CUSTOM:TealLight",
+      "CUSTOM:IndustrialLight"
     ]
   },
   "tab_element_order": {
@@ -43738,6 +44020,10 @@
                 ]
               }
             ]
+          },
+          {
+            "name": "Lights",
+            "children": []
           }
         ]
       },
