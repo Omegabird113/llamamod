@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.WallBlock;
 import net.minecraft.world.level.block.SoundType;
 
 public class BlackLargeTileWallBlock extends WallBlock {
-	public BlackLargeTileWallBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
+	public BlackLargeTileWallBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

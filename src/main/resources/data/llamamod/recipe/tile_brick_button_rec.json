@@ -2,7 +2,9 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "llamamod:tiles"
+    {
+      "item": "llamamod:tiles"
+    }
   ],
   "result": {
     "id": "llamamod:tile_button",

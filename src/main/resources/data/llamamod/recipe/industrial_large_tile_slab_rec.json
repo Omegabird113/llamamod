@@ -5,7 +5,9 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:industrial_large_tile"
+    "a": {
+      "item": "llamamod:industrial_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:industrial_large_tile_slab",

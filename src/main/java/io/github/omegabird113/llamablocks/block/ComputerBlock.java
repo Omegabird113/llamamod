@@ -4,7 +4,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
-import net.minecraft.world.level.block.state.properties.EnumProperty;
+import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -25,16 +25,16 @@ import io.github.omegabird113.llamablocks.procedures.ComputerEmittedRedstonePowe
 import io.github.omegabird113.llamablocks.block.entity.ComputerBlockEntity;
 
 public class ComputerBlock extends Block implements EntityBlock {
-	public static final EnumProperty<Direction> FACING = HorizontalDirectionalBlock.FACING;
+	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final IntegerProperty POWER = BlockStateProperties.POWER;
 
-	public ComputerBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(6.65f, 14.5f).lightLevel(blockstate -> 5).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
+	public ComputerBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(6.65f, 14.5f).lightLevel(blockstate -> 5).requiresCorrectToolForDrops().pushReaction(PushReaction.BLOCK));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(POWER, 0));
 	}
 
 	@Override
-	public int getLightDampening(BlockState state) {
+	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 4;
 	}
 

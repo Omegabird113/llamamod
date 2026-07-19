@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.SlabBlock;
 
 public class CyanbrickslabBlock extends SlabBlock {
-	public CyanbrickslabBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_CYAN).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
+	public CyanbrickslabBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
 	}
 }

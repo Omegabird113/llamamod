@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_brick_slab",
-    "minecraft:blue_dye"
+    {
+      "tag": "llamamod:cracked_brick_slab"
+    },
+    {
+      "item": "minecraft:blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_blue_brick_slab",

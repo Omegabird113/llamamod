@@ -6,7 +6,9 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:cherry_bricks"
+    "a": {
+      "item": "llamamod:cherry_bricks"
+    }
   },
   "result": {
     "id": "llamamod:cherry_brick_wall",

@@ -12,8 +12,8 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class CrackedIndustrialBrickStairsBlock extends StairBlock {
-	public CrackedIndustrialBrickStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops());
+	public CrackedIndustrialBrickStairsBlock() {
+		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -23,6 +23,6 @@ public class CrackedIndustrialBrickStairsBlock extends StairBlock {
 
 	@Override
 	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return PathType.DAMAGING_IN_NEIGHBOR;
+		return PathType.DANGER_OTHER;
 	}
 }

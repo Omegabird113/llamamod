@@ -1,48 +1,30 @@
 {
   "type": "llamamod:banana_patch",
   "config": {
-    "features": [
-      {
-        "feature": {
-          "type": "minecraft:simple_block",
-          "config": {
-            "to_place": {
-              "type": "minecraft:simple_state_provider",
-              "state": {
-                "Name": "llamamod:banana_plant"
-              }
+    "tries": 63,
+    "xz_spread": 4,
+    "y_spread": 2,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "llamamod:banana_plant"
             }
           }
-        },
-        "placement": [
-          {
-            "type": "minecraft:count",
-            "count": 63
-          },
-          {
-            "type": "minecraft:random_offset",
-            "xz_spread": {
-              "type": "minecraft:trapezoid",
-              "plateau": 0,
-              "min": -4,
-              "max": 4
-            },
-            "y_spread": {
-              "type": "minecraft:trapezoid",
-              "plateau": 0,
-              "min": -2,
-              "max": 2
-            }
-          },
-          {
-            "type": "minecraft:block_predicate_filter",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "blocks": "minecraft:air"
-            }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
           }
-        ]
-      }
-    ]
+        }
+      ]
+    }
   }
 }

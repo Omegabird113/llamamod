@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.ButtonBlock;
 
 public class CherrybrickbuttonBlock extends ButtonBlock {
-	public CherrybrickbuttonBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.OAK, 30, properties.mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(18f, 37f).requiresCorrectToolForDrops());
+	public CherrybrickbuttonBlock() {
+		super(BlockSetType.OAK, 30, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(18f, 37f).requiresCorrectToolForDrops());
 	}
 }

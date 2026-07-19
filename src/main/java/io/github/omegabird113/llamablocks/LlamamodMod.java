@@ -9,18 +9,14 @@ import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.fml.util.thread.SidedThreadGroups;
-import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.IEventBus;
 
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.server.TickTask;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
-
-import javax.annotation.Nullable;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Queue;
@@ -28,10 +24,6 @@ import java.util.PriorityQueue;
 import java.util.Map;
 import java.util.HashMap;
 import java.util.Comparator;
-
-import java.lang.invoke.MethodType;
-import java.lang.invoke.MethodHandles;
-import java.lang.invoke.MethodHandle;
 
 import it.unimi.dsi.fastutil.ints.IntObjectPair;
 import it.unimi.dsi.fastutil.ints.IntObjectImmutablePair;
@@ -56,7 +48,6 @@ public class LlamamodMod {
 		LlamamodModMobEffects.REGISTRY.register(modEventBus);
 		LlamamodModMenus.REGISTRY.register(modEventBus);
 		LlamamodModParticleTypes.REGISTRY.register(modEventBus);
-		LlamamodModGameRules.REGISTRY.register(modEventBus);
 		LlamamodModFluids.REGISTRY.register(modEventBus);
 		LlamamodModFluidTypes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
@@ -80,7 +71,7 @@ public class LlamamodMod {
 	@SuppressWarnings({"rawtypes", "unchecked"})
 	private void registerNetworking(final RegisterPayloadHandlersEvent event) {
 		final PayloadRegistrar registrar = event.registrar(MODID);
-		MESSAGES.forEach((id, networkMessage) -> registrar.playBidirectional(id, ((NetworkMessage) networkMessage).reader(), ((NetworkMessage) networkMessage).handler(), ((NetworkMessage) networkMessage).handler()));
+		MESSAGES.forEach((id, networkMessage) -> registrar.playBidirectional(id, ((NetworkMessage) networkMessage).reader(), ((NetworkMessage) networkMessage).handler()));
 		networkingRegistered = true;
 	}
 
@@ -101,28 +92,6 @@ public class LlamamodMod {
 		}
 		while (!workQueue.isEmpty() && currentTick >= workQueue.peek().getTick()) {
 			workQueue.poll().run();
-		}
-	}
-
-	private static Object minecraft;
-	private static MethodHandle playerHandle;
-
-	@Nullable
-	public static Player clientPlayer() {
-		if (FMLEnvironment.getDist().isClient()) {
-			try {
-				if (minecraft == null || playerHandle == null) {
-					Class<?> minecraftClass = Class.forName("net.minecraft.client.Minecraft");
-					minecraft = MethodHandles.publicLookup().findStatic(minecraftClass, "getInstance", MethodType.methodType(minecraftClass)).invoke();
-					playerHandle = MethodHandles.publicLookup().findGetter(minecraftClass, "player", Class.forName("net.minecraft.client.player.LocalPlayer"));
-				}
-				return (Player) playerHandle.invoke(minecraft);
-			} catch (Throwable e) {
-				LOGGER.error("Failed to get client player", e);
-				return null;
-			}
-		} else {
-			return null;
 		}
 	}
 }
