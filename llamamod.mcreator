@@ -39416,12 +39416,33 @@
       "CUSTOM:CrackedTealLargeTileButton",
       "CUSTOM:CrackedIndustrialLargeTileButton"
     ],
+    "ITEMS:mod:lights": [
+      "Blocks.SEA_LANTERN",
+      "CUSTOM:WhiteLight",
+      "CUSTOM:LightGrayLight",
+      "CUSTOM:GrayLight",
+      "CUSTOM:BlackLight",
+      "CUSTOM:BrownLight",
+      "CUSTOM:RedLight",
+      "CUSTOM:OrangeLight",
+      "CUSTOM:YellowLight",
+      "CUSTOM:LimeLight",
+      "CUSTOM:GreenLight",
+      "CUSTOM:CyanLight",
+      "CUSTOM:LightBlueLight",
+      "CUSTOM:BlueLight",
+      "CUSTOM:PurpleLight",
+      "CUSTOM:MagentaLight",
+      "CUSTOM:PinkLight",
+      "CUSTOM:CherryLight",
+      "CUSTOM:TealLight",
+      "CUSTOM:IndustrialLight"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~Acid@CUSTOM:Acid",
       "~Bannanaplant@CUSTOM:Bannanaplant"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~IndustrialLargeTile@CUSTOM:IndustrialLargeTile",
       "~IndustrialLight@CUSTOM:IndustrialLight",
       "~TealLight@CUSTOM:TealLight",
       "~CherryLight@CUSTOM:CherryLight",
@@ -39433,8 +39454,8 @@
       "~CyanLight@CUSTOM:CyanLight",
       "~GreenLight@CUSTOM:GreenLight",
       "~LimeLight@CUSTOM:LimeLight",
-      "~OrangeLight@CUSTOM:OrangeLight",
       "~YellowLight@CUSTOM:YellowLight",
+      "~OrangeLight@CUSTOM:OrangeLight",
       "~RedLight@CUSTOM:RedLight",
       "~BrownLight@CUSTOM:BrownLight",
       "~BlackLight@CUSTOM:BlackLight",
@@ -39855,6 +39876,7 @@
       "~IndustrialLargeTileWall@CUSTOM:IndustrialLargeTileWall",
       "~IndustrialLargeTileSlab@CUSTOM:IndustrialLargeTileSlab",
       "~IndustrialLargeTileStair@CUSTOM:IndustrialLargeTileStair",
+      "~IndustrialLargeTile@CUSTOM:IndustrialLargeTile",
       "~Tilefencegate@CUSTOM:Tilefencegate",
       "~Tilefence@CUSTOM:Tilefence",
       "~Ceilingtilefencegate@CUSTOM:Ceilingtilefencegate",
@@ -40159,8 +40181,8 @@
       "~CyanLight@CUSTOM:CyanLight",
       "~GreenLight@CUSTOM:GreenLight",
       "~LimeLight@CUSTOM:LimeLight",
-      "~OrangeLight@CUSTOM:OrangeLight",
       "~YellowLight@CUSTOM:YellowLight",
+      "~OrangeLight@CUSTOM:OrangeLight",
       "~RedLight@CUSTOM:RedLight",
       "~BrownLight@CUSTOM:BrownLight",
       "~BlackLight@CUSTOM:BlackLight",
@@ -41008,7 +41030,6 @@
       "~Redbrickbutton@CUSTOM:Redbrickbutton"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
-      "~IndustrialLargeTile@CUSTOM:IndustrialLargeTile",
       "~CrackedIndustrialLargeTileButton@CUSTOM:CrackedIndustrialLargeTileButton",
       "~CrackedIndustrialLargeTilePressurePlate@CUSTOM:CrackedIndustrialLargeTilePressurePlate",
       "~CrackedIndustrialLargeTileTrapdoor@CUSTOM:CrackedIndustrialLargeTileTrapdoor",
@@ -41026,7 +41047,8 @@
       "~IndustrialLargeTileFence@CUSTOM:IndustrialLargeTileFence",
       "~IndustrialLargeTileWall@CUSTOM:IndustrialLargeTileWall",
       "~IndustrialLargeTileSlab@CUSTOM:IndustrialLargeTileSlab",
-      "~IndustrialLargeTileStair@CUSTOM:IndustrialLargeTileStair"
+      "~IndustrialLargeTileStair@CUSTOM:IndustrialLargeTileStair",
+      "~IndustrialLargeTile@CUSTOM:IndustrialLargeTile"
     ],
     "BLOCKS:minecraft:trapdoors": [
       "~CrackedIndustrialLargeTileTrapdoor@CUSTOM:CrackedIndustrialLargeTileTrapdoor",
@@ -41122,28 +41144,6 @@
     ],
     "VILLAGER_TRADES:minecraft:wandering_trader/common": [
       "~BananatradeExtraProfession@bananatrade_extra_profession_0"
-    ],
-    "ITEMS:mod:lights": [
-      "Blocks.SEA_LANTERN",
-      "CUSTOM:WhiteLight",
-      "CUSTOM:LightGrayLight",
-      "CUSTOM:GrayLight",
-      "CUSTOM:BlackLight",
-      "CUSTOM:BrownLight",
-      "CUSTOM:RedLight",
-      "CUSTOM:OrangeLight",
-      "CUSTOM:YellowLight",
-      "CUSTOM:LimeLight",
-      "CUSTOM:GreenLight",
-      "CUSTOM:CyanLight",
-      "CUSTOM:LightBlueLight",
-      "CUSTOM:BlueLight",
-      "CUSTOM:PurpleLight",
-      "CUSTOM:MagentaLight",
-      "CUSTOM:PinkLight",
-      "CUSTOM:CherryLight",
-      "CUSTOM:TealLight",
-      "CUSTOM:IndustrialLight"
     ]
   },
   "tab_element_order": {
@@ -43482,7 +43482,25 @@
       "item.llamamod.pink_light": "Pink Light",
       "item.llamamod.cherry_light": "Cherry Light",
       "item.llamamod.teal_light": "Teal Light",
-      "item.llamamod.industrial_light": "Industrial Light"
+      "item.llamamod.industrial_light": "Industrial Light",
+      "block.llamamod.light_gray_light": "Light Gray Light",
+      "block.llamamod.gray_light": "Gray Light",
+      "block.llamamod.black_light": "Black Light",
+      "block.llamamod.brown_light": "Brown Light",
+      "block.llamamod.red_light": "Red Light",
+      "block.llamamod.orange_light": "Orange Light",
+      "block.llamamod.yellow_light": "Yellow Light",
+      "block.llamamod.lime_light": "Lime Light",
+      "block.llamamod.green_light": "Green Light",
+      "block.llamamod.cyan_light": "Cyan Light",
+      "block.llamamod.light_blue_light": "Light Blue Light",
+      "block.llamamod.blue_light": "Blue Light",
+      "block.llamamod.purple_light": "Purple Light",
+      "block.llamamod.magenta_light": "Magenta Light",
+      "block.llamamod.pink_light": "Pink Light",
+      "block.llamamod.cherry_light": "Cherry Light",
+      "block.llamamod.teal_light": "Teal Light",
+      "block.llamamod.industrial_light": "Industrial Light"
     }
   },
   "metadata": {
@@ -44148,7 +44166,7 @@
   "workspaceSettings": {
     "modid": "llamamod",
     "modName": "LlamaBlocks",
-    "version": "1.4.0-beta.1+mc1.21.1",
+    "version": "1.4.0-beta.1+mc26.1.2",
     "description": "LlamaBlocks is a complex, multi-year long development, MCreator mod which adds a ton of features. These include 702 variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named Acid, and more!",
     "author": "Omegabird113",
     "websiteURL": "https://omegabird113.github.io/llamamod/",
