@@ -741,6 +741,25 @@ public class LlamamodModItems {
 	public static final DeferredItem<Item> CRACKED_INDUSTRIAL_LARGE_TILE_TRAPDOOR;
 	public static final DeferredItem<Item> CRACKED_INDUSTRIAL_LARGE_TILE_PRESSURE_PLATE;
 	public static final DeferredItem<Item> CRACKED_INDUSTRIAL_LARGE_TILE_BUTTON;
+	public static final DeferredItem<Item> WHITE_LIGHT;
+	public static final DeferredItem<Item> LIGHT_GRAY_LIGHT;
+	public static final DeferredItem<Item> GRAY_LIGHT;
+	public static final DeferredItem<Item> BLACK_LIGHT;
+	public static final DeferredItem<Item> BROWN_LIGHT;
+	public static final DeferredItem<Item> RED_LIGHT;
+	public static final DeferredItem<Item> ORANGE_LIGHT;
+	public static final DeferredItem<Item> YELLOW_LIGHT;
+	public static final DeferredItem<Item> LIME_LIGHT;
+	public static final DeferredItem<Item> GREEN_LIGHT;
+	public static final DeferredItem<Item> CYAN_LIGHT;
+	public static final DeferredItem<Item> LIGHT_BLUE_LIGHT;
+	public static final DeferredItem<Item> BLUE_LIGHT;
+	public static final DeferredItem<Item> PURPLE_LIGHT;
+	public static final DeferredItem<Item> MAGENTA_LIGHT;
+	public static final DeferredItem<Item> PINK_LIGHT;
+	public static final DeferredItem<Item> CHERRY_LIGHT;
+	public static final DeferredItem<Item> TEAL_LIGHT;
+	public static final DeferredItem<Item> INDUSTRIAL_LIGHT;
 	static {
 		BANANA_PLANT = block(LlamamodModBlocks.BANANA_PLANT);
 		BANANA = register("banana", BannanaItem::new);
@@ -1457,6 +1476,25 @@ public class LlamamodModItems {
 		CRACKED_INDUSTRIAL_LARGE_TILE_TRAPDOOR = block(LlamamodModBlocks.CRACKED_INDUSTRIAL_LARGE_TILE_TRAPDOOR);
 		CRACKED_INDUSTRIAL_LARGE_TILE_PRESSURE_PLATE = block(LlamamodModBlocks.CRACKED_INDUSTRIAL_LARGE_TILE_PRESSURE_PLATE);
 		CRACKED_INDUSTRIAL_LARGE_TILE_BUTTON = block(LlamamodModBlocks.CRACKED_INDUSTRIAL_LARGE_TILE_BUTTON);
+		WHITE_LIGHT = block(LlamamodModBlocks.WHITE_LIGHT);
+		LIGHT_GRAY_LIGHT = block(LlamamodModBlocks.LIGHT_GRAY_LIGHT);
+		GRAY_LIGHT = block(LlamamodModBlocks.GRAY_LIGHT);
+		BLACK_LIGHT = block(LlamamodModBlocks.BLACK_LIGHT);
+		BROWN_LIGHT = block(LlamamodModBlocks.BROWN_LIGHT);
+		RED_LIGHT = block(LlamamodModBlocks.RED_LIGHT);
+		ORANGE_LIGHT = block(LlamamodModBlocks.ORANGE_LIGHT);
+		YELLOW_LIGHT = block(LlamamodModBlocks.YELLOW_LIGHT);
+		LIME_LIGHT = block(LlamamodModBlocks.LIME_LIGHT);
+		GREEN_LIGHT = block(LlamamodModBlocks.GREEN_LIGHT);
+		CYAN_LIGHT = block(LlamamodModBlocks.CYAN_LIGHT);
+		LIGHT_BLUE_LIGHT = block(LlamamodModBlocks.LIGHT_BLUE_LIGHT);
+		BLUE_LIGHT = block(LlamamodModBlocks.BLUE_LIGHT);
+		PURPLE_LIGHT = block(LlamamodModBlocks.PURPLE_LIGHT);
+		MAGENTA_LIGHT = block(LlamamodModBlocks.MAGENTA_LIGHT);
+		PINK_LIGHT = block(LlamamodModBlocks.PINK_LIGHT);
+		CHERRY_LIGHT = block(LlamamodModBlocks.CHERRY_LIGHT);
+		TEAL_LIGHT = block(LlamamodModBlocks.TEAL_LIGHT);
+		INDUSTRIAL_LIGHT = block(LlamamodModBlocks.INDUSTRIAL_LIGHT);
 	}
 
 	// Start of user code block custom items

@@ -701,6 +701,22 @@ public class LlamamodModTabs {
 				tabData.accept(LlamamodModBlocks.CRACKED_INDUSTRIAL_LARGE_TILE_TRAPDOOR.get().asItem());
 				tabData.accept(LlamamodModBlocks.CRACKED_INDUSTRIAL_LARGE_TILE_PRESSURE_PLATE.get().asItem());
 				tabData.accept(LlamamodModBlocks.CRACKED_INDUSTRIAL_LARGE_TILE_BUTTON.get().asItem());
+				tabData.accept(LlamamodModBlocks.WHITE_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.LIGHT_GRAY_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.GRAY_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.BLACK_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.BROWN_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.RED_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.ORANGE_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.YELLOW_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.LIME_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.GREEN_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.CYAN_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.LIGHT_BLUE_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.BLUE_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.PURPLE_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.MAGENTA_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.PINK_LIGHT.get().asItem());
 				tabData.accept(LlamamodModBlocks.TILES.get().asItem());
 				tabData.accept(LlamamodModBlocks.TILE_STAIRS.get().asItem());
 				tabData.accept(LlamamodModBlocks.TILE_SLAB.get().asItem());
@@ -732,5 +748,8 @@ public class LlamamodModTabs {
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA.get());
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA_UPGRADE.get());
 				tabData.accept(LlamamodModItems.ACID_BUCKET.get());
+				tabData.accept(LlamamodModBlocks.CHERRY_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.TEAL_LIGHT.get().asItem());
+				tabData.accept(LlamamodModBlocks.INDUSTRIAL_LIGHT.get().asItem());
 			}).build());
 }

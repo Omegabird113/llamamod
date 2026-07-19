@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "llamamod:block/blue_light",
+    "particle": "llamamod:block/blue_light"
+  }
+}

@@ -2,6 +2,7 @@ package io.github.omegabird113.llamablocks.procedures;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
 import net.minecraft.core.BlockPos;
 
 import io.github.omegabird113.llamablocks.LlamamodMod;
@@ -9,7 +10,7 @@ import io.github.omegabird113.llamablocks.LlamamodMod;
 public class CompmsgnotblankProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {
 		if (!(getBlockNBTString(world, BlockPos.containing(x, y, z), "msg")).equals("")) {
-			LlamamodMod.LOGGER.debug(("There is a message saved in Computer at (" + x + ", " + y + ", " + z + "). The Load button is displayed as of tick: " + world.getGameTime()));
+			LlamamodMod.LOGGER.debug(("There is a message saved in Computer at (" + x + ", " + y + ", " + z + "). The Load button is displayed as of tick: " + (world instanceof Level _level1 ? _level1.getDefaultClockTime() : 0)));
 			return true;
 		}
 		return false;

@@ -1,6 +1,7 @@
 package io.github.omegabird113.llamablocks.procedures;
 
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
 
 public class GettimeasstringProcedure {
 	public static String execute(LevelAccessor world) {
@@ -11,7 +12,7 @@ public class GettimeasstringProcedure {
 		double minute = 0;
 		double twelve_hour_hour = 0;
 		String am_or_pm = "";
-		gametime = world.getGameTime();
+		gametime = world instanceof Level _level0 ? _level0.getDefaultClockTime() : 0;
 		daytime = gametime % 24000;
 		twenty_four_hour_hour = (gametime / 1000 + 6) % 24;
 		minute = (twenty_four_hour_hour - Math.floor(twenty_four_hour_hour)) * 60;

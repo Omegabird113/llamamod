@@ -728,6 +728,25 @@ public class LlamamodModBlocks {
 	public static final DeferredBlock<Block> CRACKED_INDUSTRIAL_LARGE_TILE_TRAPDOOR;
 	public static final DeferredBlock<Block> CRACKED_INDUSTRIAL_LARGE_TILE_PRESSURE_PLATE;
 	public static final DeferredBlock<Block> CRACKED_INDUSTRIAL_LARGE_TILE_BUTTON;
+	public static final DeferredBlock<Block> WHITE_LIGHT;
+	public static final DeferredBlock<Block> LIGHT_GRAY_LIGHT;
+	public static final DeferredBlock<Block> GRAY_LIGHT;
+	public static final DeferredBlock<Block> BLACK_LIGHT;
+	public static final DeferredBlock<Block> BROWN_LIGHT;
+	public static final DeferredBlock<Block> RED_LIGHT;
+	public static final DeferredBlock<Block> ORANGE_LIGHT;
+	public static final DeferredBlock<Block> YELLOW_LIGHT;
+	public static final DeferredBlock<Block> LIME_LIGHT;
+	public static final DeferredBlock<Block> GREEN_LIGHT;
+	public static final DeferredBlock<Block> CYAN_LIGHT;
+	public static final DeferredBlock<Block> LIGHT_BLUE_LIGHT;
+	public static final DeferredBlock<Block> BLUE_LIGHT;
+	public static final DeferredBlock<Block> PURPLE_LIGHT;
+	public static final DeferredBlock<Block> MAGENTA_LIGHT;
+	public static final DeferredBlock<Block> PINK_LIGHT;
+	public static final DeferredBlock<Block> CHERRY_LIGHT;
+	public static final DeferredBlock<Block> TEAL_LIGHT;
+	public static final DeferredBlock<Block> INDUSTRIAL_LIGHT;
 	static {
 		BANANA_PLANT = register("banana_plant", BannanaplantBlock::new);
 		ACID = register("acid", AcidBlock::new);
@@ -1437,6 +1456,25 @@ public class LlamamodModBlocks {
 		CRACKED_INDUSTRIAL_LARGE_TILE_TRAPDOOR = register("cracked_industrial_large_tile_trapdoor", CrackedIndustrialLargeTileTrapdoorBlock::new);
 		CRACKED_INDUSTRIAL_LARGE_TILE_PRESSURE_PLATE = register("cracked_industrial_large_tile_pressure_plate", CrackedIndustrialLargeTilePressurePlateBlock::new);
 		CRACKED_INDUSTRIAL_LARGE_TILE_BUTTON = register("cracked_industrial_large_tile_button", CrackedIndustrialLargeTileButtonBlock::new);
+		WHITE_LIGHT = register("white_light", WhiteLightBlock::new);
+		LIGHT_GRAY_LIGHT = register("light_gray_light", LightGrayLightBlock::new);
+		GRAY_LIGHT = register("gray_light", GrayLightBlock::new);
+		BLACK_LIGHT = register("black_light", BlackLightBlock::new);
+		BROWN_LIGHT = register("brown_light", BrownLightBlock::new);
+		RED_LIGHT = register("red_light", RedLightBlock::new);
+		ORANGE_LIGHT = register("orange_light", OrangeLightBlock::new);
+		YELLOW_LIGHT = register("yellow_light", YellowLightBlock::new);
+		LIME_LIGHT = register("lime_light", LimeLightBlock::new);
+		GREEN_LIGHT = register("green_light", GreenLightBlock::new);
+		CYAN_LIGHT = register("cyan_light", CyanLightBlock::new);
+		LIGHT_BLUE_LIGHT = register("light_blue_light", LightBlueLightBlock::new);
+		BLUE_LIGHT = register("blue_light", BlueLightBlock::new);
+		PURPLE_LIGHT = register("purple_light", PurpleLightBlock::new);
+		MAGENTA_LIGHT = register("magenta_light", MagentaLightBlock::new);
+		PINK_LIGHT = register("pink_light", PinkLightBlock::new);
+		CHERRY_LIGHT = register("cherry_light", CherryLightBlock::new);
+		TEAL_LIGHT = register("teal_light", TealLightBlock::new);
+		INDUSTRIAL_LIGHT = register("industrial_light", IndustrialLightBlock::new);
 	}
 
 	// Start of user code block custom blocks
