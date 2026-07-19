@@ -20,6 +20,7 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [1.2.1](changelogs/full_versions/1.2.1.md)
 - [1.3.0](changelogs/full_versions/1.3.0.md)
 - [1.3.1](changelogs/full_versions/1.3.1.md)
+- [1.3.2](changelogs/full_versions/1.3.2.md)
 
 #### dev_versions/
 - [0.44.71 (Incomplete)](changelogs/dev_versions/0.44.71.incomplete.md)
@@ -39,6 +40,9 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [1.3.0-rc1](changelogs/dev_versions/1.3.0-rc1.md)
 - [1.3.2-beta1](changelogs/dev_versions/1.3.2-beta1.md)
 - [1.3.2-beta2](changelogs/dev_versions/1.3.2-beta2.md)
+- [1.3.2-beta2-build2](changelogs/dev_versions/1.3.2-beta2-build2.md)
+- [1.3.2-rc1](changelogs/dev_versions/1.3.2-rc1.md)
+- [1.4.0-beta.1](changelogs/dev_versions/1.4.0-beta.1.md)
 
 ### development/
 - [color_codes.md](development/color_codes.md) - a list of all the color codes I use in making textures
