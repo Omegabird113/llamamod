@@ -4,7 +4,7 @@ This is a detailed set of player and developer documentation for LlamaBlocks hos
 
 ## The Mod Itself
 
-LlamaBlocks is a complex, multi-year long development, mod which adds a ton of features. These include 702 variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named `Acid`, and more!
+LlamaBlocks is a complex, multi-year long development, mod which adds a ton of features. These include `721` variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named `Acid`, and more! In Aprill 2026, it was featured by the MCreator maintainers in their Mod of the Week program.
 
 ### Where to Download
 
