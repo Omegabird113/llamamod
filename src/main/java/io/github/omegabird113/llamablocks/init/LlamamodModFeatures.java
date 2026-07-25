@@ -9,12 +9,10 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.core.registries.Registries;
 
-import io.github.omegabird113.llamablocks.world.features.BananapatchFeature;
 import io.github.omegabird113.llamablocks.world.features.AcidlakeFeature;
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
 public class LlamamodModFeatures {
 	public static final DeferredRegister<Feature<?>> REGISTRY = DeferredRegister.create(Registries.FEATURE, LlamamodMod.MODID);
 	public static final DeferredHolder<Feature<?>, Feature<?>> ACID_LAKE = REGISTRY.register("acid_lake", AcidlakeFeature::new);
-	public static final DeferredHolder<Feature<?>, Feature<?>> BANANA_PATCH = REGISTRY.register("banana_patch", BananapatchFeature::new);
 }

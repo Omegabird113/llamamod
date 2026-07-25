@@ -1,5 +1,5 @@
 {
-  "type": "llamamod:banana_patch",
+  "type": "minecraft:simple_random_selector",
   "config": {
     "features": [
       {

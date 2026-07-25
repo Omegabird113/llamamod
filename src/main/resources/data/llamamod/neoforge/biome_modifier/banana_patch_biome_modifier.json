@@ -5,7 +5,14 @@
     "forest",
     "jungle",
     "cherry_grove",
-    "plains"
+    "plains",
+    "bamboo_jungle",
+    "birch_forest",
+    "dark_forest",
+    "meadow",
+    "savanna",
+    "savanna_plateau",
+    "taiga"
   ],
   "features": "llamamod:banana_patch",
   "step": "vegetal_decoration"
