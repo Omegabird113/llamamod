@@ -43500,7 +43500,15 @@
       "block.llamamod.pink_light": "Pink Light",
       "block.llamamod.cherry_light": "Cherry Light",
       "block.llamamod.teal_light": "Teal Light",
-      "block.llamamod.industrial_light": "Industrial Light"
+      "block.llamamod.industrial_light": "Industrial Light",
+      "gamerule.llamamod.give_all_recipes": "[LlamaBlocks] Give Players All Recipes After Joining",
+      "gamerule.llamamod.give_all_recipes.description": "This controls whether all players are given all crafting recipes when they join.",
+      "gamerule.llamamod.allow_item_deletion.description": "This controls whether the \"Delete Items\" button in the Netherite Backpack and the \"Clear\" button in the Secure Storage Block work.",
+      "gamerule.llamamod.allow_item_deletion": "[LlamaBlocks] Allow Item Deletion Buttons to Function",
+      "gamerule.llamamod.prevent_nested_storage_items": "[LlamaBlocks] Prevent Placement of Nested Storage Items",
+      "gamerule.llamamod.prevent_nested_storage_items.description": "This controls whether LlamaBlocks stops Shulker Boxes, Bundles, Backpacks, etc, from being placed in the Secure Storage Block and backpacks.",
+      "gamerule.llamamod.give_golden_banana_effects": "[LlamaBlocks] Enable Golden Banana Effects",
+      "gamerule.llamamod.give_golden_banana_effects.description": "This controls whether the players get effects from eating a Golden Banana."
     }
   },
   "metadata": {
@@ -44179,8 +44187,8 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-26.1.2",
-    "credits": "Made with MCreator 2026.2.29418",
+    "credits": "Made with MCreator 2026.2.30420",
     "modElementsPackage": "io.github.omegabird113.llamablocks"
   },
-  "mcreatorVersion": 202600229418
+  "mcreatorVersion": 202600230420
 }

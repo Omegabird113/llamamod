@@ -36,8 +36,8 @@ public class LlamamodModBlockEntities {
 
 	@SubscribeEvent
 	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerBlockEntity(Capabilities.Item.BLOCK, COMPUTER.get(), WorldlyContainerWrapper::new);
 		event.registerBlockEntity(Capabilities.Item.BLOCK, AUTHENTICATOR.get(), WorldlyContainerWrapper::new);
 		event.registerBlockEntity(Capabilities.Item.BLOCK, SECURE_STORAGE_BLOCK.get(), WorldlyContainerWrapper::new);
-		event.registerBlockEntity(Capabilities.Item.BLOCK, COMPUTER.get(), WorldlyContainerWrapper::new);
 	}
 }
