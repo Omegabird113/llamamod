@@ -4,13 +4,14 @@
   "pattern": [
     "aba",
     "cdc",
-    "aca"
+    "aea"
   ],
   "key": {
     "a": "#llamamod:large_tiles",
     "b": "llamamod:password_changer",
-    "c": "minecraft:iron_block",
-    "d": "llamamod:netherite_backpack"
+    "c": "minecraft:iron_ingot",
+    "d": "llamamod:netherite_backpack",
+    "e": "minecraft:iron_block"
   },
   "result": {
     "id": "llamamod:secure_storage_block",
