@@ -4,14 +4,13 @@
   "pattern": [
     "aaa",
     "bcb",
-    "ded"
+    "dbd"
   ],
   "key": {
     "a": "minecraft:gold_ingot",
-    "b": "minecraft:clay_ball",
-    "c": "minecraft:book",
-    "d": "minecraft:diamond",
-    "e": "llamamod:farm_scraps"
+    "b": "llamamod:farm_scraps",
+    "c": "minecraft:writable_book",
+    "d": "minecraft:diamond"
   },
   "result": {
     "id": "llamamod:golden_banana_upgrade",

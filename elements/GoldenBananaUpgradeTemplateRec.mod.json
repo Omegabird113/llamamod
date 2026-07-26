@@ -15,9 +15,9 @@
       "Items.GOLD_INGOT",
       "Items.GOLD_INGOT",
       "Items.GOLD_INGOT",
-      "Items.CLAY_BALL",
-      "Items.BOOK",
-      "Items.CLAY_BALL",
+      "CUSTOM:Farmscraps",
+      "Items.WRITABLE_BOOK",
+      "CUSTOM:Farmscraps",
       "Items.DIAMOND",
       "CUSTOM:Farmscraps",
       "Items.DIAMOND"
