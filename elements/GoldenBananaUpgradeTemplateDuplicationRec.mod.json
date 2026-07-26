@@ -12,15 +12,15 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": true,
     "recipeSlots": [
-      "Items.GOLD_INGOT",
-      "Items.GOLD_INGOT",
-      "Items.GOLD_INGOT",
-      "Items.GOLD_INGOT",
+      "Blocks.NETHERRACK",
+      "Blocks.NETHERRACK",
+      "Blocks.NETHERRACK",
+      "Blocks.NETHERRACK",
       "CUSTOM:GoldenBananaUpgradeTemplate",
-      "",
-      "",
-      "",
-      ""
+      "Blocks.NETHERRACK",
+      "Blocks.NETHERRACK",
+      "Items.DIAMOND",
+      "Blocks.NETHERRACK"
     ],
     "recipeReturnStack": "CUSTOM:GoldenBananaUpgradeTemplate",
     "name": "golden_banana_upgrade_template_duplication_rec",
