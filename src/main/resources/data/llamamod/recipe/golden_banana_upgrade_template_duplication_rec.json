@@ -1,17 +1,16 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    "minecraft:netherrack",
-    "minecraft:netherrack",
-    "minecraft:netherrack",
-    "minecraft:netherrack",
-    "llamamod:golden_banana_upgrade",
-    "minecraft:netherrack",
-    "minecraft:netherrack",
-    "minecraft:diamond",
-    "minecraft:netherrack"
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
   ],
+  "key": {
+    "a": "minecraft:netherrack",
+    "b": "llamamod:golden_banana_upgrade",
+    "c": "minecraft:diamond"
+  },
   "result": {
     "id": "llamamod:golden_banana_upgrade",
     "count": 3

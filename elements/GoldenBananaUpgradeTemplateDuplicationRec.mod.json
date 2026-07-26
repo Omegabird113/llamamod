@@ -10,7 +10,7 @@
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
-    "recipeShapeless": true,
+    "recipeShapeless": false,
     "recipeSlots": [
       "Blocks.NETHERRACK",
       "Blocks.NETHERRACK",
