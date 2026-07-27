@@ -3,24 +3,26 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 3,
+    "recipeRetstackSize": 5,
     "group": "",
-    "unlockingItems": [],
+    "unlockingItems": [
+      "Blocks.NETHERRACK"
+    ],
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
-      "Blocks.NETHERRACK",
-      "Blocks.NETHERRACK",
-      "Blocks.NETHERRACK",
-      "Blocks.NETHERRACK",
-      "CUSTOM:GoldenBananaUpgradeTemplate",
-      "Blocks.NETHERRACK",
-      "Blocks.NETHERRACK",
       "Items.DIAMOND",
-      "Blocks.NETHERRACK"
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "CUSTOM:GoldenBananaUpgradeTemplate",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Blocks.NETHERRACK",
+      "Items.DIAMOND"
     ],
     "recipeReturnStack": "CUSTOM:GoldenBananaUpgradeTemplate",
     "name": "golden_banana_upgrade_template_duplication_rec",

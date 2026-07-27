@@ -17875,7 +17875,8 @@
       "registry_name": "golden_banana_upgrade_template_duplication_rec",
       "metadata": {
         "files": [
-          "src/main/resources/data/llamamod/recipe/golden_banana_upgrade_template_duplication_rec.json"
+          "src/main/resources/data/llamamod/recipe/golden_banana_upgrade_template_duplication_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/golden_banana_upgrade_template_duplication_rec.json"
         ]
       },
       "path": "~/Recipes and Trades"
