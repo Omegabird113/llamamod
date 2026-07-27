@@ -38560,6 +38560,34 @@
         ]
       },
       "path": "~/Recipes and Trades/Lights"
+    },
+    {
+      "name": "AbandonedFarm",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abandoned_farm",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/worldgen/template_pool/abandoned_farm.json",
+          "src/main/resources/data/llamamod/worldgen/structure_set/abandoned_farm.json",
+          "src/main/resources/data/llamamod/worldgen/structure/abandoned_farm.json"
+        ]
+      },
+      "path": "~/Structures"
+    },
+    {
+      "name": "AbandonedFarmLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abandoned_farm_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/loot_table/chests/abandoned_farm_loot.json"
+        ]
+      },
+      "path": "~/Structures"
     }
   ],
   "variable_elements": [],
@@ -44166,6 +44194,10 @@
       },
       {
         "name": "Passwords",
+        "children": []
+      },
+      {
+        "name": "Structures",
         "children": []
       }
     ]

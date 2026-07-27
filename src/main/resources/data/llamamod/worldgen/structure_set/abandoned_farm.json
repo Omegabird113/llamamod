@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "llamamod:abandoned_farm",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 31,
+    "separation": 10,
+    "salt": 724754739
+  }
+}

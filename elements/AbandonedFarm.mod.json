@@ -1,0 +1,50 @@
+{
+  "_fv": 89,
+  "_type": "structure",
+  "definition": {
+    "structure": "abandoned_farm",
+    "projection": "rigid",
+    "ignoredBlocks": [
+      "Blocks.STRUCTURE_BLOCK"
+    ],
+    "spacing": 31,
+    "separation": 10,
+    "restrictionBiomes": [
+      "badlands",
+      "bamboo_jungle",
+      "roofed_forest",
+      "beaches",
+      "birch_forest",
+      "desert",
+      "mutated_mesa",
+      "forest",
+      "grove",
+      "frozen_peaks",
+      "jagged_peaks",
+      "jungle",
+      "savanna",
+      "savanna_rock",
+      "mutated_savanna",
+      "mangrove_swamp",
+      "jungle_edge",
+      "mountains",
+      "extreme_hills_with_trees",
+      "wooded_badlands_plateau",
+      "taiga",
+      "swamp",
+      "taiga_cold",
+      "snowy_tundra",
+      "cold_beach"
+    ],
+    "terrainAdaptation": "none",
+    "generationStep": "SURFACE_STRUCTURES",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
+    "useStartHeight": false,
+    "startHeightProviderType": "UNIFORM",
+    "startHeightMin": 0,
+    "startHeightMax": 128,
+    "size": 1,
+    "maxDistanceFromCenter": 64,
+    "jigsawPools": []
+  }
+}
