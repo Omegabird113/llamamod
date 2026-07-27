@@ -1,13 +1,10 @@
 package io.github.omegabird113.llamablocks.world.inventory;
 
-import net.neoforged.neoforge.transfer.transaction.Transaction;
-import net.neoforged.neoforge.transfer.item.VanillaContainerWrapper;
-import net.neoforged.neoforge.transfer.item.ResourceHandlerSlot;
-import net.neoforged.neoforge.transfer.item.ItemUtil;
-import net.neoforged.neoforge.transfer.item.ItemStacksResourceHandler;
-import net.neoforged.neoforge.transfer.item.ItemResource;
-import net.neoforged.neoforge.transfer.access.ItemAccess;
-import net.neoforged.neoforge.transfer.ResourceHandler;
+import net.neoforged.neoforge.items.wrapper.InvWrapper;
+import net.neoforged.neoforge.items.SlotItemHandler;
+import net.neoforged.neoforge.items.ItemStackHandler;
+import net.neoforged.neoforge.items.IItemHandlerModifiable;
+import net.neoforged.neoforge.items.IItemHandler;
 import net.neoforged.neoforge.capabilities.Capabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -20,7 +17,6 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.Container;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
@@ -46,7 +42,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 	public final Player entity;
 	public int x, y, z;
 	private ContainerLevelAccess access = ContainerLevelAccess.NULL;
-	private ResourceHandler<ItemResource> internal;
+	private IItemHandler internal;
 	private final Map<Integer, Slot> customSlots = new HashMap<>();
 	private boolean bound = false;
 	private Supplier<Boolean> boundItemMatcher = null;
@@ -57,7 +53,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 		super(LlamamodModMenus.DOUBLE_SECURE_STOORAFE_BLOCK_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStacksResourceHandler(63);
+		this.internal = new ItemStackHandler(63);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -71,7 +67,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				byte hand = extraData.readByte();
 				ItemStack itemstack = hand == 0 ? this.entity.getMainHandItem() : this.entity.getOffhandItem();
 				this.boundItemMatcher = () -> itemstack == (hand == 0 ? this.entity.getMainHandItem() : this.entity.getOffhandItem());
-				ResourceHandler<ItemResource> cap = itemstack.getCapability(Capabilities.Item.ITEM, ItemAccess.forPlayerSlot(this.entity, hand == 0 ? this.entity.getInventory().getSelectedSlot() : Inventory.SLOT_OFFHAND));
+				IItemHandler cap = itemstack.getCapability(Capabilities.ItemHandler.ITEM);
 				if (cap != null) {
 					this.internal = cap;
 					this.bound = true;
@@ -80,7 +76,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				extraData.readByte(); // drop padding
 				boundEntity = world.getEntity(extraData.readVarInt());
 				if (boundEntity != null) {
-					ResourceHandler<ItemResource> cap = boundEntity.getCapability(Capabilities.Item.ENTITY);
+					IItemHandler cap = boundEntity.getCapability(Capabilities.ItemHandler.ENTITY);
 					if (cap != null) {
 						this.internal = cap;
 						this.bound = true;
@@ -89,12 +85,12 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 			} else { // might be bound to block
 				boundBlockEntity = this.world.getBlockEntity(pos);
 				if (boundBlockEntity instanceof BaseContainerBlockEntity baseContainerBlockEntity) {
-					this.internal = VanillaContainerWrapper.of(baseContainerBlockEntity);
+					this.internal = new InvWrapper(baseContainerBlockEntity);
 					this.bound = true;
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 0, 7, 17) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 17) {
 			private final int slot = 0;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -104,7 +100,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 1, 25, 17) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 17) {
 			private final int slot = 1;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -114,7 +110,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 2, 43, 17) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 17) {
 			private final int slot = 2;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -124,7 +120,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 3, 61, 17) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 17) {
 			private final int slot = 3;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -134,7 +130,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 4, 79, 17) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 17) {
 			private final int slot = 4;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -144,7 +140,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(5, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 5, 97, 17) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 17) {
 			private final int slot = 5;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -154,7 +150,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(6, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 6, 115, 17) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 17) {
 			private final int slot = 6;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -164,7 +160,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(7, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 7, 133, 17) {
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 17) {
 			private final int slot = 7;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -174,7 +170,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(8, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 8, 151, 17) {
+		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 17) {
 			private final int slot = 8;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -184,7 +180,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(9, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 9, 7, 35) {
+		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 7, 35) {
 			private final int slot = 9;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -194,7 +190,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(10, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 10, 25, 35) {
+		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 25, 35) {
 			private final int slot = 10;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -204,7 +200,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(11, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 11, 43, 35) {
+		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 35) {
 			private final int slot = 11;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -214,7 +210,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(12, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 12, 61, 35) {
+		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 61, 35) {
 			private final int slot = 12;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -224,7 +220,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(13, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 13, 79, 35) {
+		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 79, 35) {
 			private final int slot = 13;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -234,7 +230,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(14, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 14, 97, 35) {
+		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 97, 35) {
 			private final int slot = 14;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -244,7 +240,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(15, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 15, 115, 35) {
+		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 115, 35) {
 			private final int slot = 15;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -254,7 +250,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(16, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 16, 133, 35) {
+		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 133, 35) {
 			private final int slot = 16;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -264,7 +260,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(17, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 17, 151, 35) {
+		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 151, 35) {
 			private final int slot = 17;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -274,7 +270,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(18, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 18, 7, 53) {
+		this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 7, 53) {
 			private final int slot = 18;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -284,7 +280,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(19, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 19, 25, 53) {
+		this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 25, 53) {
 			private final int slot = 19;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -294,7 +290,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(20, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 20, 43, 53) {
+		this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 43, 53) {
 			private final int slot = 20;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -304,7 +300,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(21, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 21, 61, 53) {
+		this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 61, 53) {
 			private final int slot = 21;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -314,7 +310,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(22, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 22, 79, 53) {
+		this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 79, 53) {
 			private final int slot = 22;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -324,7 +320,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(23, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 23, 97, 53) {
+		this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 97, 53) {
 			private final int slot = 23;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -334,7 +330,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(24, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 24, 115, 53) {
+		this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 115, 53) {
 			private final int slot = 24;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -344,7 +340,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(25, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 25, 133, 53) {
+		this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 133, 53) {
 			private final int slot = 25;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -354,7 +350,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(26, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 26, 151, 53) {
+		this.customSlots.put(26, this.addSlot(new SlotItemHandler(internal, 26, 151, 53) {
 			private final int slot = 26;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -364,7 +360,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(27, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 27, 7, 71) {
+		this.customSlots.put(27, this.addSlot(new SlotItemHandler(internal, 27, 7, 71) {
 			private final int slot = 27;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -374,7 +370,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(28, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 28, 25, 71) {
+		this.customSlots.put(28, this.addSlot(new SlotItemHandler(internal, 28, 25, 71) {
 			private final int slot = 28;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -384,7 +380,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(29, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 29, 43, 71) {
+		this.customSlots.put(29, this.addSlot(new SlotItemHandler(internal, 29, 43, 71) {
 			private final int slot = 29;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -394,7 +390,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(30, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 30, 61, 71) {
+		this.customSlots.put(30, this.addSlot(new SlotItemHandler(internal, 30, 61, 71) {
 			private final int slot = 30;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -404,7 +400,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(31, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 31, 79, 71) {
+		this.customSlots.put(31, this.addSlot(new SlotItemHandler(internal, 31, 79, 71) {
 			private final int slot = 31;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -414,7 +410,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(32, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 32, 97, 71) {
+		this.customSlots.put(32, this.addSlot(new SlotItemHandler(internal, 32, 97, 71) {
 			private final int slot = 32;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -424,7 +420,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(33, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 33, 115, 71) {
+		this.customSlots.put(33, this.addSlot(new SlotItemHandler(internal, 33, 115, 71) {
 			private final int slot = 33;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -434,7 +430,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(34, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 34, 133, 71) {
+		this.customSlots.put(34, this.addSlot(new SlotItemHandler(internal, 34, 133, 71) {
 			private final int slot = 34;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -444,7 +440,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(35, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 35, 151, 71) {
+		this.customSlots.put(35, this.addSlot(new SlotItemHandler(internal, 35, 151, 71) {
 			private final int slot = 35;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -454,7 +450,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(36, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 36, 7, 89) {
+		this.customSlots.put(36, this.addSlot(new SlotItemHandler(internal, 36, 7, 89) {
 			private final int slot = 36;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -464,7 +460,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(37, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 37, 25, 89) {
+		this.customSlots.put(37, this.addSlot(new SlotItemHandler(internal, 37, 25, 89) {
 			private final int slot = 37;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -474,7 +470,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(38, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 38, 43, 89) {
+		this.customSlots.put(38, this.addSlot(new SlotItemHandler(internal, 38, 43, 89) {
 			private final int slot = 38;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -484,7 +480,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(39, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 39, 61, 89) {
+		this.customSlots.put(39, this.addSlot(new SlotItemHandler(internal, 39, 61, 89) {
 			private final int slot = 39;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -494,7 +490,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(40, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 40, 79, 89) {
+		this.customSlots.put(40, this.addSlot(new SlotItemHandler(internal, 40, 79, 89) {
 			private final int slot = 40;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -504,7 +500,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(41, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 41, 97, 89) {
+		this.customSlots.put(41, this.addSlot(new SlotItemHandler(internal, 41, 97, 89) {
 			private final int slot = 41;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -514,7 +510,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(42, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 42, 115, 89) {
+		this.customSlots.put(42, this.addSlot(new SlotItemHandler(internal, 42, 115, 89) {
 			private final int slot = 42;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -524,7 +520,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(43, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 43, 133, 89) {
+		this.customSlots.put(43, this.addSlot(new SlotItemHandler(internal, 43, 133, 89) {
 			private final int slot = 43;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -534,7 +530,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(44, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 44, 151, 89) {
+		this.customSlots.put(44, this.addSlot(new SlotItemHandler(internal, 44, 151, 89) {
 			private final int slot = 44;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -544,7 +540,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(45, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 45, 7, 107) {
+		this.customSlots.put(45, this.addSlot(new SlotItemHandler(internal, 45, 7, 107) {
 			private final int slot = 45;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -554,7 +550,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(46, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 46, 25, 107) {
+		this.customSlots.put(46, this.addSlot(new SlotItemHandler(internal, 46, 25, 107) {
 			private final int slot = 46;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -564,7 +560,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(47, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 47, 43, 107) {
+		this.customSlots.put(47, this.addSlot(new SlotItemHandler(internal, 47, 43, 107) {
 			private final int slot = 47;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -574,7 +570,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(48, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 48, 61, 107) {
+		this.customSlots.put(48, this.addSlot(new SlotItemHandler(internal, 48, 61, 107) {
 			private final int slot = 48;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -584,7 +580,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(49, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 49, 79, 107) {
+		this.customSlots.put(49, this.addSlot(new SlotItemHandler(internal, 49, 79, 107) {
 			private final int slot = 49;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -594,7 +590,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(50, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 50, 97, 107) {
+		this.customSlots.put(50, this.addSlot(new SlotItemHandler(internal, 50, 97, 107) {
 			private final int slot = 50;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -604,7 +600,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(51, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 51, 115, 107) {
+		this.customSlots.put(51, this.addSlot(new SlotItemHandler(internal, 51, 115, 107) {
 			private final int slot = 51;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -614,7 +610,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(52, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 52, 133, 107) {
+		this.customSlots.put(52, this.addSlot(new SlotItemHandler(internal, 52, 133, 107) {
 			private final int slot = 52;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -624,7 +620,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(53, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 53, 151, 107) {
+		this.customSlots.put(53, this.addSlot(new SlotItemHandler(internal, 53, 151, 107) {
 			private final int slot = 53;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -634,7 +630,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(54, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 54, 7, 125) {
+		this.customSlots.put(54, this.addSlot(new SlotItemHandler(internal, 54, 7, 125) {
 			private final int slot = 54;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -644,7 +640,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(55, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 55, 25, 125) {
+		this.customSlots.put(55, this.addSlot(new SlotItemHandler(internal, 55, 25, 125) {
 			private final int slot = 55;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -654,7 +650,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(56, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 56, 43, 125) {
+		this.customSlots.put(56, this.addSlot(new SlotItemHandler(internal, 56, 43, 125) {
 			private final int slot = 56;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -664,7 +660,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(57, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 57, 61, 125) {
+		this.customSlots.put(57, this.addSlot(new SlotItemHandler(internal, 57, 61, 125) {
 			private final int slot = 57;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -674,7 +670,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(58, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 58, 79, 125) {
+		this.customSlots.put(58, this.addSlot(new SlotItemHandler(internal, 58, 79, 125) {
 			private final int slot = 58;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -684,7 +680,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(59, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 59, 97, 125) {
+		this.customSlots.put(59, this.addSlot(new SlotItemHandler(internal, 59, 97, 125) {
 			private final int slot = 59;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -694,7 +690,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(60, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 60, 115, 125) {
+		this.customSlots.put(60, this.addSlot(new SlotItemHandler(internal, 60, 115, 125) {
 			private final int slot = 60;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -704,7 +700,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(61, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 61, 133, 125) {
+		this.customSlots.put(61, this.addSlot(new SlotItemHandler(internal, 61, 133, 125) {
 			private final int slot = 61;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -714,7 +710,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(62, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 62, 151, 125) {
+		this.customSlots.put(62, this.addSlot(new SlotItemHandler(internal, 62, 151, 125) {
 			private final int slot = 62;
 			private int x = DoubleSecureStoorafeBlockGuiMenu.this.x;
 			private int y = DoubleSecureStoorafeBlockGuiMenu.this.y;
@@ -729,22 +725,6 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -1 + 8 + sj * 18, 62 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
 			this.addSlot(new Slot(inv, si, -1 + 8 + si * 18, 62 + 142));
-	}
-
-	private void setItemInSlot(int index, ItemResource resource, int amount) {
-		if (internal instanceof ItemStacksResourceHandler handler) {
-			handler.set(index, resource, amount);
-		} else if (boundBlockEntity instanceof Container container) {
-			container.setItem(index, resource.toStack(Math.max(0, amount)));
-		} else {
-			try (var tx = Transaction.openRoot()) {
-				if (!internal.getResource(index).isEmpty())
-					internal.extract(index, internal.getResource(index), internal.getAmountAsInt(index), tx);
-				if (!resource.isEmpty() && amount > 0)
-					internal.insert(index, resource, amount, tx);
-				tx.commit();
-			}
-		}
 	}
 
 	@Override
@@ -763,7 +743,7 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 	@Override
 	public ItemStack quickMoveStack(Player playerIn, int index) {
 		ItemStack itemstack = ItemStack.EMPTY;
-		Slot slot = this.slots.get(index);
+		Slot slot = (Slot) this.slots.get(index);
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
@@ -795,62 +775,62 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 	}
 
 	@Override
-	protected boolean moveItemStackTo(ItemStack itemStack, int startSlot, int endSlot, boolean backwards) {
-		boolean anythingChanged = false;
-		int destSlot = startSlot;
-		if (backwards) {
-			destSlot = endSlot - 1;
+	protected boolean moveItemStackTo(ItemStack p_38904_, int p_38905_, int p_38906_, boolean p_38907_) {
+		boolean flag = false;
+		int i = p_38905_;
+		if (p_38907_) {
+			i = p_38906_ - 1;
 		}
-		if (itemStack.isStackable()) {
-			while (!itemStack.isEmpty() && (backwards ? destSlot >= startSlot : destSlot < endSlot)) {
-				Slot slot = this.slots.get(destSlot);
-				ItemStack target = slot.getItem();
-				if (slot.mayPlace(target) && !target.isEmpty() && ItemStack.isSameItemSameComponents(itemStack, target)) {
-					int totalStack = target.getCount() + itemStack.getCount();
-					int maxStackSize = slot.getMaxStackSize(target);
-					if (totalStack <= maxStackSize) {
-						itemStack.setCount(0);
-						target.setCount(totalStack);
-						slot.set(target);
-						anythingChanged = true;
-					} else if (target.getCount() < maxStackSize) {
-						itemStack.shrink(maxStackSize - target.getCount());
-						target.setCount(maxStackSize);
-						slot.set(target);
-						anythingChanged = true;
+		if (p_38904_.isStackable()) {
+			while (!p_38904_.isEmpty() && (p_38907_ ? i >= p_38905_ : i < p_38906_)) {
+				Slot slot = this.slots.get(i);
+				ItemStack itemstack = slot.getItem();
+				if (slot.mayPlace(itemstack) && !itemstack.isEmpty() && ItemStack.isSameItemSameComponents(p_38904_, itemstack)) {
+					int j = itemstack.getCount() + p_38904_.getCount();
+					int k = slot.getMaxStackSize(itemstack);
+					if (j <= k) {
+						p_38904_.setCount(0);
+						itemstack.setCount(j);
+						slot.set(itemstack);
+						flag = true;
+					} else if (itemstack.getCount() < k) {
+						p_38904_.shrink(k - itemstack.getCount());
+						itemstack.setCount(k);
+						slot.set(itemstack);
+						flag = true;
 					}
 				}
-				if (backwards) {
-					destSlot--;
+				if (p_38907_) {
+					i--;
 				} else {
-					destSlot++;
+					i++;
 				}
 			}
 		}
-		if (!itemStack.isEmpty()) {
-			if (backwards) {
-				destSlot = endSlot - 1;
+		if (!p_38904_.isEmpty()) {
+			if (p_38907_) {
+				i = p_38906_ - 1;
 			} else {
-				destSlot = startSlot;
+				i = p_38905_;
 			}
-			while (backwards ? destSlot >= startSlot : destSlot < endSlot) {
-				Slot slotx = this.slots.get(destSlot);
-				ItemStack targetx = slotx.getItem();
-				if (targetx.isEmpty() && slotx.mayPlace(itemStack)) {
-					int maxStackSize = slotx.getMaxStackSize(itemStack);
-					slotx.setByPlayer(itemStack.split(Math.min(itemStack.getCount(), maxStackSize)));
-					slotx.setChanged();
-					anythingChanged = true;
+			while (p_38907_ ? i >= p_38905_ : i < p_38906_) {
+				Slot slot1 = this.slots.get(i);
+				ItemStack itemstack1 = slot1.getItem();
+				if (itemstack1.isEmpty() && slot1.mayPlace(p_38904_)) {
+					int l = slot1.getMaxStackSize(p_38904_);
+					slot1.setByPlayer(p_38904_.split(Math.min(p_38904_.getCount(), l)));
+					slot1.setChanged();
+					flag = true;
 					break;
 				}
-				if (backwards) {
-					destSlot--;
+				if (p_38907_) {
+					i--;
 				} else {
-					destSlot++;
+					i++;
 				}
 			}
 		}
-		return anythingChanged;
+		return flag;
 	}
 
 	@Override
@@ -858,14 +838,16 @@ public class DoubleSecureStoorafeBlockGuiMenu extends AbstractContainerMenu impl
 		super.removed(playerIn);
 		if (!bound && playerIn instanceof ServerPlayer serverPlayer) {
 			if (!serverPlayer.isAlive() || serverPlayer.hasDisconnected()) {
-				for (int j = 0; j < internal.size(); ++j) {
-					playerIn.drop(ItemUtil.getStack(internal, j), false);
-					setItemInSlot(j, ItemResource.EMPTY, 0);
+				for (int j = 0; j < internal.getSlots(); ++j) {
+					playerIn.drop(internal.getStackInSlot(j), false);
+					if (internal instanceof IItemHandlerModifiable ihm)
+						ihm.setStackInSlot(j, ItemStack.EMPTY);
 				}
 			} else {
-				for (int i = 0; i < internal.size(); ++i) {
-					playerIn.getInventory().placeItemBackInInventory(ItemUtil.getStack(internal, i));
-					setItemInSlot(i, ItemResource.EMPTY, 0);
+				for (int i = 0; i < internal.getSlots(); ++i) {
+					playerIn.getInventory().placeItemBackInInventory(internal.getStackInSlot(i));
+					if (internal instanceof IItemHandlerModifiable ihm)
+						ihm.setStackInSlot(i, ItemStack.EMPTY);
 				}
 			}
 		}

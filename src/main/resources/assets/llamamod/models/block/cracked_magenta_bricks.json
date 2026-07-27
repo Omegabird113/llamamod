@@ -3,5 +3,6 @@
   "textures": {
     "all": "llamamod:block/cracked_magenta_bricks",
     "particle": "llamamod:block/cracked_magenta_bricks"
-  }
+  },
+  "render_type": "solid"
 }

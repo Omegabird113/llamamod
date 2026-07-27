@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class CrackedCherryBricksBlock extends Block {
-	public CrackedCherryBricksBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(18f, 37f).requiresCorrectToolForDrops());
+	public CrackedCherryBricksBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(18f, 37f).requiresCorrectToolForDrops());
 	}
 }

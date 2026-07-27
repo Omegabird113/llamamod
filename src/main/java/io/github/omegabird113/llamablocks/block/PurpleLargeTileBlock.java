@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class PurpleLargeTileBlock extends Block {
-	public PurpleLargeTileBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_PURPLE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
+	public PurpleLargeTileBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
 	}
 }

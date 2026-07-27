@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_bricks",
-    "minecraft:cyan_dye"
+    {
+      "tag": "llamamod:cracked_bricks"
+    },
+    {
+      "item": "minecraft:cyan_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_cyan_bricks",

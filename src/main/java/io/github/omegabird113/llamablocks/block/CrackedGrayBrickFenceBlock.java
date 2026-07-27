@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FenceBlock;
 
 public class CrackedGrayBrickFenceBlock extends FenceBlock {
-	public CrackedGrayBrickFenceBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops().forceSolidOn());
+	public CrackedGrayBrickFenceBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }

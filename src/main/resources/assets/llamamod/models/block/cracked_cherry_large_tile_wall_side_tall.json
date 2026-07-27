@@ -3,5 +3,6 @@
   "textures": {
     "wall": "llamamod:block/cracked_cherry_large_tiles",
     "particle": "llamamod:block/cracked_cherry_large_tiles"
-  }
+  },
+  "render_type": "solid"
 }

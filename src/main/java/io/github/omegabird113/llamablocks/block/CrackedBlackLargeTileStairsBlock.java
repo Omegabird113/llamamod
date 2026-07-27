@@ -7,8 +7,8 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Blocks;
 
 public class CrackedBlackLargeTileStairsBlock extends StairBlock {
-	public CrackedBlackLargeTileStairsBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
+	public CrackedBlackLargeTileStairsBlock() {
+		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
 	}
 
 	@Override

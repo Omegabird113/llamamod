@@ -7,9 +7,15 @@
     "aca"
   ],
   "key": {
-    "a": "minecraft:diamond",
-    "b": "llamamod:golden_banana_upgrade",
-    "c": "minecraft:netherrack"
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "llamamod:golden_banana_upgrade"
+    },
+    "c": {
+      "item": "minecraft:netherrack"
+    }
   },
   "result": {
     "id": "llamamod:golden_banana_upgrade",

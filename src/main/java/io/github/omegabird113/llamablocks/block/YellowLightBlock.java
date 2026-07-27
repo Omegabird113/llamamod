@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class YellowLightBlock extends Block {
-	public YellowLightBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_YELLOW).sound(SoundType.METAL).strength(12f, 16f).lightLevel(blockstate -> 15).requiresCorrectToolForDrops());
+	public YellowLightBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.METAL).strength(12f, 16f).lightLevel(blockstate -> 15).requiresCorrectToolForDrops());
 	}
 }

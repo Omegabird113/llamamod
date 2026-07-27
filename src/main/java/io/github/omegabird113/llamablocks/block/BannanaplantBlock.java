@@ -2,9 +2,12 @@ package io.github.omegabird113.llamablocks.block;
 
 import net.neoforged.neoforge.common.CommonHooks;
 import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.Fluids;
@@ -15,15 +18,16 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.*;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.FoliageColor;
+import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.color.block.BlockTintSources;
-
-import java.util.List;
 
 import io.github.omegabird113.llamablocks.procedures.CanBoneMealBeUsedOnBananaPlantProcedure;
 import io.github.omegabird113.llamablocks.procedures.BannanaplantOnBoneMealSuccessProcedure;
@@ -33,8 +37,8 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 	private static final VoxelShape SHAPE = box(3.46, 0, 3.46, 12.62, 16, 12.52);
 
-	public BannanaplantBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_GREEN).randomTicks().sound(SoundType.GRASS).strength(0.07f, 0.31f).noOcclusion().dynamicShape().replaceable().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XYZ)
+	public BannanaplantBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GREEN).randomTicks().sound(SoundType.GRASS).strength(0.07f, 0.31f).noOcclusion().dynamicShape().replaceable().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XYZ)
 				.pushReaction(PushReaction.DESTROY));
 		this.registerDefaultState(this.stateDefinition.any().setValue(AGE, 0).setValue(WATERLOGGED, false));
 	}
@@ -57,16 +61,17 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	}
 
 	@Override
-	public BlockState updateShape(BlockState state, LevelReader world, ScheduledTickAccess scheduledTickAccess, BlockPos currentPos, Direction facing, BlockPos facingPos, BlockState facingState, RandomSource random) {
+	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos, BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
-			scheduledTickAccess.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
+			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
-		return super.updateShape(state, world, scheduledTickAccess, currentPos, facing, facingPos, facingState, random);
+		return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
 	}
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return SHAPE.move(state.getOffset(pos));
+		Vec3 offset = state.getOffset(world, pos);
+		return SHAPE.move(offset.x, offset.y, offset.z);
 	}
 
 	@Override
@@ -125,7 +130,17 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 		BannanaplantOnBoneMealSuccessProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
-	public static void blockColorLoad(RegisterColorHandlersEvent.BlockTintSources event) {
-		event.getBlockColors().register(List.of(BlockTintSources.constant(FoliageColor.FOLIAGE_BIRCH)), LlamamodModBlocks.BANANA_PLANT.get());
+	@OnlyIn(Dist.CLIENT)
+	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+		event.getBlockColors().register((bs, world, pos, index) -> {
+			return FoliageColor.getBirchColor();
+		}, LlamamodModBlocks.BANANA_PLANT.get());
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
+		event.getItemColors().register((stack, index) -> {
+			return FoliageColor.getBirchColor();
+		}, LlamamodModBlocks.BANANA_PLANT.get());
 	}
 }

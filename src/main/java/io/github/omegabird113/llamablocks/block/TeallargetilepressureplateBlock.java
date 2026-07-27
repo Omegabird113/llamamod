@@ -7,7 +7,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class TeallargetilepressureplateBlock extends PressurePlateBlock {
-	public TeallargetilepressureplateBlock(BlockBehaviour.Properties properties) {
-		super(BlockSetType.STONE, properties.mapColor(MapColor.WARPED_WART_BLOCK).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
+	public TeallargetilepressureplateBlock() {
+		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.WARPED_WART_BLOCK).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
 	}
 }
