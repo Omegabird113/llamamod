@@ -39467,8 +39467,8 @@
       "CUSTOM:IndustrialLight"
     ],
     "BLOCKS:minecraft:replaceable": [
-      "~Bannanaplant@CUSTOM:Bannanaplant",
-      "~Acid@CUSTOM:Acid"
+      "~Acid@CUSTOM:Acid",
+      "~Bannanaplant@CUSTOM:Bannanaplant"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~IndustrialLight@CUSTOM:IndustrialLight",
@@ -42391,7 +42391,7 @@
       "gamerule.preventNestedStorageItems.description": "This controls whether LlamaBlocks stops Shulker Boxes, Bundles, Backpacks, etc, from being placed in the Secure Storage Block and backpacks.",
       "gamerule.giveGoldenBananaEffects.description": "This controls whether the players get effects from eating a Golden Banana.",
       "gamerule.giveGoldenBananaEffects": "[LlamaBlocks] Enable Golden Banana Effects",
-      "llamamod.about.version": "1.4.0-beta.1",
+      "llamamod.about.version": "1.4.0-beta.2",
       "llamamod.about.version.excludebeta": "1.4.0",
       "block.llamamod.computer.invalidoperationerror": "Invalid Operation",
       "block.llamamod.computer.playernamenotfounderror": "ERROR: Player mame not found",
@@ -44206,7 +44206,7 @@
   "workspaceSettings": {
     "modid": "llamamod",
     "modName": "LlamaBlocks",
-    "version": "1.4.0-beta.1+mc26.1.2",
+    "version": "1.4.0-beta.2+mc26.1.2",
     "description": "LlamaBlocks is a complex, multi-year long development, MCreator mod which adds a ton of features. These include 702 variants of custom building blocks, the complex Computer block with a calculator and much more, a password system for improved game-immersion, many custom storage items, a custom Banana farming item with some cool gimmicks, a custom damaging fluid named Acid, and more!",
     "author": "Omegabird113",
     "websiteURL": "https://omegabird113.github.io/llamamod/",
