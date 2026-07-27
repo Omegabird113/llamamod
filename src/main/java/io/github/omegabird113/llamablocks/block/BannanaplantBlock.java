@@ -15,11 +15,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.ScheduledTickAccess;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.FoliageColor;
-import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.*;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
@@ -113,7 +109,10 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 
 	@Override
 	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
-		return true;
+		if (worldIn instanceof LevelAccessor world) {
+			return CanBoneMealBeUsedOnBananaPlantProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		}
+		return false;
 	}
 
 	@Override

@@ -4,15 +4,13 @@
   "definition": {
     "renderType": 120,
     "texture": "banana_plant_tintable",
-    "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "Birch foliage",
     "isItemTinted": true,
     "plantType": "growapable",
-    "suspiciousStewEffect": "HEALTH_BOOST",
-    "suspiciousStewDuration": 10000,
+    "suspiciousStewDuration": 0,
     "secondaryTreeChance": 0.1,
     "trees": [
       null,
@@ -93,6 +91,7 @@
       "Blocks.DIRT#1"
     ],
     "isBonemealable": true,
+    "isBonemealTargetCondition": "CanBoneMealBeUsedOnBananaPlant",
     "bonemealSuccessCondition": "CanBoneMealBeUsedOnBananaPlant",
     "onBonemealSuccess": "BannanaplantOnBoneMealSuccess",
     "frequencyOnChunks": 3,

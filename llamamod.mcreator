@@ -39438,8 +39438,8 @@
       "CUSTOM:IndustrialLight"
     ],
     "BLOCKS:minecraft:replaceable": [
-      "~Acid@CUSTOM:Acid",
-      "~Bannanaplant@CUSTOM:Bannanaplant"
+      "~Bannanaplant@CUSTOM:Bannanaplant",
+      "~Acid@CUSTOM:Acid"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~IndustrialLight@CUSTOM:IndustrialLight",
