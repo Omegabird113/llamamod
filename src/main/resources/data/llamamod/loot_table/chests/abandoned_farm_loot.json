@@ -28,7 +28,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
-          "weight": 17,
+          "weight": 16,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -100,6 +100,13 @@
             {
               "function": "minecraft:set_count",
               "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 11
+              }
             }
           ]
         },
@@ -111,6 +118,13 @@
             {
               "function": "minecraft:set_count",
               "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 14
+              }
             }
           ]
         },
@@ -142,11 +156,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 5,
+          "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 2
+              }
             }
           ]
         },
@@ -220,11 +237,50 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:stone_pickaxe",
-          "weight": 5,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 0,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 15,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 17
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
             }
           ]
         }
@@ -243,7 +299,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:banana_plant",
-          "weight": 42,
+          "weight": 38,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -257,7 +313,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:farm_scraps",
-          "weight": 21,
+          "weight": 17,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -271,7 +327,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:password_changer",
-          "weight": 13,
+          "weight": 11,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -335,7 +391,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:acid_bucket",
-          "weight": 6,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -346,7 +402,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:green_bricks",
-          "weight": 5,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -402,7 +458,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:gray_brick_slab",
-          "weight": 4,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -416,7 +472,7 @@
         {
           "type": "minecraft:item",
           "name": "llamamod:golden_banana",
-          "weight": 8,
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -431,6 +487,31 @@
           "type": "minecraft:item",
           "name": "llamamod:netherite_backpack",
           "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "llamamod:cracked_black_large_tile",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "llamamod:computer",
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
