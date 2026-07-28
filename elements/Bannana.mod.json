@@ -47,7 +47,7 @@
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 2,
-    "saturation": 0.5,
+    "saturation": 0.8,
     "eatResultItem": "",
     "isMeat": false,
     "isAlwaysEdible": false,

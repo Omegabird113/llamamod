@@ -6,6 +6,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class BannanaItem extends Item {
 	public BannanaItem(Item.Properties properties) {
-		super(properties.food((new FoodProperties.Builder()).nutrition(2).saturationModifier(0.5f).build(), Consumables.defaultFood().consumeSeconds(0.65F).build()));
+		super(properties.food((new FoodProperties.Builder()).nutrition(2).saturationModifier(0.8f).build(), Consumables.defaultFood().consumeSeconds(0.65F).build()));
 	}
 }
