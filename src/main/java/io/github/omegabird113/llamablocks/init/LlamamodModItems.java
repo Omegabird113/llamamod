@@ -760,6 +760,8 @@ public class LlamamodModItems {
 	public static final DeferredItem<Item> CHERRY_LIGHT;
 	public static final DeferredItem<Item> TEAL_LIGHT;
 	public static final DeferredItem<Item> INDUSTRIAL_LIGHT;
+	public static final DeferredItem<Item> DIAMOND_BANNANA;
+	public static final DeferredItem<Item> DIAMOND_BANANA_UPGRADE_TEMPLATE;
 	static {
 		BANANA_PLANT = block(LlamamodModBlocks.BANANA_PLANT);
 		BANANA = register("banana", BannanaItem::new);
@@ -1495,6 +1497,8 @@ public class LlamamodModItems {
 		CHERRY_LIGHT = block(LlamamodModBlocks.CHERRY_LIGHT);
 		TEAL_LIGHT = block(LlamamodModBlocks.TEAL_LIGHT);
 		INDUSTRIAL_LIGHT = block(LlamamodModBlocks.INDUSTRIAL_LIGHT);
+		DIAMOND_BANNANA = register("diamond_bannana", DiamondBannanaItem::new);
+		DIAMOND_BANANA_UPGRADE_TEMPLATE = register("diamond_banana_upgrade_template", DiamondBananaUpgradeTemplateItem::new);
 	}
 
 	// Start of user code block custom items

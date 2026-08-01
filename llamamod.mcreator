@@ -38617,6 +38617,99 @@
         ]
       },
       "path": "~/Fluids/Acid/Acid Effect"
+    },
+    {
+      "name": "DiamondBannana",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_bannana",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/llamamod/items/diamond_bannana.json",
+          "src/main/java/io/github/omegabird113/llamablocks/item/DiamondBannanaItem.java",
+          "src/main/resources/assets/llamamod/models/item/diamond_bannana.json"
+        ]
+      },
+      "path": "~/Food and Farming/Diamond Banana"
+    },
+    {
+      "name": "DiamondBannanaPlayerFinishesUsingItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_bannana_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/procedures/DiamondBannanaPlayerFinishesUsingItemProcedure.java"
+        ]
+      },
+      "path": "~/Food and Farming/Diamond Banana"
+    },
+    {
+      "name": "DiamondBananaUpgradeTemplate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_banana_upgrade_template",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/llamamod/models/item/diamond_banana_upgrade_template.json",
+          "src/main/java/io/github/omegabird113/llamablocks/item/DiamondBananaUpgradeTemplateItem.java",
+          "src/main/resources/assets/llamamod/items/diamond_banana_upgrade_template.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "DiamondBananaUpgradeTemplateRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_banana_upgrade_template_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/diamond_banana_upgrade_template_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades"
+    },
+    {
+      "name": "DiamondBananaUpgradeTemplateDuplicationRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_banana_upgrade_template_duplication_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/diamond_banana_upgrade_template_duplication_rec.json",
+          "src/main/resources/data/llamamod/advancement/recipes/diamond_banana_upgrade_template_duplication_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades"
+    },
+    {
+      "name": "DiamondBananaRec",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_banana_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/recipe/diamond_banana_rec.json"
+        ]
+      },
+      "path": "~/Recipes and Trades"
     }
   ],
   "variable_elements": [],
@@ -41936,7 +42029,9 @@
       "Farmscraps",
       "Bannana",
       "GoldenBannana",
+      "DiamondBannana",
       "GoldenBananaUpgradeTemplate",
+      "DiamondBananaUpgradeTemplate",
       "Acid"
     ],
     "OP_BLOCKS": []
@@ -43566,7 +43661,9 @@
       "gamerule.llamamod.give_golden_banana_effects": "[LlamaBlocks] Enable Golden Banana Effects",
       "gamerule.llamamod.give_golden_banana_effects.description": "This controls whether the players get effects from eating a Golden Banana.",
       "attribute.llamamod.acid_damage_protection": "Acid Damage Protection",
-      "effect.llamamod.acid_resistence": "Acid Resistence"
+      "effect.llamamod.acid_resistence": "Acid Resistence",
+      "item.llamamod.diamond_bannana": "Diamond Banana",
+      "item.llamamod.diamond_banana_upgrade_template": "Diamond Banana Upgrade"
     }
   },
   "metadata": {
@@ -44164,6 +44261,10 @@
           },
           {
             "name": "Golden Banana",
+            "children": []
+          },
+          {
+            "name": "Diamond Banana",
             "children": []
           }
         ]

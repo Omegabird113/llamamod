@@ -1622,5 +1622,7 @@
   "gamerule.llamamod.give_golden_banana_effects": "[LlamaBlocks] Enable Golden Banana Effects",
   "gamerule.llamamod.give_golden_banana_effects.description": "This controls whether the players get effects from eating a Golden Banana.",
   "attribute.llamamod.acid_damage_protection": "Acid Damage Protection",
-  "effect.llamamod.acid_resistence": "Acid Resistence"
+  "effect.llamamod.acid_resistence": "Acid Resistence",
+  "item.llamamod.diamond_bannana": "Diamond Banana",
+  "item.llamamod.diamond_banana_upgrade_template": "Diamond Banana Upgrade"
 }
