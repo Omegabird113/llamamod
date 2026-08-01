@@ -751,7 +751,7 @@ public class LlamamodModTabs {
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA.get());
 				tabData.accept(LlamamodModItems.DIAMOND_BANNANA.get());
 				tabData.accept(LlamamodModItems.GOLDEN_BANANA_UPGRADE.get());
-				tabData.accept(LlamamodModItems.ACID_BUCKET.get());
 				tabData.accept(LlamamodModItems.DIAMOND_BANANA_UPGRADE_TEMPLATE.get());
+				tabData.accept(LlamamodModItems.ACID_BUCKET.get());
 			}).build());
 }
