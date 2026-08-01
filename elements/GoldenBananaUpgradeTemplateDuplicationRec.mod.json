@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 5,
+    "recipeRetstackSize": 4,
     "group": "",
     "unlockingItems": [
       "Blocks.NETHERRACK"
