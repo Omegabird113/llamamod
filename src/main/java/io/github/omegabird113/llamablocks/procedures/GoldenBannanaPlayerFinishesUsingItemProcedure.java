@@ -15,13 +15,13 @@ public class GoldenBannanaPlayerFinishesUsingItemProcedure {
 			return;
 		if (world instanceof ServerLevel _serverLevelGR0 && _serverLevelGR0.getGameRules().get(LlamamodModGameRules.GIVE_GOLDEN_BANANA_EFFECTS.get())) {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 50, 2));
+				_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 2));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 900, 1));
+				_entity.addEffect(new MobEffectInstance(MobEffects.LUCK, 2400, 1));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.HASTE, 800, 1));
+				_entity.addEffect(new MobEffectInstance(MobEffects.HASTE, 1000, 1));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 800, 1));
+				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 1000, 1));
 		}
 	}
 }
