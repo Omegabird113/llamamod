@@ -17408,7 +17408,6 @@
       "registry_name": "acid_lake",
       "metadata": {
         "files": [
-          "src/main/java/io/github/omegabird113/llamablocks/world/features/AcidlakeFeature.java",
           "src/main/resources/data/llamamod/worldgen/configured_feature/acid_lake.json",
           "src/main/resources/data/llamamod/neoforge/biome_modifier/acid_lake_biome_modifier.json",
           "src/main/resources/data/llamamod/worldgen/placed_feature/acid_lake.json"
@@ -43683,7 +43682,6 @@
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModBlocks.java",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModBlockEntities.java",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModItems.java",
-      "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModFeatures.java",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModTabs.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/resources/pack.mcmeta",

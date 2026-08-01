@@ -52,7 +52,6 @@ public class LlamamodMod {
 		LlamamodModBlockEntities.REGISTRY.register(modEventBus);
 		LlamamodModItems.REGISTRY.register(modEventBus);
 		LlamamodModTabs.REGISTRY.register(modEventBus);
-		LlamamodModFeatures.REGISTRY.register(modEventBus);
 		LlamamodModMobEffects.REGISTRY.register(modEventBus);
 		LlamamodModMenus.REGISTRY.register(modEventBus);
 		LlamamodModParticleTypes.REGISTRY.register(modEventBus);
