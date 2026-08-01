@@ -1,0 +1,25 @@
+{
+  "_fv": 89,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Acid Resistence",
+    "icon": "acid_resistance",
+    "color": {
+      "value": -3342490,
+      "falpha": 0.0
+    },
+    "onAddedSound": "",
+    "isInstant": false,
+    "mobEffectCategory": "BENEFICIAL",
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "isCuredbyHoney": false,
+    "modifiers": [
+      {
+        "attribute": "CUSTOM:AcidDamageProtection",
+        "amount": 0.45,
+        "operation": "ADD_VALUE"
+      }
+    ]
+  }
+}

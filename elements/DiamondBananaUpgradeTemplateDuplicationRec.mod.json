@@ -1,0 +1,31 @@
+{
+  "_fv": 89,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 2,
+    "group": "",
+    "unlockingItems": [
+      "Blocks.NETHERRACK"
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "CUSTOM:DiamondBananaUpgradeTemplate",
+      "Items.DIAMOND",
+      "Items.DIAMOND",
+      "Blocks.NETHERRACK",
+      "Items.DIAMOND"
+    ],
+    "recipeReturnStack": "CUSTOM:DiamondBananaUpgradeTemplate",
+    "name": "diamond_banana_upgrade_template_duplication_rec",
+    "namespace": "mod"
+  }
+}

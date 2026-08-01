@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aca"
+  ],
+  "key": {
+    "a": "minecraft:diamond",
+    "b": "llamamod:diamond_banana_upgrade_template",
+    "c": "minecraft:netherrack"
+  },
+  "result": {
+    "id": "llamamod:diamond_banana_upgrade_template",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": "minecraft:iron_block",
+    "b": "minecraft:diamond",
+    "c": "llamamod:golden_banana_upgrade",
+    "d": "minecraft:amethyst_block",
+    "e": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "id": "llamamod:diamond_banana_upgrade_template",
+    "count": 1
+  }
+}
