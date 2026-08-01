@@ -4,39 +4,28 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.util.Mth;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
-import net.minecraft.core.BlockPos;
 
 import io.github.omegabird113.llamablocks.init.LlamamodModMobEffects;
-import io.github.omegabird113.llamablocks.init.LlamamodModBlocks;
-import io.github.omegabird113.llamablocks.LlamamodMod;
+import io.github.omegabird113.llamablocks.init.LlamamodModAttributes;
 
 public class AcideffectOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		if ((world.getBlockState(BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()))).getBlock() == LlamamodModBlocks.ACID.get()
-				&& (world.getBlockState(BlockPos.containing(entity.getX(), entity.getY() + 1.9, entity.getZ()))).getBlock() == LlamamodModBlocks.ACID.get()) {
-			{
-				Entity _ent = entity;
-				if (_ent.level() instanceof ServerLevel _serverLevel) {
-					_ent.hurtServer(_serverLevel, new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, Identifier.parse("llamamod:acid_drowning")))), 2);
-				}
-			}
-			LlamamodMod.LOGGER.debug(("Dealt 2 acid tick drowning damage to " + entity + " at (" + entity.getX() + ", " + entity.getY() + ", " + entity.getZ() + ")"));
-		}
 		{
 			Entity _ent = entity;
 			if (_ent.level() instanceof ServerLevel _serverLevel) {
 				_ent.hurtServer(_serverLevel, new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, Identifier.parse("llamamod:acid_damage")))),
-						(float) Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) + 1.05) * 1.118));
+						(float) (Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) + 1.05) * 1.118)
+								* (1 - Mth.clamp(entity instanceof LivingEntity _livingEntity1 && _livingEntity1.getAttributes().hasAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION)
+										? _livingEntity1.getAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION).getValue()
+										: 0, 0, 1))));
 			}
 		}
-		LlamamodMod.LOGGER
-				.debug(("Dealt " + Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) + 1.05) * 1.118)
-						+ " acid tick damage to " + entity + " at (" + entity.getX() + ", " + entity.getY() + ", " + entity.getZ() + ")"));
 	}
 }

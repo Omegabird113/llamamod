@@ -269,6 +269,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -38589,6 +38593,30 @@
         ]
       },
       "path": "~/Structures"
+    },
+    {
+      "name": "AcidDamageProtection",
+      "type": "attribute",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_damage_protection",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Fluids/Acid/Acid Effect"
+    },
+    {
+      "name": "AcidResistence",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_resistence",
+      "metadata": {
+        "files": [
+          "src/main/java/io/github/omegabird113/llamablocks/potion/AcidResistenceMobEffect.java"
+        ]
+      },
+      "path": "~/Fluids/Acid/Acid Effect"
     }
   ],
   "variable_elements": [],
@@ -43536,11 +43564,14 @@
       "gamerule.llamamod.prevent_nested_storage_items": "[LlamaBlocks] Prevent Placement of Nested Storage Items",
       "gamerule.llamamod.prevent_nested_storage_items.description": "This controls whether LlamaBlocks stops Shulker Boxes, Bundles, Backpacks, etc, from being placed in the Secure Storage Block and backpacks.",
       "gamerule.llamamod.give_golden_banana_effects": "[LlamaBlocks] Enable Golden Banana Effects",
-      "gamerule.llamamod.give_golden_banana_effects.description": "This controls whether the players get effects from eating a Golden Banana."
+      "gamerule.llamamod.give_golden_banana_effects.description": "This controls whether the players get effects from eating a Golden Banana.",
+      "attribute.llamamod.acid_damage_protection": "Acid Damage Protection",
+      "effect.llamamod.acid_resistence": "Acid Resistence"
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModAttributes.java",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModFluidTypes.java",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModFluids.java",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModMenus.java",

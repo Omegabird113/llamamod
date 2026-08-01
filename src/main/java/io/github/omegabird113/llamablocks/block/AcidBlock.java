@@ -34,6 +34,6 @@ public class AcidBlock extends LiquidBlock {
 	@Override
 	public void entityInside(BlockState blockstate, Level world, BlockPos pos, Entity entity, InsideBlockEffectApplier insideBlockEffectApplier, boolean isPrecise) {
 		super.entityInside(blockstate, world, pos, entity, insideBlockEffectApplier, isPrecise);
-		AcidMobplayerCollidesBlockProcedure.execute(entity);
+		AcidMobplayerCollidesBlockProcedure.execute(world, entity);
 	}
 }

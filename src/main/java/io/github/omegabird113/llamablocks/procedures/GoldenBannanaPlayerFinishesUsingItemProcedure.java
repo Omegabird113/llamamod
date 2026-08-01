@@ -7,6 +7,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.server.level.ServerLevel;
 
+import io.github.omegabird113.llamablocks.init.LlamamodModMobEffects;
 import io.github.omegabird113.llamablocks.init.LlamamodModGameRules;
 
 public class GoldenBannanaPlayerFinishesUsingItemProcedure {
@@ -22,6 +23,8 @@ public class GoldenBannanaPlayerFinishesUsingItemProcedure {
 				_entity.addEffect(new MobEffectInstance(MobEffects.HASTE, 1000, 1));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 1000, 1));
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
+				_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_RESISTENCE, 1000, 1));
 		}
 	}
 }

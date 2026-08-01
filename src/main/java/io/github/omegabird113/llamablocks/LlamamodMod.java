@@ -59,6 +59,7 @@ public class LlamamodMod {
 		LlamamodModGameRules.REGISTRY.register(modEventBus);
 		LlamamodModFluids.REGISTRY.register(modEventBus);
 		LlamamodModFluidTypes.REGISTRY.register(modEventBus);
+		LlamamodModAttributes.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
