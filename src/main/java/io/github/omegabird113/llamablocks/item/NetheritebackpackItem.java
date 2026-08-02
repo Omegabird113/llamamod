@@ -1,6 +1,7 @@
 package io.github.omegabird113.llamablocks.item;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
@@ -18,7 +19,7 @@ import io.github.omegabird113.llamablocks.world.inventory.NetherbackpackguiMenu;
 
 public class NetheritebackpackItem extends Item {
 	public NetheritebackpackItem(Item.Properties properties) {
-		super(properties.stacksTo(1).fireResistant());
+		super(properties.rarity(Rarity.UNCOMMON).stacksTo(1).fireResistant());
 	}
 
 	@Override
