@@ -1624,5 +1624,13 @@
   "attribute.llamamod.acid_damage_protection": "Acid Damage Protection",
   "effect.llamamod.acid_resistence": "Acid Resistence",
   "item.llamamod.diamond_bannana": "Diamond Banana",
-  "item.llamamod.diamond_banana_upgrade_template": "Diamond Banana Upgrade"
+  "item.llamamod.diamond_banana_upgrade_template": "Diamond Banana Upgrade",
+  "painting.llamamod.wild_acid_lake.title": "Wild Acid Lake",
+  "painting.llamamod.wild_acid_lake.author": "Omegabird113",
+  "painting.llamamod.abandoned_exploration.author": "Omegabird113",
+  "painting.llamamod.abandoned_exploration.title": "Abandoned Exploration",
+  "painting.llamamod.banana_mountain.title": "Banana Mountain",
+  "painting.llamamod.banana_mountain.author": "Omegabird113",
+  "painting.llamamod.rows_of_blocks.author": "Omegabird113",
+  "painting.llamamod.rows_of_blocks.title": "Rows Of Blocks"
 }

@@ -38731,6 +38731,58 @@
         "files": []
       },
       "path": "~/Items/backpack"
+    },
+    {
+      "name": "WildAcidLake",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wild_acid_lake",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/painting_variant/wild_acid_lake.json"
+        ]
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "AbandonedExploration",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abandoned_exploration",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/painting_variant/abandoned_exploration.json"
+        ]
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "BananaMountain",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banana_mountain",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/painting_variant/banana_mountain.json"
+        ]
+      },
+      "path": "~/Paintings"
+    },
+    {
+      "name": "RowsOfBlocks",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rows_of_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/llamamod/painting_variant/rows_of_blocks.json"
+        ]
+      },
+      "path": "~/Paintings"
     }
   ],
   "variable_elements": [],
@@ -39613,6 +39665,7 @@
       "~Bannanaplant@CUSTOM:Bannanaplant"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~Computer@CUSTOM:Computer",
       "~IndustrialLight@CUSTOM:IndustrialLight",
       "~TealLight@CUSTOM:TealLight",
       "~CherryLight@CUSTOM:CherryLight",
@@ -40326,7 +40379,6 @@
       "~Authenticatorblock@CUSTOM:Authenticatorblock",
       "~Ceilingtiles@CUSTOM:Ceilingtiles",
       "~Tiles@CUSTOM:Tiles",
-      "~Computer@CUSTOM:Computer",
       "~Industrialbricks@CUSTOM:Industrialbricks",
       "~Blackbricks@CUSTOM:Blackbricks",
       "~Brownbricks@CUSTOM:Brownbricks",
@@ -40711,9 +40763,6 @@
       "~Industrialbrickslab@CUSTOM:Industrialbrickslab",
       "~Ceilingtiles@CUSTOM:Ceilingtiles",
       "~Industrialbricks@CUSTOM:Industrialbricks"
-    ],
-    "BLOCKS:minecraft:needs_diamond_tool": [
-      "~Computer@CUSTOM:Computer"
     ],
     "BLOCKS:minecraft:slabs": [
       "~CrackedIndustrialLargeTileSlab@CUSTOM:CrackedIndustrialLargeTileSlab",
@@ -41314,6 +41363,15 @@
     ],
     "VILLAGER_TRADES:minecraft:wandering_trader/common": [
       "~BananatradeExtraProfession@bananatrade_extra_profession_0"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~Computer@CUSTOM:Computer"
+    ],
+    "PAINTING_VARIANTS:minecraft:placeable": [
+      "~RowsOfBlocks@CUSTOM:RowsOfBlocks",
+      "~BananaMountain@CUSTOM:BananaMountain",
+      "~AbandonedExploration@CUSTOM:AbandonedExploration",
+      "~WildAcidLake@CUSTOM:WildAcidLake"
     ]
   },
   "tab_element_order": {
@@ -43684,7 +43742,15 @@
       "attribute.llamamod.acid_damage_protection": "Acid Damage Protection",
       "effect.llamamod.acid_resistence": "Acid Resistence",
       "item.llamamod.diamond_bannana": "Diamond Banana",
-      "item.llamamod.diamond_banana_upgrade_template": "Diamond Banana Upgrade"
+      "item.llamamod.diamond_banana_upgrade_template": "Diamond Banana Upgrade",
+      "painting.llamamod.wild_acid_lake.title": "Wild Acid Lake",
+      "painting.llamamod.wild_acid_lake.author": "Omegabird113",
+      "painting.llamamod.abandoned_exploration.author": "Omegabird113",
+      "painting.llamamod.abandoned_exploration.title": "Abandoned Exploration",
+      "painting.llamamod.banana_mountain.title": "Banana Mountain",
+      "painting.llamamod.banana_mountain.author": "Omegabird113",
+      "painting.llamamod.rows_of_blocks.author": "Omegabird113",
+      "painting.llamamod.rows_of_blocks.title": "Rows Of Blocks"
     }
   },
   "metadata": {
@@ -44355,6 +44421,10 @@
       },
       {
         "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Paintings",
         "children": []
       }
     ]
