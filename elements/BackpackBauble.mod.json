@@ -1,0 +1,24 @@
+{
+  "_fv": 89,
+  "_type": "curiosbauble",
+  "definition": {
+    "item": "Backpack",
+    "slotType": "BACK",
+    "slotAmount": 1,
+    "addSlot": true,
+    "enderMask": false,
+    "friendlyPigs": false,
+    "snowWalk": false,
+    "equipSound": "",
+    "hasModel": false,
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "helmetModelPart": "Empty",
+    "bodyModelPart": "Empty",
+    "armsModelPartL": "Empty",
+    "armsModelPartR": "Empty",
+    "leggingsModelPartL": "Empty",
+    "leggingsModelPartR": "Empty",
+    "disabledToggles": []
+  }
+}

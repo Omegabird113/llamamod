@@ -3,22 +3,29 @@ package io.github.omegabird113.llamablocks;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.neoforged.neoforge.transfer.item.ItemResource;
+import net.neoforged.neoforge.transfer.ResourceHandler;
 import net.neoforged.neoforge.network.registration.PayloadRegistrar;
 import net.neoforged.neoforge.network.handling.IPayloadHandler;
 import net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent;
 import net.neoforged.neoforge.event.tick.ServerTickEvent;
 import net.neoforged.neoforge.common.NeoForge;
+import net.neoforged.neoforge.capabilities.EntityCapability;
 import net.neoforged.fml.util.thread.SidedThreadGroups;
 import net.neoforged.fml.loading.FMLEnvironment;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.fml.ModList;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.bus.api.IEventBus;
 
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.server.TickTask;
+import net.minecraft.resources.Identifier;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
 import net.minecraft.network.codec.StreamCodec;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.core.registries.BuiltInRegistries;
 
 import javax.annotation.Nullable;
 
@@ -48,6 +55,9 @@ public class LlamamodMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		if (ModList.get().isLoaded("curios")) {
+			modEventBus.addListener(LlamamodModCuriosCompat::registerCapabilities);
+		}
 		LlamamodModBlocks.REGISTRY.register(modEventBus);
 		LlamamodModBlockEntities.REGISTRY.register(modEventBus);
 		LlamamodModItems.REGISTRY.register(modEventBus);
@@ -123,6 +133,21 @@ public class LlamamodMod {
 			}
 		} else {
 			return null;
+		}
+	}
+
+	public static class CuriosApiHelper {
+		private static final EntityCapability<ResourceHandler, Void> CURIOS_INVENTORY = EntityCapability.createVoid(Identifier.fromNamespaceAndPath("curios", "item_handler"), ResourceHandler.class);
+
+		public static ResourceHandler<ItemResource> getCuriosInventory(Player player) {
+			if (ModList.get().isLoaded("curios")) {
+				return player.getCapability(CURIOS_INVENTORY);
+			}
+			return null;
+		}
+
+		public static boolean isCurioItem(ItemStack itemstack) {
+			return BuiltInRegistries.ITEM.getTags().filter(named -> named.key().location().getNamespace().equals("curios")).anyMatch(named -> itemstack.is(named.key()));
 		}
 	}
 }

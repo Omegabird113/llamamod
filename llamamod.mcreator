@@ -38709,6 +38709,28 @@
         ]
       },
       "path": "~/Recipes and Trades"
+    },
+    {
+      "name": "NetheriteBackpackBauble",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_backpack_bauble",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/Netherite Backpack"
+    },
+    {
+      "name": "BackpackBauble",
+      "type": "curiosbauble",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backpack_bauble",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Items/backpack"
     }
   ],
   "variable_elements": [],
@@ -43668,6 +43690,10 @@
   "metadata": {
     "files": [
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModAttributes.java",
+      "src/main/resources/data/llamamod/curios/slots/back.json",
+      "src/main/resources/data/llamamod/curios/entities/slots.json",
+      "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModCuriosCompat.java",
+      "src/main/resources/data/curios/tags/item/back.json",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModFluidTypes.java",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModFluids.java",
       "src/main/java/io/github/omegabird113/llamablocks/init/LlamamodModMenus.java",
@@ -44347,7 +44373,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
     "currentGenerator": "neoforge-26.1.2",
     "credits": "Made with MCreator 2026.2.30420",
     "modElementsPackage": "io.github.omegabird113.llamablocks"
