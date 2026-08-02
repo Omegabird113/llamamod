@@ -13,18 +13,6 @@
         "entries": [
           {
             "type": "item",
-            "item": "Items.ROTTEN_FLESH",
-            "weight": 13,
-            "minCount": 4,
-            "maxCount": 8,
-            "minEnchantmentLevel": 0,
-            "maxEnchantmentLevel": 0,
-            "affectedByFortune": false,
-            "explosionDecay": false,
-            "silkTouchMode": 0
-          },
-          {
-            "type": "item",
             "item": "Items.COPPER_INGOT",
             "weight": 16,
             "minCount": 3,
