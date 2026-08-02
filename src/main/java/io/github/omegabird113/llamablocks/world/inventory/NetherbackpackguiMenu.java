@@ -37,7 +37,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
 		public Object put(String key, Object value) {
-			if (!this.containsKey(key) && this.size() >= 41)
+			if (!this.containsKey(key) && this.size() >= 50)
 				return null;
 			return super.put(key, value);
 		}
@@ -57,7 +57,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 		super(LlamamodModMenus.NETHERBACKPACKGUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStacksResourceHandler(36);
+		this.internal = new ItemStacksResourceHandler(45);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -94,7 +94,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 0, 6, 17) {
+		this.customSlots.put(0, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 0, 6, 15) {
 			private final int slot = 0;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -104,7 +104,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(1, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 1, 24, 17) {
+		this.customSlots.put(1, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 1, 24, 15) {
 			private final int slot = 1;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -114,7 +114,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 2, 42, 17) {
+		this.customSlots.put(2, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 2, 42, 15) {
 			private final int slot = 2;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -124,7 +124,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(3, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 3, 60, 17) {
+		this.customSlots.put(3, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 3, 60, 15) {
 			private final int slot = 3;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -134,7 +134,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(4, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 4, 78, 17) {
+		this.customSlots.put(4, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 4, 78, 15) {
 			private final int slot = 4;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -144,7 +144,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(5, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 5, 96, 17) {
+		this.customSlots.put(5, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 5, 96, 15) {
 			private final int slot = 5;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -154,7 +154,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(6, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 6, 114, 17) {
+		this.customSlots.put(6, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 6, 114, 15) {
 			private final int slot = 6;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -164,7 +164,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(7, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 7, 132, 17) {
+		this.customSlots.put(7, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 7, 132, 15) {
 			private final int slot = 7;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -174,7 +174,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(8, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 8, 150, 17) {
+		this.customSlots.put(8, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 8, 150, 15) {
 			private final int slot = 8;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -184,7 +184,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(9, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 9, 6, 35) {
+		this.customSlots.put(9, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 9, 6, 33) {
 			private final int slot = 9;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -194,7 +194,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(10, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 10, 24, 35) {
+		this.customSlots.put(10, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 10, 24, 33) {
 			private final int slot = 10;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -204,7 +204,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(11, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 11, 42, 35) {
+		this.customSlots.put(11, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 11, 42, 33) {
 			private final int slot = 11;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -214,7 +214,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(12, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 12, 60, 35) {
+		this.customSlots.put(12, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 12, 60, 33) {
 			private final int slot = 12;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -224,7 +224,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(13, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 13, 78, 35) {
+		this.customSlots.put(13, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 13, 78, 33) {
 			private final int slot = 13;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -234,7 +234,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(14, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 14, 96, 35) {
+		this.customSlots.put(14, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 14, 96, 33) {
 			private final int slot = 14;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -244,7 +244,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(15, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 15, 114, 35) {
+		this.customSlots.put(15, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 15, 114, 33) {
 			private final int slot = 15;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -254,7 +254,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(16, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 16, 132, 35) {
+		this.customSlots.put(16, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 16, 132, 33) {
 			private final int slot = 16;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -264,7 +264,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(17, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 17, 150, 35) {
+		this.customSlots.put(17, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 17, 150, 33) {
 			private final int slot = 17;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -274,7 +274,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(18, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 18, 6, 53) {
+		this.customSlots.put(18, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 18, 6, 51) {
 			private final int slot = 18;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -284,7 +284,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(19, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 19, 24, 53) {
+		this.customSlots.put(19, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 19, 24, 51) {
 			private final int slot = 19;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -294,7 +294,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(20, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 20, 42, 53) {
+		this.customSlots.put(20, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 20, 42, 51) {
 			private final int slot = 20;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -304,7 +304,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(21, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 21, 60, 53) {
+		this.customSlots.put(21, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 21, 60, 51) {
 			private final int slot = 21;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -314,7 +314,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(22, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 22, 78, 53) {
+		this.customSlots.put(22, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 22, 78, 51) {
 			private final int slot = 22;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -324,7 +324,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(23, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 23, 96, 53) {
+		this.customSlots.put(23, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 23, 96, 51) {
 			private final int slot = 23;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -334,7 +334,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(24, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 24, 114, 53) {
+		this.customSlots.put(24, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 24, 114, 51) {
 			private final int slot = 24;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -344,7 +344,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(25, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 25, 132, 53) {
+		this.customSlots.put(25, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 25, 132, 51) {
 			private final int slot = 25;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -354,7 +354,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(26, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 26, 150, 53) {
+		this.customSlots.put(26, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 26, 150, 51) {
 			private final int slot = 26;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -364,7 +364,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(27, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 27, 6, 71) {
+		this.customSlots.put(27, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 27, 6, 69) {
 			private final int slot = 27;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -374,7 +374,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(28, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 28, 24, 71) {
+		this.customSlots.put(28, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 28, 24, 69) {
 			private final int slot = 28;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -384,7 +384,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(29, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 29, 42, 71) {
+		this.customSlots.put(29, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 29, 42, 69) {
 			private final int slot = 29;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -394,7 +394,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(30, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 30, 60, 71) {
+		this.customSlots.put(30, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 30, 60, 69) {
 			private final int slot = 30;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -404,7 +404,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(31, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 31, 78, 71) {
+		this.customSlots.put(31, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 31, 78, 69) {
 			private final int slot = 31;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -414,7 +414,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(32, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 32, 96, 71) {
+		this.customSlots.put(32, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 32, 96, 69) {
 			private final int slot = 32;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -424,7 +424,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(33, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 33, 114, 71) {
+		this.customSlots.put(33, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 33, 114, 69) {
 			private final int slot = 33;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -434,7 +434,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(34, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 34, 132, 71) {
+		this.customSlots.put(34, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 34, 132, 69) {
 			private final int slot = 34;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -444,7 +444,7 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
-		this.customSlots.put(35, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 35, 150, 71) {
+		this.customSlots.put(35, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 35, 150, 69) {
 			private final int slot = 35;
 			private int x = NetherbackpackguiMenu.this.x;
 			private int y = NetherbackpackguiMenu.this.y;
@@ -454,11 +454,56 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 				return !DisablePlacementOfItemsInABackpackProcedureProcedure.execute(world, itemstack);
 			}
 		}));
+		this.customSlots.put(36, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 36, 6, 87) {
+			private final int slot = 36;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
+		this.customSlots.put(37, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 37, 24, 87) {
+			private final int slot = 37;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
+		this.customSlots.put(38, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 38, 42, 87) {
+			private final int slot = 38;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
+		this.customSlots.put(39, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 39, 60, 87) {
+			private final int slot = 39;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
+		this.customSlots.put(40, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 40, 78, 87) {
+			private final int slot = 40;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
+		this.customSlots.put(41, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 41, 96, 87) {
+			private final int slot = 41;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
+		this.customSlots.put(42, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 42, 114, 87) {
+			private final int slot = 42;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
+		this.customSlots.put(43, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 43, 132, 87) {
+			private final int slot = 43;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
+		this.customSlots.put(44, this.addSlot(new ResourceHandlerSlot(internal, this::setItemInSlot, 44, 150, 87) {
+			private final int slot = 44;
+			private int x = NetherbackpackguiMenu.this.x;
+			private int y = NetherbackpackguiMenu.this.y;
+		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -2 + 8 + sj * 18, 8 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, -2 + 8 + sj * 18, 25 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, -2 + 8 + si * 18, 8 + 142));
+			this.addSlot(new Slot(inv, si, -2 + 8 + si * 18, 25 + 142));
 	}
 
 	private void setItemInSlot(int index, ItemResource resource, int amount) {
@@ -497,16 +542,16 @@ public class NetherbackpackguiMenu extends AbstractContainerMenu implements Llam
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 36) {
-				if (!this.moveItemStackTo(itemstack1, 36, this.slots.size(), true))
+			if (index < 45) {
+				if (!this.moveItemStackTo(itemstack1, 45, this.slots.size(), true))
 					return ItemStack.EMPTY;
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 36, false)) {
-				if (index < 36 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 36 + 27, this.slots.size(), true))
+			} else if (!this.moveItemStackTo(itemstack1, 0, 45, false)) {
+				if (index < 45 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 45 + 27, this.slots.size(), true))
 						return ItemStack.EMPTY;
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 36, 36 + 27, false))
+					if (!this.moveItemStackTo(itemstack1, 45, 45 + 27, false))
 						return ItemStack.EMPTY;
 				}
 				return ItemStack.EMPTY;

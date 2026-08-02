@@ -33,7 +33,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 	private static final Identifier BACKGROUND = Identifier.parse("llamamod:textures/screens/netherbackpackgui.png");
 
 	public NetherbackpackguiScreen(NetherbackpackguiMenu container, Inventory inventory, Component text) {
-		super(container, inventory, text, 174, 174);
+		super(container, inventory, text, 174, 190);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
@@ -76,9 +76,9 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 
 	@Override
 	protected void extractLabels(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.text(this.font, Component.translatable("gui.llamamod.netherbackpackgui.label_netherite_backpack"), 5, 7, -14477536, false);
+		guiGraphics.text(this.font, Component.translatable("gui.llamamod.netherbackpackgui.label_netherite_backpack"), 5, 5, -14477536, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.text(this.font, Component.translatable("gui.llamamod.netherbackpackgui.label_beta"), 90, -12, -65536, false);
+			guiGraphics.text(this.font, Component.translatable("gui.llamamod.netherbackpackgui.label_beta"), 89, -12, -65536, false);
 	}
 
 	@Override
@@ -102,7 +102,7 @@ public class NetherbackpackguiScreen extends AbstractContainerScreen<Netherbackp
 			}
 		}).bounds(this.leftPos + 0, this.topPos + -21, 87, 20).build();
 		this.addRenderableWidget(button_delete_items);
-		allow_clearing = Checkbox.builder(Component.translatable("gui.llamamod.netherbackpackgui.allow_clearing"), this.font).pos(this.leftPos + 2, this.topPos + 175).onValueChange((checkbox, value) -> {
+		allow_clearing = Checkbox.builder(Component.translatable("gui.llamamod.netherbackpackgui.allow_clearing"), this.font).pos(this.leftPos + 0, this.topPos + 191).onValueChange((checkbox, value) -> {
 			if (!menuStateUpdateActive)
 				menu.sendMenuStateUpdate(entity, 1, "allow_clearing", value, false);
 		}).build();

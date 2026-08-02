@@ -17,7 +17,7 @@ public class ClearnetherpackprocidureProcedure {
 		double iteratir = 0;
 		if (world instanceof ServerLevel _serverLevelGR0 && _serverLevelGR0.getGameRules().get(LlamamodModGameRules.ALLOW_ITEM_DELETION.get())) {
 			iteratir = 0;
-			while (iteratir <= 35) {
+			while (iteratir <= 44) {
 				if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu) {
 					_menu.getSlots().get((int) iteratir).set(ItemStack.EMPTY);
 					_player.containerMenu.broadcastChanges();

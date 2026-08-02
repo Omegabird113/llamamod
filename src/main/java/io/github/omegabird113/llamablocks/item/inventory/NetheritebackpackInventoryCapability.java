@@ -25,12 +25,12 @@ public class NetheritebackpackInventoryCapability extends ItemAccessItemHandler 
 	}
 
 	public NetheritebackpackInventoryCapability(ItemAccess access) {
-		super(access, DataComponents.CONTAINER, 36);
+		super(access, DataComponents.CONTAINER, 45);
 	}
 
 	@Override
 	protected int getCapacity(int index, ItemResource resource) {
-		return Math.min(64, super.getCapacity(index, resource));
+		return Math.min(999, super.getCapacity(index, resource));
 	}
 
 	@Override
