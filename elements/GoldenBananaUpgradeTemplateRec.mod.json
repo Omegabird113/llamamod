@@ -19,7 +19,7 @@
       "Items.WRITABLE_BOOK",
       "CUSTOM:Farmscraps",
       "Items.DIAMOND",
-      "CUSTOM:Farmscraps",
+      "Items.GOLDEN_APPLE#0",
       "Items.DIAMOND"
     ],
     "recipeReturnStack": "CUSTOM:GoldenBananaUpgradeTemplate",
