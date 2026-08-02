@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_brick_stairs",
-    "minecraft:green_dye"
+    {
+      "tag": "llamamod:cracked_brick_stairs"
+    },
+    {
+      "item": "minecraft:green_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_green_brick_stairs",

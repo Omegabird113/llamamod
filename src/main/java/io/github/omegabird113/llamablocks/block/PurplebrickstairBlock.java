@@ -7,8 +7,8 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Blocks;
 
 public class PurplebrickstairBlock extends StairBlock {
-	public PurplebrickstairBlock(BlockBehaviour.Properties properties) {
-		super(Blocks.AIR.defaultBlockState(), properties.mapColor(MapColor.COLOR_PURPLE).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
+	public PurplebrickstairBlock() {
+		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
 	}
 
 	@Override

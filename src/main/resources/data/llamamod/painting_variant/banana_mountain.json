@@ -1,13 +1,5 @@
 {
   "asset_id": "llamamod:banana_mountain",
   "height": 4,
-  "width": 5,
-  "title": {
-    "color": "yellow",
-    "translate": "painting.llamamod.banana_mountain.title"
-  },
-  "author": {
-    "color": "gray",
-    "translate": "painting.llamamod.banana_mountain.author"
-  }
+  "width": 5
 }

@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class CeilingtilesBlock extends Block {
-	public CeilingtilesBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops());
+	public CeilingtilesBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.ICE).sound(SoundType.METAL).strength(19f, 33f).requiresCorrectToolForDrops());
 	}
 }

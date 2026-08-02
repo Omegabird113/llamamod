@@ -7,11 +7,21 @@
     "ded"
   ],
   "key": {
-    "a": "minecraft:iron_block",
-    "b": "minecraft:diamond",
-    "c": "llamamod:golden_banana_upgrade",
-    "d": "minecraft:amethyst_block",
-    "e": "minecraft:netherite_ingot"
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    },
+    "c": {
+      "item": "llamamod:golden_banana_upgrade"
+    },
+    "d": {
+      "item": "minecraft:amethyst_block"
+    },
+    "e": {
+      "item": "minecraft:netherite_ingot"
+    }
   },
   "result": {
     "id": "llamamod:diamond_banana_upgrade_template",

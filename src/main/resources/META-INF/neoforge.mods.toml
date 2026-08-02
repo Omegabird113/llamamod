@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="llamamod"
-version="1.4.0-beta.3+mc26.1.2"
+version="1.4.0-beta.3+mc1.21.1"
 displayName="LlamaBlocks"
 updateJSONURL="https://raw.githubusercontent.com/Omegabird113/llamamod/refs/heads/master/updates.json"
 displayURL="https://omegabird113.github.io/llamamod/"
@@ -23,14 +23,14 @@ description="LlamaBlocks is a complex, multi-year long development, MCreator mod
 [[dependencies.llamamod]]
     modId="neoforge"
     type="required"
-    versionRange="[26.1.2.71,)"
+    versionRange="[21.1.232,)"
     ordering="AFTER"
     side="BOTH"
 
 [[dependencies.llamamod]]
     modId="minecraft"
     type="required"
-    versionRange="[26.1.2]"
+    versionRange="[1.21.1]"
     ordering="AFTER"
     side="BOTH"
 

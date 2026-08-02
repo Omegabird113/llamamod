@@ -7,11 +7,21 @@
     "aea"
   ],
   "key": {
-    "a": "#llamamod:large_tiles",
-    "b": "llamamod:password_changer",
-    "c": "minecraft:iron_ingot",
-    "d": "llamamod:netherite_backpack",
-    "e": "minecraft:iron_block"
+    "a": {
+      "tag": "llamamod:large_tiles"
+    },
+    "b": {
+      "item": "llamamod:password_changer"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "llamamod:netherite_backpack"
+    },
+    "e": {
+      "item": "minecraft:iron_block"
+    }
   },
   "result": {
     "id": "llamamod:secure_storage_block",

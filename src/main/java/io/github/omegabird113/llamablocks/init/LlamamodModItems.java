@@ -3,10 +3,10 @@
  */
 package io.github.omegabird113.llamablocks.init;
 
-import net.neoforged.neoforge.transfer.fluid.BucketResourceHandler;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.fluids.capability.wrappers.FluidBucketWrapper;
 import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 import net.neoforged.neoforge.capabilities.Capabilities;
 import net.neoforged.fml.common.EventBusSubscriber;
@@ -15,8 +15,6 @@ import net.neoforged.bus.api.SubscribeEvent;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
-
-import java.util.function.Function;
 
 import io.github.omegabird113.llamablocks.item.inventory.NetheritebackpackInventoryCapability;
 import io.github.omegabird113.llamablocks.item.inventory.BackpackInventoryCapability;
@@ -764,10 +762,10 @@ public class LlamamodModItems {
 	public static final DeferredItem<Item> DIAMOND_BANANA_UPGRADE_TEMPLATE;
 	static {
 		BANANA_PLANT = block(LlamamodModBlocks.BANANA_PLANT);
-		BANANA = register("banana", BannanaItem::new);
-		BACKPACK = register("backpack", BackpackItem::new);
-		NETHERITE_BACKPACK = register("netherite_backpack", NetheritebackpackItem::new);
-		ACID_BUCKET = register("acid_bucket", AcidItem::new);
+		BANANA = REGISTRY.register("banana", BannanaItem::new);
+		BACKPACK = REGISTRY.register("backpack", BackpackItem::new);
+		NETHERITE_BACKPACK = REGISTRY.register("netherite_backpack", NetheritebackpackItem::new);
+		ACID_BUCKET = REGISTRY.register("acid_bucket", AcidItem::new);
 		RED_BRICKS = block(LlamamodModBlocks.RED_BRICKS);
 		ORANGE_BRICKS = block(LlamamodModBlocks.ORANGE_BRICKS);
 		YELLOW_BRICKS = block(LlamamodModBlocks.YELLOW_BRICKS);
@@ -781,10 +779,10 @@ public class LlamamodModItems {
 		INDUSTRIAL_BRICKS = block(LlamamodModBlocks.INDUSTRIAL_BRICKS);
 		COMPUTER = block(LlamamodModBlocks.COMPUTER);
 		TILES = block(LlamamodModBlocks.TILES);
-		FARM_SCRAPS = register("farm_scraps", FarmscrapsItem::new);
+		FARM_SCRAPS = REGISTRY.register("farm_scraps", FarmscrapsItem::new);
 		CEILING_TILES = block(LlamamodModBlocks.CEILING_TILES);
 		AUTHENTICATOR = block(LlamamodModBlocks.AUTHENTICATOR);
-		PASSWORD_CHANGER = register("password_changer", PasswordchangerItem::new);
+		PASSWORD_CHANGER = REGISTRY.register("password_changer", PasswordchangerItem::new);
 		RED_BRICK_SLAB = block(LlamamodModBlocks.RED_BRICK_SLAB);
 		RED_BRICK_STAIRS = block(LlamamodModBlocks.RED_BRICK_STAIRS);
 		ORANGE_BRICK_SLAB = block(LlamamodModBlocks.ORANGE_BRICK_SLAB);
@@ -1134,8 +1132,8 @@ public class LlamamodModItems {
 		TEAL_BRICK_TRAPDOOR = block(LlamamodModBlocks.TEAL_BRICK_TRAPDOOR);
 		TEAL_BRICK_PRESSURE_PLATE = block(LlamamodModBlocks.TEAL_BRICK_PRESSURE_PLATE);
 		TEAL_BRICK_BUTTON = block(LlamamodModBlocks.TEAL_BRICK_BUTTON);
-		GOLDEN_BANANA = register("golden_banana", GoldenBannanaItem::new);
-		GOLDEN_BANANA_UPGRADE = register("golden_banana_upgrade", GoldenBananaUpgradeTemplateItem::new);
+		GOLDEN_BANANA = REGISTRY.register("golden_banana", GoldenBannanaItem::new);
+		GOLDEN_BANANA_UPGRADE = REGISTRY.register("golden_banana_upgrade", GoldenBananaUpgradeTemplateItem::new);
 		CRACKED_WHITE_BRICKS = block(LlamamodModBlocks.CRACKED_WHITE_BRICKS);
 		CRACKED_WHITE_BRICK_SLAB = block(LlamamodModBlocks.CRACKED_WHITE_BRICK_SLAB);
 		CRACKED_WHITE_BRICK_STAIRS = block(LlamamodModBlocks.CRACKED_WHITE_BRICK_STAIRS);
@@ -1497,14 +1495,17 @@ public class LlamamodModItems {
 		CHERRY_LIGHT = block(LlamamodModBlocks.CHERRY_LIGHT);
 		TEAL_LIGHT = block(LlamamodModBlocks.TEAL_LIGHT);
 		INDUSTRIAL_LIGHT = block(LlamamodModBlocks.INDUSTRIAL_LIGHT);
-		DIAMOND_BANNANA = register("diamond_bannana", DiamondBannanaItem::new);
-		DIAMOND_BANANA_UPGRADE_TEMPLATE = register("diamond_banana_upgrade_template", DiamondBananaUpgradeTemplateItem::new);
+		DIAMOND_BANNANA = REGISTRY.register("diamond_bannana", DiamondBannanaItem::new);
+		DIAMOND_BANANA_UPGRADE_TEMPLATE = REGISTRY.register("diamond_banana_upgrade_template", DiamondBananaUpgradeTemplateItem::new);
 	}
 
 	// Start of user code block custom items
 	// End of user code block custom items
-	private static <I extends Item> DeferredItem<I> register(String name, Function<Item.Properties, ? extends I> supplier) {
-		return REGISTRY.registerItem(name, supplier, Item.Properties::new);
+	@SubscribeEvent
+	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
+		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new BackpackInventoryCapability(stack), BACKPACK.get());
+		event.registerItem(Capabilities.ItemHandler.ITEM, (stack, context) -> new NetheritebackpackInventoryCapability(stack), NETHERITE_BACKPACK.get());
+		event.registerItem(Capabilities.FluidHandler.ITEM, (stack, context) -> new FluidBucketWrapper(stack), ACID_BUCKET.get());
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block) {
@@ -1512,13 +1513,6 @@ public class LlamamodModItems {
 	}
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
-		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), () -> properties);
-	}
-
-	@SubscribeEvent
-	public static void registerCapabilities(RegisterCapabilitiesEvent event) {
-		event.registerItem(Capabilities.Item.ITEM, (stack, access) -> new BackpackInventoryCapability(access), BACKPACK.get());
-		event.registerItem(Capabilities.Item.ITEM, (stack, access) -> new NetheritebackpackInventoryCapability(access), NETHERITE_BACKPACK.get());
-		event.registerItem(Capabilities.Fluid.ITEM, (stack, access) -> new BucketResourceHandler(access), ACID_BUCKET.get());
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), properties));
 	}
 }

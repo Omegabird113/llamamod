@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class CrackedWhiteBricksBlock extends Block {
-	public CrackedWhiteBricksBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.QUARTZ).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
+	public CrackedWhiteBricksBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
 	}
 }

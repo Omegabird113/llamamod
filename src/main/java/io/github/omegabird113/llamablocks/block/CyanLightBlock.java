@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class CyanLightBlock extends Block {
-	public CyanLightBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.COLOR_CYAN).sound(SoundType.METAL).strength(12f, 16f).lightLevel(blockstate -> 15).requiresCorrectToolForDrops());
+	public CyanLightBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.METAL).strength(12f, 16f).lightLevel(blockstate -> 15).requiresCorrectToolForDrops());
 	}
 }
