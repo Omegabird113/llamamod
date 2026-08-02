@@ -31,7 +31,7 @@ import io.github.omegabird113.llamablocks.init.LlamamodModBlocks;
 
 public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlock, SimpleWaterloggedBlock {
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
-	private static final VoxelShape SHAPE = box(3.46, 0, 3.46, 12.62, 16, 12.52);
+	private static final VoxelShape SHAPE = box(3.46, 0, 3.46, 12.62, 12, 12.52);
 
 	public BannanaplantBlock(BlockBehaviour.Properties properties) {
 		super(properties.mapColor(MapColor.COLOR_GREEN).randomTicks().sound(SoundType.GRASS).strength(0.07f, 0.31f).noOcclusion().dynamicShape().replaceable().ignitedByLava().offsetType(BlockBehaviour.OffsetType.XYZ)
