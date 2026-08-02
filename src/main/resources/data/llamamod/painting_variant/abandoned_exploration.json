@@ -1,0 +1,13 @@
+{
+  "asset_id": "llamamod:abandoned_exploration",
+  "height": 4,
+  "width": 5,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.llamamod.abandoned_exploration.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.llamamod.abandoned_exploration.author"
+  }
+}

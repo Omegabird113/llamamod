@@ -1,0 +1,13 @@
+{
+  "asset_id": "llamamod:rows_of_blocks",
+  "height": 4,
+  "width": 7,
+  "title": {
+    "color": "yellow",
+    "translate": "painting.llamamod.rows_of_blocks.title"
+  },
+  "author": {
+    "color": "gray",
+    "translate": "painting.llamamod.rows_of_blocks.author"
+  }
+}
