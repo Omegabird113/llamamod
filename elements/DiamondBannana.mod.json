@@ -48,7 +48,7 @@
     "projectileDisableAmmoCheck": false,
     "isFood": true,
     "nutritionalValue": 9,
-    "saturation": 3.4,
+    "saturation": 1.2,
     "eatResultItem": "CUSTOM:Farmscraps",
     "isMeat": false,
     "isAlwaysEdible": false,
