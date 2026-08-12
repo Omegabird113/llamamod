@@ -17,7 +17,7 @@ public class SendAboutInfoInChatProcedureProcedure {
 			return;
 		if (entity instanceof ServerPlayer _player)
 			_player.sendSystemMessage(Component.literal(("About LlamaBlocks --" + "\n" + "Version " + ReturnLlamaModVersionProcedureProcedure.execute() + " made for Minecraft " + ReturnMinecraftVersionProcedureProcedure.execute() + " w/ Neoforge."
-					+ "\n" + "\n" + "LlamaMod is developed by Omegabird113 w/ MCreator version " + "2026.2." + "\n")), false);
+					+ "\n" + "\n" + "LlamaMod is developed by Omegabird113 w/ MCreator version " + "2026.2.33218." + "\n")), false);
 		if ((ReturnMinecraftVersionProcedureProcedure.execute()).equals("26.1.2")) {
 			{
 				Entity _ent = entity;
