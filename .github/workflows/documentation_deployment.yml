@@ -23,13 +23,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Setup Zensical
-        uses: zensical/setup-zensical@v1
-        with:
-          version: 'latest'
-
       - name: Build with Zensical
-        run: zensical build --config mkdocs.yml
+        uses: cssnr/zensical-action@v1
+        with:
+          config: mkdocs.yml
+          upload: false
 
       - uses: actions/upload-pages-artifact@v3
         with:
