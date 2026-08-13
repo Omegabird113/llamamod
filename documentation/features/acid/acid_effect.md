@@ -22,3 +22,11 @@ This section describes all damage types associated with Acid.
 ### Acid Drowning
 - Does not scale with difficulty
 - Has an exhaustion value of `0.6`
+
+## Acid Resistance
+The `Acid Resistance` effect reduces the damage taken from Acid. It works by modifying the player's custom `Acid Damage Protection` attribute by increasing it by `0.45` per level.
+
+Acid damage is multiplied by the formula `1 - Acid Damage Protection` which means that:
+- Acid Resistance 1 reduces damage by `45%`
+- Acid Resistance 2 reduces damage by `90%`
+- Acid Resistance 3 and higher reduces damage by `100%`

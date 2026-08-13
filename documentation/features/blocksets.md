@@ -12,7 +12,7 @@ Each set comes in 19 colors:
 - Cherry (Hot Pink) variants
 - Teal variants
 
-There are also Tiles *(Black and White checkered)* and Ceiling Tiles *(Blue and Light Gray checkered)*.
+There are also Tiles *(Black and White checkered)* and Ceiling Tiles *(Blue and Light Gray checkered)*. On top of that, there's a set of 19 colored light blocks.
 
 Each color variant, or tile type, has a corresponding block set, which includes the following:
 
