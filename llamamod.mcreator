@@ -39660,6 +39660,12 @@
       "CUSTOM:TealLight",
       "CUSTOM:IndustrialLight"
     ],
+    "BLOCKS:minecraft:bee_growables": [
+      "CUSTOM:Bannanaplant"
+    ],
+    "STRUCTURES:minecraft:cats_spawn_in": [
+      "CUSTOM:AbandonedFarm"
+    ],
     "BLOCKS:minecraft:replaceable": [
       "~Acid@CUSTOM:Acid",
       "~Bannanaplant@CUSTOM:Bannanaplant"
@@ -41372,12 +41378,6 @@
       "~BananaMountain@CUSTOM:BananaMountain",
       "~AbandonedExploration@CUSTOM:AbandonedExploration",
       "~WildAcidLake@CUSTOM:WildAcidLake"
-    ],
-    "BLOCKS:minecraft:bee_growables": [
-      "CUSTOM:Bannanaplant"
-    ],
-    "STRUCTURES:minecraft:cats_spawn_in": [
-      "CUSTOM:AbandonedFarm"
     ]
   },
   "tab_element_order": {

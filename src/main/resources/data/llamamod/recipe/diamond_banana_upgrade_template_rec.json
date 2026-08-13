@@ -3,15 +3,15 @@
   "category": "misc",
   "pattern": [
     "aba",
-    "bcb",
-    "ded"
+    "cdc",
+    "ece"
   ],
   "key": {
     "a": "minecraft:iron_block",
-    "b": "minecraft:diamond",
-    "c": "llamamod:golden_banana_upgrade",
-    "d": "minecraft:amethyst_block",
-    "e": "minecraft:netherite_ingot"
+    "b": "minecraft:netherite_ingot",
+    "c": "minecraft:diamond",
+    "d": "llamamod:golden_banana_upgrade",
+    "e": "minecraft:amethyst_block"
   },
   "result": {
     "id": "llamamod:diamond_banana_upgrade_template",

@@ -13,13 +13,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       "Blocks.IRON_BLOCK",
-      "Items.DIAMOND",
+      "Items.NETHERITE_INGOT",
       "Blocks.IRON_BLOCK",
       "Items.DIAMOND",
       "CUSTOM:GoldenBananaUpgradeTemplate",
       "Items.DIAMOND",
       "Blocks.AMETHYST_BLOCK",
-      "Items.NETHERITE_INGOT",
+      "Items.DIAMOND",
       "Blocks.AMETHYST_BLOCK"
     ],
     "recipeReturnStack": "CUSTOM:DiamondBananaUpgradeTemplate",
