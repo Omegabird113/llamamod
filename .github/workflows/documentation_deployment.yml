@@ -21,21 +21,19 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
+      - uses: actions/checkout@v4
+
+      - name: Setup Zensical
+        uses: zensical/setup-zensical@v1
         with:
-          python-version: '3.x'
-      - name: Cache pip mkdocs-material dependency
-        uses: actions/cache@v5
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-mkdocs-material
-          restore-keys: |
-            ${{ runner.os }}-pip-
-      - run: pip install --upgrade mkdocs-material
-      - run: mkdocs build
+          version: 'latest'
+
+      - name: Build with Zensical
+        run: zensical build --config mkdocs.yml
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site/
+
       - id: deployment
         uses: actions/deploy-pages@v4
