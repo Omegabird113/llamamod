@@ -41373,13 +41373,11 @@
       "~AbandonedExploration@CUSTOM:AbandonedExploration",
       "~WildAcidLake@CUSTOM:WildAcidLake"
     ],
-    "BLOCKS:minecraft:dirt": [],
-    "BLOCKS:minecraft:sand": [],
-    "BLOCKS:minecraft:logs": [],
-    "BIOMES:minecraft:is_overworld": [],
-    "STRUCTURES:minecraft:cats_spawn_in": [],
     "BLOCKS:minecraft:bee_growables": [
       "CUSTOM:Bannanaplant"
+    ],
+    "STRUCTURES:minecraft:cats_spawn_in": [
+      "CUSTOM:AbandonedFarm"
     ]
   },
   "tab_element_order": {
