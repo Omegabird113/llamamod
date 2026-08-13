@@ -5,7 +5,9 @@
     "aaa"
   ],
   "key": {
-    "a": "llamamod:yellow_large_tile"
+    "a": {
+      "item": "llamamod:yellow_large_tile"
+    }
   },
   "result": {
     "id": "llamamod:yellow_large_tile_slab",

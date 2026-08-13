@@ -24,7 +24,7 @@ public class TriggerOnAuthBlockAuthenticatedProcedureProcedure {
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null) {
-				_blockEntity.getPersistentData().putDouble("end_power_after_tick", ((world instanceof Level _level1 ? _level1.getDefaultClockTime() : 0) + 15));
+				_blockEntity.getPersistentData().putDouble("end_power_after_tick", (world.dayTime() + 15));
 			}
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);

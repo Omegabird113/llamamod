@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_large_tile_buttons",
-    "minecraft:pink_dye"
+    {
+      "tag": "llamamod:cracked_large_tile_buttons"
+    },
+    {
+      "item": "minecraft:pink_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_pink_large_tile_button",

@@ -4,7 +4,7 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 
 public class DiamondBananaUpgradeTemplateItem extends Item {
-	public DiamondBananaUpgradeTemplateItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.UNCOMMON).fireResistant());
+	public DiamondBananaUpgradeTemplateItem() {
+		super(new Item.Properties().fireResistant().rarity(Rarity.UNCOMMON));
 	}
 }

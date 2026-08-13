@@ -3,5 +3,6 @@
   "textures": {
     "all": "llamamod:block/purple_light",
     "particle": "llamamod:block/purple_light"
-  }
+  },
+  "render_type": "solid"
 }

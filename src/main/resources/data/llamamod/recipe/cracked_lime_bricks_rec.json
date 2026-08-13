@@ -3,7 +3,9 @@
   "category": "blocks",
   "experience": 2,
   "cookingtime": 200,
-  "ingredient": "llamamod:lime_bricks",
+  "ingredient": {
+    "item": "llamamod:lime_bricks"
+  },
   "result": {
     "id": "llamamod:cracked_lime_bricks"
   }

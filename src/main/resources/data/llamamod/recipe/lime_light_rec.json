@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:lights",
-    "minecraft:lime_dye"
+    {
+      "tag": "llamamod:lights"
+    },
+    {
+      "item": "minecraft:lime_dye"
+    }
   ],
   "result": {
     "id": "llamamod:lime_light",

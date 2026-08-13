@@ -5,7 +5,9 @@
     "aa"
   ],
   "key": {
-    "a": "llamamod:light_gray_bricks"
+    "a": {
+      "item": "llamamod:light_gray_bricks"
+    }
   },
   "result": {
     "id": "llamamod:light_gray_brick_pressure_plate",

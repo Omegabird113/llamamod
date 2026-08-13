@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:lights",
-    "minecraft:purple_dye"
+    {
+      "tag": "llamamod:lights"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
   ],
   "result": {
     "id": "llamamod:purple_light",

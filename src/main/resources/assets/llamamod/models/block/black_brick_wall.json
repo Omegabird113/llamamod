@@ -3,5 +3,6 @@
   "textures": {
     "wall": "llamamod:block/black_brick",
     "particle": "llamamod:block/black_brick"
-  }
+  },
+  "render_type": "solid"
 }

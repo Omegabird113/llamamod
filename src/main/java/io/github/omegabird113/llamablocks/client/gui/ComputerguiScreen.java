@@ -1,27 +1,26 @@
 package io.github.omegabird113.llamablocks.client.gui;
 
-import net.neoforged.neoforge.client.network.ClientPacketDistributor;
+import net.neoforged.neoforge.network.PacketDistributor;
 import net.neoforged.neoforge.client.gui.widget.ExtendedSlider;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.client.renderer.RenderPipelines;
-import net.minecraft.client.input.KeyEvent;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.EditBox;
 import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.GuiGraphicsExtractor;
+import net.minecraft.client.gui.GuiGraphics;
+import net.minecraft.client.Minecraft;
 
 import io.github.omegabird113.llamablocks.world.inventory.ComputerguiMenu;
 import io.github.omegabird113.llamablocks.procedures.*;
 import io.github.omegabird113.llamablocks.network.ComputerguiButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
 
-import com.mojang.blaze3d.platform.InputConstants;
+import com.mojang.blaze3d.systems.RenderSystem;
 
 public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
@@ -43,17 +42,19 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	private Button button_calculate;
 	private Button button_clear_inventory;
 	private Button button_clear_textboxes;
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/computergui.png");
+	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png");
 	private ExtendedSlider power_output;
-	private static final Identifier BACKGROUND = Identifier.parse("llamamod:textures/screens/computergui.png");
-	private static final Identifier IMAGE_0 = Identifier.parse("llamamod:textures/screens/logo_16_border.png");
 
 	public ComputerguiScreen(ComputerguiMenu container, Inventory inventory, Component text) {
-		super(container, inventory, text, 256, 145);
+		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
+		this.imageWidth = 256;
+		this.imageHeight = 145;
 	}
 
 	@Override
@@ -76,7 +77,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 		if (elementType == 1 && elementState instanceof Boolean logicState) {
 			if (name.equals("auto_calculate")) {
 				if (auto_calculate.selected() != logicState)
-					auto_calculate.onPress(null);
+					auto_calculate.onPress();
 			}
 		}
 		if (elementType == 2 && elementState instanceof Number n) {
@@ -87,54 +88,62 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	}
 
 	@Override
-	public void extractRenderState(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		super.extractRenderState(guiGraphics, mouseX, mouseY, partialTicks);
-		number1.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
-		number2.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
-		operation.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
-		player_name.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
-		msg.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
-		calculator_result.extractWidgetRenderState(guiGraphics, mouseX, mouseY, partialTicks);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		number1.render(guiGraphics, mouseX, mouseY, partialTicks);
+		number2.render(guiGraphics, mouseX, mouseY, partialTicks);
+		operation.render(guiGraphics, mouseX, mouseY, partialTicks);
+		player_name.render(guiGraphics, mouseX, mouseY, partialTicks);
+		msg.render(guiGraphics, mouseX, mouseY, partialTicks);
+		calculator_result.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	public void extractBackground(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		super.extractBackground(guiGraphics, mouseX, mouseY, partialTicks);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, IMAGE_0, this.leftPos + 243, this.topPos + 4, 0, 0, 8, 8, 8, 8);
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
+		RenderSystem.setShaderColor(1, 1, 1, 1);
+		RenderSystem.enableBlend();
+		RenderSystem.defaultBlendFunc();
+		guiGraphics.blit(BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(IMAGE_0, this.leftPos + 243, this.topPos + 4, 0, 0, 8, 8, 8, 8);
+		RenderSystem.disableBlend();
 	}
 
 	@Override
-	public boolean keyPressed(KeyEvent event) {
-		int key = InputConstants.getKey(event).getValue();
+	public boolean keyPressed(int key, int b, int c) {
 		if (key == 256) {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
 		if (number1.isFocused())
-			return number1.keyPressed(event);
+			return number1.keyPressed(key, b, c);
 		if (number2.isFocused())
-			return number2.keyPressed(event);
+			return number2.keyPressed(key, b, c);
 		if (operation.isFocused())
-			return operation.keyPressed(event);
+			return operation.keyPressed(key, b, c);
 		if (player_name.isFocused())
-			return player_name.keyPressed(event);
+			return player_name.keyPressed(key, b, c);
 		if (msg.isFocused())
-			return msg.keyPressed(event);
+			return msg.keyPressed(key, b, c);
 		if (calculator_result.isFocused())
-			return calculator_result.keyPressed(event);
-		return super.keyPressed(event);
+			return calculator_result.keyPressed(key, b, c);
+		return super.keyPressed(key, b, c);
 	}
 
 	@Override
-	public void resize(int width, int height) {
+	public boolean mouseDragged(double mouseX, double mouseY, int button, double dragX, double dragY) {
+		return (this.getFocused() != null && this.isDragging() && button == 0) ? this.getFocused().mouseDragged(mouseX, mouseY, button, dragX, dragY) : super.mouseDragged(mouseX, mouseY, button, dragX, dragY);
+	}
+
+	@Override
+	public void resize(Minecraft minecraft, int width, int height) {
 		String number1Value = number1.getValue();
 		String number2Value = number2.getValue();
 		String operationValue = operation.getValue();
 		String player_nameValue = player_name.getValue();
 		String msgValue = msg.getValue();
 		String calculator_resultValue = calculator_result.getValue();
-		super.resize(width, height);
+		super.resize(minecraft, width, height);
 		number1.setValue(number1Value);
 		number2.setValue(number2Value);
 		operation.setValue(operationValue);
@@ -144,18 +153,18 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	}
 
 	@Override
-	protected void extractLabels(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.text(this.font, Component.translatable("gui.llamamod.computergui.label_calculator"), 5, 5, -12829636, false);
-		guiGraphics.text(this.font, GettimeasstringProcedure.execute(world), 28, -9, -16711936, false);
-		guiGraphics.text(this.font, Component.translatable("gui.llamamod.computergui.label_player_controll"), 6, 68, -12829636, false);
-		guiGraphics.text(this.font, Component.translatable("gui.llamamod.computergui.label_time"), 3, -9, -1, false);
-		guiGraphics.text(this.font, Component.translatable("gui.llamamod.computergui.label_redstone_output"), 4, 146, -1, false);
-		guiGraphics.text(this.font, Component.translatable("gui.llamamod.computergui.label_players"), 3, -18, -1, false);
-		guiGraphics.text(this.font, ReturnPlayerListProcedureProcedure.execute(world), 47, -18, -16742401, false);
-		guiGraphics.text(this.font, CurentlyBlankRedstonePowerTextCompProcedureProcedure.execute(world, x, y, z), 4, 155, -256, false);
-		guiGraphics.text(this.font, ReturnNOBETALlamaModVersionProcedureProcedure.execute(), 220, 5, -16382202, false);
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_calculator"), 5, 5, -12829636, false);
+		guiGraphics.drawString(this.font, GettimeasstringProcedure.execute(world), 28, -9, -16711936, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_player_controll"), 6, 68, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_time"), 3, -9, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_redstone_output"), 4, 146, -1, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_players"), 3, -18, -1, false);
+		guiGraphics.drawString(this.font, ReturnPlayerListProcedureProcedure.execute(world), 47, -18, -16742401, false);
+		guiGraphics.drawString(this.font, CurentlyBlankRedstonePowerTextCompProcedureProcedure.execute(world, x, y, z), 4, 155, -256, false);
+		guiGraphics.drawString(this.font, ReturnNOBETALlamaModVersionProcedureProcedure.execute(), 220, 5, -16382202, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.text(this.font, Component.translatable("gui.llamamod.computergui.label_beta"), 227, -9, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.computergui.label_beta"), 227, -9, -65536, false);
 	}
 
 	@Override
@@ -213,7 +222,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(0, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(0, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 257, this.topPos + 0, 30, 20).build();
@@ -222,7 +231,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(1, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(1, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 187, this.topPos + 97, 46, 20).build();
@@ -231,7 +240,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}).bounds(this.leftPos + 140, this.topPos + 145, 40, 20).build();
@@ -240,7 +249,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
 		}).bounds(this.leftPos + 181, this.topPos + 145, 56, 20).build();
@@ -249,7 +258,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 97, 61, 20).build();
@@ -258,7 +267,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
 		}).bounds(this.leftPos + 172, this.topPos + 54, 72, 20).build();
@@ -267,7 +276,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 76, 103, 20).build();
@@ -276,7 +285,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ReturnComputerguiClearTextboxesButtonDisplayConditionProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
+				PacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}).bounds(this.leftPos + 4, this.topPos + 119, 103, 20).build();

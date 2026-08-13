@@ -1,18 +1,16 @@
 package io.github.omegabird113.llamablocks.client.gui;
 
-import net.neoforged.neoforge.client.network.ClientPacketDistributor;
+import net.neoforged.neoforge.network.PacketDistributor;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
-import net.minecraft.resources.Identifier;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
-import net.minecraft.client.renderer.RenderPipelines;
-import net.minecraft.client.input.KeyEvent;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Checkbox;
 import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.gui.GuiGraphicsExtractor;
+import net.minecraft.client.gui.GuiGraphics;
 
 import io.github.omegabird113.llamablocks.world.inventory.DoubleSecureStoorafeBlockGuiMenu;
 import io.github.omegabird113.llamablocks.procedures.IsThisBetaProcedureProcedure;
@@ -20,7 +18,7 @@ import io.github.omegabird113.llamablocks.procedures.IsAllowClearingBoxCheckedPr
 import io.github.omegabird113.llamablocks.network.DoubleSecureStoorafeBlockGuiButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
 
-import com.mojang.blaze3d.platform.InputConstants;
+import com.mojang.blaze3d.systems.RenderSystem;
 
 public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<DoubleSecureStoorafeBlockGuiMenu> implements LlamamodModScreens.ScreenAccessor {
 	private final Level world;
@@ -30,15 +28,17 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 	private Checkbox allow_clearing;
 	private Button button_clear;
 	private Button button_close;
-	private static final Identifier BACKGROUND = Identifier.parse("llamamod:textures/screens/double_secure_stoorafe_block_gui.png");
+	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/double_secure_stoorafe_block_gui.png");
 
 	public DoubleSecureStoorafeBlockGuiScreen(DoubleSecureStoorafeBlockGuiMenu container, Inventory inventory, Component text) {
-		super(container, inventory, text, 174, 229);
+		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
+		this.imageWidth = 174;
+		this.imageHeight = 229;
 	}
 
 	@Override
@@ -47,38 +47,41 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 		if (elementType == 1 && elementState instanceof Boolean logicState) {
 			if (name.equals("allow_clearing")) {
 				if (allow_clearing.selected() != logicState)
-					allow_clearing.onPress(null);
+					allow_clearing.onPress();
 			}
 		}
 		menuStateUpdateActive = false;
 	}
 
 	@Override
-	public void extractRenderState(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		super.extractRenderState(guiGraphics, mouseX, mouseY, partialTicks);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	public void extractBackground(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		super.extractBackground(guiGraphics, mouseX, mouseY, partialTicks);
-		guiGraphics.blit(RenderPipelines.GUI_TEXTURED, BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int mouseX, int mouseY) {
+		RenderSystem.setShaderColor(1, 1, 1, 1);
+		RenderSystem.enableBlend();
+		RenderSystem.defaultBlendFunc();
+		guiGraphics.blit(BACKGROUND, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		RenderSystem.disableBlend();
 	}
 
 	@Override
-	public boolean keyPressed(KeyEvent event) {
-		int key = InputConstants.getKey(event).getValue();
+	public boolean keyPressed(int key, int b, int c) {
 		if (key == 256) {
 			this.minecraft.player.closeContainer();
 			return true;
 		}
-		return super.keyPressed(event);
+		return super.keyPressed(key, b, c);
 	}
 
 	@Override
-	protected void extractLabels(GuiGraphicsExtractor guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.text(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block"), 6, 7, -16316660, false);
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_secure_stoorage_block"), 6, 7, -16316660, false);
 		if (IsThisBetaProcedureProcedure.execute())
-			guiGraphics.text(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_beta"), 176, 21, -65536, false);
+			guiGraphics.drawString(this.font, Component.translatable("gui.llamamod.double_secure_stoorafe_block_gui.label_beta"), 176, 21, -65536, false);
 	}
 
 	@Override
@@ -88,7 +91,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 			int x = DoubleSecureStoorafeBlockGuiScreen.this.x;
 			int y = DoubleSecureStoorafeBlockGuiScreen.this.y;
 			if (IsAllowClearingBoxCheckedProcedure.execute(entity)) {
-				ClientPacketDistributor.sendToServer(new DoubleSecureStoorafeBlockGuiButtonMessage(0, x, y, z));
+				PacketDistributor.sendToServer(new DoubleSecureStoorafeBlockGuiButtonMessage(0, x, y, z));
 				DoubleSecureStoorafeBlockGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 175, this.topPos + 122, 51, 20).build();
@@ -97,7 +100,7 @@ public class DoubleSecureStoorafeBlockGuiScreen extends AbstractContainerScreen<
 			int x = DoubleSecureStoorafeBlockGuiScreen.this.x;
 			int y = DoubleSecureStoorafeBlockGuiScreen.this.y;
 			if (true) {
-				ClientPacketDistributor.sendToServer(new DoubleSecureStoorafeBlockGuiButtonMessage(1, x, y, z));
+				PacketDistributor.sendToServer(new DoubleSecureStoorafeBlockGuiButtonMessage(1, x, y, z));
 				DoubleSecureStoorafeBlockGuiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 175, this.topPos + 0, 51, 20).build();

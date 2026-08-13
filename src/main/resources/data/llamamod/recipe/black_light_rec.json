@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:lights",
-    "minecraft:black_dye"
+    {
+      "tag": "llamamod:lights"
+    },
+    {
+      "item": "minecraft:black_dye"
+    }
   ],
   "result": {
     "id": "llamamod:black_light",

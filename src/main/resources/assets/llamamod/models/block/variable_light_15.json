@@ -8,5 +8,6 @@
     "south": "llamamod:block/variable_light_back",
     "west": "llamamod:block/variable_light_block_sides",
     "particle": "llamamod:block/variable_light_block_sides"
-  }
+  },
+  "render_type": "solid"
 }
