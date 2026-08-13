@@ -2,7 +2,7 @@
 This is a combined page of the documentation for all of LlamaBlocks's storage features. They are combined into one page due to their general simplicity.
 
 ## Backpack
-This is the cheaper-to-craft, but less functional, variant of the backpack. It can store `3` rows of items, but that's pretty much it.
+This is the cheaper-to-craft, but less functional, variant of the backpack. It can store `3` rows of items, but that's pretty much it. Both backpacks can be placed in a curious API back slot.
 
 ## Netherite Backpack
 The Netherite Backpack is an upgrade to the Backpack which:

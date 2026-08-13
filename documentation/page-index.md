@@ -43,6 +43,8 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [1.3.2-beta2-build2](changelogs/dev_versions/1.3.2-beta2-build2.md)
 - [1.3.2-rc1](changelogs/dev_versions/1.3.2-rc1.md)
 - [1.4.0-beta.1](changelogs/dev_versions/1.4.0-beta.1.md)
+- [1.4.0-beta.2](changelogs/dev_versions/1.4.0-beta.2.md)
+- [1.4.0-beta.3](changelogs/dev_versions/1.4.0-beta.3.md)
 
 ### development/
 - [color_codes.md](development/color_codes.md) - a list of all the color codes I use in making textures
@@ -50,6 +52,7 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [versioning.md](development/versioning.md) - an explanation of the LlamaBlocks versioning system
 
 ### features/
+- [abandoned_farm.md](features/abandoned_farm.md) - info about the Abandoned Farm structure
 - [authenticator.md](features/authenticator.md) - info about the Authenticator block
 - [blocksets.md](features/blocksets.md) - info about the decorative block Blocksets
 - [computer.md](features/computer.md) - info about the Computer
@@ -67,6 +70,7 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [banana.md](features/bananas/banana.md) - info about the Banana item
 - [banana_patch.md](features/bananas/banana_patch.md) - info about the feature Banana Plants generate in
 - [banana_plant.md](features/bananas/banana_plant.md) - info about the Banana Plant
+- [diamond_banana.md](features/bananas/diamond_banana.md) - info about the Diamond Banana item
 - [farm_scraps.md](features/bananas/farm_scraps.md) - info about the item: Farm Scraps
 - [golden_banana.md](features/bananas/golden_banana.md) - info about the Golden Banana item
 
@@ -75,6 +79,7 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [unpublished_versions.md](history/unpublished_versions.md) - a list of every private version of LlamaBlocks I have from before it was made public
 
 ### images/
+- [abandoned_farm_showcase.png](images/abandoned_farm_showcase.png) - an image of an Abandoned Farm structure
 - [acid_lake_showcase.png](images/acid_lake_showcase.png) - image of a naturally generating Acid Lake in the End
 - [authenticator.png](images/authenticator_showcase.png) - image of the Authenticator Password Prompt UI
 - [banana_showcase.png](images/banana_showcase.png) - a showcase of a Banana Patch
