@@ -3,6 +3,8 @@ package io.github.omegabird113.llamablocks.fluid.types;
 import net.neoforged.neoforge.fluids.FluidType;
 import net.neoforged.neoforge.common.SoundActions;
 
+import net.minecraft.world.phys.Vec3;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.BuiltInRegistries;
@@ -11,5 +13,11 @@ public class AcidFluidType extends FluidType {
 	public AcidFluidType() {
 		super(FluidType.Properties.create().fallDistanceModifier(0F).canExtinguish(true).supportsBoating(true).canHydrate(true).motionScale(-0.00042D).temperature(906).canConvertToSource(true).sound(SoundActions.BUCKET_FILL, SoundEvents.BUCKET_FILL)
 				.sound(SoundActions.BUCKET_EMPTY, BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("item.bucket.empty"))).sound(SoundActions.FLUID_VAPORIZE, SoundEvents.FIRE_EXTINGUISH));
+	}
+
+	@Override
+	public boolean move(LivingEntity entity, Vec3 movementVector, double gravity) {
+		entity.travelInWater(movementVector, gravity, entity.getDeltaMovement().y <= 0, entity.getY());
+		return true;
 	}
 }
