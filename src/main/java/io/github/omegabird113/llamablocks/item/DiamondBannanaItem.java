@@ -21,7 +21,7 @@ import io.github.omegabird113.llamablocks.init.LlamamodModItems;
 @EventBusSubscriber
 public class DiamondBannanaItem extends Item {
 	public DiamondBannanaItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.UNCOMMON).fireResistant().food((new FoodProperties.Builder()).nutrition(9).saturationModifier(1.2f).build(), Consumables.defaultFood().consumeSeconds(1F).build()));
+		super(properties.rarity(Rarity.UNCOMMON).fireResistant().food((new FoodProperties.Builder()).nutrition(9).saturationModifier(1.1f).build(), Consumables.defaultFood().consumeSeconds(1F).build()));
 	}
 
 	@SubscribeEvent
