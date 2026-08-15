@@ -13,7 +13,7 @@ The Computer offers a variety of features for information, math, player manageme
 ![This shows the Computer UI with a calculator, redstone output selector, player management controls, in-game time, player list, and LlamaBlocks version.](../images/computer_showcase.png)
 
 ## Computer Calculator
-The Computer has a calculator function, which can be used to calculate an output between 1 or 2 numbers. There's is a manual calculate button and also a `Automatic` checkbox which re-calculates every tick, when enabled.
+The Computer has a calculator function, which can be used to calculate an output between 1 or 2 numbers. There is a manual calculate button and also a `Automatic` checkbox which re-calculates every tick, when enabled.
 
 ### Special Numbers
 The Computer Calculator supports the irrational numbers `pi` and `e` to be entered, alongside the errors `nan`, `inf`, and `-inf`.
@@ -42,7 +42,7 @@ The Computer Calculator supports the irrational numbers `pi` and `e` to be enter
 ### One Value Operations
 | Operators in Computer | Common Name                   | 
 |-----------------------|-------------------------------|
-| `NLOG`                | Natural Logarithim            |
+| `NLOG`                | Natural Logarithm             |
 | `ROUND`               | Round to Nearest Whole        |
 | `CEIL`                | Round Up                      |
 | `FLOOR`               | Round Down                    |
