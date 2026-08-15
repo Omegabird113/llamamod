@@ -1,13 +1,5 @@
 {
   "asset_id": "llamamod:wild_acid_lake",
   "height": 4,
-  "width": 5,
-  "title": {
-    "color": "yellow",
-    "translate": "painting.llamamod.wild_acid_lake.title"
-  },
-  "author": {
-    "color": "gray",
-    "translate": "painting.llamamod.wild_acid_lake.author"
-  }
+  "width": 5
 }

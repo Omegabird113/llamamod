@@ -3,7 +3,9 @@
   "category": "blocks",
   "experience": 2,
   "cookingtime": 200,
-  "ingredient": "llamamod:teal_brick_stairs",
+  "ingredient": {
+    "item": "llamamod:teal_brick_stairs"
+  },
   "result": {
     "id": "llamamod:cracked_teal_brick_stairs"
   }

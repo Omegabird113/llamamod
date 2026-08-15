@@ -3,5 +3,6 @@
   "textures": {
     "cross": "llamamod:block/banana_plant_tintable",
     "particle": "llamamod:block/banana_plant_tintable"
-  }
+  },
+  "render_type": "cutout"
 }

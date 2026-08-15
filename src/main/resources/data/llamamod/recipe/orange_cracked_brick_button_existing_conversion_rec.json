@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_brick_buttons",
-    "minecraft:orange_dye"
+    {
+      "tag": "llamamod:cracked_brick_buttons"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_orange_brick_button",

@@ -3,8 +3,6 @@ package io.github.omegabird113.llamablocks.procedures;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.server.permissions.LevelBasedPermissionSet;
-import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
 import net.minecraft.commands.CommandSourceStack;
@@ -27,14 +25,14 @@ public class CompClearInventoryOfPlayerXProcedureProcedure {
 		}
 		if (player_to_msg == null) {
 			player_to_msg = entity;
-			if (player_to_msg instanceof ServerPlayer _player)
-				_player.sendSystemMessage(Component.literal((Component.translatable("block.llamamod.computer.playernamenotfounderror").getString())), false);
+			if (player_to_msg instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal((Component.translatable("block.llamamod.computer.playernamenotfounderror").getString())), false);
 		} else {
 			{
 				Entity _ent = entity;
-				if (!_ent.level().isClientSide() && _ent.level().getServer() != null) {
-					_ent.level().getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null,
-							LevelBasedPermissionSet.OWNER, _ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), ("/clear " + player_to_msg.getDisplayName().getString()));
+				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), ("/clear " + player_to_msg.getDisplayName().getString()));
 				}
 			}
 		}

@@ -1,6 +1,5 @@
 package io.github.omegabird113.llamablocks.procedures;
 
-import net.minecraft.world.level.storage.TagValueInput;
 import net.minecraft.world.level.block.state.properties.Property;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -9,8 +8,6 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.ProblemReporter;
-import net.minecraft.server.permissions.Permissions;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 import net.minecraft.commands.arguments.coordinates.BlockPosArgument;
@@ -24,7 +21,7 @@ public class ForceResetPasswordViaLlamamodCommandProcedureProcedure {
 		if (entity == null)
 			return;
 		BlockState oldBlock = Blocks.AIR.defaultBlockState();
-		if (hasEntityPermissionLevel(entity, 3)) {
+		if (entity.hasPermissions(3)) {
 			if (!world.isClientSide()) {
 				BlockPos _bp = new BlockPos(commandParameterBlockPos(arguments, "location").getX(), commandParameterBlockPos(arguments, "location").getY(), commandParameterBlockPos(arguments, "location").getZ());
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -59,7 +56,7 @@ public class ForceResetPasswordViaLlamamodCommandProcedureProcedure {
 					_be = world.getBlockEntity(_bp);
 					if (_be != null) {
 						try {
-							_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+							_be.loadWithComponents(_bnbt, world.registryAccess());
 						} catch (Exception ignored) {
 						}
 					}
@@ -88,7 +85,7 @@ public class ForceResetPasswordViaLlamamodCommandProcedureProcedure {
 					_be = world.getBlockEntity(_bp);
 					if (_be != null) {
 						try {
-							_be.loadWithComponents(TagValueInput.create(ProblemReporter.DISCARDING, world.registryAccess(), _bnbt));
+							_be.loadWithComponents(_bnbt, world.registryAccess());
 						} catch (Exception ignored) {
 						}
 					}
@@ -97,19 +94,6 @@ public class ForceResetPasswordViaLlamamodCommandProcedureProcedure {
 			if (entity instanceof Player _player)
 				_player.closeContainer();
 		}
-	}
-
-	private static boolean hasEntityPermissionLevel(Entity entity, int permissionLevel) {
-		if (entity instanceof Player _player) {
-			return switch (permissionLevel) {
-				case 0 -> true;
-				case 1 -> _player.permissions().hasPermission(Permissions.COMMANDS_MODERATOR);
-				case 2 -> _player.permissions().hasPermission(Permissions.COMMANDS_GAMEMASTER);
-				case 3 -> _player.permissions().hasPermission(Permissions.COMMANDS_ADMIN);
-				default -> _player.permissions().hasPermission(Permissions.COMMANDS_OWNER);
-			};
-		}
-		return false;
 	}
 
 	private static BlockPos commandParameterBlockPos(CommandContext<CommandSourceStack> arguments, String parameter) {

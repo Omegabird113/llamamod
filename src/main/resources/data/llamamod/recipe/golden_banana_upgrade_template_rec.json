@@ -7,11 +7,21 @@
     "ded"
   ],
   "key": {
-    "a": "minecraft:gold_ingot",
-    "b": "llamamod:farm_scraps",
-    "c": "minecraft:writable_book",
-    "d": "minecraft:diamond",
-    "e": "minecraft:golden_apple"
+    "a": {
+      "item": "minecraft:gold_ingot"
+    },
+    "b": {
+      "item": "llamamod:farm_scraps"
+    },
+    "c": {
+      "item": "minecraft:writable_book"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "e": {
+      "item": "minecraft:golden_apple"
+    }
   },
   "result": {
     "id": "llamamod:golden_banana_upgrade",

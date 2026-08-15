@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "building",
   "ingredients": [
-    "#llamamod:cracked_large_tile_trapdoors",
-    "minecraft:magenta_dye"
+    {
+      "tag": "llamamod:cracked_large_tile_trapdoors"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    }
   ],
   "result": {
     "id": "llamamod:cracked_magenta_large_tile_trapdoor",

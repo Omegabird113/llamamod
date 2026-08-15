@@ -3,7 +3,9 @@
   "category": "blocks",
   "experience": 2,
   "cookingtime": 200,
-  "ingredient": "llamamod:orange_brick_wall",
+  "ingredient": {
+    "item": "llamamod:orange_brick_wall"
+  },
   "result": {
     "id": "llamamod:cracked_orange_brick_wall"
   }

@@ -5,8 +5,12 @@
     "ab"
   ],
   "key": {
-    "a": "#llamamod:cracked_brick_trapdoor",
-    "b": "minecraft:blue_dye"
+    "a": {
+      "tag": "llamamod:cracked_brick_trapdoor"
+    },
+    "b": {
+      "item": "minecraft:blue_dye"
+    }
   },
   "result": {
     "id": "llamamod:cracked_blue_brick_trapdoor",

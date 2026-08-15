@@ -8,5 +8,6 @@
     "south": "llamamod:block/secure_stoorage_block_back",
     "west": "llamamod:block/secure_stoorage_block_sides",
     "particle": "llamamod:block/secure_stoorage_block_sides"
-  }
+  },
+  "render_type": "solid"
 }

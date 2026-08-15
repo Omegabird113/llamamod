@@ -6,7 +6,7 @@ import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 
 public class IndustrialLightBlock extends Block {
-	public IndustrialLightBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(37.75f, 86.5f).lightLevel(blockstate -> 15).requiresCorrectToolForDrops());
+	public IndustrialLightBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(37.75f, 86.5f).lightLevel(blockstate -> 15).requiresCorrectToolForDrops());
 	}
 }

@@ -1,9 +1,7 @@
 package io.github.omegabird113.llamablocks.world.inventory;
 
-import net.neoforged.neoforge.transfer.transaction.Transaction;
-import net.neoforged.neoforge.transfer.item.ItemStacksResourceHandler;
-import net.neoforged.neoforge.transfer.item.ItemResource;
-import net.neoforged.neoforge.transfer.ResourceHandler;
+import net.neoforged.neoforge.items.ItemStackHandler;
+import net.neoforged.neoforge.items.IItemHandler;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
@@ -14,7 +12,6 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.Container;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
@@ -38,7 +35,7 @@ public class PasswordsNotSupportedGUIMenu extends AbstractContainerMenu implemen
 	public final Player entity;
 	public int x, y, z;
 	private ContainerLevelAccess access = ContainerLevelAccess.NULL;
-	private ResourceHandler<ItemResource> internal;
+	private IItemHandler internal;
 	private final Map<Integer, Slot> customSlots = new HashMap<>();
 	private boolean bound = false;
 	private Supplier<Boolean> boundItemMatcher = null;
@@ -49,7 +46,7 @@ public class PasswordsNotSupportedGUIMenu extends AbstractContainerMenu implemen
 		super(LlamamodModMenus.PASSWORDS_NOT_SUPPORTED_GUI.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
-		this.internal = new ItemStacksResourceHandler(0);
+		this.internal = new ItemStackHandler(0);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -57,22 +54,6 @@ public class PasswordsNotSupportedGUIMenu extends AbstractContainerMenu implemen
 			this.y = pos.getY();
 			this.z = pos.getZ();
 			access = ContainerLevelAccess.create(world, pos);
-		}
-	}
-
-	private void setItemInSlot(int index, ItemResource resource, int amount) {
-		if (internal instanceof ItemStacksResourceHandler handler) {
-			handler.set(index, resource, amount);
-		} else if (boundBlockEntity instanceof Container container) {
-			container.setItem(index, resource.toStack(Math.max(0, amount)));
-		} else {
-			try (var tx = Transaction.openRoot()) {
-				if (!internal.getResource(index).isEmpty())
-					internal.extract(index, internal.getResource(index), internal.getAmountAsInt(index), tx);
-				if (!resource.isEmpty() && amount > 0)
-					internal.insert(index, resource, amount, tx);
-				tx.commit();
-			}
 		}
 	}
 

@@ -2,8 +2,12 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    "#llamamod:lights",
-    "minecraft:light_blue_dye"
+    {
+      "tag": "llamamod:lights"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    }
   ],
   "result": {
     "id": "llamamod:light_blue_light",

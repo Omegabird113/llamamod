@@ -11,12 +11,12 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.core.BlockPos;
 
 public class IndustrialbrickslabBlock extends SlabBlock {
-	public IndustrialbrickslabBlock(BlockBehaviour.Properties properties) {
-		super(properties.mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().speedFactor(0.95f).jumpFactor(0.95f));
+	public IndustrialbrickslabBlock() {
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_CYAN).sound(SoundType.METAL).strength(28f, 75f).requiresCorrectToolForDrops().speedFactor(0.95f).jumpFactor(0.95f));
 	}
 
 	@Override
 	public PathType getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
-		return PathType.DAMAGING_IN_NEIGHBOR;
+		return PathType.DANGER_OTHER;
 	}
 }

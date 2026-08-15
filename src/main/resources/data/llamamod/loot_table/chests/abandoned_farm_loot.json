@@ -74,7 +74,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -85,7 +88,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -97,13 +103,15 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "minecraft:copper_hoe",
+          "type": "minecraft:empty",
           "weight": 6,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -121,7 +129,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -202,7 +213,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -227,7 +241,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -245,7 +262,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             },
             {
               "function": "minecraft:enchant_with_levels",
@@ -277,7 +297,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -288,7 +311,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -299,7 +325,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         }
@@ -346,7 +375,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -357,7 +389,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -382,7 +417,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -407,7 +445,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -418,7 +459,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },
@@ -429,7 +473,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 1,
+                "max": 1
+              }
             }
           ]
         },

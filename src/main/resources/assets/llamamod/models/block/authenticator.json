@@ -8,5 +8,6 @@
     "south": "llamamod:block/authenticator_front",
     "west": "llamamod:block/authenticator_sides",
     "particle": "llamamod:block/authenticator_sides"
-  }
+  },
+  "render_type": "solid"
 }

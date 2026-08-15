@@ -4,7 +4,6 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.server.level.ServerLevel;
 
 import io.github.omegabird113.llamablocks.init.LlamamodModMenus;
 import io.github.omegabird113.llamablocks.init.LlamamodModGameRules;
@@ -14,7 +13,7 @@ public class ClearSecStoorageBlockProcedureProcedure {
 		if (entity == null)
 			return;
 		double iteratir = 0;
-		if (world instanceof ServerLevel _serverLevelGR0 && _serverLevelGR0.getGameRules().get(LlamamodModGameRules.ALLOW_ITEM_DELETION.get())) {
+		if (world.getLevelData().getGameRules().getBoolean(LlamamodModGameRules.ALLOW_ITEM_DELETION)) {
 			iteratir = 0;
 			while (iteratir <= 62) {
 				if (entity instanceof Player _player && _player.containerMenu instanceof LlamamodModMenus.MenuAccessor _menu) {

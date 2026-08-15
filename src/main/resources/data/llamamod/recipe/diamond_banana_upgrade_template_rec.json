@@ -7,11 +7,21 @@
     "ece"
   ],
   "key": {
-    "a": "minecraft:iron_block",
-    "b": "minecraft:netherite_ingot",
-    "c": "minecraft:diamond",
-    "d": "llamamod:golden_banana_upgrade",
-    "e": "minecraft:amethyst_block"
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "minecraft:diamond"
+    },
+    "d": {
+      "item": "llamamod:golden_banana_upgrade"
+    },
+    "e": {
+      "item": "minecraft:amethyst_block"
+    }
   },
   "result": {
     "id": "llamamod:diamond_banana_upgrade_template",
