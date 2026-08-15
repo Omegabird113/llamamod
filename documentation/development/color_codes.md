@@ -1,5 +1,5 @@
 # Color Hex Codes
-These are applied using the MCreator texture maker’s `Colorize` tool (with `Lock Hue, Saturation, and Brightness` disabled unless said otherwise)
+These are applied using the MCreator texture maker’s `Colorize` tool (with `Lock Hue, Saturation, and Brightness` disabled unless otherwise stated). The colors are used in the mod’s textures and GUIs.
 
 ## Vanilla Colors
 | Color      | Hex Code  |

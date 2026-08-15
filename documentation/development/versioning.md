@@ -14,7 +14,7 @@ The main version number follows the pattern `x.y.z` where:
 After the Main Version, you'll sometimes see `-betaX` or `-rcX` where:
 
 - `beta` represents a potentially unstable build of the main version.
-- `rc` is an almost complete build with beta branding which will likely receive little changes, if any, before becoming a full release. Their purpose is to catch major bugs before a full release.
+- `rc` represents an almost complete build with beta branding which will likely receive little changes, if any, before becoming a full release. The purpose of `rc` builds is to catch major bugs before a full release.
 
 When using a `beta` or `rc` version, every UI in the mod has the text `BETA` in red somewhere within the GUI and the version of LlamaBlocks you're running is sent to you in chat every time you load a world. This behavior cannot be disabled.
 

@@ -4,15 +4,11 @@ The Secure Storage Block, Computer, and Authenticator all support passwords whic
 ## Setting/Changing a Password
 You can use a `Password Changer` to update the password of a block. If the block does not have a password yet, leave the existing password field blank, otherwise enter the existing password, and enter your new password into the new password field.
 
-> **Warning**:
-> 
-> The `Password Changer` allows for you to edit passwords of blocks that do not support passwords, though it does show a warning in that case. 
-
 ## Showcase Image
 ![This shows the UI of the Password changer being used to change a sample block's password.](../images/password_changer_showcase.png)
 
 ## How blocks Handle Having No Password
-- The `Computer` and `Secure Storage Block` skip the authentication screen and just go on to the block.
+- The `Computer` and `Secure Storage Block` skip the authentication screen and go on to the block.
 - The authenticator requires the password field to be left blank in order for it to succeed.
 
 ## Important Security Concerns
