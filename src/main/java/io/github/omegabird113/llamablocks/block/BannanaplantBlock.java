@@ -1,9 +1,10 @@
 package io.github.omegabird113.llamablocks.block;
 
-import net.neoforged.neoforge.common.CommonHooks;
-import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
-import net.neoforged.api.distmarker.OnlyIn;
-import net.neoforged.api.distmarker.Dist;
+import net.minecraftforge.common.PlantType;
+import net.minecraftforge.common.ForgeHooks;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -92,6 +93,11 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	}
 
 	@Override
+	public PlantType getPlantType(BlockGetter world, BlockPos pos) {
+		return PlantType.PLAINS;
+	}
+
+	@Override
 	public void randomTick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		boolean flag = world.getBlockState(pos.above()).is(Blocks.WATER);
 		if (world.isEmptyBlock(pos.above()) || flag) {
@@ -99,10 +105,9 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 			for (; world.getBlockState(pos.below(i)).is(this); ++i);
 			if (i < 5) {
 				int j = blockstate.getValue(AGE);
-				if (CommonHooks.canCropGrow(world, pos, blockstate, true)) {
+				if (ForgeHooks.onCropsGrowPre(world, pos, blockstate, true)) {
 					if (j == 15) {
 						world.setBlockAndUpdate(pos.above(), defaultBlockState().setValue(WATERLOGGED, flag));
-						CommonHooks.fireCropGrowPost(world, pos.above(), defaultBlockState().setValue(WATERLOGGED, flag));
 						world.setBlock(pos, blockstate.setValue(AGE, 0), 4);
 					} else {
 						world.setBlock(pos, blockstate.setValue(AGE, j + 1), 4);
@@ -113,7 +118,7 @@ public class BannanaplantBlock extends SugarCaneBlock implements BonemealableBlo
 	}
 
 	@Override
-	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate) {
+	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
 		if (worldIn instanceof LevelAccessor world) {
 			return CanBoneMealBeUsedOnBananaPlantProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		}

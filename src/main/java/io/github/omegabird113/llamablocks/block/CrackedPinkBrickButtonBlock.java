@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.ButtonBlock;
 
 public class CrackedPinkBrickButtonBlock extends ButtonBlock {
 	public CrackedPinkBrickButtonBlock() {
-		super(BlockSetType.STONE, 20, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(2f, 6f));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(2f, 6f), BlockSetType.STONE, 20, false);
 	}
 }

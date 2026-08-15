@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class CyanbrickpreasureplateBlock extends PressurePlateBlock {
 	public CyanbrickpreasureplateBlock() {
-		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops().forceSolidOn());
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops().forceSolidOn(), BlockSetType.STONE);
 	}
 }

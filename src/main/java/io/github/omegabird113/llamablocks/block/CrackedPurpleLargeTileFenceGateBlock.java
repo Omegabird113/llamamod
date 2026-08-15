@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.FenceGateBlock;
 
 public class CrackedPurpleLargeTileFenceGateBlock extends FenceGateBlock {
 	public CrackedPurpleLargeTileFenceGateBlock() {
-		super(WoodType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PURPLE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops().forceSolidOn(), WoodType.OAK);
 	}
 }

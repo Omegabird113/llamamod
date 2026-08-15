@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class CrackedGreenBrickPressurePlateBlock extends PressurePlateBlock {
 	public CrackedGreenBrickPressurePlateBlock() {
-		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GREEN).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GREEN).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn(), BlockSetType.STONE);
 	}
 }

@@ -3,16 +3,16 @@
  */
 package io.github.omegabird113.llamablocks.init;
 
-import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.network.PacketDistributor;
-import net.neoforged.neoforge.common.extensions.IMenuTypeExtension;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.network.PacketDistributor;
+import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.client.Minecraft;
 
 import java.util.Map;
@@ -22,16 +22,15 @@ import io.github.omegabird113.llamablocks.network.MenuStateUpdateMessage;
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
 public class LlamamodModMenus {
-	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(Registries.MENU, LlamamodMod.MODID);
-	public static final DeferredHolder<MenuType<?>, MenuType<BackpackguiMenu>> BACKPACKGUI = REGISTRY.register("backpackgui", () -> IMenuTypeExtension.create(BackpackguiMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<NetherbackpackguiMenu>> NETHERBACKPACKGUI = REGISTRY.register("netherbackpackgui", () -> IMenuTypeExtension.create(NetherbackpackguiMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<ComputerguiMenu>> COMPUTERGUI = REGISTRY.register("computergui", () -> IMenuTypeExtension.create(ComputerguiMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<PasswordchangerguiMenu>> PASSWORDCHANGERGUI = REGISTRY.register("passwordchangergui", () -> IMenuTypeExtension.create(PasswordchangerguiMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<IncorrectPasswordGUIMenu>> INCORRECT_PASSWORD_GUI = REGISTRY.register("incorrect_password_gui", () -> IMenuTypeExtension.create(IncorrectPasswordGUIMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<DoubleSecureStoorafeBlockGuiMenu>> DOUBLE_SECURE_STOORAFE_BLOCK_GUI = REGISTRY.register("double_secure_stoorafe_block_gui",
-			() -> IMenuTypeExtension.create(DoubleSecureStoorafeBlockGuiMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<PasswordsNotSupportedGUIMenu>> PASSWORDS_NOT_SUPPORTED_GUI = REGISTRY.register("passwords_not_supported_gui", () -> IMenuTypeExtension.create(PasswordsNotSupportedGUIMenu::new));
-	public static final DeferredHolder<MenuType<?>, MenuType<AuthGUIMenu>> AUTH_GUI = REGISTRY.register("auth_gui", () -> IMenuTypeExtension.create(AuthGUIMenu::new));
+	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, LlamamodMod.MODID);
+	public static final RegistryObject<MenuType<BackpackguiMenu>> BACKPACKGUI = REGISTRY.register("backpackgui", () -> IForgeMenuType.create(BackpackguiMenu::new));
+	public static final RegistryObject<MenuType<NetherbackpackguiMenu>> NETHERBACKPACKGUI = REGISTRY.register("netherbackpackgui", () -> IForgeMenuType.create(NetherbackpackguiMenu::new));
+	public static final RegistryObject<MenuType<ComputerguiMenu>> COMPUTERGUI = REGISTRY.register("computergui", () -> IForgeMenuType.create(ComputerguiMenu::new));
+	public static final RegistryObject<MenuType<PasswordchangerguiMenu>> PASSWORDCHANGERGUI = REGISTRY.register("passwordchangergui", () -> IForgeMenuType.create(PasswordchangerguiMenu::new));
+	public static final RegistryObject<MenuType<IncorrectPasswordGUIMenu>> INCORRECT_PASSWORD_GUI = REGISTRY.register("incorrect_password_gui", () -> IForgeMenuType.create(IncorrectPasswordGUIMenu::new));
+	public static final RegistryObject<MenuType<DoubleSecureStoorafeBlockGuiMenu>> DOUBLE_SECURE_STOORAFE_BLOCK_GUI = REGISTRY.register("double_secure_stoorafe_block_gui", () -> IForgeMenuType.create(DoubleSecureStoorafeBlockGuiMenu::new));
+	public static final RegistryObject<MenuType<PasswordsNotSupportedGUIMenu>> PASSWORDS_NOT_SUPPORTED_GUI = REGISTRY.register("passwords_not_supported_gui", () -> IForgeMenuType.create(PasswordsNotSupportedGUIMenu::new));
+	public static final RegistryObject<MenuType<AuthGUIMenu>> AUTH_GUI = REGISTRY.register("auth_gui", () -> IForgeMenuType.create(AuthGUIMenu::new));
 
 	public interface MenuAccessor {
 		Map<String, Object> getMenuState();
@@ -41,11 +40,11 @@ public class LlamamodModMenus {
 		default void sendMenuStateUpdate(Player player, int elementType, String name, Object elementState, boolean needClientUpdate) {
 			getMenuState().put(elementType + ":" + name, elementState);
 			if (player instanceof ServerPlayer serverPlayer) {
-				PacketDistributor.sendToPlayer(serverPlayer, new MenuStateUpdateMessage(elementType, name, elementState));
+				LlamamodMod.PACKET_HANDLER.send(PacketDistributor.PLAYER.with(() -> serverPlayer), new MenuStateUpdateMessage(elementType, name, elementState));
 			} else if (player.level().isClientSide) {
 				if (Minecraft.getInstance().screen instanceof LlamamodModScreens.ScreenAccessor accessor && needClientUpdate)
 					accessor.updateMenuState(elementType, name, elementState);
-				PacketDistributor.sendToServer(new MenuStateUpdateMessage(elementType, name, elementState));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new MenuStateUpdateMessage(elementType, name, elementState));
 			}
 		}
 

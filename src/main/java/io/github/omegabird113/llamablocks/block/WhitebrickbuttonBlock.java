@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.ButtonBlock;
 
 public class WhitebrickbuttonBlock extends ButtonBlock {
 	public WhitebrickbuttonBlock() {
-		super(BlockSetType.STONE, 20, BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.QUARTZ).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops(), BlockSetType.STONE, 20, false);
 	}
 }

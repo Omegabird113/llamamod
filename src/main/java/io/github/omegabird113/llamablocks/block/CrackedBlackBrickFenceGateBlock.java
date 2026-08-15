@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.FenceGateBlock;
 
 public class CrackedBlackBrickFenceGateBlock extends FenceGateBlock {
 	public CrackedBlackBrickFenceGateBlock() {
-		super(WoodType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLACK).sound(SoundType.METAL).strength(2f, 6f).forceSolidOn(), WoodType.OAK);
 	}
 }

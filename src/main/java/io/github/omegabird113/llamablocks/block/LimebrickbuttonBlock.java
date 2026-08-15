@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.ButtonBlock;
 
 public class LimebrickbuttonBlock extends ButtonBlock {
 	public LimebrickbuttonBlock() {
-		super(BlockSetType.STONE, 20, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GREEN).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_GREEN).sound(SoundType.METAL).strength(2f, 6f).requiresCorrectToolForDrops(), BlockSetType.STONE, 20, false);
 	}
 }

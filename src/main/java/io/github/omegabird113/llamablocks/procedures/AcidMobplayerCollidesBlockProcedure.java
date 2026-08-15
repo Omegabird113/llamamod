@@ -21,12 +21,12 @@ public class AcidMobplayerCollidesBlockProcedure {
 			return;
 		if ((world.getBlockState(BlockPos.containing(entity.getX(), entity.getY(), entity.getZ()))).getBlock() == LlamamodModBlocks.ACID.get()
 				&& (world.getBlockState(BlockPos.containing(entity.getX(), entity.getY() + 1.9, entity.getZ()))).getBlock() == LlamamodModBlocks.ACID.get()) {
-			entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:acid_drowning")))),
-					(float) (2 * (1 - Mth.clamp(entity instanceof LivingEntity _livingEntity10 && _livingEntity10.getAttributes().hasAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION)
-							? _livingEntity10.getAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION).getValue()
+			entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("llamamod:acid_drowning")))),
+					(float) (2 * (1 - Mth.clamp(entity instanceof LivingEntity _livingEntity10 && _livingEntity10.getAttributes().hasAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION.get())
+							? _livingEntity10.getAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION.get()).getValue()
 							: 0, 0, 1))));
 		}
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_DISSOLVING, 150, 0, true, true));
+			_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_DISSOLVING.get(), 150, 0, true, true));
 	}
 }

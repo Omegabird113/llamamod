@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:stone"
+    },
+    "b": {
+      "tag": "llamamod:torches"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "tag": "llamamod:large_tiles"
+    },
+    "e": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "llamamod:variable_light",
+    "count": 1
+  }
+}

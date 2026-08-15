@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.SoundType;
 
 public class CrackedCherryBrickTrapdoorBlock extends TrapDoorBlock {
 	public CrackedCherryBrickTrapdoorBlock() {
-		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(18f, 37f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_PINK).sound(SoundType.METAL).strength(18f, 37f).requiresCorrectToolForDrops(), BlockSetType.STONE);
 	}
 }

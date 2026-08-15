@@ -17,7 +17,7 @@ import io.github.omegabird113.llamablocks.init.LlamamodModFluids;
 
 public class AcidBlock extends LiquidBlock {
 	public AcidBlock() {
-		super(LlamamodModFluids.ACID.get(),
+		super(() -> LlamamodModFluids.ACID.get(),
 				BlockBehaviour.Properties.of().mapColor(MapColor.WARPED_WART_BLOCK).strength(13f).lightLevel(state -> 5).noCollission().noLootTable().liquid().pushReaction(PushReaction.DESTROY).sound(SoundType.EMPTY).replaceable());
 	}
 

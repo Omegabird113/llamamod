@@ -1,45 +1,37 @@
 package io.github.omegabird113.llamablocks.network;
 
-import net.neoforged.neoforge.network.handling.IPayloadContext;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
-import net.minecraft.network.protocol.PacketFlow;
-import net.minecraft.network.codec.StreamCodec;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.RegistryFriendlyByteBuf;
+import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.SectionPos;
+
+import java.util.function.Supplier;
 
 import io.github.omegabird113.llamablocks.procedures.XbuttonprocidureProcedure;
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
-@EventBusSubscriber
-public record BackpackguiButtonMessage(int buttonID, int x, int y, int z) implements CustomPacketPayload {
-	public static final Type<BackpackguiButtonMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "backpackgui_buttons"));
-	public static final StreamCodec<RegistryFriendlyByteBuf, BackpackguiButtonMessage> STREAM_CODEC = StreamCodec.of((RegistryFriendlyByteBuf buffer, BackpackguiButtonMessage message) -> {
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+public record BackpackguiButtonMessage(int buttonID, int x, int y, int z) {
+	public BackpackguiButtonMessage(FriendlyByteBuf buffer) {
+		this(buffer.readInt(), buffer.readInt(), buffer.readInt(), buffer.readInt());
+	}
+
+	public static void buffer(BackpackguiButtonMessage message, FriendlyByteBuf buffer) {
 		buffer.writeInt(message.buttonID);
 		buffer.writeInt(message.x);
 		buffer.writeInt(message.y);
 		buffer.writeInt(message.z);
-	}, (RegistryFriendlyByteBuf buffer) -> new BackpackguiButtonMessage(buffer.readInt(), buffer.readInt(), buffer.readInt(), buffer.readInt()));
-
-	@Override
-	public Type<BackpackguiButtonMessage> type() {
-		return TYPE;
 	}
 
-	public static void handleData(final BackpackguiButtonMessage message, final IPayloadContext context) {
-		if (context.flow() == PacketFlow.SERVERBOUND) {
-			context.enqueueWork(() -> handleButtonAction(context.player(), message.buttonID, message.x, message.y, message.z)).exceptionally(e -> {
-				context.connection().disconnect(Component.literal(e.getMessage()));
-				return null;
-			});
-		}
+	public static void handler(BackpackguiButtonMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
+		NetworkEvent.Context context = contextSupplier.get();
+		context.enqueueWork(() -> handleButtonAction(context.getSender(), message.buttonID, message.x, message.y, message.z));
+		context.setPacketHandled(true);
 	}
 
 	public static void handleButtonAction(Player entity, int buttonID, int x, int y, int z) {
@@ -55,6 +47,6 @@ public record BackpackguiButtonMessage(int buttonID, int x, int y, int z) implem
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(BackpackguiButtonMessage.TYPE, BackpackguiButtonMessage.STREAM_CODEC, BackpackguiButtonMessage::handleData);
+		LlamamodMod.addNetworkMessage(BackpackguiButtonMessage.class, BackpackguiButtonMessage::buffer, BackpackguiButtonMessage::new, BackpackguiButtonMessage::handler);
 	}
 }

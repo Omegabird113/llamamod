@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.ButtonBlock;
 
 public class CrackedOrangeLargeTileButtonBlock extends ButtonBlock {
 	public CrackedOrangeLargeTileButtonBlock() {
-		super(BlockSetType.STONE, 20, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_ORANGE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_ORANGE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops(), BlockSetType.STONE, 20, false);
 	}
 }

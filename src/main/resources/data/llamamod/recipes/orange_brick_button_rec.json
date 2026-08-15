@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:orange_bricks"
+    }
+  ],
+  "result": {
+    "item": "llamamod:orange_brick_button",
+    "count": 9
+  }
+}

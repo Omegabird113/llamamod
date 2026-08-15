@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.SoundType;
 
 public class BluelargetiletrapdoorBlock extends TrapDoorBlock {
 	public BluelargetiletrapdoorBlock() {
-		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BLUE).sound(SoundType.METAL).strength(12f, 16f).requiresCorrectToolForDrops(), BlockSetType.STONE);
 	}
 }

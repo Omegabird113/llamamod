@@ -3,18 +3,18 @@
  */
 package io.github.omegabird113.llamablocks.init;
 
-import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.DeferredHolder;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.effect.MobEffect;
-import net.minecraft.core.registries.Registries;
 
 import io.github.omegabird113.llamablocks.potion.AcideffectMobEffect;
 import io.github.omegabird113.llamablocks.potion.AcidResistenceMobEffect;
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
 public class LlamamodModMobEffects {
-	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(Registries.MOB_EFFECT, LlamamodMod.MODID);
-	public static final DeferredHolder<MobEffect, MobEffect> ACID_DISSOLVING = REGISTRY.register("acid_dissolving", AcideffectMobEffect::new);
-	public static final DeferredHolder<MobEffect, MobEffect> ACID_RESISTENCE = REGISTRY.register("acid_resistence", AcidResistenceMobEffect::new);
+	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, LlamamodMod.MODID);
+	public static final RegistryObject<MobEffect> ACID_DISSOLVING = REGISTRY.register("acid_dissolving", AcideffectMobEffect::new);
+	public static final RegistryObject<MobEffect> ACID_RESISTENCE = REGISTRY.register("acid_resistence", AcidResistenceMobEffect::new);
 }

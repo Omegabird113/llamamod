@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:cracked_lime_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:cracked_lime_brick_stairs",
+    "count": 4
+  }
+}

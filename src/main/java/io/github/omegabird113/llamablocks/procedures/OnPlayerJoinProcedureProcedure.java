@@ -1,9 +1,9 @@
 package io.github.omegabird113.llamablocks.procedures;
 
-import net.neoforged.neoforge.event.entity.player.PlayerEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.bus.api.Event;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.Vec2;
@@ -18,7 +18,7 @@ import javax.annotation.Nullable;
 import io.github.omegabird113.llamablocks.init.LlamamodModGameRules;
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
-@EventBusSubscriber
+@Mod.EventBusSubscriber
 public class OnPlayerJoinProcedureProcedure {
 	@SubscribeEvent
 	public static void onPlayerLoggedIn(PlayerEvent.PlayerLoggedInEvent event) {

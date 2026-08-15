@@ -1,5 +1,10 @@
 package io.github.omegabird113.llamablocks.item;
 
+import net.minecraftforge.network.NetworkHooks;
+import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.common.capabilities.ICapabilityProvider;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -12,10 +17,14 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
+import net.minecraft.nbt.CompoundTag;
+
+import javax.annotation.Nullable;
 
 import io.netty.buffer.Unpooled;
 
 import io.github.omegabird113.llamablocks.world.inventory.BackpackguiMenu;
+import io.github.omegabird113.llamablocks.item.inventory.BackpackInventoryCapability;
 
 public class BackpackItem extends Item {
 	public BackpackItem() {
@@ -26,7 +35,7 @@ public class BackpackItem extends Item {
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
 		if (entity instanceof ServerPlayer serverPlayer) {
-			serverPlayer.openMenu(new MenuProvider() {
+			NetworkHooks.openScreen(serverPlayer, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
 					return Component.literal("Backpack");
@@ -45,5 +54,24 @@ public class BackpackItem extends Item {
 			});
 		}
 		return ar;
+	}
+
+	@Override
+	public ICapabilityProvider initCapabilities(ItemStack stack, @Nullable CompoundTag compound) {
+		return new BackpackInventoryCapability();
+	}
+
+	@Override
+	public CompoundTag getShareTag(ItemStack stack) {
+		CompoundTag nbt = stack.getOrCreateTag();
+		stack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
+		return nbt;
+	}
+
+	@Override
+	public void readShareTag(ItemStack stack, @Nullable CompoundTag nbt) {
+		super.readShareTag(stack, nbt);
+		if (nbt != null)
+			stack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> ((ItemStackHandler) capability).deserializeNBT((CompoundTag) nbt.get("Inventory")));
 	}
 }

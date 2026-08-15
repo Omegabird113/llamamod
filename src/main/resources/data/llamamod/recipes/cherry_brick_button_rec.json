@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:cherry_bricks"
+    }
+  ],
+  "result": {
+    "item": "llamamod:cherry_brick_button",
+    "count": 9
+  }
+}

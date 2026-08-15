@@ -23,7 +23,7 @@ public class GoldenBannanaPlayerFinishesUsingItemProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 1000, 1));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_RESISTENCE, 1000, 1));
+				_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_RESISTENCE.get(), 1000, 1));
 		}
 	}
 }

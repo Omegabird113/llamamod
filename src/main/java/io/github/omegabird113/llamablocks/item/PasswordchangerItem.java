@@ -1,7 +1,7 @@
 package io.github.omegabird113.llamablocks.item;
 
-import net.neoforged.api.distmarker.OnlyIn;
-import net.neoforged.api.distmarker.Dist;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.item.ItemStack;

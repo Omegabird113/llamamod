@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:cracked_purple_bricks"
+    }
+  ],
+  "result": {
+    "item": "llamamod:cracked_purple_brick_button",
+    "count": 9
+  }
+}

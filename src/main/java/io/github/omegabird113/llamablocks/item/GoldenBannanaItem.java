@@ -10,11 +10,11 @@ import io.github.omegabird113.llamablocks.procedures.GoldenBannanaPlayerFinishes
 
 public class GoldenBannanaItem extends Item {
 	public GoldenBannanaItem() {
-		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(5).saturationModifier(1f).build()));
+		super(new Item.Properties().food((new FoodProperties.Builder()).nutrition(5).saturationMod(1f).build()));
 	}
 
 	@Override
-	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
+	public int getUseDuration(ItemStack itemstack) {
 		return 18;
 	}
 

@@ -9,6 +9,6 @@ import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class BrownbrickpreasureplateBlock extends PressurePlateBlock {
 	public BrownbrickpreasureplateBlock() {
-		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).sound(SoundType.METAL).strength(2f, 6f).instrument(NoteBlockInstrument.BASEDRUM).forceSolidOn());
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_BROWN).sound(SoundType.METAL).strength(2f, 6f).instrument(NoteBlockInstrument.BASEDRUM).forceSolidOn(), BlockSetType.STONE);
 	}
 }

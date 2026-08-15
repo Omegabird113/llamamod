@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "llamamod:lime_brick_pressure_plate"
+  },
+  "result": "llamamod:cracked_lime_brick_pressure_plate"
+}

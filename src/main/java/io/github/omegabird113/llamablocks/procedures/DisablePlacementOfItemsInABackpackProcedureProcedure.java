@@ -10,7 +10,7 @@ import io.github.omegabird113.llamablocks.init.LlamamodModGameRules;
 public class DisablePlacementOfItemsInABackpackProcedureProcedure {
 	public static boolean execute(LevelAccessor world, ItemStack itemstack) {
 		if (world.getLevelData().getGameRules().getBoolean(LlamamodModGameRules.PREVENT_NESTED_STORAGE_ITEMS)) {
-			if (itemstack.is(ItemTags.create(ResourceLocation.parse("llamamod:cannot_be_placed_in_storage_items")))) {
+			if (itemstack.is(ItemTags.create(new ResourceLocation("llamamod:cannot_be_placed_in_storage_items")))) {
 				return true;
 			}
 			return false;

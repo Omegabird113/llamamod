@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:light_gray_large_tile"
+    }
+  },
+  "result": {
+    "item": "llamamod:light_gray_large_tile_wall",
+    "count": 12
+  }
+}

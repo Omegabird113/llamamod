@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "llamamod:purple_bricks"
+  },
+  "result": "llamamod:cracked_purple_bricks"
+}

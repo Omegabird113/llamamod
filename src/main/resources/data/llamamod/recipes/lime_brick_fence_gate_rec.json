@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "llamamod:lime_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:lime_brick_fence_gate",
+    "count": 4
+  }
+}

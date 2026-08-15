@@ -3,8 +3,8 @@
  */
 package io.github.omegabird113.llamablocks.init;
 
-import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.DeferredHolder;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
@@ -15,7 +15,7 @@ import io.github.omegabird113.llamablocks.LlamamodMod;
 
 public class LlamamodModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, LlamamodMod.MODID);
-	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> LLAMA_MOD = REGISTRY.register("llama_mod",
+	public static final RegistryObject<CreativeModeTab> LLAMA_MOD = REGISTRY.register("llama_mod",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.llamamod.llama_mod")).icon(() -> new ItemStack(LlamamodModBlocks.LIME_LIGHT.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(LlamamodModBlocks.WHITE_BRICKS.get().asItem());
 				tabData.accept(LlamamodModBlocks.WHITE_BRICK_STAIRS.get().asItem());

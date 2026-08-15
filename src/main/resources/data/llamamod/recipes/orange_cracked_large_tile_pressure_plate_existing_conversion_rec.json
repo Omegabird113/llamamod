@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "tag": "llamamod:cracked_large_tile_pressure_plates"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    }
+  ],
+  "result": {
+    "item": "llamamod:cracked_orange_large_tile_pressure_plate",
+    "count": 1
+  }
+}

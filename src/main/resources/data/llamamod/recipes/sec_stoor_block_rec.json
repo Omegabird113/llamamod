@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "tag": "llamamod:large_tiles"
+    },
+    "b": {
+      "item": "llamamod:password_changer"
+    },
+    "c": {
+      "item": "minecraft:iron_ingot"
+    },
+    "d": {
+      "item": "llamamod:netherite_backpack"
+    },
+    "e": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "llamamod:secure_storage_block",
+    "count": 1
+  }
+}

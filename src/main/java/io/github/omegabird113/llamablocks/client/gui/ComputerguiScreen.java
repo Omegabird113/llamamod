@@ -1,7 +1,6 @@
 package io.github.omegabird113.llamablocks.client.gui;
 
-import net.neoforged.neoforge.network.PacketDistributor;
-import net.neoforged.neoforge.client.gui.widget.ExtendedSlider;
+import net.minecraftforge.client.gui.widget.ForgeSlider;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
@@ -19,6 +18,7 @@ import io.github.omegabird113.llamablocks.world.inventory.ComputerguiMenu;
 import io.github.omegabird113.llamablocks.procedures.*;
 import io.github.omegabird113.llamablocks.network.ComputerguiButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
+import io.github.omegabird113.llamablocks.LlamamodMod;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
@@ -42,9 +42,9 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	private Button button_calculate;
 	private Button button_clear_inventory;
 	private Button button_clear_textboxes;
-	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/computergui.png");
-	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/logo_16_border.png");
-	private ExtendedSlider power_output;
+	private static final ResourceLocation BACKGROUND = new ResourceLocation("llamamod:textures/screens/computergui.png");
+	private static final ResourceLocation IMAGE_0 = new ResourceLocation("llamamod:textures/screens/logo_16_border.png");
+	private ForgeSlider power_output;
 
 	public ComputerguiScreen(ComputerguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -89,6 +89,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		number1.render(guiGraphics, mouseX, mouseY, partialTicks);
 		number2.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -222,7 +223,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				PacketDistributor.sendToServer(new ComputerguiButtonMessage(0, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new ComputerguiButtonMessage(0, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 257, this.topPos + 0, 30, 20).build();
@@ -231,7 +232,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
-				PacketDistributor.sendToServer(new ComputerguiButtonMessage(1, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new ComputerguiButtonMessage(1, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 187, this.topPos + 97, 46, 20).build();
@@ -240,7 +241,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				PacketDistributor.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new ComputerguiButtonMessage(2, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}).bounds(this.leftPos + 140, this.topPos + 145, 40, 20).build();
@@ -249,7 +250,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				PacketDistributor.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new ComputerguiButtonMessage(3, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 3, x, y, z);
 			}
 		}).bounds(this.leftPos + 181, this.topPos + 145, 56, 20).build();
@@ -258,7 +259,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				PacketDistributor.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new ComputerguiButtonMessage(4, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 4, x, y, z);
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 97, 61, 20).build();
@@ -267,7 +268,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (true) {
-				PacketDistributor.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new ComputerguiButtonMessage(5, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 5, x, y, z);
 			}
 		}).bounds(this.leftPos + 172, this.topPos + 54, 72, 20).build();
@@ -276,7 +277,7 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ComputerPlayerManagementPermissionCheckProcedure.execute(entity)) {
-				PacketDistributor.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new ComputerguiButtonMessage(6, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 6, x, y, z);
 			}
 		}).bounds(this.leftPos + 125, this.topPos + 76, 103, 20).build();
@@ -285,17 +286,21 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 			int x = ComputerguiScreen.this.x;
 			int y = ComputerguiScreen.this.y;
 			if (ReturnComputerguiClearTextboxesButtonDisplayConditionProcedure.execute(entity)) {
-				PacketDistributor.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new ComputerguiButtonMessage(7, x, y, z));
 				ComputerguiButtonMessage.handleButtonAction(entity, 7, x, y, z);
 			}
 		}).bounds(this.leftPos + 4, this.topPos + 119, 103, 20).build();
 		this.addRenderableWidget(button_clear_textboxes);
-		auto_calculate = Checkbox.builder(Component.translatable("gui.llamamod.computergui.auto_calculate"), this.font).pos(this.leftPos + 97, this.topPos + 55).onValueChange((checkbox, value) -> {
-			if (!menuStateUpdateActive)
-				menu.sendMenuStateUpdate(entity, 1, "auto_calculate", value, false);
-		}).build();
+		auto_calculate = new Checkbox(this.leftPos + 97, this.topPos + 55, 20, 20, Component.translatable("gui.llamamod.computergui.auto_calculate"), false) {
+			@Override
+			public void onPress() {
+				super.onPress();
+				if (!menuStateUpdateActive)
+					menu.sendMenuStateUpdate(entity, 1, "auto_calculate", this.selected(), false);
+			}
+		};
 		this.addRenderableWidget(auto_calculate);
-		power_output = new ExtendedSlider(this.leftPos + 93, this.topPos + 145, 46, 20, Component.translatable("gui.llamamod.computergui.power_output_prefix"), Component.translatable("gui.llamamod.computergui.power_output_suffix"), 0, 15, 0, 1, 0,
+		power_output = new ForgeSlider(this.leftPos + 93, this.topPos + 145, 46, 20, Component.translatable("gui.llamamod.computergui.power_output_prefix"), Component.translatable("gui.llamamod.computergui.power_output_suffix"), 0, 15, 0, 1, 0,
 				true) {
 			@Override
 			protected void applyValue() {
@@ -311,6 +316,12 @@ public class ComputerguiScreen extends AbstractContainerScreen<ComputerguiMenu> 
 	@Override
 	protected void containerTick() {
 		super.containerTick();
+		number1.tick();
+		number2.tick();
+		operation.tick();
+		player_name.tick();
+		msg.tick();
+		calculator_result.tick();
 		this.button_kill.visible = ComputerPlayerManagementPermissionCheckProcedure.execute(entity);
 		this.button_clear_inventory.visible = ComputerPlayerManagementPermissionCheckProcedure.execute(entity);
 		this.button_clear_textboxes.visible = ReturnComputerguiClearTextboxesButtonDisplayConditionProcedure.execute(entity);

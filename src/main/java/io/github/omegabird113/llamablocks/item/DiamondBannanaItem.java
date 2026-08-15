@@ -13,11 +13,11 @@ import io.github.omegabird113.llamablocks.init.LlamamodModItems;
 
 public class DiamondBannanaItem extends Item {
 	public DiamondBannanaItem() {
-		super(new Item.Properties().fireResistant().rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(9).saturationModifier(1.1f).build()));
+		super(new Item.Properties().fireResistant().rarity(Rarity.UNCOMMON).food((new FoodProperties.Builder()).nutrition(9).saturationMod(1.1f).build()));
 	}
 
 	@Override
-	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
+	public int getUseDuration(ItemStack itemstack) {
 		return 20;
 	}
 

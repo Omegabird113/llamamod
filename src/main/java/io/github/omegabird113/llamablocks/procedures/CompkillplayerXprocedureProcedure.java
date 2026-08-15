@@ -33,7 +33,8 @@ public class CompkillplayerXprocedureProcedure {
 				_player.getAbilities().invulnerable = false;
 				_player.onUpdateAbilities();
 			}
-			player_to_msg.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:computer_player_management_damage"))), entity), 1000000);
+			player_to_msg.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("llamamod:computer_player_management_damage"))), entity),
+					1000000);
 		}
 	}
 }

@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.SoundType;
 
 public class TiletrapdoorBlock extends TrapDoorBlock {
 	public TiletrapdoorBlock() {
-		super(BlockSetType.OAK, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(7f, 23.65f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GRAY).sound(SoundType.METAL).strength(7f, 23.65f).requiresCorrectToolForDrops(), BlockSetType.OAK);
 	}
 }

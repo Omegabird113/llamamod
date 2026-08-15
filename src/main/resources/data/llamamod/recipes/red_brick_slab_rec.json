@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:red_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:red_brick_slab",
+    "count": 6
+  }
+}

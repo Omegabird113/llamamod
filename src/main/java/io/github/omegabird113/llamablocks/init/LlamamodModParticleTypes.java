@@ -3,16 +3,16 @@
  */
 package io.github.omegabird113.llamablocks.init;
 
-import net.neoforged.neoforge.registries.DeferredRegister;
-import net.neoforged.neoforge.registries.DeferredHolder;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
-import net.minecraft.core.registries.Registries;
 import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.particles.ParticleType;
 
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
 public class LlamamodModParticleTypes {
-	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(Registries.PARTICLE_TYPE, LlamamodMod.MODID);
-	public static final DeferredHolder<ParticleType<?>, SimpleParticleType> ACIDPARTICLE = REGISTRY.register("acidparticle", () -> new SimpleParticleType(false));
+	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, LlamamodMod.MODID);
+	public static final RegistryObject<SimpleParticleType> ACIDPARTICLE = REGISTRY.register("acidparticle", () -> new SimpleParticleType(false));
 }

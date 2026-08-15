@@ -1,22 +1,27 @@
 package io.github.omegabird113.llamablocks.item.inventory;
 
-import net.neoforged.neoforge.items.ComponentItemHandler;
-import net.neoforged.neoforge.event.entity.item.ItemTossEvent;
-import net.neoforged.neoforge.common.MutableDataComponentHolder;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.item.ItemTossEvent;
+import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.common.capabilities.ICapabilitySerializable;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.common.capabilities.Capability;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.core.component.DataComponents;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.Direction;
 
+import javax.annotation.Nullable;
 import javax.annotation.Nonnull;
 
 import io.github.omegabird113.llamablocks.world.inventory.NetherbackpackguiMenu;
 import io.github.omegabird113.llamablocks.init.LlamamodModItems;
 
-@EventBusSubscriber
-public class NetheritebackpackInventoryCapability extends ComponentItemHandler {
+@Mod.EventBusSubscriber
+public class NetheritebackpackInventoryCapability implements ICapabilitySerializable<CompoundTag> {
 	@SubscribeEvent
 	public static void onItemDropped(ItemTossEvent event) {
 		if (event.getEntity().getItem().getItem() == LlamamodModItems.NETHERITE_BACKPACK.get()) {
@@ -26,22 +31,42 @@ public class NetheritebackpackInventoryCapability extends ComponentItemHandler {
 		}
 	}
 
-	public NetheritebackpackInventoryCapability(MutableDataComponentHolder parent) {
-		super(parent, DataComponents.CONTAINER, 45);
+	private final LazyOptional<ItemStackHandler> inventory = LazyOptional.of(this::createItemHandler);
+
+	@Override
+	public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> capability, @Nullable Direction side) {
+		return capability == ForgeCapabilities.ITEM_HANDLER ? this.inventory.cast() : LazyOptional.empty();
 	}
 
 	@Override
-	public int getSlotLimit(int slot) {
-		return 999;
+	public CompoundTag serializeNBT() {
+		return getItemHandler().serializeNBT();
 	}
 
 	@Override
-	public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
-		return stack.getItem() != LlamamodModItems.NETHERITE_BACKPACK.get();
+	public void deserializeNBT(CompoundTag nbt) {
+		getItemHandler().deserializeNBT(nbt);
 	}
 
-	@Override
-	public ItemStack getStackInSlot(int slot) {
-		return super.getStackInSlot(slot).copy();
+	private ItemStackHandler createItemHandler() {
+		return new ItemStackHandler(45) {
+			@Override
+			public int getSlotLimit(int slot) {
+				return 999;
+			}
+
+			@Override
+			public boolean isItemValid(int slot, @Nonnull ItemStack stack) {
+				return stack.getItem() != LlamamodModItems.NETHERITE_BACKPACK.get();
+			}
+
+			@Override
+			public void setSize(int size) {
+			}
+		};
+	}
+
+	private ItemStackHandler getItemHandler() {
+		return inventory.orElseThrow(RuntimeException::new);
 	}
 }

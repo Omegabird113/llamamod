@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:cracked_cyan_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:cracked_cyan_brick_trapdoor",
+    "count": 12
+  }
+}

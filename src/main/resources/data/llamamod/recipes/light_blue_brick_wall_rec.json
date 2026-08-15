@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:light_blue_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:light_blue_brick_wall",
+    "count": 12
+  }
+}

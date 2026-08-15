@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:cracked_brown_bricks"
+    }
+  ],
+  "result": {
+    "item": "llamamod:cracked_brown_brick_button",
+    "count": 9
+  }
+}

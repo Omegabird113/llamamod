@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cde",
+    "afa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_stone"
+    },
+    "b": {
+      "item": "llamamod:password_changer"
+    },
+    "c": {
+      "tag": "forge:stained_glass"
+    },
+    "d": {
+      "item": "llamamod:variable_light"
+    },
+    "e": {
+      "item": "minecraft:repeater"
+    },
+    "f": {
+      "item": "minecraft:clock"
+    }
+  },
+  "result": {
+    "item": "llamamod:computer",
+    "count": 1
+  }
+}

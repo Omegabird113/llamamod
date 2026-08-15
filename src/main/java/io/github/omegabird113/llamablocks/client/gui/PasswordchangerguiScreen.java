@@ -1,7 +1,5 @@
 package io.github.omegabird113.llamablocks.client.gui;
 
-import net.neoforged.neoforge.network.PacketDistributor;
-
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -19,6 +17,7 @@ import io.github.omegabird113.llamablocks.procedures.PasswordbananaRightclickedO
 import io.github.omegabird113.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import io.github.omegabird113.llamablocks.network.PasswordchangerguiButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
+import io.github.omegabird113.llamablocks.LlamamodMod;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
@@ -32,8 +31,8 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 	private Button button_submit;
 	private Button button_x;
 	private Button button_reset;
-	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/passwordchangergui.png");
-	private static final ResourceLocation IMAGE_0 = ResourceLocation.parse("llamamod:textures/screens/warning.png");
+	private static final ResourceLocation BACKGROUND = new ResourceLocation("llamamod:textures/screens/passwordchangergui.png");
+	private static final ResourceLocation IMAGE_0 = new ResourceLocation("llamamod:textures/screens/warning.png");
 
 	public PasswordchangerguiScreen(PasswordchangerguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -60,6 +59,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		password.render(guiGraphics, mouseX, mouseY, partialTicks);
 		current_password.render(guiGraphics, mouseX, mouseY, partialTicks);
@@ -144,7 +144,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 			int x = PasswordchangerguiScreen.this.x;
 			int y = PasswordchangerguiScreen.this.y;
 			if (true) {
-				PacketDistributor.sendToServer(new PasswordchangerguiButtonMessage(0, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new PasswordchangerguiButtonMessage(0, x, y, z));
 				PasswordchangerguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 5, this.topPos + 82, 56, 20).build();
@@ -153,7 +153,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 			int x = PasswordchangerguiScreen.this.x;
 			int y = PasswordchangerguiScreen.this.y;
 			if (true) {
-				PacketDistributor.sendToServer(new PasswordchangerguiButtonMessage(1, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new PasswordchangerguiButtonMessage(1, x, y, z));
 				PasswordchangerguiButtonMessage.handleButtonAction(entity, 1, x, y, z);
 			}
 		}).bounds(this.leftPos + 104, this.topPos + -21, 30, 20).build();
@@ -162,7 +162,7 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 			int x = PasswordchangerguiScreen.this.x;
 			int y = PasswordchangerguiScreen.this.y;
 			if (PasswordbananaprivlidgeescheckProcedure.execute(entity)) {
-				PacketDistributor.sendToServer(new PasswordchangerguiButtonMessage(2, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new PasswordchangerguiButtonMessage(2, x, y, z));
 				PasswordchangerguiButtonMessage.handleButtonAction(entity, 2, x, y, z);
 			}
 		}).bounds(this.leftPos + 72, this.topPos + 82, 51, 20).build();
@@ -172,6 +172,8 @@ public class PasswordchangerguiScreen extends AbstractContainerScreen<Passwordch
 	@Override
 	protected void containerTick() {
 		super.containerTick();
+		password.tick();
+		current_password.tick();
 		this.button_reset.visible = PasswordbananaprivlidgeescheckProcedure.execute(entity);
 	}
 }

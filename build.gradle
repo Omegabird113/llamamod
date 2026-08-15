@@ -1,15 +1,15 @@
 plugins {
     id 'eclipse'
-    id 'net.neoforged.moddev' version '2.0.141'
+    id 'net.neoforged.moddev.legacyforge' version '2.0.143'
 }
 
 version = '1.0'
 base.archivesName = "modid"
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
-neoForge {
-    version = "21.1.232"
+legacyForge {
+    version = "1.20.1-47.4.22"
 
     runs {
         client {
@@ -41,6 +41,27 @@ neoForge {
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+mixin {
+    if (file("src/main/resources/llamamod.mixins.json").exists()) {
+        add sourceSets.main, "llamamod.refmap.json"
+        config "llamamod.mixins.json"
+    }
+}
+
+dependencies {
+    compileOnly(annotationProcessor("io.github.llamalad7:mixinextras-common:0.5.0"))
+    implementation(jarJar("io.github.llamalad7:mixinextras-forge:0.5.0"))
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+
+jar {
+    if (file("src/main/resources/llamamod.mixins.json").exists()) {
+        manifest.attributes([
+                "MixinConfigs": "llamamod.mixins.json"
+        ])
+    }
 }
 
 apply from: 'mcreator.gradle'

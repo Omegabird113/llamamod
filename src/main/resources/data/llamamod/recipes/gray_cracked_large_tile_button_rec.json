@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "llamamod:cracked_gray_large_tile"
+    }
+  ],
+  "result": {
+    "item": "llamamod:cracked_light_gray_brick_button",
+    "count": 9
+  }
+}

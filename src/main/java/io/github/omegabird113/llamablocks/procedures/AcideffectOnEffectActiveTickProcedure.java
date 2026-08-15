@@ -16,10 +16,10 @@ public class AcideffectOnEffectActiveTickProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		entity.hurt(new DamageSource(world.holderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, ResourceLocation.parse("llamamod:acid_damage")))),
-				(float) (Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING).getAmplifier() : 0) + 1.05) * 1.118)
-						* (1 - Mth.clamp(entity instanceof LivingEntity _livingEntity1 && _livingEntity1.getAttributes().hasAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION)
-								? _livingEntity1.getAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION).getValue()
+		entity.hurt(new DamageSource(world.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("llamamod:acid_damage")))),
+				(float) (Math.ceil(((entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(LlamamodModMobEffects.ACID_DISSOLVING.get()) ? _livEnt.getEffect(LlamamodModMobEffects.ACID_DISSOLVING.get()).getAmplifier() : 0) + 1.05) * 1.118)
+						* (1 - Mth.clamp(entity instanceof LivingEntity _livingEntity1 && _livingEntity1.getAttributes().hasAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION.get())
+								? _livingEntity1.getAttribute(LlamamodModAttributes.ACID_DAMAGE_PROTECTION.get()).getValue()
 								: 0, 0, 1))));
 	}
 }

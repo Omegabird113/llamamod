@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "end_highlands",
+    "end_midlands",
+    "end_barrens"
+  ],
+  "features": "llamamod:acid_lake",
+  "step": "lakes"
+}

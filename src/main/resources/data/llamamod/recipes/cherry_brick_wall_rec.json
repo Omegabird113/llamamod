@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:cherry_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:cherry_brick_wall",
+    "count": 12
+  }
+}

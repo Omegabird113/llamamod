@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "llamamod:ceiling_tiles"
+    }
+  },
+  "result": {
+    "item": "llamamod:ceiling_tile_fence_gate",
+    "count": 4
+  }
+}

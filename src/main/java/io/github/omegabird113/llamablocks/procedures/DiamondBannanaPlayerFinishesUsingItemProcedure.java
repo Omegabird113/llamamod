@@ -23,7 +23,7 @@ public class DiamondBannanaPlayerFinishesUsingItemProcedure {
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 3000, 4));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-				_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_RESISTENCE, 4500, 2));
+				_entity.addEffect(new MobEffectInstance(LlamamodModMobEffects.ACID_RESISTENCE.get(), 4500, 2));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 3800, 1));
 			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())

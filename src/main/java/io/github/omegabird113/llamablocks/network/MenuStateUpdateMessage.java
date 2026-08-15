@@ -1,29 +1,46 @@
 package io.github.omegabird113.llamablocks.network;
 
-import net.neoforged.neoforge.network.handling.IPayloadContext;
-import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.protocol.common.custom.CustomPacketPayload;
-import net.minecraft.network.protocol.PacketFlow;
-import net.minecraft.network.codec.StreamCodec;
-import net.minecraft.network.chat.Component;
-import net.minecraft.network.RegistryFriendlyByteBuf;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.client.Minecraft;
+
+import java.util.function.Supplier;
 
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
 import io.github.omegabird113.llamablocks.init.LlamamodModMenus;
 import io.github.omegabird113.llamablocks.LlamamodMod;
 
-@EventBusSubscriber
-public record MenuStateUpdateMessage(int elementType, String name, Object elementState) implements CustomPacketPayload {
-	public static final Type<MenuStateUpdateMessage> TYPE = new Type<>(ResourceLocation.fromNamespaceAndPath(LlamamodMod.MODID, "guistate_update"));
-	public static final StreamCodec<RegistryFriendlyByteBuf, MenuStateUpdateMessage> STREAM_CODEC = StreamCodec.of(MenuStateUpdateMessage::write, MenuStateUpdateMessage::read);
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+public class MenuStateUpdateMessage {
+	private final int elementType;
+	private final String name;
+	private final Object elementState;
 
-	public static void write(FriendlyByteBuf buffer, MenuStateUpdateMessage message) {
+	public MenuStateUpdateMessage(int elementType, String name, Object elementState) {
+		this.elementType = elementType;
+		this.name = name;
+		this.elementState = elementState;
+	}
+
+	public MenuStateUpdateMessage(FriendlyByteBuf buffer) {
+		this.elementType = buffer.readInt();
+		this.name = buffer.readUtf();
+		Object elementState = null;
+		if (elementType == 0) {
+			elementState = buffer.readUtf();
+		} else if (elementType == 1) {
+			elementState = buffer.readBoolean();
+		} else if (elementType == 2) {
+			elementState = buffer.readDouble();
+		}
+		this.elementState = elementState;
+	}
+
+	public static void buffer(MenuStateUpdateMessage message, FriendlyByteBuf buffer) {
 		buffer.writeInt(message.elementType);
 		buffer.writeUtf(message.name);
 		if (message.elementType == 0) {
@@ -35,43 +52,23 @@ public record MenuStateUpdateMessage(int elementType, String name, Object elemen
 		}
 	}
 
-	public static MenuStateUpdateMessage read(FriendlyByteBuf buffer) {
-		int elementType = buffer.readInt();
-		String name = buffer.readUtf();
-		Object elementState = null;
-		if (elementType == 0) {
-			elementState = buffer.readUtf();
-		} else if (elementType == 1) {
-			elementState = buffer.readBoolean();
-		} else if (elementType == 2) {
-			elementState = buffer.readDouble();
-		}
-		return new MenuStateUpdateMessage(elementType, name, elementState);
-	}
-
-	@Override
-	public Type<MenuStateUpdateMessage> type() {
-		return TYPE;
-	}
-
-	public static void handleMenuState(final MenuStateUpdateMessage message, final IPayloadContext context) {
+	public static void handler(MenuStateUpdateMessage message, Supplier<NetworkEvent.Context> contextSupplier) {
 		if (message.name.length() > 256 || message.elementState instanceof String string && string.length() > 8192)
 			return;
+		NetworkEvent.Context context = contextSupplier.get();
 		context.enqueueWork(() -> {
-			if (context.player().containerMenu instanceof LlamamodModMenus.MenuAccessor menu) {
+			if (context.getSender().containerMenu instanceof LlamamodModMenus.MenuAccessor menu) {
 				menu.getMenuState().put(message.elementType + ":" + message.name, message.elementState);
-				if (context.flow() == PacketFlow.CLIENTBOUND && Minecraft.getInstance().screen instanceof LlamamodModScreens.ScreenAccessor accessor) {
+				if (!context.getDirection().getReceptionSide().isServer() && Minecraft.getInstance().screen instanceof LlamamodModScreens.ScreenAccessor accessor) {
 					accessor.updateMenuState(message.elementType, message.name, message.elementState);
 				}
 			}
-		}).exceptionally(e -> {
-			context.connection().disconnect(Component.literal(e.getMessage()));
-			return null;
 		});
+		context.setPacketHandled(true);
 	}
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		LlamamodMod.addNetworkMessage(MenuStateUpdateMessage.TYPE, MenuStateUpdateMessage.STREAM_CODEC, MenuStateUpdateMessage::handleMenuState);
+		LlamamodMod.addNetworkMessage(MenuStateUpdateMessage.class, MenuStateUpdateMessage::buffer, MenuStateUpdateMessage::new, MenuStateUpdateMessage::handler);
 	}
 }

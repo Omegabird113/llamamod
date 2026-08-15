@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "llamamod:red_bricks"
+    }
+  },
+  "result": {
+    "item": "llamamod:red_brick_fence_gate",
+    "count": 4
+  }
+}

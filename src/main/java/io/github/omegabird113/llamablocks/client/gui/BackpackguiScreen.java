@@ -1,7 +1,5 @@
 package io.github.omegabird113.llamablocks.client.gui;
 
-import net.neoforged.neoforge.network.PacketDistributor;
-
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
@@ -15,6 +13,7 @@ import io.github.omegabird113.llamablocks.world.inventory.BackpackguiMenu;
 import io.github.omegabird113.llamablocks.procedures.IsThisBetaProcedureProcedure;
 import io.github.omegabird113.llamablocks.network.BackpackguiButtonMessage;
 import io.github.omegabird113.llamablocks.init.LlamamodModScreens;
+import io.github.omegabird113.llamablocks.LlamamodMod;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
@@ -24,7 +23,7 @@ public class BackpackguiScreen extends AbstractContainerScreen<BackpackguiMenu> 
 	private final Player entity;
 	private boolean menuStateUpdateActive = false;
 	private Button button_x;
-	private static final ResourceLocation BACKGROUND = ResourceLocation.parse("llamamod:textures/screens/backpackgui.png");
+	private static final ResourceLocation BACKGROUND = new ResourceLocation("llamamod:textures/screens/backpackgui.png");
 
 	public BackpackguiScreen(BackpackguiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -45,6 +44,7 @@ public class BackpackguiScreen extends AbstractContainerScreen<BackpackguiMenu> 
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -81,7 +81,7 @@ public class BackpackguiScreen extends AbstractContainerScreen<BackpackguiMenu> 
 			int x = BackpackguiScreen.this.x;
 			int y = BackpackguiScreen.this.y;
 			if (true) {
-				PacketDistributor.sendToServer(new BackpackguiButtonMessage(0, x, y, z));
+				LlamamodMod.PACKET_HANDLER.sendToServer(new BackpackguiButtonMessage(0, x, y, z));
 				BackpackguiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
 		}).bounds(this.leftPos + 144, this.topPos + -21, 30, 20).build();

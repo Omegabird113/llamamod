@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "tag": "llamamod:non_black_concrete"
+    },
+    "b": {
+      "item": "minecraft:black_concrete"
+    }
+  },
+  "result": {
+    "item": "llamamod:tiles",
+    "count": 1
+  }
+}

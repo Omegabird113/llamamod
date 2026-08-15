@@ -1,11 +1,11 @@
 package io.github.omegabird113.llamablocks.world.inventory;
 
-import net.neoforged.neoforge.items.ItemStackHandler;
-import net.neoforged.neoforge.items.IItemHandler;
-import net.neoforged.neoforge.event.tick.PlayerTickEvent;
-import net.neoforged.neoforge.event.entity.player.PlayerContainerEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
+import net.minecraftforge.items.ItemStackHandler;
+import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.event.entity.player.PlayerContainerEvent;
+import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
@@ -29,7 +29,7 @@ import io.github.omegabird113.llamablocks.procedures.ComputerguiThisGUIIsOpenedP
 import io.github.omegabird113.llamablocks.procedures.ComputerguiThisGUIIsClosedProcedure;
 import io.github.omegabird113.llamablocks.init.LlamamodModMenus;
 
-@EventBusSubscriber
+@Mod.EventBusSubscriber
 public class ComputerguiMenu extends AbstractContainerMenu implements LlamamodModMenus.MenuAccessor {
 	public final Map<String, Object> menuState = new HashMap<>() {
 		@Override
@@ -100,9 +100,9 @@ public class ComputerguiMenu extends AbstractContainerMenu implements LlamamodMo
 	}
 
 	@SubscribeEvent
-	public static void onPlayerTick(PlayerTickEvent.Post event) {
-		Player entity = event.getEntity();
-		if (entity.containerMenu instanceof ComputerguiMenu menu) {
+	public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
+		Player entity = event.player;
+		if (event.phase == TickEvent.Phase.END && entity.containerMenu instanceof ComputerguiMenu menu) {
 			Level world = menu.world;
 			double x = menu.x;
 			double y = menu.y;

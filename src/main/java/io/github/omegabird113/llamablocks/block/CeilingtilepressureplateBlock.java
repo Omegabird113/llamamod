@@ -8,6 +8,6 @@ import net.minecraft.world.level.block.PressurePlateBlock;
 
 public class CeilingtilepressureplateBlock extends PressurePlateBlock {
 	public CeilingtilepressureplateBlock() {
-		super(BlockSetType.STONE, BlockBehaviour.Properties.of().mapColor(MapColor.ICE).sound(SoundType.METAL).strength(25.5f, 33f).requiresCorrectToolForDrops().forceSolidOn());
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().mapColor(MapColor.ICE).sound(SoundType.METAL).strength(25.5f, 33f).requiresCorrectToolForDrops().forceSolidOn(), BlockSetType.STONE);
 	}
 }

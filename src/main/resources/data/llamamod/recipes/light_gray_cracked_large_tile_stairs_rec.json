@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "a ",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "llamamod:cracked_light_gray_large_tile"
+    }
+  },
+  "result": {
+    "item": "llamamod:cracked_light_gray_large_tile_stairs",
+    "count": 4
+  }
+}
