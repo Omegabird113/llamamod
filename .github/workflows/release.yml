@@ -123,4 +123,4 @@ jobs:
           version-type: ${{ inputs.release_type }}
           changelog-file: changelog_body.md
           game-versions: ${{ inputs.game_version }}
-          loaders: neoforge
+          loaders: forge
