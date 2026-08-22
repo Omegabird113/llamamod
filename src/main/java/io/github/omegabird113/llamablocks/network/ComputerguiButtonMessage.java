@@ -61,7 +61,7 @@ public record ComputerguiButtonMessage(int buttonID, int x, int y, int z) implem
 		}
 		if (buttonID == 3) {
 
-			SetRANDOMComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z);
+			SetRANDOMComputerRedstoneOutputPowerLevelProcedureProcedure.execute(world, x, y, z, entity);
 		}
 		if (buttonID == 4) {
 
