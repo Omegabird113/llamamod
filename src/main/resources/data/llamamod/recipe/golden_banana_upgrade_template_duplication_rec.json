@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "aaa",
     "aba",
-    "aca"
+    "aca",
+    "aaa"
   ],
   "key": {
     "a": "minecraft:diamond",
-    "b": "llamamod:golden_banana_upgrade",
-    "c": "minecraft:netherrack"
+    "b": "minecraft:netherrack",
+    "c": "llamamod:golden_banana_upgrade"
   },
   "result": {
     "id": "llamamod:golden_banana_upgrade",

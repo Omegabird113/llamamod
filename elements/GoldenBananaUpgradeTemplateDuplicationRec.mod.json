@@ -15,13 +15,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       "Items.DIAMOND",
-      "Items.DIAMOND",
+      "Blocks.NETHERRACK",
       "Items.DIAMOND",
       "Items.DIAMOND",
       "CUSTOM:GoldenBananaUpgradeTemplate",
       "Items.DIAMOND",
       "Items.DIAMOND",
-      "Blocks.NETHERRACK",
+      "Items.DIAMOND",
       "Items.DIAMOND"
     ],
     "recipeReturnStack": "CUSTOM:GoldenBananaUpgradeTemplate",
