@@ -21,6 +21,7 @@ This is a file that explains the contents of [the documentation](https://omegabi
 - [1.3.0](changelogs/full_versions/1.3.0.md)
 - [1.3.1](changelogs/full_versions/1.3.1.md)
 - [1.3.2](changelogs/full_versions/1.3.2.md)
+- [1.4.0](changelogs/full_versions/1.4.0.md)
 
 #### dev_versions/
 - [0.44.71 (Incomplete)](changelogs/dev_versions/0.44.71.incomplete.md)
