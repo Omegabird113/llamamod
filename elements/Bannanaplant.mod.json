@@ -67,7 +67,7 @@
     "customDrop": "Blocks.SAPLING#5",
     "dropAmount": 1,
     "xpAmountMin": 0,
-    "xpAmountMax": 0,
+    "xpAmountMax": 3,
     "forceTicking": false,
     "emissiveRendering": false,
     "hasTileEntity": false,
